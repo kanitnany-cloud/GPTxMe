@@ -296,16 +296,32 @@
     </article>
 
     <article class="panel span-12">
-      <h2>Rival Weekly Intel</h2>
+      <h2>Live Mini-League Intel</h2>
       <div class="body">
-        <p class="note">ช่องนี้ไว้เติมข้อมูลคู่แข่งทุกสัปดาห์ แล้วกดสร้าง prompt เพื่อส่งให้ AI วิเคราะห์ mini-league strategy ต่อได้ ข้อมูลเก็บใน browser เครื่องนี้ด้วย localStorage</p>
-        <div class="rival-grid">
-          <div class="rival-card"><strong>Rival 1</strong><label>Team / Manager</label><input id="r1Name" placeholder="ชื่อทีม / manager" /><label>Points / Rank / Gap</label><input id="r1Score" placeholder="คะแนน, อันดับ, ห่างจากเรา" /><label>Captain / Key Players</label><input id="r1Core" placeholder="กัปตัน, template, differential" /><label>Behavior Notes</label><textarea id="r1Note" placeholder="ชอบ hit? ไล่ราคา? captain เสี่ยง?"></textarea></div>
-          <div class="rival-card"><strong>Rival 2</strong><label>Team / Manager</label><input id="r2Name" placeholder="ชื่อทีม / manager" /><label>Points / Rank / Gap</label><input id="r2Score" placeholder="คะแนน, อันดับ, ห่างจากเรา" /><label>Captain / Key Players</label><input id="r2Core" placeholder="กัปตัน, template, differential" /><label>Behavior Notes</label><textarea id="r2Note" placeholder="รูปแบบ transfer / chips / risk"></textarea></div>
-          <div class="rival-card"><strong>Rival 3</strong><label>Team / Manager</label><input id="r3Name" placeholder="ชื่อทีม / manager" /><label>Points / Rank / Gap</label><input id="r3Score" placeholder="คะแนน, อันดับ, ห่างจากเรา" /><label>Captain / Key Players</label><input id="r3Core" placeholder="กัปตัน, template, differential" /><label>Behavior Notes</label><textarea id="r3Note" placeholder="จุดที่ควร block / attack"></textarea></div>
+        <p class="note">ดึงข้อมูลจาก Fantasy Premier League โดยตรง: league AFC Premier, standings, new entries และจัดกลุ่มคู่แข่งเพื่อใช้วางแผน block/attack รายสัปดาห์</p>
+        <div class="toolbar">
+          <button id="loadLeague">Load FPL Game Data</button>
+          <a class="chip blue" href="https://fantasy.premierleague.com/leagues/872362/standings/c" target="_blank" rel="noreferrer">Open League</a>
+          <a class="chip yellow" href="https://fantasy.premierleague.com/api/leagues-classic/872362/standings/" target="_blank" rel="noreferrer">API Source</a>
         </div>
-        <div class="toolbar"><button id="saveIntel">Save Intel</button><button id="buildPrompt">Build AI Prompt</button><button id="clearIntel">Clear</button></div>
-        <textarea class="prompt-box" id="rivalPrompt" placeholder="กด Build AI Prompt เพื่อสร้างข้อความสรุปข้อมูลคู่แข่งรายสัปดาห์..."></textarea>
+        <div class="stat-grid" id="leagueSummary">
+          <div class="stat"><label>League</label><strong>AFC Premier</strong><small>ID 872362</small></div>
+          <div class="stat"><label>My Team</label><strong>Yedtsuna</strong><small>Team ID 3944270</small></div>
+          <div class="stat"><label>Data Status</label><strong id="leagueStatus">Ready</strong><small>กด Load เพื่อดึงข้อมูลจากเกม</small></div>
+          <div class="stat"><label>Strategy Mode</label><strong id="strategyMode">Pre-GW</strong><small>ก่อนมีคะแนนจะ track new entries ก่อน</small></div>
+        </div>
+        <div class="rival-grid" id="rivalCards" style="margin-top:12px">
+          <div class="rival-card"><strong>รอดึงข้อมูล</strong><p class="note">กด Load FPL Game Data เพื่อดึงทีมในลีกจากเกม</p></div>
+        </div>
+        <div class="table-wrap" style="margin-top:12px">
+          <table>
+            <thead><tr><th>Rank</th><th>Team</th><th>Manager</th><th>Points</th><th>Gap</th><th>AI Read</th></tr></thead>
+            <tbody id="leagueRows">
+              <tr><td>-</td><td>รอดึงข้อมูล</td><td>-</td><td>-</td><td>-</td><td>หลัง GW1 standings จะเริ่มมีข้อมูล ranking</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <textarea class="prompt-box" id="leagueStrategy" readonly>หลังโหลดข้อมูล ระบบจะสร้าง mini-league strategy snapshot จากข้อมูลในเกมตรงนี้</textarea>
       </div>
     </article>
 
@@ -364,44 +380,107 @@
         radarCards.forEach((card) => card.classList.toggle('hidden', show !== 'all' && card.dataset.tag !== show));
       });
     });
-    const intelIds = ['r1Name','r1Score','r1Core','r1Note','r2Name','r2Score','r2Core','r2Note','r3Name','r3Score','r3Core','r3Note'];
-    function loadIntel() {
-      const saved = JSON.parse(localStorage.getItem('fpl-rival-intel') || '{}');
-      intelIds.forEach((id) => { const el = document.getElementById(id); if (el && saved[id]) el.value = saved[id]; });
-      const prompt = localStorage.getItem('fpl-rival-prompt');
-      if (prompt) document.getElementById('rivalPrompt').value = prompt;
+    const leagueId = 872362;
+    const myEntryId = 3944270;
+    const leagueUrl = `https://fantasy.premierleague.com/api/leagues-classic/${leagueId}/standings/`;
+
+    function setStatus(status, mode, detail) {
+      document.getElementById('leagueStatus').textContent = status;
+      document.getElementById('strategyMode').textContent = mode;
+      if (detail) document.getElementById('leagueStrategy').value = detail;
     }
-    function saveIntel() {
-      const data = {};
-      intelIds.forEach((id) => { const el = document.getElementById(id); if (el) data[id] = el.value; });
-      localStorage.setItem('fpl-rival-intel', JSON.stringify(data));
+
+    function managerName(item) {
+      return [item.player_first_name, item.player_last_name].filter(Boolean).join(' ') || '-';
     }
-    function buildPrompt() {
-      saveIntel();
-      const v = (id) => document.getElementById(id).value || '-';
-      const text = [
-        'FPL WEEKLY RIVAL INTEL',
-        'ทีมของฉัน: Yedtsuna',
-        'ใช้ข้อมูลนี้วิเคราะห์ mini-league strategy, template overlap, block/attack points, captain threats และ transfer risk',
+
+    function classifyRival(row, myPoints) {
+      if (!row || typeof myPoints !== 'number') return 'รอดูคะแนนหลัง GW';
+      const gap = row.total - myPoints;
+      if (row.entry === myEntryId) return 'ทีมเรา';
+      if (gap > 20) return 'ผู้นำที่ต้องไล่: มองหา 1-2 differential ที่ minutes แน่น';
+      if (gap >= -10) return 'คู่แข่งโดยตรง: block captain/high EO ก่อน attack';
+      if (gap >= -30) return 'ผู้ตามที่อันตราย: ระวัง captain เสี่ยงและ hit chase';
+      return 'ภัยต่ำระยะสั้น: ไม่ต้อง mirror มากเกินไป';
+    }
+
+    function renderLeague(data) {
+      const standings = data.standings?.results || [];
+      const newEntries = data.new_entries?.results || [];
+      const rowsEl = document.getElementById('leagueRows');
+      const cardsEl = document.getElementById('rivalCards');
+      const myRow = standings.find((row) => row.entry === myEntryId);
+      const myPoints = myRow ? myRow.total : null;
+
+      if (standings.length) {
+        rowsEl.innerHTML = standings.map((row) => {
+          const gap = myPoints === null ? '-' : row.total - myPoints;
+          return `<tr><td>${row.rank}</td><td>${row.entry_name}</td><td>${row.player_name || '-'}</td><td>${row.total}</td><td>${gap}</td><td>${classifyRival(row, myPoints)}</td></tr>`;
+        }).join('');
+
+        cardsEl.innerHTML = standings.filter((row) => row.entry !== myEntryId).slice(0, 6).map((row) => {
+          const gap = myPoints === null ? '-' : row.total - myPoints;
+          return `<div class="rival-card"><strong>${row.entry_name}</strong><p class="note">${row.player_name || '-'} · Rank ${row.rank} · ${row.total} pts · Gap ${gap}</p><span class="chip ${gap > 0 ? 'red' : 'blue'}">${classifyRival(row, myPoints).split(':')[0]}</span></div>`;
+        }).join('') || '<div class="rival-card"><strong>ยังไม่มี rival standings</strong><p class="note">หลังเริ่มเก็บคะแนนลีกจะมีข้อมูลตรงนี้</p></div>';
+
+        const leader = standings[0];
+        const threats = standings.filter((row) => row.entry !== myEntryId).slice(0, 5).map((row) => `${row.entry_name} (${row.total} pts)`).join(', ');
+        const text = [
+          'LIVE MINI-LEAGUE STRATEGY',
+          `League: ${data.league?.name || 'AFC Premier'} | Updated: ${data.last_updated_data || '-'}`,
+          `My points: ${myPoints ?? '-'} | Leader: ${leader?.entry_name || '-'} (${leader?.total ?? '-'} pts)`,
+          `Main rivals to track: ${threats || '-'}`,
+          '',
+          'Safe: block high EO captain threats first, especially if gap is small.',
+          'Balanced: keep 1-2 controlled differentials with strong expected minutes.',
+          'Aggressive: only attack with fixture + minutes + captain upside, not last-week points.',
+          'Next check: pull rival picks after deadline, then compare captain, overlap, chips and hits.'
+        ].join('\n');
+        setStatus('Loaded', 'Standings', text);
+        return;
+      }
+
+      rowsEl.innerHTML = newEntries.map((row, index) => (
+        `<tr><td>${index + 1}</td><td>${row.entry_name}</td><td>${managerName(row)}</td><td>-</td><td>-</td><td>New entry: รอดูคะแนนและ captain หลัง GW1</td></tr>`
+      )).join('') || '<tr><td>-</td><td>No data</td><td>-</td><td>-</td><td>-</td><td>ยังไม่พบข้อมูลในลีก</td></tr>';
+
+      cardsEl.innerHTML = newEntries.slice(0, 6).map((row) => (
+        `<div class="rival-card"><strong>${row.entry_name}</strong><p class="note">${managerName(row)} · Team ID ${row.entry}</p><span class="chip blue">New Entry</span></div>`
+      )).join('') || '<div class="rival-card"><strong>ยังไม่มีข้อมูล</strong><p class="note">ลองโหลดใหม่หลัง deadline</p></div>';
+
+      setStatus('Loaded', 'Pre-GW', [
+        'PRE-GW MINI-LEAGUE STRATEGY',
+        `League: ${data.league?.name || 'AFC Premier'} | Updated: ${data.last_updated_data || '-'}`,
+        `New entries found: ${newEntries.length}`,
         '',
-        'Rival 1:', `Team/Manager: ${v('r1Name')}`, `Points/Rank/Gap: ${v('r1Score')}`, `Captain/Key Players: ${v('r1Core')}`, `Behavior Notes: ${v('r1Note')}`, '',
-        'Rival 2:', `Team/Manager: ${v('r2Name')}`, `Points/Rank/Gap: ${v('r2Score')}`, `Captain/Key Players: ${v('r2Core')}`, `Behavior Notes: ${v('r2Note')}`, '',
-        'Rival 3:', `Team/Manager: ${v('r3Name')}`, `Points/Rank/Gap: ${v('r3Score')}`, `Captain/Key Players: ${v('r3Core')}`, `Behavior Notes: ${v('r3Note')}`, '',
-        'Output ที่ต้องการ: Safe/Balanced/Aggressive mini-league plan, players to block, players to attack, captain expectation, และสิ่งที่ต้องเช็กก่อน deadline.'
-      ].join('\n');
-      document.getElementById('rivalPrompt').value = text;
-      localStorage.setItem('fpl-rival-prompt', text);
-      navigator.clipboard?.writeText(text).catch(() => {});
+        'ตอนนี้ standings ยังว่าง จึงยังวัด gap/leader ไม่ได้',
+        'กลยุทธ์ตอนนี้: ไม่ mirror คู่แข่ง, เล่นทีมที่ xPts ดี, captain safe, เก็บข้อมูล captain/picks หลัง deadline',
+        'หลัง GW1: ดึง standings + rival picks เพื่อแยกผู้นำ, คู่แข่งโดยตรง, ผู้ตามอันตราย และจุด block/attack'
+      ].join('\n'));
     }
-    document.getElementById('saveIntel').addEventListener('click', saveIntel);
-    document.getElementById('buildPrompt').addEventListener('click', buildPrompt);
-    document.getElementById('clearIntel').addEventListener('click', () => {
-      intelIds.forEach((id) => { document.getElementById(id).value = ''; });
-      document.getElementById('rivalPrompt').value = '';
-      localStorage.removeItem('fpl-rival-intel');
-      localStorage.removeItem('fpl-rival-prompt');
-    });
-    loadIntel();
+
+    async function loadLeagueData() {
+      setStatus('Loading', 'Fetching', 'กำลังดึงข้อมูลจาก Fantasy Premier League...');
+      try {
+        const response = await fetch(leagueUrl, { cache: 'no-store' });
+        if (!response.ok) throw new Error(`FPL API status ${response.status}`);
+        const data = await response.json();
+        localStorage.setItem('fpl-live-league-cache', JSON.stringify({ savedAt: new Date().toISOString(), data }));
+        renderLeague(data);
+      } catch (error) {
+        const cached = localStorage.getItem('fpl-live-league-cache');
+        if (cached) {
+          const parsed = JSON.parse(cached);
+          renderLeague(parsed.data);
+          setStatus('Cached', 'Fallback', `ใช้ cache จาก ${parsed.savedAt}\n\nถ้าโหลดสดไม่ได้ อาจเป็น CORS หรือ FPL API ชั่วคราว\n${error.message}`);
+          return;
+        }
+        setStatus('Blocked', 'Manual API', `ดึงข้อมูลสดไม่ได้: ${error.message}\n\nเปิด API Source แล้วส่งข้อมูลให้ AI ได้ หรือรอโหลดใหม่ภายหลัง`);
+      }
+    }
+
+    document.getElementById('loadLeague').addEventListener('click', loadLeagueData);
+    loadLeagueData();
   </script>
 </body>
 </html>
