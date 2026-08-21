@@ -3,883 +3,405 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>FPL Manager Dashboard 2026/27</title>
+  <title>AI x Kanitnan FPL Quest 2026/27</title>
   <style>
     :root {
-      --bg: #fff3c7;
-      --panel: #fffdf2;
-      --ink: #292139;
-      --muted: #6e607d;
-      --line: #2b2140;
-      --plum: #6a2a83;
-      --teal: #00a8a8;
-      --green: #31c45d;
-      --amber: #ffb23e;
-      --red: #ff5a5f;
-      --blue: #4f7cff;
-      --pink: #ff79c6;
-      --mint: #6fffc3;
-      --shadow: 6px 6px 0 #2b2140;
+      --bg: #fff4c9; --ink: #221936; --muted: #665d7b; --line: #24172f;
+      --panel: #fffdf0; --deep: #451161; --pink: #ff70b8; --cyan: #2bd9d2;
+      --mint: #70ffb4; --yellow: #ffd34e; --orange: #ff9b39; --red: #ff5566;
+      --blue: #5a7cff; --shadow: 6px 6px 0 var(--line);
     }
-
     * { box-sizing: border-box; }
-
     body {
-      margin: 0;
-      font-family: "Trebuchet MS", "Lucida Console", Arial, Helvetica, sans-serif;
+      margin: 0; color: var(--ink); font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
       background:
-        linear-gradient(90deg, rgba(43, 33, 64, 0.06) 1px, transparent 1px),
-        linear-gradient(rgba(43, 33, 64, 0.06) 1px, transparent 1px),
-        radial-gradient(circle at 10% 10%, #ffd6ef 0 9%, transparent 9.5%),
-        radial-gradient(circle at 90% 4%, #baf7ff 0 10%, transparent 10.5%),
+        linear-gradient(90deg, rgba(36,23,47,.06) 1px, transparent 1px),
+        linear-gradient(rgba(36,23,47,.06) 1px, transparent 1px),
+        radial-gradient(circle at 8% 18%, #ffc8eb 0 9%, transparent 9.5%),
+        radial-gradient(circle at 92% 22%, #b8fbff 0 10%, transparent 10.5%),
+        radial-gradient(circle at 48% 86%, #c8ffe0 0 9%, transparent 9.5%),
         var(--bg);
-      background-size: 24px 24px, 24px 24px, 900px 500px, 800px 420px, auto;
-      color: var(--ink);
-      letter-spacing: 0;
+      background-size: 24px 24px, 24px 24px, 880px 520px, 920px 520px, 820px 460px, auto;
     }
-
-    header {
-      position: relative;
+    a { color: #174fcf; }
+    button, input, textarea, select { font: inherit; }
+    .site-header {
+      overflow: hidden; border-bottom: 6px solid var(--line);
+      background: linear-gradient(135deg, #561173 0 32%, #2d79ee 32% 63%, #12bba8 63% 100%);
+      color: #fff; box-shadow: 0 6px 0 var(--yellow);
+    }
+    .hero {
+      max-width: 1360px; margin: 0 auto; padding: 24px 22px 22px;
+      display: grid; grid-template-columns: 1fr 360px; gap: 18px; align-items: end;
+    }
+    .title-kicker {
+      display: inline-block; margin-bottom: 8px; padding: 5px 8px; border: 3px solid var(--line);
+      background: var(--yellow); color: var(--line); box-shadow: 3px 3px 0 var(--line);
+      font-size: 12px; font-weight: 800; text-transform: uppercase;
+    }
+    h1 { margin: 0; font-size: 34px; line-height: 1.08; text-shadow: 3px 3px 0 var(--line); letter-spacing: 0; }
+    .subtitle { margin: 9px 0 0; color: #fff5ba; font-size: 14px; line-height: 1.45; text-shadow: 2px 2px 0 rgba(36,23,47,.65); }
+    .party { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .avatar-card {
+      border: 3px solid var(--line); background: #fffdf0; color: var(--ink);
+      box-shadow: 5px 5px 0 var(--pink); padding: 10px; min-height: 132px;
+    }
+    .avatar-card.ai { box-shadow: 5px 5px 0 var(--cyan); }
+    .avatar-card strong { display: block; font-size: 14px; margin-top: 8px; }
+    .avatar-card small { display: block; color: var(--muted); margin-top: 2px; line-height: 1.35; }
+    .sprite { width: 58px; height: 58px; margin: 0 auto; image-rendering: pixelated; }
+    .sprite.manager {
       background:
-        linear-gradient(135deg, #5f1e82 0 35%, #2e7eea 35% 62%, #13bfa9 62% 100%);
-      color: #fff;
-      padding: 24px 28px 26px;
-      border-bottom: 6px solid var(--line);
-      box-shadow: 0 6px 0 #ffcf4a;
-      overflow: hidden;
+        linear-gradient(#ffd39a 0 0) 18px 6px / 22px 18px no-repeat,
+        linear-gradient(#24172f 0 0) 14px 0 / 30px 8px no-repeat,
+        linear-gradient(#24172f 0 0) 18px 24px / 22px 6px no-repeat,
+        linear-gradient(#5a7cff 0 0) 12px 30px / 34px 20px no-repeat,
+        linear-gradient(#ff70b8 0 0) 8px 38px / 8px 14px no-repeat,
+        linear-gradient(#ff70b8 0 0) 42px 38px / 8px 14px no-repeat,
+        linear-gradient(#24172f 0 0) 16px 50px / 10px 8px no-repeat,
+        linear-gradient(#24172f 0 0) 32px 50px / 10px 8px no-repeat;
     }
-
-    header::before,
-    header::after {
-      content: "";
-      position: absolute;
-      image-rendering: pixelated;
-      pointer-events: none;
-    }
-
-    header::before {
-      width: 120px;
-      height: 72px;
-      right: 34px;
-      top: 16px;
+    .sprite.ai {
       background:
-        linear-gradient(#fff 0 0) 0 32px / 24px 16px no-repeat,
-        linear-gradient(#fff 0 0) 24px 16px / 64px 48px no-repeat,
-        linear-gradient(#fff 0 0) 88px 32px / 32px 16px no-repeat,
-        linear-gradient(#d9f8ff 0 0) 32px 24px / 48px 16px no-repeat;
-      opacity: 0.85;
+        linear-gradient(#2bd9d2 0 0) 12px 8px / 34px 30px no-repeat,
+        linear-gradient(#24172f 0 0) 18px 14px / 6px 6px no-repeat,
+        linear-gradient(#24172f 0 0) 34px 14px / 6px 6px no-repeat,
+        linear-gradient(#fff 0 0) 20px 26px / 18px 4px no-repeat,
+        linear-gradient(#ffd34e 0 0) 26px 0 / 6px 8px no-repeat,
+        linear-gradient(#70ffb4 0 0) 10px 38px / 38px 12px no-repeat,
+        linear-gradient(#24172f 0 0) 14px 50px / 10px 8px no-repeat,
+        linear-gradient(#24172f 0 0) 34px 50px / 10px 8px no-repeat;
     }
-
-    header::after {
-      width: 96px;
-      height: 96px;
-      left: 22px;
-      bottom: -48px;
-      background:
-        linear-gradient(#ffcf4a 0 0) 24px 0 / 48px 24px no-repeat,
-        linear-gradient(#ffcf4a 0 0) 0 24px / 96px 48px no-repeat,
-        linear-gradient(#ffcf4a 0 0) 24px 72px / 48px 24px no-repeat;
-      opacity: 0.9;
+    .hud {
+      max-width: 1360px; margin: 28px auto 44px; padding: 0 18px;
+      display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 14px;
     }
-
-    .topbar {
-      max-width: 1380px;
-      margin: 0 auto;
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-      gap: 18px;
-    }
-
-    h1 {
-      margin: 0 0 6px;
-      font-size: 30px;
-      line-height: 1.15;
-      font-weight: 800;
-      text-shadow: 3px 3px 0 #2b2140;
-    }
-
-    .subtitle {
-      color: #fff5be;
-      font-size: 14px;
-      margin: 0;
-      text-shadow: 2px 2px 0 rgba(43, 33, 64, 0.6);
-    }
-
-    .deadline {
-      text-align: right;
-      min-width: 230px;
-      background: #fffdf2;
-      color: var(--ink);
-      border: 3px solid var(--line);
-      box-shadow: 5px 5px 0 #ff79c6;
-      padding: 12px;
-    }
-
-    .deadline strong {
-      display: block;
-      font-size: 16px;
-      margin-bottom: 4px;
-    }
-
-    main {
-      max-width: 1380px;
-      margin: 30px auto 44px;
-      padding: 0 20px;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      gap: 14px;
-      align-items: start;
-    }
-
-    .panel {
-      background: var(--panel);
-      border: 3px solid var(--line);
-      border-radius: 0;
-      box-shadow: var(--shadow);
-      overflow: hidden;
-    }
-
+    .panel { border: 3px solid var(--line); background: var(--panel); box-shadow: var(--shadow); overflow: hidden; }
     .panel h2 {
-      margin: 0;
-      padding: 14px 16px;
-      font-size: 16px;
-      border-bottom: 3px solid var(--line);
+      margin: 0; padding: 13px 16px 13px 42px; border-bottom: 3px solid var(--line);
       background:
-        linear-gradient(90deg, #ffcf4a 0 16px, transparent 16px) left 10px center / 22px 12px no-repeat,
-        linear-gradient(90deg, #ffe88a, #ffb6dd);
-      padding-left: 42px;
-      text-transform: uppercase;
-      letter-spacing: 0.3px;
+        linear-gradient(90deg, var(--yellow) 0 16px, transparent 16px) left 12px center / 22px 12px no-repeat,
+        linear-gradient(90deg, #ffe58c, #ffa9d5);
+      font-size: 16px; text-transform: uppercase; letter-spacing: .2px;
     }
-
-    .panel-body { padding: 16px; }
-
-    .span-3 { grid-column: span 3; }
-    .span-4 { grid-column: span 4; }
-    .span-5 { grid-column: span 5; }
-    .span-6 { grid-column: span 6; }
-    .span-7 { grid-column: span 7; }
-    .span-8 { grid-column: span 8; }
-    .span-12 { grid-column: span 12; }
-
-    .metrics {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 10px;
+    .body { padding: 16px; }
+    .span-4 { grid-column: span 4; } .span-5 { grid-column: span 5; }
+    .span-6 { grid-column: span 6; } .span-7 { grid-column: span 7; }
+    .span-8 { grid-column: span 8; } .span-12 { grid-column: span 12; }
+    .stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+    .stat {
+      border: 3px solid var(--line); background: #fffdf0; box-shadow: 4px 4px 0 #ffd36b;
+      padding: 12px; min-height: 84px;
     }
-
-    .metric {
-      border: 3px solid var(--line);
-      border-radius: 0;
-      padding: 12px;
-      min-height: 78px;
+    .stat label { display: block; color: var(--muted); font-size: 12px; margin-bottom: 6px; }
+    .stat strong { display: block; color: var(--deep); font-size: 22px; line-height: 1.1; }
+    .stat small { display: block; color: var(--muted); margin-top: 6px; line-height: 1.35; }
+    .bar { border: 3px solid var(--line); height: 24px; background: #fff; margin-top: 10px; box-shadow: inset 3px 3px 0 #eadfbd; }
+    .bar span { display: block; height: 100%; background: repeating-linear-gradient(90deg, var(--mint) 0 12px, #49d98d 12px 24px); }
+    .quest-list, .decision-list { display: grid; gap: 10px; }
+    .quest, .decision {
+      border: 3px solid var(--line); border-left: 10px solid var(--blue); background: #edf4ff;
+      padding: 10px 12px; box-shadow: 3px 3px 0 rgba(36,23,47,.16);
+    }
+    .quest.good, .decision.good { border-left-color: var(--mint); background: #eafff1; }
+    .quest.warn, .decision.warn { border-left-color: var(--orange); background: #fff0b8; }
+    .quest.danger, .decision.danger { border-left-color: var(--red); background: #ffe3e7; }
+    .quest strong, .decision strong { display: block; margin-bottom: 4px; }
+    .quest p, .decision p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.45; }
+    .pitch {
+      border: 4px solid var(--line);
       background:
-        linear-gradient(135deg, rgba(111, 255, 195, 0.28), transparent 45%),
-        #fffdf2;
-      box-shadow: 4px 4px 0 #ffd36b;
+        linear-gradient(90deg, rgba(255,255,255,.35) 2px, transparent 2px),
+        linear-gradient(rgba(255,255,255,.35) 2px, transparent 2px),
+        linear-gradient(#46c96b, #239a4f);
+      background-size: 32px 32px, 32px 32px, auto; box-shadow: inset 0 0 0 6px #13793b;
+      padding: 18px; display: grid; gap: 10px;
     }
-
-    .metric label {
-      display: block;
-      color: var(--muted);
-      font-size: 12px;
-      margin-bottom: 8px;
-    }
-
-    .metric strong {
-      display: block;
-      font-size: 20px;
-      line-height: 1.1;
-      color: #4b155f;
-    }
-
-    .metric small {
-      display: block;
-      color: var(--muted);
-      margin-top: 6px;
-      line-height: 1.3;
-    }
-
-    .pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 4px 8px;
-      border-radius: 0;
-      border: 2px solid var(--line);
-      font-size: 12px;
-      background: #fff;
-      white-space: nowrap;
-      box-shadow: 2px 2px 0 rgba(43, 33, 64, 0.2);
-    }
-
-    .pill.green { color: #083b1c; background: #6fffc3; }
-    .pill.amber { color: #4a2a00; background: #ffcf4a; }
-    .pill.red { color: #4a0005; background: #ff9da1; }
-    .pill.blue { color: #071d64; background: #a9c2ff; }
-
-    table {
-      width: 100%;
-      border-collapse: separate;
-      border-spacing: 0;
-      font-size: 13px;
-    }
-
-    th, td {
-      padding: 10px 9px;
-      border-bottom: 2px solid #eadfbd;
-      text-align: left;
-      vertical-align: top;
-    }
-
-    th {
-      color: #fff;
-      font-weight: 700;
-      background: #4b155f;
-      position: sticky;
-      top: 0;
-      z-index: 1;
-    }
-
-    tbody tr:nth-child(even) td { background: #fff8dc; }
-    tbody tr:nth-child(odd) td { background: #fffdf2; }
-
-    tr:last-child td { border-bottom: 0; }
-
-    .table-wrap {
-      overflow: auto;
-      max-height: 430px;
-      border: 3px solid var(--line);
-      border-radius: 0;
-      background: #fffdf2;
-    }
-
-    .decision-list {
-      display: grid;
-      gap: 10px;
-    }
-
-    .decision {
-      border: 3px solid var(--line);
-      border-left: 10px solid var(--blue);
-      background: #eef4ff;
-      padding: 10px 12px;
-      border-radius: 0;
-      box-shadow: 3px 3px 0 rgba(43, 33, 64, 0.14);
-    }
-
-    .decision.warn { border-left-color: var(--amber); background: #fff2b8; }
-    .decision.good { border-left-color: var(--green); background: #eafff2; }
-    .decision.danger { border-left-color: var(--red); background: #ffe5e7; }
-
-    .decision strong {
-      display: block;
-      margin-bottom: 4px;
-      font-size: 14px;
-    }
-
-    .decision p {
-      margin: 0;
-      color: var(--muted);
-      line-height: 1.45;
-      font-size: 13px;
-    }
-
-    .toolbar {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-bottom: 12px;
-    }
-
-    button, .button {
-      border: 3px solid var(--line);
-      background: #fffdf2;
-      color: var(--ink);
-      padding: 8px 10px;
-      border-radius: 0;
-      cursor: pointer;
-      font-size: 13px;
-      box-shadow: 3px 3px 0 #2b2140;
-    }
-
-    button:hover {
-      transform: translate(1px, 1px);
-      box-shadow: 2px 2px 0 #2b2140;
-    }
-
-    button.active {
-      border-color: #35003f;
-      background: #ff79c6;
-      color: #fff;
-      text-shadow: 1px 1px 0 #2b2140;
-    }
-
-    .two-col {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-    }
-
-    .note {
-      color: var(--muted);
-      font-size: 12px;
-      line-height: 1.45;
-    }
-
-    .lineup {
-      display: grid;
-      gap: 10px;
-      padding: 18px;
-      border: 3px solid var(--line);
-      background:
-        linear-gradient(90deg, rgba(255,255,255,0.35) 2px, transparent 2px),
-        linear-gradient(rgba(255,255,255,0.35) 2px, transparent 2px),
-        linear-gradient(#4ecb72, #24a857);
-      background-size: 32px 32px, 32px 32px, auto;
-      box-shadow: inset 0 0 0 6px #13823e;
-    }
-
-    .row {
-      display: grid;
-      gap: 8px;
-    }
-
-    .row.gk { grid-template-columns: repeat(1, minmax(140px, 180px)); justify-content: center; }
-    .row.def { grid-template-columns: repeat(3, minmax(120px, 1fr)); }
-    .row.mid { grid-template-columns: repeat(4, minmax(110px, 1fr)); }
-    .row.fwd { grid-template-columns: repeat(3, minmax(120px, 1fr)); }
-
+    .row { display: grid; gap: 8px; }
+    .gk { grid-template-columns: minmax(150px, 190px); justify-content: center; }
+    .def { grid-template-columns: repeat(3, 1fr); } .mid { grid-template-columns: repeat(4, 1fr); }
+    .fwd { grid-template-columns: repeat(3, 1fr); }
     .player {
-      position: relative;
-      border: 3px solid var(--line);
-      border-radius: 0;
-      padding: 10px;
-      background: #fffdf2;
-      min-height: 74px;
-      box-shadow: 4px 4px 0 rgba(43, 33, 64, 0.24);
-      overflow: hidden;
+      position: relative; border: 3px solid var(--line); background: #fffdf0; padding: 10px;
+      min-height: 76px; box-shadow: 4px 4px 0 rgba(36,23,47,.22); overflow: hidden;
     }
-
-    .player::before {
-      content: "";
-      position: absolute;
-      width: 18px;
-      height: 18px;
-      right: 8px;
-      top: 8px;
+    .player:before {
+      content: ""; position: absolute; top: 8px; right: 8px; width: 18px; height: 18px; opacity: .14;
       background:
-        linear-gradient(#2b2140 0 0) 6px 0 / 6px 18px no-repeat,
-        linear-gradient(#2b2140 0 0) 0 6px / 18px 6px no-repeat;
-      opacity: 0.12;
+        linear-gradient(var(--line) 0 0) 6px 0 / 6px 18px no-repeat,
+        linear-gradient(var(--line) 0 0) 0 6px / 18px 6px no-repeat;
     }
-
-    .player strong {
-      display: block;
-      font-size: 14px;
-      margin-bottom: 5px;
-      color: #35003f;
+    .player strong { display: block; color: var(--deep); margin-bottom: 5px; font-size: 14px; }
+    .player small { display: block; color: var(--muted); line-height: 1.35; }
+    .captain { background: #dcffed; box-shadow: 4px 4px 0 var(--mint); }
+    .vice { background: #e8eeff; box-shadow: 4px 4px 0 var(--blue); }
+    .captain:after, .vice:after { position: absolute; right: 8px; bottom: 6px; font-weight: 900; color: var(--line); }
+    .captain:after { content: "C"; } .vice:after { content: "VC"; }
+    .legend, .toolbar { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+    .chip, button {
+      display: inline-flex; align-items: center; gap: 6px; border: 3px solid var(--line);
+      background: #fffdf0; padding: 7px 9px; box-shadow: 3px 3px 0 var(--line);
+      color: var(--ink); text-decoration: none; cursor: pointer; font-size: 13px;
     }
-
-    .player small {
-      display: block;
-      color: var(--muted);
-      line-height: 1.4;
+    button.active, .chip.pink { background: var(--pink); color: #fff; text-shadow: 1px 1px 0 var(--line); }
+    .chip.green { background: var(--mint); } .chip.blue { background: #b9c8ff; }
+    .chip.yellow { background: var(--yellow); } .chip.red { background: #ff9aa5; }
+    .pixel-icon {
+      width: 14px; height: 14px; display: inline-block; image-rendering: pixelated; background: var(--line);
+      box-shadow: 4px 0 0 var(--line), 8px 0 0 var(--line), 4px 4px 0 var(--line), 0 8px 0 var(--line), 4px 8px 0 var(--line), 8px 8px 0 var(--line);
+      transform: scale(.62); transform-origin: left center;
     }
-
-    .player.cap {
-      background: #d9ffec;
-      box-shadow: 4px 4px 0 #31c45d;
+    .table-wrap { overflow: auto; border: 3px solid var(--line); background: #fffdf0; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 620px; }
+    th, td { text-align: left; vertical-align: top; padding: 10px; border-bottom: 2px solid #eadfbd; }
+    th { background: var(--deep); color: #fff; position: sticky; top: 0; }
+    tr:nth-child(even) td { background: #fff7d8; } tr:last-child td { border-bottom: 0; }
+    .shop-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .shop-card, .rival-card {
+      border: 3px solid var(--line); background: #fffdf0; box-shadow: 4px 4px 0 #d8c6ff;
+      padding: 12px; min-height: 130px;
     }
-
-    .player.vc {
-      background: #e6eeff;
-      box-shadow: 4px 4px 0 #4f7cff;
+    .rival-card { box-shadow: 4px 4px 0 #ffc0df; }
+    .shop-card strong { display: block; color: var(--deep); margin: 8px 0 5px; }
+    .shop-card p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.45; }
+    .rival-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .rival-card label { display: block; font-size: 12px; color: var(--muted); margin: 8px 0 4px; }
+    input, textarea, select {
+      width: 100%; border: 3px solid var(--line); background: #fffdf0; padding: 8px;
+      color: var(--ink); box-shadow: inset 3px 3px 0 #ffe5a8;
     }
-
-    .player.cap::after,
-    .player.vc::after {
-      position: absolute;
-      right: 7px;
-      bottom: 6px;
-      font-weight: 800;
-      font-size: 13px;
-      color: #2b2140;
-    }
-
-    .player.cap::after { content: "C"; }
-    .player.vc::after { content: "V"; }
-
-    .legend {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 12px;
-    }
-
-    .source-list {
-      display: grid;
-      gap: 8px;
-      padding-left: 0;
-      list-style: none;
-      margin: 0;
-    }
-
-    .source-list a { color: #1d4ed8; text-decoration: none; }
-    .source-list a:hover { text-decoration: underline; }
-
+    textarea { min-height: 96px; resize: vertical; }
+    .prompt-box { min-height: 148px; font-size: 12px; line-height: 1.45; }
+    .source-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; grid-template-columns: repeat(2, 1fr); }
+    .note { color: var(--muted); font-size: 12px; line-height: 1.45; }
     .hidden { display: none; }
-
-    textarea {
-      width: 100%;
-      min-height: 104px;
-      resize: vertical;
-      border: 3px solid var(--line);
-      border-radius: 0;
-      padding: 10px;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 13px;
-      background: #fffdf2;
-      box-shadow: inset 4px 4px 0 #ffe4a8;
-    }
-
-    .pixel-strip {
-      display: grid;
-      grid-template-columns: repeat(18, 12px);
-      gap: 4px;
-      margin-top: 12px;
-      opacity: 0.95;
-    }
-
-    .pixel-strip span {
-      width: 12px;
-      height: 12px;
-      background: #ffcf4a;
-      border: 2px solid #2b2140;
-      box-shadow: 2px 2px 0 rgba(43, 33, 64, 0.25);
-    }
-
-    .pixel-strip span:nth-child(3n) { background: #6fffc3; }
-    .pixel-strip span:nth-child(4n) { background: #ff79c6; }
-    .pixel-strip span:nth-child(5n) { background: #a9c2ff; }
-
     @media (max-width: 1050px) {
-      .span-3, .span-4, .span-5, .span-6, .span-7, .span-8 { grid-column: span 12; }
-      .metrics { grid-template-columns: repeat(2, 1fr); }
-      .two-col { grid-template-columns: 1fr; }
-      .row.def, .row.mid, .row.fwd { grid-template-columns: repeat(2, minmax(120px, 1fr)); }
-      .deadline { text-align: left; }
-      .topbar { align-items: flex-start; flex-direction: column; }
+      .hero { grid-template-columns: 1fr; }
+      .span-4, .span-5, .span-6, .span-7, .span-8 { grid-column: span 12; }
+      .stat-grid, .shop-grid, .rival-grid { grid-template-columns: repeat(2, 1fr); }
+      .mid, .def, .fwd { grid-template-columns: repeat(2, 1fr); }
     }
-
-    @media (max-width: 620px) {
-      header { padding: 18px 16px; }
-      main { padding: 0 12px; }
-      h1 { font-size: 23px; }
-      .metrics { grid-template-columns: 1fr; }
-      .row.def, .row.mid, .row.fwd { grid-template-columns: 1fr; }
-      .panel-body { padding: 16px; }
-      .table-wrap { max-height: none; }
-      table { min-width: 620px; }
-      th, td { padding: 9px 7px; }
+    @media (max-width: 640px) {
+      .hero { padding: 18px 14px; } h1 { font-size: 25px; }
+      .hud { padding: 0 12px; margin-top: 22px; }
+      .party, .stat-grid, .shop-grid, .rival-grid, .source-list { grid-template-columns: 1fr; }
+      .mid, .def, .fwd { grid-template-columns: 1fr; }
+      .body { padding: 14px; } .chip, button { font-size: 12px; }
     }
   </style>
 </head>
 <body>
-  <header>
-    <div class="topbar">
+  <header class="site-header">
+    <section class="hero">
       <div>
-        <h1>FPL Manager Dashboard 2026/27</h1>
-        <p class="subtitle">ทีม Yedtsuna - AI x Kanitnan weekly FPL mission: transfer, captain, bench, mini-league และ top-rank trends</p>
+        <span class="title-kicker">Season Quest 2026/27</span>
+        <h1>AI x Kanitnan FPL Quest</h1>
+        <p class="subtitle">ภารกิจปั้นทีม Yedtsuna ให้ชนะ mini-league ด้วยข้อมูลจริง, decision quality, captain call และแผนระยะ 1-5 Gameweeks แบบไม่ knee-jerk</p>
       </div>
-      <div class="deadline">
-        <strong>GW1 Deadline</strong>
-        <span>เสาร์ 22 ส.ค. 2026, 00:30 เวลาไทย</span>
+      <div class="party">
+        <div class="avatar-card"><div class="sprite manager"></div><strong>Kanitnan, Manager</strong><small>เลือก risk level, final call และอ่านเกมคู่แข่ง</small></div>
+        <div class="avatar-card ai"><div class="sprite ai"></div><strong>AI Coach</strong><small>ค้นข่าว, วิเคราะห์ xPts, fixture, captain และ rival threats</small></div>
       </div>
-    </div>
+    </section>
   </header>
 
-  <main>
-    <section class="grid">
-      <article class="panel span-12">
-        <h2>Executive Snapshot</h2>
-        <div class="panel-body">
-          <div class="metrics">
-            <div class="metric">
-              <label>Final Call</label>
-              <strong>Hold Squad</strong>
-              <small>ไม่ใช้ chip, ไม่ใช้ hit, captain Haaland</small>
-            </div>
-            <div class="metric">
-              <label>Risk Level</label>
-              <strong>Balanced</strong>
-              <small>มี template core + upside จาก Cherki, O'Reilly, Brobbey</small>
-            </div>
-            <div class="metric">
-              <label>Money in Bank</label>
-              <strong>£0.0m</strong>
-              <small>โครงสร้างงบตึง ต้องวาง transfer ล่วงหน้า</small>
-            </div>
-            <div class="metric">
-              <label>Confidence</label>
-              <strong>84/100</strong>
-              <small>รอตรวจ lineup leaks และ injury news ก่อน deadline</small>
-            </div>
-          </div>
+  <main class="hud">
+    <article class="panel span-12">
+      <h2>Command HUD</h2>
+      <div class="body">
+        <div class="stat-grid">
+          <div class="stat"><label>Final Call</label><strong>Hold Squad</strong><small>ไม่ใช้ hit, ไม่ใช้ chip, captain Haaland</small></div>
+          <div class="stat"><label>Quest Risk</label><strong>Balanced</strong><small>Template core + upside จาก Cherki, O'Reilly, Brobbey</small></div>
+          <div class="stat"><label>Gold Bank</label><strong>£0.0m</strong><small>งบตึง ต้องวาง transfer route ล่วงหน้า</small></div>
+          <div class="stat"><label>Confidence XP</label><strong>84/100</strong><div class="bar" aria-label="Confidence 84"><span style="width:84%"></span></div></div>
         </div>
-      </article>
+      </div>
+    </article>
 
-      <article class="panel span-12">
-        <h2>AI x Kanitnan FPL Journey</h2>
-        <div class="panel-body two-col">
-          <div class="decision-list">
-            <div class="decision good">
-              <strong>ภารกิจฤดูกาลนี้</strong>
-              <p>เราจะเล่น FPL แบบมีหลักฐาน ไม่ไล่แต้มย้อนหลัง ไม่ตื่นตามราคา และวัดผลจากคุณภาพการตัดสินใจทุก Gameweek</p>
-            </div>
-            <div class="decision">
-              <strong>สิ่งที่เพื่อนจะได้ติดตาม</strong>
-              <p>ทีมจริง, เหตุผล transfer, captain call, bench call, mini-league battle, ตัวที่เกือบซื้อ และบทเรียนหลัง deadline</p>
-            </div>
+    <article class="panel span-7">
+      <h2>Starting XI Battle Map</h2>
+      <div class="body">
+        <div class="pitch">
+          <div class="row gk"><div class="player"><strong>Verbruggen</strong><small>Brighton - AVL (H)</small></div></div>
+          <div class="row def">
+            <div class="player"><strong>De Cuyper</strong><small>Brighton - AVL (H)</small></div>
+            <div class="player"><strong>Calafiori</strong><small>Arsenal - COV (H)</small></div>
+            <div class="player"><strong>O'Reilly</strong><small>Man City - BOU (H)</small></div>
           </div>
-          <div class="decision-list">
-            <div class="decision warn">
-              <strong>Scoreboard AI vs Manager</strong>
-              <p>ทุกสัปดาห์จะบันทึกว่า AI แนะนำอะไร, ผมเลือกอะไร, ผลออกมาเป็นอย่างไร และ decision นั้นดีหรือพลาดตรงไหน</p>
-            </div>
-            <div class="decision danger">
-              <strong>กติกาสำคัญ</strong>
-              <p>ไม่ใช้ hit ถ้าไม่คืนแต้มใน 3-5 GW, ไม่ใช้ chip เร็วเกินเหตุ และไม่ขายตัวคุณภาพเพราะ blank หรือ blank-looking fixture นัดเดียว</p>
-            </div>
+          <div class="row mid">
+            <div class="player"><strong>Groß</strong><small>Brighton - AVL (H)</small></div>
+            <div class="player vice"><strong>B.Fernandes</strong><small>Man Utd - HUL (A)</small></div>
+            <div class="player"><strong>Mbeumo</strong><small>Man Utd - HUL (A)</small></div>
+            <div class="player"><strong>Cherki</strong><small>Man City - BOU (H)</small></div>
+          </div>
+          <div class="row fwd">
+            <div class="player captain"><strong>Haaland</strong><small>Man City - BOU (H)</small></div>
+            <div class="player"><strong>João Pedro</strong><small>Chelsea - FUL (A)</small></div>
+            <div class="player"><strong>Brobbey</strong><small>Sunderland - IPS (A)</small></div>
           </div>
         </div>
-      </article>
+        <div class="legend">
+          <span class="chip green"><span class="pixel-icon"></span>C Haaland</span>
+          <span class="chip blue"><span class="pixel-icon"></span>VC B.Fernandes</span>
+          <span class="chip yellow">Bench: Dubravka, Diop, Hughes, Bogle</span>
+        </div>
+      </div>
+    </article>
 
-      <article class="panel span-7">
-        <h2>Current Starting XI</h2>
-        <div class="panel-body">
-          <div class="lineup" id="lineup">
-            <div class="row gk">
-              <div class="player"><strong>Verbruggen</strong><small>Brighton - AVL (H)</small></div>
-            </div>
-            <div class="row def">
-              <div class="player"><strong>De Cuyper</strong><small>Brighton - AVL (H)</small></div>
-              <div class="player"><strong>Calafiori</strong><small>Arsenal - COV (H)</small></div>
-              <div class="player"><strong>O'Reilly</strong><small>Man City - BOU (H)</small></div>
-            </div>
-            <div class="row mid">
-              <div class="player"><strong>Groß</strong><small>Brighton - AVL (H)</small></div>
-              <div class="player vc"><strong>B.Fernandes</strong><small>Man Utd - HUL (A) - VC</small></div>
-              <div class="player"><strong>Mbeumo</strong><small>Man Utd - HUL (A)</small></div>
-              <div class="player"><strong>Cherki</strong><small>Man City - BOU (H)</small></div>
-            </div>
-            <div class="row fwd">
-              <div class="player cap"><strong>Haaland</strong><small>Man City - BOU (H) - C</small></div>
-              <div class="player"><strong>João Pedro</strong><small>Chelsea - FUL (A)</small></div>
-              <div class="player"><strong>Brobbey</strong><small>Sunderland - IPS (A)</small></div>
-            </div>
-          </div>
-          <div class="legend">
-            <span class="pill green">C Haaland</span>
-            <span class="pill blue">VC B.Fernandes</span>
-            <span class="pill amber">Bench: Dubravka, Diop, Hughes, Bogle</span>
-          </div>
+    <article class="panel span-5">
+      <h2>Quest Rules</h2>
+      <div class="body">
+        <div class="quest-list">
+          <div class="quest good"><strong>Hold / Roll</strong><p>ถ้า XI มีตัวจริง 10-11 คน, captain ดี, ไม่มี injury สำคัญ ให้เก็บ transfer เป็นพลังพิเศษ</p></div>
+          <div class="quest warn"><strong>Transfer Shop</strong><p>ซื้อเมื่อ expected minutes ต่ำ, fixture swing ชัด, หรือมีตัวแทนที่เพิ่ม xPts 3-5 GW</p></div>
+          <div class="quest danger"><strong>Hit Trap</strong><p>ไม่ -4 เว้นแต่คืนแต้มได้จริง หรือจำเป็นต่อแผน Blank/Double/Chip window</p></div>
+          <div class="quest"><strong>Block / Attack</strong><p>Block เฉพาะตัว high EO + captaincy สูง ใช้ differential เฉพาะเมื่อ minutes ดีจริง</p></div>
         </div>
-      </article>
+      </div>
+    </article>
 
-      <article class="panel span-5">
-        <h2>Weekly Decision Rules</h2>
-        <div class="panel-body">
-          <div class="decision-list">
-            <div class="decision good">
-              <strong>Roll / Hold</strong>
-              <p>ถ้า XI มีตัวจริงครบ 10-11 คน, captain ดี, ไม่มี injury สำคัญ ให้ถือทีมและเก็บ flexibility</p>
-            </div>
-            <div class="decision warn">
-              <strong>Transfer</strong>
-              <p>ทำ transfer เมื่อผู้เล่นมี expected minutes ต่ำ, fixture swing แย่ 3-5 GW, หรือมีตัวแทนที่ดีชัดเจน</p>
-            </div>
-            <div class="decision danger">
-              <strong>Hit -4</strong>
-              <p>ทำเฉพาะเมื่อผู้เล่นเดิมเสี่ยงไม่ได้ลง หรือ transfer ใหม่มี upside คืนแต้มใน 3-5 GW</p>
-            </div>
-            <div class="decision">
-              <strong>Attack / Block</strong>
-              <p>Block เฉพาะตัว ownership + captaincy สูงและ xPts สูง ใช้ differential เฉพาะเมื่อ minutes ดีจริง</p>
-            </div>
-          </div>
+    <article class="panel span-6">
+      <h2>Transfer Shop</h2>
+      <div class="body">
+        <div class="toolbar" data-filter="radar">
+          <button class="active" data-show="all">ทั้งหมด</button><button data-show="buy">Buy</button><button data-show="watch">Watch</button><button data-show="risk">Risk</button>
         </div>
-      </article>
+        <div class="shop-grid" id="radarCards">
+          <div class="shop-card" data-tag="buy"><span class="chip green">Buy/Hold</span><strong>Groß</strong><p>£5.5m, Brighton route ผ่าน set-piece/penalty, ถืออย่างน้อย GW1-4</p></div>
+          <div class="shop-card" data-tag="buy"><span class="chip green">Short Punt</span><strong>Brobbey</strong><p>GW1 IPS (A), GW2 FUL (H) ดี แต่ต้องประเมินหลัง GW2 เพราะ GW4-5 หนัก</p></div>
+          <div class="shop-card" data-tag="watch"><span class="chip blue">Watch</span><strong>Neco Williams</strong><p>Nailed + attacking DEF แต่ราคา £5.0m และ GW2/GW4 ยังไม่เหมาะซื้อทันที</p></div>
+          <div class="shop-card" data-tag="risk"><span class="chip yellow">Minutes Risk</span><strong>Cherki</strong><p>Upside สูง แต่ต้องเช็ก role, start security และ lineup ก่อน deadline</p></div>
+          <div class="shop-card" data-tag="risk"><span class="chip yellow">Rotation Risk</span><strong>O'Reilly</strong><p>Fixture ดีมาก แต่ต้อง monitor expected minutes ต่อเนื่อง</p></div>
+          <div class="shop-card" data-tag="watch"><span class="chip blue">Next Scan</span><strong>Fixture Swing</strong><p>หลัง GW2 ดู Brighton, Forest, budget DEF และ captain target GW3-5</p></div>
+        </div>
+      </div>
+    </article>
 
-      <article class="panel span-6">
-        <h2>Transfer Radar</h2>
-        <div class="panel-body">
-          <div class="toolbar" data-filter="radar">
-            <button class="active" data-show="all">ทั้งหมด</button>
-            <button data-show="buy">ตัวน่าซื้อ</button>
-            <button data-show="watch">Watchlist</button>
-            <button data-show="sell">จุดเสี่ยง</button>
-          </div>
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Player</th>
-                  <th>Tag</th>
-                  <th>Reason</th>
-                  <th>Decision</th>
-                </tr>
-              </thead>
-              <tbody id="radarRows">
-                <tr data-tag="buy">
-                  <td>Groß</td>
-                  <td><span class="pill green">Buy/Hold</span></td>
-                  <td>ราคา £5.5m, Brighton fixtures GW3-4 ดี, route ผ่าน set-piece/penalty</td>
-                  <td>ถืออย่างน้อย GW1-4</td>
-                </tr>
-                <tr data-tag="buy">
-                  <td>Brobbey</td>
-                  <td><span class="pill green">Short punt</span></td>
-                  <td>GW1 IPS (A), GW2 FUL (H) ดี แต่ GW4-5 หนัก</td>
-                  <td>ประเมินหลัง GW2</td>
-                </tr>
-                <tr data-tag="watch">
-                  <td>Neco Williams</td>
-                  <td><span class="pill blue">Watch</span></td>
-                  <td>nailed, attacking DEF, แต่ราคา £5.0m และ GW2/GW4 ไม่ดี</td>
-                  <td>รอ fixture swing</td>
-                </tr>
-                <tr data-tag="sell">
-                  <td>Cherki</td>
-                  <td><span class="pill amber">Minutes risk</span></td>
-                  <td>upside สูง แต่ต้องเช็ก role และ start security ของ Man City</td>
-                  <td>ถ้า bench GW1 ให้ทบทวน</td>
-                </tr>
-                <tr data-tag="sell">
-                  <td>O'Reilly</td>
-                  <td><span class="pill amber">Rotation risk</span></td>
-                  <td>fixture ดีมาก แต่ต้องดู expected minutes ต่อเนื่อง</td>
-                  <td>ถือก่อน GW1</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+    <article class="panel span-6">
+      <h2>Captain Boss Fight</h2>
+      <div class="body">
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Rank</th><th>Player</th><th>Fixture</th><th>Role</th><th>Confidence</th></tr></thead>
+            <tbody>
+              <tr><td>1</td><td>Haaland</td><td>BOU (H)</td><td>Elite scorer, high ownership shield</td><td><span class="chip green">88</span></td></tr>
+              <tr><td>2</td><td>B.Fernandes</td><td>HUL (A)</td><td>Creative hub, set-piece/penalty route</td><td><span class="chip blue">78</span></td></tr>
+              <tr><td>3</td><td>Mbeumo</td><td>HUL (A)</td><td>High involvement, strong GW1-2 fixture</td><td><span class="chip blue">70</span></td></tr>
+              <tr><td>4</td><td>João Pedro</td><td>FUL (A)</td><td>Ownership shield, away fixture</td><td><span class="chip yellow">63</span></td></tr>
+              <tr><td>5</td><td>Brobbey</td><td>IPS (A)</td><td>Differential punt only</td><td><span class="chip yellow">54</span></td></tr>
+            </tbody>
+          </table>
         </div>
-      </article>
+      </div>
+    </article>
 
-      <article class="panel span-6">
-        <h2>Captain Board</h2>
-        <div class="panel-body">
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Rank</th>
-                  <th>Player</th>
-                  <th>Fixture</th>
-                  <th>Role</th>
-                  <th>Confidence</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>Haaland</td>
-                  <td>BOU (H)</td>
-                  <td>Elite scorer, high ownership shield</td>
-                  <td><span class="pill green">88</span></td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>B.Fernandes</td>
-                  <td>HUL (A)</td>
-                  <td>Creative hub, likely set-piece/penalty route</td>
-                  <td><span class="pill blue">78</span></td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>Mbeumo</td>
-                  <td>HUL (A)</td>
-                  <td>High involvement, strong GW1-2 fixture</td>
-                  <td><span class="pill blue">70</span></td>
-                </tr>
-                <tr>
-                  <td>4</td>
-                  <td>João Pedro</td>
-                  <td>FUL (A)</td>
-                  <td>Good ownership shield, away fixture</td>
-                  <td><span class="pill amber">63</span></td>
-                </tr>
-                <tr>
-                  <td>5</td>
-                  <td>Brobbey</td>
-                  <td>IPS (A)</td>
-                  <td>Differential punt only</td>
-                  <td><span class="pill amber">54</span></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+    <article class="panel span-12">
+      <h2>Rival Weekly Intel</h2>
+      <div class="body">
+        <p class="note">ช่องนี้ไว้เติมข้อมูลคู่แข่งทุกสัปดาห์ แล้วกดสร้าง prompt เพื่อส่งให้ AI วิเคราะห์ mini-league strategy ต่อได้ ข้อมูลเก็บใน browser เครื่องนี้ด้วย localStorage</p>
+        <div class="rival-grid">
+          <div class="rival-card"><strong>Rival 1</strong><label>Team / Manager</label><input id="r1Name" placeholder="ชื่อทีม / manager" /><label>Points / Rank / Gap</label><input id="r1Score" placeholder="คะแนน, อันดับ, ห่างจากเรา" /><label>Captain / Key Players</label><input id="r1Core" placeholder="กัปตัน, template, differential" /><label>Behavior Notes</label><textarea id="r1Note" placeholder="ชอบ hit? ไล่ราคา? captain เสี่ยง?"></textarea></div>
+          <div class="rival-card"><strong>Rival 2</strong><label>Team / Manager</label><input id="r2Name" placeholder="ชื่อทีม / manager" /><label>Points / Rank / Gap</label><input id="r2Score" placeholder="คะแนน, อันดับ, ห่างจากเรา" /><label>Captain / Key Players</label><input id="r2Core" placeholder="กัปตัน, template, differential" /><label>Behavior Notes</label><textarea id="r2Note" placeholder="รูปแบบ transfer / chips / risk"></textarea></div>
+          <div class="rival-card"><strong>Rival 3</strong><label>Team / Manager</label><input id="r3Name" placeholder="ชื่อทีม / manager" /><label>Points / Rank / Gap</label><input id="r3Score" placeholder="คะแนน, อันดับ, ห่างจากเรา" /><label>Captain / Key Players</label><input id="r3Core" placeholder="กัปตัน, template, differential" /><label>Behavior Notes</label><textarea id="r3Note" placeholder="จุดที่ควร block / attack"></textarea></div>
         </div>
-      </article>
+        <div class="toolbar"><button id="saveIntel">Save Intel</button><button id="buildPrompt">Build AI Prompt</button><button id="clearIntel">Clear</button></div>
+        <textarea class="prompt-box" id="rivalPrompt" placeholder="กด Build AI Prompt เพื่อสร้างข้อความสรุปข้อมูลคู่แข่งรายสัปดาห์..."></textarea>
+      </div>
+    </article>
 
-      <article class="panel span-8">
-        <h2>Mini-League Strategy</h2>
-        <div class="panel-body">
-          <p class="note">หลัง GW1 จะเติมข้อมูลคู่แข่งจาก AFC Premier: คะแนนรวม, rank, chips, transfers, captain pattern, overlap และ threats ต่อทีมเรา</p>
-          <div class="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Rival Group</th>
-                  <th>What to Track</th>
-                  <th>Attack</th>
-                  <th>Block</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>ผู้นำที่ต้องไล่</td>
-                  <td>Captain, chips, high EO players</td>
-                  <td>ใช้ differential เฉพาะตัว minutes สูง</td>
-                  <td>Haaland/Bruno type threats</td>
-                </tr>
-                <tr>
-                  <td>คู่แข่งโดยตรง</td>
-                  <td>Template overlap, transfer timing</td>
-                  <td>1-2 จุดต่างที่ xPts ดี</td>
-                  <td>ตัว captaincy สูง</td>
-                </tr>
-                <tr>
-                  <td>ผู้ตามที่อันตราย</td>
-                  <td>Hit frequency, aggressive captains</td>
-                  <td>อย่าตาม hit ถ้าไม่จำเป็น</td>
-                  <td>Block เฉพาะ fixture ชัด</td>
-                </tr>
-                <tr>
-                  <td>ไม่ใช่ภัยระยะสั้น</td>
-                  <td>Inactive teams, poor bench</td>
-                  <td>ไม่ต้อง mirror</td>
-                  <td>ไม่ต้อง block เกินจำเป็น</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+    <article class="panel span-7">
+      <h2>Mini-League Arena</h2>
+      <div class="body">
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Rival Group</th><th>Track</th><th>Attack</th><th>Block</th></tr></thead>
+            <tbody>
+              <tr><td>ผู้นำที่ต้องไล่</td><td>Captain, chips, high EO players</td><td>Differential เฉพาะตัว minutes สูง</td><td>Haaland/Bruno threats</td></tr>
+              <tr><td>คู่แข่งโดยตรง</td><td>Template overlap, transfer timing</td><td>1-2 จุดต่างที่ xPts ดี</td><td>ตัว captaincy สูง</td></tr>
+              <tr><td>ผู้ตามอันตราย</td><td>Hit frequency, aggressive captains</td><td>ไม่ตาม hit ถ้าไม่จำเป็น</td><td>Block เฉพาะ fixture ชัด</td></tr>
+              <tr><td>ไม่ใช่ภัยระยะสั้น</td><td>Inactive teams, poor bench</td><td>ไม่ต้อง mirror</td><td>ไม่ block เกินจำเป็น</td></tr>
+            </tbody>
+          </table>
         </div>
-      </article>
+      </div>
+    </article>
 
-      <article class="panel span-4">
-        <h2>Top-Rank Trends</h2>
-        <div class="panel-body">
-          <div class="decision-list">
-            <div class="decision good">
-              <strong>Core Template</strong>
-              <p>Haaland + Bruno/Mbeumo + João Pedro เป็นโครงที่ช่วยกัน rank damage</p>
-            </div>
-            <div class="decision">
-              <strong>Value Midfield</strong>
-              <p>Gross/Brighton budget route ช่วย balance งบและให้ flexibility</p>
-            </div>
-            <div class="decision warn">
-              <strong>Man City Upside</strong>
-              <p>Cherki/O'Reilly ต้อง monitor minutes จาก lineup และ press conference</p>
-            </div>
-            <div class="decision danger">
-              <strong>Early Chip</strong>
-              <p>ไม่ใช้ Triple Captain GW1 เว้นแต่ยอมเสี่ยงสูงมาก</p>
-            </div>
-          </div>
+    <article class="panel span-5">
+      <h2>Weekly Scan Route</h2>
+      <div class="body">
+        <div class="decision-list">
+          <div class="decision"><strong>48-72 ชม. ก่อน deadline</strong><p>ดึง FPL API, fixtures, team value, mini-league standings, top-rank trends</p></div>
+          <div class="decision"><strong>24 ชม. ก่อน deadline</strong><p>เช็ก press conference, injuries, suspensions, price changes, predicted lineups</p></div>
+          <div class="decision warn"><strong>2-3 ชม. ก่อน deadline</strong><p>เช็ก leaks, captain EO, bench risk, late injury news และ fixture disruptions</p></div>
+          <div class="decision good"><strong>หลัง deadline</strong><p>บันทึก decision quality: เหตุผลถูกไหม ไม่ตัดสินจาก result อย่างเดียว</p></div>
         </div>
-      </article>
+      </div>
+    </article>
 
-      <article class="panel span-6">
-        <h2>Weekly Checklist</h2>
-        <div class="panel-body">
-          <div class="decision-list">
-            <div class="decision">
-              <strong>48-72 ชม. ก่อน deadline</strong>
-              <p>ดึง FPL API, fixtures, team value, mini-league standings, top-rank trends</p>
-            </div>
-            <div class="decision">
-              <strong>24 ชม. ก่อน deadline</strong>
-              <p>เช็ก press conference, injuries, suspensions, price changes, predicted lineups</p>
-            </div>
-            <div class="decision warn">
-              <strong>2-3 ชม. ก่อน deadline</strong>
-              <p>เช็ก leaks, captain EO, bench risk, late injury news และ weather/fixture disruptions</p>
-            </div>
-            <div class="decision good">
-              <strong>หลัง deadline</strong>
-              <p>บันทึก decision quality: เหตุผลถูกไหม ไม่ตัดสินจาก result อย่างเดียว</p>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <article class="panel span-6">
-        <h2>Manual Notes</h2>
-        <div class="panel-body">
-          <textarea id="notes" placeholder="จดข่าว, lineup leak, transfer idea หรือข้อสังเกตคู่แข่งตรงนี้..."></textarea>
-          <div class="toolbar" style="margin-top:10px">
-            <button id="saveNotes">บันทึกโน้ต</button>
-            <button id="clearNotes">ล้างโน้ต</button>
-          </div>
-          <p class="note">โน้ตเก็บใน browser เครื่องนี้ด้วย localStorage</p>
-        </div>
-      </article>
-
-      <article class="panel span-12">
-        <h2>Data Sources For Weekly Run</h2>
-        <div class="panel-body two-col">
-          <ul class="source-list">
-            <li><a href="https://fantasy.premierleague.com/api/bootstrap-static/" target="_blank" rel="noreferrer">Official FPL Bootstrap API</a></li>
-            <li><a href="https://fantasy.premierleague.com/api/fixtures/" target="_blank" rel="noreferrer">Official FPL Fixtures API</a></li>
-            <li><a href="https://fantasy.premierleague.com/en/my-team" target="_blank" rel="noreferrer">FPL My Team</a></li>
-            <li><a href="https://www.premierleague.com/en/news" target="_blank" rel="noreferrer">Premier League News</a></li>
-          </ul>
-          <ul class="source-list">
-            <li><a href="https://www.premierleague.com/en/fantasy" target="_blank" rel="noreferrer">Official Fantasy Hub</a></li>
-            <li><a href="https://www.premierleague.com/latest-player-injuries/" target="_blank" rel="noreferrer">Premier League Injuries</a></li>
-            <li><a href="https://www.premierleague.com/en/news/4681112" target="_blank" rel="noreferrer">Scout Selection Reference</a></li>
-            <li><a href="https://www.premierleague.com/en/news/4688908" target="_blank" rel="noreferrer">FPL Experts Squad Reference</a></li>
-          </ul>
-        </div>
-      </article>
-    </section>
+    <article class="panel span-12">
+      <h2>Data Portal</h2>
+      <div class="body">
+        <ul class="source-list">
+          <li><a href="https://fantasy.premierleague.com/api/bootstrap-static/" target="_blank" rel="noreferrer">Official FPL Bootstrap API</a></li>
+          <li><a href="https://fantasy.premierleague.com/api/fixtures/" target="_blank" rel="noreferrer">Official FPL Fixtures API</a></li>
+          <li><a href="https://fantasy.premierleague.com/en/my-team" target="_blank" rel="noreferrer">FPL My Team</a></li>
+          <li><a href="https://www.premierleague.com/en/fantasy" target="_blank" rel="noreferrer">Official Fantasy Hub</a></li>
+          <li><a href="https://www.premierleague.com/latest-player-injuries/" target="_blank" rel="noreferrer">Premier League Injuries</a></li>
+          <li><a href="https://www.premierleague.com/en/news" target="_blank" rel="noreferrer">Premier League News</a></li>
+        </ul>
+      </div>
+    </article>
   </main>
 
   <script>
     const radarButtons = document.querySelectorAll('[data-filter="radar"] button');
-    const radarRows = document.querySelectorAll('#radarRows tr');
-
+    const radarCards = document.querySelectorAll('#radarCards .shop-card');
     radarButtons.forEach((button) => {
       button.addEventListener('click', () => {
         radarButtons.forEach((item) => item.classList.remove('active'));
         button.classList.add('active');
         const show = button.dataset.show;
-        radarRows.forEach((row) => {
-          row.classList.toggle('hidden', show !== 'all' && row.dataset.tag !== show);
-        });
+        radarCards.forEach((card) => card.classList.toggle('hidden', show !== 'all' && card.dataset.tag !== show));
       });
     });
-
-    const notes = document.getElementById('notes');
-    const saved = localStorage.getItem('fpl-manager-notes');
-    if (saved) notes.value = saved;
-
-    document.getElementById('saveNotes').addEventListener('click', () => {
-      localStorage.setItem('fpl-manager-notes', notes.value);
-      alert('บันทึกโน้ตแล้ว');
+    const intelIds = ['r1Name','r1Score','r1Core','r1Note','r2Name','r2Score','r2Core','r2Note','r3Name','r3Score','r3Core','r3Note'];
+    function loadIntel() {
+      const saved = JSON.parse(localStorage.getItem('fpl-rival-intel') || '{}');
+      intelIds.forEach((id) => { const el = document.getElementById(id); if (el && saved[id]) el.value = saved[id]; });
+      const prompt = localStorage.getItem('fpl-rival-prompt');
+      if (prompt) document.getElementById('rivalPrompt').value = prompt;
+    }
+    function saveIntel() {
+      const data = {};
+      intelIds.forEach((id) => { const el = document.getElementById(id); if (el) data[id] = el.value; });
+      localStorage.setItem('fpl-rival-intel', JSON.stringify(data));
+    }
+    function buildPrompt() {
+      saveIntel();
+      const v = (id) => document.getElementById(id).value || '-';
+      const text = [
+        'FPL WEEKLY RIVAL INTEL',
+        'ทีมของฉัน: Yedtsuna',
+        'ใช้ข้อมูลนี้วิเคราะห์ mini-league strategy, template overlap, block/attack points, captain threats และ transfer risk',
+        '',
+        'Rival 1:', `Team/Manager: ${v('r1Name')}`, `Points/Rank/Gap: ${v('r1Score')}`, `Captain/Key Players: ${v('r1Core')}`, `Behavior Notes: ${v('r1Note')}`, '',
+        'Rival 2:', `Team/Manager: ${v('r2Name')}`, `Points/Rank/Gap: ${v('r2Score')}`, `Captain/Key Players: ${v('r2Core')}`, `Behavior Notes: ${v('r2Note')}`, '',
+        'Rival 3:', `Team/Manager: ${v('r3Name')}`, `Points/Rank/Gap: ${v('r3Score')}`, `Captain/Key Players: ${v('r3Core')}`, `Behavior Notes: ${v('r3Note')}`, '',
+        'Output ที่ต้องการ: Safe/Balanced/Aggressive mini-league plan, players to block, players to attack, captain expectation, และสิ่งที่ต้องเช็กก่อน deadline.'
+      ].join('\n');
+      document.getElementById('rivalPrompt').value = text;
+      localStorage.setItem('fpl-rival-prompt', text);
+      navigator.clipboard?.writeText(text).catch(() => {});
+    }
+    document.getElementById('saveIntel').addEventListener('click', saveIntel);
+    document.getElementById('buildPrompt').addEventListener('click', buildPrompt);
+    document.getElementById('clearIntel').addEventListener('click', () => {
+      intelIds.forEach((id) => { document.getElementById(id).value = ''; });
+      document.getElementById('rivalPrompt').value = '';
+      localStorage.removeItem('fpl-rival-intel');
+      localStorage.removeItem('fpl-rival-prompt');
     });
-
-    document.getElementById('clearNotes').addEventListener('click', () => {
-      notes.value = '';
-      localStorage.removeItem('fpl-manager-notes');
-    });
+    loadIntel();
   </script>
 </body>
 </html>
