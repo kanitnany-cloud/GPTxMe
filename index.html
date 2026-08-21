@@ -390,10 +390,31 @@
           <li><a href="https://fantasy.premierleague.com/api/bootstrap-static/" target="_blank" rel="noreferrer">Official FPL Bootstrap API</a></li>
           <li><a href="https://fantasy.premierleague.com/api/fixtures/" target="_blank" rel="noreferrer">Official FPL Fixtures API</a></li>
           <li><a href="https://fantasy.premierleague.com/en/my-team" target="_blank" rel="noreferrer">FPL My Team</a></li>
+          <li><a href="https://www.premierleague.com/en/stats" target="_blank" rel="noreferrer">Premier League Stats</a></li>
           <li><a href="https://www.premierleague.com/en/fantasy" target="_blank" rel="noreferrer">Official Fantasy Hub</a></li>
           <li><a href="https://www.premierleague.com/latest-player-injuries/" target="_blank" rel="noreferrer">Premier League Injuries</a></li>
           <li><a href="https://www.premierleague.com/en/news" target="_blank" rel="noreferrer">Premier League News</a></li>
+          <li><a href="https://www.premierleague.com/en/tables" target="_blank" rel="noreferrer">Premier League Table</a></li>
         </ul>
+      </div>
+    </article>
+
+    <article class="panel span-12">
+      <h2>ESP32 S3 Display API</h2>
+      <div class="body">
+        <p class="note">สำหรับจอ ESP32 S3 3.5 นิ้ว ให้ดึง config จาก GitHub Pages ฟรีก่อน แล้วเลือก refresh live score, fixture, player stats และ mini-league table จาก upstream public endpoints ที่ระบุไว้</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Endpoint</th><th>Use</th><th>Refresh</th></tr></thead>
+            <tbody>
+              <tr><td><a href="./api/esp32-config.json" target="_blank" rel="noreferrer">/api/esp32-config.json</a></td><td>แผนที่ endpoint สำหรับ ESP32</td><td>วันละครั้ง</td></tr>
+              <tr><td><a href="./api/fpl-device-snapshot.json" target="_blank" rel="noreferrer">/api/fpl-device-snapshot.json</a></td><td>snapshot ทีม/หน้าจอเริ่มต้น</td><td>เมื่อมี update</td></tr>
+              <tr><td>FPL fixtures API</td><td>live score + fixtures</td><td>30-90 วินาทีระหว่างแข่ง</td></tr>
+              <tr><td>FPL mini-league API</td><td>mini-league table</td><td>5-15 นาทีหลัง deadline/GW</td></tr>
+              <tr><td>Premier League Stats</td><td>player stats reference</td><td>ก่อนวิเคราะห์ GW</td></tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </article>
   </main>
