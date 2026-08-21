@@ -122,8 +122,8 @@
     .def { grid-template-columns: repeat(3, 1fr); } .mid { grid-template-columns: repeat(4, 1fr); }
     .fwd { grid-template-columns: repeat(3, 1fr); }
     .player {
-      position: relative; border: 3px solid var(--line); background: #fffdf0; padding: 10px;
-      min-height: 76px; box-shadow: 4px 4px 0 rgba(36,23,47,.22); overflow: hidden;
+      position: relative; border: 3px solid var(--line); background: #fffdf0; padding: 8px 9px 8px 54px;
+      min-height: 82px; box-shadow: 4px 4px 0 rgba(36,23,47,.22); overflow: hidden;
     }
     .player:before {
       content: ""; position: absolute; top: 8px; right: 8px; width: 18px; height: 18px; opacity: .14;
@@ -133,6 +133,35 @@
     }
     .player strong { display: block; color: var(--deep); margin-bottom: 5px; font-size: 14px; }
     .player small { display: block; color: var(--muted); line-height: 1.35; }
+    .kit {
+      position: absolute; left: 10px; top: 14px; width: 34px; height: 42px; image-rendering: pixelated;
+      filter: drop-shadow(3px 3px 0 rgba(36,23,47,.25));
+    }
+    .kit:before {
+      content: ""; position: absolute; left: 8px; top: 0; width: 18px; height: 8px; background: var(--collar, #fff);
+      box-shadow:
+        -8px 8px 0 var(--sleeve, var(--base)),
+        18px 8px 0 var(--sleeve, var(--base)),
+        0 8px 0 var(--base),
+        8px 8px 0 var(--base),
+        16px 8px 0 var(--base),
+        0 16px 0 var(--base),
+        8px 16px 0 var(--stripe, var(--base)),
+        16px 16px 0 var(--base),
+        0 24px 0 var(--base),
+        8px 24px 0 var(--stripe, var(--base)),
+        16px 24px 0 var(--base),
+        0 32px 0 var(--shorts, #222),
+        16px 32px 0 var(--shorts, #222),
+        0 40px 0 var(--sock, #111),
+        16px 40px 0 var(--sock, #111);
+    }
+    .kit-brighton { --base:#fff; --stripe:#2d79ee; --sleeve:#2d79ee; --shorts:#1f3f91; --sock:#fff; --collar:#2d79ee; }
+    .kit-arsenal { --base:#e31b23; --stripe:#e31b23; --sleeve:#fff; --shorts:#fff; --sock:#e31b23; --collar:#fff; }
+    .kit-city { --base:#8bd7ff; --stripe:#8bd7ff; --sleeve:#8bd7ff; --shorts:#fff; --sock:#8bd7ff; --collar:#24172f; }
+    .kit-united { --base:#d71920; --stripe:#d71920; --sleeve:#d71920; --shorts:#fff; --sock:#111; --collar:#111; }
+    .kit-chelsea { --base:#174fcf; --stripe:#174fcf; --sleeve:#174fcf; --shorts:#174fcf; --sock:#fff; --collar:#fff; }
+    .kit-sunderland { --base:#fff; --stripe:#e41b2f; --sleeve:#e41b2f; --shorts:#111; --sock:#e41b2f; --collar:#111; }
     .captain { background: #dcffed; box-shadow: 4px 4px 0 var(--mint); }
     .vice { background: #e8eeff; box-shadow: 4px 4px 0 var(--blue); }
     .captain:after, .vice:after { position: absolute; right: 8px; bottom: 6px; font-weight: 900; color: var(--line); }
@@ -222,22 +251,22 @@
       <h2>Starting XI Battle Map</h2>
       <div class="body">
         <div class="pitch">
-          <div class="row gk"><div class="player"><strong>Verbruggen</strong><small>Brighton - AVL (H)</small></div></div>
+          <div class="row gk"><div class="player"><span class="kit kit-brighton" aria-hidden="true"></span><strong>Verbruggen</strong><small>Brighton - AVL (H)</small></div></div>
           <div class="row def">
-            <div class="player"><strong>De Cuyper</strong><small>Brighton - AVL (H)</small></div>
-            <div class="player"><strong>Calafiori</strong><small>Arsenal - COV (H)</small></div>
-            <div class="player"><strong>O'Reilly</strong><small>Man City - BOU (H)</small></div>
+            <div class="player"><span class="kit kit-brighton" aria-hidden="true"></span><strong>De Cuyper</strong><small>Brighton - AVL (H)</small></div>
+            <div class="player"><span class="kit kit-arsenal" aria-hidden="true"></span><strong>Calafiori</strong><small>Arsenal - COV (H)</small></div>
+            <div class="player"><span class="kit kit-city" aria-hidden="true"></span><strong>O'Reilly</strong><small>Man City - BOU (H)</small></div>
           </div>
           <div class="row mid">
-            <div class="player"><strong>Groß</strong><small>Brighton - AVL (H)</small></div>
-            <div class="player vice"><strong>B.Fernandes</strong><small>Man Utd - HUL (A)</small></div>
-            <div class="player"><strong>Mbeumo</strong><small>Man Utd - HUL (A)</small></div>
-            <div class="player"><strong>Cherki</strong><small>Man City - BOU (H)</small></div>
+            <div class="player"><span class="kit kit-brighton" aria-hidden="true"></span><strong>Groß</strong><small>Brighton - AVL (H)</small></div>
+            <div class="player vice"><span class="kit kit-united" aria-hidden="true"></span><strong>B.Fernandes</strong><small>Man Utd - HUL (A)</small></div>
+            <div class="player"><span class="kit kit-united" aria-hidden="true"></span><strong>Mbeumo</strong><small>Man Utd - HUL (A)</small></div>
+            <div class="player"><span class="kit kit-city" aria-hidden="true"></span><strong>Cherki</strong><small>Man City - BOU (H)</small></div>
           </div>
           <div class="row fwd">
-            <div class="player captain"><strong>Haaland</strong><small>Man City - BOU (H)</small></div>
-            <div class="player"><strong>João Pedro</strong><small>Chelsea - FUL (A)</small></div>
-            <div class="player"><strong>Brobbey</strong><small>Sunderland - IPS (A)</small></div>
+            <div class="player captain"><span class="kit kit-city" aria-hidden="true"></span><strong>Haaland</strong><small>Man City - BOU (H)</small></div>
+            <div class="player"><span class="kit kit-chelsea" aria-hidden="true"></span><strong>João Pedro</strong><small>Chelsea - FUL (A)</small></div>
+            <div class="player"><span class="kit kit-sunderland" aria-hidden="true"></span><strong>Brobbey</strong><small>Sunderland - IPS (A)</small></div>
           </div>
         </div>
         <div class="legend">
