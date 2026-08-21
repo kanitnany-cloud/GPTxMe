@@ -1,0 +1,40 @@
+{
+  "project": "AI x Kanitnan FPL Quest",
+  "updated_at_th": "2026-08-21T21:45:00+07:00",
+  "gameweek": 1,
+  "deadline_th": "2026-08-22T00:30:00+07:00",
+  "team": {
+    "name": "Yedtsuna",
+    "entry_id": 3944270,
+    "money_in_bank": "£0.0m",
+    "confidence": 84,
+    "risk_level": "Balanced"
+  },
+  "starting_formation": "3-4-3",
+  "starting_xi": [
+    {"name": "Verbruggen", "club": "Brighton", "fixture": "AVL (H)", "kit": "white_blue"},
+    {"name": "De Cuyper", "club": "Brighton", "fixture": "AVL (H)", "kit": "white_blue"},
+    {"name": "Calafiori", "club": "Arsenal", "fixture": "COV (H)", "kit": "red_white"},
+    {"name": "O'Reilly", "club": "Man City", "fixture": "BOU (H)", "kit": "sky_blue"},
+    {"name": "Groß", "club": "Brighton", "fixture": "AVL (H)", "kit": "white_blue"},
+    {"name": "B.Fernandes", "club": "Man Utd", "fixture": "HUL (A)", "kit": "red_black_white", "vice_captain": true},
+    {"name": "Mbeumo", "club": "Man Utd", "fixture": "HUL (A)", "kit": "red_black_white"},
+    {"name": "Cherki", "club": "Man City", "fixture": "BOU (H)", "kit": "sky_blue"},
+    {"name": "Haaland", "club": "Man City", "fixture": "BOU (H)", "kit": "sky_blue", "captain": true},
+    {"name": "João Pedro", "club": "Chelsea", "fixture": "FUL (A)", "kit": "blue"},
+    {"name": "Brobbey", "club": "Sunderland", "fixture": "IPS (A)", "kit": "red_white_black"}
+  ],
+  "bench": ["Dubravka", "Diop", "Hughes", "Bogle"],
+  "captain": "Haaland",
+  "vice_captain": "B.Fernandes",
+  "mini_league": {
+    "id": 872362,
+    "name": "AFC Premier",
+    "source": "https://fantasy.premierleague.com/api/leagues-classic/872362/standings/"
+  },
+  "strategy": {
+    "safe": "Block high EO captain threats first.",
+    "balanced": "Keep 1-2 controlled differentials with strong expected minutes.",
+    "aggressive": "Attack only with fixture + minutes + captain upside, not last-week points."
+  }
+}
