@@ -603,29 +603,20 @@
     }
 
     async function loadLeagueData() {
-      setStatus('Loading', 'Fetching', 'กำลังดึงข้อมูลจาก Fantasy Premier League...');
+      setStatus('Loading', 'Refreshing', 'กำลังโหลด snapshot ล่าสุดจาก GitHub Pages...');
       try {
-        const response = await fetch(leagueUrl, { cache: 'no-store' });
-        if (!response.ok) throw new Error(`FPL API status ${response.status}`);
-        const data = await response.json();
-        localStorage.setItem('fpl-live-league-cache', JSON.stringify({ savedAt: new Date().toISOString(), data }));
-        renderLeague(data);
+        const fallback = await fetch(`${cachedMiniReportUrl}?v=${Date.now()}`, { cache: 'no-store' });
+        if (!fallback.ok) throw new Error(`Cached JSON status ${fallback.status}`);
+        renderMiniReportSnapshot(await fallback.json(), 'Updated JSON');
       } catch (error) {
         const cached = localStorage.getItem('fpl-live-league-cache');
         if (cached) {
           const parsed = JSON.parse(cached);
           renderLeague(parsed.data);
-          setStatus('Cached', 'Fallback', `ใช้ cache จาก ${parsed.savedAt}\n\nถ้าโหลดสดไม่ได้ อาจเป็น CORS หรือ FPL API ชั่วคราว\n${error.message}`);
+          setStatus('Browser Cache', 'Fallback', `ใช้ cache จาก browser: ${parsed.savedAt}\n\nโหลด JSON ล่าสุดไม่ได้: ${error.message}`);
           return;
         }
-        try {
-          const fallback = await fetch(`${cachedMiniReportUrl}?v=${Date.now()}`, { cache: 'no-store' });
-          if (!fallback.ok) throw new Error(`Cached JSON status ${fallback.status}`);
-          renderMiniReportSnapshot(await fallback.json(), 'Cached JSON');
-          return;
-        } catch (fallbackError) {
-          setStatus('Blocked', 'Manual API', `ดึงข้อมูลสดไม่ได้: ${error.message}\nFallback ก็ไม่ผ่าน: ${fallbackError.message}\n\nเปิด API Source แล้วส่งข้อมูลให้ AI ได้ หรือรอโหลดใหม่ภายหลัง`);
-        }
+        setStatus('Blocked', 'JSON Error', `โหลด snapshot ล่าสุดไม่ได้: ${error.message}\n\nวิธีแก้: ต้องรันสคริปต์อัปเดตข้อมูลแล้ว publish JSON ใหม่`);
       }
     }
 

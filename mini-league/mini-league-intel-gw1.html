@@ -46,7 +46,7 @@
 
   <section class="panel">
     <h2>Live Refresh Control</h2>
-    <p>กดเพื่อดึง standings, captain และ chip usage ล่าสุดจาก FPL API ถ้า live ไม่ผ่าน ระบบจะใช้ JSON snapshot ล่าสุดของหน้านี้แทน.</p>
+    <p>กดเพื่อโหลด standings, captain และ chip usage จาก JSON snapshot ล่าสุดบน GitHub Pages. ข้อมูลจริงจาก FPL จะถูกอัปเดตผ่านสคริปต์แล้ว publish ขึ้นเว็บ.</p>
     <div class="toolbar">
       <button id="refreshLiveIntel">Refresh Rival Data</button>
       <a class="link-btn" href="https://fantasy.premierleague.com/leagues/872362/standings/c" target="_blank" rel="noreferrer">Open League</a>
@@ -357,43 +357,9 @@
       refreshButton.disabled = true;
       setLiveStatus('Loading live FPL API');
       try {
-        const [bootstrapResponse, leagueResponse] = await Promise.all([
-          fetch(bootstrapApi, { cache: 'no-store' }),
-          fetch(leagueApi, { cache: 'no-store' })
-        ]);
-        if (!bootstrapResponse.ok) throw new Error(`Bootstrap status ${bootstrapResponse.status}`);
-        if (!leagueResponse.ok) throw new Error(`League status ${leagueResponse.status}`);
-        const bootstrap = await bootstrapResponse.json();
-        const league = await leagueResponse.json();
-        const event = bootstrap.events.find((item) => item.is_current) || bootstrap.events[0];
-        const players = new Map(bootstrap.elements.map((player) => [player.id, player.web_name]));
-        const standings = league.standings?.results || [];
-        const enriched = await Promise.all(standings.map(async (row) => {
-          const [picksResponse, historyResponse] = await Promise.all([
-            fetch(`https://fantasy.premierleague.com/api/entry/${row.entry}/event/${event.id}/picks/`, { cache: 'no-store' }),
-            fetch(`https://fantasy.premierleague.com/api/entry/${row.entry}/history/`, { cache: 'no-store' })
-          ]);
-          if (!picksResponse.ok || !historyResponse.ok) throw new Error(`Entry ${row.entry} detail blocked`);
-          const picks = await picksResponse.json();
-          const history = await historyResponse.json();
-          const captainPick = (picks.picks || []).find((pick) => pick.is_captain) || {};
-          return {
-            ...row,
-            event_total: picks.entry_history?.points,
-            captain: players.get(captainPick.element) || '-',
-            captainMultiplier: captainPick.multiplier || 0,
-            chip: chipLabel(history, event.id)
-          };
-        }));
-        const myTeam = enriched.find((team) => team.entry === myEntryId);
-        renderRows(enriched, myTeam?.total || 0);
-        setLiveStatus(`Live data loaded · ${league.league?.name || 'AFC Premier'} · GW${event.id}`);
+        await loadCachedSnapshot('same-site JSON');
       } catch (error) {
-        try {
-          await loadCachedSnapshot(error.message);
-        } catch (fallbackError) {
-          setLiveStatus(`Blocked · live error: ${error.message} · fallback error: ${fallbackError.message}`);
-        }
+        setLiveStatus(`Blocked · JSON error: ${error.message}`);
       } finally {
         refreshButton.disabled = false;
       }
