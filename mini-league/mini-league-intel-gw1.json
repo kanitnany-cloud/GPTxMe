@@ -2375,7 +2375,8 @@
       "captains": 1,
       "tripleCaptains": 1,
       "event_points": 0,
-      "ownedByMe": true
+      "ownedByMe": true,
+      "total_points": 0
     },
     {
       "id": 8,
@@ -2385,7 +2386,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 9,
-      "ownedByMe": true
+      "ownedByMe": true,
+      "total_points": 99
     },
     {
       "id": 368,
@@ -2395,7 +2397,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 411,
@@ -2405,7 +2408,8 @@
       "captains": 4,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": true
+      "ownedByMe": true,
+      "total_points": 0
     },
     {
       "id": 426,
@@ -2415,7 +2419,8 @@
       "captains": 5,
       "tripleCaptains": 0,
       "event_points": 2,
-      "ownedByMe": true
+      "ownedByMe": true,
+      "total_points": 28
     },
     {
       "id": 1,
@@ -2425,7 +2430,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 6,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 48
     },
     {
       "id": 427,
@@ -2435,7 +2441,8 @@
       "captains": 2,
       "tripleCaptains": 0,
       "event_points": 2,
-      "ownedByMe": true
+      "ownedByMe": true,
+      "total_points": 18
     },
     {
       "id": 557,
@@ -2445,7 +2452,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 6,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 42
     },
     {
       "id": 552,
@@ -2455,7 +2463,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": true
+      "ownedByMe": true,
+      "total_points": 0
     },
     {
       "id": 346,
@@ -2465,7 +2474,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 4,
@@ -2475,7 +2485,8 @@
       "captains": 1,
       "tripleCaptains": 1,
       "event_points": 5,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 35
     },
     {
       "id": 379,
@@ -2485,7 +2496,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 387,
@@ -2495,7 +2507,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": true
+      "ownedByMe": true,
+      "total_points": 0
     },
     {
       "id": 109,
@@ -2505,7 +2518,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": true
+      "ownedByMe": true,
+      "total_points": 0
     },
     {
       "id": 412,
@@ -2515,7 +2529,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 1,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 3
     },
     {
       "id": 175,
@@ -2525,7 +2540,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 1,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 1
     },
     {
       "id": 496,
@@ -2535,7 +2551,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 204,
@@ -2545,7 +2562,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 201,
@@ -2555,7 +2573,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 55,
@@ -2565,7 +2584,8 @@
       "captains": 1,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 13,
@@ -2575,7 +2595,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 3,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 9
     },
     {
       "id": 418,
@@ -2585,7 +2606,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 1,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 3
     },
     {
       "id": 423,
@@ -2595,7 +2617,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 1,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 2
     },
     {
       "id": 497,
@@ -2605,7 +2628,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": true
+      "ownedByMe": true,
+      "total_points": 0
     },
     {
       "id": 124,
@@ -2615,7 +2639,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": true
+      "ownedByMe": true,
+      "total_points": 0
     },
     {
       "id": 469,
@@ -2625,7 +2650,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 529,
@@ -2635,7 +2661,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 397,
@@ -2645,7 +2672,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 112,
@@ -2655,7 +2683,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 356,
@@ -2665,7 +2694,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 366,
@@ -2675,7 +2705,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 367,
@@ -2685,7 +2716,8 @@
       "captains": 1,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 428,
@@ -2695,7 +2727,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 2,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 4
     },
     {
       "id": 32,
@@ -2705,7 +2738,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 305,
@@ -2715,7 +2749,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 259,
@@ -2725,7 +2760,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": true
+      "ownedByMe": true,
+      "total_points": 0
     },
     {
       "id": 542,
@@ -2735,7 +2771,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 212,
@@ -2745,7 +2782,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": true
+      "ownedByMe": true,
+      "total_points": 0
     },
     {
       "id": 534,
@@ -2755,7 +2793,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 152,
@@ -2765,7 +2804,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 329,
@@ -2775,7 +2815,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 40,
@@ -2785,7 +2826,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 455,
@@ -2795,7 +2837,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 385,
@@ -2805,7 +2848,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 544,
@@ -2815,7 +2859,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 277,
@@ -2825,7 +2870,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 8,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 286,
@@ -2835,7 +2881,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 3,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 3
     },
     {
       "id": 173,
@@ -2845,7 +2892,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 3,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 3
     },
     {
       "id": 104,
@@ -2855,7 +2903,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 2,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 43,
@@ -2865,7 +2914,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 2,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 2
     },
     {
       "id": 285,
@@ -2875,7 +2925,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 1,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 38,
@@ -2885,7 +2936,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 87,
@@ -2895,7 +2947,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 431,
@@ -2905,7 +2958,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 453,
@@ -2915,7 +2969,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 248,
@@ -2925,7 +2980,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 330,
@@ -2935,7 +2991,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": true
+      "ownedByMe": true,
+      "total_points": 0
     },
     {
       "id": 452,
@@ -2945,7 +3002,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 50,
@@ -2955,7 +3013,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 159,
@@ -2965,7 +3024,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 399,
@@ -2975,7 +3035,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": true
+      "ownedByMe": true,
+      "total_points": 0
     },
     {
       "id": 115,
@@ -2985,7 +3046,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": true
+      "ownedByMe": true,
+      "total_points": 0
     },
     {
       "id": 113,
@@ -2995,7 +3057,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 127,
@@ -3005,7 +3068,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 388,
@@ -3015,7 +3079,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 391,
@@ -3025,7 +3090,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 31,
@@ -3035,7 +3101,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 200,
@@ -3045,7 +3112,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 28,
@@ -3055,7 +3123,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 223,
@@ -3065,7 +3134,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 67,
@@ -3075,7 +3145,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 185,
@@ -3085,7 +3156,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 208,
@@ -3095,7 +3167,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 498,
@@ -3105,7 +3178,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 269,
@@ -3115,7 +3189,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 106,
@@ -3125,7 +3200,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 61,
@@ -3135,7 +3211,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 260,
@@ -3145,7 +3222,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 490,
@@ -3155,7 +3233,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     },
     {
       "id": 102,
@@ -3165,7 +3244,8 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "ownedByMe": false
+      "ownedByMe": false,
+      "total_points": 0
     }
   ]
 }

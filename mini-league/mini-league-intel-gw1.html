@@ -17,7 +17,7 @@
     .panel { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:16px; margin:16px 0; box-shadow:0 8px 24px rgba(15,23,42,.06); }
     .table-wrap { overflow:auto; border:1px solid var(--line); border-radius:12px; }
     table { width:100%; border-collapse:collapse; min-width:900px; font-size:13px; }
-    th, td { padding:9px 10px; border-bottom:1px solid var(--line); text-align:left; vertical-align:middle; }
+    th, td { padding:9px 10px; border:1px solid var(--line); text-align:left; vertical-align:middle; }
     th { background:#f8fafc; position:sticky; top:0; z-index:1; }
     td.num, th.num { text-align:right; }
     .tag { display:inline-block; padding:4px 7px; border-radius:999px; background:#eef2ff; color:var(--navy); font-weight:700; font-size:11px; }
@@ -29,8 +29,11 @@
     .player small, td small { color:var(--muted); margin-left:4px; }
     .badge { width:24px; height:24px; object-fit:contain; vertical-align:middle; margin-right:6px; }
     .matrix table { min-width:1765px; }
-    .matrix th:first-child { position:sticky; left:0; z-index:2; }
+    .matrix th, .matrix td { border:1px solid #b8c4d4; }
+    .matrix th:first-child { position:sticky; left:0; z-index:2; min-width:190px; background:#f8fafc; }
+    .matrix th:nth-child(2), .matrix td:nth-child(2) { position:sticky; left:190px; z-index:1; background:#fff; font-weight:800; }
     .matrix td { text-align:center; min-width:96px; }
+    .matrix td.total, .matrix th.total { text-align:right; background:#fef3c7; color:#92400e; }
     .matrix td.cap { color:var(--pink); font-weight:800; }
     .two { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
     .toolbar { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0; }
@@ -339,6 +342,53 @@
       }).join('');
     }
 
+    function renderMatrixFromReport(report) {
+      const table = document.querySelector('.matrix table');
+      if (!table) return;
+      const teams = report.teams || [];
+      const playerMap = new Map();
+
+      for (const team of teams) {
+        for (const pick of team.picks || []) {
+          if (!playerMap.has(pick.element)) {
+            playerMap.set(pick.element, {
+              element: pick.element,
+              web_name: pick.web_name,
+              club: pick.club,
+              event_points: Number(pick.event_points || 0),
+              owners: 0,
+              captains: 0,
+              totalPoints: 0,
+              cells: new Map()
+            });
+          }
+          const row = playerMap.get(pick.element);
+          row.owners += 1;
+          if (pick.flag === 'C' || pick.flag === 'TC') row.captains += 1;
+          row.totalPoints += Number(pick.points || 0);
+          row.cells.set(team.entry, { points: Number(pick.points || 0), flag: pick.flag || '' });
+        }
+      }
+
+      const players = [...playerMap.values()].sort((a, b) =>
+        b.owners - a.owners ||
+        b.captains - a.captains ||
+        b.totalPoints - a.totalPoints ||
+        a.web_name.localeCompare(b.web_name)
+      );
+
+      table.querySelector('thead').innerHTML = `<tr><th>Player</th><th class="total">Total Pts</th>${teams.map((team) => `<th>${team.entry_name}</th>`).join('')}</tr>`;
+      table.querySelector('tbody').innerHTML = players.map((player) => {
+        const cells = teams.map((team) => {
+          const cell = player.cells.get(team.entry);
+          if (!cell) return '<td></td>';
+          const capClass = cell.flag === 'C' || cell.flag === 'TC' ? 'cap' : '';
+          return `<td class="${capClass}">${cell.points}<small>${cell.flag}</small></td>`;
+        }).join('');
+        return `<tr><th><span class="player">${player.web_name} <small>${player.club}</small></span></th><td class="total">${player.totalPoints}</td>${cells}</tr>`;
+      }).join('');
+    }
+
     async function loadCachedSnapshot(reason) {
       const response = await fetch(`./mini-league-intel-gw1.json?v=${Date.now()}`, { cache: 'no-store' });
       if (!response.ok) throw new Error(`Cached JSON status ${response.status}`);
@@ -350,6 +400,7 @@
         captainMultiplier: team.captain_multiplier,
         chip: team.chips?.length ? team.chips.map((chip) => `${chip.name} GW${chip.event}`).join(', ') : '-'
       })), myTeam?.total || 0);
+      renderMatrixFromReport(report);
       setLiveStatus(`Cached JSON fallback${reason ? `: ${reason}` : ''}`);
     }
 
