@@ -329,14 +329,15 @@
       <div class="body">
         <p class="note">ดึงข้อมูลจาก Fantasy Premier League โดยตรง: league AFC Premier, standings, new entries และจัดกลุ่มคู่แข่งเพื่อใช้วางแผน block/attack รายสัปดาห์</p>
         <div class="toolbar">
-          <button id="loadLeague">Load FPL Game Data</button>
+          <button id="loadLeague">Refresh Mini-League Data</button>
           <a class="chip blue" href="https://fantasy.premierleague.com/leagues/872362/standings/c" target="_blank" rel="noreferrer">Open League</a>
           <a class="chip yellow" href="https://fantasy.premierleague.com/api/leagues-classic/872362/standings/" target="_blank" rel="noreferrer">API Source</a>
+          <a class="chip green" href="./mini-league/mini-league-intel-gw1.json" target="_blank" rel="noreferrer">Cached JSON</a>
         </div>
         <div class="stat-grid" id="leagueSummary">
           <div class="stat"><label>League</label><strong>AFC Premier</strong><small>ID 872362</small></div>
           <div class="stat"><label>My Team</label><strong>Yedtsuna</strong><small>Team ID 3944270</small></div>
-          <div class="stat"><label>Data Status</label><strong id="leagueStatus">Ready</strong><small>กด Load เพื่อดึงข้อมูลจากเกม</small></div>
+          <div class="stat"><label>Data Status</label><strong id="leagueStatus">Ready</strong><small id="leagueLastUpdated">กด Refresh เพื่อดึงข้อมูลจากเกม</small></div>
           <div class="stat"><label>Strategy Mode</label><strong id="strategyMode">Pre-GW</strong><small>ก่อนมีคะแนนจะ track new entries ก่อน</small></div>
         </div>
         <div class="rival-grid" id="rivalCards" style="margin-top:12px">
@@ -492,10 +493,12 @@
     const leagueId = 872362;
     const myEntryId = 3944270;
     const leagueUrl = `https://fantasy.premierleague.com/api/leagues-classic/${leagueId}/standings/`;
+    const cachedMiniReportUrl = './mini-league/mini-league-intel-gw1.json';
 
     function setStatus(status, mode, detail) {
       document.getElementById('leagueStatus').textContent = status;
       document.getElementById('strategyMode').textContent = mode;
+      document.getElementById('leagueLastUpdated').textContent = `อัปเดตล่าสุด: ${new Date().toLocaleString('th-TH', { timeZone: 'Asia/Bangkok' })}`;
       if (detail) document.getElementById('leagueStrategy').value = detail;
     }
 
@@ -568,6 +571,37 @@
       ].join('\n'));
     }
 
+    function renderMiniReportSnapshot(report, sourceLabel) {
+      const teams = report.teams || [];
+      const rowsEl = document.getElementById('leagueRows');
+      const cardsEl = document.getElementById('rivalCards');
+      const myRow = teams.find((row) => row.entry === myEntryId);
+      const myPoints = myRow ? myRow.total : null;
+
+      rowsEl.innerHTML = teams.map((row) => {
+        const gap = myPoints === null ? '-' : row.total - myPoints;
+        const chip = row.chips?.length ? row.chips.map((item) => `${item.name} GW${item.event}`).join(', ') : '-';
+        return `<tr><td>${row.rank}</td><td>${row.entry_name}</td><td>${row.player_name || '-'}</td><td>${row.total}</td><td>${gap}</td><td>${row.captain || '-'} · Chip ${chip}</td></tr>`;
+      }).join('') || '<tr><td>-</td><td>No cached data</td><td>-</td><td>-</td><td>-</td><td>ยังไม่พบ snapshot</td></tr>';
+
+      cardsEl.innerHTML = teams.filter((row) => row.entry !== myEntryId).slice(0, 6).map((row) => {
+        const gap = myPoints === null ? '-' : row.total - myPoints;
+        const chipClass = row.chips?.length ? 'red' : 'blue';
+        return `<div class="rival-card"><strong>${row.entry_name}</strong><p class="note">${row.player_name || '-'} · Rank ${row.rank} · ${row.total} pts · Gap ${gap}</p><span class="chip ${chipClass}">${row.captain || 'No captain data'}</span></div>`;
+      }).join('');
+
+      const template = (report.template || []).slice(0, 8).map((item) => `${item.web_name} ${item.owners}/${teams.length}`).join(', ');
+      setStatus(sourceLabel, 'Snapshot', [
+        'MINI-LEAGUE SNAPSHOT STRATEGY',
+        `Generated: ${report.generatedAt || '-'}`,
+        `My points: ${myPoints ?? '-'} | Teams: ${teams.length}`,
+        `Template watch: ${template || '-'}`,
+        '',
+        'ใช้ข้อมูลนี้เป็น fallback เมื่อ live FPL API ไม่ผ่าน',
+        'หลักตัดสินใจ: block เฉพาะตัว ownership/captain สูง และ attack ด้วยตัวที่ minutes แน่น + fixture ดี'
+      ].join('\n'));
+    }
+
     async function loadLeagueData() {
       setStatus('Loading', 'Fetching', 'กำลังดึงข้อมูลจาก Fantasy Premier League...');
       try {
@@ -584,7 +618,14 @@
           setStatus('Cached', 'Fallback', `ใช้ cache จาก ${parsed.savedAt}\n\nถ้าโหลดสดไม่ได้ อาจเป็น CORS หรือ FPL API ชั่วคราว\n${error.message}`);
           return;
         }
-        setStatus('Blocked', 'Manual API', `ดึงข้อมูลสดไม่ได้: ${error.message}\n\nเปิด API Source แล้วส่งข้อมูลให้ AI ได้ หรือรอโหลดใหม่ภายหลัง`);
+        try {
+          const fallback = await fetch(`${cachedMiniReportUrl}?v=${Date.now()}`, { cache: 'no-store' });
+          if (!fallback.ok) throw new Error(`Cached JSON status ${fallback.status}`);
+          renderMiniReportSnapshot(await fallback.json(), 'Cached JSON');
+          return;
+        } catch (fallbackError) {
+          setStatus('Blocked', 'Manual API', `ดึงข้อมูลสดไม่ได้: ${error.message}\nFallback ก็ไม่ผ่าน: ${fallbackError.message}\n\nเปิด API Source แล้วส่งข้อมูลให้ AI ได้ หรือรอโหลดใหม่ภายหลัง`);
+        }
       }
     }
 

@@ -33,12 +33,35 @@
     .matrix td { text-align:center; min-width:96px; }
     .matrix td.cap { color:var(--pink); font-weight:800; }
     .two { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+    .toolbar { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0; }
+    button, .link-btn { border:2px solid var(--navy); border-radius:10px; padding:9px 12px; background:#fff; color:var(--navy); font-weight:800; text-decoration:none; box-shadow:3px 3px 0 var(--navy); cursor:pointer; }
+    button:disabled { opacity:.65; cursor:wait; }
+    .status-line { color:var(--muted); font-size:13px; margin:8px 0 0; }
     @media (max-width:900px) { body{padding:14px}.grid,.two{grid-template-columns:1fr} }
   </style>
 </head>
 <body>
   <h1>AFC Premier Mini-League Intel</h1>
   <p>Gameweek 1 · ดึงข้อมูลจาก Fantasy Premier League public API · อัปเดต 22/8/2569 11:24:58</p>
+
+  <section class="panel">
+    <h2>Live Refresh Control</h2>
+    <p>กดเพื่อดึง standings, captain และ chip usage ล่าสุดจาก FPL API ถ้า live ไม่ผ่าน ระบบจะใช้ JSON snapshot ล่าสุดของหน้านี้แทน.</p>
+    <div class="toolbar">
+      <button id="refreshLiveIntel">Refresh Rival Data</button>
+      <a class="link-btn" href="https://fantasy.premierleague.com/leagues/872362/standings/c" target="_blank" rel="noreferrer">Open League</a>
+      <a class="link-btn" href="./mini-league-intel-gw1.json" target="_blank" rel="noreferrer">Cached JSON</a>
+    </div>
+    <div class="status-line" id="liveIntelStatus">Ready · ยังไม่ได้ refresh ในรอบนี้</div>
+    <div class="table-wrap" style="margin-top:12px">
+      <table>
+        <thead><tr><th>Rank</th><th>Team</th><th>Manager</th><th class="num">GW Pts</th><th class="num">Total</th><th>Captain</th><th>Chip</th><th>AI Read</th></tr></thead>
+        <tbody id="liveIntelRows">
+          <tr><td>-</td><td>รอกด Refresh</td><td>-</td><td class="num">-</td><td class="num">-</td><td>-</td><td>-</td><td>ใช้ตาราง snapshot ด้านล่างไปก่อน</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
 
   <section class="grid">
     <div class="card">จำนวนทีม<strong>15</strong></div>
@@ -267,5 +290,117 @@
       </table>
     </div>
   </section>
+  <script>
+    const leagueId = 872362;
+    const myEntryId = 3944270;
+    const leagueApi = `https://fantasy.premierleague.com/api/leagues-classic/${leagueId}/standings/`;
+    const bootstrapApi = 'https://fantasy.premierleague.com/api/bootstrap-static/';
+    const statusEl = document.getElementById('liveIntelStatus');
+    const rowsEl = document.getElementById('liveIntelRows');
+    const refreshButton = document.getElementById('refreshLiveIntel');
+
+    function setLiveStatus(text) {
+      statusEl.textContent = `${text} · ${new Date().toLocaleString('th-TH', { timeZone: 'Asia/Bangkok' })}`;
+    }
+
+    function chipLabel(history, eventId) {
+      const chip = (history.chips || []).find((item) => item.event === eventId);
+      if (!chip) return '-';
+      if (chip.name === '3xc') return 'Triple Captain';
+      if (chip.name === 'bboost') return 'Bench Boost';
+      if (chip.name === 'freehit') return 'Free Hit';
+      if (chip.name === 'wildcard') return 'Wildcard';
+      return chip.name;
+    }
+
+    function aiRead(row, myTotal, chip) {
+      if (row.entry === myEntryId) return 'ทีมเรา: ใช้เป็นฐานเทียบ template และ gap';
+      const gap = row.total - myTotal;
+      if (chip !== '-') return `หักแต้มจาก chip ก่อนประเมินความแข็งจริง · gap ${gap}`;
+      if (gap > 15) return `ผู้นำที่ต้องไล่ · block captain ก่อน attack · gap ${gap}`;
+      if (gap >= -10) return `คู่แข่งโดยตรง · เน้นความชัวร์และ expected minutes · gap ${gap}`;
+      return `ภัยระยะสั้นต่ำกว่า · ไม่ต้อง mirror เกินจำเป็น · gap ${gap}`;
+    }
+
+    function renderRows(items, myTotal) {
+      rowsEl.innerHTML = items.map((item) => {
+        const mine = item.entry === myEntryId ? '<span class="tag good">ME</span> ' : '';
+        const chipClass = item.chip !== '-' ? 'tag hot' : 'tag';
+        return `<tr>
+          <td>${item.rank}</td>
+          <td>${mine}${item.entry_name}</td>
+          <td>${item.player_name || '-'}</td>
+          <td class="num">${item.event_total ?? '-'}</td>
+          <td class="num">${item.total ?? '-'}</td>
+          <td>${item.captain || '-'} ${item.captainMultiplier > 1 ? `<span class="tag hot">x${item.captainMultiplier}</span>` : ''}</td>
+          <td><span class="${chipClass}">${item.chip}</span></td>
+          <td>${aiRead(item, myTotal, item.chip)}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    async function loadCachedSnapshot(reason) {
+      const response = await fetch(`./mini-league-intel-gw1.json?v=${Date.now()}`, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`Cached JSON status ${response.status}`);
+      const report = await response.json();
+      const teams = report.teams || [];
+      const myTeam = teams.find((team) => team.entry === myEntryId);
+      renderRows(teams.map((team) => ({
+        ...team,
+        captainMultiplier: team.captain_multiplier,
+        chip: team.chips?.length ? team.chips.map((chip) => `${chip.name} GW${chip.event}`).join(', ') : '-'
+      })), myTeam?.total || 0);
+      setLiveStatus(`Cached JSON fallback${reason ? `: ${reason}` : ''}`);
+    }
+
+    async function refreshLiveIntel() {
+      refreshButton.disabled = true;
+      setLiveStatus('Loading live FPL API');
+      try {
+        const [bootstrapResponse, leagueResponse] = await Promise.all([
+          fetch(bootstrapApi, { cache: 'no-store' }),
+          fetch(leagueApi, { cache: 'no-store' })
+        ]);
+        if (!bootstrapResponse.ok) throw new Error(`Bootstrap status ${bootstrapResponse.status}`);
+        if (!leagueResponse.ok) throw new Error(`League status ${leagueResponse.status}`);
+        const bootstrap = await bootstrapResponse.json();
+        const league = await leagueResponse.json();
+        const event = bootstrap.events.find((item) => item.is_current) || bootstrap.events[0];
+        const players = new Map(bootstrap.elements.map((player) => [player.id, player.web_name]));
+        const standings = league.standings?.results || [];
+        const enriched = await Promise.all(standings.map(async (row) => {
+          const [picksResponse, historyResponse] = await Promise.all([
+            fetch(`https://fantasy.premierleague.com/api/entry/${row.entry}/event/${event.id}/picks/`, { cache: 'no-store' }),
+            fetch(`https://fantasy.premierleague.com/api/entry/${row.entry}/history/`, { cache: 'no-store' })
+          ]);
+          if (!picksResponse.ok || !historyResponse.ok) throw new Error(`Entry ${row.entry} detail blocked`);
+          const picks = await picksResponse.json();
+          const history = await historyResponse.json();
+          const captainPick = (picks.picks || []).find((pick) => pick.is_captain) || {};
+          return {
+            ...row,
+            event_total: picks.entry_history?.points,
+            captain: players.get(captainPick.element) || '-',
+            captainMultiplier: captainPick.multiplier || 0,
+            chip: chipLabel(history, event.id)
+          };
+        }));
+        const myTeam = enriched.find((team) => team.entry === myEntryId);
+        renderRows(enriched, myTeam?.total || 0);
+        setLiveStatus(`Live data loaded · ${league.league?.name || 'AFC Premier'} · GW${event.id}`);
+      } catch (error) {
+        try {
+          await loadCachedSnapshot(error.message);
+        } catch (fallbackError) {
+          setLiveStatus(`Blocked · live error: ${error.message} · fallback error: ${fallbackError.message}`);
+        }
+      } finally {
+        refreshButton.disabled = false;
+      }
+    }
+
+    refreshButton.addEventListener('click', refreshLiveIntel);
+    refreshLiveIntel();
+  </script>
 </body>
 </html>
