@@ -35,6 +35,8 @@
     .matrix td { text-align:center; min-width:96px; }
     .matrix td.total, .matrix th.total { text-align:right; background:#fef3c7; color:#92400e; }
     .matrix td.cap { color:var(--pink); font-weight:800; }
+    .matrix th small { display:block; margin-top:3px; color:var(--muted); font-weight:700; }
+    .matrix tr.team-total th, .matrix tr.team-total td { background:#dcfce7; color:#065f46; font-weight:900; }
     .two { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
     .toolbar { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0; }
     button, .link-btn { border:2px solid var(--navy); border-radius:10px; padding:9px 12px; background:#fff; color:var(--navy); font-weight:800; text-decoration:none; box-shadow:3px 3px 0 var(--navy); cursor:pointer; }
@@ -377,8 +379,9 @@
         a.web_name.localeCompare(b.web_name)
       );
 
-      table.querySelector('thead').innerHTML = `<tr><th>Player</th><th class="total">Total Pts</th>${teams.map((team) => `<th>${team.entry_name}</th>`).join('')}</tr>`;
-      table.querySelector('tbody').innerHTML = players.map((player) => {
+      table.querySelector('thead').innerHTML = `<tr><th>Player</th><th class="total">Player Total</th>${teams.map((team) => `<th>${team.entry_name}<small>${team.total ?? 0} pts</small></th>`).join('')}</tr>`;
+      const teamTotalRow = `<tr class="team-total"><th>TEAM TOTAL</th><td class="total">${teams.reduce((sum, team) => sum + Number(team.total || 0), 0)}</td>${teams.map((team) => `<td class="total">${team.total ?? 0}</td>`).join('')}</tr>`;
+      const playerRows = players.map((player) => {
         const cells = teams.map((team) => {
           const cell = player.cells.get(team.entry);
           if (!cell) return '<td></td>';
@@ -387,6 +390,7 @@
         }).join('');
         return `<tr><th><span class="player">${player.web_name} <small>${player.club}</small></span></th><td class="total">${player.totalPoints}</td>${cells}</tr>`;
       }).join('');
+      table.querySelector('tbody').innerHTML = teamTotalRow + playerRows;
     }
 
     async function loadCachedSnapshot(reason) {
