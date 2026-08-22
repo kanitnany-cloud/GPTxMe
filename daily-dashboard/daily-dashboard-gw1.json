@@ -1,0 +1,7733 @@
+{
+  "generatedAt": "22/8/2569 12:04:03",
+  "event": {
+    "id": 1,
+    "name": "Gameweek 1",
+    "deadline_time": "2026-08-21T17:30:00Z",
+    "release_time": null,
+    "average_entry_score": 12,
+    "finished": false,
+    "data_checked": false,
+    "highest_scoring_entry": 1851681,
+    "deadline_time_epoch": 1787333400,
+    "deadline_time_game_offset": 0,
+    "highest_score": 54,
+    "is_previous": false,
+    "is_current": true,
+    "is_next": false,
+    "cup_leagues_created": false,
+    "h2h_ko_matches_created": false,
+    "can_enter": false,
+    "can_manage": false,
+    "released": true,
+    "ranked_count": 8906154,
+    "overrides": {
+      "rules": {},
+      "scoring": {},
+      "element_types": [],
+      "pick_multiplier": null
+    },
+    "chip_plays": [
+      {
+        "chip_name": "bboost",
+        "num_played": 814606
+      },
+      {
+        "chip_name": "3xc",
+        "num_played": 250816
+      }
+    ],
+    "most_selected": 411,
+    "most_transferred_in": 1,
+    "top_element": 15,
+    "top_element_info": {
+      "id": 15,
+      "points": 11
+    },
+    "transfers_made": 0,
+    "most_captained": 411,
+    "most_vice_captained": 1
+  },
+  "nextEvent": {
+    "id": 2,
+    "name": "Gameweek 2",
+    "deadline_time": "2026-08-28T17:30:00Z",
+    "release_time": null,
+    "average_entry_score": 0,
+    "finished": false,
+    "data_checked": false,
+    "highest_scoring_entry": null,
+    "deadline_time_epoch": 1787938200,
+    "deadline_time_game_offset": 0,
+    "highest_score": null,
+    "is_previous": false,
+    "is_current": false,
+    "is_next": true,
+    "cup_leagues_created": false,
+    "h2h_ko_matches_created": false,
+    "can_enter": true,
+    "can_manage": true,
+    "released": true,
+    "ranked_count": 0,
+    "overrides": {
+      "rules": {},
+      "scoring": {},
+      "element_types": [],
+      "pick_multiplier": null
+    },
+    "chip_plays": [],
+    "most_selected": null,
+    "most_transferred_in": null,
+    "top_element": null,
+    "top_element_info": null,
+    "transfers_made": 0,
+    "most_captained": null,
+    "most_vice_captained": null
+  },
+  "deadlineTh": "29/8/2569 00:30:00",
+  "myTeam": {
+    "entry": 3944270,
+    "entry_name": "Yedtsuna",
+    "rank": 13,
+    "event_total": 9,
+    "total": 9,
+    "captain": {
+      "element": 411,
+      "web_name": "Haaland",
+      "multiplier": 2,
+      "points": 0
+    },
+    "chips": [],
+    "picks": [
+      {
+        "element": 109,
+        "web_name": "Verbruggen",
+        "club": "BHA",
+        "multiplier": 1,
+        "flag": "XI",
+        "points": 0
+      },
+      {
+        "element": 115,
+        "web_name": "De Cuyper",
+        "club": "BHA",
+        "multiplier": 1,
+        "flag": "XI",
+        "points": 0
+      },
+      {
+        "element": 8,
+        "web_name": "Calafiori",
+        "club": "ARS",
+        "multiplier": 1,
+        "flag": "XI",
+        "points": 9
+      },
+      {
+        "element": 387,
+        "web_name": "O'Reilly",
+        "club": "MCI",
+        "multiplier": 1,
+        "flag": "XI",
+        "points": 0
+      },
+      {
+        "element": 124,
+        "web_name": "Groß",
+        "club": "BHA",
+        "multiplier": 1,
+        "flag": "XI",
+        "points": 0
+      },
+      {
+        "element": 426,
+        "web_name": "B.Fernandes",
+        "club": "MUN",
+        "multiplier": 1,
+        "flag": "VC",
+        "points": 0
+      },
+      {
+        "element": 427,
+        "web_name": "Mbeumo",
+        "club": "MUN",
+        "multiplier": 1,
+        "flag": "XI",
+        "points": 0
+      },
+      {
+        "element": 399,
+        "web_name": "Cherki",
+        "club": "MCI",
+        "multiplier": 1,
+        "flag": "XI",
+        "points": 0
+      },
+      {
+        "element": 411,
+        "web_name": "Haaland",
+        "club": "MCI",
+        "multiplier": 2,
+        "flag": "C",
+        "points": 0
+      },
+      {
+        "element": 165,
+        "web_name": "João Pedro",
+        "club": "CHE",
+        "multiplier": 1,
+        "flag": "XI",
+        "points": 0
+      },
+      {
+        "element": 552,
+        "web_name": "Brobbey",
+        "club": "SUN",
+        "multiplier": 1,
+        "flag": "XI",
+        "points": 0
+      },
+      {
+        "element": 497,
+        "web_name": "Dubravka",
+        "club": "TOT",
+        "multiplier": 0,
+        "flag": "B",
+        "points": 0
+      },
+      {
+        "element": 259,
+        "web_name": "Diop",
+        "club": "IPS",
+        "multiplier": 0,
+        "flag": "B",
+        "points": 0
+      },
+      {
+        "element": 212,
+        "web_name": "Hughes",
+        "club": "CRY",
+        "multiplier": 0,
+        "flag": "B",
+        "points": 0
+      },
+      {
+        "element": 330,
+        "web_name": "Bogle",
+        "club": "LEE",
+        "multiplier": 0,
+        "flag": "B",
+        "points": 0
+      }
+    ]
+  },
+  "mini": {
+    "count": 15,
+    "teams": [
+      {
+        "entry": 3798782,
+        "entry_name": "Mr.Art",
+        "player_name": "TANAWIN NUTCANAT",
+        "rank": 1,
+        "event_total": 33,
+        "total": 33,
+        "captain": {
+          "element": 4,
+          "web_name": "Gabriel",
+          "multiplier": 3,
+          "points": 15
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-11T08:54:43.948886Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 3800481,
+        "entry_name": "Sarumann",
+        "player_name": "Jetsadakorn Maungkum",
+        "rank": 2,
+        "event_total": 21,
+        "total": 21,
+        "captain": {
+          "element": 426,
+          "web_name": "B.Fernandes",
+          "multiplier": 2,
+          "points": 0
+        },
+        "chips": []
+      },
+      {
+        "entry": 7915661,
+        "entry_name": "JedYubZ_WCC",
+        "player_name": "Chetsada Muangsri",
+        "rank": 2,
+        "event_total": 21,
+        "total": 21,
+        "captain": {
+          "element": 411,
+          "web_name": "Haaland",
+          "multiplier": 2,
+          "points": 0
+        },
+        "chips": []
+      },
+      {
+        "entry": 694667,
+        "entry_name": "ทีมของ Apirak",
+        "player_name": "Apirak Aiman",
+        "rank": 2,
+        "event_total": 21,
+        "total": 21,
+        "captain": {
+          "element": 426,
+          "web_name": "B.Fernandes",
+          "multiplier": 2,
+          "points": 0
+        },
+        "chips": [
+          {
+            "name": "bboost",
+            "time": "2026-08-18T02:57:47.394626Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5229629,
+        "entry_name": "Dek Dek FC",
+        "player_name": "NTY D",
+        "rank": 5,
+        "event_total": 17,
+        "total": 17,
+        "captain": {
+          "element": 411,
+          "web_name": "Haaland",
+          "multiplier": 2,
+          "points": 0
+        },
+        "chips": []
+      },
+      {
+        "entry": 454063,
+        "entry_name": "GrossProfit United",
+        "player_name": "wiroon chemkhoonthod",
+        "rank": 5,
+        "event_total": 17,
+        "total": 17,
+        "captain": {
+          "element": 427,
+          "web_name": "Mbeumo",
+          "multiplier": 2,
+          "points": 0
+        },
+        "chips": [
+          {
+            "name": "bboost",
+            "time": "2026-08-21T17:21:26.311079Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8479135,
+        "entry_name": "ช่วยใจดีกับลุงหน่อย",
+        "player_name": "Palm Xavier",
+        "rank": 7,
+        "event_total": 15,
+        "total": 15,
+        "captain": {
+          "element": 426,
+          "web_name": "B.Fernandes",
+          "multiplier": 2,
+          "points": 0
+        },
+        "chips": [
+          {
+            "name": "bboost",
+            "time": "2026-08-21T15:16:07.174091Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5090992,
+        "entry_name": "Runner Up FC",
+        "player_name": "Tangii Slur",
+        "rank": 7,
+        "event_total": 15,
+        "total": 15,
+        "captain": {
+          "element": 426,
+          "web_name": "B.Fernandes",
+          "multiplier": 2,
+          "points": 0
+        },
+        "chips": [
+          {
+            "name": "bboost",
+            "time": "2026-08-21T15:16:47.126274Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8489895,
+        "entry_name": "Goal888",
+        "player_name": "Pichai Boonlay",
+        "rank": 9,
+        "event_total": 14,
+        "total": 14,
+        "captain": {
+          "element": 55,
+          "web_name": "Watkins",
+          "multiplier": 2,
+          "points": 0
+        },
+        "chips": []
+      },
+      {
+        "entry": 7002589,
+        "entry_name": "On",
+        "player_name": "Peerawat Y",
+        "rank": 10,
+        "event_total": 12,
+        "total": 12,
+        "captain": {
+          "element": 426,
+          "web_name": "B.Fernandes",
+          "multiplier": 2,
+          "points": 0
+        },
+        "chips": []
+      },
+      {
+        "entry": 7463306,
+        "entry_name": "KC888",
+        "player_name": "KC B",
+        "rank": 10,
+        "event_total": 12,
+        "total": 12,
+        "captain": {
+          "element": 165,
+          "web_name": "João Pedro",
+          "multiplier": 3,
+          "points": 0
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T01:39:04.826643Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 2164081,
+        "entry_name": "RelegationBattle",
+        "player_name": "Katha Panthong",
+        "rank": 10,
+        "event_total": 12,
+        "total": 12,
+        "captain": {
+          "element": 367,
+          "web_name": "Gakpo",
+          "multiplier": 2,
+          "points": 0
+        },
+        "chips": []
+      },
+      {
+        "entry": 3801503,
+        "entry_name": "Long_Darkz",
+        "player_name": "Pisanu Wongsaard",
+        "rank": 13,
+        "event_total": 9,
+        "total": 9,
+        "captain": {
+          "element": 427,
+          "web_name": "Mbeumo",
+          "multiplier": 2,
+          "points": 0
+        },
+        "chips": []
+      },
+      {
+        "entry": 192330,
+        "entry_name": "SilverBank",
+        "player_name": "BANK PHAKPHUM",
+        "rank": 13,
+        "event_total": 9,
+        "total": 9,
+        "captain": {
+          "element": 411,
+          "web_name": "Haaland",
+          "multiplier": 2,
+          "points": 0
+        },
+        "chips": []
+      },
+      {
+        "entry": 3944270,
+        "entry_name": "Yedtsuna",
+        "player_name": "Kanitnan Yamjongkol",
+        "rank": 13,
+        "event_total": 9,
+        "total": 9,
+        "captain": {
+          "element": 411,
+          "web_name": "Haaland",
+          "multiplier": 2,
+          "points": 0
+        },
+        "chips": []
+      }
+    ],
+    "summary": {
+      "chipCount": 6,
+      "captainRows": [
+        {
+          "captain": "B.Fernandes",
+          "count": 5,
+          "share": 0.3333333333333333
+        },
+        {
+          "captain": "Haaland",
+          "count": 4,
+          "share": 0.26666666666666666
+        },
+        {
+          "captain": "Mbeumo",
+          "count": 2,
+          "share": 0.13333333333333333
+        },
+        {
+          "captain": "Gabriel",
+          "count": 1,
+          "share": 0.06666666666666667
+        },
+        {
+          "captain": "Gakpo",
+          "count": 1,
+          "share": 0.06666666666666667
+        },
+        {
+          "captain": "João Pedro",
+          "count": 1,
+          "share": 0.06666666666666667
+        },
+        {
+          "captain": "Watkins",
+          "count": 1,
+          "share": 0.06666666666666667
+        }
+      ],
+      "playerRows": [
+        {
+          "id": 165,
+          "web_name": "João Pedro",
+          "code": 475168,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 11,
+          "xi": 11,
+          "bench": 0,
+          "captains": 1,
+          "tripleCaptains": 1,
+          "event_points": 0,
+          "selected_by_percent": 64.4,
+          "ep_next": 2.4,
+          "ownedByMe": true
+        },
+        {
+          "id": 8,
+          "web_name": "Calafiori",
+          "code": 466075,
+          "team_short": "ARS",
+          "team_code": 3,
+          "owners": 11,
+          "xi": 11,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 9,
+          "selected_by_percent": 39.8,
+          "ep_next": 2.5,
+          "ownedByMe": true
+        },
+        {
+          "id": 368,
+          "web_name": "Szoboszlai",
+          "code": 424876,
+          "team_short": "LIV",
+          "team_code": 14,
+          "owners": 11,
+          "xi": 9,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 41.8,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 411,
+          "web_name": "Haaland",
+          "code": 223094,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 10,
+          "xi": 10,
+          "bench": 0,
+          "captains": 4,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 69.4,
+          "ep_next": 4,
+          "ownedByMe": true
+        },
+        {
+          "id": 426,
+          "web_name": "B.Fernandes",
+          "code": 141746,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 9,
+          "xi": 9,
+          "bench": 0,
+          "captains": 5,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 51.9,
+          "ep_next": 4,
+          "ownedByMe": true
+        },
+        {
+          "id": 1,
+          "web_name": "Raya",
+          "code": 154561,
+          "team_short": "ARS",
+          "team_code": 3,
+          "owners": 8,
+          "xi": 8,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 6,
+          "selected_by_percent": 37.6,
+          "ep_next": 4,
+          "ownedByMe": false
+        },
+        {
+          "id": 427,
+          "web_name": "Mbeumo",
+          "code": 446008,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 7,
+          "xi": 7,
+          "bench": 0,
+          "captains": 2,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 38.9,
+          "ep_next": 2.8,
+          "ownedByMe": true
+        },
+        {
+          "id": 557,
+          "web_name": "Tzolis",
+          "code": 439509,
+          "team_short": "ARS",
+          "team_code": 3,
+          "owners": 7,
+          "xi": 7,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 6,
+          "selected_by_percent": 25.2,
+          "ep_next": 2.3,
+          "ownedByMe": false
+        },
+        {
+          "id": 552,
+          "web_name": "Brobbey",
+          "code": 441264,
+          "team_short": "SUN",
+          "team_code": 56,
+          "owners": 6,
+          "xi": 5,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 14.2,
+          "ep_next": 2,
+          "ownedByMe": true
+        },
+        {
+          "id": 346,
+          "web_name": "Calvert-Lewin",
+          "code": 177815,
+          "team_short": "LEE",
+          "team_code": 2,
+          "owners": 6,
+          "xi": 3,
+          "bench": 3,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 31.3,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 4,
+          "web_name": "Gabriel",
+          "code": 226597,
+          "team_short": "ARS",
+          "team_code": 3,
+          "owners": 5,
+          "xi": 5,
+          "bench": 0,
+          "captains": 1,
+          "tripleCaptains": 1,
+          "event_points": 5,
+          "selected_by_percent": 29.7,
+          "ep_next": 4,
+          "ownedByMe": false
+        },
+        {
+          "id": 379,
+          "web_name": "Isak",
+          "code": 219168,
+          "team_short": "LIV",
+          "team_code": 14,
+          "owners": 5,
+          "xi": 5,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 16.8,
+          "ep_next": 2.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 387,
+          "web_name": "O'Reilly",
+          "code": 472769,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 5,
+          "xi": 5,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 21.2,
+          "ep_next": 3.1,
+          "ownedByMe": true
+        },
+        {
+          "id": 109,
+          "web_name": "Verbruggen",
+          "code": 489639,
+          "team_short": "BHA",
+          "team_code": 36,
+          "owners": 5,
+          "xi": 4,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 22,
+          "ep_next": 1.9,
+          "ownedByMe": true
+        },
+        {
+          "id": 175,
+          "web_name": "van Ewijk",
+          "code": 451284,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 4,
+          "xi": 1,
+          "bench": 3,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 1,
+          "selected_by_percent": 14,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 496,
+          "web_name": "Kinsky",
+          "code": 485055,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 4,
+          "xi": 3,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 24.5,
+          "ep_next": 1.9,
+          "ownedByMe": false
+        },
+        {
+          "id": 412,
+          "web_name": "Lammens",
+          "code": 465247,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 4,
+          "xi": 3,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 16.7,
+          "ep_next": 2.6,
+          "ownedByMe": false
+        },
+        {
+          "id": 204,
+          "web_name": "Mitchell",
+          "code": 244723,
+          "team_short": "CRY",
+          "team_code": 31,
+          "owners": 4,
+          "xi": 3,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 6.4,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 201,
+          "web_name": "Muñoz",
+          "code": 247348,
+          "team_short": "CRY",
+          "team_code": 31,
+          "owners": 4,
+          "xi": 3,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 9.8,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 55,
+          "web_name": "Watkins",
+          "code": 178301,
+          "team_short": "AVL",
+          "team_code": 7,
+          "owners": 3,
+          "xi": 3,
+          "bench": 0,
+          "captains": 1,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 10.3,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 13,
+          "web_name": "Rice",
+          "code": 204480,
+          "team_short": "ARS",
+          "team_code": 3,
+          "owners": 3,
+          "xi": 3,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 3,
+          "selected_by_percent": 18,
+          "ep_next": 2.6,
+          "ownedByMe": false
+        },
+        {
+          "id": 497,
+          "web_name": "Dubravka",
+          "code": 67089,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 3,
+          "xi": 0,
+          "bench": 3,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 19.8,
+          "ep_next": 1,
+          "ownedByMe": true
+        },
+        {
+          "id": 124,
+          "web_name": "Groß",
+          "code": 60307,
+          "team_short": "BHA",
+          "team_code": 36,
+          "owners": 3,
+          "xi": 2,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 14.5,
+          "ep_next": 2,
+          "ownedByMe": true
+        },
+        {
+          "id": 418,
+          "web_name": "Maguire",
+          "code": 95658,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 3,
+          "xi": 3,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 18.4,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 469,
+          "web_name": "N.Williams",
+          "code": 215136,
+          "team_short": "NFO",
+          "team_code": 17,
+          "owners": 3,
+          "xi": 3,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 10.2,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 529,
+          "web_name": "Roefs",
+          "code": 498016,
+          "team_short": "SUN",
+          "team_code": 56,
+          "owners": 3,
+          "xi": 1,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4.4,
+          "ep_next": 2.6,
+          "ownedByMe": false
+        },
+        {
+          "id": 397,
+          "web_name": "Semenyo",
+          "code": 437730,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 3,
+          "xi": 3,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 26.3,
+          "ep_next": 2.9,
+          "ownedByMe": false
+        },
+        {
+          "id": 423,
+          "web_name": "Shaw",
+          "code": 106760,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 3,
+          "xi": 2,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 21.6,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 112,
+          "web_name": "Van Hecke",
+          "code": 469142,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 3,
+          "xi": 2,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 10.8,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 356,
+          "web_name": "Virgil",
+          "code": 97032,
+          "team_short": "LIV",
+          "team_code": 14,
+          "owners": 3,
+          "xi": 3,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 19,
+          "ep_next": 3.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 366,
+          "web_name": "Wirtz",
+          "code": 494595,
+          "team_short": "LIV",
+          "team_code": 14,
+          "owners": 3,
+          "xi": 3,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 12.6,
+          "ep_next": 2.6,
+          "ownedByMe": false
+        },
+        {
+          "id": 367,
+          "web_name": "Gakpo",
+          "code": 243298,
+          "team_short": "LIV",
+          "team_code": 14,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 1,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.5,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 32,
+          "web_name": "Cash",
+          "code": 199796,
+          "team_short": "AVL",
+          "team_code": 7,
+          "owners": 2,
+          "xi": 1,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 8.9,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 428,
+          "web_name": "Cunha",
+          "code": 430871,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 10.2,
+          "ep_next": 2.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 305,
+          "web_name": "Davis",
+          "code": 455084,
+          "team_short": "IPS",
+          "team_code": 40,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 5.3,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 259,
+          "web_name": "Diop",
+          "code": 219924,
+          "team_short": "IPS",
+          "team_code": 40,
+          "owners": 2,
+          "xi": 0,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 18.5,
+          "ep_next": 1,
+          "ownedByMe": true
+        },
+        {
+          "id": 542,
+          "web_name": "E.Le Fée",
+          "code": 484420,
+          "team_short": "SUN",
+          "team_code": 56,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 10.4,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 212,
+          "web_name": "Hughes",
+          "code": 108413,
+          "team_short": "CRY",
+          "team_code": 31,
+          "owners": 2,
+          "xi": 1,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 12.2,
+          "ep_next": 1,
+          "ownedByMe": true
+        },
+        {
+          "id": 534,
+          "web_name": "Hume",
+          "code": 487676,
+          "team_short": "SUN",
+          "team_code": 56,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 7.1,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 152,
+          "web_name": "Palestra",
+          "code": 620109,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 329,
+          "web_name": "Rodon",
+          "code": 214225,
+          "team_short": "LEE",
+          "team_code": 2,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.7,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 40,
+          "web_name": "Rogers",
+          "code": 244850,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 24.4,
+          "ep_next": 2.6,
+          "ownedByMe": false
+        },
+        {
+          "id": 455,
+          "web_name": "Tonali",
+          "code": 432422,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4.3,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 385,
+          "web_name": "Trafford",
+          "code": 432720,
+          "team_short": "LEE",
+          "team_code": 2,
+          "owners": 2,
+          "xi": 0,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3,
+          "ep_next": 2.6,
+          "ownedByMe": false
+        },
+        {
+          "id": 544,
+          "web_name": "Xhaka",
+          "code": 84450,
+          "team_short": "SUN",
+          "team_code": 56,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4.4,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 173,
+          "web_name": "Thomas",
+          "code": 461102,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 3,
+          "selected_by_percent": 8.1,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 104,
+          "web_name": "Onyeka",
+          "code": 428580,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 2,
+          "selected_by_percent": 0.2,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 38,
+          "web_name": "A.García",
+          "code": 606798,
+          "team_short": "AVL",
+          "team_code": 7,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.8,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 87,
+          "web_name": "Ajer",
+          "code": 191866,
+          "team_short": "BRE",
+          "team_code": 94,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.5,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 431,
+          "web_name": "Amad",
+          "code": 493250,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.7,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 453,
+          "web_name": "Barnes",
+          "code": 201666,
+          "team_short": "NEW",
+          "team_code": 4,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.1,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 286,
+          "web_name": "Belloumi",
+          "code": 540324,
+          "team_short": "HUL",
+          "team_code": 88,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.5,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 248,
+          "web_name": "Beto",
+          "code": 486385,
+          "team_short": "EVE",
+          "team_code": 11,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 2.8,
+          "ep_next": 1.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 330,
+          "web_name": "Bogle",
+          "code": 226182,
+          "team_short": "LEE",
+          "team_code": 2,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.5,
+          "ep_next": 1.7,
+          "ownedByMe": true
+        },
+        {
+          "id": 452,
+          "web_name": "Bruno G.",
+          "code": 208706,
+          "team_short": "ARS",
+          "team_code": 3,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4.2,
+          "ep_next": 1.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 50,
+          "web_name": "Burrowes",
+          "code": 645618,
+          "team_short": "AVL",
+          "team_code": 7,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.7,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 159,
+          "web_name": "Caicedo",
+          "code": 486672,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.9,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 399,
+          "web_name": "Cherki",
+          "code": 466052,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 7.8,
+          "ep_next": 2.6,
+          "ownedByMe": true
+        },
+        {
+          "id": 115,
+          "web_name": "De Cuyper",
+          "code": 465730,
+          "team_short": "BHA",
+          "team_code": 36,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.7,
+          "ep_next": 1.7,
+          "ownedByMe": true
+        },
+        {
+          "id": 277,
+          "web_name": "Egan",
+          "code": 108416,
+          "team_short": "HUL",
+          "team_code": 88,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.5,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 113,
+          "web_name": "F.Kadıoğlu",
+          "code": 231416,
+          "team_short": "BHA",
+          "team_code": 36,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 127,
+          "web_name": "Gomez",
+          "code": 514254,
+          "team_short": "BHA",
+          "team_code": 36,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.9,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 388,
+          "web_name": "Guéhi",
+          "code": 209036,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 17.1,
+          "ep_next": 2.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 391,
+          "web_name": "Gvardiol",
+          "code": 477424,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 11,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 31,
+          "web_name": "Konsa",
+          "code": 199798,
+          "team_short": "ARS",
+          "team_code": 3,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 13.2,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 200,
+          "web_name": "Lacroix",
+          "code": 437499,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 9,
+          "ep_next": 2.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 28,
+          "web_name": "Martinez",
+          "code": 98980,
+          "team_short": "AVL",
+          "team_code": 7,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4.4,
+          "ep_next": 2.6,
+          "ownedByMe": false
+        },
+        {
+          "id": 223,
+          "web_name": "Mateta",
+          "code": 231747,
+          "team_short": "CRY",
+          "team_code": 31,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 5.7,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 285,
+          "web_name": "McNair",
+          "code": 160817,
+          "team_short": "HUL",
+          "team_code": 88,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.1,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 67,
+          "web_name": "Rayan",
+          "code": 499604,
+          "team_short": "BOU",
+          "team_code": 91,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 2.8,
+          "ep_next": 2.3,
+          "ownedByMe": false
+        },
+        {
+          "id": 185,
+          "web_name": "Sakamoto",
+          "code": 501459,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.1,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 208,
+          "web_name": "Sarr",
+          "code": 232185,
+          "team_short": "CRY",
+          "team_code": 31,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4.7,
+          "ep_next": 2.3,
+          "ownedByMe": false
+        },
+        {
+          "id": 498,
+          "web_name": "Senesi",
+          "code": 221466,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 8.2,
+          "ep_next": 2.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 269,
+          "web_name": "Sessegnon",
+          "code": 184349,
+          "team_short": "FUL",
+          "team_code": 54,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.5,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 106,
+          "web_name": "Thiago",
+          "code": 502500,
+          "team_short": "BRE",
+          "team_code": 94,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 17.1,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 43,
+          "web_name": "Tielemans",
+          "code": 166989,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 2.6,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 61,
+          "web_name": "Truffert",
+          "code": 494521,
+          "team_short": "BOU",
+          "team_code": 91,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4.4,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 260,
+          "web_name": "Wilson",
+          "code": 153682,
+          "team_short": "LEE",
+          "team_code": 2,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 6.4,
+          "ep_next": 2.3,
+          "ownedByMe": false
+        },
+        {
+          "id": 490,
+          "web_name": "Wood",
+          "code": 60689,
+          "team_short": "NFO",
+          "team_code": 17,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.8,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 102,
+          "web_name": "Yarmoliuk",
+          "code": 508395,
+          "team_short": "BRE",
+          "team_code": 94,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.4,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        }
+      ]
+    }
+  },
+  "top100": {
+    "count": 100,
+    "teams": [
+      {
+        "entry": 1851681,
+        "entry_name": "GP The Great FC",
+        "rank": 1,
+        "event_total": 56,
+        "total": 56,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T10:20:10.606551Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8433132,
+        "entry_name": "Wott's Ciarolakis",
+        "rank": 2,
+        "event_total": 54,
+        "total": 54,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T14:54:48.710882Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 7678634,
+        "entry_name": "Pending Moderation",
+        "rank": 2,
+        "event_total": 54,
+        "total": 54,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T07:40:44.496516Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8812336,
+        "entry_name": "FC TELFAZA",
+        "rank": 2,
+        "event_total": 54,
+        "total": 54,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T17:04:41.851542Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8696631,
+        "entry_name": "غزة �",
+        "rank": 2,
+        "event_total": 54,
+        "total": 54,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T16:38:10.439470Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8564887,
+        "entry_name": "faisal es",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T15:51:04.044528Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 3632071,
+        "entry_name": "allison's Team",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 10,
+          "web_name": "White",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-10T07:01:37.504497Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5883237,
+        "entry_name": "Munchenflapjack",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-18T22:50:30.550403Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8186239,
+        "entry_name": "ykee fc",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T13:40:51.041058Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5096780,
+        "entry_name": "***********",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-17T15:38:35.649762Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6001056,
+        "entry_name": "rebin's Team",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-19T08:04:21.607713Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 2113566,
+        "entry_name": "Tinners",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T16:47:24.123370Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 7851988,
+        "entry_name": "Suzuki Me Rollin’",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T09:56:25.304244Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 2934545,
+        "entry_name": "White",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 10,
+          "web_name": "White",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-05T08:03:13.024392Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6881145,
+        "entry_name": "Te's Team",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-20T14:10:05.145507Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6821235,
+        "entry_name": "boughazi",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-20T13:12:12.437979Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8825756,
+        "entry_name": "ناصر الدسوقي",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T17:08:28.542494Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8252996,
+        "entry_name": "jime swra Ode",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T13:34:20.522030Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 4050338,
+        "entry_name": "Lim's legacy",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 10,
+          "web_name": "White",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-12T17:29:30.612140Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5680911,
+        "entry_name": "McLay super 11's",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-18T14:21:03.340408Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 2012148,
+        "entry_name": "3ezbt Mo7sen",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 10,
+          "web_name": "White",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-18T10:43:40.041457Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8033542,
+        "entry_name": "Vin's legacy",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 10,
+          "web_name": "White",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T11:41:48.096562Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5173256,
+        "entry_name": "Øde Captain my Capt",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-20T15:42:29.980111Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6967031,
+        "entry_name": "Captain Martin",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-20T15:50:48.137360Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 2548348,
+        "entry_name": "JTs Engels",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-08T14:53:07.613656Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6862365,
+        "entry_name": "Ben Hui United",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-20T13:59:15.116357Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6246657,
+        "entry_name": "Wallabies",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-19T16:03:31.097554Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 2781295,
+        "entry_name": "Six Heaven",
+        "rank": 6,
+        "event_total": 53,
+        "total": 53,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T14:25:43.588550Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 2526430,
+        "entry_name": "lkp",
+        "rank": 29,
+        "event_total": 52,
+        "total": 52,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T17:14:37.256798Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8123770,
+        "entry_name": "jermie fahdbong",
+        "rank": 29,
+        "event_total": 52,
+        "total": 52,
+        "captain": {
+          "element": 10,
+          "web_name": "White",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T12:39:11.041828Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 2184581,
+        "entry_name": "Liam is Delapitated",
+        "rank": 29,
+        "event_total": 52,
+        "total": 52,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T07:56:22.662761Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 7669375,
+        "entry_name": "Ambani Iraola",
+        "rank": 29,
+        "event_total": 52,
+        "total": 52,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T07:31:37.293944Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 7403054,
+        "entry_name": "Dons are going up",
+        "rank": 29,
+        "event_total": 52,
+        "total": 52,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-20T22:55:59.370124Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6163044,
+        "entry_name": "Hitz",
+        "rank": 29,
+        "event_total": 52,
+        "total": 52,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T15:14:40.091497Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8038357,
+        "entry_name": "Mohamed O.",
+        "rank": 29,
+        "event_total": 52,
+        "total": 52,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T14:29:17.360334Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 2199017,
+        "entry_name": "Red DJed Redemption",
+        "rank": 29,
+        "event_total": 52,
+        "total": 52,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-07-30T10:54:16.557880Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 1384215,
+        "entry_name": "Change Name",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-20T17:55:23.630246Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 7629997,
+        "entry_name": "Investors fc",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T06:51:50.300545Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6566575,
+        "entry_name": "zephyr",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-20T06:21:26.653663Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5474204,
+        "entry_name": "Ha Jr",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-18T02:51:59.833050Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 3986742,
+        "entry_name": "Richard's Team",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-18T10:07:38.803902Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 7614032,
+        "entry_name": "ppbabyvox",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T06:31:45.080364Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 2017245,
+        "entry_name": "Sacary Bagna",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T12:44:00.395832Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 1381140,
+        "entry_name": "Dei sympatiske",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-01T20:05:20.536202Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5774496,
+        "entry_name": "Corey-Hx",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-18T17:56:09.882799Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5888451,
+        "entry_name": "Lazy Lemmings",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-20T22:16:18.612094Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 3837360,
+        "entry_name": "YANDOS",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-17T08:15:16.370548Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5492823,
+        "entry_name": "Mr VĐ Team",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-18T05:30:32.422410Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8167940,
+        "entry_name": "adam's Team lm9wd",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T12:52:52.008778Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5950781,
+        "entry_name": "SUDA G",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T11:06:10.282586Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6566575,
+        "entry_name": "zephyr",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-20T06:21:26.653663Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 7612857,
+        "entry_name": "Ulfern",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T13:57:25.656444Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8866488,
+        "entry_name": "mak halal",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T17:19:13.163974Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 7614032,
+        "entry_name": "ppbabyvox",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T06:31:45.080364Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 1381140,
+        "entry_name": "Dei sympatiske",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-01T20:05:20.536202Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5320258,
+        "entry_name": "Arsenalized",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-17T17:11:52.280774Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5667205,
+        "entry_name": "ทีมของ Back",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-18T13:48:47.499694Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 3837360,
+        "entry_name": "YANDOS",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-17T08:15:16.370548Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6765857,
+        "entry_name": "Dawky's Dreamers",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-20T11:50:10.983822Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5888451,
+        "entry_name": "Lazy Lemmings",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-20T22:16:18.612094Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 2167219,
+        "entry_name": "Major League Saka",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T17:14:14.238784Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5492823,
+        "entry_name": "Mr VĐ Team",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-18T05:30:32.422410Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 1232391,
+        "entry_name": "armink",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-07-25T11:02:34.084149Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5474204,
+        "entry_name": "Ha Jr",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-18T02:51:59.833050Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 7629997,
+        "entry_name": "Investors fc",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T06:51:50.300545Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6072728,
+        "entry_name": "Ooh to be a Gooner",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-19T10:48:36.367478Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6851839,
+        "entry_name": "Bee FC",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-20T15:15:15.468763Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5950781,
+        "entry_name": "SUDA G",
+        "rank": 37,
+        "event_total": 51,
+        "total": 51,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T11:06:10.282586Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 2987510,
+        "entry_name": "Chest Press",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-18T17:58:49.877955Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 7972374,
+        "entry_name": "Zingi225$",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T12:09:30.012743Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8793913,
+        "entry_name": "Syako's Team",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T16:59:38.541947Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 127086,
+        "entry_name": "Abu treka",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-15T17:41:18.769630Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 617703,
+        "entry_name": "Love oma",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-14T10:02:44.239149Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8285516,
+        "entry_name": "Dream team",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 10,
+          "web_name": "White",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T13:51:29.826404Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 143139,
+        "entry_name": "ARABICA",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 10,
+          "web_name": "White",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T02:35:36.192512Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6623832,
+        "entry_name": "Nntk",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T04:52:44.202745Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 7810583,
+        "entry_name": "Michael's Team",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T09:26:14.726045Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8774286,
+        "entry_name": "Syako's Team",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 10,
+          "web_name": "White",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T16:54:25.162206Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5526784,
+        "entry_name": "ＨＡＬＡㅤＭＡＤＲＩＤ",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-18T07:59:46.993792Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6240101,
+        "entry_name": "Wolverhampton",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-19T15:50:07.708740Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6824483,
+        "entry_name": "Red White & Odegaard",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T08:38:12.053867Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6633758,
+        "entry_name": "Jonathan__07",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T05:58:05.903410Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 1699159,
+        "entry_name": "roryboy",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T17:26:20.352678Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 1683675,
+        "entry_name": "sekos",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 10,
+          "web_name": "White",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-20T13:10:52.240361Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6786625,
+        "entry_name": "Sopranos",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 10,
+          "web_name": "White",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T11:11:47.709050Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8830143,
+        "entry_name": "Co Ataliotis",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T17:10:01.039230Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 5463073,
+        "entry_name": "Paradoxjatozmla",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-18T01:21:52.848330Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 982542,
+        "entry_name": "Banggai Warrior's",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 10,
+          "web_name": "White",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T16:02:38.533340Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6668173,
+        "entry_name": "Kay",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-20T09:39:22.786590Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 2996398,
+        "entry_name": "OLIVIER FC",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-19T13:52:06.205074Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8893655,
+        "entry_name": "Adam's Team",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T17:26:34.484307Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8520753,
+        "entry_name": "Chratt Klifold",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 12,
+          "web_name": "Saka",
+          "multiplier": 3,
+          "points": 27
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T15:30:26.495856Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8640614,
+        "entry_name": "nketiah jugs out",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T16:12:38.208164Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 1165955,
+        "entry_name": "uncs with aura",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-11T10:15:43.153628Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8235208,
+        "entry_name": "Rory's Team",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T16:44:56.029403Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 2923980,
+        "entry_name": "IRON MAIDEN FC",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-19T12:19:47.412994Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8810703,
+        "entry_name": "Pamplemousses",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 10,
+          "web_name": "White",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T17:04:25.671867Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 8530439,
+        "entry_name": "Networkman",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T15:41:02.376006Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 1504154,
+        "entry_name": "len",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-21T11:56:36.348490Z",
+            "event": 1
+          }
+        ]
+      },
+      {
+        "entry": 6910384,
+        "entry_name": "man city",
+        "rank": 69,
+        "event_total": 50,
+        "total": 50,
+        "captain": {
+          "element": 15,
+          "web_name": "Ødegaard",
+          "multiplier": 3,
+          "points": 33
+        },
+        "chips": [
+          {
+            "name": "3xc",
+            "time": "2026-08-20T14:44:40.356287Z",
+            "event": 1
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "chipCount": 100,
+      "captainRows": [
+        {
+          "captain": "Ødegaard",
+          "count": 86,
+          "share": 0.86
+        },
+        {
+          "captain": "White",
+          "count": 13,
+          "share": 0.13
+        },
+        {
+          "captain": "Saka",
+          "count": 1,
+          "share": 0.01
+        }
+      ],
+      "playerRows": [
+        {
+          "id": 15,
+          "web_name": "Ødegaard",
+          "code": 184029,
+          "team_short": "ARS",
+          "team_code": 3,
+          "owners": 94,
+          "xi": 94,
+          "bench": 0,
+          "captains": 86,
+          "tripleCaptains": 86,
+          "event_points": 11,
+          "selected_by_percent": 8.3,
+          "ep_next": 2.3,
+          "ownedByMe": false
+        },
+        {
+          "id": 8,
+          "web_name": "Calafiori",
+          "code": 466075,
+          "team_short": "ARS",
+          "team_code": 3,
+          "owners": 57,
+          "xi": 57,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 9,
+          "selected_by_percent": 39.8,
+          "ep_next": 2.5,
+          "ownedByMe": true
+        },
+        {
+          "id": 411,
+          "web_name": "Haaland",
+          "code": 223094,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 52,
+          "xi": 51,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 69.4,
+          "ep_next": 4,
+          "ownedByMe": true
+        },
+        {
+          "id": 10,
+          "web_name": "White",
+          "code": 198869,
+          "team_short": "ARS",
+          "team_code": 3,
+          "owners": 51,
+          "xi": 51,
+          "bench": 0,
+          "captains": 13,
+          "tripleCaptains": 13,
+          "event_points": 11,
+          "selected_by_percent": 4.6,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 165,
+          "web_name": "João Pedro",
+          "code": 475168,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 49,
+          "xi": 45,
+          "bench": 4,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 64.4,
+          "ep_next": 2.4,
+          "ownedByMe": true
+        },
+        {
+          "id": 426,
+          "web_name": "B.Fernandes",
+          "code": 141746,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 46,
+          "xi": 44,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 51.9,
+          "ep_next": 4,
+          "ownedByMe": true
+        },
+        {
+          "id": 427,
+          "web_name": "Mbeumo",
+          "code": 446008,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 39,
+          "xi": 35,
+          "bench": 4,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 38.9,
+          "ep_next": 2.8,
+          "ownedByMe": true
+        },
+        {
+          "id": 12,
+          "web_name": "Saka",
+          "code": 223340,
+          "team_short": "ARS",
+          "team_code": 3,
+          "owners": 36,
+          "xi": 36,
+          "bench": 0,
+          "captains": 1,
+          "tripleCaptains": 1,
+          "event_points": 9,
+          "selected_by_percent": 9.4,
+          "ep_next": 3.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 379,
+          "web_name": "Isak",
+          "code": 219168,
+          "team_short": "LIV",
+          "team_code": 14,
+          "owners": 25,
+          "xi": 21,
+          "bench": 4,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 16.8,
+          "ep_next": 2.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 356,
+          "web_name": "Virgil",
+          "code": 97032,
+          "team_short": "LIV",
+          "team_code": 14,
+          "owners": 24,
+          "xi": 20,
+          "bench": 4,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 19,
+          "ep_next": 3.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 368,
+          "web_name": "Szoboszlai",
+          "code": 424876,
+          "team_short": "LIV",
+          "team_code": 14,
+          "owners": 23,
+          "xi": 21,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 41.8,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 1,
+          "web_name": "Raya",
+          "code": 154561,
+          "team_short": "ARS",
+          "team_code": 3,
+          "owners": 22,
+          "xi": 22,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 6,
+          "selected_by_percent": 37.6,
+          "ep_next": 4,
+          "ownedByMe": false
+        },
+        {
+          "id": 423,
+          "web_name": "Shaw",
+          "code": 106760,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 22,
+          "xi": 15,
+          "bench": 7,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 21.6,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 346,
+          "web_name": "Calvert-Lewin",
+          "code": 177815,
+          "team_short": "LEE",
+          "team_code": 2,
+          "owners": 21,
+          "xi": 7,
+          "bench": 14,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 31.3,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 387,
+          "web_name": "O'Reilly",
+          "code": 472769,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 21,
+          "xi": 18,
+          "bench": 3,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 21.2,
+          "ep_next": 3.1,
+          "ownedByMe": true
+        },
+        {
+          "id": 397,
+          "web_name": "Semenyo",
+          "code": 437730,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 21,
+          "xi": 21,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 26.3,
+          "ep_next": 2.9,
+          "ownedByMe": false
+        },
+        {
+          "id": 175,
+          "web_name": "van Ewijk",
+          "code": 451284,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 20,
+          "xi": 9,
+          "bench": 11,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 1,
+          "selected_by_percent": 14,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 412,
+          "web_name": "Lammens",
+          "code": 465247,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 20,
+          "xi": 12,
+          "bench": 8,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 16.7,
+          "ep_next": 2.6,
+          "ownedByMe": false
+        },
+        {
+          "id": 106,
+          "web_name": "Thiago",
+          "code": 502500,
+          "team_short": "BRE",
+          "team_code": 94,
+          "owners": 20,
+          "xi": 15,
+          "bench": 5,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 17.1,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 418,
+          "web_name": "Maguire",
+          "code": 95658,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 19,
+          "xi": 17,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 18.4,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 109,
+          "web_name": "Verbruggen",
+          "code": 489639,
+          "team_short": "BHA",
+          "team_code": 36,
+          "owners": 18,
+          "xi": 8,
+          "bench": 10,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 22,
+          "ep_next": 1.9,
+          "ownedByMe": true
+        },
+        {
+          "id": 226,
+          "web_name": "Pickford",
+          "code": 111234,
+          "team_short": "EVE",
+          "team_code": 11,
+          "owners": 16,
+          "xi": 8,
+          "bench": 8,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 7.9,
+          "ep_next": 3.3,
+          "ownedByMe": false
+        },
+        {
+          "id": 55,
+          "web_name": "Watkins",
+          "code": 178301,
+          "team_short": "AVL",
+          "team_code": 7,
+          "owners": 16,
+          "xi": 16,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 10.3,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 173,
+          "web_name": "Thomas",
+          "code": 461102,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 15,
+          "xi": 12,
+          "bench": 3,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 3,
+          "selected_by_percent": 8.1,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 497,
+          "web_name": "Dubravka",
+          "code": 67089,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 15,
+          "xi": 1,
+          "bench": 14,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 19.8,
+          "ep_next": 1,
+          "ownedByMe": true
+        },
+        {
+          "id": 142,
+          "web_name": "James",
+          "code": 225796,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 15,
+          "xi": 11,
+          "bench": 4,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 10.1,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 499,
+          "web_name": "Pedro Porro",
+          "code": 441164,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 15,
+          "xi": 12,
+          "bench": 3,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 17,
+          "ep_next": 0,
+          "ownedByMe": false
+        },
+        {
+          "id": 557,
+          "web_name": "Tzolis",
+          "code": 439509,
+          "team_short": "ARS",
+          "team_code": 3,
+          "owners": 14,
+          "xi": 14,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 6,
+          "selected_by_percent": 25.2,
+          "ep_next": 2.3,
+          "ownedByMe": false
+        },
+        {
+          "id": 154,
+          "web_name": "Palmer",
+          "code": 244851,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 14,
+          "xi": 13,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 10.4,
+          "ep_next": 3.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 26,
+          "web_name": "Havertz",
+          "code": 219847,
+          "team_short": "ARS",
+          "team_code": 3,
+          "owners": 13,
+          "xi": 13,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 6,
+          "selected_by_percent": 5.6,
+          "ep_next": 2.4,
+          "ownedByMe": false
+        },
+        {
+          "id": 4,
+          "web_name": "Gabriel",
+          "code": 226597,
+          "team_short": "ARS",
+          "team_code": 3,
+          "owners": 13,
+          "xi": 13,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 5,
+          "selected_by_percent": 29.7,
+          "ep_next": 4,
+          "ownedByMe": false
+        },
+        {
+          "id": 350,
+          "web_name": "A.Becker",
+          "code": 116535,
+          "team_short": "LIV",
+          "team_code": 14,
+          "owners": 13,
+          "xi": 7,
+          "bench": 6,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.5,
+          "ep_next": 3.3,
+          "ownedByMe": false
+        },
+        {
+          "id": 40,
+          "web_name": "Rogers",
+          "code": 244850,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 13,
+          "xi": 8,
+          "bench": 5,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 24.4,
+          "ep_next": 2.6,
+          "ownedByMe": false
+        },
+        {
+          "id": 480,
+          "web_name": "Gibbs-White",
+          "code": 222531,
+          "team_short": "NFO",
+          "team_code": 17,
+          "owners": 12,
+          "xi": 10,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 11.6,
+          "ep_next": 2.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 527,
+          "web_name": "Richarlison",
+          "code": 212319,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 12,
+          "xi": 7,
+          "bench": 5,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.2,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 259,
+          "web_name": "Diop",
+          "code": 219924,
+          "team_short": "IPS",
+          "team_code": 40,
+          "owners": 11,
+          "xi": 1,
+          "bench": 10,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 18.5,
+          "ep_next": 1,
+          "ownedByMe": true
+        },
+        {
+          "id": 384,
+          "web_name": "Donnarumma",
+          "code": 204936,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 11,
+          "xi": 9,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 8.2,
+          "ep_next": 3.3,
+          "ownedByMe": false
+        },
+        {
+          "id": 31,
+          "web_name": "Konsa",
+          "code": 199798,
+          "team_short": "ARS",
+          "team_code": 3,
+          "owners": 11,
+          "xi": 4,
+          "bench": 7,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 13.2,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 498,
+          "web_name": "Senesi",
+          "code": 221466,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 11,
+          "xi": 5,
+          "bench": 6,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 8.2,
+          "ep_next": 2.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 104,
+          "web_name": "Onyeka",
+          "code": 428580,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 10,
+          "xi": 10,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 2,
+          "selected_by_percent": 0.2,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 194,
+          "web_name": "Thomas-Asante",
+          "code": 230730,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 10,
+          "xi": 10,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 2,
+          "selected_by_percent": 0.8,
+          "ep_next": 1.4,
+          "ownedByMe": false
+        },
+        {
+          "id": 496,
+          "web_name": "Kinsky",
+          "code": 485055,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 10,
+          "xi": 2,
+          "bench": 8,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 24.5,
+          "ep_next": 1.9,
+          "ownedByMe": false
+        },
+        {
+          "id": 201,
+          "web_name": "Muñoz",
+          "code": 247348,
+          "team_short": "CRY",
+          "team_code": 31,
+          "owners": 10,
+          "xi": 7,
+          "bench": 3,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 9.8,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 229,
+          "web_name": "Tarkowski",
+          "code": 17761,
+          "team_short": "EVE",
+          "team_code": 11,
+          "owners": 10,
+          "xi": 6,
+          "bench": 4,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 8.6,
+          "ep_next": 2.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 184,
+          "web_name": "Grimes",
+          "code": 168144,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 9,
+          "xi": 9,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 2,
+          "selected_by_percent": 0.2,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 190,
+          "web_name": "Tchaouna",
+          "code": 469272,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 9,
+          "xi": 9,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 2,
+          "selected_by_percent": 0.1,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 200,
+          "web_name": "Lacroix",
+          "code": 437499,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 9,
+          "xi": 6,
+          "bench": 3,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 9,
+          "ep_next": 2.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 529,
+          "web_name": "Roefs",
+          "code": 498016,
+          "team_short": "SUN",
+          "team_code": 56,
+          "owners": 9,
+          "xi": 5,
+          "bench": 4,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4.4,
+          "ep_next": 2.6,
+          "ownedByMe": false
+        },
+        {
+          "id": 195,
+          "web_name": "Simms",
+          "code": 218997,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 8,
+          "xi": 6,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 2,
+          "selected_by_percent": 0.9,
+          "ep_next": 1.4,
+          "ownedByMe": false
+        },
+        {
+          "id": 110,
+          "web_name": "Rushworth",
+          "code": 472739,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 8,
+          "xi": 7,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 1,
+          "selected_by_percent": 1.1,
+          "ep_next": 1.9,
+          "ownedByMe": false
+        },
+        {
+          "id": 552,
+          "web_name": "Brobbey",
+          "code": 441264,
+          "team_short": "SUN",
+          "team_code": 56,
+          "owners": 8,
+          "xi": 3,
+          "bench": 5,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 14.2,
+          "ep_next": 2,
+          "ownedByMe": true
+        },
+        {
+          "id": 428,
+          "web_name": "Cunha",
+          "code": 430871,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 8,
+          "xi": 8,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 10.2,
+          "ep_next": 2.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 82,
+          "web_name": "Kelleher",
+          "code": 200720,
+          "team_short": "BRE",
+          "team_code": 94,
+          "owners": 8,
+          "xi": 2,
+          "bench": 6,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 5.8,
+          "ep_next": 2.6,
+          "ownedByMe": false
+        },
+        {
+          "id": 223,
+          "web_name": "Mateta",
+          "code": 231747,
+          "team_short": "CRY",
+          "team_code": 31,
+          "owners": 8,
+          "xi": 3,
+          "bench": 5,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 5.7,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 469,
+          "web_name": "N.Williams",
+          "code": 215136,
+          "team_short": "NFO",
+          "team_code": 17,
+          "owners": 8,
+          "xi": 6,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 10.2,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 112,
+          "web_name": "Van Hecke",
+          "code": 469142,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 8,
+          "xi": 3,
+          "bench": 5,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 10.8,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 366,
+          "web_name": "Wirtz",
+          "code": 494595,
+          "team_short": "LIV",
+          "team_code": 14,
+          "owners": 8,
+          "xi": 6,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 12.6,
+          "ep_next": 2.6,
+          "ownedByMe": false
+        },
+        {
+          "id": 79,
+          "web_name": "Evanilson",
+          "code": 444102,
+          "team_short": "BOU",
+          "team_code": 91,
+          "owners": 7,
+          "xi": 2,
+          "bench": 5,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 2.3,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 237,
+          "web_name": "Ndiaye",
+          "code": 440993,
+          "team_short": "EVE",
+          "team_code": 11,
+          "owners": 7,
+          "xi": 6,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 15.9,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 208,
+          "web_name": "Sarr",
+          "code": 232185,
+          "team_short": "CRY",
+          "team_code": 31,
+          "owners": 7,
+          "xi": 4,
+          "bench": 3,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4.7,
+          "ep_next": 2.3,
+          "ownedByMe": false
+        },
+        {
+          "id": 155,
+          "web_name": "Enzo",
+          "code": 448047,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 6,
+          "xi": 3,
+          "bench": 3,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 5.1,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 388,
+          "web_name": "Guéhi",
+          "code": 209036,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 6,
+          "xi": 6,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 17.1,
+          "ep_next": 2.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 67,
+          "web_name": "Rayan",
+          "code": 499604,
+          "team_short": "BOU",
+          "team_code": 91,
+          "owners": 6,
+          "xi": 2,
+          "bench": 4,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 2.8,
+          "ep_next": 2.3,
+          "ownedByMe": false
+        },
+        {
+          "id": 481,
+          "web_name": "Anderson",
+          "code": 215379,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 5,
+          "xi": 3,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 7.9,
+          "ep_next": 2.3,
+          "ownedByMe": false
+        },
+        {
+          "id": 532,
+          "web_name": "Ballard",
+          "code": 223827,
+          "team_short": "SUN",
+          "team_code": 56,
+          "owners": 5,
+          "xi": 1,
+          "bench": 4,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 5.7,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 32,
+          "web_name": "Cash",
+          "code": 199796,
+          "team_short": "AVL",
+          "team_code": 7,
+          "owners": 5,
+          "xi": 3,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 8.9,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 357,
+          "web_name": "Frimpong",
+          "code": 216094,
+          "team_short": "LIV",
+          "team_code": 14,
+          "owners": 5,
+          "xi": 3,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.5,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 367,
+          "web_name": "Gakpo",
+          "code": 243298,
+          "team_short": "LIV",
+          "team_code": 14,
+          "owners": 5,
+          "xi": 4,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.5,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 391,
+          "web_name": "Gvardiol",
+          "code": 477424,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 5,
+          "xi": 5,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 11,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 198,
+          "web_name": "Henderson",
+          "code": 172649,
+          "team_short": "CRY",
+          "team_code": 31,
+          "owners": 5,
+          "xi": 2,
+          "bench": 3,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.9,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 212,
+          "web_name": "Hughes",
+          "code": 108413,
+          "team_short": "CRY",
+          "team_code": 31,
+          "owners": 5,
+          "xi": 1,
+          "bench": 4,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 12.2,
+          "ep_next": 1,
+          "ownedByMe": true
+        },
+        {
+          "id": 491,
+          "web_name": "Igor Jesus",
+          "code": 482973,
+          "team_short": "NFO",
+          "team_code": 17,
+          "owners": 5,
+          "xi": 1,
+          "bench": 4,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4.3,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 28,
+          "web_name": "Martinez",
+          "code": 98980,
+          "team_short": "AVL",
+          "team_code": 7,
+          "owners": 5,
+          "xi": 4,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4.4,
+          "ep_next": 2.6,
+          "ownedByMe": false
+        },
+        {
+          "id": 533,
+          "web_name": "Mukiele",
+          "code": 200834,
+          "team_short": "SUN",
+          "team_code": 56,
+          "owners": 5,
+          "xi": 1,
+          "bench": 4,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 2.9,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 57,
+          "web_name": "Petrović",
+          "code": 457569,
+          "team_short": "BOU",
+          "team_code": 91,
+          "owners": 5,
+          "xi": 2,
+          "bench": 3,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.2,
+          "ep_next": 1.9,
+          "ownedByMe": false
+        },
+        {
+          "id": 385,
+          "web_name": "Trafford",
+          "code": 432720,
+          "team_short": "LEE",
+          "team_code": 2,
+          "owners": 5,
+          "xi": 0,
+          "bench": 5,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3,
+          "ep_next": 2.6,
+          "ownedByMe": false
+        },
+        {
+          "id": 260,
+          "web_name": "Wilson",
+          "code": 153682,
+          "team_short": "LEE",
+          "team_code": 2,
+          "owners": 5,
+          "xi": 3,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 6.4,
+          "ep_next": 2.3,
+          "ownedByMe": false
+        },
+        {
+          "id": 492,
+          "web_name": "Awoniyi",
+          "code": 210156,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 4,
+          "xi": 3,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 1,
+          "selected_by_percent": 0.9,
+          "ep_next": 1.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 87,
+          "web_name": "Ajer",
+          "code": 191866,
+          "team_short": "BRE",
+          "team_code": 94,
+          "owners": 4,
+          "xi": 0,
+          "bench": 4,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.5,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 495,
+          "web_name": "Austin",
+          "code": 214572,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 4,
+          "xi": 0,
+          "bench": 4,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.9,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 248,
+          "web_name": "Beto",
+          "code": 486385,
+          "team_short": "EVE",
+          "team_code": 11,
+          "owners": 4,
+          "xi": 3,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 2.8,
+          "ep_next": 1.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 305,
+          "web_name": "Davis",
+          "code": 455084,
+          "team_short": "IPS",
+          "team_code": 40,
+          "owners": 4,
+          "xi": 1,
+          "bench": 3,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 5.3,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 542,
+          "web_name": "E.Le Fée",
+          "code": 484420,
+          "team_short": "SUN",
+          "team_code": 56,
+          "owners": 4,
+          "xi": 2,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 10.4,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 398,
+          "web_name": "Foden",
+          "code": 209244,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 4,
+          "xi": 3,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4.4,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 124,
+          "web_name": "Groß",
+          "code": 60307,
+          "team_short": "BHA",
+          "team_code": 36,
+          "owners": 4,
+          "xi": 1,
+          "bench": 3,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 14.5,
+          "ep_next": 2,
+          "ownedByMe": true
+        },
+        {
+          "id": 534,
+          "web_name": "Hume",
+          "code": 487676,
+          "team_short": "SUN",
+          "team_code": 56,
+          "owners": 4,
+          "xi": 2,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 7.1,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 272,
+          "web_name": "Kusi-Asare",
+          "code": 631786,
+          "team_short": "FUL",
+          "team_code": 54,
+          "owners": 4,
+          "xi": 0,
+          "bench": 4,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 7.5,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 295,
+          "web_name": "McBurnie",
+          "code": 169432,
+          "team_short": "HUL",
+          "team_code": 88,
+          "owners": 4,
+          "xi": 2,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.3,
+          "ep_next": 1.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 586,
+          "web_name": "Mendy",
+          "code": 606930,
+          "team_short": "HUL",
+          "team_code": 88,
+          "owners": 4,
+          "xi": 0,
+          "bench": 4,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.1,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 301,
+          "web_name": "Palmer",
+          "code": 112520,
+          "team_short": "IPS",
+          "team_code": 40,
+          "owners": 4,
+          "xi": 0,
+          "bench": 4,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4.8,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 390,
+          "web_name": "Rúben",
+          "code": 171314,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 4,
+          "xi": 4,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.7,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 140,
+          "web_name": "Sánchez",
+          "code": 215059,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 4,
+          "xi": 3,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 2.4,
+          "ep_next": 2.6,
+          "ownedByMe": false
+        },
+        {
+          "id": 455,
+          "web_name": "Tonali",
+          "code": 432422,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 4,
+          "xi": 3,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4.3,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 61,
+          "web_name": "Truffert",
+          "code": 494521,
+          "team_short": "BOU",
+          "team_code": 91,
+          "owners": 4,
+          "xi": 2,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4.4,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 584,
+          "web_name": "Hamer",
+          "code": 196100,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 3,
+          "xi": 3,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 1,
+          "selected_by_percent": 0.1,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 473,
+          "web_name": "Aina",
+          "code": 159506,
+          "team_short": "NFO",
+          "team_code": 17,
+          "owners": 3,
+          "xi": 2,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.7,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 264,
+          "web_name": "Bobb",
+          "code": 477555,
+          "team_short": "FUL",
+          "team_code": 54,
+          "owners": 3,
+          "xi": 3,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.3,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 41,
+          "web_name": "Buendía",
+          "code": 195546,
+          "team_short": "AVL",
+          "team_code": 7,
+          "owners": 3,
+          "xi": 3,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.4,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 417,
+          "web_name": "Dalot",
+          "code": 216051,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 3,
+          "xi": 2,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 2.8,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 277,
+          "web_name": "Egan",
+          "code": 108416,
+          "team_short": "HUL",
+          "team_code": 88,
+          "owners": 3,
+          "xi": 2,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.5,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 127,
+          "web_name": "Gomez",
+          "code": 514254,
+          "team_short": "BHA",
+          "team_code": 36,
+          "owners": 3,
+          "xi": 2,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.9,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 569,
+          "web_name": "Gonzalo",
+          "code": 551466,
+          "team_short": "FUL",
+          "team_code": 54,
+          "owners": 3,
+          "xi": 0,
+          "bench": 3,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 2.1,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 449,
+          "web_name": "Hall",
+          "code": 487838,
+          "team_short": "NEW",
+          "team_code": 4,
+          "owners": 3,
+          "xi": 3,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.5,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 36,
+          "web_name": "Maatsen",
+          "code": 441302,
+          "team_short": "AVL",
+          "team_code": 7,
+          "owners": 3,
+          "xi": 2,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.8,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 419,
+          "web_name": "Martinez",
+          "code": 221820,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 3,
+          "xi": 3,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.4,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 45,
+          "web_name": "McGinn",
+          "code": 122806,
+          "team_short": "AVL",
+          "team_code": 7,
+          "owners": 3,
+          "xi": 1,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.3,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 204,
+          "web_name": "Mitchell",
+          "code": 244723,
+          "team_short": "CRY",
+          "team_code": 31,
+          "owners": 3,
+          "xi": 0,
+          "bench": 3,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 6.4,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 271,
+          "web_name": "Muniz",
+          "code": 244042,
+          "team_short": "FUL",
+          "team_code": 54,
+          "owners": 3,
+          "xi": 1,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.6,
+          "ep_next": 1.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 539,
+          "web_name": "O'Nien",
+          "code": 167512,
+          "team_short": "SUN",
+          "team_code": 56,
+          "owners": 3,
+          "xi": 0,
+          "bench": 3,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.7,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 152,
+          "web_name": "Palestra",
+          "code": 620109,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 3,
+          "xi": 2,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 111,
+          "web_name": "Steele",
+          "code": 49262,
+          "team_short": "BHA",
+          "team_code": 36,
+          "owners": 3,
+          "xi": 0,
+          "bench": 3,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4.2,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 445,
+          "web_name": "Thiaw",
+          "code": 465642,
+          "team_short": "NEW",
+          "team_code": 4,
+          "owners": 3,
+          "xi": 1,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.6,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 188,
+          "web_name": "Torp",
+          "code": 226965,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 1,
+          "selected_by_percent": 0.2,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 575,
+          "web_name": "Yirenkyi",
+          "code": 661888,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 1,
+          "selected_by_percent": 0.3,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 162,
+          "web_name": "Andrey Santos",
+          "code": 532605,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.1,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 249,
+          "web_name": "Barry",
+          "code": 586309,
+          "team_short": "EVE",
+          "team_code": 11,
+          "owners": 2,
+          "xi": 1,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.3,
+          "ep_next": 1.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 265,
+          "web_name": "Berge",
+          "code": 207189,
+          "team_short": "FUL",
+          "team_code": 54,
+          "owners": 2,
+          "xi": 0,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.4,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 230,
+          "web_name": "Branthwaite",
+          "code": 480455,
+          "team_short": "EVE",
+          "team_code": 11,
+          "owners": 2,
+          "xi": 1,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.6,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 448,
+          "web_name": "Burn",
+          "code": 78916,
+          "team_short": "NEW",
+          "team_code": 4,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 2.5,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 399,
+          "web_name": "Cherki",
+          "code": 466052,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 7.8,
+          "ep_next": 2.6,
+          "ownedByMe": true
+        },
+        {
+          "id": 84,
+          "web_name": "Collins",
+          "code": 432830,
+          "team_short": "BRE",
+          "team_code": 94,
+          "owners": 2,
+          "xi": 1,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.8,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 236,
+          "web_name": "Dewsbury-Hall",
+          "code": 215413,
+          "team_short": "EVE",
+          "team_code": 11,
+          "owners": 2,
+          "xi": 1,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.2,
+          "ep_next": 2.3,
+          "ownedByMe": false
+        },
+        {
+          "id": 581,
+          "web_name": "Diomande",
+          "code": 568420,
+          "team_short": "NFO",
+          "team_code": 17,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.8,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 415,
+          "web_name": "Dorgu",
+          "code": 596777,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.4,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 171,
+          "web_name": "Dovin",
+          "code": 484389,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 2,
+          "xi": 1,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.6,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 116,
+          "web_name": "Dunk",
+          "code": 83299,
+          "team_short": "BHA",
+          "team_code": 36,
+          "owners": 2,
+          "xi": 1,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 454,
+          "web_name": "Elanga",
+          "code": 449434,
+          "team_short": "NEW",
+          "team_code": 4,
+          "owners": 2,
+          "xi": 0,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.7,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 316,
+          "web_name": "Emersonn",
+          "code": 543968,
+          "team_short": "IPS",
+          "team_code": 40,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.4,
+          "ep_next": 1.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 113,
+          "web_name": "F.Kadıoğlu",
+          "code": 231416,
+          "team_short": "BHA",
+          "team_code": 36,
+          "owners": 2,
+          "xi": 0,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 125,
+          "web_name": "Georginio",
+          "code": 463067,
+          "team_short": "BHA",
+          "team_code": 36,
+          "owners": 2,
+          "xi": 1,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.9,
+          "ep_next": 1.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 144,
+          "web_name": "Gusto",
+          "code": 482609,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.1,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 60,
+          "web_name": "Hill",
+          "code": 463981,
+          "team_short": "BOU",
+          "team_code": 91,
+          "owners": 2,
+          "xi": 0,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.8,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 123,
+          "web_name": "Hinshelwood",
+          "code": 532529,
+          "team_short": "BHA",
+          "team_code": 36,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.4,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 362,
+          "web_name": "Jacquet",
+          "code": 606702,
+          "team_short": "LIV",
+          "team_code": 14,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 2.3,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 88,
+          "web_name": "Kayode",
+          "code": 607464,
+          "team_short": "BRE",
+          "team_code": 94,
+          "owners": 2,
+          "xi": 0,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.2,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 231,
+          "web_name": "Keane",
+          "code": 106611,
+          "team_short": "EVE",
+          "team_code": 11,
+          "owners": 2,
+          "xi": 1,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.7,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 358,
+          "web_name": "Kerkez",
+          "code": 544877,
+          "team_short": "LIV",
+          "team_code": 14,
+          "owners": 2,
+          "xi": 0,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.8,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 250,
+          "web_name": "Leno",
+          "code": 80201,
+          "team_short": "FUL",
+          "team_code": 54,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.1,
+          "ep_next": 1.9,
+          "ownedByMe": false
+        },
+        {
+          "id": 37,
+          "web_name": "Lindelöf",
+          "code": 184667,
+          "team_short": "AVL",
+          "team_code": 7,
+          "owners": 2,
+          "xi": 1,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.3,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 372,
+          "web_name": "Mac Allister",
+          "code": 243016,
+          "team_short": "LIV",
+          "team_code": 14,
+          "owners": 2,
+          "xi": 0,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.7,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 186,
+          "web_name": "Mason-Clark",
+          "code": 241293,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.1,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 389,
+          "web_name": "Matheus N.",
+          "code": 465351,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.5,
+          "ep_next": 2.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 555,
+          "web_name": "Matthews",
+          "code": 169593,
+          "team_short": "CRY",
+          "team_code": 31,
+          "owners": 2,
+          "xi": 0,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.8,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 565,
+          "web_name": "M.Sangaré",
+          "code": 513545,
+          "team_short": "BRE",
+          "team_code": 94,
+          "owners": 2,
+          "xi": 1,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.3,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 578,
+          "web_name": "Mudryk",
+          "code": 465920,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 472,
+          "web_name": "Murillo",
+          "code": 575476,
+          "team_short": "NFO",
+          "team_code": 17,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.6,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 233,
+          "web_name": "Mykolenko",
+          "code": 224967,
+          "team_short": "EVE",
+          "team_code": 11,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.5,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 466,
+          "web_name": "Neave",
+          "code": 599303,
+          "team_short": "NEW",
+          "team_code": 4,
+          "owners": 2,
+          "xi": 0,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.8,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 156,
+          "web_name": "Neto",
+          "code": 247632,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.3,
+          "ep_next": 2.3,
+          "ownedByMe": false
+        },
+        {
+          "id": 166,
+          "web_name": "N.Jackson",
+          "code": 517052,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 2,
+          "xi": 0,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.3,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 34,
+          "web_name": "Pau",
+          "code": 244954,
+          "team_short": "AVL",
+          "team_code": 7,
+          "owners": 2,
+          "xi": 1,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.5,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 442,
+          "web_name": "Pope",
+          "code": 98747,
+          "team_short": "NEW",
+          "team_code": 4,
+          "owners": 2,
+          "xi": 1,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.3,
+          "ep_next": 2.6,
+          "ownedByMe": false
+        },
+        {
+          "id": 164,
+          "web_name": "Quenda",
+          "code": 593117,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 502,
+          "web_name": "Robertson",
+          "code": 122798,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 2,
+          "xi": 0,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 254,
+          "web_name": "Robinson",
+          "code": 169528,
+          "team_short": "FUL",
+          "team_code": 54,
+          "owners": 2,
+          "xi": 1,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.7,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 185,
+          "web_name": "Sakamoto",
+          "code": 501459,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.1,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 467,
+          "web_name": "Sels",
+          "code": 85633,
+          "team_short": "NFO",
+          "team_code": 17,
+          "owners": 2,
+          "xi": 1,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.6,
+          "ep_next": 2.6,
+          "ownedByMe": false
+        },
+        {
+          "id": 269,
+          "web_name": "Sessegnon",
+          "code": 184349,
+          "team_short": "FUL",
+          "team_code": 54,
+          "owners": 2,
+          "xi": 0,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.5,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 290,
+          "web_name": "Slater",
+          "code": 243413,
+          "team_short": "HUL",
+          "team_code": 88,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.1,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 222,
+          "web_name": "Strand Larsen",
+          "code": 247412,
+          "team_short": "CRY",
+          "team_code": 31,
+          "owners": 2,
+          "xi": 0,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.6,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 68,
+          "web_name": "Tavernier",
+          "code": 201658,
+          "team_short": "BOU",
+          "team_code": 91,
+          "owners": 2,
+          "xi": 0,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.6,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 514,
+          "web_name": "Tel",
+          "code": 511499,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.6,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 503,
+          "web_name": "Van de Ven",
+          "code": 491279,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 5.5,
+          "ep_next": 0,
+          "ownedByMe": false
+        },
+        {
+          "id": 463,
+          "web_name": "Woltemade",
+          "code": 470313,
+          "team_short": "NEW",
+          "team_code": 4,
+          "owners": 2,
+          "xi": 0,
+          "bench": 2,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.7,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 490,
+          "web_name": "Wood",
+          "code": 60689,
+          "team_short": "NFO",
+          "team_code": 17,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.8,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 544,
+          "web_name": "Xhaka",
+          "code": 84450,
+          "team_short": "SUN",
+          "team_code": 56,
+          "owners": 2,
+          "xi": 2,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4.4,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 176,
+          "web_name": "Dasilva",
+          "code": 173878,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 1,
+          "selected_by_percent": 0.8,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 183,
+          "web_name": "Rudoni",
+          "code": 480457,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 1,
+          "selected_by_percent": 0.1,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 392,
+          "web_name": "Aït-Nouri",
+          "code": 448514,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.9,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 279,
+          "web_name": "Ajayi",
+          "code": 146426,
+          "team_short": "HUL",
+          "team_code": 88,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 535,
+          "web_name": "Alderete",
+          "code": 201895,
+          "team_short": "SUN",
+          "team_code": 56,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.5,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 322,
+          "web_name": "Al-Hamadi",
+          "code": 462387,
+          "team_short": "IPS",
+          "team_code": 40,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.2,
+          "ep_next": 1.4,
+          "ownedByMe": false
+        },
+        {
+          "id": 431,
+          "web_name": "Amad",
+          "code": 493250,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.7,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 338,
+          "web_name": "Ampadu",
+          "code": 199598,
+          "team_short": "LEE",
+          "team_code": 2,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.5,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 129,
+          "web_name": "Ayari",
+          "code": 509416,
+          "team_short": "BHA",
+          "team_code": 36,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.7,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 452,
+          "web_name": "Bruno G.",
+          "code": 208706,
+          "team_short": "ARS",
+          "team_code": 3,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 4.2,
+          "ep_next": 1.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 149,
+          "web_name": "Colwill",
+          "code": 460028,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.6,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 280,
+          "web_name": "Coyle",
+          "code": 193278,
+          "team_short": "HUL",
+          "team_code": 88,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.7,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 594,
+          "web_name": "David",
+          "code": 538007,
+          "team_short": "BHA",
+          "team_code": 36,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.3,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 508,
+          "web_name": "Davies",
+          "code": 115556,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.1,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 167,
+          "web_name": "Delap",
+          "code": 463034,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.5,
+          "ep_next": 1.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 400,
+          "web_name": "Doku",
+          "code": 248875,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 2,
+          "ep_next": 0,
+          "ownedByMe": false
+        },
+        {
+          "id": 487,
+          "web_name": "Dominguez",
+          "code": 250199,
+          "team_short": "NFO",
+          "team_code": 17,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.1,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 591,
+          "web_name": "Enciso",
+          "code": 474120,
+          "team_short": "IPS",
+          "team_code": 40,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.3,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 160,
+          "web_name": "Garnacho",
+          "code": 493105,
+          "team_short": "AVL",
+          "team_code": 7,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.6,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 317,
+          "web_name": "Hirst",
+          "code": 222625,
+          "team_short": "IPS",
+          "team_code": 40,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.3,
+          "ep_next": 0,
+          "ownedByMe": false
+        },
+        {
+          "id": 567,
+          "web_name": "Horníček",
+          "code": 470551,
+          "team_short": "NEW",
+          "team_code": 4,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.6,
+          "ep_next": 2.6,
+          "ownedByMe": false
+        },
+        {
+          "id": 488,
+          "web_name": "I.Sangaré",
+          "code": 210462,
+          "team_short": "NFO",
+          "team_code": 17,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.1,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 553,
+          "web_name": "Isidor",
+          "code": 437505,
+          "team_short": "SUN",
+          "team_code": 56,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1,
+          "ep_next": 1.8,
+          "ownedByMe": false
+        },
+        {
+          "id": 261,
+          "web_name": "Iwobi",
+          "code": 153133,
+          "team_short": "FUL",
+          "team_code": 54,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 456,
+          "web_name": "J.Ramsey",
+          "code": 232653,
+          "team_short": "NEW",
+          "team_code": 4,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.4,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 177,
+          "web_name": "Kesler-Hayden",
+          "code": 465390,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.1,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 393,
+          "web_name": "Khusanov",
+          "code": 578153,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.7,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 174,
+          "web_name": "Kitching",
+          "code": 436761,
+          "team_short": "COV",
+          "team_code": 9,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.7,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 70,
+          "web_name": "Kluivert",
+          "code": 222683,
+          "team_short": "BOU",
+          "team_code": 91,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.1,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 251,
+          "web_name": "Lecomte",
+          "code": 86873,
+          "team_short": "FUL",
+          "team_code": 54,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.2,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 339,
+          "web_name": "Longstaff",
+          "code": 180135,
+          "team_short": "LEE",
+          "team_code": 2,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.1,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 515,
+          "web_name": "Maddison",
+          "code": 172780,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.4,
+          "ep_next": 2.3,
+          "ownedByMe": false
+        },
+        {
+          "id": 422,
+          "web_name": "Mazraoui",
+          "code": 230001,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.6,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 323,
+          "web_name": "McAteer",
+          "code": 461587,
+          "team_short": "IPS",
+          "team_code": 40,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.5,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 541,
+          "web_name": "Meunier",
+          "code": 93605,
+          "team_short": "SUN",
+          "team_code": 56,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.3,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 471,
+          "web_name": "Milenković",
+          "code": 227444,
+          "team_short": "NFO",
+          "team_code": 17,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 2,
+          "ep_next": 2.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 523,
+          "web_name": "Moore",
+          "code": 499721,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.2,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 334,
+          "web_name": "Muharemović",
+          "code": 522047,
+          "team_short": "LEE",
+          "team_code": 2,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.4,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 369,
+          "web_name": "Ngumoha",
+          "code": 611922,
+          "team_short": "LIV",
+          "team_code": 14,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.2,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 95,
+          "web_name": "O.Dango",
+          "code": 533463,
+          "team_short": "BRE",
+          "team_code": 94,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.2,
+          "ep_next": 2.3,
+          "ownedByMe": false
+        },
+        {
+          "id": 524,
+          "web_name": "Olusesi",
+          "code": 499726,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.9,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 292,
+          "web_name": "Ömür",
+          "code": 208481,
+          "team_short": "HUL",
+          "team_code": 88,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 304,
+          "web_name": "O'Shea",
+          "code": 216616,
+          "team_short": "IPS",
+          "team_code": 40,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.5,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 465,
+          "web_name": "Osula",
+          "code": 538207,
+          "team_short": "NEW",
+          "team_code": 4,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.9,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 592,
+          "web_name": "Ouattara",
+          "code": 572584,
+          "team_short": "IPS",
+          "team_code": 40,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 518,
+          "web_name": "P.M.Sarr",
+          "code": 482442,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.3,
+          "ep_next": 0,
+          "ownedByMe": false
+        },
+        {
+          "id": 365,
+          "web_name": "Ramsay",
+          "code": 489580,
+          "team_short": "LIV",
+          "team_code": 14,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.2,
+          "ep_next": 1,
+          "ownedByMe": false
+        },
+        {
+          "id": 329,
+          "web_name": "Rodon",
+          "code": 214225,
+          "team_short": "LEE",
+          "team_code": 2,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.7,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 246,
+          "web_name": "Röhl",
+          "code": 513466,
+          "team_short": "EVE",
+          "team_code": 11,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.1,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 573,
+          "web_name": "Sanchez",
+          "code": 494928,
+          "team_short": "BOU",
+          "team_code": 91,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.2,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 403,
+          "web_name": "Savinho",
+          "code": 510281,
+          "team_short": "MCI",
+          "team_code": 43,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.3,
+          "ep_next": 2.3,
+          "ownedByMe": false
+        },
+        {
+          "id": 94,
+          "web_name": "Schade",
+          "code": 513418,
+          "team_short": "BRE",
+          "team_code": 94,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 3.7,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 446,
+          "web_name": "Schär",
+          "code": 119471,
+          "team_short": "NEW",
+          "team_code": 4,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.2,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 564,
+          "web_name": "Scherpen",
+          "code": 240514,
+          "team_short": "IPS",
+          "team_code": 40,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.7,
+          "ep_next": 1.9,
+          "ownedByMe": false
+        },
+        {
+          "id": 69,
+          "web_name": "Scott",
+          "code": 503139,
+          "team_short": "BOU",
+          "team_code": 91,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.5,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 43,
+          "web_name": "Tielemans",
+          "code": 166989,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 2.6,
+          "ep_next": 2.1,
+          "ownedByMe": false
+        },
+        {
+          "id": 572,
+          "web_name": "Tzolakis",
+          "code": 473284,
+          "team_short": "HUL",
+          "team_code": 88,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.6,
+          "ep_next": 1.9,
+          "ownedByMe": false
+        },
+        {
+          "id": 506,
+          "web_name": "Udogie",
+          "code": 487053,
+          "team_short": "TOT",
+          "team_code": 6,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.5,
+          "ep_next": 1.7,
+          "ownedByMe": false
+        },
+        {
+          "id": 83,
+          "web_name": "Valdimarsson",
+          "code": 507433,
+          "team_short": "BRE",
+          "team_code": 94,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.1,
+          "ep_next": 1.9,
+          "ownedByMe": false
+        },
+        {
+          "id": 504,
+          "web_name": "Vuskovic",
+          "code": 610799,
+          "team_short": "BHA",
+          "team_code": 36,
+          "owners": 1,
+          "xi": 0,
+          "bench": 1,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 2.5,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        },
+        {
+          "id": 136,
+          "web_name": "Welbeck",
+          "code": 50175,
+          "team_short": "CHE",
+          "team_code": 8,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.2,
+          "ep_next": 1.5,
+          "ownedByMe": false
+        },
+        {
+          "id": 464,
+          "web_name": "Wissa",
+          "code": 216646,
+          "team_short": "NEW",
+          "team_code": 4,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 1.6,
+          "ep_next": 2,
+          "ownedByMe": false
+        },
+        {
+          "id": 420,
+          "web_name": "Yoro",
+          "code": 550864,
+          "team_short": "MUN",
+          "team_code": 1,
+          "owners": 1,
+          "xi": 1,
+          "bench": 0,
+          "captains": 0,
+          "tripleCaptains": 0,
+          "event_points": 0,
+          "selected_by_percent": 0.7,
+          "ep_next": 2.2,
+          "ownedByMe": false
+        }
+      ]
+    }
+  },
+  "combinedMissing": [
+    {
+      "id": 368,
+      "web_name": "Szoboszlai",
+      "code": 424876,
+      "team_short": "LIV",
+      "team_code": 14,
+      "owners": 23,
+      "xi": 21,
+      "bench": 2,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 0,
+      "selected_by_percent": 41.8,
+      "ep_next": 2.5,
+      "ownedByMe": false,
+      "miniOwners": 11,
+      "topOwners": 23,
+      "recommendation": "Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ"
+    },
+    {
+      "id": 1,
+      "web_name": "Raya",
+      "code": 154561,
+      "team_short": "ARS",
+      "team_code": 3,
+      "owners": 22,
+      "xi": 22,
+      "bench": 0,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 6,
+      "selected_by_percent": 37.6,
+      "ep_next": 4,
+      "ownedByMe": false,
+      "miniOwners": 8,
+      "topOwners": 22,
+      "recommendation": "Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ"
+    },
+    {
+      "id": 15,
+      "web_name": "Ødegaard",
+      "code": 184029,
+      "team_short": "ARS",
+      "team_code": 3,
+      "owners": 94,
+      "xi": 94,
+      "bench": 0,
+      "captains": 86,
+      "tripleCaptains": 86,
+      "event_points": 11,
+      "selected_by_percent": 8.3,
+      "ep_next": 2.3,
+      "ownedByMe": false,
+      "miniOwners": 0,
+      "topOwners": 94,
+      "recommendation": "Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ"
+    },
+    {
+      "id": 557,
+      "web_name": "Tzolis",
+      "code": 439509,
+      "team_short": "ARS",
+      "team_code": 3,
+      "owners": 7,
+      "xi": 7,
+      "bench": 0,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 6,
+      "selected_by_percent": 25.2,
+      "ep_next": 2.3,
+      "ownedByMe": false,
+      "miniOwners": 7,
+      "topOwners": 14,
+      "recommendation": "Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ"
+    },
+    {
+      "id": 346,
+      "web_name": "Calvert-Lewin",
+      "code": 177815,
+      "team_short": "LEE",
+      "team_code": 2,
+      "owners": 21,
+      "xi": 7,
+      "bench": 14,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 0,
+      "selected_by_percent": 31.3,
+      "ep_next": 2,
+      "ownedByMe": false,
+      "miniOwners": 6,
+      "topOwners": 21,
+      "recommendation": "Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ"
+    },
+    {
+      "id": 379,
+      "web_name": "Isak",
+      "code": 219168,
+      "team_short": "LIV",
+      "team_code": 14,
+      "owners": 25,
+      "xi": 21,
+      "bench": 4,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 0,
+      "selected_by_percent": 16.8,
+      "ep_next": 2.7,
+      "ownedByMe": false,
+      "miniOwners": 5,
+      "topOwners": 25,
+      "recommendation": "Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ"
+    },
+    {
+      "id": 4,
+      "web_name": "Gabriel",
+      "code": 226597,
+      "team_short": "ARS",
+      "team_code": 3,
+      "owners": 5,
+      "xi": 5,
+      "bench": 0,
+      "captains": 1,
+      "tripleCaptains": 1,
+      "event_points": 5,
+      "selected_by_percent": 29.7,
+      "ep_next": 4,
+      "ownedByMe": false,
+      "miniOwners": 5,
+      "topOwners": 13,
+      "recommendation": "Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ"
+    },
+    {
+      "id": 175,
+      "web_name": "van Ewijk",
+      "code": 451284,
+      "team_short": "COV",
+      "team_code": 9,
+      "owners": 4,
+      "xi": 1,
+      "bench": 3,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 1,
+      "selected_by_percent": 14,
+      "ep_next": 1,
+      "ownedByMe": false,
+      "miniOwners": 4,
+      "topOwners": 20,
+      "recommendation": "Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ"
+    },
+    {
+      "id": 412,
+      "web_name": "Lammens",
+      "code": 465247,
+      "team_short": "MUN",
+      "team_code": 1,
+      "owners": 4,
+      "xi": 3,
+      "bench": 1,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 0,
+      "selected_by_percent": 16.7,
+      "ep_next": 2.6,
+      "ownedByMe": false,
+      "miniOwners": 4,
+      "topOwners": 20,
+      "recommendation": "Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ"
+    },
+    {
+      "id": 356,
+      "web_name": "Virgil",
+      "code": 97032,
+      "team_short": "LIV",
+      "team_code": 14,
+      "owners": 24,
+      "xi": 20,
+      "bench": 4,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 0,
+      "selected_by_percent": 19,
+      "ep_next": 3.1,
+      "ownedByMe": false,
+      "miniOwners": 3,
+      "topOwners": 24,
+      "recommendation": "Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ"
+    },
+    {
+      "id": 423,
+      "web_name": "Shaw",
+      "code": 106760,
+      "team_short": "MUN",
+      "team_code": 1,
+      "owners": 22,
+      "xi": 15,
+      "bench": 7,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 0,
+      "selected_by_percent": 21.6,
+      "ep_next": 1.7,
+      "ownedByMe": false,
+      "miniOwners": 3,
+      "topOwners": 22,
+      "recommendation": "Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ"
+    },
+    {
+      "id": 10,
+      "web_name": "White",
+      "code": 198869,
+      "team_short": "ARS",
+      "team_code": 3,
+      "owners": 51,
+      "xi": 51,
+      "bench": 0,
+      "captains": 13,
+      "tripleCaptains": 13,
+      "event_points": 11,
+      "selected_by_percent": 4.6,
+      "ep_next": 2.5,
+      "ownedByMe": false,
+      "miniOwners": 0,
+      "topOwners": 51,
+      "recommendation": "Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ"
+    }
+  ]
+}

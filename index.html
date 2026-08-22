@@ -355,6 +355,34 @@
     </article>
 
     <article class="panel span-12">
+      <h2>Daily Strategy Dashboard</h2>
+      <div class="body">
+        <p class="note">สรุปวันนี้จากข้อมูล FPL official API, AFC Premier mini-league 15 ทีม และ Overall top 100 เพื่อแยก template จริงออกจาก chip/captain spike</p>
+        <div class="stat-grid">
+          <div class="stat"><label>Top 100 Signal</label><strong>100/100 TC</strong><small>ทุกทีม top 100 ใช้ Triple Captain แล้ว</small></div>
+          <div class="stat"><label>Top Captain</label><strong>Ødegaard</strong><small>86/100 captained him</small></div>
+          <div class="stat"><label>Mini Chips</label><strong>6/15</strong><small>Triple Captain 2, Bench Boost 4</small></div>
+          <div class="stat"><label>Today Call</label><strong>No Panic</strong><small>รอ GW1 จบก่อน transfer</small></div>
+        </div>
+        <div class="toolbar">
+          <a class="chip green" href="./daily-dashboard/daily-dashboard-gw1.html" target="_blank" rel="noreferrer">Open Daily Dashboard</a>
+          <a class="chip blue" href="./daily-dashboard/top100-template-gw1.csv" target="_blank" rel="noreferrer">Top 100 CSV</a>
+          <a class="chip yellow" href="./daily-dashboard/daily-dashboard-gw1.json" target="_blank" rel="noreferrer">Daily JSON</a>
+        </div>
+        <div class="table-wrap" style="margin-top:12px">
+          <table>
+            <thead><tr><th>Decision</th><th>Evidence</th><th>Action</th></tr></thead>
+            <tbody>
+              <tr><td>ไม่ไล่ top 100 แบบตรงตัว</td><td>top 100 ทั้งหมดใช้ TC, 86% captain Ødegaard</td><td>ถือว่าเป็น chip/captain spike ไม่ใช่ template ระยะยาวล้วน</td></tr>
+              <tr><td>รักษา chip advantage</td><td>เราไม่ใช้ chip, mini-league ใช้ไปแล้ว 6 ทีม</td><td>เก็บ TC/BB/FH/WC ไว้ window ที่ EV สูงกว่า</td></tr>
+              <tr><td>Watchlist ไม่ใช่ Buy List</td><td>Szoboszlai, Raya, Tzolis, Gabriel, Ødegaard เป็น gap สำคัญ</td><td>ซื้อเฉพาะเมื่อ minutes + fixture + role ยืนยันหลัง GW จบ</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </article>
+
+    <article class="panel span-12">
       <h2>GW1 Mini-League Intel Report</h2>
       <div class="body">
         <p class="note">Snapshot จาก FPL official public API: AFC Premier มี 15 ทีม, ดึง picks, captain, chip usage, overlap และ player template matrix เพื่อใช้วางแผน block/attack หลัง deadline</p>

@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FPL Daily Strategy Dashboard</title>
+  <style>
+    :root { --bg:#eef4fb; --card:#fff; --ink:#101827; --muted:#64748b; --line:#d9e3ef; --navy:#12213a; --pink:#e90052; --green:#00a86b; --amber:#f59e0b; --blue:#2563eb; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:Arial,Helvetica,sans-serif; }
+    header { padding:28px 24px; color:#fff; background:linear-gradient(135deg,#071018,#14213d 55%,#0f766e); }
+    main { padding:20px 24px 34px; max-width:1440px; margin:0 auto; }
+    h1 { margin:0 0 8px; font-size:30px; letter-spacing:0; }
+    h2 { margin:0 0 12px; font-size:18px; }
+    p { color:var(--muted); line-height:1.5; }
+    header p { color:#cbd5e1; margin:0; }
+    .grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin:16px 0; }
+    .card,.panel { background:var(--card); border:1px solid var(--line); border-radius:16px; box-shadow:0 8px 24px rgba(15,23,42,.07); }
+    .card { padding:14px; }
+    .card label { display:block; color:var(--muted); font-size:12px; margin-bottom:6px; }
+    .card strong { display:block; font-size:25px; }
+    .card small { display:block; color:var(--muted); margin-top:6px; line-height:1.35; }
+    .panel { padding:16px; margin:16px 0; }
+    .two { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+    .three { display:grid; grid-template-columns:1fr 1fr 1fr; gap:16px; }
+    .table-wrap { overflow:auto; border:1px solid var(--line); border-radius:12px; }
+    table { width:100%; border-collapse:collapse; min-width:760px; font-size:13px; }
+    th,td { padding:9px 10px; border-bottom:1px solid var(--line); text-align:left; vertical-align:middle; }
+    th { background:#f8fafc; color:#334155; position:sticky; top:0; }
+    .num { text-align:right; }
+    .tag { display:inline-block; padding:4px 7px; border-radius:999px; background:#eaf2ff; color:var(--navy); font-weight:700; font-size:11px; }
+    .tag.good { background:#dcfce7; color:#047857; }
+    .tag.hot { background:#ffe4ec; color:var(--pink); }
+    .tag.warn { background:#fef3c7; color:#92400e; }
+    .player { display:flex; align-items:center; gap:7px; white-space:nowrap; }
+    .player img { width:28px; height:34px; object-fit:contain; }
+    .badge { width:22px; height:22px; object-fit:contain; vertical-align:middle; margin-right:6px; }
+    .callout { border-left:5px solid var(--blue); background:#f8fafc; padding:12px 14px; border-radius:12px; color:#334155; }
+    .callout.danger { border-left-color:var(--pink); }
+    .callout.good { border-left-color:var(--green); }
+    .source { font-size:12px; color:var(--muted); }
+    @media (max-width:1000px){ .grid,.two,.three{grid-template-columns:1fr} body{font-size:14px} main{padding:14px} }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FPL Daily Strategy Dashboard</h1>
+    <p>อัปเดต 22/8/2569 12:04:03 · Gameweek 1 · deadline ถัดไป 29/8/2569 00:30:00 · Sources: FPL official public API, mini-league AFC Premier, Overall Top 100</p>
+  </header>
+  <main>
+    <section class="grid">
+      <div class="card"><label>Yedtsuna Status</label><strong>9 pts</strong><small>Mini-league rank 13/15, captain Haaland</small></div>
+      <div class="card"><label>Mini-League Chip Burn</label><strong>6/15</strong><small>40% ใช้ chip แล้ว, เรามี chip advantage</small></div>
+      <div class="card"><label>Top 100 Chip Burn</label><strong>100/100</strong><small>100% ของ top 100 ใช้ chip แล้ว</small></div>
+      <div class="card"><label>Main Gap</label><strong>Do not chase</strong><small>GW1 ยังไม่จบ; แต้มสูงหลายทีมมาจาก chip/captain spike</small></div>
+    </section>
+
+    <section class="panel">
+      <h2>คำแนะนำวันนี้</h2>
+      <div class="three">
+        <div class="callout good"><b>Safe Plan:</b> ถือทีมเดิมจน GW1 จบ ถ้าไม่มี injury/benching ชัดเจน ห้ามใช้ hit เพื่อไล่คะแนน partial GW.</div>
+        <div class="callout"><b>Balanced Plan:</b> ใช้ top 100 + mini template เป็น watchlist เท่านั้น: Szoboszlai/Raya/Tzolis/Gabriel ต้องผ่าน fixture + minutes ก่อนซื้อ.</div>
+        <div class="callout danger"><b>Aggressive Plan:</b> เปิดใช้เฉพาะถ้าหลังจบ GW1 มีตัวจริงเสี่ยงหลุด 2+ คน หรือ captain route GW2 ชัดกว่าทีมเราอย่างมีนัยสำคัญ.</div>
+      </div>
+      <p><b>Final call ณ วันนี้:</b> ไม่ panic transfer, ไม่ hit, ไม่ไล่ทีมที่ใช้ Triple Captain/Bench Boost ไปแล้ว. เป้าหมายคือเก็บ chip advantage และรอข้อมูลครบหลัง GW1 จบ.</p>
+    </section>
+
+    <section class="two">
+      <article class="panel">
+        <h2>Mini-League Captain Meta</h2>
+        <div class="table-wrap"><table><thead><tr><th>Captain</th><th class="num">Teams</th><th class="num">Share</th></tr></thead><tbody>
+    <tr><td>B.Fernandes</td><td class="num">5/15</td><td class="num">33%</td></tr>
+    <tr><td>Haaland</td><td class="num">4/15</td><td class="num">27%</td></tr>
+    <tr><td>Mbeumo</td><td class="num">2/15</td><td class="num">13%</td></tr>
+    <tr><td>Gabriel</td><td class="num">1/15</td><td class="num">7%</td></tr>
+    <tr><td>Gakpo</td><td class="num">1/15</td><td class="num">7%</td></tr></tbody></table></div>
+      </article>
+      <article class="panel">
+        <h2>Overall Top 100 Captain Meta</h2>
+        <div class="table-wrap"><table><thead><tr><th>Captain</th><th class="num">Teams</th><th class="num">Share</th></tr></thead><tbody>
+    <tr><td>Ødegaard</td><td class="num">86/100</td><td class="num">86%</td></tr>
+    <tr><td>White</td><td class="num">13/100</td><td class="num">13%</td></tr>
+    <tr><td>Saka</td><td class="num">1/100</td><td class="num">1%</td></tr></tbody></table></div>
+      </article>
+    </section>
+
+    <section class="two">
+      <article class="panel">
+        <h2>Mini-League Template</h2>
+        <div class="table-wrap"><table><thead><tr><th>Player</th><th>Club</th><th class="num">Own</th><th class="num">C</th><th class="num">Pts</th><th>เรา</th></tr></thead><tbody>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p475168.png" alt="">João Pedro</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t8.png" alt="">CHE</td>
+      <td class="num">11/15</td>
+      <td class="num">1</td>
+      <td class="num">0</td>
+      <td><span class="tag good">มีแล้ว</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p466075.png" alt="">Calafiori</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t3.png" alt="">ARS</td>
+      <td class="num">11/15</td>
+      <td class="num">0</td>
+      <td class="num">9</td>
+      <td><span class="tag good">มีแล้ว</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png" alt="">Szoboszlai</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t14.png" alt="">LIV</td>
+      <td class="num">11/15</td>
+      <td class="num">0</td>
+      <td class="num">0</td>
+      <td><span class="tag hot">ไม่มี</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p223094.png" alt="">Haaland</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t43.png" alt="">MCI</td>
+      <td class="num">10/15</td>
+      <td class="num">4</td>
+      <td class="num">0</td>
+      <td><span class="tag good">มีแล้ว</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p141746.png" alt="">B.Fernandes</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t1.png" alt="">MUN</td>
+      <td class="num">9/15</td>
+      <td class="num">5</td>
+      <td class="num">0</td>
+      <td><span class="tag good">มีแล้ว</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p154561.png" alt="">Raya</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t3.png" alt="">ARS</td>
+      <td class="num">8/15</td>
+      <td class="num">0</td>
+      <td class="num">6</td>
+      <td><span class="tag hot">ไม่มี</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p446008.png" alt="">Mbeumo</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t1.png" alt="">MUN</td>
+      <td class="num">7/15</td>
+      <td class="num">2</td>
+      <td class="num">0</td>
+      <td><span class="tag good">มีแล้ว</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p439509.png" alt="">Tzolis</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t3.png" alt="">ARS</td>
+      <td class="num">7/15</td>
+      <td class="num">0</td>
+      <td class="num">6</td>
+      <td><span class="tag hot">ไม่มี</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p441264.png" alt="">Brobbey</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t56.png" alt="">SUN</td>
+      <td class="num">6/15</td>
+      <td class="num">0</td>
+      <td class="num">0</td>
+      <td><span class="tag good">มีแล้ว</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p177815.png" alt="">Calvert-Lewin</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t2.png" alt="">LEE</td>
+      <td class="num">6/15</td>
+      <td class="num">0</td>
+      <td class="num">0</td>
+      <td><span class="tag hot">ไม่มี</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p226597.png" alt="">Gabriel</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t3.png" alt="">ARS</td>
+      <td class="num">5/15</td>
+      <td class="num">1</td>
+      <td class="num">5</td>
+      <td><span class="tag hot">ไม่มี</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png" alt="">Isak</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t14.png" alt="">LIV</td>
+      <td class="num">5/15</td>
+      <td class="num">0</td>
+      <td class="num">0</td>
+      <td><span class="tag hot">ไม่มี</span></td>
+    </tr></tbody></table></div>
+      </article>
+      <article class="panel">
+        <h2>Overall Top 100 Template</h2>
+        <div class="table-wrap"><table><thead><tr><th>Player</th><th>Club</th><th class="num">Own</th><th class="num">C</th><th class="num">Pts</th><th>เรา</th></tr></thead><tbody>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p184029.png" alt="">Ødegaard</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t3.png" alt="">ARS</td>
+      <td class="num">94/100</td>
+      <td class="num">86</td>
+      <td class="num">11</td>
+      <td><span class="tag hot">ไม่มี</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p466075.png" alt="">Calafiori</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t3.png" alt="">ARS</td>
+      <td class="num">57/100</td>
+      <td class="num">0</td>
+      <td class="num">9</td>
+      <td><span class="tag good">มีแล้ว</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p223094.png" alt="">Haaland</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t43.png" alt="">MCI</td>
+      <td class="num">52/100</td>
+      <td class="num">0</td>
+      <td class="num">0</td>
+      <td><span class="tag good">มีแล้ว</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p198869.png" alt="">White</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t3.png" alt="">ARS</td>
+      <td class="num">51/100</td>
+      <td class="num">13</td>
+      <td class="num">11</td>
+      <td><span class="tag hot">ไม่มี</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p475168.png" alt="">João Pedro</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t8.png" alt="">CHE</td>
+      <td class="num">49/100</td>
+      <td class="num">0</td>
+      <td class="num">0</td>
+      <td><span class="tag good">มีแล้ว</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p141746.png" alt="">B.Fernandes</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t1.png" alt="">MUN</td>
+      <td class="num">46/100</td>
+      <td class="num">0</td>
+      <td class="num">0</td>
+      <td><span class="tag good">มีแล้ว</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p446008.png" alt="">Mbeumo</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t1.png" alt="">MUN</td>
+      <td class="num">39/100</td>
+      <td class="num">0</td>
+      <td class="num">0</td>
+      <td><span class="tag good">มีแล้ว</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p223340.png" alt="">Saka</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t3.png" alt="">ARS</td>
+      <td class="num">36/100</td>
+      <td class="num">1</td>
+      <td class="num">9</td>
+      <td><span class="tag hot">ไม่มี</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png" alt="">Isak</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t14.png" alt="">LIV</td>
+      <td class="num">25/100</td>
+      <td class="num">0</td>
+      <td class="num">0</td>
+      <td><span class="tag hot">ไม่มี</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png" alt="">Virgil</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t14.png" alt="">LIV</td>
+      <td class="num">24/100</td>
+      <td class="num">0</td>
+      <td class="num">0</td>
+      <td><span class="tag hot">ไม่มี</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png" alt="">Szoboszlai</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t14.png" alt="">LIV</td>
+      <td class="num">23/100</td>
+      <td class="num">0</td>
+      <td class="num">0</td>
+      <td><span class="tag hot">ไม่มี</span></td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p154561.png" alt="">Raya</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t3.png" alt="">ARS</td>
+      <td class="num">22/100</td>
+      <td class="num">0</td>
+      <td class="num">6</td>
+      <td><span class="tag hot">ไม่มี</span></td>
+    </tr></tbody></table></div>
+      </article>
+    </section>
+
+    <section class="panel">
+      <h2>Template Gap ที่ต้องจับตา</h2>
+      <p>ตารางนี้รวมผู้เล่นที่เราไม่มี แต่ ownership สูงใน mini-league หรือ top 100. ยังไม่ใช่ transfer recommendation โดยตรง ต้องรอ minutes, injury, fixture และ price movement หลัง GW จบ.</p>
+      <div class="table-wrap"><table><thead><tr><th>Player</th><th>Club</th><th class="num">Mini Own</th><th class="num">Top100 Own</th><th>Action</th></tr></thead><tbody>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png" alt="">Szoboszlai</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t14.png" alt="">LIV</td>
+      <td class="num">11/15</td>
+      <td class="num">23/100</td>
+      <td>Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ</td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p154561.png" alt="">Raya</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t3.png" alt="">ARS</td>
+      <td class="num">8/15</td>
+      <td class="num">22/100</td>
+      <td>Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ</td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p184029.png" alt="">Ødegaard</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t3.png" alt="">ARS</td>
+      <td class="num">0/15</td>
+      <td class="num">94/100</td>
+      <td>Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ</td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p439509.png" alt="">Tzolis</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t3.png" alt="">ARS</td>
+      <td class="num">7/15</td>
+      <td class="num">14/100</td>
+      <td>Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ</td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p177815.png" alt="">Calvert-Lewin</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t2.png" alt="">LEE</td>
+      <td class="num">6/15</td>
+      <td class="num">21/100</td>
+      <td>Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ</td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png" alt="">Isak</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t14.png" alt="">LIV</td>
+      <td class="num">5/15</td>
+      <td class="num">25/100</td>
+      <td>Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ</td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p226597.png" alt="">Gabriel</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t3.png" alt="">ARS</td>
+      <td class="num">5/15</td>
+      <td class="num">13/100</td>
+      <td>Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ</td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p451284.png" alt="">van Ewijk</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t9.png" alt="">COV</td>
+      <td class="num">4/15</td>
+      <td class="num">20/100</td>
+      <td>Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ</td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p465247.png" alt="">Lammens</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t1.png" alt="">MUN</td>
+      <td class="num">4/15</td>
+      <td class="num">20/100</td>
+      <td>Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ</td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png" alt="">Virgil</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t14.png" alt="">LIV</td>
+      <td class="num">3/15</td>
+      <td class="num">24/100</td>
+      <td>Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ</td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p106760.png" alt="">Shaw</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t1.png" alt="">MUN</td>
+      <td class="num">3/15</td>
+      <td class="num">22/100</td>
+      <td>Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ</td>
+    </tr>
+    <tr>
+      <td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p198869.png" alt="">White</span></td>
+      <td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t3.png" alt="">ARS</td>
+      <td class="num">0/15</td>
+      <td class="num">51/100</td>
+      <td>Monitor: ต้องรอ minutes + fixture + role ก่อนซื้อ</td>
+    </tr></tbody></table></div>
+    </section>
+
+    <section class="panel">
+      <h2>Strategy To Win Mini-League</h2>
+      <div class="three">
+        <div class="callout"><b>Block:</b> Haaland/Bruno/Mbeumo/João Pedro/Calafiori core ยังครอบคลุม captain และ ownership threat สำคัญแล้ว.</div>
+        <div class="callout"><b>Attack:</b> เลือก differential ได้แค่ 1-2 จุดต่อรอบ และต้องมี expected minutes ชัด ไม่ใช่ซื้อจาก GW1 points.</div>
+        <div class="callout"><b>Chip Edge:</b> เพราะ mini-league ใช้ chip ไป 6 ทีมแล้ว ให้เก็บ TC/BB/FH/WC สำหรับ double/blank window หรือ captain ceiling ที่ดีกว่า.</div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Source Files</h2>
+      <p class="source">Data snapshot, CSV และ reproducible script อยู่ในโปรเจกต์เดียวกัน. Dashboard นี้เป็น snapshot ไม่ใช่ live connector.</p>
+      <p>
+        <a href="./daily-dashboard-gw1.json">daily-dashboard-gw1.json</a> ·
+        <a href="./top100-template-gw1.csv">top100-template-gw1.csv</a> ·
+        <a href="../mini-league/mini-league-intel-gw1.html">mini-league full report</a>
+      </p>
+    </section>
+  </main>
+</body>
+</html>
