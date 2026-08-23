@@ -2,7 +2,7 @@ player,club,owners,captains,triple_captains,gw_points,total_points,owned_by_me
 João Pedro,CHE,11,1,1,0,0,true
 Calafiori,ARS,11,0,0,9,99,true
 Szoboszlai,LIV,11,0,0,0,0,false
-Haaland,MCI,10,4,0,1,14,true
+Haaland,MCI,10,4,0,2,28,true
 B.Fernandes,MUN,9,5,0,2,28,true
 Raya,ARS,8,0,0,6,48,false
 Mbeumo,MUN,7,2,0,2,18,true
@@ -10,8 +10,8 @@ Tzolis,ARS,7,0,0,6,42,false
 Brobbey,SUN,6,0,0,2,10,true
 Calvert-Lewin,LEE,6,0,0,1,3,false
 Gabriel,ARS,5,1,1,5,35,false
-O'Reilly,MCI,5,0,0,1,5,true
-Verbruggen,BHA,5,0,0,1,4,true
+Verbruggen,BHA,5,0,0,6,24,true
+O'Reilly,MCI,5,0,0,2,10,true
 Isak,LIV,5,0,0,0,0,false
 Kinsky,TOT,4,0,0,2,6,false
 Lammens,MUN,4,0,0,1,3,false
@@ -21,13 +21,13 @@ Muñoz,CRY,4,0,0,0,0,false
 Watkins,AVL,3,1,0,0,0,false
 Rice,ARS,3,0,0,3,9,false
 N.Williams,NFO,3,0,0,2,6,false
+Semenyo,MCI,3,0,0,2,6,false
+Groß,BHA,3,0,0,2,4,true
 Maguire,MUN,3,0,0,1,3,false
-Semenyo,MCI,3,0,0,1,3,false
 Shaw,MUN,3,0,0,1,2,false
 Van Hecke,TOT,3,0,0,1,2,false
 Roefs,SUN,3,0,0,1,1,false
 Dubravka,TOT,3,0,0,0,0,true
-Groß,BHA,3,0,0,0,0,true
 Virgil,LIV,3,0,0,0,0,false
 Wirtz,LIV,3,0,0,0,0,false
 Gakpo,LIV,2,1,0,0,0,false
@@ -38,21 +38,22 @@ Davis,IPS,2,0,0,2,4,false
 E.Le Fée,SUN,2,0,0,2,4,false
 Hume,SUN,2,0,0,2,4,false
 Tonali,TOT,2,0,0,2,4,false
+Cash,AVL,2,0,0,0,0,false
 Diop,IPS,2,0,0,2,0,true
 Hughes,CRY,2,0,0,0,0,true
 Palestra,CHE,2,0,0,0,0,false
 Rogers,CHE,2,0,0,0,0,false
 Trafford,LEE,2,0,0,9,0,false
-Cash,AVL,2,0,0,-1,-1,false
-De Cuyper,BHA,1,0,0,12,12,true
+De Cuyper,BHA,1,0,0,17,17,true
 Belloumi,HUL,1,0,0,3,3,false
 Senesi,TOT,1,0,0,3,3,false
 Thomas,COV,1,0,0,3,3,false
 Wilson,LEE,1,0,0,3,3,false
+Guéhi,MCI,1,0,0,2,2,false
+Gvardiol,MCI,1,0,0,2,2,false
 Tielemans,MUN,1,0,0,2,2,false
 Beto,EVE,1,0,0,1,1,false
-Guéhi,MCI,1,0,0,1,1,false
-Gvardiol,MCI,1,0,0,1,1,false
+Cherki,MCI,1,0,0,1,1,true
 Wood,NFO,1,0,0,1,1,false
 A.García,AVL,1,0,0,0,0,false
 Ajer,BRE,1,0,0,8,0,false
@@ -62,20 +63,19 @@ Bogle,LEE,1,0,0,6,0,true
 Bruno G.,ARS,1,0,0,0,0,false
 Burrowes,AVL,1,0,0,0,0,false
 Caicedo,CHE,1,0,0,0,0,false
-Cherki,MCI,1,0,0,0,0,true
 Egan,HUL,1,0,0,8,0,false
 F.Kadıoğlu,BHA,1,0,0,0,0,false
-Gomez,BHA,1,0,0,5,0,false
+Gomez,BHA,1,0,0,7,0,false
 Konsa,ARS,1,0,0,0,0,false
 Lacroix,CHE,1,0,0,0,0,false
 Martinez,AVL,1,0,0,0,0,false
 Mateta,CRY,1,0,0,2,0,false
 McNair,HUL,1,0,0,1,0,false
 Onyeka,COV,1,0,0,2,0,false
-Rayan,BOU,1,0,0,1,0,false
+Rayan,BOU,1,0,0,3,0,false
 Sakamoto,COV,1,0,0,0,0,false
 Sarr,CRY,1,0,0,0,0,false
 Sessegnon,FUL,1,0,0,0,0,false
 Thiago,BRE,1,0,0,0,0,false
-Truffert,BOU,1,0,0,1,0,false
+Truffert,BOU,1,0,0,6,0,false
 Yarmoliuk,BRE,1,0,0,1,0,false
