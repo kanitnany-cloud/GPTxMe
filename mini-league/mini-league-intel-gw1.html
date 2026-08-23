@@ -51,7 +51,7 @@
 
   <section class="panel">
     <h2>Live Refresh Control</h2>
-    <p>กดเพื่อโหลด standings, captain และ chip usage จาก JSON snapshot ล่าสุดบน GitHub Pages. ข้อมูลจริงจาก FPL จะถูกอัปเดตผ่านสคริปต์แล้ว publish ขึ้นเว็บ.</p>
+    <p>กดเพื่อโหลด standings, captain และ chip usage จาก JSON snapshot ล่าสุดบน GitHub Pages. ข้อมูลจริงจาก FPL จะถูกอัปเดตอัตโนมัติผ่าน GitHub Actions แล้ว publish ขึ้นเว็บ.</p>
     <div class="toolbar">
       <button id="refreshLiveIntel">Refresh Rival Data</button>
       <a class="link-btn" href="https://fantasy.premierleague.com/leagues/872362/standings/c" target="_blank" rel="noreferrer">Open League</a>
@@ -405,7 +405,7 @@
         chip: team.chips?.length ? team.chips.map((chip) => `${chip.name} GW${chip.event}`).join(', ') : '-'
       })), myTeam?.total || 0);
       renderMatrixFromReport(report);
-      setLiveStatus(`Cached JSON fallback${reason ? `: ${reason}` : ''}`);
+      setLiveStatus(`Published JSON loaded · Data: ${report.generatedAt || '-'}${reason ? ` · ${reason}` : ''}`);
     }
 
     async function refreshLiveIntel() {

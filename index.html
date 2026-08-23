@@ -329,7 +329,7 @@
       <div class="body">
         <p class="note">ดึงข้อมูลจาก Fantasy Premier League โดยตรง: league AFC Premier, standings, new entries และจัดกลุ่มคู่แข่งเพื่อใช้วางแผน block/attack รายสัปดาห์</p>
         <div class="toolbar">
-          <button id="loadLeague">Refresh Mini-League Data</button>
+          <button id="loadLeague">Reload Published Data</button>
           <a class="chip blue" href="https://fantasy.premierleague.com/leagues/872362/standings/c" target="_blank" rel="noreferrer">Open League</a>
           <a class="chip yellow" href="https://fantasy.premierleague.com/api/leagues-classic/872362/standings/" target="_blank" rel="noreferrer">API Source</a>
           <a class="chip green" href="./mini-league/mini-league-intel-gw1.json" target="_blank" rel="noreferrer">Cached JSON</a>
@@ -337,7 +337,7 @@
         <div class="stat-grid" id="leagueSummary">
           <div class="stat"><label>League</label><strong>AFC Premier</strong><small>ID 872362</small></div>
           <div class="stat"><label>My Team</label><strong>Yedtsuna</strong><small>Team ID 3944270</small></div>
-          <div class="stat"><label>Data Status</label><strong id="leagueStatus">Ready</strong><small id="leagueLastUpdated">กด Refresh เพื่อดึงข้อมูลจากเกม</small></div>
+          <div class="stat"><label>Data Status</label><strong id="leagueStatus">Ready</strong><small id="leagueLastUpdated">โหลดข้อมูลที่อัปเดตบน GitHub Pages ล่าสุด</small></div>
           <div class="stat"><label>Strategy Mode</label><strong id="strategyMode">Pre-GW</strong><small>ก่อนมีคะแนนจะ track new entries ก่อน</small></div>
         </div>
         <div class="rival-grid" id="rivalCards" style="margin-top:12px">
@@ -600,6 +600,7 @@
         'ใช้ข้อมูลนี้เป็น fallback เมื่อ live FPL API ไม่ผ่าน',
         'หลักตัดสินใจ: block เฉพาะตัว ownership/captain สูง และ attack ด้วยตัวที่ minutes แน่น + fixture ดี'
       ].join('\n'));
+      document.getElementById('leagueLastUpdated').textContent = `ข้อมูล FPL ล่าสุด: ${report.generatedAt || '-'}`;
     }
 
     async function loadLeagueData() {

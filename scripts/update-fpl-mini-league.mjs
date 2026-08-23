@@ -1,0 +1,231 @@
+import { mkdir, writeFile } from 'node:fs/promises';
+
+const LEAGUE_ID = 872362;
+const MY_ENTRY_ID = 3944270;
+const OUT_DIR = 'mini-league';
+
+const urls = {
+  bootstrap: 'https://fantasy.premierleague.com/api/bootstrap-static/',
+  league: (page = 1) => `https://fantasy.premierleague.com/api/leagues-classic/${LEAGUE_ID}/standings/?page_standings=${page}`,
+  picks: (entry, event) => `https://fantasy.premierleague.com/api/entry/${entry}/event/${event}/picks/`,
+  history: (entry) => `https://fantasy.premierleague.com/api/entry/${entry}/history/`,
+};
+
+async function fetchJson(url) {
+  const response = await fetch(url, {
+    headers: {
+      accept: 'application/json,text/plain,*/*',
+      'user-agent': 'AI-Kanitnan-FPL-GitHub-Pages-Updater/1.0',
+    },
+  });
+  if (!response.ok) throw new Error(`${response.status} ${response.statusText}: ${url}`);
+  return response.json();
+}
+
+async function mapLimit(items, limit, fn) {
+  const out = new Array(items.length);
+  let cursor = 0;
+  async function worker() {
+    while (cursor < items.length) {
+      const index = cursor++;
+      out[index] = await fn(items[index], index);
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, worker));
+  return out;
+}
+
+function csvEscape(value) {
+  const text = String(value ?? '');
+  return /[",\n]/.test(text) ? `"${text.replaceAll('"', '""')}"` : text;
+}
+
+function pickFlag(pick) {
+  if (pick.is_captain && pick.multiplier === 3) return 'TC';
+  if (pick.is_captain) return 'C';
+  if (pick.is_vice_captain) return 'VC';
+  if (pick.multiplier === 0) return 'B';
+  return 'XI';
+}
+
+function likelyTransferLevel(team, medianPoints) {
+  let score = 0;
+  score += team.picks.filter((pick) => pick.player.status !== 'a').length * 3;
+  score += (team.current?.event_transfers ?? 0) > 0 ? 2 : 0;
+  score += (team.current?.event_transfers_cost ?? 0) > 0 ? 2 : 0;
+  score += team.chips.length ? 1 : 0;
+  score += (team.current?.points_on_bench ?? 0) >= 8 ? 1 : 0;
+  score += team.event_total < medianPoints ? 1 : 0;
+  score += team.overlap15 <= 3 ? 1 : 0;
+  if (score >= 4) return 'สูง';
+  if (score >= 2) return 'กลาง';
+  return 'ต่ำ';
+}
+
+async function main() {
+  await mkdir(OUT_DIR, { recursive: true });
+
+  const bootstrap = await fetchJson(urls.bootstrap);
+  const event = bootstrap.events.find((item) => item.is_current) || bootstrap.events.find((item) => item.is_next) || bootstrap.events[0];
+  const playersById = new Map(bootstrap.elements.map((player) => [player.id, player]));
+  const clubsById = new Map(bootstrap.teams.map((team) => [team.id, team]));
+
+  const firstLeague = await fetchJson(urls.league(1));
+  const standings = [...(firstLeague.standings?.results || [])];
+  for (let page = 2; firstLeague.standings?.has_next && page <= 20; page += 1) {
+    const next = await fetchJson(urls.league(page));
+    standings.push(...(next.standings?.results || []));
+    if (!next.standings?.has_next) break;
+  }
+
+  const teams = await mapLimit(standings, 5, async (row) => {
+    const [picksData, history] = await Promise.all([
+      fetchJson(urls.picks(row.entry, event.id)),
+      fetchJson(urls.history(row.entry)),
+    ]);
+    const picks = picksData.picks.map((pick) => {
+      const player = playersById.get(pick.element);
+      const club = clubsById.get(player.team);
+      return {
+        ...pick,
+        player,
+        club,
+        points: Number(player.event_points || 0) * Number(pick.multiplier || 0),
+      };
+    });
+    return {
+      ...row,
+      picks,
+      chips: history.chips || [],
+      current: (history.current || []).find((gw) => gw.event === event.id),
+      captain: picks.find((pick) => pick.is_captain),
+    };
+  });
+
+  const myTeam = teams.find((team) => team.entry === MY_ENTRY_ID) || teams[0];
+  const myPicks = new Set(myTeam.picks.map((pick) => pick.element));
+  const myXi = new Set(myTeam.picks.filter((pick) => pick.multiplier > 0).map((pick) => pick.element));
+
+  for (const team of teams) {
+    const pickSet = new Set(team.picks.map((pick) => pick.element));
+    const xiSet = new Set(team.picks.filter((pick) => pick.multiplier > 0).map((pick) => pick.element));
+    team.overlap15 = [...pickSet].filter((id) => myPicks.has(id)).length;
+    team.overlapXI = [...xiSet].filter((id) => myXi.has(id)).length;
+  }
+
+  const sortedPoints = teams.map((team) => Number(team.event_total || 0)).sort((a, b) => a - b);
+  const medianPoints = sortedPoints[Math.floor(sortedPoints.length / 2)] || 0;
+  for (const team of teams) team.transferLikelihood = likelyTransferLevel(team, medianPoints);
+
+  const playerMap = new Map();
+  for (const team of teams) {
+    for (const pick of team.picks) {
+      if (!playerMap.has(pick.element)) {
+        playerMap.set(pick.element, {
+          id: pick.element,
+          web_name: pick.player.web_name,
+          team_short: pick.club.short_name,
+          owners: 0,
+          captains: 0,
+          tripleCaptains: 0,
+          event_points: Number(pick.player.event_points || 0),
+          total_points: 0,
+          ownedByMe: myPicks.has(pick.element),
+        });
+      }
+      const row = playerMap.get(pick.element);
+      row.owners += 1;
+      row.total_points += pick.points;
+      if (pick.is_captain) row.captains += 1;
+      if (pick.is_captain && pick.multiplier === 3) row.tripleCaptains += 1;
+    }
+  }
+
+  const playerRows = [...playerMap.values()].sort((a, b) =>
+    b.owners - a.owners ||
+    b.captains - a.captains ||
+    b.total_points - a.total_points ||
+    a.web_name.localeCompare(b.web_name)
+  );
+
+  const generatedAt = new Date().toLocaleString('th-TH', { timeZone: 'Asia/Bangkok', hour12: false });
+  const json = {
+    league: firstLeague.league,
+    event,
+    generatedAt,
+    teams: teams.map((team) => ({
+      entry: team.entry,
+      entry_name: team.entry_name,
+      player_name: team.player_name,
+      rank: team.rank,
+      event_total: team.event_total,
+      total: team.total,
+      captain: team.captain?.player.web_name,
+      captain_multiplier: team.captain?.multiplier,
+      chips: team.chips,
+      overlap15: team.overlap15,
+      overlapXI: team.overlapXI,
+      transferLikelihood: team.transferLikelihood,
+      picks: team.picks.map((pick) => ({
+        element: pick.element,
+        web_name: pick.player.web_name,
+        club: pick.club.short_name,
+        multiplier: pick.multiplier,
+        flag: pickFlag(pick),
+        event_points: Number(pick.player.event_points || 0),
+        points: pick.points,
+      })),
+    })),
+    playerRows,
+  };
+
+  const teamCsv = [
+    ['rank', 'entry', 'team', 'manager', 'gw_points', 'total', 'captain', 'captain_multiplier', 'chips', 'overlap15', 'overlapXI', 'transfer_likelihood'].join(','),
+    ...json.teams.map((team) => [
+      team.rank,
+      team.entry,
+      team.entry_name,
+      team.player_name,
+      team.event_total,
+      team.total,
+      team.captain || '',
+      team.captain_multiplier || '',
+      team.chips.map((chip) => `${chip.name}:GW${chip.event}`).join('|'),
+      team.overlap15,
+      team.overlapXI,
+      team.transferLikelihood,
+    ].map(csvEscape).join(',')),
+  ].join('\n');
+
+  const playerCsv = [
+    ['player', 'club', 'owners', 'captains', 'triple_captains', 'gw_points', 'total_points', 'owned_by_me'].join(','),
+    ...playerRows.map((row) => [
+      row.web_name,
+      row.team_short,
+      row.owners,
+      row.captains,
+      row.tripleCaptains,
+      row.event_points,
+      row.total_points,
+      row.ownedByMe,
+    ].map(csvEscape).join(',')),
+  ].join('\n');
+
+  await writeFile(`${OUT_DIR}/mini-league-intel-gw${event.id}.json`, JSON.stringify(json, null, 2), 'utf8');
+  await writeFile(`${OUT_DIR}/team-summary-gw${event.id}.csv`, teamCsv, 'utf8');
+  await writeFile(`${OUT_DIR}/player-template-gw${event.id}.csv`, playerCsv, 'utf8');
+
+  console.log(JSON.stringify({
+    generatedAt,
+    league: firstLeague.league.name,
+    event: event.id,
+    teams: teams.length,
+    myTeam: myTeam.entry_name,
+    myTotal: myTeam.total,
+  }, null, 2));
+}
+
+main().catch((error) => {
+  console.error(error);
+  process.exit(1);
+});
