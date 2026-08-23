@@ -38,22 +38,22 @@ Davis,IPS,2,0,0,2,4,false
 E.Le Fée,SUN,2,0,0,2,4,false
 Hume,SUN,2,0,0,2,4,false
 Tonali,TOT,2,0,0,2,4,false
-Cash,AVL,2,0,0,0,0,false
 Diop,IPS,2,0,0,2,0,true
 Hughes,CRY,2,0,0,0,0,true
 Palestra,CHE,2,0,0,0,0,false
 Rogers,CHE,2,0,0,0,0,false
 Trafford,LEE,2,0,0,9,0,false
+Cash,AVL,2,0,0,-1,-1,false
 De Cuyper,BHA,1,0,0,17,17,true
+Guéhi,MCI,1,0,0,10,10,false
+Gvardiol,MCI,1,0,0,9,9,false
+Cherki,MCI,1,0,0,8,8,true
 Belloumi,HUL,1,0,0,3,3,false
 Senesi,TOT,1,0,0,3,3,false
 Thomas,COV,1,0,0,3,3,false
 Wilson,LEE,1,0,0,3,3,false
-Guéhi,MCI,1,0,0,2,2,false
-Gvardiol,MCI,1,0,0,2,2,false
 Tielemans,MUN,1,0,0,2,2,false
 Beto,EVE,1,0,0,1,1,false
-Cherki,MCI,1,0,0,1,1,true
 Wood,NFO,1,0,0,1,1,false
 A.García,AVL,1,0,0,0,0,false
 Ajer,BRE,1,0,0,8,0,false
@@ -65,17 +65,17 @@ Burrowes,AVL,1,0,0,0,0,false
 Caicedo,CHE,1,0,0,0,0,false
 Egan,HUL,1,0,0,8,0,false
 F.Kadıoğlu,BHA,1,0,0,0,0,false
-Gomez,BHA,1,0,0,7,0,false
+Gomez,BHA,1,0,0,6,0,false
 Konsa,ARS,1,0,0,0,0,false
 Lacroix,CHE,1,0,0,0,0,false
 Martinez,AVL,1,0,0,0,0,false
 Mateta,CRY,1,0,0,2,0,false
 McNair,HUL,1,0,0,1,0,false
 Onyeka,COV,1,0,0,2,0,false
-Rayan,BOU,1,0,0,3,0,false
+Rayan,BOU,1,0,0,2,0,false
 Sakamoto,COV,1,0,0,0,0,false
 Sarr,CRY,1,0,0,0,0,false
 Sessegnon,FUL,1,0,0,0,0,false
 Thiago,BRE,1,0,0,0,0,false
-Truffert,BOU,1,0,0,6,0,false
+Truffert,BOU,1,0,0,1,0,false
 Yarmoliuk,BRE,1,0,0,1,0,false
