@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "25/8/2569 02:11:24",
+  "updated_at_th": "25/8/2569 02:56:40",
   "gameweek": 1,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 3,
-    "points": 59,
-    "gw_points": 59,
+    "points": 61,
+    "gw_points": 61,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "ทีมของ Apirak",
       "manager": "Apirak Aiman",
-      "points": 71,
+      "points": 73,
       "captain": "B.Fernandes"
     },
     "top": [
       {
         "rank": 1,
         "team": "ทีมของ Apirak",
-        "points": 71,
+        "points": 73,
         "captain": "B.Fernandes",
         "chips": [
           "bboost"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 66,
+        "points": 68,
         "captain": "B.Fernandes",
         "chips": [
           "bboost"
@@ -42,21 +42,30 @@
       {
         "rank": 3,
         "team": "Yedtsuna",
-        "points": 59,
+        "points": 61,
         "captain": "Haaland",
         "chips": []
       },
       {
         "rank": 4,
+        "team": "GrossProfit United",
+        "points": 58,
+        "captain": "Mbeumo",
+        "chips": [
+          "bboost"
+        ]
+      },
+      {
+        "rank": 5,
         "team": "Mr.Art",
-        "points": 54,
+        "points": 56,
         "captain": "Gabriel",
         "chips": [
           "3xc"
         ]
       },
       {
-        "rank": 5,
+        "rank": 6,
         "team": "RelegationBattle",
         "points": 50,
         "captain": "Gakpo",
@@ -64,26 +73,17 @@
       },
       {
         "rank": 6,
-        "team": "GrossProfit United",
-        "points": 48,
-        "captain": "Mbeumo",
+        "team": "KC888",
+        "points": 50,
+        "captain": "João Pedro",
         "chips": [
-          "bboost"
+          "3xc"
         ]
       },
       {
-        "rank": 7,
-        "team": "Runner Up FC",
-        "points": 46,
-        "captain": "B.Fernandes",
-        "chips": [
-          "bboost"
-        ]
-      },
-      {
-        "rank": 7,
+        "rank": 8,
         "team": "Sarumann",
-        "points": 46,
+        "points": 48,
         "captain": "B.Fernandes",
         "chips": []
       }
@@ -95,8 +95,8 @@
       "club": "CHE",
       "owners": 11,
       "captains": 1,
-      "gw_points": 5,
-      "total_points": 65,
+      "gw_points": 7,
+      "total_points": 91,
       "owned_by_me": true
     },
     {
@@ -251,8 +251,8 @@
       "finished": false,
       "home": "FUL",
       "away": "CHE",
-      "home_score": 0,
-      "away_score": 1
+      "home_score": 1,
+      "away_score": 2
     }
   ],
   "strategy": {

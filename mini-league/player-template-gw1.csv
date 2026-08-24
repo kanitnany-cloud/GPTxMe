@@ -1,5 +1,5 @@
 player,club,owners,captains,triple_captains,gw_points,total_points,owned_by_me
-João Pedro,CHE,11,1,1,5,65,true
+João Pedro,CHE,11,1,1,7,91,true
 Calafiori,ARS,11,0,0,9,99,true
 Szoboszlai,LIV,11,0,0,8,72,false
 Haaland,MCI,10,4,0,2,28,true
@@ -31,6 +31,7 @@ Van Hecke,TOT,3,0,0,1,2,false
 Roefs,SUN,3,0,0,1,1,false
 Dubravka,TOT,3,0,0,0,0,true
 Gakpo,LIV,2,1,0,12,36,false
+Rogers,CHE,2,0,0,9,18,false
 Xhaka,SUN,2,0,0,9,18,false
 Rodon,LEE,2,0,0,6,12,false
 Cunha,MUN,2,0,0,2,4,false
@@ -38,7 +39,6 @@ Davis,IPS,2,0,0,2,4,false
 E.Le Fée,SUN,2,0,0,2,4,false
 Hume,SUN,2,0,0,2,4,false
 Tonali,TOT,2,0,0,2,4,false
-Rogers,CHE,2,0,0,1,2,false
 Diop,IPS,2,0,0,2,0,true
 Hughes,CRY,2,0,0,0,0,true
 Palestra,CHE,2,0,0,0,0,false
@@ -48,13 +48,13 @@ De Cuyper,BHA,1,0,0,17,17,true
 Guéhi,MCI,1,0,0,10,10,false
 Gvardiol,MCI,1,0,0,9,9,false
 Cherki,MCI,1,0,0,8,8,true
+Lacroix,CHE,1,0,0,4,4,false
 Belloumi,HUL,1,0,0,3,3,false
 Senesi,TOT,1,0,0,3,3,false
 Thomas,COV,1,0,0,3,3,false
 Wilson,LEE,1,0,0,3,3,false
 Tielemans,MUN,1,0,0,2,2,false
 Beto,EVE,1,0,0,1,1,false
-Lacroix,CHE,1,0,0,1,1,false
 Wood,NFO,1,0,0,1,1,false
 A.García,AVL,1,0,0,0,0,false
 Ajer,BRE,1,0,0,8,0,false
