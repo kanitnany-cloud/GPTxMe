@@ -278,10 +278,22 @@ async function main() {
     },
   };
 
-  const safeAscii = (value) => String(value ?? '')
-    .normalize('NFKD')
-    .replace(/[^\x20-\x7E]/g, '?')
-    .slice(0, 32);
+  const asciiAliases = new Map([
+    ['ทีมของ Apirak', 'Apirak FC'],
+    ['ช่วยใจดีกับลุงหน่อย', 'Palm FC'],
+    ['ทีมของ Satawat', 'Satawat FC'],
+    ['ปีศาจแดง4ever', 'Red Devils 4ever'],
+  ]);
+  const safeAscii = (value) => {
+    const original = String(value ?? '');
+    const alias = asciiAliases.get(original) || original;
+    const cleaned = alias
+      .normalize('NFKD')
+      .replace(/[^\x20-\x7E]/g, '')
+      .replace(/\s+/g, ' ')
+      .trim();
+    return (cleaned || 'Team').slice(0, 32);
+  };
 
   const deviceLite = {
     u: generatedAt,
