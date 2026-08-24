@@ -29,12 +29,12 @@ jobs:
 
       - name: Commit changed data
         run: |
-          if git diff --quiet -- mini-league/mini-league-intel-gw1.json mini-league/team-summary-gw1.csv mini-league/player-template-gw1.csv; then
+          if git diff --quiet -- mini-league/mini-league-intel-gw1.json mini-league/team-summary-gw1.csv mini-league/player-template-gw1.csv api/fpl-device-live.json; then
             echo "No FPL data changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add mini-league/mini-league-intel-gw1.json mini-league/team-summary-gw1.csv mini-league/player-template-gw1.csv
+          git add mini-league/mini-league-intel-gw1.json mini-league/team-summary-gw1.csv mini-league/player-template-gw1.csv api/fpl-device-live.json
           git commit -m "Update FPL mini-league data"
           git push

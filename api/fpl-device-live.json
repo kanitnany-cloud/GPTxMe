@@ -1,0 +1,263 @@
+{
+  "project": "AI x Kanitnan FPL Quest",
+  "updated_at_th": "24/8/2569 08:27:14",
+  "gameweek": 1,
+  "team": {
+    "name": "Yedtsuna",
+    "entry_id": 3944270,
+    "rank": 3,
+    "points": 54,
+    "gw_points": 54,
+    "captain": "Haaland",
+    "captain_multiplier": 2
+  },
+  "mini_league": {
+    "id": 872362,
+    "name": "AFC Premier",
+    "leader": {
+      "team": "ทีมของ Apirak",
+      "manager": "Apirak Aiman",
+      "points": 66,
+      "captain": "B.Fernandes"
+    },
+    "top": [
+      {
+        "rank": 1,
+        "team": "ทีมของ Apirak",
+        "points": 66,
+        "captain": "B.Fernandes",
+        "chips": [
+          "bboost"
+        ]
+      },
+      {
+        "rank": 2,
+        "team": "ช่วยใจดีกับลุงหน่อย",
+        "points": 61,
+        "captain": "B.Fernandes",
+        "chips": [
+          "bboost"
+        ]
+      },
+      {
+        "rank": 3,
+        "team": "Yedtsuna",
+        "points": 54,
+        "captain": "Haaland",
+        "chips": []
+      },
+      {
+        "rank": 4,
+        "team": "RelegationBattle",
+        "points": 50,
+        "captain": "Gakpo",
+        "chips": []
+      },
+      {
+        "rank": 5,
+        "team": "Mr.Art",
+        "points": 49,
+        "captain": "Gabriel",
+        "chips": [
+          "3xc"
+        ]
+      },
+      {
+        "rank": 6,
+        "team": "GrossProfit United",
+        "points": 42,
+        "captain": "Mbeumo",
+        "chips": [
+          "bboost"
+        ]
+      },
+      {
+        "rank": 7,
+        "team": "Runner Up FC",
+        "points": 41,
+        "captain": "B.Fernandes",
+        "chips": [
+          "bboost"
+        ]
+      },
+      {
+        "rank": 7,
+        "team": "Sarumann",
+        "points": 41,
+        "captain": "B.Fernandes",
+        "chips": []
+      }
+    ]
+  },
+  "template_players": [
+    {
+      "name": "João Pedro",
+      "club": "CHE",
+      "owners": 11,
+      "captains": 1,
+      "gw_points": 0,
+      "total_points": 0,
+      "owned_by_me": true
+    },
+    {
+      "name": "Calafiori",
+      "club": "ARS",
+      "owners": 11,
+      "captains": 0,
+      "gw_points": 9,
+      "total_points": 99,
+      "owned_by_me": true
+    },
+    {
+      "name": "Szoboszlai",
+      "club": "LIV",
+      "owners": 11,
+      "captains": 0,
+      "gw_points": 8,
+      "total_points": 72,
+      "owned_by_me": false
+    },
+    {
+      "name": "Haaland",
+      "club": "MCI",
+      "owners": 10,
+      "captains": 4,
+      "gw_points": 2,
+      "total_points": 28,
+      "owned_by_me": true
+    },
+    {
+      "name": "B.Fernandes",
+      "club": "MUN",
+      "owners": 9,
+      "captains": 5,
+      "gw_points": 2,
+      "total_points": 28,
+      "owned_by_me": true
+    },
+    {
+      "name": "Raya",
+      "club": "ARS",
+      "owners": 8,
+      "captains": 0,
+      "gw_points": 6,
+      "total_points": 48,
+      "owned_by_me": false
+    },
+    {
+      "name": "Mbeumo",
+      "club": "MUN",
+      "owners": 7,
+      "captains": 2,
+      "gw_points": 2,
+      "total_points": 18,
+      "owned_by_me": true
+    },
+    {
+      "name": "Tzolis",
+      "club": "ARS",
+      "owners": 7,
+      "captains": 0,
+      "gw_points": 6,
+      "total_points": 42,
+      "owned_by_me": false
+    }
+  ],
+  "fixtures": [
+    {
+      "kickoff_time": "2026-08-21T19:00:00Z",
+      "started": true,
+      "finished": false,
+      "home": "ARS",
+      "away": "COV",
+      "home_score": 3,
+      "away_score": 0
+    },
+    {
+      "kickoff_time": "2026-08-22T11:30:00Z",
+      "started": true,
+      "finished": false,
+      "home": "HUL",
+      "away": "MUN",
+      "home_score": 2,
+      "away_score": 0
+    },
+    {
+      "kickoff_time": "2026-08-22T14:00:00Z",
+      "started": true,
+      "finished": false,
+      "home": "EVE",
+      "away": "CRY",
+      "home_score": 2,
+      "away_score": 0
+    },
+    {
+      "kickoff_time": "2026-08-22T14:00:00Z",
+      "started": true,
+      "finished": false,
+      "home": "IPS",
+      "away": "SUN",
+      "home_score": 2,
+      "away_score": 1
+    },
+    {
+      "kickoff_time": "2026-08-22T14:00:00Z",
+      "started": true,
+      "finished": false,
+      "home": "NFO",
+      "away": "LEE",
+      "home_score": 0,
+      "away_score": 1
+    },
+    {
+      "kickoff_time": "2026-08-22T16:30:00Z",
+      "started": true,
+      "finished": false,
+      "home": "BRE",
+      "away": "TOT",
+      "home_score": 3,
+      "away_score": 0
+    },
+    {
+      "kickoff_time": "2026-08-23T13:00:00Z",
+      "started": true,
+      "finished": false,
+      "home": "BHA",
+      "away": "AVL",
+      "home_score": 4,
+      "away_score": 0
+    },
+    {
+      "kickoff_time": "2026-08-23T13:00:00Z",
+      "started": true,
+      "finished": false,
+      "home": "MCI",
+      "away": "BOU",
+      "home_score": 2,
+      "away_score": 1
+    },
+    {
+      "kickoff_time": "2026-08-23T15:30:00Z",
+      "started": true,
+      "finished": false,
+      "home": "NEW",
+      "away": "LIV",
+      "home_score": 2,
+      "away_score": 2
+    },
+    {
+      "kickoff_time": "2026-08-24T19:00:00Z",
+      "started": false,
+      "finished": false,
+      "home": "FUL",
+      "away": "CHE",
+      "home_score": null,
+      "away_score": null
+    }
+  ],
+  "strategy": {
+    "mode": "confidence-first",
+    "safe": "Block high EO captain threats first.",
+    "attack": "Use differential only when minutes and fixture are strong."
+  }
+}

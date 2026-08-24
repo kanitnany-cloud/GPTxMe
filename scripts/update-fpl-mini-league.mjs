@@ -3,9 +3,11 @@ import { mkdir, writeFile } from 'node:fs/promises';
 const LEAGUE_ID = 872362;
 const MY_ENTRY_ID = 3944270;
 const OUT_DIR = 'mini-league';
+const API_DIR = 'api';
 
 const urls = {
   bootstrap: 'https://fantasy.premierleague.com/api/bootstrap-static/',
+  fixtures: 'https://fantasy.premierleague.com/api/fixtures/',
   league: (page = 1) => `https://fantasy.premierleague.com/api/leagues-classic/${LEAGUE_ID}/standings/?page_standings=${page}`,
   picks: (entry, event) => `https://fantasy.premierleague.com/api/entry/${entry}/event/${event}/picks/`,
   history: (entry) => `https://fantasy.premierleague.com/api/entry/${entry}/history/`,
@@ -64,8 +66,12 @@ function likelyTransferLevel(team, medianPoints) {
 
 async function main() {
   await mkdir(OUT_DIR, { recursive: true });
+  await mkdir(API_DIR, { recursive: true });
 
-  const bootstrap = await fetchJson(urls.bootstrap);
+  const [bootstrap, fixtures] = await Promise.all([
+    fetchJson(urls.bootstrap),
+    fetchJson(urls.fixtures),
+  ]);
   const event = bootstrap.events.find((item) => item.is_current) || bootstrap.events.find((item) => item.is_next) || bootstrap.events[0];
   const playersById = new Map(bootstrap.elements.map((player) => [player.id, player]));
   const clubsById = new Map(bootstrap.teams.map((team) => [team.id, team]));
@@ -211,9 +217,71 @@ async function main() {
     ].map(csvEscape).join(',')),
   ].join('\n');
 
+  const leader = json.teams[0] || null;
+  const fplFixtures = fixtures
+    .filter((fixture) => fixture.event === event.id)
+    .slice(0, 10)
+    .map((fixture) => ({
+      kickoff_time: fixture.kickoff_time,
+      started: fixture.started,
+      finished: fixture.finished,
+      home: clubsById.get(fixture.team_h)?.short_name || String(fixture.team_h),
+      away: clubsById.get(fixture.team_a)?.short_name || String(fixture.team_a),
+      home_score: fixture.team_h_score,
+      away_score: fixture.team_a_score,
+    }));
+
+  const deviceFeed = {
+    project: 'AI x Kanitnan FPL Quest',
+    updated_at_th: generatedAt,
+    gameweek: event.id,
+    team: {
+      name: myTeam.entry_name,
+      entry_id: myTeam.entry,
+      rank: myTeam.rank,
+      points: myTeam.total,
+      gw_points: myTeam.event_total,
+      captain: myTeam.captain?.player.web_name || '-',
+      captain_multiplier: myTeam.captain?.multiplier || 0,
+    },
+    mini_league: {
+      id: LEAGUE_ID,
+      name: firstLeague.league.name,
+      leader: leader ? {
+        team: leader.entry_name,
+        manager: leader.player_name,
+        points: leader.total,
+        captain: leader.captain || '-',
+      } : null,
+      top: json.teams.slice(0, 8).map((team) => ({
+        rank: team.rank,
+        team: team.entry_name,
+        points: team.total,
+        captain: team.captain || '-',
+        chips: team.chips.map((chip) => chip.name),
+      })),
+    },
+    template_players: playerRows.slice(0, 8).map((player) => ({
+      name: player.web_name,
+      club: player.team_short,
+      owners: player.owners,
+      captains: player.captains,
+      gw_points: player.event_points,
+      total_points: player.total_points,
+      owned_by_me: player.ownedByMe,
+    })),
+    fixtures: fplFixtures,
+    strategy: {
+      mode: 'confidence-first',
+      safe: 'Block high EO captain threats first.',
+      attack: 'Use differential only when minutes and fixture are strong.',
+    },
+  };
+
   await writeFile(`${OUT_DIR}/mini-league-intel-gw${event.id}.json`, JSON.stringify(json, null, 2), 'utf8');
   await writeFile(`${OUT_DIR}/team-summary-gw${event.id}.csv`, teamCsv, 'utf8');
   await writeFile(`${OUT_DIR}/player-template-gw${event.id}.csv`, playerCsv, 'utf8');
+  await writeFile(`${API_DIR}/fpl-device-live.json`, JSON.stringify(deviceFeed, null, 2), 'utf8');
 
   console.log(JSON.stringify({
     generatedAt,
