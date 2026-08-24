@@ -278,10 +278,38 @@ async function main() {
     },
   };
 
+  const safeAscii = (value) => String(value ?? '')
+    .normalize('NFKD')
+    .replace(/[^\x20-\x7E]/g, '?')
+    .slice(0, 32);
+
+  const deviceLite = {
+    u: generatedAt,
+    gw: event.id,
+    team: safeAscii(myTeam.entry_name),
+    pts: myTeam.total,
+    rank: myTeam.rank,
+    cap: safeAscii(myTeam.captain?.player.web_name || '-'),
+    leader: safeAscii(leader?.entry_name || '-'),
+    leader_pts: leader?.total || 0,
+    top: json.teams.slice(0, 5).map((team) => ({
+      r: team.rank,
+      t: safeAscii(team.entry_name),
+      p: team.total,
+    })),
+    tpl: playerRows.slice(0, 5).map((player) => ({
+      n: safeAscii(player.web_name),
+      c: player.team_short,
+      o: player.owners,
+      p: player.total_points,
+    })),
+  };
+
   await writeFile(`${OUT_DIR}/mini-league-intel-gw${event.id}.json`, JSON.stringify(json, null, 2), 'utf8');
   await writeFile(`${OUT_DIR}/team-summary-gw${event.id}.csv`, teamCsv, 'utf8');
   await writeFile(`${OUT_DIR}/player-template-gw${event.id}.csv`, playerCsv, 'utf8');
   await writeFile(`${API_DIR}/fpl-device-live.json`, JSON.stringify(deviceFeed, null, 2), 'utf8');
+  await writeFile(`${API_DIR}/fpl-device-lite.json`, JSON.stringify(deviceLite), 'utf8');
 
   console.log(JSON.stringify({
     generatedAt,
