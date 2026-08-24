@@ -1,5 +1,5 @@
 player,club,owners,captains,triple_captains,gw_points,total_points,owned_by_me
-João Pedro,CHE,11,1,1,7,91,true
+João Pedro,CHE,11,1,1,11,143,true
 Calafiori,ARS,11,0,0,9,99,true
 Szoboszlai,LIV,11,0,0,8,72,false
 Haaland,MCI,10,4,0,2,28,true
@@ -31,8 +31,8 @@ Van Hecke,TOT,3,0,0,1,2,false
 Roefs,SUN,3,0,0,1,1,false
 Dubravka,TOT,3,0,0,0,0,true
 Gakpo,LIV,2,1,0,12,36,false
-Rogers,CHE,2,0,0,9,18,false
 Xhaka,SUN,2,0,0,9,18,false
+Rogers,CHE,2,0,0,8,16,false
 Rodon,LEE,2,0,0,6,12,false
 Cunha,MUN,2,0,0,2,4,false
 Davis,IPS,2,0,0,2,4,false
@@ -48,7 +48,7 @@ De Cuyper,BHA,1,0,0,17,17,true
 Guéhi,MCI,1,0,0,10,10,false
 Gvardiol,MCI,1,0,0,9,9,false
 Cherki,MCI,1,0,0,8,8,true
-Lacroix,CHE,1,0,0,4,4,false
+Lacroix,CHE,1,0,0,6,6,false
 Belloumi,HUL,1,0,0,3,3,false
 Senesi,TOT,1,0,0,3,3,false
 Thomas,COV,1,0,0,3,3,false
@@ -75,7 +75,7 @@ Onyeka,COV,1,0,0,2,0,false
 Rayan,BOU,1,0,0,2,0,false
 Sakamoto,COV,1,0,0,0,0,false
 Sarr,CRY,1,0,0,0,0,false
-Sessegnon,FUL,1,0,0,0,0,false
+Sessegnon,FUL,1,0,0,1,0,false
 Thiago,BRE,1,0,0,0,0,false
 Truffert,BOU,1,0,0,1,0,false
 Yarmoliuk,BRE,1,0,0,1,0,false
