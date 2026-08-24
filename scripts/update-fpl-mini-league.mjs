@@ -315,6 +315,29 @@ async function main() {
       o: player.owners,
       p: player.total_points,
     })),
+    scout: [
+      {
+        n: 'Calafiori',
+        c: 'ARS',
+        tag: 'BLOCK',
+        conf: 82,
+        why: 'High mini ownership. Protect rank.',
+      },
+      {
+        n: 'Szoboszlai',
+        c: 'LIV',
+        tag: 'WATCH',
+        conf: 72,
+        why: 'Template threat. Buy only if role holds.',
+      },
+      {
+        n: 'De Cuyper',
+        c: 'BHA',
+        tag: 'HOLD',
+        conf: 76,
+        why: 'Good start, avoid knee-jerk sale.',
+      },
+    ],
   };
 
   await writeFile(`${OUT_DIR}/mini-league-intel-gw${event.id}.json`, JSON.stringify(json, null, 2), 'utf8');
