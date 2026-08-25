@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "25/8/2569 22:23:34",
+  "updated_at_th": "25/8/2569 23:10:00",
   "gameweek": 1,
   "team": {
     "name": "Yedtsuna",
@@ -32,20 +32,20 @@
       },
       {
         "rank": 2,
-        "team": "KC888",
-        "points": 72,
-        "captain": "João Pedro",
-        "chips": [
-          "3xc"
-        ]
-      },
-      {
-        "rank": 2,
         "team": "ช่วยใจดีกับลุงหน่อย",
         "points": 72,
         "captain": "B.Fernandes",
         "chips": [
           "bboost"
+        ]
+      },
+      {
+        "rank": 2,
+        "team": "KC888",
+        "points": 72,
+        "captain": "João Pedro",
+        "chips": [
+          "3xc"
         ]
       },
       {
@@ -82,10 +82,12 @@
       },
       {
         "rank": 8,
-        "team": "Sarumann",
+        "team": "Runner Up FC",
         "points": 52,
         "captain": "B.Fernandes",
-        "chips": []
+        "chips": [
+          "bboost"
+        ]
       }
     ]
   },
