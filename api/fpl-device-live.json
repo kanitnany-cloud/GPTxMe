@@ -1,11 +1,11 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "25/8/2569 16:10:27",
+  "updated_at_th": "25/8/2569 17:03:12",
   "gameweek": 1,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
-    "rank": 3,
+    "rank": 4,
     "points": 65,
     "gw_points": 65,
     "captain": "Haaland",
@@ -32,6 +32,15 @@
       },
       {
         "rank": 2,
+        "team": "KC888",
+        "points": 72,
+        "captain": "João Pedro",
+        "chips": [
+          "3xc"
+        ]
+      },
+      {
+        "rank": 2,
         "team": "ช่วยใจดีกับลุงหน่อย",
         "points": 72,
         "captain": "B.Fernandes",
@@ -40,23 +49,23 @@
         ]
       },
       {
-        "rank": 3,
+        "rank": 4,
         "team": "Yedtsuna",
         "points": 65,
         "captain": "Haaland",
         "chips": []
       },
       {
-        "rank": 4,
-        "team": "KC888",
+        "rank": 5,
+        "team": "Mr.Art",
         "points": 62,
-        "captain": "João Pedro",
+        "captain": "Gabriel",
         "chips": [
           "3xc"
         ]
       },
       {
-        "rank": 5,
+        "rank": 6,
         "team": "GrossProfit United",
         "points": 61,
         "captain": "Mbeumo",
@@ -65,29 +74,18 @@
         ]
       },
       {
-        "rank": 6,
-        "team": "Mr.Art",
-        "points": 60,
-        "captain": "Gabriel",
-        "chips": [
-          "3xc"
-        ]
+        "rank": 7,
+        "team": "RelegationBattle",
+        "points": 58,
+        "captain": "Gakpo",
+        "chips": []
       },
       {
-        "rank": 7,
+        "rank": 8,
         "team": "Sarumann",
         "points": 52,
         "captain": "B.Fernandes",
         "chips": []
-      },
-      {
-        "rank": 7,
-        "team": "Runner Up FC",
-        "points": 52,
-        "captain": "B.Fernandes",
-        "chips": [
-          "bboost"
-        ]
       }
     ]
   },
@@ -116,7 +114,7 @@
       "owners": 11,
       "captains": 0,
       "gw_points": 8,
-      "total_points": 72,
+      "total_points": 80,
       "owned_by_me": false
     },
     {
@@ -143,7 +141,7 @@
       "owners": 8,
       "captains": 0,
       "gw_points": 6,
-      "total_points": 48,
+      "total_points": 54,
       "owned_by_me": false
     },
     {
