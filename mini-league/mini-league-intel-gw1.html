@@ -28,10 +28,11 @@
     .player img { width:28px; height:34px; object-fit:contain; }
     .player small, td small { color:var(--muted); margin-left:4px; }
     .badge { width:24px; height:24px; object-fit:contain; vertical-align:middle; margin-right:6px; }
-    .matrix table { min-width:1765px; }
+    .matrix table { min-width:1880px; }
     .matrix th, .matrix td { border:1px solid #b8c4d4; }
     .matrix th:first-child { position:sticky; left:0; z-index:2; min-width:190px; background:#f8fafc; }
-    .matrix th:nth-child(2), .matrix td:nth-child(2) { position:sticky; left:190px; z-index:1; background:#fff; font-weight:800; }
+    .matrix th:nth-child(2), .matrix td:nth-child(2) { position:sticky; left:190px; z-index:1; background:#eef2ff; font-weight:800; }
+    .matrix th:nth-child(3), .matrix td:nth-child(3) { position:sticky; left:286px; z-index:1; background:#fff; font-weight:800; }
     .matrix td { text-align:center; min-width:96px; }
     .matrix td.total, .matrix th.total { text-align:right; background:#fef3c7; color:#92400e; }
     .matrix td.cap { color:var(--pink); font-weight:800; }
@@ -42,12 +43,15 @@
     button, .link-btn { border:2px solid var(--navy); border-radius:10px; padding:9px 12px; background:#fff; color:var(--navy); font-weight:800; text-decoration:none; box-shadow:3px 3px 0 var(--navy); cursor:pointer; }
     button:disabled { opacity:.65; cursor:wait; }
     .status-line { color:var(--muted); font-size:13px; margin:8px 0 0; }
+    .executive-list { display:grid; gap:8px; }
+    .executive-list p { margin:0; }
+    .prediction-table td:last-child { min-width:260px; }
     @media (max-width:900px) { body{padding:14px}.grid,.two{grid-template-columns:1fr} }
   </style>
 </head>
 <body>
   <h1>AFC Premier Mini-League Intel</h1>
-  <p>Gameweek 1 · ดึงข้อมูลจาก Fantasy Premier League public API · อัปเดต 22/8/2569 11:24:58</p>
+  <p id="pageSubtitle">Gameweek 1 · ดึงข้อมูลจาก Fantasy Premier League public API · กำลังโหลดข้อมูลล่าสุด...</p>
 
   <section class="panel">
     <h2>Live Refresh Control</h2>
@@ -69,17 +73,17 @@
   </section>
 
   <section class="grid">
-    <div class="card">จำนวนทีม<strong>15</strong></div>
-    <div class="card">ทีมเรา<strong>Yedtsuna</strong></div>
-    <div class="card">อันดับทีมเรา<strong>13</strong></div>
-    <div class="card">ทีมใช้ chip แล้ว<strong>6</strong></div>
+    <div class="card">จำนวนทีม<strong id="cardTeamCount">15</strong></div>
+    <div class="card">ทีมเรา<strong id="cardMyTeam">Yedtsuna</strong></div>
+    <div class="card">อันดับทีมเรา<strong id="cardMyRank">-</strong></div>
+    <div class="card">ทีมใช้ chip แล้ว<strong id="cardChipCount">-</strong></div>
   </section>
 
   <section class="panel">
     <h2>Executive Read</h2>
-    <p><b>จุดสำคัญ:</b> จ่าฝูง/ทีมแต้มสูงต้องแยกว่าได้แต้มจาก chip หรือ template จริง ถ้าใช้ Triple Captain แล้ว ให้มองเป็นแต้มที่เรายังมี chip advantage กลับคืนในอนาคต ไม่จำเป็นต้องไล่ตามด้วย hit ทันที.</p>
-    <p><b>ผู้เล่นที่เป็น template:</b> João Pedro (11/15), Calafiori (11/15), Szoboszlai (11/15), Haaland (10/15), B.Fernandes (9/15), Raya (8/15), Mbeumo (7/15), Tzolis (7/15), Brobbey (6/15), Calvert-Lewin (6/15), Gabriel (5/15), Isak (5/15), O'Reilly (5/15), Verbruggen (5/15), van Ewijk (4/15)</p>
-    <p><b>ตัวที่ทำร้าย rank เราได้ถ้าเราไม่มี:</b> Szoboszlai (11/15), Raya (8/15), Tzolis (7/15), Calvert-Lewin (6/15), Gabriel (5/15), Isak (5/15), van Ewijk (4/15), Kinsky (4/15)</p>
+    <div id="executiveRead" class="executive-list">
+      <p><b>กำลังโหลด:</b> จะอัปเดตจาก JSON snapshot ล่าสุดเมื่อเปิดหน้า หรือเมื่อกด Refresh Rival Data.</p>
+    </div>
   </section>
 
   <section class="panel">
@@ -87,7 +91,7 @@
     <div class="table-wrap">
       <table>
         <thead><tr><th>Rank</th><th>Team</th><th>Manager</th><th class="num">GW Pts</th><th class="num">Total</th><th>Captain</th><th>Chip Used</th><th>Overlap กับเรา</th><th>โอกาส transfer</th></tr></thead>
-        <tbody>
+        <tbody id="teamSummaryRows">
           
           <tr>
             <td>1</td>
@@ -285,9 +289,22 @@
     </section>
   </section>
 
+  <section class="panel">
+    <h2>Predicted Transfer Player</h2>
+    <p>ประเมินจากช่องว่าง template, ownership ในมินิลีก, คะแนนล่าสุด, captain/chip behavior และ overlap กับทีมเรา ไม่ใช่ transfer ที่ยืนยันแล้ว.</p>
+    <div class="table-wrap">
+      <table class="prediction-table">
+        <thead><tr><th>Player</th><th>Club</th><th class="num">Owners</th><th class="num">Mini Pts</th><th>Risk</th><th>AI Prediction</th><th>Strategy</th></tr></thead>
+        <tbody id="predictedTransferRows">
+          <tr><td colspan="7">กำลังโหลด prediction จาก snapshot ล่าสุด...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
   <section class="panel matrix">
-    <h2>Player Ownership + Points Matrix</h2>
-    <p>ตัวเลขคือคะแนนของนักเตะในทีมนั้นหลัง multiplier: C/TC/VC/B แสดง role ใน GW นี้</p>
+    <h2>Player Owner + Point Matrix</h2>
+    <p>Owner = จำนวนทีมที่ถือผู้เล่นคนนั้นในมินิลีก, Player Total = คะแนนรวมของผู้เล่นจากทุกทีมหลัง multiplier, C/TC/VC/B แสดง role ใน GW นี้</p>
     <div class="table-wrap">
       <table>
         <thead><tr><th>Player</th><th>Mr.Art</th><th>Sarumann</th><th>JedYubZ_WCC</th><th>ทีมของ Apirak</th><th>GrossProfit United</th><th>Dek Dek FC</th><th>Runner Up FC</th><th>ช่วยใจดีกับลุงหน่อย</th><th>Goal888</th><th>RelegationBattle</th><th>On</th><th>KC888</th><th>Long_Darkz</th><th>Yedtsuna</th><th>SilverBank</th></tr></thead>
@@ -303,6 +320,151 @@
     const statusEl = document.getElementById('liveIntelStatus');
     const rowsEl = document.getElementById('liveIntelRows');
     const refreshButton = document.getElementById('refreshLiveIntel');
+    const subtitleEl = document.getElementById('pageSubtitle');
+    const executiveEl = document.getElementById('executiveRead');
+    const teamSummaryEl = document.getElementById('teamSummaryRows');
+    const predictedTransferEl = document.getElementById('predictedTransferRows');
+
+    function safeText(value) {
+      return String(value ?? '-').replace(/[&<>"']/g, (char) => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      }[char]));
+    }
+
+    function tagClass(value) {
+      if (value === 'สูง') return 'tag hot';
+      if (value === 'กลาง') return 'tag warn';
+      return 'tag good';
+    }
+
+    function formatChip(chips) {
+      if (!chips || !chips.length) return '-';
+      return chips.map((chip) => `${chipLabel({ chips: [chip] }, chip.event)} GW${chip.event}`).join(', ');
+    }
+
+    function buildPlayerRows(report) {
+      const playerMap = new Map();
+      for (const team of report.teams || []) {
+        for (const pick of team.picks || []) {
+          if (!playerMap.has(pick.element)) {
+            playerMap.set(pick.element, {
+              element: pick.element,
+              web_name: pick.web_name,
+              club: pick.club,
+              event_points: Number(pick.event_points || 0),
+              owners: 0,
+              captains: 0,
+              totalPoints: 0,
+              ownedByMe: false,
+              cells: new Map()
+            });
+          }
+          const row = playerMap.get(pick.element);
+          row.owners += 1;
+          if (pick.flag === 'C' || pick.flag === 'TC') row.captains += 1;
+          row.totalPoints += Number(pick.points || 0);
+          if (team.entry === myEntryId) row.ownedByMe = true;
+          row.cells.set(team.entry, { points: Number(pick.points || 0), flag: pick.flag || '' });
+        }
+      }
+      return [...playerMap.values()].sort((a, b) =>
+        b.owners - a.owners ||
+        b.captains - a.captains ||
+        b.totalPoints - a.totalPoints ||
+        a.web_name.localeCompare(b.web_name)
+      );
+    }
+
+    function renderDashboardCards(report) {
+      const teams = report.teams || [];
+      const myTeam = teams.find((team) => team.entry === myEntryId);
+      const chipCount = teams.filter((team) => team.chips?.length).length;
+      document.getElementById('cardTeamCount').textContent = teams.length || '-';
+      document.getElementById('cardMyTeam').textContent = myTeam?.entry_name || 'Yedtsuna';
+      document.getElementById('cardMyRank').textContent = myTeam ? `#${myTeam.rank}` : '-';
+      document.getElementById('cardChipCount').textContent = chipCount;
+      subtitleEl.textContent = `Gameweek ${report.event?.id || 1} · ${report.league?.name || 'AFC Premier'} · อัปเดต ${report.generatedAt || '-'}`;
+    }
+
+    function renderExecutiveFromReport(report) {
+      const teams = report.teams || [];
+      const myTeam = teams.find((team) => team.entry === myEntryId);
+      const leader = teams[0];
+      const players = buildPlayerRows(report);
+      const template = players.slice(0, 8).map((p) => `${safeText(p.web_name)} (${p.owners}/${teams.length})`).join(', ');
+      const threats = players.filter((p) => !p.ownedByMe && p.owners >= 4).slice(0, 8).map((p) => `${safeText(p.web_name)} (${p.owners}/${teams.length}, ${p.totalPoints} pts)`).join(', ') || 'ยังไม่มี threat ชัดเจน';
+      const chipUsers = teams.filter((team) => team.chips?.length).map((team) => `${safeText(team.entry_name)}: ${safeText(formatChip(team.chips))}`).join(' · ') || 'ยังไม่มีทีมใช้ chip';
+      const gap = leader && myTeam ? leader.total - myTeam.total : 0;
+      executiveEl.innerHTML = `
+        <p><b>ภาพรวม:</b> ${safeText(myTeam?.entry_name || 'ทีมเรา')} อยู่ rank #${myTeam?.rank ?? '-'} มี ${myTeam?.total ?? '-'} pts ตามผู้นำ ${gap} pts. ถ้าผู้นำใช้ chip ให้หักความร้อนแรงออกก่อนตัดสินใจไล่.</p>
+        <p><b>Template mini-league:</b> ${template}</p>
+        <p><b>ตัวที่ทำร้าย rank เราได้ถ้าเราไม่มี:</b> ${threats}</p>
+        <p><b>Chip context:</b> ${chipUsers}</p>
+        <p><b>Decision rule:</b> block เฉพาะตัว ownership สูง + expected minutes ดี + fixture ดี; หลีกเลี่ยง -4 ถ้าไม่ได้แก้ตัวไม่ลงหรือสร้างแผน 3-5 GW.</p>`;
+    }
+
+    function renderTeamSummaryFromReport(report) {
+      const teams = report.teams || [];
+      if (!teamSummaryEl) return;
+      teamSummaryEl.innerHTML = teams.map((team) => {
+        const chip = formatChip(team.chips);
+        const chipHtml = chip === '-' ? '-' : `<span class="tag hot">${safeText(chip)}</span>`;
+        return `<tr>
+          <td>${team.rank}</td>
+          <td>${team.entry === myEntryId ? '<span class="tag good">ME</span> ' : ''}${safeText(team.entry_name)}</td>
+          <td>${safeText(team.player_name)}</td>
+          <td class="num">${team.event_total ?? '-'}</td>
+          <td class="num">${team.total ?? '-'}</td>
+          <td>${safeText(team.captain)} <span class="${team.captain_multiplier > 2 ? 'tag hot' : 'tag'}">x${team.captain_multiplier || 1}</span></td>
+          <td>${chipHtml}</td>
+          <td>${team.overlap15 ?? '-'} / 15 · XI ${team.overlapXI ?? '-'}</td>
+          <td><span class="${tagClass(team.transferLikelihood)}">${safeText(team.transferLikelihood || '-')}</span></td>
+        </tr>`;
+      }).join('');
+    }
+
+    function renderPredictedTransfersFromReport(report) {
+      const teams = report.teams || [];
+      const players = buildPlayerRows(report);
+      const totalTeams = Math.max(teams.length, 1);
+      const rows = players
+        .filter((p) => !p.ownedByMe || p.owners >= Math.ceil(totalTeams * 0.45))
+        .map((p) => {
+          const ownerRate = p.owners / totalTeams;
+          const missingByMe = !p.ownedByMe;
+          let risk = 'ต่ำ';
+          let prediction = 'Hold/monitor';
+          let strategy = 'ยังไม่ต้องขยับ ถ้าไม่มีข่าว minutes/fixture สนับสนุน';
+          if (missingByMe && (p.owners >= 6 || p.totalPoints >= 30)) {
+            risk = 'สูง';
+            prediction = 'คู่แข่งมีโอกาสถือ/ซื้อตามสูง';
+            strategy = 'พิจารณา block ถ้า expected minutes และ fixture ดี';
+          } else if (missingByMe && (p.owners >= 4 || p.event_points >= 6)) {
+            risk = 'กลาง';
+            prediction = 'watchlist transfer candidate';
+            strategy = 'รอข่าวทีมและราคา อย่ารีบ -4';
+          } else if (p.ownedByMe && ownerRate >= 0.45) {
+            risk = 'ต่ำ';
+            prediction = 'เรามี template shield แล้ว';
+            strategy = 'ถือถ้าไม่ได้เจ็บ/โดน rotation';
+          }
+          return { ...p, risk, prediction, strategy };
+        })
+        .sort((a, b) => {
+          const score = (p) => (p.risk === 'สูง' ? 300 : p.risk === 'กลาง' ? 150 : 0) + p.owners * 10 + p.totalPoints;
+          return score(b) - score(a);
+        })
+        .slice(0, 14);
+      predictedTransferEl.innerHTML = rows.map((p) => `<tr>
+        <td>${safeText(p.web_name)} ${p.ownedByMe ? '<span class="tag good">เราใช้อยู่</span>' : ''}</td>
+        <td>${safeText(p.club)}</td>
+        <td class="num">${p.owners}/${totalTeams}</td>
+        <td class="num">${p.totalPoints}</td>
+        <td><span class="${tagClass(p.risk)}">${p.risk}</span></td>
+        <td>${safeText(p.prediction)}</td>
+        <td>${safeText(p.strategy)}</td>
+      </tr>`).join('');
+    }
 
     function setLiveStatus(text) {
       statusEl.textContent = `${text} · ${new Date().toLocaleString('th-TH', { timeZone: 'Asia/Bangkok' })}`;
@@ -348,39 +510,10 @@
       const table = document.querySelector('.matrix table');
       if (!table) return;
       const teams = report.teams || [];
-      const playerMap = new Map();
+      const players = buildPlayerRows(report);
 
-      for (const team of teams) {
-        for (const pick of team.picks || []) {
-          if (!playerMap.has(pick.element)) {
-            playerMap.set(pick.element, {
-              element: pick.element,
-              web_name: pick.web_name,
-              club: pick.club,
-              event_points: Number(pick.event_points || 0),
-              owners: 0,
-              captains: 0,
-              totalPoints: 0,
-              cells: new Map()
-            });
-          }
-          const row = playerMap.get(pick.element);
-          row.owners += 1;
-          if (pick.flag === 'C' || pick.flag === 'TC') row.captains += 1;
-          row.totalPoints += Number(pick.points || 0);
-          row.cells.set(team.entry, { points: Number(pick.points || 0), flag: pick.flag || '' });
-        }
-      }
-
-      const players = [...playerMap.values()].sort((a, b) =>
-        b.owners - a.owners ||
-        b.captains - a.captains ||
-        b.totalPoints - a.totalPoints ||
-        a.web_name.localeCompare(b.web_name)
-      );
-
-      table.querySelector('thead').innerHTML = `<tr><th>Player</th><th class="total">Player Total</th>${teams.map((team) => `<th>${team.entry_name}<small>${team.total ?? 0} pts</small></th>`).join('')}</tr>`;
-      const teamTotalRow = `<tr class="team-total"><th>TEAM TOTAL</th><td class="total">${teams.reduce((sum, team) => sum + Number(team.total || 0), 0)}</td>${teams.map((team) => `<td class="total">${team.total ?? 0}</td>`).join('')}</tr>`;
+      table.querySelector('thead').innerHTML = `<tr><th>Player</th><th>Owners</th><th class="total">Player Total</th>${teams.map((team) => `<th>${safeText(team.entry_name)}<small>${team.total ?? 0} pts</small></th>`).join('')}</tr>`;
+      const teamTotalRow = `<tr class="team-total"><th>TEAM TOTAL</th><td>-</td><td class="total">${teams.reduce((sum, team) => sum + Number(team.total || 0), 0)}</td>${teams.map((team) => `<td class="total">${team.total ?? 0}</td>`).join('')}</tr>`;
       const playerRows = players.map((player) => {
         const cells = teams.map((team) => {
           const cell = player.cells.get(team.entry);
@@ -388,7 +521,7 @@
           const capClass = cell.flag === 'C' || cell.flag === 'TC' ? 'cap' : '';
           return `<td class="${capClass}">${cell.points}<small>${cell.flag}</small></td>`;
         }).join('');
-        return `<tr><th><span class="player">${player.web_name} <small>${player.club}</small></span></th><td class="total">${player.totalPoints}</td>${cells}</tr>`;
+        return `<tr><th><span class="player">${safeText(player.web_name)} <small>${safeText(player.club)}</small></span></th><td>${player.owners}/${teams.length}</td><td class="total">${player.totalPoints}</td>${cells}</tr>`;
       }).join('');
       table.querySelector('tbody').innerHTML = teamTotalRow + playerRows;
     }
@@ -399,6 +532,10 @@
       const report = await response.json();
       const teams = report.teams || [];
       const myTeam = teams.find((team) => team.entry === myEntryId);
+      renderDashboardCards(report);
+      renderExecutiveFromReport(report);
+      renderTeamSummaryFromReport(report);
+      renderPredictedTransfersFromReport(report);
       renderRows(teams.map((team) => ({
         ...team,
         captainMultiplier: team.captain_multiplier,
