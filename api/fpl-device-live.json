@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "25/8/2569 14:26:48",
+  "updated_at_th": "25/8/2569 15:20:19",
   "gameweek": 1,
   "team": {
     "name": "Yedtsuna",
@@ -75,19 +75,19 @@
       },
       {
         "rank": 7,
+        "team": "Sarumann",
+        "points": 52,
+        "captain": "B.Fernandes",
+        "chips": []
+      },
+      {
+        "rank": 7,
         "team": "Runner Up FC",
         "points": 52,
         "captain": "B.Fernandes",
         "chips": [
           "bboost"
         ]
-      },
-      {
-        "rank": 7,
-        "team": "Sarumann",
-        "points": 52,
-        "captain": "B.Fernandes",
-        "chips": []
       }
     ]
   },
@@ -169,7 +169,7 @@
     {
       "kickoff_time": "2026-08-21T19:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "ARS",
       "away": "COV",
       "home_score": 3,
@@ -178,7 +178,7 @@
     {
       "kickoff_time": "2026-08-22T11:30:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "HUL",
       "away": "MUN",
       "home_score": 2,
@@ -187,7 +187,7 @@
     {
       "kickoff_time": "2026-08-22T14:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "EVE",
       "away": "CRY",
       "home_score": 2,
@@ -196,7 +196,7 @@
     {
       "kickoff_time": "2026-08-22T14:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "IPS",
       "away": "SUN",
       "home_score": 2,
@@ -205,7 +205,7 @@
     {
       "kickoff_time": "2026-08-22T14:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "NFO",
       "away": "LEE",
       "home_score": 0,
@@ -214,7 +214,7 @@
     {
       "kickoff_time": "2026-08-22T16:30:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "BRE",
       "away": "TOT",
       "home_score": 3,
@@ -223,7 +223,7 @@
     {
       "kickoff_time": "2026-08-23T13:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "BHA",
       "away": "AVL",
       "home_score": 4,
@@ -232,7 +232,7 @@
     {
       "kickoff_time": "2026-08-23T13:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "MCI",
       "away": "BOU",
       "home_score": 2,
@@ -241,7 +241,7 @@
     {
       "kickoff_time": "2026-08-23T15:30:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "NEW",
       "away": "LIV",
       "home_score": 2,
@@ -250,7 +250,7 @@
     {
       "kickoff_time": "2026-08-24T19:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "FUL",
       "away": "CHE",
       "home_score": 2,
