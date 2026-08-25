@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "26/8/2569 01:53:30",
+  "updated_at_th": "26/8/2569 02:38:21",
   "gameweek": 1,
   "team": {
     "name": "Yedtsuna",
@@ -82,12 +82,10 @@
       },
       {
         "rank": 8,
-        "team": "Runner Up FC",
+        "team": "Sarumann",
         "points": 52,
         "captain": "B.Fernandes",
-        "chips": [
-          "bboost"
-        ]
+        "chips": []
       }
     ]
   },
