@@ -46,7 +46,10 @@
     .executive-list { display:grid; gap:8px; }
     .executive-list p { margin:0; }
     .prediction-table td:last-child { min-width:260px; }
-    @media (max-width:900px) { body{padding:14px}.grid,.two{grid-template-columns:1fr} }
+    .source-grid { display:grid; grid-template-columns:1.15fr .85fr; gap:12px; }
+    .source-card { border:1px dashed #9fb2cc; border-radius:12px; padding:12px; background:#f8fbff; }
+    .source-card p { margin:6px 0 0; }
+    @media (max-width:900px) { body{padding:14px}.grid,.two,.source-grid{grid-template-columns:1fr} }
   </style>
 </head>
 <body>
@@ -83,6 +86,20 @@
     <h2>Executive Read</h2>
     <div id="executiveRead" class="executive-list">
       <p><b>กำลังโหลด:</b> จะอัปเดตจาก JSON snapshot ล่าสุดเมื่อเปิดหน้า หรือเมื่อกด Refresh Rival Data.</p>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>FPL Data Analytics Lens</h2>
+    <div class="source-grid">
+      <div class="source-card">
+        <b>Source:</b> <a href="https://www.fpl-data.co.uk/statistics" target="_blank" rel="noreferrer">fpl-data.co.uk/statistics</a>
+        <p>ใช้เป็น third-party analytics layer สำหรับเช็ค Season Stats, Player/Team split, Home/Away, Position และ Price range ก่อนตัดสินใจ.</p>
+      </div>
+      <div class="source-card">
+        <b>Rule:</b>
+        <p>ถ้าผู้เล่นมี ownership สูงในมินิลีก แต่แต้มมาจาก multiplier/chip หรือ sample ยังน้อย ให้ลดความมั่นใจและรอข้อมูล GW ถัดไป.</p>
+      </div>
     </div>
   </section>
 
@@ -294,9 +311,9 @@
     <p>ประเมินจากช่องว่าง template, ownership ในมินิลีก, คะแนนล่าสุด, captain/chip behavior และ overlap กับทีมเรา ไม่ใช่ transfer ที่ยืนยันแล้ว.</p>
     <div class="table-wrap">
       <table class="prediction-table">
-        <thead><tr><th>Player</th><th>Club</th><th class="num">Owners</th><th class="num">Mini Pts</th><th>Risk</th><th>AI Prediction</th><th>Strategy</th></tr></thead>
+        <thead><tr><th>Player</th><th>Club</th><th class="num">Owners</th><th class="num">Mini Pts</th><th>Risk</th><th>FPL Data Check</th><th>AI Prediction</th><th>Strategy</th></tr></thead>
         <tbody id="predictedTransferRows">
-          <tr><td colspan="7">กำลังโหลด prediction จาก snapshot ล่าสุด...</td></tr>
+          <tr><td colspan="8">กำลังโหลด prediction จาก snapshot ล่าสุด...</td></tr>
         </tbody>
       </table>
     </div>
@@ -423,6 +440,15 @@
       }).join('');
     }
 
+    function fplDataCheck(player, totalTeams) {
+      const ownerRate = player.owners / Math.max(totalTeams, 1);
+      if (player.captains > 0) return 'Check threat + creativity; captain interest already visible.';
+      if (player.event_points >= 8) return 'Check shots/key passes/xGI before chasing last GW points.';
+      if (ownerRate >= 0.6) return 'Check minutes trend; high mini ownership makes this a shield/block call.';
+      if (!player.ownedByMe && ownerRate >= 0.35) return 'Check position + price range alternatives before buying.';
+      return 'Monitor only; need stronger FPL Data signal.';
+    }
+
     function renderPredictedTransfersFromReport(report) {
       const teams = report.teams || [];
       const players = buildPlayerRows(report);
@@ -448,7 +474,7 @@
             prediction = 'เรามี template shield แล้ว';
             strategy = 'ถือถ้าไม่ได้เจ็บ/โดน rotation';
           }
-          return { ...p, risk, prediction, strategy };
+          return { ...p, risk, prediction, strategy, analyticsCheck: fplDataCheck(p, totalTeams) };
         })
         .sort((a, b) => {
           const score = (p) => (p.risk === 'สูง' ? 300 : p.risk === 'กลาง' ? 150 : 0) + p.owners * 10 + p.totalPoints;
@@ -461,6 +487,7 @@
         <td class="num">${p.owners}/${totalTeams}</td>
         <td class="num">${p.totalPoints}</td>
         <td><span class="${tagClass(p.risk)}">${p.risk}</span></td>
+        <td>${safeText(p.analyticsCheck)}</td>
         <td>${safeText(p.prediction)}</td>
         <td>${safeText(p.strategy)}</td>
       </tr>`).join('');
