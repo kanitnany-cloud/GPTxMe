@@ -11,6 +11,7 @@ const urls = {
   league: (page = 1) => `https://fantasy.premierleague.com/api/leagues-classic/${LEAGUE_ID}/standings/?page_standings=${page}`,
   picks: (entry, event) => `https://fantasy.premierleague.com/api/entry/${entry}/event/${event}/picks/`,
   history: (entry) => `https://fantasy.premierleague.com/api/entry/${entry}/history/`,
+  transfers: (entry) => `https://fantasy.premierleague.com/api/entry/${entry}/transfers/`,
 };
 
 async function fetchJson(url) {
@@ -85,9 +86,10 @@ async function main() {
   }
 
   const teams = await mapLimit(standings, 5, async (row) => {
-    const [picksData, history] = await Promise.all([
+    const [picksData, history, transfers] = await Promise.all([
       fetchJson(urls.picks(row.entry, event.id)),
       fetchJson(urls.history(row.entry)),
+      fetchJson(urls.transfers(row.entry)),
     ]);
     const picks = picksData.picks.map((pick) => {
       const player = playersById.get(pick.element);
@@ -103,6 +105,7 @@ async function main() {
       ...row,
       picks,
       chips: history.chips || [],
+      transfers: (transfers || []).filter((transfer) => transfer.event === event.id),
       current: (history.current || []).find((gw) => gw.event === event.id),
       captain: picks.find((pick) => pick.is_captain),
     };
@@ -182,6 +185,14 @@ async function main() {
       captain: team.captain?.player.web_name,
       captain_multiplier: team.captain?.multiplier,
       chips: team.chips,
+      transfer_audit: {
+        count: team.transfers.length,
+        cost: team.current?.event_transfers_cost ?? 0,
+        moves: team.transfers.map((transfer) => ({
+          out: playersById.get(transfer.element_out)?.web_name || String(transfer.element_out),
+          in: playersById.get(transfer.element_in)?.web_name || String(transfer.element_in),
+        })),
+      },
       overlap15: team.overlap15,
       overlapXI: team.overlapXI,
       transferLikelihood: team.transferLikelihood,

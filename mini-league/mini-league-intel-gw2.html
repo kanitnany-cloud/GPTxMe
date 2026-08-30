@@ -119,6 +119,19 @@
   </section>
 
   <section class="panel">
+    <h2>GW2 Actions Audit</h2>
+    <p>ตรวจทุกทีมว่า GW นี้ทำอะไรไปบ้าง: transfer, hit, wildcard/chip และ captain เพื่ออ่านพฤติกรรมคู่แข่ง.</p>
+    <div class="table-wrap">
+      <table class="action-table">
+        <thead><tr><th>Rank</th><th>Team</th><th class="num">GW Pts</th><th>Captain</th><th>Chip GW2</th><th class="num">Transfers</th><th class="num">Hit</th><th>Moves</th><th>AI Read</th></tr></thead>
+        <tbody id="actionAuditRows">
+          <tr><td colspan="9">กำลังโหลด GW actions...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel">
     <h2>Fixture Board</h2>
     <p>โปรแกรม GW นี้จาก FPL API ใช้จับ clean sheet route, captain route และความเสี่ยง rotation ก่อน deadline.</p>
     <div class="table-wrap">
@@ -387,6 +400,7 @@
     const fixtureRowsEl = document.getElementById('fixtureRows');
     const setPieceRowsEl = document.getElementById('setPieceRows');
     const chipTrackerEl = document.getElementById('chipTrackerRows');
+    const actionAuditEl = document.getElementById('actionAuditRows');
 
     const setPieceIntel = [
       { names: ['B.Fernandes', 'Bruno Fernandes'], club: 'MUN', route: 'Penalties + direct free-kicks + corners', confidence: 'สูง', source: 'Official FPL / FFS / RotoWire', strategy: 'ถือเป็น premium floor; ถ้า captaincy สูงในลีกใช้เป็น shield ได้' },
@@ -623,6 +637,37 @@
         </tr>`).join('');
     }
 
+    function renderActionAuditFromReport(report) {
+      if (!actionAuditEl) return;
+      const rows = report.teams || [];
+      actionAuditEl.innerHTML = rows.map((team) => {
+        const gw2Chips = (team.chips || []).filter((chip) => chip.event === report.event?.id);
+        const chip = formatChip(gw2Chips);
+        const audit = team.transfer_audit || { count: 0, cost: 0, moves: [] };
+        const moves = audit.moves?.length
+          ? audit.moves.map((move) => `${safeText(move.out)} -> ${safeText(move.in)}`).join('<br>')
+          : 'No transfer';
+        const cost = audit.cost || 0;
+        let read = 'นิ่ง ไม่เสีย hit; ใช้ข้อมูลอีก GW ก่อนตัดสินว่าทีมแข็งจริง';
+        if (chip !== '-' && chip.includes('Wildcard')) read = 'Wildcard แล้ว ต้องจับ template ใหม่และตัวที่เขาเลือกซ้ำใน GW3';
+        else if (cost >= 8) read = 'เสี่ยงสูง ไล่แก้ทีมแรง; มีโอกาส transfer ต่อถ้าแต้มไม่คืน';
+        else if (cost === 4) read = 'ยอม -4 เพื่อเร่งแต้ม; ดูว่าตัวเข้าเป็น trend ใหม่หรือ chasing';
+        else if ((audit.count || 0) > 0) read = 'ใช้ FT ปรับทีมปกติ; ถ้าตัวเข้า ownership สูงอาจกลายเป็น template';
+        if (team.entry === myEntryId) read = 'ทีมเรา roll/no hit: ดีต่อแผนความชัวร์และเก็บ flexibility';
+        return `<tr>
+          <td>${team.rank}</td>
+          <td>${team.entry === myEntryId ? '<span class="tag good">ME</span> ' : ''}${safeText(team.entry_name)}</td>
+          <td class="num">${team.event_total ?? '-'}</td>
+          <td>${safeText(team.captain || '-')} <span class="${team.captain_multiplier > 2 ? 'tag hot' : 'tag'}">x${team.captain_multiplier || 1}</span></td>
+          <td>${chip === '-' ? '-' : `<span class="tag hot">${safeText(chip)}</span>`}</td>
+          <td class="num">${audit.count ?? 0}</td>
+          <td class="num">${cost ? `-${cost}` : '0'}</td>
+          <td>${moves}</td>
+          <td>${safeText(read)}</td>
+        </tr>`;
+      }).join('');
+    }
+
     function renderFixturesFromReport(report) {
       if (!fixtureRowsEl) return;
       const fixtures = report.fixtures || [];
@@ -758,6 +803,7 @@
       renderTeamSummaryFromReport(report);
       renderChipTrackerFromReport(report);
       await renderWeeklyComparison(report);
+      renderActionAuditFromReport(report);
       renderFixturesFromReport(report);
       renderSetPieceWatchlist(report);
       renderPredictedTransfersFromReport(report);

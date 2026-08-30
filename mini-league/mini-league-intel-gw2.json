@@ -70,7 +70,7 @@
     "most_captained": 411,
     "most_vice_captained": 1
   },
-  "generatedAt": "30/8/2569 08:02:46",
+  "generatedAt": "30/8/2569 08:11:57",
   "teams": [
     {
       "entry": 7463306,
@@ -88,6 +88,16 @@
           "event": 1
         }
       ],
+      "transfer_audit": {
+        "count": 1,
+        "cost": 0,
+        "moves": [
+          {
+            "out": "Sakamoto",
+            "in": "Janelt"
+          }
+        ]
+      },
       "overlap15": 3,
       "overlapXI": 3,
       "transferLikelihood": "สูง",
@@ -245,6 +255,20 @@
           "event": 1
         }
       ],
+      "transfer_audit": {
+        "count": 2,
+        "cost": 4,
+        "moves": [
+          {
+            "out": "Calvert-Lewin",
+            "in": "Isak"
+          },
+          {
+            "out": "B.Fernandes",
+            "in": "Cherki"
+          }
+        ]
+      },
       "overlap15": 5,
       "overlapXI": 5,
       "transferLikelihood": "สูง",
@@ -396,6 +420,11 @@
       "captain": "Haaland",
       "captain_multiplier": 2,
       "chips": [],
+      "transfer_audit": {
+        "count": 0,
+        "cost": 0,
+        "moves": []
+      },
       "overlap15": 15,
       "overlapXI": 11,
       "transferLikelihood": "ต่ำ",
@@ -553,6 +582,16 @@
           "event": 1
         }
       ],
+      "transfer_audit": {
+        "count": 1,
+        "cost": 0,
+        "moves": [
+          {
+            "out": "Brobbey",
+            "in": "Wissa"
+          }
+        ]
+      },
       "overlap15": 4,
       "overlapXI": 4,
       "transferLikelihood": "สูง",
@@ -704,6 +743,16 @@
       "captain": "M.Sangaré",
       "captain_multiplier": 2,
       "chips": [],
+      "transfer_audit": {
+        "count": 1,
+        "cost": 0,
+        "moves": [
+          {
+            "out": "Caicedo",
+            "in": "M.Sangaré"
+          }
+        ]
+      },
       "overlap15": 4,
       "overlapXI": 2,
       "transferLikelihood": "กลาง",
@@ -866,6 +915,68 @@
           "event": 2
         }
       ],
+      "transfer_audit": {
+        "count": 14,
+        "cost": 0,
+        "moves": [
+          {
+            "out": "Evanilson",
+            "in": "Barry"
+          },
+          {
+            "out": "Semenyo",
+            "in": "Palmer"
+          },
+          {
+            "out": "Roefs",
+            "in": "Kelleher"
+          },
+          {
+            "out": "A.García",
+            "in": "Guéhi"
+          },
+          {
+            "out": "Diop",
+            "in": "Kayode"
+          },
+          {
+            "out": "Thomas",
+            "in": "Virgil"
+          },
+          {
+            "out": "Isak",
+            "in": "Evanilson"
+          },
+          {
+            "out": "Burrowes",
+            "in": "Elanga"
+          },
+          {
+            "out": "Mbeumo",
+            "in": "Semenyo"
+          },
+          {
+            "out": "Raya",
+            "in": "Tzolakis"
+          },
+          {
+            "out": "Calafiori",
+            "in": "De Cuyper"
+          },
+          {
+            "out": "Hughes",
+            "in": "Saka"
+          },
+          {
+            "out": "Wirtz",
+            "in": "Gakpo"
+          },
+          {
+            "out": "Haaland",
+            "in": "Havertz"
+          }
+        ]
+      },
       "overlap15": 2,
       "overlapXI": 1,
       "transferLikelihood": "กลาง",
@@ -1017,6 +1128,11 @@
       "captain": "Haaland",
       "captain_multiplier": 2,
       "chips": [],
+      "transfer_audit": {
+        "count": 0,
+        "cost": 0,
+        "moves": []
+      },
       "overlap15": 3,
       "overlapXI": 1,
       "transferLikelihood": "สูง",
@@ -1168,6 +1284,16 @@
       "captain": "João Pedro",
       "captain_multiplier": 2,
       "chips": [],
+      "transfer_audit": {
+        "count": 1,
+        "cost": 0,
+        "moves": [
+          {
+            "out": "Wirtz",
+            "in": "Elanga"
+          }
+        ]
+      },
       "overlap15": 5,
       "overlapXI": 4,
       "transferLikelihood": "กลาง",
@@ -1325,6 +1451,11 @@
           "event": 1
         }
       ],
+      "transfer_audit": {
+        "count": 0,
+        "cost": 0,
+        "moves": []
+      },
       "overlap15": 3,
       "overlapXI": 3,
       "transferLikelihood": "กลาง",
@@ -1476,6 +1607,16 @@
       "captain": "João Pedro",
       "captain_multiplier": 2,
       "chips": [],
+      "transfer_audit": {
+        "count": 1,
+        "cost": 0,
+        "moves": [
+          {
+            "out": "Muñoz",
+            "in": "Kayode"
+          }
+        ]
+      },
       "overlap15": 5,
       "overlapXI": 4,
       "transferLikelihood": "กลาง",
@@ -1633,6 +1774,11 @@
           "event": 1
         }
       ],
+      "transfer_audit": {
+        "count": 0,
+        "cost": 0,
+        "moves": []
+      },
       "overlap15": 8,
       "overlapXI": 6,
       "transferLikelihood": "กลาง",
@@ -1784,6 +1930,16 @@
       "captain": "João Pedro",
       "captain_multiplier": 2,
       "chips": [],
+      "transfer_audit": {
+        "count": 1,
+        "cost": 0,
+        "moves": [
+          {
+            "out": "Sarr",
+            "in": "M.Sangaré"
+          }
+        ]
+      },
       "overlap15": 5,
       "overlapXI": 4,
       "transferLikelihood": "กลาง",
@@ -1935,6 +2091,11 @@
       "captain": "Mbeumo",
       "captain_multiplier": 2,
       "chips": [],
+      "transfer_audit": {
+        "count": 0,
+        "cost": 0,
+        "moves": []
+      },
       "overlap15": 4,
       "overlapXI": 4,
       "transferLikelihood": "สูง",
@@ -2086,6 +2247,16 @@
       "captain": "B.Fernandes",
       "captain_multiplier": 2,
       "chips": [],
+      "transfer_audit": {
+        "count": 1,
+        "cost": 0,
+        "moves": [
+          {
+            "out": "Bruno G.",
+            "in": "Rogers"
+          }
+        ]
+      },
       "overlap15": 4,
       "overlapXI": 3,
       "transferLikelihood": "กลาง",
@@ -2237,6 +2408,28 @@
       "captain": "Ødegaard",
       "captain_multiplier": 2,
       "chips": [],
+      "transfer_audit": {
+        "count": 4,
+        "cost": 12,
+        "moves": [
+          {
+            "out": "Brobbey",
+            "in": "Delap"
+          },
+          {
+            "out": "Cunha",
+            "in": "Palmer"
+          },
+          {
+            "out": "Rice",
+            "in": "Ødegaard"
+          },
+          {
+            "out": "Watkins",
+            "in": "João Pedro"
+          }
+        ]
+      },
       "overlap15": 2,
       "overlapXI": 1,
       "transferLikelihood": "สูง",
