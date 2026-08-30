@@ -327,7 +327,7 @@
       <div class="table-wrap">
         <table>
           <thead><tr><th>Team</th><th>Chip</th><th>GW</th><th>ผลเชิงกลยุทธ์</th></tr></thead>
-          <tbody>
+          <tbody id="chipTrackerRows">
             <tr><td>Mr.Art</td><td><span class="tag hot">Triple Captain</span></td><td>1</td><td>ใช้แต้มเร่งต้นซีซันแล้ว เรามี chip advantage ระยะยาว</td></tr><tr><td>ทีมของ Apirak</td><td><span class="tag hot">Bench Boost</span></td><td>1</td><td>ต้องหักออกจากการประเมินความแข็งทีมจริง</td></tr><tr><td>GrossProfit United</td><td><span class="tag hot">Bench Boost</span></td><td>1</td><td>ต้องหักออกจากการประเมินความแข็งทีมจริง</td></tr><tr><td>Runner Up FC</td><td><span class="tag hot">Bench Boost</span></td><td>1</td><td>ต้องหักออกจากการประเมินความแข็งทีมจริง</td></tr><tr><td>ช่วยใจดีกับลุงหน่อย</td><td><span class="tag hot">Bench Boost</span></td><td>1</td><td>ต้องหักออกจากการประเมินความแข็งทีมจริง</td></tr><tr><td>KC888</td><td><span class="tag hot">Triple Captain</span></td><td>1</td><td>ใช้แต้มเร่งต้นซีซันแล้ว เรามี chip advantage ระยะยาว</td></tr>
           </tbody>
         </table>
@@ -386,6 +386,7 @@
     const weeklyRowsEl = document.getElementById('weeklyComparisonRows');
     const fixtureRowsEl = document.getElementById('fixtureRows');
     const setPieceRowsEl = document.getElementById('setPieceRows');
+    const chipTrackerEl = document.getElementById('chipTrackerRows');
 
     const setPieceIntel = [
       { names: ['B.Fernandes', 'Bruno Fernandes'], club: 'MUN', route: 'Penalties + direct free-kicks + corners', confidence: 'สูง', source: 'Official FPL / FFS / RotoWire', strategy: 'ถือเป็น premium floor; ถ้า captaincy สูงในลีกใช้เป็น shield ได้' },
@@ -414,6 +415,14 @@
     function formatChip(chips) {
       if (!chips || !chips.length) return '-';
       return chips.map((chip) => `${chipLabel({ chips: [chip] }, chip.event)} GW${chip.event}`).join(', ');
+    }
+
+    function chipStrategy(chipName) {
+      if (chipName === '3xc') return 'ใช้แต้มเร่งแล้ว เราถือ chip advantage ระยะยาว';
+      if (chipName === 'bboost') return 'ต้องหักคะแนน bench boost ออกจากการประเมินความแข็งทีมจริง';
+      if (chipName === 'wildcard') return 'ทีมมีโครงสร้างใหม่ ให้จับ transfer trend และ template shift สัปดาห์ถัดไป';
+      if (chipName === 'freehit') return 'คะแนน GW นั้นไม่สะท้อนทีมถาวร ระวังตีความผิด';
+      return 'บันทึกเป็น chip context สำหรับวางกลยุทธ์รายสัปดาห์';
     }
 
     function buildPlayerRows(report) {
@@ -592,6 +601,28 @@
       }).join('');
     }
 
+    function renderChipTrackerFromReport(report) {
+      if (!chipTrackerEl) return;
+      const rows = [];
+      for (const team of report.teams || []) {
+        for (const chip of team.chips || []) {
+          rows.push({ team, chip });
+        }
+      }
+      if (!rows.length) {
+        chipTrackerEl.innerHTML = '<tr><td colspan="4">ยังไม่มีทีมใช้ chip</td></tr>';
+        return;
+      }
+      chipTrackerEl.innerHTML = rows
+        .sort((a, b) => a.chip.event - b.chip.event || a.team.rank - b.team.rank)
+        .map(({ team, chip }) => `<tr>
+          <td>${team.entry === myEntryId ? '<span class="tag good">ME</span> ' : ''}${safeText(team.entry_name)}</td>
+          <td><span class="tag hot">${safeText(chipLabel({ chips: [chip] }, chip.event))}</span></td>
+          <td>${chip.event}</td>
+          <td>${safeText(chipStrategy(chip.name))}</td>
+        </tr>`).join('');
+    }
+
     function renderFixturesFromReport(report) {
       if (!fixtureRowsEl) return;
       const fixtures = report.fixtures || [];
@@ -725,6 +756,7 @@
       renderDashboardCards(report);
       renderExecutiveFromReport(report);
       renderTeamSummaryFromReport(report);
+      renderChipTrackerFromReport(report);
       await renderWeeklyComparison(report);
       renderFixturesFromReport(report);
       renderSetPieceWatchlist(report);
@@ -732,7 +764,7 @@
       renderRows(teams.map((team) => ({
         ...team,
         captainMultiplier: team.captain_multiplier,
-        chip: team.chips?.length ? team.chips.map((chip) => `${chip.name} GW${chip.event}`).join(', ') : '-'
+        chip: formatChip(team.chips)
       })), myTeam?.total || 0);
       renderMatrixFromReport(report);
       setLiveStatus(`Published JSON loaded · Data: ${report.generatedAt || '-'}${reason ? ` · ${reason}` : ''}`);
