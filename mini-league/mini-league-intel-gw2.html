@@ -123,9 +123,9 @@
     <p>ตรวจทุกทีมว่า GW นี้ทำอะไรไปบ้าง: transfer, hit, wildcard/chip และ captain เพื่ออ่านพฤติกรรมคู่แข่ง.</p>
     <div class="table-wrap">
       <table class="action-table">
-        <thead><tr><th>Rank</th><th>Team</th><th class="num">GW Pts</th><th>Captain</th><th>Chip GW2</th><th class="num">Transfers</th><th class="num">Hit</th><th>Moves</th><th>AI Read</th></tr></thead>
+        <thead><tr><th>Rank</th><th>Team</th><th class="num">GW Pts</th><th class="num">Team Value</th><th class="num">Bank</th><th>Captain</th><th>Chip GW2</th><th class="num">Transfers</th><th class="num">Hit</th><th>Moves</th><th>AI Read</th></tr></thead>
         <tbody id="actionAuditRows">
-          <tr><td colspan="9">กำลังโหลด GW actions...</td></tr>
+          <tr><td colspan="11">กำลังโหลด GW actions...</td></tr>
         </tbody>
       </table>
     </div>
@@ -161,7 +161,7 @@
     <h2>Team Summary</h2>
     <div class="table-wrap">
       <table>
-        <thead><tr><th>Rank</th><th>Team</th><th>Manager</th><th class="num">GW Pts</th><th class="num">Total</th><th>Captain</th><th>Chip Used</th><th>Overlap กับเรา</th><th>โอกาส transfer</th></tr></thead>
+        <thead><tr><th>Rank</th><th>Team</th><th>Manager</th><th class="num">GW Pts</th><th class="num">Total</th><th class="num">Team Value</th><th class="num">Bank</th><th>Captain</th><th>Chip Used</th><th>Overlap กับเรา</th><th>โอกาส transfer</th></tr></thead>
         <tbody id="teamSummaryRows">
           
           <tr>
@@ -431,6 +431,11 @@
       return chips.map((chip) => `${chipLabel({ chips: [chip] }, chip.event)} GW${chip.event}`).join(', ');
     }
 
+    function formatMoney(value) {
+      const number = Number(value);
+      return Number.isFinite(number) ? number.toFixed(1) : '-';
+    }
+
     function chipStrategy(chipName) {
       if (chipName === '3xc') return 'ใช้แต้มเร่งแล้ว เราถือ chip advantage ระยะยาว';
       if (chipName === 'bboost') return 'ต้องหักคะแนน bench boost ออกจากการประเมินความแข็งทีมจริง';
@@ -512,6 +517,8 @@
           <td>${safeText(team.player_name)}</td>
           <td class="num">${team.event_total ?? '-'}</td>
           <td class="num">${team.total ?? '-'}</td>
+          <td class="num">${formatMoney(team.team_value)}</td>
+          <td class="num">${formatMoney(team.bank)}</td>
           <td>${safeText(team.captain)} <span class="${team.captain_multiplier > 2 ? 'tag hot' : 'tag'}">x${team.captain_multiplier || 1}</span></td>
           <td>${chipHtml}</td>
           <td>${team.overlap15 ?? '-'} / 15 · XI ${team.overlapXI ?? '-'}</td>
@@ -658,6 +665,8 @@
           <td>${team.rank}</td>
           <td>${team.entry === myEntryId ? '<span class="tag good">ME</span> ' : ''}${safeText(team.entry_name)}</td>
           <td class="num">${team.event_total ?? '-'}</td>
+          <td class="num">${formatMoney(team.team_value)}</td>
+          <td class="num">${formatMoney(team.bank)}</td>
           <td>${safeText(team.captain || '-')} <span class="${team.captain_multiplier > 2 ? 'tag hot' : 'tag'}">x${team.captain_multiplier || 1}</span></td>
           <td>${chip === '-' ? '-' : `<span class="tag hot">${safeText(chip)}</span>`}</td>
           <td class="num">${audit.count ?? 0}</td>

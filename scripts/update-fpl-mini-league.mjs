@@ -182,6 +182,8 @@ async function main() {
       rank: team.rank,
       event_total: team.event_total,
       total: team.total,
+      team_value: (team.current?.value ?? 0) / 10,
+      bank: (team.current?.bank ?? 0) / 10,
       captain: team.captain?.player.web_name,
       captain_multiplier: team.captain?.multiplier,
       chips: team.chips,
@@ -211,7 +213,7 @@ async function main() {
   };
 
   const teamCsv = [
-    ['rank', 'entry', 'team', 'manager', 'gw_points', 'total', 'captain', 'captain_multiplier', 'chips', 'overlap15', 'overlapXI', 'transfer_likelihood'].join(','),
+    ['rank', 'entry', 'team', 'manager', 'gw_points', 'total', 'team_value', 'bank', 'captain', 'captain_multiplier', 'chips', 'overlap15', 'overlapXI', 'transfer_likelihood'].join(','),
     ...json.teams.map((team) => [
       team.rank,
       team.entry,
@@ -219,6 +221,8 @@ async function main() {
       team.player_name,
       team.event_total,
       team.total,
+      team.team_value,
+      team.bank,
       team.captain || '',
       team.captain_multiplier || '',
       team.chips.map((chip) => `${chip.name}:GW${chip.event}`).join('|'),
