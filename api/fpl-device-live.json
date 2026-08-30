@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "30/8/2569 23:02:54",
+  "updated_at_th": "31/8/2569 01:45:32",
   "gameweek": 2,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
-    "rank": 1,
-    "points": 133,
-    "gw_points": 68,
+    "rank": 2,
+    "points": 165,
+    "gw_points": 100,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -15,32 +15,32 @@
     "id": 872362,
     "name": "AFC Premier",
     "leader": {
-      "team": "Yedtsuna",
-      "manager": "Kanitnan Yamjongkol",
-      "points": 133,
-      "captain": "Haaland"
+      "team": "ทีมของ Apirak",
+      "manager": "Apirak Aiman",
+      "points": 169,
+      "captain": "B.Fernandes"
     },
     "top": [
       {
         "rank": 1,
-        "team": "Yedtsuna",
-        "points": 133,
-        "captain": "Haaland",
-        "chips": []
-      },
-      {
-        "rank": 2,
-        "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 130,
-        "captain": "Isak",
+        "team": "ทีมของ Apirak",
+        "points": 169,
+        "captain": "B.Fernandes",
         "chips": [
           "bboost"
         ]
       },
       {
+        "rank": 2,
+        "team": "Yedtsuna",
+        "points": 165,
+        "captain": "Haaland",
+        "chips": []
+      },
+      {
         "rank": 3,
         "team": "KC888",
-        "points": 128,
+        "points": 150,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -48,8 +48,8 @@
       },
       {
         "rank": 4,
-        "team": "ทีมของ Apirak",
-        "points": 115,
+        "team": "Runner Up FC",
+        "points": 147,
         "captain": "B.Fernandes",
         "chips": [
           "bboost"
@@ -57,36 +57,35 @@
       },
       {
         "rank": 5,
-        "team": "Mr.Art",
-        "points": 109,
-        "captain": "Havertz",
+        "team": "GrossProfit United",
+        "points": 142,
+        "captain": "Mbeumo",
         "chips": [
-          "3xc",
-          "wildcard"
+          "bboost"
         ]
       },
       {
         "rank": 6,
-        "team": "RelegationBattle",
-        "points": 106,
-        "captain": "M.Sangaré",
-        "chips": []
+        "team": "ช่วยใจดีกับลุงหน่อย",
+        "points": 133,
+        "captain": "Isak",
+        "chips": [
+          "bboost"
+        ]
       },
       {
         "rank": 7,
-        "team": "SilverBank",
-        "points": 104,
+        "team": "Sarumann",
+        "points": 125,
         "captain": "João Pedro",
         "chips": []
       },
       {
         "rank": 8,
-        "team": "GrossProfit United",
-        "points": 97,
-        "captain": "Mbeumo",
-        "chips": [
-          "bboost"
-        ]
+        "team": "On",
+        "points": 117,
+        "captain": "B.Fernandes",
+        "chips": []
       }
     ]
   },
@@ -132,8 +131,8 @@
       "club": "MUN",
       "owners": 8,
       "captains": 3,
-      "gw_points": 1,
-      "total_points": 11,
+      "gw_points": 23,
+      "total_points": 253,
       "owned_by_me": true
     },
     {
@@ -159,8 +158,8 @@
       "club": "MUN",
       "owners": 6,
       "captains": 2,
-      "gw_points": 1,
-      "total_points": 8,
+      "gw_points": 11,
+      "total_points": 88,
       "owned_by_me": true
     }
   ],
@@ -243,8 +242,8 @@
       "finished": false,
       "home": "MUN",
       "away": "IPS",
-      "home_score": 0,
-      "away_score": 0
+      "home_score": 5,
+      "away_score": 2
     },
     {
       "kickoff_time": "2026-08-31T19:00:00Z",
