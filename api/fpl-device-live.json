@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "30/8/2569 17:37:47",
+  "updated_at_th": "30/8/2569 22:17:51",
   "gameweek": 2,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
-    "rank": 3,
-    "points": 105,
-    "gw_points": 40,
+    "rank": 1,
+    "points": 131,
+    "gw_points": 66,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -15,25 +15,23 @@
     "id": 872362,
     "name": "AFC Premier",
     "leader": {
-      "team": "KC888",
-      "manager": "KC B",
-      "points": 117,
+      "team": "Yedtsuna",
+      "manager": "Kanitnan Yamjongkol",
+      "points": 131,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
-        "team": "KC888",
-        "points": 117,
+        "team": "Yedtsuna",
+        "points": 131,
         "captain": "Haaland",
-        "chips": [
-          "3xc"
-        ]
+        "chips": []
       },
       {
         "rank": 2,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 116,
+        "points": 129,
         "captain": "Isak",
         "chips": [
           "bboost"
@@ -41,15 +39,17 @@
       },
       {
         "rank": 3,
-        "team": "Yedtsuna",
-        "points": 105,
+        "team": "KC888",
+        "points": 127,
         "captain": "Haaland",
-        "chips": []
+        "chips": [
+          "3xc"
+        ]
       },
       {
         "rank": 4,
         "team": "ทีมของ Apirak",
-        "points": 103,
+        "points": 112,
         "captain": "B.Fernandes",
         "chips": [
           "bboost"
@@ -57,15 +57,8 @@
       },
       {
         "rank": 5,
-        "team": "RelegationBattle",
-        "points": 94,
-        "captain": "M.Sangaré",
-        "chips": []
-      },
-      {
-        "rank": 6,
         "team": "Mr.Art",
-        "points": 91,
+        "points": 109,
         "captain": "Havertz",
         "chips": [
           "3xc",
@@ -73,18 +66,27 @@
         ]
       },
       {
-        "rank": 7,
-        "team": "Dek Dek FC",
-        "points": 79,
-        "captain": "Haaland",
+        "rank": 6,
+        "team": "RelegationBattle",
+        "points": 102,
+        "captain": "M.Sangaré",
+        "chips": []
+      },
+      {
+        "rank": 6,
+        "team": "SilverBank",
+        "points": 102,
+        "captain": "João Pedro",
         "chips": []
       },
       {
         "rank": 8,
-        "team": "SilverBank",
-        "points": 76,
-        "captain": "João Pedro",
-        "chips": []
+        "team": "GrossProfit United",
+        "points": 93,
+        "captain": "Mbeumo",
+        "chips": [
+          "bboost"
+        ]
       }
     ]
   },
@@ -94,8 +96,8 @@
       "club": "CHE",
       "owners": 12,
       "captains": 3,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 9,
+      "total_points": 135,
       "owned_by_me": true
     },
     {
@@ -210,30 +212,30 @@
     },
     {
       "kickoff_time": "2026-08-30T13:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "CHE",
       "away": "BHA",
-      "home_score": null,
-      "away_score": null
+      "home_score": 4,
+      "away_score": 3
     },
     {
       "kickoff_time": "2026-08-30T13:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "LEE",
       "away": "BRE",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-08-30T13:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "SUN",
       "away": "FUL",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-08-30T15:30:00Z",
