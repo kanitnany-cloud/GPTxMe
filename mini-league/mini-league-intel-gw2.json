@@ -70,7 +70,7 @@
     "most_captained": 411,
     "most_vice_captained": 1
   },
-  "generatedAt": "30/8/2569 07:57:06",
+  "generatedAt": "30/8/2569 08:02:46",
   "teams": [
     {
       "entry": 7463306,
@@ -3325,6 +3325,98 @@
       "event_points": 0,
       "total_points": 0,
       "ownedByMe": false
+    }
+  ],
+  "fixtures": [
+    {
+      "kickoff_time": "2026-08-28T19:00:00Z",
+      "started": true,
+      "finished": false,
+      "home": "CRY",
+      "away": "MCI",
+      "home_score": 1,
+      "away_score": 4
+    },
+    {
+      "kickoff_time": "2026-08-29T11:30:00Z",
+      "started": true,
+      "finished": false,
+      "home": "LIV",
+      "away": "NFO",
+      "home_score": 2,
+      "away_score": 2
+    },
+    {
+      "kickoff_time": "2026-08-29T14:00:00Z",
+      "started": true,
+      "finished": false,
+      "home": "BOU",
+      "away": "EVE",
+      "home_score": 1,
+      "away_score": 1
+    },
+    {
+      "kickoff_time": "2026-08-29T14:00:00Z",
+      "started": true,
+      "finished": false,
+      "home": "COV",
+      "away": "HUL",
+      "home_score": 0,
+      "away_score": 1
+    },
+    {
+      "kickoff_time": "2026-08-29T16:30:00Z",
+      "started": true,
+      "finished": false,
+      "home": "TOT",
+      "away": "NEW",
+      "home_score": 0,
+      "away_score": 2
+    },
+    {
+      "kickoff_time": "2026-08-30T13:00:00Z",
+      "started": false,
+      "finished": false,
+      "home": "CHE",
+      "away": "BHA",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "kickoff_time": "2026-08-30T13:00:00Z",
+      "started": false,
+      "finished": false,
+      "home": "LEE",
+      "away": "BRE",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "kickoff_time": "2026-08-30T13:00:00Z",
+      "started": false,
+      "finished": false,
+      "home": "SUN",
+      "away": "FUL",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "kickoff_time": "2026-08-30T15:30:00Z",
+      "started": false,
+      "finished": false,
+      "home": "MUN",
+      "away": "IPS",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "kickoff_time": "2026-08-31T19:00:00Z",
+      "started": false,
+      "finished": false,
+      "home": "AVL",
+      "away": "ARS",
+      "home_score": null,
+      "away_score": null
     }
   ]
 }

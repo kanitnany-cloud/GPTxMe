@@ -46,6 +46,8 @@
     .executive-list { display:grid; gap:8px; }
     .executive-list p { margin:0; }
     .prediction-table td:last-child { min-width:260px; }
+    .fixture-table td:last-child, .set-piece-table td:last-child { min-width:240px; }
+    .weekly-table th, .weekly-table td { white-space:nowrap; }
     .source-grid { display:grid; grid-template-columns:1.15fr .85fr; gap:12px; }
     .source-card { border:1px dashed #9fb2cc; border-radius:12px; padding:12px; background:#f8fbff; }
     .source-card p { margin:6px 0 0; }
@@ -100,6 +102,45 @@
         <b>Rule:</b>
         <p>ถ้าผู้เล่นมี ownership สูงในมินิลีก แต่แต้มมาจาก multiplier/chip หรือ sample ยังน้อย ให้ลดความมั่นใจและรอข้อมูล GW ถัดไป.</p>
       </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Weekly Comparison</h2>
+    <p>เทียบอันดับและคะแนนแต่ละ GW เพื่อดู momentum จริง ไม่ตัดสินใจจากคะแนนนัดเดียว.</p>
+    <div class="table-wrap">
+      <table class="weekly-table">
+        <thead id="weeklyComparisonHead"><tr><th>Team</th><th>Manager</th><th class="num">Total</th><th>Trend</th><th>Chip Context</th></tr></thead>
+        <tbody id="weeklyComparisonRows">
+          <tr><td colspan="5">กำลังโหลด weekly comparison...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Fixture Board</h2>
+    <p>โปรแกรม GW นี้จาก FPL API ใช้จับ clean sheet route, captain route และความเสี่ยง rotation ก่อน deadline.</p>
+    <div class="table-wrap">
+      <table class="fixture-table">
+        <thead><tr><th>Fixture</th><th>Kickoff ไทย</th><th>Status</th><th>Score</th><th>Mini-League Exposure</th><th>AI Action</th></tr></thead>
+        <tbody id="fixtureRows">
+          <tr><td colspan="6">กำลังโหลด fixtures...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Set-Piece Watchlist</h2>
+    <p>แยกข้อเท็จจริงกับคาดการณ์: ใช้ Official FPL เป็นทางเข้าเช็ค และ cross-check จาก FFS/Fix/RotoWire/OneFPL เพราะคนเตะลูกนิ่งเปลี่ยนได้ทุกสัปดาห์.</p>
+    <div class="table-wrap">
+      <table class="set-piece-table">
+        <thead><tr><th>Player</th><th>Club</th><th class="num">Owners</th><th class="num">Mini Pts</th><th>Set-piece Route</th><th>Confidence</th><th>Source</th><th>Strategy</th></tr></thead>
+        <tbody id="setPieceRows">
+          <tr><td colspan="8">กำลังโหลด set-piece watchlist...</td></tr>
+        </tbody>
+      </table>
     </div>
   </section>
 
@@ -341,6 +382,22 @@
     const executiveEl = document.getElementById('executiveRead');
     const teamSummaryEl = document.getElementById('teamSummaryRows');
     const predictedTransferEl = document.getElementById('predictedTransferRows');
+    const weeklyHeadEl = document.getElementById('weeklyComparisonHead');
+    const weeklyRowsEl = document.getElementById('weeklyComparisonRows');
+    const fixtureRowsEl = document.getElementById('fixtureRows');
+    const setPieceRowsEl = document.getElementById('setPieceRows');
+
+    const setPieceIntel = [
+      { names: ['B.Fernandes', 'Bruno Fernandes'], club: 'MUN', route: 'Penalties + direct free-kicks + corners', confidence: 'สูง', source: 'Official FPL / FFS / RotoWire', strategy: 'ถือเป็น premium floor; ถ้า captaincy สูงในลีกใช้เป็น shield ได้' },
+      { names: ['Haaland'], club: 'MCI', route: 'Penalty/open-play talisman; hierarchy ต้องเช็คก่อน deadline', confidence: 'กลาง', source: 'Official FPL / RotoWire / Fix', strategy: 'ตัวทำ rank damage สูงเพราะ captain ownership สูง; block ก่อน attack' },
+      { names: ['Szoboszlai'], club: 'LIV', route: 'GW1 penalty clue + dead-ball share', confidence: 'กลาง', source: 'OneFPL GW1 clue / FFS', strategy: 'ถ้า minutes ดีเป็น template threat ที่ควรจับตา' },
+      { names: ['Cherki'], club: 'MCI', route: 'Corners shared route', confidence: 'กลาง', source: 'OneFPL GW1 clue', strategy: 'มี upside แต่ต้องเช็คตัวจริงก่อนใช้เป็น differential' },
+      { names: ['Groß', 'Gross'], club: 'BHA', route: 'Expected dead-ball/creative route', confidence: 'กลาง', source: 'FFS / Fix / RotoWire cross-check', strategy: 'ถือถ้าได้ minutes; อย่าเปลี่ยนเพราะ blank นัดเดียว' },
+      { names: ['Gabriel'], club: 'ARS', route: 'Aerial target from Arsenal set pieces', confidence: 'สูง', source: 'FFS / Fix / RotoWire', strategy: 'defender ceiling ดีจากลูกตั้งเตะและ clean sheet route' },
+      { names: ['Calafiori'], club: 'ARS', route: 'Set-piece target/defensive route, not main taker', confidence: 'กลาง', source: 'FFS / Fix / match evidence', strategy: 'เรา block อยู่แล้ว; ถือถ้า nailed และ fixture ยังดี' },
+      { names: ['João Pedro', 'Joao Pedro'], club: 'CHE', route: 'Penalty-box route; set-piece role ยังไม่ชัด', confidence: 'ต่ำ', source: 'Official FPL check needed', strategy: 'ตัดสินจาก minutes + xG มากกว่าบทบาทลูกนิ่ง' },
+      { names: ['Tzolis'], club: 'ARS', route: 'Attacking set-piece involvement to monitor', confidence: 'ต่ำ', source: 'Match evidence / scout check', strategy: 'ไม่ไล่ซื้อจนกว่าจะเห็น role ซ้ำมากกว่า 1 GW' }
+    ];
 
     function safeText(value) {
       return String(value ?? '-').replace(/[&<>"']/g, (char) => ({
@@ -493,6 +550,112 @@
       </tr>`).join('');
     }
 
+    async function fetchSnapshotForGw(gw) {
+      try {
+        const response = await fetch(`./mini-league-intel-gw${gw}.json?v=${Date.now()}`, { cache: 'no-store' });
+        if (!response.ok) return null;
+        return response.json();
+      } catch (error) {
+        return null;
+      }
+    }
+
+    async function renderWeeklyComparison(report) {
+      if (!weeklyHeadEl || !weeklyRowsEl) return;
+      const currentGw = Number(report.event?.id || 2);
+      const snapshots = await Promise.all(
+        Array.from({ length: currentGw }, (_, index) => fetchSnapshotForGw(index + 1))
+      );
+      snapshots[currentGw - 1] = report;
+      const validSnapshots = snapshots.map((snapshot, index) => ({ gw: index + 1, snapshot })).filter((item) => item.snapshot);
+      weeklyHeadEl.innerHTML = `<tr><th>Team</th><th>Manager</th>${validSnapshots.map((item) => `<th class="num">GW${item.gw}</th>`).join('')}<th class="num">Total</th><th>Trend</th><th>Chip Context</th></tr>`;
+      const currentTeams = report.teams || [];
+      weeklyRowsEl.innerHTML = currentTeams.map((team) => {
+        const gwCells = validSnapshots.map((item) => {
+          const match = (item.snapshot.teams || []).find((candidate) => candidate.entry === team.entry);
+          return `<td class="num">${match?.event_total ?? '-'}</td>`;
+        }).join('');
+        const previous = validSnapshots.length > 1
+          ? (validSnapshots[validSnapshots.length - 2].snapshot.teams || []).find((candidate) => candidate.entry === team.entry)
+          : null;
+        const rankMove = previous ? previous.rank - team.rank : 0;
+        const trend = rankMove > 0 ? `ขึ้น ${rankMove}` : rankMove < 0 ? `ลง ${Math.abs(rankMove)}` : 'ทรงตัว';
+        const chip = formatChip(team.chips);
+        return `<tr>
+          <td>${team.entry === myEntryId ? '<span class="tag good">ME</span> ' : ''}${safeText(team.entry_name)}</td>
+          <td>${safeText(team.player_name)}</td>
+          ${gwCells}
+          <td class="num">${team.total ?? '-'}</td>
+          <td><span class="${rankMove > 0 ? 'tag good' : rankMove < 0 ? 'tag hot' : 'tag'}">${safeText(trend)}</span></td>
+          <td>${chip === '-' ? 'ยังไม่ใช้ chip / มี advantage ระยะยาว' : `<span class="tag hot">${safeText(chip)}</span>`}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    function renderFixturesFromReport(report) {
+      if (!fixtureRowsEl) return;
+      const fixtures = report.fixtures || [];
+      const playerRows = buildPlayerRows(report);
+      if (!fixtures.length) {
+        fixtureRowsEl.innerHTML = '<tr><td colspan="6">ยังไม่มี fixture ใน snapshot นี้ ให้รัน updater ใหม่ก่อน</td></tr>';
+        return;
+      }
+      fixtureRowsEl.innerHTML = fixtures.map((fixture) => {
+        const kickoff = fixture.kickoff_time
+          ? new Date(fixture.kickoff_time).toLocaleString('th-TH', { timeZone: 'Asia/Bangkok', dateStyle: 'short', timeStyle: 'short' })
+          : '-';
+        const status = fixture.finished ? 'Finished' : fixture.started ? 'Live' : 'Not started';
+        const score = fixture.home_score == null ? '-' : `${fixture.home_score}-${fixture.away_score}`;
+        const exposed = playerRows
+          .filter((player) => player.club === fixture.home || player.club === fixture.away)
+          .sort((a, b) => b.owners - a.owners)
+          .slice(0, 5)
+          .map((player) => `${safeText(player.web_name)} ${player.owners}/${report.teams?.length || 0}`)
+          .join(', ') || 'น้อย';
+        const action = fixture.started || fixture.finished
+          ? 'ใช้ผลจริงปรับ confidence model หลังจบ GW'
+          : 'เช็ค line-up leaks, minutes และ clean sheet route ก่อน deadline';
+        return `<tr>
+          <td><b>${safeText(fixture.home)}</b> vs <b>${safeText(fixture.away)}</b></td>
+          <td>${safeText(kickoff)}</td>
+          <td><span class="${fixture.finished ? 'tag' : fixture.started ? 'tag hot' : 'tag good'}">${safeText(status)}</span></td>
+          <td>${safeText(score)}</td>
+          <td>${exposed}</td>
+          <td>${safeText(action)}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    function renderSetPieceWatchlist(report) {
+      if (!setPieceRowsEl) return;
+      const players = buildPlayerRows(report);
+      const totalTeams = Math.max(report.teams?.length || 0, 1);
+      const rows = setPieceIntel.map((intel) => {
+        const player = players.find((candidate) =>
+          candidate.club === intel.club &&
+          intel.names.some((name) => candidate.web_name.toLowerCase() === name.toLowerCase())
+        );
+        return { ...intel, player };
+      }).filter((row) => row.player?.ownedByMe || (row.player?.owners || 0) >= 4 || ['B.Fernandes', 'Haaland', 'Szoboszlai', 'Groß'].some((name) => row.names.includes(name)));
+
+      setPieceRowsEl.innerHTML = rows.map((row) => {
+        const player = row.player;
+        const playerName = player?.web_name || row.names[0];
+        const owners = player ? `${player.owners}/${totalTeams}` : 'watch';
+        const points = player?.totalPoints ?? '-';
+        return `<tr>
+          <td>${safeText(playerName)} ${player?.ownedByMe ? '<span class="tag good">เราใช้อยู่</span>' : ''}</td>
+          <td>${safeText(row.club)}</td>
+          <td class="num">${safeText(owners)}</td>
+          <td class="num">${safeText(points)}</td>
+          <td>${safeText(row.route)}</td>
+          <td><span class="${tagClass(row.confidence)}">${safeText(row.confidence)}</span></td>
+          <td>${safeText(row.source)}</td>
+          <td>${safeText(row.strategy)}</td>
+        </tr>`;
+      }).join('');
+    }
+
     function setLiveStatus(text) {
       statusEl.textContent = `${text} · ${new Date().toLocaleString('th-TH', { timeZone: 'Asia/Bangkok' })}`;
     }
@@ -562,6 +725,9 @@
       renderDashboardCards(report);
       renderExecutiveFromReport(report);
       renderTeamSummaryFromReport(report);
+      await renderWeeklyComparison(report);
+      renderFixturesFromReport(report);
+      renderSetPieceWatchlist(report);
       renderPredictedTransfersFromReport(report);
       renderRows(teams.map((team) => ({
         ...team,

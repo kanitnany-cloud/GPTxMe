@@ -155,6 +155,19 @@ async function main() {
   );
 
   const generatedAt = new Date().toLocaleString('th-TH', { timeZone: 'Asia/Bangkok', hour12: false });
+  const fplFixtures = fixtures
+    .filter((fixture) => fixture.event === event.id)
+    .slice(0, 10)
+    .map((fixture) => ({
+      kickoff_time: fixture.kickoff_time,
+      started: fixture.started,
+      finished: fixture.finished,
+      home: clubsById.get(fixture.team_h)?.short_name || String(fixture.team_h),
+      away: clubsById.get(fixture.team_a)?.short_name || String(fixture.team_a),
+      home_score: fixture.team_h_score,
+      away_score: fixture.team_a_score,
+    }));
+
   const json = {
     league: firstLeague.league,
     event,
@@ -183,6 +196,7 @@ async function main() {
       })),
     })),
     playerRows,
+    fixtures: fplFixtures,
   };
 
   const teamCsv = [
@@ -218,19 +232,6 @@ async function main() {
   ].join('\n');
 
   const leader = json.teams[0] || null;
-  const fplFixtures = fixtures
-    .filter((fixture) => fixture.event === event.id)
-    .slice(0, 10)
-    .map((fixture) => ({
-      kickoff_time: fixture.kickoff_time,
-      started: fixture.started,
-      finished: fixture.finished,
-      home: clubsById.get(fixture.team_h)?.short_name || String(fixture.team_h),
-      away: clubsById.get(fixture.team_a)?.short_name || String(fixture.team_a),
-      home_score: fixture.team_h_score,
-      away_score: fixture.team_a_score,
-    }));
-
   const deviceFeed = {
     project: 'AI x Kanitnan FPL Quest',
     updated_at_th: generatedAt,
