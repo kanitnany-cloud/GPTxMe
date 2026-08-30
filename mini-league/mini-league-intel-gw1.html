@@ -60,9 +60,10 @@
 
   <section class="panel">
     <h2>Live Refresh Control</h2>
-    <p>กดเพื่อโหลด standings, captain และ chip usage จาก JSON snapshot ล่าสุดบน GitHub Pages. ข้อมูลจริงจาก FPL จะถูกอัปเดตอัตโนมัติผ่าน GitHub Actions แล้ว publish ขึ้นเว็บ.</p>
+    <p>กด Reload เพื่อโหลด JSON ล่าสุดที่ publish แล้ว. ถ้าต้องการดึง FPL API ใหม่ ให้กด Run GitHub Update แล้วกลับมากด Reload อีกครั้งหลัง workflow จบ.</p>
     <div class="toolbar">
-      <button id="refreshLiveIntel">Refresh Rival Data</button>
+      <button id="refreshLiveIntel">Reload Published Data</button>
+      <a class="link-btn" href="https://github.com/kanitnany-cloud/GPTxMe/actions/workflows/update-fpl-mini-league.yml" target="_blank" rel="noreferrer">Run GitHub Update</a>
       <a class="link-btn" href="https://fantasy.premierleague.com/leagues/872362/standings/c" target="_blank" rel="noreferrer">Open League</a>
       <a class="link-btn" href="./mini-league-intel-gw2.json" target="_blank" rel="noreferrer">Cached JSON</a>
     </div>
@@ -827,7 +828,7 @@
 
     async function refreshLiveIntel() {
       refreshButton.disabled = true;
-      setLiveStatus('Loading live FPL API');
+      setLiveStatus('Reloading published JSON');
       try {
         await loadCachedSnapshot('same-site JSON');
       } catch (error) {

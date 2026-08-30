@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "30/8/2569 22:17:51",
+  "updated_at_th": "30/8/2569 23:02:54",
   "gameweek": 2,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
-    "points": 131,
-    "gw_points": 66,
+    "points": 133,
+    "gw_points": 68,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,21 +17,21 @@
     "leader": {
       "team": "Yedtsuna",
       "manager": "Kanitnan Yamjongkol",
-      "points": 131,
+      "points": 133,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Yedtsuna",
-        "points": 131,
+        "points": 133,
         "captain": "Haaland",
         "chips": []
       },
       {
         "rank": 2,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 129,
+        "points": 130,
         "captain": "Isak",
         "chips": [
           "bboost"
@@ -40,7 +40,7 @@
       {
         "rank": 3,
         "team": "KC888",
-        "points": 127,
+        "points": 128,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -49,7 +49,7 @@
       {
         "rank": 4,
         "team": "ทีมของ Apirak",
-        "points": 112,
+        "points": 115,
         "captain": "B.Fernandes",
         "chips": [
           "bboost"
@@ -68,21 +68,21 @@
       {
         "rank": 6,
         "team": "RelegationBattle",
-        "points": 102,
+        "points": 106,
         "captain": "M.Sangaré",
         "chips": []
       },
       {
-        "rank": 6,
+        "rank": 7,
         "team": "SilverBank",
-        "points": 102,
+        "points": 104,
         "captain": "João Pedro",
         "chips": []
       },
       {
         "rank": 8,
         "team": "GrossProfit United",
-        "points": 93,
+        "points": 97,
         "captain": "Mbeumo",
         "chips": [
           "bboost"
@@ -132,8 +132,8 @@
       "club": "MUN",
       "owners": 8,
       "captains": 3,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 1,
+      "total_points": 11,
       "owned_by_me": true
     },
     {
@@ -159,8 +159,8 @@
       "club": "MUN",
       "owners": 6,
       "captains": 2,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 1,
+      "total_points": 8,
       "owned_by_me": true
     }
   ],
@@ -239,12 +239,12 @@
     },
     {
       "kickoff_time": "2026-08-30T15:30:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "MUN",
       "away": "IPS",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-08-31T19:00:00Z",
