@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "1/9/2569 02:24:48",
+  "updated_at_th": "1/9/2569 02:56:21",
   "gameweek": 2,
   "team": {
     "name": "Yedtsuna",
@@ -17,14 +17,14 @@
     "leader": {
       "team": "ทีมของ Apirak",
       "manager": "Apirak Aiman",
-      "points": 172,
+      "points": 171,
       "captain": "B.Fernandes"
     },
     "top": [
       {
         "rank": 1,
         "team": "ทีมของ Apirak",
-        "points": 172,
+        "points": 171,
         "captain": "B.Fernandes",
         "chips": [
           "bboost"
@@ -40,7 +40,7 @@
       {
         "rank": 3,
         "team": "KC888",
-        "points": 152,
+        "points": 153,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -49,7 +49,7 @@
       {
         "rank": 4,
         "team": "Runner Up FC",
-        "points": 149,
+        "points": 148,
         "captain": "B.Fernandes",
         "chips": [
           "bboost"
@@ -67,7 +67,7 @@
       {
         "rank": 6,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 138,
+        "points": 137,
         "captain": "Isak",
         "chips": [
           "bboost"
@@ -76,15 +76,15 @@
       {
         "rank": 7,
         "team": "Sarumann",
-        "points": 128,
+        "points": 127,
         "captain": "João Pedro",
         "chips": []
       },
       {
         "rank": 8,
-        "team": "JedYubZ_WCC",
-        "points": 120,
-        "captain": "João Pedro",
+        "team": "On",
+        "points": 122,
+        "captain": "B.Fernandes",
         "chips": []
       }
     ]
@@ -149,8 +149,8 @@
       "club": "ARS",
       "owners": 7,
       "captains": 0,
-      "gw_points": 1,
-      "total_points": 7,
+      "gw_points": 0,
+      "total_points": 0,
       "owned_by_me": false
     },
     {
