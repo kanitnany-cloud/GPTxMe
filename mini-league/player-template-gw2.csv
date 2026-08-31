@@ -1,16 +1,16 @@
 player,club,owners,captains,triple_captains,gw_points,total_points,owned_by_me
 João Pedro,CHE,12,3,0,9,135,true
 Szoboszlai,LIV,11,0,0,4,44,false
-Calafiori,ARS,10,0,0,1,10,true
+Calafiori,ARS,10,0,0,11,110,true
 Haaland,MCI,9,3,0,13,156,true
 B.Fernandes,MUN,8,3,0,23,253,true
-Raya,ARS,7,0,0,1,7,false
-Tzolis,ARS,7,0,0,1,7,false
+Raya,ARS,7,0,0,6,42,false
+Tzolis,ARS,7,0,0,0,0,false
 Mbeumo,MUN,6,2,0,11,88,true
 Isak,LIV,5,1,0,8,48,false
+Gabriel,ARS,5,0,0,8,40,false
 Calvert-Lewin,LEE,5,0,0,8,8,false
 O'Reilly,MCI,5,0,0,2,6,true
-Gabriel,ARS,5,0,0,1,5,false
 Verbruggen,BHA,5,0,0,0,0,true
 Brobbey,SUN,4,0,0,2,8,true
 Lammens,MUN,4,0,0,2,6,false
@@ -34,21 +34,22 @@ Elanga,NEW,2,0,0,8,16,false
 Palmer,CHE,2,0,0,7,14,false
 Hume,SUN,2,0,0,6,12,false
 E.Le Fée,SUN,2,0,0,3,6,false
+Rice,ARS,2,0,0,3,6,false
 Roefs,SUN,2,0,0,6,6,false
 Xhaka,SUN,2,0,0,6,6,false
 Guéhi,MCI,2,0,0,2,4,false
 Kayode,BRE,2,0,0,2,4,false
-Rice,ARS,2,0,0,1,2,false
 Tonali,TOT,2,0,0,2,2,false
 Rodon,LEE,2,0,0,1,1,false
-Cash,AVL,2,0,0,1,0,false
+Cash,AVL,2,0,0,2,0,false
 Davis,IPS,2,0,0,6,0,false
 De Cuyper,BHA,2,0,0,0,0,true
 Palestra,CHE,2,0,0,0,0,false
 Trafford,LEE,2,0,0,3,0,false
 Watkins,AVL,2,0,0,0,0,false
-Havertz,ARS,1,1,0,1,2,false
-Ødegaard,ARS,1,1,0,1,2,false
+Ødegaard,ARS,1,1,0,3,6,false
+Havertz,ARS,1,1,0,2,4,false
+Saka,ARS,1,0,0,11,11,false
 Tzolakis,HUL,1,0,0,10,10,false
 Cunha,MUN,1,0,0,9,9,false
 Egan,HUL,1,0,0,9,9,false
@@ -65,7 +66,6 @@ Thiago,BRE,1,0,0,2,2,false
 Beto,EVE,1,0,0,1,1,false
 Janelt,BRE,1,0,0,1,1,false
 Lacroix,CHE,1,0,0,1,1,false
-Saka,ARS,1,0,0,1,1,false
 Amad,MUN,1,0,0,0,0,false
 Barry,EVE,1,0,0,2,0,false
 Delap,NFO,1,0,0,1,0,false
@@ -73,7 +73,7 @@ Diop,IPS,1,0,0,2,0,true
 F.Kadıoğlu,BHA,1,0,0,0,0,false
 Hughes,CRY,1,0,0,0,0,true
 Kelleher,BRE,1,0,0,2,0,false
-Konsa,ARS,1,0,0,0,0,false
+Konsa,ARS,1,0,0,1,0,false
 Martinez,CHE,1,0,0,2,0,false
 Mateta,CRY,1,0,0,0,0,false
 McNair,HUL,1,0,0,0,0,false
