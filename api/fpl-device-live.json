@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "31/8/2569 20:34:41",
+  "updated_at_th": "1/9/2569 02:24:48",
   "gameweek": 2,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 2,
-    "points": 165,
-    "gw_points": 100,
+    "points": 166,
+    "gw_points": 101,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "ทีมของ Apirak",
       "manager": "Apirak Aiman",
-      "points": 169,
+      "points": 172,
       "captain": "B.Fernandes"
     },
     "top": [
       {
         "rank": 1,
         "team": "ทีมของ Apirak",
-        "points": 169,
+        "points": 172,
         "captain": "B.Fernandes",
         "chips": [
           "bboost"
@@ -33,14 +33,14 @@
       {
         "rank": 2,
         "team": "Yedtsuna",
-        "points": 165,
+        "points": 166,
         "captain": "Haaland",
         "chips": []
       },
       {
         "rank": 3,
         "team": "KC888",
-        "points": 150,
+        "points": 152,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -49,7 +49,7 @@
       {
         "rank": 4,
         "team": "Runner Up FC",
-        "points": 147,
+        "points": 149,
         "captain": "B.Fernandes",
         "chips": [
           "bboost"
@@ -58,7 +58,7 @@
       {
         "rank": 5,
         "team": "GrossProfit United",
-        "points": 142,
+        "points": 145,
         "captain": "Mbeumo",
         "chips": [
           "bboost"
@@ -67,7 +67,7 @@
       {
         "rank": 6,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 136,
+        "points": 138,
         "captain": "Isak",
         "chips": [
           "bboost"
@@ -76,14 +76,14 @@
       {
         "rank": 7,
         "team": "Sarumann",
-        "points": 125,
+        "points": 128,
         "captain": "João Pedro",
         "chips": []
       },
       {
         "rank": 8,
         "team": "JedYubZ_WCC",
-        "points": 117,
+        "points": 120,
         "captain": "João Pedro",
         "chips": []
       }
@@ -113,8 +113,8 @@
       "club": "ARS",
       "owners": 10,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 1,
+      "total_points": 10,
       "owned_by_me": true
     },
     {
@@ -140,8 +140,8 @@
       "club": "ARS",
       "owners": 7,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 1,
+      "total_points": 7,
       "owned_by_me": false
     },
     {
@@ -149,8 +149,8 @@
       "club": "ARS",
       "owners": 7,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 1,
+      "total_points": 7,
       "owned_by_me": false
     },
     {
@@ -247,12 +247,12 @@
     },
     {
       "kickoff_time": "2026-08-31T19:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "AVL",
       "away": "ARS",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     }
   ],
   "strategy": {
