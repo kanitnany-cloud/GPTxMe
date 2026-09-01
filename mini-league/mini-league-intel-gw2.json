@@ -1,18 +1,18 @@
 {
   "league": {
-    "admin_entry": 2164081,
-    "closed": false,
-    "code_privacy": "p",
-    "created": "2026-08-13T03:12:06.307130Z",
-    "cup_league": null,
-    "has_cup": true,
     "id": 872362,
-    "league_type": "x",
-    "max_entries": null,
     "name": "AFC Premier",
-    "rank": null,
+    "created": "2026-08-13T03:12:06.307130Z",
+    "closed": false,
+    "max_entries": null,
+    "league_type": "x",
     "scoring": "c",
-    "start_event": 1
+    "admin_entry": 2164081,
+    "start_event": 1,
+    "code_privacy": "p",
+    "has_cup": true,
+    "cup_league": null,
+    "rank": null
   },
   "event": {
     "id": 2,
@@ -70,7 +70,7 @@
     "most_captained": 411,
     "most_vice_captained": 1
   },
-  "generatedAt": "1/9/2569 20:09:20",
+  "generatedAt": "2/9/2569 00:22:52",
   "teams": [
     {
       "entry": 694667,
@@ -1419,7 +1419,7 @@
       },
       "overlap15": 4,
       "overlapXI": 3,
-      "transferLikelihood": "กลาง",
+      "transferLikelihood": "สูง",
       "picks": [
         {
           "element": 412,
