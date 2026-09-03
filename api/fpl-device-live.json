@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "3/9/2569 18:37:44",
+  "updated_at_th": "3/9/2569 22:53:21",
   "gameweek": 2,
   "team": {
     "name": "Yedtsuna",
@@ -93,10 +93,10 @@
     {
       "name": "João Pedro",
       "club": "CHE",
-      "owners": 12,
+      "owners": 13,
       "captains": 3,
       "gw_points": 9,
-      "total_points": 135,
+      "total_points": 144,
       "owned_by_me": true
     },
     {
@@ -118,6 +118,15 @@
       "owned_by_me": true
     },
     {
+      "name": "B.Fernandes",
+      "club": "MUN",
+      "owners": 9,
+      "captains": 4,
+      "gw_points": 23,
+      "total_points": 299,
+      "owned_by_me": true
+    },
+    {
       "name": "Haaland",
       "club": "MCI",
       "owners": 9,
@@ -127,22 +136,22 @@
       "owned_by_me": true
     },
     {
-      "name": "B.Fernandes",
-      "club": "MUN",
-      "owners": 8,
-      "captains": 3,
-      "gw_points": 23,
-      "total_points": 253,
-      "owned_by_me": true
-    },
-    {
       "name": "Raya",
       "club": "ARS",
-      "owners": 7,
+      "owners": 8,
       "captains": 0,
       "gw_points": 6,
       "total_points": 42,
       "owned_by_me": false
+    },
+    {
+      "name": "Mbeumo",
+      "club": "MUN",
+      "owners": 7,
+      "captains": 2,
+      "gw_points": 11,
+      "total_points": 99,
+      "owned_by_me": true
     },
     {
       "name": "Tzolis",
@@ -152,15 +161,6 @@
       "gw_points": 0,
       "total_points": 0,
       "owned_by_me": false
-    },
-    {
-      "name": "Mbeumo",
-      "club": "MUN",
-      "owners": 6,
-      "captains": 2,
-      "gw_points": 11,
-      "total_points": 88,
-      "owned_by_me": true
     }
   ],
   "fixtures": [
