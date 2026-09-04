@@ -70,7 +70,7 @@
     "most_captained": 411,
     "most_vice_captained": 1
   },
-  "generatedAt": "4/9/2569 19:28:44",
+  "generatedAt": "4/9/2569 19:51:07",
   "teams": [
     {
       "entry": 694667,
@@ -3697,9 +3697,9 @@
       "ownedByMe": false
     },
     {
-      "id": 104,
-      "web_name": "Onyeka",
-      "team_short": "COV",
+      "id": 476,
+      "web_name": "O.Richards",
+      "team_short": "NFO",
       "owners": 1,
       "captains": 0,
       "tripleCaptains": 0,
@@ -3708,9 +3708,9 @@
       "ownedByMe": false
     },
     {
-      "id": 476,
-      "web_name": "O.Richards",
-      "team_short": "NFO",
+      "id": 104,
+      "web_name": "Onyeka",
+      "team_short": "COV",
       "owners": 1,
       "captains": 0,
       "tripleCaptains": 0,
