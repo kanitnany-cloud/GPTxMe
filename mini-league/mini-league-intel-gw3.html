@@ -1,0 +1,846 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AFC Premier Mini-League Intel</title>
+  <style>
+    :root { --bg:#eef4fb; --card:#fff; --ink:#101827; --muted:#667085; --line:#d9e3ef; --pink:#e90052; --green:#00a86b; --navy:#12213a; --warn:#f59e0b; }
+    * { box-sizing:border-box; }
+    body { margin:0; padding:24px; background:var(--bg); color:var(--ink); font-family:Arial,Helvetica,sans-serif; }
+    h1 { margin:0 0 6px; font-size:28px; }
+    h2 { margin:0 0 12px; font-size:18px; }
+    p { color:var(--muted); line-height:1.5; }
+    .grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin:18px 0; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:14px; box-shadow:0 8px 24px rgba(15,23,42,.06); }
+    .card strong { display:block; font-size:22px; margin-top:5px; }
+    .panel { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:16px; margin:16px 0; box-shadow:0 8px 24px rgba(15,23,42,.06); }
+    .table-wrap { overflow:auto; border:1px solid var(--line); border-radius:12px; }
+    table { width:100%; border-collapse:collapse; min-width:900px; font-size:13px; }
+    th, td { padding:9px 10px; border:1px solid var(--line); text-align:left; vertical-align:middle; }
+    th { background:#f8fafc; position:sticky; top:0; z-index:1; }
+    td.num, th.num { text-align:right; }
+    .tag { display:inline-block; padding:4px 7px; border-radius:999px; background:#eef2ff; color:var(--navy); font-weight:700; font-size:11px; }
+    .tag.hot { background:#ffe4ec; color:var(--pink); }
+    .tag.good { background:#dcfce7; color:var(--green); }
+    .tag.warn { background:#fef3c7; color:#92400e; }
+    .player { display:flex; align-items:center; gap:7px; white-space:nowrap; }
+    .player img { width:28px; height:34px; object-fit:contain; }
+    .player small, td small { color:var(--muted); margin-left:4px; }
+    .badge { width:24px; height:24px; object-fit:contain; vertical-align:middle; margin-right:6px; }
+    .matrix table { min-width:1880px; }
+    .matrix th, .matrix td { border:1px solid #b8c4d4; }
+    .matrix th:first-child { position:sticky; left:0; z-index:2; min-width:190px; background:#f8fafc; }
+    .matrix th:nth-child(2), .matrix td:nth-child(2) { position:sticky; left:190px; z-index:1; background:#eef2ff; font-weight:800; }
+    .matrix th:nth-child(3), .matrix td:nth-child(3) { position:sticky; left:286px; z-index:1; background:#fff; font-weight:800; }
+    .matrix td { text-align:center; min-width:96px; }
+    .matrix td.total, .matrix th.total { text-align:right; background:#fef3c7; color:#92400e; }
+    .matrix td.cap { color:var(--pink); font-weight:800; }
+    .matrix th small { display:block; margin-top:3px; color:var(--muted); font-weight:700; }
+    .matrix tr.team-total th, .matrix tr.team-total td { background:#dcfce7; color:#065f46; font-weight:900; }
+    .two { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+    .toolbar { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0; }
+    button, .link-btn { border:2px solid var(--navy); border-radius:10px; padding:9px 12px; background:#fff; color:var(--navy); font-weight:800; text-decoration:none; box-shadow:3px 3px 0 var(--navy); cursor:pointer; }
+    button:disabled { opacity:.65; cursor:wait; }
+    .status-line { color:var(--muted); font-size:13px; margin:8px 0 0; }
+    .executive-list { display:grid; gap:8px; }
+    .executive-list p { margin:0; }
+    .prediction-table td:last-child { min-width:260px; }
+    .fixture-table td:last-child, .set-piece-table td:last-child { min-width:240px; }
+    .weekly-table th, .weekly-table td { white-space:nowrap; }
+    .source-grid { display:grid; grid-template-columns:1.15fr .85fr; gap:12px; }
+    .source-card { border:1px dashed #9fb2cc; border-radius:12px; padding:12px; background:#f8fbff; }
+    .source-card p { margin:6px 0 0; }
+    @media (max-width:900px) { body{padding:14px}.grid,.two,.source-grid{grid-template-columns:1fr} }
+  </style>
+</head>
+<body>
+  <h1>AFC Premier Mini-League Intel</h1>
+  <p id="pageSubtitle">Gameweek 3 Preview · ดึงข้อมูลจาก Fantasy Premier League public API · กำลังโหลดข้อมูลล่าสุด...</p>
+
+  <section class="panel">
+    <h2>Live Refresh Control</h2>
+    <p>กด Reload เพื่อโหลด JSON ล่าสุดที่ publish แล้ว. ถ้าต้องการดึง FPL API ใหม่ ให้กด Run GitHub Update แล้วกลับมากด Reload อีกครั้งหลัง workflow จบ.</p>
+    <div class="toolbar">
+      <button id="refreshLiveIntel">Reload Published Data</button>
+      <a class="link-btn" href="https://github.com/kanitnany-cloud/GPTxMe/actions/workflows/update-fpl-mini-league.yml" target="_blank" rel="noreferrer">Run GitHub Update</a>
+      <a class="link-btn" href="https://fantasy.premierleague.com/leagues/872362/standings/c" target="_blank" rel="noreferrer">Open League</a>
+      <a class="link-btn" href="./mini-league-intel-gw3.json" target="_blank" rel="noreferrer">Cached JSON</a>
+    </div>
+    <div class="status-line" id="liveIntelStatus">Ready · ยังไม่ได้ refresh ในรอบนี้</div>
+    <div class="table-wrap" style="margin-top:12px">
+      <table>
+        <thead><tr><th>Rank</th><th>Team</th><th>Manager</th><th class="num">GW Pts</th><th class="num">Total</th><th>Captain</th><th>Chip</th><th>AI Read</th></tr></thead>
+        <tbody id="liveIntelRows">
+          <tr><td>-</td><td>รอกด Refresh</td><td>-</td><td class="num">-</td><td class="num">-</td><td>-</td><td>-</td><td>ใช้ตาราง snapshot ด้านล่างไปก่อน</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="card">จำนวนทีม<strong id="cardTeamCount">15</strong></div>
+    <div class="card">ทีมเรา<strong id="cardMyTeam">Yedtsuna</strong></div>
+    <div class="card">อันดับทีมเรา<strong id="cardMyRank">-</strong></div>
+    <div class="card">ทีมใช้ chip แล้ว<strong id="cardChipCount">-</strong></div>
+  </section>
+
+  <section class="panel">
+    <h2>Executive Read</h2>
+    <div id="executiveRead" class="executive-list">
+      <p><b>กำลังโหลด:</b> จะอัปเดตจาก JSON snapshot ล่าสุดเมื่อเปิดหน้า หรือเมื่อกด Refresh Rival Data.</p>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>FPL Data Analytics Lens</h2>
+    <div class="source-grid">
+      <div class="source-card">
+        <b>Source:</b> <a href="https://www.fpl-data.co.uk/statistics" target="_blank" rel="noreferrer">fpl-data.co.uk/statistics</a>
+        <p>ใช้เป็น third-party analytics layer สำหรับเช็ค Season Stats, Player/Team split, Home/Away, Position และ Price range ก่อนตัดสินใจ.</p>
+      </div>
+      <div class="source-card">
+        <b>Rule:</b>
+        <p>ถ้าผู้เล่นมี ownership สูงในมินิลีก แต่แต้มมาจาก multiplier/chip หรือ sample ยังน้อย ให้ลดความมั่นใจและรอข้อมูล GW ถัดไป.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Weekly Comparison</h2>
+    <p>เทียบอันดับและคะแนนแต่ละ GW เพื่อดู momentum จริง ไม่ตัดสินใจจากคะแนนนัดเดียว.</p>
+    <div class="table-wrap">
+      <table class="weekly-table">
+        <thead id="weeklyComparisonHead"><tr><th>Team</th><th>Manager</th><th class="num">Total</th><th>Trend</th><th>Chip Context</th></tr></thead>
+        <tbody id="weeklyComparisonRows">
+          <tr><td colspan="5">กำลังโหลด weekly comparison...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Pre-GW3 Actions Audit</h2>
+    <p>ก่อน deadline GW3 ข้อมูล transfer ใหม่ของคู่แข่งยังถูกซ่อน จึงใช้ทีมล่าสุด, chip history, captain ล่าสุด และ fixture เพื่ออ่านพฤติกรรม.</p>
+    <div class="table-wrap">
+      <table class="action-table">
+        <thead><tr><th>Rank</th><th>Team</th><th class="num">Last GW Pts</th><th class="num">Team Value</th><th class="num">Bank</th><th>Captain</th><th>Chip History</th><th class="num">Transfers</th><th class="num">Hit</th><th>Moves</th><th>AI Read</th></tr></thead>
+        <tbody id="actionAuditRows">
+          <tr><td colspan="11">กำลังโหลด GW actions...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Fixture Board</h2>
+    <p>โปรแกรม GW นี้จาก FPL API ใช้จับ clean sheet route, captain route และความเสี่ยง rotation ก่อน deadline.</p>
+    <div class="table-wrap">
+      <table class="fixture-table">
+        <thead><tr><th>Fixture</th><th>Kickoff ไทย</th><th>Status</th><th>Score</th><th>Mini-League Exposure</th><th>AI Action</th></tr></thead>
+        <tbody id="fixtureRows">
+          <tr><td colspan="6">กำลังโหลด fixtures...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Set-Piece Watchlist</h2>
+    <p>แยกข้อเท็จจริงกับคาดการณ์: ใช้ Official FPL เป็นทางเข้าเช็ค และ cross-check จาก FFS/Fix/RotoWire/OneFPL เพราะคนเตะลูกนิ่งเปลี่ยนได้ทุกสัปดาห์.</p>
+    <div class="table-wrap">
+      <table class="set-piece-table">
+        <thead><tr><th>Player</th><th>Club</th><th class="num">Owners</th><th class="num">Mini Pts</th><th>Set-piece Route</th><th>Confidence</th><th>Source</th><th>Strategy</th></tr></thead>
+        <tbody id="setPieceRows">
+          <tr><td colspan="8">กำลังโหลด set-piece watchlist...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Team Summary</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Rank</th><th>Team</th><th>Manager</th><th class="num">GW Pts</th><th class="num">Total</th><th class="num">Team Value</th><th class="num">Bank</th><th>Captain</th><th>Chip Used</th><th>Overlap กับเรา</th><th>โอกาส transfer</th></tr></thead>
+        <tbody id="teamSummaryRows">
+          
+          <tr>
+            <td>1</td>
+            <td>Mr.Art</td>
+            <td>TANAWIN NUTCANAT</td>
+            <td class="num">33</td>
+            <td class="num">33</td>
+            <td>Gabriel <span class="tag hot">TC</span></td>
+            <td><span class="tag hot">Triple Captain GW1</span></td>
+            <td>6/15 · XI 4</td>
+            <td><span class="tag good">ต่ำ</span></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Sarumann</td>
+            <td>Jetsadakorn Maungkum</td>
+            <td class="num">21</td>
+            <td class="num">21</td>
+            <td>B.Fernandes <span class="tag ">C</span></td>
+            <td>-</td>
+            <td>5/15 · XI 4</td>
+            <td><span class="tag good">ต่ำ</span></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>JedYubZ_WCC</td>
+            <td>Chetsada Muangsri</td>
+            <td class="num">21</td>
+            <td class="num">21</td>
+            <td>Haaland <span class="tag ">C</span></td>
+            <td>-</td>
+            <td>5/15 · XI 4</td>
+            <td><span class="tag good">ต่ำ</span></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>ทีมของ Apirak</td>
+            <td>Apirak Aiman</td>
+            <td class="num">21</td>
+            <td class="num">21</td>
+            <td>B.Fernandes <span class="tag ">C</span></td>
+            <td><span class="tag hot">Bench Boost GW1</span></td>
+            <td>5/15 · XI 5</td>
+            <td><span class="tag good">ต่ำ</span></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>GrossProfit United</td>
+            <td>wiroon chemkhoonthod</td>
+            <td class="num">17</td>
+            <td class="num">17</td>
+            <td>Mbeumo <span class="tag ">C</span></td>
+            <td><span class="tag hot">Bench Boost GW1</span></td>
+            <td>3/15 · XI 3</td>
+            <td><span class="tag warn">กลาง</span></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Dek Dek FC</td>
+            <td>NTY D</td>
+            <td class="num">17</td>
+            <td class="num">17</td>
+            <td>Haaland <span class="tag ">C</span></td>
+            <td>-</td>
+            <td>3/15 · XI 2</td>
+            <td><span class="tag good">ต่ำ</span></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Runner Up FC</td>
+            <td>Tangii Slur</td>
+            <td class="num">15</td>
+            <td class="num">15</td>
+            <td>B.Fernandes <span class="tag ">C</span></td>
+            <td><span class="tag hot">Bench Boost GW1</span></td>
+            <td>8/15 · XI 8</td>
+            <td><span class="tag good">ต่ำ</span></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>ช่วยใจดีกับลุงหน่อย</td>
+            <td>Palm Xavier</td>
+            <td class="num">15</td>
+            <td class="num">15</td>
+            <td>B.Fernandes <span class="tag ">C</span></td>
+            <td><span class="tag hot">Bench Boost GW1</span></td>
+            <td>5/15 · XI 5</td>
+            <td><span class="tag good">ต่ำ</span></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Goal888</td>
+            <td>Pichai Boonlay</td>
+            <td class="num">14</td>
+            <td class="num">14</td>
+            <td>Watkins <span class="tag ">C</span></td>
+            <td>-</td>
+            <td>2/15 · XI 1</td>
+            <td><span class="tag warn">กลาง</span></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>RelegationBattle</td>
+            <td>Katha Panthong</td>
+            <td class="num">12</td>
+            <td class="num">12</td>
+            <td>Gakpo <span class="tag ">C</span></td>
+            <td>-</td>
+            <td>4/15 · XI 4</td>
+            <td><span class="tag good">ต่ำ</span></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>On</td>
+            <td>Peerawat Y</td>
+            <td class="num">12</td>
+            <td class="num">12</td>
+            <td>B.Fernandes <span class="tag ">C</span></td>
+            <td>-</td>
+            <td>4/15 · XI 4</td>
+            <td><span class="tag hot">สูง</span></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>KC888</td>
+            <td>KC B</td>
+            <td class="num">12</td>
+            <td class="num">12</td>
+            <td>João Pedro <span class="tag hot">TC</span></td>
+            <td><span class="tag hot">Triple Captain GW1</span></td>
+            <td>3/15 · XI 3</td>
+            <td><span class="tag warn">กลาง</span></td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>Long_Darkz</td>
+            <td>Pisanu Wongsaard</td>
+            <td class="num">9</td>
+            <td class="num">9</td>
+            <td>Mbeumo <span class="tag ">C</span></td>
+            <td>-</td>
+            <td>4/15 · XI 4</td>
+            <td><span class="tag good">ต่ำ</span></td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td><span class="tag good">ME</span> Yedtsuna</td>
+            <td>Kanitnan Yamjongkol</td>
+            <td class="num">9</td>
+            <td class="num">9</td>
+            <td>Haaland <span class="tag ">C</span></td>
+            <td>-</td>
+            <td>15/15 · XI 11</td>
+            <td><span class="tag good">ต่ำ</span></td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>SilverBank</td>
+            <td>BANK PHAKPHUM</td>
+            <td class="num">9</td>
+            <td class="num">9</td>
+            <td>Haaland <span class="tag ">C</span></td>
+            <td>-</td>
+            <td>5/15 · XI 4</td>
+            <td><span class="tag good">ต่ำ</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="two">
+    <section class="panel">
+      <h2>Chip Tracker</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Team</th><th>Chip</th><th>GW</th><th>ผลเชิงกลยุทธ์</th></tr></thead>
+          <tbody id="chipTrackerRows">
+            <tr><td>Mr.Art</td><td><span class="tag hot">Triple Captain</span></td><td>1</td><td>ใช้แต้มเร่งต้นซีซันแล้ว เรามี chip advantage ระยะยาว</td></tr><tr><td>ทีมของ Apirak</td><td><span class="tag hot">Bench Boost</span></td><td>1</td><td>ต้องหักออกจากการประเมินความแข็งทีมจริง</td></tr><tr><td>GrossProfit United</td><td><span class="tag hot">Bench Boost</span></td><td>1</td><td>ต้องหักออกจากการประเมินความแข็งทีมจริง</td></tr><tr><td>Runner Up FC</td><td><span class="tag hot">Bench Boost</span></td><td>1</td><td>ต้องหักออกจากการประเมินความแข็งทีมจริง</td></tr><tr><td>ช่วยใจดีกับลุงหน่อย</td><td><span class="tag hot">Bench Boost</span></td><td>1</td><td>ต้องหักออกจากการประเมินความแข็งทีมจริง</td></tr><tr><td>KC888</td><td><span class="tag hot">Triple Captain</span></td><td>1</td><td>ใช้แต้มเร่งต้นซีซันแล้ว เรามี chip advantage ระยะยาว</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Mini-League Template</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Player</th><th>Club</th><th class="num">Owners</th><th class="num">Captains</th><th class="num">GW Pts</th><th>Action</th></tr></thead>
+          <tbody>
+            <tr><td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p475168.png" alt="">João Pedro</span></td><td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t8.png" alt="">CHE</td><td class="num">11/15</td><td class="num">1</td><td class="num">0</td><td><span class="tag good">Block อยู่แล้ว</span></td></tr><tr><td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p466075.png" alt="">Calafiori</span></td><td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t3.png" alt="">ARS</td><td class="num">11/15</td><td class="num">0</td><td class="num">9</td><td><span class="tag good">Block อยู่แล้ว</span></td></tr><tr><td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png" alt="">Szoboszlai</span></td><td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t14.png" alt="">LIV</td><td class="num">11/15</td><td class="num">0</td><td class="num">0</td><td><span class="tag hot">พิจารณา block</span></td></tr><tr><td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p223094.png" alt="">Haaland</span></td><td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t43.png" alt="">MCI</td><td class="num">10/15</td><td class="num">4</td><td class="num">0</td><td><span class="tag good">Block อยู่แล้ว</span></td></tr><tr><td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p141746.png" alt="">B.Fernandes</span></td><td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t1.png" alt="">MUN</td><td class="num">9/15</td><td class="num">5</td><td class="num">0</td><td><span class="tag good">Block อยู่แล้ว</span></td></tr><tr><td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p154561.png" alt="">Raya</span></td><td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t3.png" alt="">ARS</td><td class="num">8/15</td><td class="num">0</td><td class="num">6</td><td><span class="tag hot">พิจารณา block</span></td></tr><tr><td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p446008.png" alt="">Mbeumo</span></td><td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t1.png" alt="">MUN</td><td class="num">7/15</td><td class="num">2</td><td class="num">0</td><td><span class="tag good">Block อยู่แล้ว</span></td></tr><tr><td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p439509.png" alt="">Tzolis</span></td><td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t3.png" alt="">ARS</td><td class="num">7/15</td><td class="num">0</td><td class="num">6</td><td><span class="tag hot">พิจารณา block</span></td></tr><tr><td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p441264.png" alt="">Brobbey</span></td><td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t56.png" alt="">SUN</td><td class="num">6/15</td><td class="num">0</td><td class="num">0</td><td><span class="tag good">Block อยู่แล้ว</span></td></tr><tr><td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p177815.png" alt="">Calvert-Lewin</span></td><td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t2.png" alt="">LEE</td><td class="num">6/15</td><td class="num">0</td><td class="num">0</td><td><span class="tag hot">พิจารณา block</span></td></tr><tr><td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p226597.png" alt="">Gabriel</span></td><td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t3.png" alt="">ARS</td><td class="num">5/15</td><td class="num">1</td><td class="num">5</td><td><span class="tag hot">พิจารณา block</span></td></tr><tr><td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png" alt="">Isak</span></td><td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t14.png" alt="">LIV</td><td class="num">5/15</td><td class="num">0</td><td class="num">0</td><td><span class="tag hot">พิจารณา block</span></td></tr><tr><td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p472769.png" alt="">O'Reilly</span></td><td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t43.png" alt="">MCI</td><td class="num">5/15</td><td class="num">0</td><td class="num">0</td><td><span class="tag good">Block อยู่แล้ว</span></td></tr><tr><td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p489639.png" alt="">Verbruggen</span></td><td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t36.png" alt="">BHA</td><td class="num">5/15</td><td class="num">0</td><td class="num">0</td><td><span class="tag good">Block อยู่แล้ว</span></td></tr><tr><td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p451284.png" alt="">van Ewijk</span></td><td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t9.png" alt="">COV</td><td class="num">4/15</td><td class="num">0</td><td class="num">1</td><td><span class="tag hot">พิจารณา block</span></td></tr><tr><td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p485055.png" alt="">Kinsky</span></td><td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t6.png" alt="">TOT</td><td class="num">4/15</td><td class="num">0</td><td class="num">0</td><td><span class="tag hot">พิจารณา block</span></td></tr><tr><td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p465247.png" alt="">Lammens</span></td><td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t1.png" alt="">MUN</td><td class="num">4/15</td><td class="num">0</td><td class="num">0</td><td><span class="tag hot">พิจารณา block</span></td></tr><tr><td><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p244723.png" alt="">Mitchell</span></td><td><img class="badge" src="https://resources.premierleague.com/premierleague/badges/70/t31.png" alt="">CRY</td><td class="num">4/15</td><td class="num">0</td><td class="num">0</td><td><span class="tag hot">พิจารณา block</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </section>
+
+  <section class="panel">
+    <h2>Predicted Transfer Player</h2>
+    <p>ประเมินจากช่องว่าง template, ownership ในมินิลีก, คะแนนล่าสุด, captain/chip behavior และ overlap กับทีมเรา ไม่ใช่ transfer ที่ยืนยันแล้ว.</p>
+    <div class="table-wrap">
+      <table class="prediction-table">
+        <thead><tr><th>Player</th><th>Club</th><th class="num">Owners</th><th class="num">Mini Pts</th><th>Risk</th><th>FPL Data Check</th><th>AI Prediction</th><th>Strategy</th></tr></thead>
+        <tbody id="predictedTransferRows">
+          <tr><td colspan="8">กำลังโหลด prediction จาก snapshot ล่าสุด...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel matrix">
+    <h2>Player Owner + Point Matrix</h2>
+    <p>Owner = จำนวนทีมที่ถือผู้เล่นคนนั้นในมินิลีก, Player Total = คะแนนรวมของผู้เล่นจากทุกทีมหลัง multiplier, C/TC/VC/B แสดง role ใน GW นี้</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Player</th><th>Mr.Art</th><th>Sarumann</th><th>JedYubZ_WCC</th><th>ทีมของ Apirak</th><th>GrossProfit United</th><th>Dek Dek FC</th><th>Runner Up FC</th><th>ช่วยใจดีกับลุงหน่อย</th><th>Goal888</th><th>RelegationBattle</th><th>On</th><th>KC888</th><th>Long_Darkz</th><th>Yedtsuna</th><th>SilverBank</th></tr></thead>
+        <tbody><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p475168.png" alt="">João Pedro <small>CHE</small></span></th><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class=""></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class="cap">0<small>TC</small></td><td class=""></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p466075.png" alt="">Calafiori <small>ARS</small></span></th><td class="">9<small>XI</small></td><td class="">9<small>XI</small></td><td class="">9<small>XI</small></td><td class="">9<small>XI</small></td><td class=""></td><td class=""></td><td class="">9<small>XI</small></td><td class="">9<small>XI</small></td><td class=""></td><td class="">9<small>XI</small></td><td class="">9<small>XI</small></td><td class=""></td><td class="">9<small>XI</small></td><td class="">9<small>XI</small></td><td class="">9<small>XI</small></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png" alt="">Szoboszlai <small>LIV</small></span></th><td class="">0<small>XI</small></td><td class="">0<small>VC</small></td><td class=""></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class="">0<small>B</small></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class=""></td><td class="">0<small>VC</small></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p223094.png" alt="">Haaland <small>MCI</small></span></th><td class="">0<small>XI</small></td><td class=""></td><td class="cap">0<small>C</small></td><td class=""></td><td class=""></td><td class="cap">0<small>C</small></td><td class="">0<small>VC</small></td><td class="">0<small>VC</small></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class="">0<small>VC</small></td><td class="">0<small>XI</small></td><td class="cap">0<small>C</small></td><td class="cap">0<small>C</small></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p141746.png" alt="">B.Fernandes <small>MUN</small></span></th><td class=""></td><td class="cap">0<small>C</small></td><td class="">0<small>XI</small></td><td class="cap">0<small>C</small></td><td class="">0<small>VC</small></td><td class=""></td><td class="cap">0<small>C</small></td><td class="cap">0<small>C</small></td><td class=""></td><td class=""></td><td class="cap">0<small>C</small></td><td class="">0<small>XI</small></td><td class=""></td><td class="">0<small>VC</small></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p154561.png" alt="">Raya <small>ARS</small></span></th><td class="">6<small>XI</small></td><td class="">6<small>XI</small></td><td class="">6<small>XI</small></td><td class="">6<small>XI</small></td><td class="">6<small>XI</small></td><td class="">6<small>XI</small></td><td class=""></td><td class=""></td><td class="">6<small>VC</small></td><td class=""></td><td class=""></td><td class="">6<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p446008.png" alt="">Mbeumo <small>MUN</small></span></th><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class=""></td><td class="">0<small>VC</small></td><td class="cap">0<small>C</small></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="cap">0<small>C</small></td><td class="">0<small>XI</small></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p439509.png" alt="">Tzolis <small>ARS</small></span></th><td class=""></td><td class="">6<small>XI</small></td><td class="">6<small>VC</small></td><td class="">6<small>XI</small></td><td class="">6<small>XI</small></td><td class="">6<small>XI</small></td><td class="">6<small>XI</small></td><td class="">6<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p441264.png" alt="">Brobbey <small>SUN</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p177815.png" alt="">Calvert-Lewin <small>LEE</small></span></th><td class=""></td><td class="">0<small>B</small></td><td class="">0<small>B</small></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p226597.png" alt="">Gabriel <small>ARS</small></span></th><td class="cap">15<small>TC</small></td><td class=""></td><td class=""></td><td class=""></td><td class="">5<small>XI</small></td><td class="">5<small>VC</small></td><td class=""></td><td class=""></td><td class="">5<small>XI</small></td><td class=""></td><td class=""></td><td class="">5<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png" alt="">Isak <small>LIV</small></span></th><td class="">0<small>VC</small></td><td class="">0<small>XI</small></td><td class=""></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p472769.png" alt="">O'Reilly <small>MCI</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p489639.png" alt="">Verbruggen <small>BHA</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p451284.png" alt="">van Ewijk <small>COV</small></span></th><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">1<small>XI</small></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p485055.png" alt="">Kinsky <small>TOT</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p465247.png" alt="">Lammens <small>MUN</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class="">0<small>XI</small></td><td class=""></td><td class="">0<small>VC</small></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p244723.png" alt="">Mitchell <small>CRY</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p247348.png" alt="">Muñoz <small>CRY</small></span></th><td class=""></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p178301.png" alt="">Watkins <small>AVL</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="cap">0<small>C</small></td><td class=""></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p204480.png" alt="">Rice <small>ARS</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">3<small>XI</small></td><td class="">3<small>VC</small></td><td class="">3<small>VC</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p67089.png" alt="">Dubravka <small>TOT</small></span></th><td class=""></td><td class="">0<small>B</small></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p60307.png" alt="">Groß <small>BHA</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class="">0<small>B</small></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p95658.png" alt="">Maguire <small>MUN</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p215136.png" alt="">N.Williams <small>NFO</small></span></th><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p498016.png" alt="">Roefs <small>SUN</small></span></th><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p437730.png" alt="">Semenyo <small>MCI</small></span></th><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p106760.png" alt="">Shaw <small>MUN</small></span></th><td class=""></td><td class="">0<small>B</small></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p469142.png" alt="">Van Hecke <small>TOT</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class="">0<small>B</small></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png" alt="">Virgil <small>LIV</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p494595.png" alt="">Wirtz <small>LIV</small></span></th><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png" alt="">Gakpo <small>LIV</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class="cap">0<small>C</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p199796.png" alt="">Cash <small>AVL</small></span></th><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p430871.png" alt="">Cunha <small>MUN</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p455084.png" alt="">Davis <small>IPS</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p219924.png" alt="">Diop <small>IPS</small></span></th><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p484420.png" alt="">E.Le Fée <small>SUN</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p108413.png" alt="">Hughes <small>CRY</small></span></th><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p487676.png" alt="">Hume <small>SUN</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p620109.png" alt="">Palestra <small>CHE</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p214225.png" alt="">Rodon <small>LEE</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p244850.png" alt="">Rogers <small>CHE</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p432422.png" alt="">Tonali <small>TOT</small></span></th><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p432720.png" alt="">Trafford <small>LEE</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p84450.png" alt="">Xhaka <small>SUN</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p461102.png" alt="">Thomas <small>COV</small></span></th><td class="">3<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p428580.png" alt="">Onyeka <small>COV</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p606798.png" alt="">A.García <small>AVL</small></span></th><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p191866.png" alt="">Ajer <small>BRE</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p493250.png" alt="">Amad <small>MUN</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p201666.png" alt="">Barnes <small>NEW</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p540324.png" alt="">Belloumi <small>HUL</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p486385.png" alt="">Beto <small>EVE</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p226182.png" alt="">Bogle <small>LEE</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p208706.png" alt="">Bruno G. <small>ARS</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p645618.png" alt="">Burrowes <small>AVL</small></span></th><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p486672.png" alt="">Caicedo <small>CHE</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p466052.png" alt="">Cherki <small>MCI</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p465730.png" alt="">De Cuyper <small>BHA</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p108416.png" alt="">Egan <small>HUL</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p231416.png" alt="">F.Kadıoğlu <small>BHA</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p514254.png" alt="">Gomez <small>BHA</small></span></th><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p209036.png" alt="">Guéhi <small>MCI</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p477424.png" alt="">Gvardiol <small>MCI</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p199798.png" alt="">Konsa <small>ARS</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p437499.png" alt="">Lacroix <small>CHE</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p98980.png" alt="">Martinez <small>AVL</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p231747.png" alt="">Mateta <small>CRY</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p160817.png" alt="">McNair <small>HUL</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p499604.png" alt="">Rayan <small>BOU</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p501459.png" alt="">Sakamoto <small>COV</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p232185.png" alt="">Sarr <small>CRY</small></span></th><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p221466.png" alt="">Senesi <small>TOT</small></span></th><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p184349.png" alt="">Sessegnon <small>FUL</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p502500.png" alt="">Thiago <small>BRE</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p166989.png" alt="">Tielemans <small>MUN</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p494521.png" alt="">Truffert <small>BOU</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p153682.png" alt="">Wilson <small>LEE</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p60689.png" alt="">Wood <small>NFO</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>XI</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr><tr><th><span class="player"><img src="https://resources.premierleague.com/premierleague/photos/players/110x140/p508395.png" alt="">Yarmoliuk <small>BRE</small></span></th><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">0<small>B</small></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td></tr></tbody>
+      </table>
+    </div>
+  </section>
+  <script>
+    const leagueId = 872362;
+    const myEntryId = 3944270;
+    const leagueApi = `https://fantasy.premierleague.com/api/leagues-classic/${leagueId}/standings/`;
+    const bootstrapApi = 'https://fantasy.premierleague.com/api/bootstrap-static/';
+    const statusEl = document.getElementById('liveIntelStatus');
+    const rowsEl = document.getElementById('liveIntelRows');
+    const refreshButton = document.getElementById('refreshLiveIntel');
+    const subtitleEl = document.getElementById('pageSubtitle');
+    const executiveEl = document.getElementById('executiveRead');
+    const teamSummaryEl = document.getElementById('teamSummaryRows');
+    const predictedTransferEl = document.getElementById('predictedTransferRows');
+    const weeklyHeadEl = document.getElementById('weeklyComparisonHead');
+    const weeklyRowsEl = document.getElementById('weeklyComparisonRows');
+    const fixtureRowsEl = document.getElementById('fixtureRows');
+    const setPieceRowsEl = document.getElementById('setPieceRows');
+    const chipTrackerEl = document.getElementById('chipTrackerRows');
+    const actionAuditEl = document.getElementById('actionAuditRows');
+
+    const setPieceIntel = [
+      { names: ['B.Fernandes', 'Bruno Fernandes'], club: 'MUN', route: 'Penalties + direct free-kicks + corners', confidence: 'สูง', source: 'Official FPL / FFS / RotoWire', strategy: 'ถือเป็น premium floor; ถ้า captaincy สูงในลีกใช้เป็น shield ได้' },
+      { names: ['Haaland'], club: 'MCI', route: 'Penalty/open-play talisman; hierarchy ต้องเช็คก่อน deadline', confidence: 'กลาง', source: 'Official FPL / RotoWire / Fix', strategy: 'ตัวทำ rank damage สูงเพราะ captain ownership สูง; block ก่อน attack' },
+      { names: ['Szoboszlai'], club: 'LIV', route: 'GW1 penalty clue + dead-ball share', confidence: 'กลาง', source: 'OneFPL GW1 clue / FFS', strategy: 'ถ้า minutes ดีเป็น template threat ที่ควรจับตา' },
+      { names: ['Cherki'], club: 'MCI', route: 'Corners shared route', confidence: 'กลาง', source: 'OneFPL GW1 clue', strategy: 'มี upside แต่ต้องเช็คตัวจริงก่อนใช้เป็น differential' },
+      { names: ['Groß', 'Gross'], club: 'BHA', route: 'Expected dead-ball/creative route', confidence: 'กลาง', source: 'FFS / Fix / RotoWire cross-check', strategy: 'ถือถ้าได้ minutes; อย่าเปลี่ยนเพราะ blank นัดเดียว' },
+      { names: ['Gabriel'], club: 'ARS', route: 'Aerial target from Arsenal set pieces', confidence: 'สูง', source: 'FFS / Fix / RotoWire', strategy: 'defender ceiling ดีจากลูกตั้งเตะและ clean sheet route' },
+      { names: ['Calafiori'], club: 'ARS', route: 'Set-piece target/defensive route, not main taker', confidence: 'กลาง', source: 'FFS / Fix / match evidence', strategy: 'เรา block อยู่แล้ว; ถือถ้า nailed และ fixture ยังดี' },
+      { names: ['João Pedro', 'Joao Pedro'], club: 'CHE', route: 'Penalty-box route; set-piece role ยังไม่ชัด', confidence: 'ต่ำ', source: 'Official FPL check needed', strategy: 'ตัดสินจาก minutes + xG มากกว่าบทบาทลูกนิ่ง' },
+      { names: ['Tzolis'], club: 'ARS', route: 'Attacking set-piece involvement to monitor', confidence: 'ต่ำ', source: 'Match evidence / scout check', strategy: 'ไม่ไล่ซื้อจนกว่าจะเห็น role ซ้ำมากกว่า 1 GW' }
+    ];
+
+    function safeText(value) {
+      return String(value ?? '-').replace(/[&<>"']/g, (char) => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      }[char]));
+    }
+
+    function tagClass(value) {
+      if (value === 'สูง') return 'tag hot';
+      if (value === 'กลาง') return 'tag warn';
+      return 'tag good';
+    }
+
+    function formatChip(chips) {
+      if (!chips || !chips.length) return '-';
+      return chips.map((chip) => `${chipLabel({ chips: [chip] }, chip.event)} GW${chip.event}`).join(', ');
+    }
+
+    function formatMoney(value) {
+      const number = Number(value);
+      return Number.isFinite(number) ? number.toFixed(1) : '-';
+    }
+
+    function chipStrategy(chipName) {
+      if (chipName === '3xc') return 'ใช้แต้มเร่งแล้ว เราถือ chip advantage ระยะยาว';
+      if (chipName === 'bboost') return 'ต้องหักคะแนน bench boost ออกจากการประเมินความแข็งทีมจริง';
+      if (chipName === 'wildcard') return 'ทีมมีโครงสร้างใหม่ ให้จับ transfer trend และ template shift สัปดาห์ถัดไป';
+      if (chipName === 'freehit') return 'คะแนน GW นั้นไม่สะท้อนทีมถาวร ระวังตีความผิด';
+      return 'บันทึกเป็น chip context สำหรับวางกลยุทธ์รายสัปดาห์';
+    }
+
+    function buildPlayerRows(report) {
+      const playerMap = new Map();
+      for (const team of report.teams || []) {
+        for (const pick of team.picks || []) {
+          if (!playerMap.has(pick.element)) {
+            playerMap.set(pick.element, {
+              element: pick.element,
+              web_name: pick.web_name,
+              club: pick.club,
+              event_points: Number(pick.event_points || 0),
+              owners: 0,
+              captains: 0,
+              totalPoints: 0,
+              ownedByMe: false,
+              cells: new Map()
+            });
+          }
+          const row = playerMap.get(pick.element);
+          row.owners += 1;
+          if (pick.flag === 'C' || pick.flag === 'TC') row.captains += 1;
+          row.totalPoints += Number(pick.points || 0);
+          if (team.entry === myEntryId) row.ownedByMe = true;
+          row.cells.set(team.entry, { points: Number(pick.points || 0), flag: pick.flag || '' });
+        }
+      }
+      return [...playerMap.values()].sort((a, b) =>
+        b.owners - a.owners ||
+        b.captains - a.captains ||
+        b.totalPoints - a.totalPoints ||
+        a.web_name.localeCompare(b.web_name)
+      );
+    }
+
+    function renderDashboardCards(report) {
+      const teams = report.teams || [];
+      const myTeam = teams.find((team) => team.entry === myEntryId);
+      const chipCount = teams.filter((team) => team.chips?.length).length;
+      document.getElementById('cardTeamCount').textContent = teams.length || '-';
+      document.getElementById('cardMyTeam').textContent = myTeam?.entry_name || 'Yedtsuna';
+      document.getElementById('cardMyRank').textContent = myTeam ? `#${myTeam.rank}` : '-';
+      document.getElementById('cardChipCount').textContent = chipCount;
+      subtitleEl.textContent = `Gameweek ${report.event?.id || 1} · ${report.league?.name || 'AFC Premier'} · อัปเดต ${report.generatedAt || '-'}`;
+    }
+
+    function renderExecutiveFromReport(report) {
+      const teams = report.teams || [];
+      const myTeam = teams.find((team) => team.entry === myEntryId);
+      const leader = teams[0];
+      const players = buildPlayerRows(report);
+      const template = players.slice(0, 8).map((p) => `${safeText(p.web_name)} (${p.owners}/${teams.length})`).join(', ');
+      const threats = players.filter((p) => !p.ownedByMe && p.owners >= 4).slice(0, 8).map((p) => `${safeText(p.web_name)} (${p.owners}/${teams.length}, ${p.totalPoints} pts)`).join(', ') || 'ยังไม่มี threat ชัดเจน';
+      const chipUsers = teams.filter((team) => team.chips?.length).map((team) => `${safeText(team.entry_name)}: ${safeText(formatChip(team.chips))}`).join(' · ') || 'ยังไม่มีทีมใช้ chip';
+      const gap = leader && myTeam ? leader.total - myTeam.total : 0;
+      executiveEl.innerHTML = `
+        <p><b>ภาพรวม:</b> ${safeText(myTeam?.entry_name || 'ทีมเรา')} อยู่ rank #${myTeam?.rank ?? '-'} มี ${myTeam?.total ?? '-'} pts ตามผู้นำ ${gap} pts. ถ้าผู้นำใช้ chip ให้หักความร้อนแรงออกก่อนตัดสินใจไล่.</p>
+        <p><b>Template mini-league:</b> ${template}</p>
+        <p><b>ตัวที่ทำร้าย rank เราได้ถ้าเราไม่มี:</b> ${threats}</p>
+        <p><b>Chip context:</b> ${chipUsers}</p>
+        <p><b>Decision rule:</b> block เฉพาะตัว ownership สูง + expected minutes ดี + fixture ดี; หลีกเลี่ยง -4 ถ้าไม่ได้แก้ตัวไม่ลงหรือสร้างแผน 3-5 GW.</p>`;
+    }
+
+    function renderTeamSummaryFromReport(report) {
+      const teams = report.teams || [];
+      if (!teamSummaryEl) return;
+      teamSummaryEl.innerHTML = teams.map((team) => {
+        const chip = formatChip(team.chips);
+        const chipHtml = chip === '-' ? '-' : `<span class="tag hot">${safeText(chip)}</span>`;
+        return `<tr>
+          <td>${team.rank}</td>
+          <td>${team.entry === myEntryId ? '<span class="tag good">ME</span> ' : ''}${safeText(team.entry_name)}</td>
+          <td>${safeText(team.player_name)}</td>
+          <td class="num">${team.event_total ?? '-'}</td>
+          <td class="num">${team.total ?? '-'}</td>
+          <td class="num">${formatMoney(team.team_value)}</td>
+          <td class="num">${formatMoney(team.bank)}</td>
+          <td>${safeText(team.captain)} <span class="${team.captain_multiplier > 2 ? 'tag hot' : 'tag'}">x${team.captain_multiplier || 1}</span></td>
+          <td>${chipHtml}</td>
+          <td>${team.overlap15 ?? '-'} / 15 · XI ${team.overlapXI ?? '-'}</td>
+          <td><span class="${tagClass(team.transferLikelihood)}">${safeText(team.transferLikelihood || '-')}</span></td>
+        </tr>`;
+      }).join('');
+    }
+
+    function fplDataCheck(player, totalTeams) {
+      const ownerRate = player.owners / Math.max(totalTeams, 1);
+      if (player.captains > 0) return 'Check threat + creativity; captain interest already visible.';
+      if (player.event_points >= 8) return 'Check shots/key passes/xGI before chasing last GW points.';
+      if (ownerRate >= 0.6) return 'Check minutes trend; high mini ownership makes this a shield/block call.';
+      if (!player.ownedByMe && ownerRate >= 0.35) return 'Check position + price range alternatives before buying.';
+      return 'Monitor only; need stronger FPL Data signal.';
+    }
+
+    function renderPredictedTransfersFromReport(report) {
+      const teams = report.teams || [];
+      const players = buildPlayerRows(report);
+      const totalTeams = Math.max(teams.length, 1);
+      const rows = players
+        .filter((p) => !p.ownedByMe || p.owners >= Math.ceil(totalTeams * 0.45))
+        .map((p) => {
+          const ownerRate = p.owners / totalTeams;
+          const missingByMe = !p.ownedByMe;
+          let risk = 'ต่ำ';
+          let prediction = 'Hold/monitor';
+          let strategy = 'ยังไม่ต้องขยับ ถ้าไม่มีข่าว minutes/fixture สนับสนุน';
+          if (missingByMe && (p.owners >= 6 || p.totalPoints >= 30)) {
+            risk = 'สูง';
+            prediction = 'คู่แข่งมีโอกาสถือ/ซื้อตามสูง';
+            strategy = 'พิจารณา block ถ้า expected minutes และ fixture ดี';
+          } else if (missingByMe && (p.owners >= 4 || p.event_points >= 6)) {
+            risk = 'กลาง';
+            prediction = 'watchlist transfer candidate';
+            strategy = 'รอข่าวทีมและราคา อย่ารีบ -4';
+          } else if (p.ownedByMe && ownerRate >= 0.45) {
+            risk = 'ต่ำ';
+            prediction = 'เรามี template shield แล้ว';
+            strategy = 'ถือถ้าไม่ได้เจ็บ/โดน rotation';
+          }
+          return { ...p, risk, prediction, strategy, analyticsCheck: fplDataCheck(p, totalTeams) };
+        })
+        .sort((a, b) => {
+          const score = (p) => (p.risk === 'สูง' ? 300 : p.risk === 'กลาง' ? 150 : 0) + p.owners * 10 + p.totalPoints;
+          return score(b) - score(a);
+        })
+        .slice(0, 14);
+      predictedTransferEl.innerHTML = rows.map((p) => `<tr>
+        <td>${safeText(p.web_name)} ${p.ownedByMe ? '<span class="tag good">เราใช้อยู่</span>' : ''}</td>
+        <td>${safeText(p.club)}</td>
+        <td class="num">${p.owners}/${totalTeams}</td>
+        <td class="num">${p.totalPoints}</td>
+        <td><span class="${tagClass(p.risk)}">${p.risk}</span></td>
+        <td>${safeText(p.analyticsCheck)}</td>
+        <td>${safeText(p.prediction)}</td>
+        <td>${safeText(p.strategy)}</td>
+      </tr>`).join('');
+    }
+
+    async function fetchSnapshotForGw(gw) {
+      try {
+        const response = await fetch(`./mini-league-intel-gw${gw}.json?v=${Date.now()}`, { cache: 'no-store' });
+        if (!response.ok) return null;
+        return response.json();
+      } catch (error) {
+        return null;
+      }
+    }
+
+    async function renderWeeklyComparison(report) {
+      if (!weeklyHeadEl || !weeklyRowsEl) return;
+      const currentGw = Number(report.event?.id || 2);
+      const snapshots = await Promise.all(
+        Array.from({ length: currentGw }, (_, index) => fetchSnapshotForGw(index + 1))
+      );
+      snapshots[currentGw - 1] = report;
+      const validSnapshots = snapshots.map((snapshot, index) => ({ gw: index + 1, snapshot })).filter((item) => item.snapshot);
+      weeklyHeadEl.innerHTML = `<tr><th>Team</th><th>Manager</th>${validSnapshots.map((item) => `<th class="num">GW${item.gw}</th>`).join('')}<th class="num">Total</th><th>Trend</th><th>Chip Context</th></tr>`;
+      const currentTeams = report.teams || [];
+      weeklyRowsEl.innerHTML = currentTeams.map((team) => {
+        const gwCells = validSnapshots.map((item) => {
+          const match = (item.snapshot.teams || []).find((candidate) => candidate.entry === team.entry);
+          return `<td class="num">${match?.event_total ?? '-'}</td>`;
+        }).join('');
+        const previous = validSnapshots.length > 1
+          ? (validSnapshots[validSnapshots.length - 2].snapshot.teams || []).find((candidate) => candidate.entry === team.entry)
+          : null;
+        const rankMove = previous ? previous.rank - team.rank : 0;
+        const trend = rankMove > 0 ? `ขึ้น ${rankMove}` : rankMove < 0 ? `ลง ${Math.abs(rankMove)}` : 'ทรงตัว';
+        const chip = formatChip(team.chips);
+        return `<tr>
+          <td>${team.entry === myEntryId ? '<span class="tag good">ME</span> ' : ''}${safeText(team.entry_name)}</td>
+          <td>${safeText(team.player_name)}</td>
+          ${gwCells}
+          <td class="num">${team.total ?? '-'}</td>
+          <td><span class="${rankMove > 0 ? 'tag good' : rankMove < 0 ? 'tag hot' : 'tag'}">${safeText(trend)}</span></td>
+          <td>${chip === '-' ? 'ยังไม่ใช้ chip / มี advantage ระยะยาว' : `<span class="tag hot">${safeText(chip)}</span>`}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    function renderChipTrackerFromReport(report) {
+      if (!chipTrackerEl) return;
+      const rows = [];
+      for (const team of report.teams || []) {
+        for (const chip of team.chips || []) {
+          rows.push({ team, chip });
+        }
+      }
+      if (!rows.length) {
+        chipTrackerEl.innerHTML = '<tr><td colspan="4">ยังไม่มีทีมใช้ chip</td></tr>';
+        return;
+      }
+      chipTrackerEl.innerHTML = rows
+        .sort((a, b) => a.chip.event - b.chip.event || a.team.rank - b.team.rank)
+        .map(({ team, chip }) => `<tr>
+          <td>${team.entry === myEntryId ? '<span class="tag good">ME</span> ' : ''}${safeText(team.entry_name)}</td>
+          <td><span class="tag hot">${safeText(chipLabel({ chips: [chip] }, chip.event))}</span></td>
+          <td>${chip.event}</td>
+          <td>${safeText(chipStrategy(chip.name))}</td>
+        </tr>`).join('');
+    }
+
+    function renderActionAuditFromReport(report) {
+      if (!actionAuditEl) return;
+      const rows = report.teams || [];
+      actionAuditEl.innerHTML = rows.map((team) => {
+        const usedChips = (team.chips || []).filter((chip) => chip.event <= (report.previousEvent?.id || report.event?.id || 0));
+        const chip = formatChip(usedChips);
+        const audit = team.transfer_audit || { count: 0, cost: 0, moves: [] };
+        const moves = audit.moves?.length
+          ? audit.moves.map((move) => `${safeText(move.out)} -> ${safeText(move.in)}`).join('<br>')
+          : 'No transfer';
+        const cost = audit.cost || 0;
+        let read = 'นิ่ง ไม่เสีย hit; ใช้ข้อมูลอีก GW ก่อนตัดสินว่าทีมแข็งจริง';
+        if (chip !== '-' && chip.includes('Wildcard')) read = 'Wildcard แล้ว ต้องจับ template ใหม่และตัวที่เขาเลือกซ้ำใน GW3';
+        else if (cost >= 8) read = 'เสี่ยงสูง ไล่แก้ทีมแรง; มีโอกาส transfer ต่อถ้าแต้มไม่คืน';
+        else if (cost === 4) read = 'ยอม -4 เพื่อเร่งแต้ม; ดูว่าตัวเข้าเป็น trend ใหม่หรือ chasing';
+        else if ((audit.count || 0) > 0) read = 'ใช้ FT ปรับทีมปกติ; ถ้าตัวเข้า ownership สูงอาจกลายเป็น template';
+        if (team.entry === myEntryId) read = 'ทีมเรา roll/no hit: ดีต่อแผนความชัวร์และเก็บ flexibility';
+        return `<tr>
+          <td>${team.rank}</td>
+          <td>${team.entry === myEntryId ? '<span class="tag good">ME</span> ' : ''}${safeText(team.entry_name)}</td>
+          <td class="num">${team.event_total ?? '-'}</td>
+          <td class="num">${formatMoney(team.team_value)}</td>
+          <td class="num">${formatMoney(team.bank)}</td>
+          <td>${safeText(team.captain || '-')} <span class="${team.captain_multiplier > 2 ? 'tag hot' : 'tag'}">x${team.captain_multiplier || 1}</span></td>
+          <td>${chip === '-' ? '-' : `<span class="tag hot">${safeText(chip)}</span>`}</td>
+          <td class="num">${audit.count ?? 0}</td>
+          <td class="num">${cost ? `-${cost}` : '0'}</td>
+          <td>${moves}</td>
+          <td>${safeText(read)}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    function renderFixturesFromReport(report) {
+      if (!fixtureRowsEl) return;
+      const fixtures = report.fixtures || [];
+      const playerRows = buildPlayerRows(report);
+      if (!fixtures.length) {
+        fixtureRowsEl.innerHTML = '<tr><td colspan="6">ยังไม่มี fixture ใน snapshot นี้ ให้รัน updater ใหม่ก่อน</td></tr>';
+        return;
+      }
+      fixtureRowsEl.innerHTML = fixtures.map((fixture) => {
+        const kickoff = fixture.kickoff_time
+          ? new Date(fixture.kickoff_time).toLocaleString('th-TH', { timeZone: 'Asia/Bangkok', dateStyle: 'short', timeStyle: 'short' })
+          : '-';
+        const status = fixture.finished ? 'Finished' : fixture.started ? 'Live' : 'Not started';
+        const score = fixture.home_score == null ? '-' : `${fixture.home_score}-${fixture.away_score}`;
+        const exposed = playerRows
+          .filter((player) => player.club === fixture.home || player.club === fixture.away)
+          .sort((a, b) => b.owners - a.owners)
+          .slice(0, 5)
+          .map((player) => `${safeText(player.web_name)} ${player.owners}/${report.teams?.length || 0}`)
+          .join(', ') || 'น้อย';
+        const action = fixture.started || fixture.finished
+          ? 'ใช้ผลจริงปรับ confidence model หลังจบ GW'
+          : 'เช็ค line-up leaks, minutes และ clean sheet route ก่อน deadline';
+        return `<tr>
+          <td><b>${safeText(fixture.home)}</b> vs <b>${safeText(fixture.away)}</b></td>
+          <td>${safeText(kickoff)}</td>
+          <td><span class="${fixture.finished ? 'tag' : fixture.started ? 'tag hot' : 'tag good'}">${safeText(status)}</span></td>
+          <td>${safeText(score)}</td>
+          <td>${exposed}</td>
+          <td>${safeText(action)}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    function renderSetPieceWatchlist(report) {
+      if (!setPieceRowsEl) return;
+      const players = buildPlayerRows(report);
+      const totalTeams = Math.max(report.teams?.length || 0, 1);
+      const rows = setPieceIntel.map((intel) => {
+        const player = players.find((candidate) =>
+          candidate.club === intel.club &&
+          intel.names.some((name) => candidate.web_name.toLowerCase() === name.toLowerCase())
+        );
+        return { ...intel, player };
+      }).filter((row) => row.player?.ownedByMe || (row.player?.owners || 0) >= 4 || ['B.Fernandes', 'Haaland', 'Szoboszlai', 'Groß'].some((name) => row.names.includes(name)));
+
+      setPieceRowsEl.innerHTML = rows.map((row) => {
+        const player = row.player;
+        const playerName = player?.web_name || row.names[0];
+        const owners = player ? `${player.owners}/${totalTeams}` : 'watch';
+        const points = player?.totalPoints ?? '-';
+        return `<tr>
+          <td>${safeText(playerName)} ${player?.ownedByMe ? '<span class="tag good">เราใช้อยู่</span>' : ''}</td>
+          <td>${safeText(row.club)}</td>
+          <td class="num">${safeText(owners)}</td>
+          <td class="num">${safeText(points)}</td>
+          <td>${safeText(row.route)}</td>
+          <td><span class="${tagClass(row.confidence)}">${safeText(row.confidence)}</span></td>
+          <td>${safeText(row.source)}</td>
+          <td>${safeText(row.strategy)}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    function setLiveStatus(text) {
+      statusEl.textContent = `${text} · ${new Date().toLocaleString('th-TH', { timeZone: 'Asia/Bangkok' })}`;
+    }
+
+    function chipLabel(history, eventId) {
+      const chip = (history.chips || []).find((item) => item.event === eventId);
+      if (!chip) return '-';
+      if (chip.name === '3xc') return 'Triple Captain';
+      if (chip.name === 'bboost') return 'Bench Boost';
+      if (chip.name === 'freehit') return 'Free Hit';
+      if (chip.name === 'wildcard') return 'Wildcard';
+      return chip.name;
+    }
+
+    function aiRead(row, myTotal, chip) {
+      if (row.entry === myEntryId) return 'ทีมเรา: ใช้เป็นฐานเทียบ template และ gap';
+      const gap = row.total - myTotal;
+      if (chip !== '-') return `หักแต้มจาก chip ก่อนประเมินความแข็งจริง · gap ${gap}`;
+      if (gap > 15) return `ผู้นำที่ต้องไล่ · block captain ก่อน attack · gap ${gap}`;
+      if (gap >= -10) return `คู่แข่งโดยตรง · เน้นความชัวร์และ expected minutes · gap ${gap}`;
+      return `ภัยระยะสั้นต่ำกว่า · ไม่ต้อง mirror เกินจำเป็น · gap ${gap}`;
+    }
+
+    function renderRows(items, myTotal) {
+      rowsEl.innerHTML = items.map((item) => {
+        const mine = item.entry === myEntryId ? '<span class="tag good">ME</span> ' : '';
+        const chipClass = item.chip !== '-' ? 'tag hot' : 'tag';
+        return `<tr>
+          <td>${item.rank}</td>
+          <td>${mine}${item.entry_name}</td>
+          <td>${item.player_name || '-'}</td>
+          <td class="num">${item.event_total ?? '-'}</td>
+          <td class="num">${item.total ?? '-'}</td>
+          <td>${item.captain || '-'} ${item.captainMultiplier > 1 ? `<span class="tag hot">x${item.captainMultiplier}</span>` : ''}</td>
+          <td><span class="${chipClass}">${item.chip}</span></td>
+          <td>${aiRead(item, myTotal, item.chip)}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    function renderMatrixFromReport(report) {
+      const table = document.querySelector('.matrix table');
+      if (!table) return;
+      const teams = report.teams || [];
+      const players = buildPlayerRows(report);
+
+      table.querySelector('thead').innerHTML = `<tr><th>Player</th><th>Owners</th><th class="total">Player Total</th>${teams.map((team) => `<th>${safeText(team.entry_name)}<small>${team.total ?? 0} pts</small></th>`).join('')}</tr>`;
+      const teamTotalRow = `<tr class="team-total"><th>TEAM TOTAL</th><td>-</td><td class="total">${teams.reduce((sum, team) => sum + Number(team.total || 0), 0)}</td>${teams.map((team) => `<td class="total">${team.total ?? 0}</td>`).join('')}</tr>`;
+      const playerRows = players.map((player) => {
+        const cells = teams.map((team) => {
+          const cell = player.cells.get(team.entry);
+          if (!cell) return '<td></td>';
+          const capClass = cell.flag === 'C' || cell.flag === 'TC' ? 'cap' : '';
+          return `<td class="${capClass}">${cell.points}<small>${cell.flag}</small></td>`;
+        }).join('');
+        return `<tr><th><span class="player">${safeText(player.web_name)} <small>${safeText(player.club)}</small></span></th><td>${player.owners}/${teams.length}</td><td class="total">${player.totalPoints}</td>${cells}</tr>`;
+      }).join('');
+      table.querySelector('tbody').innerHTML = teamTotalRow + playerRows;
+    }
+
+    async function loadCachedSnapshot(reason) {
+      const response = await fetch(`./mini-league-intel-gw3.json?v=${Date.now()}`, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`Cached JSON status ${response.status}`);
+      const report = await response.json();
+      const teams = report.teams || [];
+      const myTeam = teams.find((team) => team.entry === myEntryId);
+      renderDashboardCards(report);
+      renderExecutiveFromReport(report);
+      renderTeamSummaryFromReport(report);
+      renderChipTrackerFromReport(report);
+      await renderWeeklyComparison(report);
+      renderActionAuditFromReport(report);
+      renderFixturesFromReport(report);
+      renderSetPieceWatchlist(report);
+      renderPredictedTransfersFromReport(report);
+      renderRows(teams.map((team) => ({
+        ...team,
+        captainMultiplier: team.captain_multiplier,
+        chip: formatChip(team.chips)
+      })), myTeam?.total || 0);
+      renderMatrixFromReport(report);
+      setLiveStatus(`Published JSON loaded · Data: ${report.generatedAt || '-'}${reason ? ` · ${reason}` : ''}`);
+    }
+
+    async function refreshLiveIntel() {
+      refreshButton.disabled = true;
+      setLiveStatus('Reloading published JSON');
+      try {
+        await loadCachedSnapshot('same-site JSON');
+      } catch (error) {
+        setLiveStatus(`Blocked · JSON error: ${error.message}`);
+      } finally {
+        refreshButton.disabled = false;
+      }
+    }
+
+    refreshButton.addEventListener('click', refreshLiveIntel);
+    refreshLiveIntel();
+  </script>
+</body>
+</html>
+
