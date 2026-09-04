@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "5/9/2569 02:18:49",
+  "updated_at_th": "5/9/2569 02:48:53",
   "gameweek": 3,
   "team": {
     "name": "Yedtsuna",
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Bombadoo FC.",
       "manager": "Apirak Aiman",
-      "points": 195,
+      "points": 198,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Bombadoo FC.",
-        "points": 195,
+        "points": 198,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -51,6 +51,16 @@
       },
       {
         "rank": 4,
+        "team": "ช่วยใจดีกับลุงหน่อย",
+        "points": 159,
+        "captain": "Haaland",
+        "chips": [
+          "bboost",
+          "3xc"
+        ]
+      },
+      {
+        "rank": 5,
         "team": "Runner Up FC",
         "points": 158,
         "captain": "Haaland",
@@ -60,7 +70,7 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 6,
         "team": "GrossProfit United",
         "points": 157,
         "captain": "Haaland",
@@ -70,27 +80,17 @@
         ]
       },
       {
-        "rank": 6,
-        "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 156,
-        "captain": "Haaland",
-        "chips": [
-          "bboost",
-          "3xc"
-        ]
-      },
-      {
         "rank": 7,
         "team": "Sarumann",
-        "points": 152,
+        "points": 155,
         "captain": "B.Fernandes",
         "chips": []
       },
       {
         "rank": 8,
-        "team": "On",
-        "points": 137,
-        "captain": "Szoboszlai",
+        "team": "RelegationBattle",
+        "points": 138,
+        "captain": "Haaland",
         "chips": []
       }
     ]
@@ -164,8 +164,8 @@
       "club": "LIV",
       "owners": 6,
       "captains": 0,
-      "gw_points": 9,
-      "total_points": 54,
+      "gw_points": 12,
+      "total_points": 72,
       "owned_by_me": false
     }
   ],
