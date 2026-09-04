@@ -4,9 +4,9 @@ Haaland,MCI,12,12,4,0,0,true
 B.Fernandes,MUN,11,2,0,0,0,true
 Cherki,MCI,11,1,0,0,0,true
 João Pedro,CHE,11,0,0,0,0,true
-Szoboszlai,LIV,9,1,0,1,10,true
+Szoboszlai,LIV,9,1,0,3,30,true
 Raya,ARS,7,0,0,0,0,false
-Isak,LIV,6,0,0,9,54,false
+Isak,LIV,6,0,0,13,78,false
 De Cuyper,BHA,6,0,0,0,0,true
 Verbruggen,BHA,5,0,0,0,0,true
 Wissa,NEW,5,0,0,0,0,true
@@ -15,7 +15,7 @@ Calvert-Lewin,LEE,4,0,0,0,0,false
 Egan,HUL,4,0,0,0,0,false
 Groß,BHA,4,0,0,0,0,true
 Kayode,BRE,4,0,0,0,0,false
-Virgil,LIV,3,0,0,1,3,false
+Virgil,LIV,3,0,0,6,18,false
 Brobbey,SUN,3,0,0,0,0,false
 Dubravka,TOT,3,0,0,0,0,true
 Elanga,NEW,3,0,0,0,0,false
@@ -27,12 +27,12 @@ N.Williams,NFO,3,0,0,0,0,false
 O'Reilly,MCI,3,0,0,0,0,true
 Semenyo,MCI,3,0,0,0,0,false
 van Ewijk,COV,3,0,0,0,0,false
-Gakpo,LIV,2,0,0,7,7,false
-Wirtz,LIV,2,0,0,1,2,false
+Gakpo,LIV,2,0,0,11,11,false
+Wirtz,LIV,2,0,0,3,6,false
+Davis,IPS,2,0,0,1,1,false
 Ajer,BRE,2,0,0,0,0,false
 Cash,AVL,2,0,0,0,0,false
 Cunha,MUN,2,0,0,0,0,false
-Davis,IPS,2,0,0,0,0,false
 F.Kadıoğlu,BHA,2,0,0,0,0,false
 Foden,MCI,2,0,0,0,0,false
 Gabriel,ARS,2,0,0,0,0,false
@@ -49,13 +49,14 @@ Shaw,MUN,2,0,0,0,0,false
 Trafford,LEE,2,0,0,0,0,false
 Tzolis,ARS,2,0,0,0,0,false
 Yalcouyé,BHA,2,0,0,0,0,false
-Munoz,LIV,1,0,0,1,1,false
+Munoz,LIV,1,0,0,3,3,false
+O'Shea,IPS,1,0,0,1,1,false
 Akpom,IPS,1,0,0,0,0,false
 Barnes,NEW,1,0,0,0,0,false
 Belloumi,HUL,1,0,0,0,0,false
 Bogle,LEE,1,0,0,0,0,true
 Dedić,NEW,1,0,0,0,0,false
-Diop,IPS,1,0,0,0,0,true
+Diop,IPS,1,0,0,3,0,true
 E.Le Fée,SUN,1,0,0,0,0,false
 Fernandez-Pardo,NEW,1,0,0,0,0,false
 Furo,BRE,1,0,0,0,0,false
@@ -74,7 +75,6 @@ Marmoush,TOT,1,0,0,0,0,false
 Martinez,CHE,1,0,0,0,0,false
 McBurnie,HUL,1,0,0,0,0,false
 McNair,HUL,1,0,0,0,0,false
-O'Shea,IPS,1,0,0,0,0,false
 Onyeka,COV,1,0,0,0,0,false
 Palmer,IPS,1,0,0,0,0,false
 Palmer,CHE,1,0,0,0,0,false

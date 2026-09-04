@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "5/9/2569 02:48:53",
+  "updated_at_th": "5/9/2569 04:40:12",
   "gameweek": 3,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 2,
-    "points": 177,
-    "gw_points": 1,
+    "points": 179,
+    "gw_points": 3,
     "captain": "Haaland",
     "captain_multiplier": 3
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Bombadoo FC.",
       "manager": "Apirak Aiman",
-      "points": 198,
+      "points": 199,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Bombadoo FC.",
-        "points": 198,
+        "points": 199,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -34,7 +34,7 @@
       {
         "rank": 2,
         "team": "Yedtsuna",
-        "points": 177,
+        "points": 179,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -43,7 +43,7 @@
       {
         "rank": 3,
         "team": "KC888",
-        "points": 173,
+        "points": 176,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -52,7 +52,7 @@
       {
         "rank": 4,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 159,
+        "points": 160,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -61,6 +61,23 @@
       },
       {
         "rank": 5,
+        "team": "GrossProfit United",
+        "points": 159,
+        "captain": "Haaland",
+        "chips": [
+          "bboost",
+          "wildcard"
+        ]
+      },
+      {
+        "rank": 6,
+        "team": "Sarumann",
+        "points": 158,
+        "captain": "B.Fernandes",
+        "chips": []
+      },
+      {
+        "rank": 6,
         "team": "Runner Up FC",
         "points": 158,
         "captain": "Haaland",
@@ -70,27 +87,10 @@
         ]
       },
       {
-        "rank": 6,
-        "team": "GrossProfit United",
-        "points": 157,
-        "captain": "Haaland",
-        "chips": [
-          "bboost",
-          "wildcard"
-        ]
-      },
-      {
-        "rank": 7,
-        "team": "Sarumann",
-        "points": 155,
-        "captain": "B.Fernandes",
-        "chips": []
-      },
-      {
         "rank": 8,
-        "team": "RelegationBattle",
-        "points": 138,
-        "captain": "Haaland",
+        "team": "On",
+        "points": 146,
+        "captain": "Szoboszlai",
         "chips": []
       }
     ]
@@ -146,8 +146,8 @@
       "club": "LIV",
       "owners": 9,
       "captains": 1,
-      "gw_points": 1,
-      "total_points": 10,
+      "gw_points": 3,
+      "total_points": 30,
       "owned_by_me": true
     },
     {
@@ -164,8 +164,8 @@
       "club": "LIV",
       "owners": 6,
       "captains": 0,
-      "gw_points": 12,
-      "total_points": 72,
+      "gw_points": 13,
+      "total_points": 78,
       "owned_by_me": false
     }
   ],
