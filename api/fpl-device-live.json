@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "5/9/2569 22:55:19",
+  "updated_at_th": "6/9/2569 00:10:30",
   "gameweek": 3,
   "team": {
     "name": "Yedtsuna",
@@ -43,7 +43,7 @@
       {
         "rank": 3,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 209,
+        "points": 208,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -53,7 +53,7 @@
       {
         "rank": 4,
         "team": "KC888",
-        "points": 204,
+        "points": 206,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -235,12 +235,12 @@
     },
     {
       "kickoff_time": "2026-09-05T16:30:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "HUL",
       "away": "AVL",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-09-06T13:00:00Z",
