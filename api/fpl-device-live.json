@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "5/9/2569 15:56:22",
+  "updated_at_th": "5/9/2569 18:40:18",
   "gameweek": 3,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 2,
-    "points": 179,
-    "gw_points": 3,
+    "points": 180,
+    "gw_points": 4,
     "captain": "Haaland",
     "captain_multiplier": 3
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Bombadoo FC.",
       "manager": "Apirak Aiman",
-      "points": 199,
+      "points": 201,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Bombadoo FC.",
-        "points": 199,
+        "points": 201,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -34,7 +34,7 @@
       {
         "rank": 2,
         "team": "Yedtsuna",
-        "points": 179,
+        "points": 180,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -51,6 +51,16 @@
       },
       {
         "rank": 4,
+        "team": "GrossProfit United",
+        "points": 161,
+        "captain": "Haaland",
+        "chips": [
+          "bboost",
+          "wildcard"
+        ]
+      },
+      {
+        "rank": 5,
         "team": "ช่วยใจดีกับลุงหน่อย",
         "points": 160,
         "captain": "Haaland",
@@ -60,31 +70,21 @@
         ]
       },
       {
-        "rank": 5,
-        "team": "GrossProfit United",
-        "points": 159,
-        "captain": "Haaland",
-        "chips": [
-          "bboost",
-          "wildcard"
-        ]
-      },
-      {
-        "rank": 6,
-        "team": "Sarumann",
-        "points": 158,
-        "captain": "B.Fernandes",
-        "chips": []
-      },
-      {
         "rank": 6,
         "team": "Runner Up FC",
-        "points": 158,
+        "points": 159,
         "captain": "Haaland",
         "chips": [
           "bboost",
           "3xc"
         ]
+      },
+      {
+        "rank": 7,
+        "team": "Sarumann",
+        "points": 158,
+        "captain": "B.Fernandes",
+        "chips": []
       },
       {
         "rank": 8,
@@ -181,12 +181,12 @@
     },
     {
       "kickoff_time": "2026-09-05T11:30:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "NEW",
       "away": "BOU",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-09-05T14:00:00Z",
