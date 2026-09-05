@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "6/9/2569 00:10:30",
+  "updated_at_th": "6/9/2569 01:07:07",
   "gameweek": 3,
   "team": {
     "name": "Yedtsuna",
@@ -42,20 +42,20 @@
       },
       {
         "rank": 3,
-        "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 208,
+        "team": "KC888",
+        "points": 215,
         "captain": "Haaland",
         "chips": [
-          "bboost",
           "3xc"
         ]
       },
       {
         "rank": 4,
-        "team": "KC888",
-        "points": 206,
+        "team": "ช่วยใจดีกับลุงหน่อย",
+        "points": 208,
         "captain": "Haaland",
         "chips": [
+          "bboost",
           "3xc"
         ]
       },
@@ -81,16 +81,20 @@
       },
       {
         "rank": 7,
-        "team": "RelegationBattle",
+        "team": "Mr.Art",
         "points": 181,
         "captain": "Haaland",
-        "chips": []
+        "chips": [
+          "3xc",
+          "wildcard",
+          "freehit"
+        ]
       },
       {
         "rank": 8,
-        "team": "Sarumann",
-        "points": 174,
-        "captain": "B.Fernandes",
+        "team": "RelegationBattle",
+        "points": 181,
+        "captain": "Haaland",
         "chips": []
       }
     ]
