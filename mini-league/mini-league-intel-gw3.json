@@ -70,7 +70,7 @@
     "most_captained": 411,
     "most_vice_captained": 426
   },
-  "generatedAt": "6/9/2569 04:31:15",
+  "generatedAt": "6/9/2569 06:35:10",
   "teams": [
     {
       "entry": 3944270,
@@ -677,8 +677,8 @@
       "entry_name": "KC888",
       "player_name": "KC B",
       "rank": 3,
-      "event_total": 43,
-      "total": 215,
+      "event_total": 45,
+      "total": 217,
       "team_value": 100,
       "bank": 1.8,
       "captain": "Haaland",
@@ -832,8 +832,8 @@
           "club": "BRE",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 9,
-          "points": 9
+          "event_points": 11,
+          "points": 11
         },
         {
           "element": 411,
@@ -2641,222 +2641,6 @@
       ]
     },
     {
-      "entry": 3800481,
-      "entry_name": "Sarumann",
-      "player_name": "Jetsadakorn Maungkum",
-      "rank": 9,
-      "event_total": 33,
-      "total": 175,
-      "team_value": 100.5,
-      "bank": 0.3,
-      "captain": "B.Fernandes",
-      "captain_multiplier": 2,
-      "chips": [],
-      "transfer_audit": {
-        "count": 1,
-        "cost": 0,
-        "moves": [
-          {
-            "out": "Tzolis",
-            "in": "Cherki"
-          }
-        ]
-      },
-      "weekly_history": [
-        {
-          "event": 1,
-          "points": 52,
-          "total_points": 52,
-          "rank": 3770915,
-          "overall_rank": 3770910,
-          "bank": 0.5,
-          "team_value": 100,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 1
-        },
-        {
-          "event": 2,
-          "points": 90,
-          "total_points": 142,
-          "rank": 3143870,
-          "overall_rank": 3019222,
-          "bank": 1.5,
-          "team_value": 100.3,
-          "event_transfers": 1,
-          "event_transfers_cost": 0,
-          "points_on_bench": 16
-        },
-        {
-          "event": 3,
-          "points": 32,
-          "total_points": 174,
-          "rank": 6916138,
-          "overall_rank": 3686436,
-          "bank": 0.3,
-          "team_value": 100.5,
-          "event_transfers": 1,
-          "event_transfers_cost": 0,
-          "points_on_bench": 7
-        }
-      ],
-      "chip_history": [],
-      "transfer_history": [
-        {
-          "event": 3,
-          "time": "2026-09-01T00:13:41.618335Z",
-          "out": "Tzolis",
-          "in": "Cherki"
-        },
-        {
-          "event": 2,
-          "time": "2026-08-24T12:56:31.523993Z",
-          "out": "Muñoz",
-          "in": "Kayode"
-        }
-      ],
-      "overlap15": 6,
-      "overlapXI": 5,
-      "transferLikelihood": "กลาง",
-      "picks": [
-        {
-          "element": 1,
-          "web_name": "Raya",
-          "club": "ARS",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 469,
-          "web_name": "N.Williams",
-          "club": "NFO",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 7,
-          "points": 7
-        },
-        {
-          "element": 88,
-          "web_name": "Kayode",
-          "club": "BRE",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 1,
-          "points": 1
-        },
-        {
-          "element": 8,
-          "web_name": "Calafiori",
-          "club": "ARS",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 426,
-          "web_name": "B.Fernandes",
-          "club": "MUN",
-          "multiplier": 2,
-          "flag": "C",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 397,
-          "web_name": "Semenyo",
-          "club": "MCI",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 6,
-          "points": 6
-        },
-        {
-          "element": 427,
-          "web_name": "Mbeumo",
-          "club": "MUN",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 368,
-          "web_name": "Szoboszlai",
-          "club": "LIV",
-          "multiplier": 1,
-          "flag": "VC",
-          "event_points": 3,
-          "points": 3
-        },
-        {
-          "element": 399,
-          "web_name": "Cherki",
-          "club": "MCI",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 3,
-          "points": 3
-        },
-        {
-          "element": 165,
-          "web_name": "João Pedro",
-          "club": "CHE",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 379,
-          "web_name": "Isak",
-          "club": "LIV",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 13,
-          "points": 13
-        },
-        {
-          "element": 497,
-          "web_name": "Dubravka",
-          "club": "TOT",
-          "multiplier": 0,
-          "flag": "B",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 423,
-          "web_name": "Shaw",
-          "club": "MUN",
-          "multiplier": 0,
-          "flag": "B",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 346,
-          "web_name": "Calvert-Lewin",
-          "club": "LEE",
-          "multiplier": 0,
-          "flag": "B",
-          "event_points": 1,
-          "points": 0
-        },
-        {
-          "element": 32,
-          "web_name": "Cash",
-          "club": "AVL",
-          "multiplier": 0,
-          "flag": "B",
-          "event_points": 6,
-          "points": 0
-        }
-      ]
-    },
-    {
       "entry": 192330,
       "entry_name": "SilverBank",
       "player_name": "Mr PHAKPHUM",
@@ -3080,6 +2864,222 @@
           "multiplier": 0,
           "flag": "B",
           "event_points": 3,
+          "points": 0
+        }
+      ]
+    },
+    {
+      "entry": 3800481,
+      "entry_name": "Sarumann",
+      "player_name": "Jetsadakorn Maungkum",
+      "rank": 9,
+      "event_total": 33,
+      "total": 175,
+      "team_value": 100.5,
+      "bank": 0.3,
+      "captain": "B.Fernandes",
+      "captain_multiplier": 2,
+      "chips": [],
+      "transfer_audit": {
+        "count": 1,
+        "cost": 0,
+        "moves": [
+          {
+            "out": "Tzolis",
+            "in": "Cherki"
+          }
+        ]
+      },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 52,
+          "total_points": 52,
+          "rank": 3770915,
+          "overall_rank": 3770910,
+          "bank": 0.5,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 1
+        },
+        {
+          "event": 2,
+          "points": 90,
+          "total_points": 142,
+          "rank": 3143870,
+          "overall_rank": 3019222,
+          "bank": 1.5,
+          "team_value": 100.3,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 16
+        },
+        {
+          "event": 3,
+          "points": 32,
+          "total_points": 174,
+          "rank": 6916138,
+          "overall_rank": 3686436,
+          "bank": 0.3,
+          "team_value": 100.5,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 7
+        }
+      ],
+      "chip_history": [],
+      "transfer_history": [
+        {
+          "event": 3,
+          "time": "2026-09-01T00:13:41.618335Z",
+          "out": "Tzolis",
+          "in": "Cherki"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-24T12:56:31.523993Z",
+          "out": "Muñoz",
+          "in": "Kayode"
+        }
+      ],
+      "overlap15": 6,
+      "overlapXI": 5,
+      "transferLikelihood": "กลาง",
+      "picks": [
+        {
+          "element": 1,
+          "web_name": "Raya",
+          "club": "ARS",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 0,
+          "points": 0
+        },
+        {
+          "element": 469,
+          "web_name": "N.Williams",
+          "club": "NFO",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 7,
+          "points": 7
+        },
+        {
+          "element": 88,
+          "web_name": "Kayode",
+          "club": "BRE",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 1,
+          "points": 1
+        },
+        {
+          "element": 8,
+          "web_name": "Calafiori",
+          "club": "ARS",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 0,
+          "points": 0
+        },
+        {
+          "element": 426,
+          "web_name": "B.Fernandes",
+          "club": "MUN",
+          "multiplier": 2,
+          "flag": "C",
+          "event_points": 0,
+          "points": 0
+        },
+        {
+          "element": 397,
+          "web_name": "Semenyo",
+          "club": "MCI",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 6,
+          "points": 6
+        },
+        {
+          "element": 427,
+          "web_name": "Mbeumo",
+          "club": "MUN",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 0,
+          "points": 0
+        },
+        {
+          "element": 368,
+          "web_name": "Szoboszlai",
+          "club": "LIV",
+          "multiplier": 1,
+          "flag": "VC",
+          "event_points": 3,
+          "points": 3
+        },
+        {
+          "element": 399,
+          "web_name": "Cherki",
+          "club": "MCI",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 3,
+          "points": 3
+        },
+        {
+          "element": 165,
+          "web_name": "João Pedro",
+          "club": "CHE",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 0,
+          "points": 0
+        },
+        {
+          "element": 379,
+          "web_name": "Isak",
+          "club": "LIV",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 13,
+          "points": 13
+        },
+        {
+          "element": 497,
+          "web_name": "Dubravka",
+          "club": "TOT",
+          "multiplier": 0,
+          "flag": "B",
+          "event_points": 0,
+          "points": 0
+        },
+        {
+          "element": 423,
+          "web_name": "Shaw",
+          "club": "MUN",
+          "multiplier": 0,
+          "flag": "B",
+          "event_points": 0,
+          "points": 0
+        },
+        {
+          "element": 346,
+          "web_name": "Calvert-Lewin",
+          "club": "LEE",
+          "multiplier": 0,
+          "flag": "B",
+          "event_points": 1,
+          "points": 0
+        },
+        {
+          "element": 32,
+          "web_name": "Cash",
+          "club": "AVL",
+          "multiplier": 0,
+          "flag": "B",
+          "event_points": 6,
           "points": 0
         }
       ]
@@ -5532,8 +5532,8 @@
       "owners": 1,
       "captains": 0,
       "tripleCaptains": 0,
-      "event_points": 9,
-      "total_points": 9,
+      "event_points": 11,
+      "total_points": 11,
       "ownedByMe": false
     },
     {
