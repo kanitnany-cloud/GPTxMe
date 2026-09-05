@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "5/9/2569 19:03:19",
+  "updated_at_th": "5/9/2569 19:35:55",
   "gameweek": 3,
   "team": {
     "name": "Yedtsuna",
@@ -52,7 +52,7 @@
       {
         "rank": 4,
         "team": "GrossProfit United",
-        "points": 161,
+        "points": 160,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -88,9 +88,9 @@
       },
       {
         "rank": 8,
-        "team": "On",
-        "points": 146,
-        "captain": "Szoboszlai",
+        "team": "RelegationBattle",
+        "points": 151,
+        "captain": "Haaland",
         "chips": []
       }
     ]
@@ -185,8 +185,8 @@
       "finished": false,
       "home": "NEW",
       "away": "BOU",
-      "home_score": 0,
-      "away_score": 1
+      "home_score": 1,
+      "away_score": 2
     },
     {
       "kickoff_time": "2026-09-05T14:00:00Z",
