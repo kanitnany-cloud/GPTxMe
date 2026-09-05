@@ -10,11 +10,11 @@ Isak,LIV,6,0,0,13,78,false
 De Cuyper,BHA,6,0,0,4,24,true
 Verbruggen,BHA,5,0,0,3,9,true
 Wissa,NEW,5,0,0,1,5,true
+Egan,HUL,4,0,0,6,12,false
+Ajayi,HUL,4,0,0,5,10,false
 Groß,BHA,4,0,0,1,4,true
 Kayode,BRE,4,0,0,1,4,false
 Calvert-Lewin,LEE,4,0,0,1,3,false
-Ajayi,HUL,4,0,0,1,2,false
-Egan,HUL,4,0,0,1,2,false
 Semenyo,MCI,3,0,0,6,18,false
 Virgil,LIV,3,0,0,6,18,false
 Mitchell,CRY,3,0,0,15,15,false
@@ -38,7 +38,7 @@ Gomez,BHA,2,0,0,2,2,false
 Roefs,SUN,2,0,0,2,2,false
 Yalcouyé,BHA,2,0,0,2,2,false
 Davis,IPS,2,0,0,1,1,false
-Cash,AVL,2,0,0,1,0,false
+Cash,AVL,2,0,0,6,0,false
 Cunha,MUN,2,0,0,0,0,false
 Gabriel,ARS,2,0,0,0,0,false
 Kinsky,TOT,2,0,0,6,0,false
@@ -54,18 +54,18 @@ Barnes,NEW,1,0,0,12,12,false
 Janelt,BRE,1,0,0,9,9,false
 E.Le Fée,SUN,1,0,0,8,8,false
 Gvardiol,MCI,1,0,0,8,8,false
+Tzolakis,HUL,1,0,0,6,6,false
+Belloumi,HUL,1,0,0,5,5,false
 Hall,NEW,1,0,0,4,4,false
 Gibbs-White,NFO,1,0,0,3,3,false
 Munoz,LIV,1,0,0,3,3,false
 O'Shea,IPS,1,0,0,3,3,false
 Xhaka,SUN,1,0,0,3,3,false
-Belloumi,HUL,1,0,0,2,2,false
 Henderson,CRY,1,0,0,2,2,false
 Schade,BRE,1,0,0,2,2,false
 Dedić,NEW,1,0,0,1,1,false
 Fernandez-Pardo,NEW,1,0,0,1,1,false
 Hume,SUN,1,0,0,1,1,false
-Tzolakis,HUL,1,0,0,1,1,false
 Akpom,IPS,1,0,0,0,0,false
 Diop,IPS,1,0,0,3,0,true
 Furo,BRE,1,0,0,0,0,false
@@ -76,7 +76,7 @@ Lacroix,CHE,1,0,0,0,0,false
 Leno,FUL,1,0,0,1,0,false
 Marmoush,TOT,1,0,0,2,0,false
 Martinez,CHE,1,0,0,0,0,false
-McBurnie,HUL,1,0,0,1,0,false
+McBurnie,HUL,1,0,0,2,0,false
 McNair,HUL,1,0,0,0,0,false
 Onyeka,COV,1,0,0,2,0,false
 Palmer,IPS,1,0,0,0,0,false
