@@ -48,6 +48,11 @@
     .prediction-table td:last-child { min-width:260px; }
     .fixture-table td:last-child, .set-piece-table td:last-child { min-width:240px; }
     .weekly-table th, .weekly-table td { white-space:nowrap; }
+    .history-table { min-width:1280px; }
+    .history-table th, .history-table td { white-space:nowrap; vertical-align:top; }
+    .history-table th:first-child, .history-table td:first-child { position:sticky; left:0; z-index:1; min-width:190px; background:#fff; font-weight:800; }
+    .history-cell { display:grid; gap:4px; line-height:1.35; }
+    .history-cell small { display:block; margin-left:0; color:var(--muted); }
     .source-grid { display:grid; grid-template-columns:1.15fr .85fr; gap:12px; }
     .source-card { border:1px dashed #9fb2cc; border-radius:12px; padding:12px; background:#f8fbff; }
     .source-card p { margin:6px 0 0; }
@@ -63,6 +68,7 @@
     <p>กด Reload เพื่อโหลด JSON ล่าสุดที่ publish แล้ว. ถ้าต้องการดึง FPL API ใหม่ ให้กด Run GitHub Update แล้วกลับมากด Reload อีกครั้งหลัง workflow จบ.</p>
     <div class="toolbar">
       <button id="refreshLiveIntel">Reload Published Data</button>
+      <button id="toggleAutoRefresh">Auto Refresh: Off</button>
       <a class="link-btn" href="https://github.com/kanitnany-cloud/GPTxMe/actions/workflows/update-fpl-mini-league.yml" target="_blank" rel="noreferrer">Run GitHub Update</a>
       <a class="link-btn" href="https://fantasy.premierleague.com/leagues/872362/standings/c" target="_blank" rel="noreferrer">Open League</a>
       <a class="link-btn" href="./mini-league-intel-gw3.json" target="_blank" rel="noreferrer">Cached JSON</a>
@@ -114,6 +120,19 @@
         <thead id="weeklyComparisonHead"><tr><th>Team</th><th>Manager</th><th class="num">Total</th><th>Trend</th><th>Chip Context</th></tr></thead>
         <tbody id="weeklyComparisonRows">
           <tr><td colspan="5">กำลังโหลด weekly comparison...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Rival FT + Chip History</h2>
+    <p>เก็บประวัติการแก้ทีมของคู่แข่งราย GW: จำนวน transfer, hit, chip, captain และตัวเข้า-ออก เพื่ออ่านนิสัยว่าใครชอบนิ่ง ใครไล่ราคา ใครยอม hit และใครใช้ chip เร็ว.</p>
+    <div class="table-wrap">
+      <table class="history-table">
+        <thead id="rivalHistoryHead"><tr><th>Team</th><th>Manager</th><th class="num">Total</th><th>Behavior</th></tr></thead>
+        <tbody id="rivalHistoryRows">
+          <tr><td colspan="4">กำลังโหลดประวัติ FT / Chip จาก snapshot รายสัปดาห์...</td></tr>
         </tbody>
       </table>
     </div>
@@ -392,16 +411,22 @@
     const statusEl = document.getElementById('liveIntelStatus');
     const rowsEl = document.getElementById('liveIntelRows');
     const refreshButton = document.getElementById('refreshLiveIntel');
+    const autoRefreshButton = document.getElementById('toggleAutoRefresh');
     const subtitleEl = document.getElementById('pageSubtitle');
     const executiveEl = document.getElementById('executiveRead');
     const teamSummaryEl = document.getElementById('teamSummaryRows');
     const predictedTransferEl = document.getElementById('predictedTransferRows');
     const weeklyHeadEl = document.getElementById('weeklyComparisonHead');
     const weeklyRowsEl = document.getElementById('weeklyComparisonRows');
+    const rivalHistoryHeadEl = document.getElementById('rivalHistoryHead');
+    const rivalHistoryRowsEl = document.getElementById('rivalHistoryRows');
     const fixtureRowsEl = document.getElementById('fixtureRows');
     const setPieceRowsEl = document.getElementById('setPieceRows');
     const chipTrackerEl = document.getElementById('chipTrackerRows');
     const actionAuditEl = document.getElementById('actionAuditRows');
+    const snapshotBase = location.pathname.includes('/mini-league/') ? './' : './mini-league/';
+    const currentSnapshotGw = 3;
+    let autoRefreshTimer = null;
 
     const setPieceIntel = [
       { names: ['B.Fernandes', 'Bruno Fernandes'], club: 'MUN', route: 'Penalties + direct free-kicks + corners', confidence: 'สูง', source: 'Official FPL / FFS / RotoWire', strategy: 'ถือเป็น premium floor; ถ้า captaincy สูงในลีกใช้เป็น shield ได้' },
@@ -583,7 +608,7 @@
 
     async function fetchSnapshotForGw(gw) {
       try {
-        const response = await fetch(`./mini-league-intel-gw${gw}.json?v=${Date.now()}`, { cache: 'no-store' });
+        const response = await fetch(`${snapshotBase}mini-league-intel-gw${gw}.json?v=${Date.now()}`, { cache: 'no-store' });
         if (!response.ok) return null;
         return response.json();
       } catch (error) {
@@ -591,14 +616,56 @@
       }
     }
 
-    async function renderWeeklyComparison(report) {
-      if (!weeklyHeadEl || !weeklyRowsEl) return;
-      const currentGw = Number(report.event?.id || 2);
-      const snapshots = await Promise.all(
+    function snapshotStorageKey(report) {
+      return `fpl-mini-league-snapshots-${report.league?.id || leagueId}`;
+    }
+
+    function saveLocalSnapshot(report) {
+      try {
+        const gw = Number(report.event?.id || currentSnapshotGw);
+        const key = snapshotStorageKey(report);
+        const stored = JSON.parse(localStorage.getItem(key) || '{}');
+        stored[`gw${gw}`] = {
+          savedAt: new Date().toISOString(),
+          report,
+        };
+        const orderedKeys = Object.keys(stored).sort((a, b) => Number(a.replace('gw', '')) - Number(b.replace('gw', ''))).slice(-38);
+        const compact = {};
+        for (const itemKey of orderedKeys) compact[itemKey] = stored[itemKey];
+        localStorage.setItem(key, JSON.stringify(compact));
+      } catch (error) {
+        console.warn('snapshot store skipped', error);
+      }
+    }
+
+    function readLocalSnapshots(report) {
+      try {
+        const stored = JSON.parse(localStorage.getItem(snapshotStorageKey(report)) || '{}');
+        return Object.entries(stored)
+          .map(([key, value]) => ({ gw: Number(key.replace('gw', '')), snapshot: value.report, savedAt: value.savedAt }))
+          .filter((item) => item.gw && item.snapshot);
+      } catch (error) {
+        return [];
+      }
+    }
+
+    async function collectSnapshots(report) {
+      const currentGw = Number(report.event?.id || currentSnapshotGw);
+      const published = await Promise.all(
         Array.from({ length: currentGw }, (_, index) => fetchSnapshotForGw(index + 1))
       );
-      snapshots[currentGw - 1] = report;
-      const validSnapshots = snapshots.map((snapshot, index) => ({ gw: index + 1, snapshot })).filter((item) => item.snapshot);
+      const merged = new Map();
+      for (const item of readLocalSnapshots(report)) merged.set(item.gw, item);
+      published.forEach((snapshot, index) => {
+        if (snapshot) merged.set(index + 1, { gw: index + 1, snapshot });
+      });
+      merged.set(currentGw, { gw: currentGw, snapshot: report });
+      return [...merged.values()].sort((a, b) => a.gw - b.gw);
+    }
+
+    async function renderWeeklyComparison(report) {
+      if (!weeklyHeadEl || !weeklyRowsEl) return;
+      const validSnapshots = await collectSnapshots(report);
       weeklyHeadEl.innerHTML = `<tr><th>Team</th><th>Manager</th>${validSnapshots.map((item) => `<th class="num">GW${item.gw}</th>`).join('')}<th class="num">Total</th><th>Trend</th><th>Chip Context</th></tr>`;
       const currentTeams = report.teams || [];
       weeklyRowsEl.innerHTML = currentTeams.map((team) => {
@@ -621,6 +688,72 @@
           <td>${chip === '-' ? 'ยังไม่ใช้ chip / มี advantage ระยะยาว' : `<span class="tag hot">${safeText(chip)}</span>`}</td>
         </tr>`;
       }).join('');
+    }
+
+    function gwActionCell(team, gw, snapshot, currentGw) {
+      const match = (snapshot?.teams || []).find((candidate) => candidate.entry === team.entry);
+      if (!match) return '<td>-</td>';
+      const week = (match.weekly_history || team.weekly_history || []).find((item) => Number(item.event) === gw);
+      const transfers = ((match.transfer_history || []).length ? match.transfer_history : (team.transfer_history || []))
+        .filter((item) => Number(item.event) === gw);
+      const chips = ((match.chip_history || match.chips || []).length ? (match.chip_history || match.chips) : (team.chip_history || team.chips || []))
+        .filter((item) => Number(item.event) === gw);
+      const auditMoves = Number(snapshot?.event?.id) === gw ? (match.transfer_audit?.moves || []) : [];
+      const moves = transfers.length
+        ? transfers.map((move) => `${safeText(move.out)} -> ${safeText(move.in)}`).join('<br>')
+        : auditMoves.map((move) => `${safeText(move.out)} -> ${safeText(move.in)}`).join('<br>');
+      const transferCount = week?.event_transfers ?? (Number(snapshot?.event?.id) === gw ? match.transfer_audit?.count : transfers.length) ?? 0;
+      const hitCost = week?.event_transfers_cost ?? (Number(snapshot?.event?.id) === gw ? match.transfer_audit?.cost : 0) ?? 0;
+      const chipText = chips.length ? chips.map((chip) => chipLabel({ chips: [chip] }, chip.event)).join(', ') : '-';
+      const captainText = gw === currentGw ? `${safeText(match.captain || '-')} x${match.captain_multiplier || 1}` : '-';
+      const pointsText = week?.points ?? match.event_total ?? '-';
+      const chipHtml = chipText === '-' ? '' : `<span class="tag hot">${safeText(chipText)}</span>`;
+      const hitHtml = hitCost ? `<span class="tag hot">Hit -${hitCost}</span>` : '<span class="tag good">Hit 0</span>';
+      return `<td><div class="history-cell">
+        <b>Pts ${safeText(pointsText)}</b>
+        <span>FT ${safeText(transferCount)} · ${hitHtml}</span>
+        ${chipHtml || '<span class="tag">No chip</span>'}
+        <small>C: ${captainText}</small>
+        <small>${moves || 'No transfer'}</small>
+      </div></td>`;
+    }
+
+    function behaviorRead(team, snapshots) {
+      let transferCount = 0;
+      let hitCost = 0;
+      let chipCount = 0;
+      for (const item of snapshots) {
+        const match = (item.snapshot.teams || []).find((candidate) => candidate.entry === team.entry);
+        const week = (match?.weekly_history || []).find((gw) => Number(gw.event) === item.gw);
+        transferCount += Number(week?.event_transfers || 0);
+        hitCost += Number(week?.event_transfers_cost || 0);
+        chipCount += (match?.chip_history || match?.chips || []).filter((chip) => Number(chip.event) === item.gw).length;
+      }
+      if (team.entry === myEntryId) return 'เรา: ใช้เป็น baseline';
+      if (chipCount >= 2) return 'ใช้ chip เร็ว ต้องหักแต้ม boost';
+      if (hitCost >= 8) return 'สายไล่แก้ เสี่ยง hit ซ้ำ';
+      if (transferCount >= snapshots.length + 1) return 'active trader จับ price/form';
+      if (transferCount <= 1 && hitCost === 0) return 'นิ่ง เน้น template';
+      return 'สมดุล ดูข่าวก่อนขยับ';
+    }
+
+    async function renderRivalHistory(report) {
+      if (!rivalHistoryHeadEl || !rivalHistoryRowsEl) return;
+      const snapshots = await collectSnapshots(report);
+      const teams = report.teams || [];
+      if (!snapshots.length || !teams.length) {
+        rivalHistoryRowsEl.innerHTML = '<tr><td colspan="4">ยังไม่มี snapshot พอสำหรับทำประวัติ</td></tr>';
+        return;
+      }
+      rivalHistoryHeadEl.innerHTML = `<tr><th>Team</th><th>Manager</th><th class="num">Total</th><th>Behavior</th>${snapshots.map((item) => `<th>GW${item.gw} Action</th>`).join('')}</tr>`;
+      const currentGw = Number(report.event?.id || currentSnapshotGw);
+      rivalHistoryRowsEl.innerHTML = teams.map((team) => `<tr>
+        <td>${team.entry === myEntryId ? '<span class="tag good">ME</span> ' : ''}${safeText(team.entry_name)}</td>
+        <td>${safeText(team.player_name)}</td>
+        <td class="num">${team.total ?? '-'}</td>
+        <td><span class="${tagClass(team.transferLikelihood)}">${safeText(behaviorRead(team, snapshots))}</span></td>
+        ${snapshots.map((item) => gwActionCell(team, item.gw, item.snapshot, currentGw)).join('')}
+      </tr>`).join('');
     }
 
     function renderChipTrackerFromReport(report) {
@@ -661,7 +794,7 @@
         else if (cost >= 8) read = 'เสี่ยงสูง ไล่แก้ทีมแรง; มีโอกาส transfer ต่อถ้าแต้มไม่คืน';
         else if (cost === 4) read = 'ยอม -4 เพื่อเร่งแต้ม; ดูว่าตัวเข้าเป็น trend ใหม่หรือ chasing';
         else if ((audit.count || 0) > 0) read = 'ใช้ FT ปรับทีมปกติ; ถ้าตัวเข้า ownership สูงอาจกลายเป็น template';
-        if (team.entry === myEntryId) read = 'ทีมเรา roll/no hit: ดีต่อแผนความชัวร์และเก็บ flexibility';
+        if (team.entry === myEntryId) read = `ทีมเรา: ใช้ ${audit.count ?? 0} transfer, hit ${cost ? `-${cost}` : '0'}; ใช้เป็น baseline เทียบคู่แข่ง`;
         return `<tr>
           <td>${team.rank}</td>
           <td>${team.entry === myEntryId ? '<span class="tag good">ME</span> ' : ''}${safeText(team.entry_name)}</td>
@@ -803,16 +936,18 @@
     }
 
     async function loadCachedSnapshot(reason) {
-      const response = await fetch(`./mini-league-intel-gw3.json?v=${Date.now()}`, { cache: 'no-store' });
+      const response = await fetch(`${snapshotBase}mini-league-intel-gw${currentSnapshotGw}.json?v=${Date.now()}`, { cache: 'no-store' });
       if (!response.ok) throw new Error(`Cached JSON status ${response.status}`);
       const report = await response.json();
       const teams = report.teams || [];
       const myTeam = teams.find((team) => team.entry === myEntryId);
+      saveLocalSnapshot(report);
       renderDashboardCards(report);
       renderExecutiveFromReport(report);
       renderTeamSummaryFromReport(report);
       renderChipTrackerFromReport(report);
       await renderWeeklyComparison(report);
+      await renderRivalHistory(report);
       renderActionAuditFromReport(report);
       renderFixturesFromReport(report);
       renderSetPieceWatchlist(report);
@@ -839,6 +974,19 @@
     }
 
     refreshButton.addEventListener('click', refreshLiveIntel);
+    autoRefreshButton.addEventListener('click', () => {
+      if (autoRefreshTimer) {
+        clearInterval(autoRefreshTimer);
+        autoRefreshTimer = null;
+        autoRefreshButton.textContent = 'Auto Refresh: Off';
+        setLiveStatus('Auto refresh stopped');
+        return;
+      }
+      autoRefreshTimer = setInterval(refreshLiveIntel, 60000);
+      autoRefreshButton.textContent = 'Auto Refresh: On';
+      setLiveStatus('Auto refresh active: reloads published JSON every 60s');
+      refreshLiveIntel();
+    });
     refreshLiveIntel();
   </script>
 </body>

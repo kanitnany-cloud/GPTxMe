@@ -70,15 +70,15 @@
     "most_captained": 411,
     "most_vice_captained": 426
   },
-  "generatedAt": "5/9/2569 18:40:18",
+  "generatedAt": "5/9/2569 19:03:19",
   "teams": [
     {
       "entry": 694667,
       "entry_name": "Bombadoo FC.",
       "player_name": "Apirak Aiman",
       "rank": 1,
-      "event_total": 15,
-      "total": 201,
+      "event_total": 14,
+      "total": 200,
       "team_value": 100.5,
       "bank": 0,
       "captain": "Haaland",
@@ -157,6 +157,148 @@
           }
         ]
       },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 77,
+          "total_points": 77,
+          "rank": 170961,
+          "overall_rank": 170961,
+          "bank": 0,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 0
+        },
+        {
+          "event": 2,
+          "points": 109,
+          "total_points": 186,
+          "rank": 719160,
+          "overall_rank": 96782,
+          "bank": 0,
+          "team_value": 100.2,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 9
+        },
+        {
+          "event": 3,
+          "points": 13,
+          "total_points": 199,
+          "rank": 1912765,
+          "overall_rank": 59409,
+          "bank": 0,
+          "team_value": 100.5,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 0
+        }
+      ],
+      "chip_history": [
+        {
+          "name": "bboost",
+          "event": 1,
+          "time": "2026-08-18T02:57:47.394626Z"
+        },
+        {
+          "name": "freehit",
+          "event": 3,
+          "time": "2026-08-31T21:04:35.657995Z"
+        }
+      ],
+      "transfer_history": [
+        {
+          "event": 3,
+          "time": "2026-09-02T23:29:15.539641Z",
+          "out": "Dovin",
+          "in": "Palmer"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T21:51:10.511848Z",
+          "out": "Lewis-Potter",
+          "in": "Elanga"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T21:40:33.080958Z",
+          "out": "Gvardiol",
+          "in": "Kayode"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T21:40:33.080735Z",
+          "out": "Szoboszlai",
+          "in": "Foden"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T21:33:14.229176Z",
+          "out": "Tzolakis",
+          "in": "Kelleher"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T21:27:27.046918Z",
+          "out": "João Pedro",
+          "in": "Haaland"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T21:27:27.046715Z",
+          "out": "Virgil",
+          "in": "De Cuyper"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T21:27:27.046488Z",
+          "out": "Mbeumo",
+          "in": "Cherki"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T21:27:27.046215Z",
+          "out": "Rodon",
+          "in": "Egan"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T21:27:27.045981Z",
+          "out": "Palestra",
+          "in": "Ajayi"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T21:27:27.045763Z",
+          "out": "Xhaka",
+          "in": "Yalcouyé"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T21:27:27.045559Z",
+          "out": "Tzolis",
+          "in": "Lewis-Potter"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T21:27:27.045335Z",
+          "out": "Lammens",
+          "in": "Dovin"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T21:27:27.045055Z",
+          "out": "Raya",
+          "in": "Tzolakis"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-24T04:12:00.531747Z",
+          "out": "Brobbey",
+          "in": "Wissa"
+        }
+      ],
       "overlap15": 6,
       "overlapXI": 6,
       "transferLikelihood": "ต่ำ",
@@ -203,8 +345,8 @@
           "club": "NEW",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 0,
+          "points": 0
         },
         {
           "element": 398,
@@ -330,6 +472,65 @@
           }
         ]
       },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 65,
+          "total_points": 65,
+          "rank": 1011631,
+          "overall_rank": 1011629,
+          "bank": 0,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 8
+        },
+        {
+          "event": 2,
+          "points": 111,
+          "total_points": 176,
+          "rank": 512876,
+          "overall_rank": 280868,
+          "bank": 0,
+          "team_value": 100.3,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 4
+        },
+        {
+          "event": 3,
+          "points": 3,
+          "total_points": 179,
+          "rank": 6522905,
+          "overall_rank": 433252,
+          "bank": 0.8,
+          "team_value": 100.7,
+          "event_transfers": 2,
+          "event_transfers_cost": 0,
+          "points_on_bench": 3
+        }
+      ],
+      "chip_history": [
+        {
+          "name": "3xc",
+          "event": 3,
+          "time": "2026-09-04T12:28:18.474913Z"
+        }
+      ],
+      "transfer_history": [
+        {
+          "event": 3,
+          "time": "2026-09-04T12:13:27.705419Z",
+          "out": "Brobbey",
+          "in": "Wissa"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-04T12:13:27.697482Z",
+          "out": "Mbeumo",
+          "in": "Szoboszlai"
+        }
+      ],
       "overlap15": 15,
       "overlapXI": 11,
       "transferLikelihood": "สูง",
@@ -499,6 +700,65 @@
           }
         ]
       },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 72,
+          "total_points": 72,
+          "rank": 398657,
+          "overall_rank": 398656,
+          "bank": 0,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 10
+        },
+        {
+          "event": 2,
+          "points": 100,
+          "total_points": 172,
+          "rank": 1689205,
+          "overall_rank": 432791,
+          "bank": 0,
+          "team_value": 100,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 3
+        },
+        {
+          "event": 3,
+          "points": 4,
+          "total_points": 176,
+          "rank": 4564644,
+          "overall_rank": 547476,
+          "bank": 1.8,
+          "team_value": 100,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 0
+        }
+      ],
+      "chip_history": [
+        {
+          "name": "3xc",
+          "event": 1,
+          "time": "2026-08-21T01:39:04.826643Z"
+        }
+      ],
+      "transfer_history": [
+        {
+          "event": 3,
+          "time": "2026-09-04T14:16:31.939267Z",
+          "out": "Watkins",
+          "in": "Fernandez-Pardo"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-28T13:03:30.689013Z",
+          "out": "Sakamoto",
+          "in": "Janelt"
+        }
+      ],
       "overlap15": 4,
       "overlapXI": 4,
       "transferLikelihood": "สูง",
@@ -809,6 +1069,268 @@
           }
         ]
       },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 61,
+          "total_points": 61,
+          "rank": 1605175,
+          "overall_rank": 1605173,
+          "bank": 0,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 0
+        },
+        {
+          "event": 2,
+          "points": 95,
+          "total_points": 156,
+          "rank": 2282526,
+          "overall_rank": 1383722,
+          "bank": 0,
+          "team_value": 100.1,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 15
+        },
+        {
+          "event": 3,
+          "points": 3,
+          "total_points": 159,
+          "rank": 4631520,
+          "overall_rank": 1682506,
+          "bank": 2.9,
+          "team_value": 100.8,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 0
+        }
+      ],
+      "chip_history": [
+        {
+          "name": "bboost",
+          "event": 1,
+          "time": "2026-08-21T17:21:26.311079Z"
+        },
+        {
+          "name": "wildcard",
+          "event": 3,
+          "time": "2026-08-29T00:38:15.196689Z"
+        }
+      ],
+      "transfer_history": [
+        {
+          "event": 3,
+          "time": "2026-09-04T15:06:40.553931Z",
+          "out": "De Cuyper",
+          "in": "Dedić"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-04T15:06:40.553715Z",
+          "out": "Elanga",
+          "in": "Groß"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-03T23:25:06.007475Z",
+          "out": "Tarkowski",
+          "in": "De Cuyper"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-03T23:20:41.426869Z",
+          "out": "Tzolis",
+          "in": "Gibbs-White"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-03T23:20:41.426394Z",
+          "out": "Tzolakis",
+          "in": "Raya"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T15:17:49.706708Z",
+          "out": "Horníček",
+          "in": "Verbruggen"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T02:11:47.994445Z",
+          "out": "White",
+          "in": "Konsa"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-30T15:46:18.134663Z",
+          "out": "Palmer",
+          "in": "Szoboszlai"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-30T15:46:18.134376Z",
+          "out": "Konsa",
+          "in": "Calafiori"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-30T15:42:14.454440Z",
+          "out": "Dedić",
+          "in": "Konsa"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-30T15:42:14.454225Z",
+          "out": "Gonzalo",
+          "in": "Wissa"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-30T15:42:14.454013Z",
+          "out": "Szoboszlai",
+          "in": "M.Sangaré"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-30T15:42:14.453773Z",
+          "out": "Ndiaye",
+          "in": "Elanga"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-30T15:42:14.453503Z",
+          "out": "Lewis-Potter",
+          "in": "Palmer"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-30T15:19:19.105618Z",
+          "out": "Ajer",
+          "in": "Dedić"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-30T15:19:19.105322Z",
+          "out": "Gabriel",
+          "in": "Tarkowski"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-30T15:15:57.394707Z",
+          "out": "Verbruggen",
+          "in": "Horníček"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-30T15:15:57.394171Z",
+          "out": "Kinsky",
+          "in": "Tzolakis"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-29T07:09:14.004512Z",
+          "out": "Tzolakis",
+          "in": "Verbruggen"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-29T07:07:00.900579Z",
+          "out": "Barry",
+          "in": "Gonzalo"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-29T03:59:39.556550Z",
+          "out": "Martinez",
+          "in": "Kinsky"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-29T03:48:45.878603Z",
+          "out": "Ødegaard",
+          "in": "Tzolis"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-29T01:19:36.436074Z",
+          "out": "Semenyo",
+          "in": "Cherki"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-29T01:13:36.580258Z",
+          "out": "Davis",
+          "in": "Ajayi"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-29T01:13:36.580061Z",
+          "out": "Mitchell",
+          "in": "Ajer"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-29T01:13:36.579865Z",
+          "out": "Calvert-Lewin",
+          "in": "Barry"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-29T01:13:36.579662Z",
+          "out": "Kinsky",
+          "in": "Tzolakis"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-29T01:13:36.579460Z",
+          "out": "Isak",
+          "in": "Haaland"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-29T01:13:36.579217Z",
+          "out": "Tzolis",
+          "in": "Semenyo"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-29T01:13:36.579014Z",
+          "out": "Mbeumo",
+          "in": "Ndiaye"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-29T01:13:36.578735Z",
+          "out": "Rogers",
+          "in": "Lewis-Potter"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-29T01:13:36.578516Z",
+          "out": "B.Fernandes",
+          "in": "Ødegaard"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-29T01:13:36.578207Z",
+          "out": "Maguire",
+          "in": "White"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-29T01:13:36.577979Z",
+          "out": "Hume",
+          "in": "Gvardiol"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-29T01:13:36.577647Z",
+          "out": "Raya",
+          "in": "Martinez"
+        }
+      ],
       "overlap15": 8,
       "overlapXI": 6,
       "transferLikelihood": "กลาง",
@@ -983,6 +1505,76 @@
           }
         ]
       },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 72,
+          "total_points": 72,
+          "rank": 398657,
+          "overall_rank": 398656,
+          "bank": 0.5,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 0
+        },
+        {
+          "event": 2,
+          "points": 79,
+          "total_points": 147,
+          "rank": 5314474,
+          "overall_rank": 2431822,
+          "bank": 2,
+          "team_value": 100.2,
+          "event_transfers": 2,
+          "event_transfers_cost": 4,
+          "points_on_bench": 4
+        },
+        {
+          "event": 3,
+          "points": 13,
+          "total_points": 160,
+          "rank": 2089436,
+          "overall_rank": 1673834,
+          "bank": 0.5,
+          "team_value": 100.6,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 11
+        }
+      ],
+      "chip_history": [
+        {
+          "name": "bboost",
+          "event": 1,
+          "time": "2026-08-21T15:16:07.174091Z"
+        },
+        {
+          "name": "3xc",
+          "event": 3,
+          "time": "2026-09-04T17:19:49.883948Z"
+        }
+      ],
+      "transfer_history": [
+        {
+          "event": 3,
+          "time": "2026-09-04T17:19:09.235599Z",
+          "out": "Kinsky",
+          "in": "Raya"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-28T14:44:27.510571Z",
+          "out": "Calvert-Lewin",
+          "in": "Isak"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-28T14:44:27.504366Z",
+          "out": "B.Fernandes",
+          "in": "Cherki"
+        }
+      ],
       "overlap15": 5,
       "overlapXI": 4,
       "transferLikelihood": "สูง",
@@ -1129,8 +1721,8 @@
       "entry_name": "Runner Up FC",
       "player_name": "Tangii Slur",
       "rank": 6,
-      "event_total": 1,
-      "total": 159,
+      "event_total": 0,
+      "total": 158,
       "team_value": 100.1,
       "bank": 0.7,
       "captain": "Haaland",
@@ -1161,6 +1753,70 @@
           }
         ]
       },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 52,
+          "total_points": 52,
+          "rank": 3770915,
+          "overall_rank": 3770910,
+          "bank": 0,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 0
+        },
+        {
+          "event": 2,
+          "points": 106,
+          "total_points": 158,
+          "rank": 939542,
+          "overall_rank": 1213143,
+          "bank": 0,
+          "team_value": 100.2,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 13
+        },
+        {
+          "event": 3,
+          "points": 0,
+          "total_points": 158,
+          "rank": 9541536,
+          "overall_rank": 1833310,
+          "bank": 0.7,
+          "team_value": 100.1,
+          "event_transfers": 2,
+          "event_transfers_cost": 0,
+          "points_on_bench": 0
+        }
+      ],
+      "chip_history": [
+        {
+          "name": "bboost",
+          "event": 1,
+          "time": "2026-08-21T15:16:47.126274Z"
+        },
+        {
+          "name": "3xc",
+          "event": 3,
+          "time": "2026-09-01T14:24:36.463167Z"
+        }
+      ],
+      "transfer_history": [
+        {
+          "event": 3,
+          "time": "2026-09-01T14:24:30.728686Z",
+          "out": "Tzolis",
+          "in": "Elanga"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T14:24:30.720999Z",
+          "out": "Mbeumo",
+          "in": "Cherki"
+        }
+      ],
       "overlap15": 7,
       "overlapXI": 7,
       "transferLikelihood": "สูง",
@@ -1243,8 +1899,8 @@
           "club": "NEW",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 0,
+          "points": 0
         },
         {
           "element": 165,
@@ -1306,7 +1962,7 @@
       "entry": 3800481,
       "entry_name": "Sarumann",
       "player_name": "Jetsadakorn Maungkum",
-      "rank": 7,
+      "rank": 6,
       "event_total": 16,
       "total": 158,
       "team_value": 100.5,
@@ -1324,6 +1980,59 @@
           }
         ]
       },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 52,
+          "total_points": 52,
+          "rank": 3770915,
+          "overall_rank": 3770910,
+          "bank": 0.5,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 1
+        },
+        {
+          "event": 2,
+          "points": 90,
+          "total_points": 142,
+          "rank": 3143870,
+          "overall_rank": 3019222,
+          "bank": 1.5,
+          "team_value": 100.3,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 16
+        },
+        {
+          "event": 3,
+          "points": 16,
+          "total_points": 158,
+          "rank": 1479231,
+          "overall_rank": 1833310,
+          "bank": 0.3,
+          "team_value": 100.5,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 0
+        }
+      ],
+      "chip_history": [],
+      "transfer_history": [
+        {
+          "event": 3,
+          "time": "2026-09-01T00:13:41.618335Z",
+          "out": "Tzolis",
+          "in": "Cherki"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-24T12:56:31.523993Z",
+          "out": "Muñoz",
+          "in": "Kayode"
+        }
+      ],
       "overlap15": 6,
       "overlapXI": 5,
       "transferLikelihood": "กลาง",
@@ -1482,6 +2191,53 @@
         "cost": 0,
         "moves": []
       },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 44,
+          "total_points": 44,
+          "rank": 6124842,
+          "overall_rank": 6124832,
+          "bank": 1.5,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 1
+        },
+        {
+          "event": 2,
+          "points": 90,
+          "total_points": 134,
+          "rank": 3143870,
+          "overall_rank": 4117061,
+          "bank": 0.9,
+          "team_value": 100,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 14
+        },
+        {
+          "event": 3,
+          "points": 12,
+          "total_points": 146,
+          "rank": 2264488,
+          "overall_rank": 3253118,
+          "bank": 0.9,
+          "team_value": 99.9,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 0
+        }
+      ],
+      "chip_history": [],
+      "transfer_history": [
+        {
+          "event": 2,
+          "time": "2026-08-28T04:16:31.403326Z",
+          "out": "Bruno G.",
+          "in": "Rogers"
+        }
+      ],
       "overlap15": 5,
       "overlapXI": 4,
       "transferLikelihood": "กลาง",
@@ -1649,6 +2405,65 @@
           }
         ]
       },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 58,
+          "total_points": 58,
+          "rank": 2201657,
+          "overall_rank": 2201654,
+          "bank": 0,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 4
+        },
+        {
+          "event": 2,
+          "points": 62,
+          "total_points": 120,
+          "rank": 8443801,
+          "overall_rank": 6036188,
+          "bank": 0,
+          "team_value": 100.2,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 1
+        },
+        {
+          "event": 3,
+          "points": 27,
+          "total_points": 143,
+          "rank": 442251,
+          "overall_rank": 3740756,
+          "bank": 0.1,
+          "team_value": 100.3,
+          "event_transfers": 2,
+          "event_transfers_cost": 4,
+          "points_on_bench": 0
+        }
+      ],
+      "chip_history": [],
+      "transfer_history": [
+        {
+          "event": 3,
+          "time": "2026-09-02T06:40:28.136339Z",
+          "out": "Wood",
+          "in": "Wissa"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T01:46:07.346773Z",
+          "out": "Van Hecke",
+          "in": "De Cuyper"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T04:16:58.533290Z",
+          "out": "Caicedo",
+          "in": "M.Sangaré"
+        }
+      ],
       "overlap15": 7,
       "overlapXI": 6,
       "transferLikelihood": "สูง",
@@ -1880,6 +2695,231 @@
           }
         ]
       },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 62,
+          "total_points": 62,
+          "rank": 1436685,
+          "overall_rank": 1436683,
+          "bank": 0,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 1
+        },
+        {
+          "event": 2,
+          "points": 70,
+          "total_points": 132,
+          "rank": 6994760,
+          "overall_rank": 4321804,
+          "bank": 1.5,
+          "team_value": 100.3,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 5
+        },
+        {
+          "event": 3,
+          "points": 3,
+          "total_points": 135,
+          "rank": 4631520,
+          "overall_rank": 4730255,
+          "bank": 1.5,
+          "team_value": 100.9,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 0
+        }
+      ],
+      "chip_history": [
+        {
+          "name": "3xc",
+          "event": 1,
+          "time": "2026-08-11T08:54:43.948886Z"
+        },
+        {
+          "name": "wildcard",
+          "event": 2,
+          "time": "2026-08-25T01:44:47.991557Z"
+        },
+        {
+          "name": "freehit",
+          "event": 3,
+          "time": "2026-09-01T00:35:37.139485Z"
+        }
+      ],
+      "transfer_history": [
+        {
+          "event": 3,
+          "time": "2026-09-01T00:44:05.209757Z",
+          "out": "M.Sangaré",
+          "in": "Gomez"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T00:44:05.209361Z",
+          "out": "Gabriel",
+          "in": "N.Williams"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T00:44:05.208978Z",
+          "out": "Elanga",
+          "in": "Reed"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T00:44:05.208543Z",
+          "out": "Burrowes",
+          "in": "Wirtz"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T00:44:05.208151Z",
+          "out": "Kusi-Asare",
+          "in": "Wissa"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T00:44:05.207711Z",
+          "out": "Kayode",
+          "in": "Egan"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T00:44:05.207275Z",
+          "out": "De Cuyper",
+          "in": "Calafiori"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T00:32:55.959285Z",
+          "out": "Virgil",
+          "in": "Ajayi"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T00:32:55.958895Z",
+          "out": "Saka",
+          "in": "Cherki"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T00:32:55.958421Z",
+          "out": "Havertz",
+          "in": "Haaland"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T00:32:55.952534Z",
+          "out": "Palmer",
+          "in": "M.Sangaré"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T02:07:48.852763Z",
+          "out": "Barry",
+          "in": "Kusi-Asare"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T02:07:48.852172Z",
+          "out": "Gakpo",
+          "in": "B.Fernandes"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T02:07:48.843541Z",
+          "out": "Szoboszlai",
+          "in": "Burrowes"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-27T01:27:00.524841Z",
+          "out": "Evanilson",
+          "in": "Barry"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T02:43:08.646452Z",
+          "out": "Semenyo",
+          "in": "Palmer"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:57:09.907676Z",
+          "out": "Roefs",
+          "in": "Kelleher"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:57:09.907474Z",
+          "out": "A.García",
+          "in": "Guéhi"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:57:09.907264Z",
+          "out": "Diop",
+          "in": "Kayode"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:57:09.907033Z",
+          "out": "Thomas",
+          "in": "Virgil"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:57:09.906821Z",
+          "out": "Isak",
+          "in": "Evanilson"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:57:09.906614Z",
+          "out": "Burrowes",
+          "in": "Elanga"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:57:09.906405Z",
+          "out": "Mbeumo",
+          "in": "Semenyo"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:57:09.906191Z",
+          "out": "Raya",
+          "in": "Tzolakis"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:57:09.905961Z",
+          "out": "Calafiori",
+          "in": "De Cuyper"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:57:09.905751Z",
+          "out": "Hughes",
+          "in": "Saka"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:57:09.905528Z",
+          "out": "Wirtz",
+          "in": "Gakpo"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:57:09.905231Z",
+          "out": "Haaland",
+          "in": "Havertz"
+        }
+      ],
       "overlap15": 6,
       "overlapXI": 6,
       "transferLikelihood": "กลาง",
@@ -2047,6 +3087,65 @@
           }
         ]
       },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 50,
+          "total_points": 50,
+          "rank": 4383530,
+          "overall_rank": 4383525,
+          "bank": 0,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 2
+        },
+        {
+          "event": 2,
+          "points": 86,
+          "total_points": 136,
+          "rank": 3847039,
+          "overall_rank": 3835742,
+          "bank": 0.9,
+          "team_value": 100.2,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 8
+        },
+        {
+          "event": 3,
+          "points": 0,
+          "total_points": 132,
+          "rank": 9541536,
+          "overall_rank": 5250341,
+          "bank": 0,
+          "team_value": 100.1,
+          "event_transfers": 2,
+          "event_transfers_cost": 4,
+          "points_on_bench": 0
+        }
+      ],
+      "chip_history": [],
+      "transfer_history": [
+        {
+          "event": 3,
+          "time": "2026-09-02T06:29:48.728617Z",
+          "out": "M.Sangaré",
+          "in": "Cherki"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T06:29:48.716455Z",
+          "out": "Senesi",
+          "in": "De Cuyper"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-27T07:45:41.616420Z",
+          "out": "Sarr",
+          "in": "M.Sangaré"
+        }
+      ],
       "overlap15": 7,
       "overlapXI": 6,
       "transferLikelihood": "สูง",
@@ -2193,8 +3292,8 @@
       "entry_name": "SilverBank",
       "player_name": "Mr PHAKPHUM",
       "rank": 12,
-      "event_total": 4,
-      "total": 128,
+      "event_total": 3,
+      "total": 127,
       "team_value": 100.3,
       "bank": 2.3,
       "captain": "Haaland",
@@ -2216,6 +3315,65 @@
           }
         ]
       },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 44,
+          "total_points": 44,
+          "rank": 6124842,
+          "overall_rank": 6124832,
+          "bank": 1,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 6
+        },
+        {
+          "event": 2,
+          "points": 80,
+          "total_points": 124,
+          "rank": 5042969,
+          "overall_rank": 5512019,
+          "bank": 2.5,
+          "team_value": 100.2,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 21
+        },
+        {
+          "event": 3,
+          "points": 3,
+          "total_points": 127,
+          "rank": 5830797,
+          "overall_rank": 5855409,
+          "bank": 2.3,
+          "team_value": 100.3,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 0
+        }
+      ],
+      "chip_history": [
+        {
+          "name": "3xc",
+          "event": 3,
+          "time": "2026-08-31T05:09:10.727538Z"
+        }
+      ],
+      "transfer_history": [
+        {
+          "event": 3,
+          "time": "2026-09-01T06:41:53.018788Z",
+          "out": "Shaw",
+          "in": "De Cuyper"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T15:21:10.424027Z",
+          "out": "Wirtz",
+          "in": "Elanga"
+        }
+      ],
       "overlap15": 6,
       "overlapXI": 6,
       "transferLikelihood": "สูง",
@@ -2289,8 +3447,8 @@
           "club": "NEW",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 0,
+          "points": 0
         },
         {
           "element": 428,
@@ -2409,6 +3567,95 @@
           }
         ]
       },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 43,
+          "total_points": 43,
+          "rank": 6382788,
+          "overall_rank": 6382778,
+          "bank": 0,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 11
+        },
+        {
+          "event": 2,
+          "points": 73,
+          "total_points": 116,
+          "rank": 6392043,
+          "overall_rank": 6465194,
+          "bank": 0,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 5
+        },
+        {
+          "event": 3,
+          "points": 6,
+          "total_points": 122,
+          "rank": 3673223,
+          "overall_rank": 6401884,
+          "bank": 0.1,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 0
+        }
+      ],
+      "chip_history": [
+        {
+          "name": "wildcard",
+          "event": 3,
+          "time": "2026-09-01T04:22:59.875101Z"
+        }
+      ],
+      "transfer_history": [
+        {
+          "event": 3,
+          "time": "2026-09-01T04:32:32.841168Z",
+          "out": "Muñoz",
+          "in": "Hall"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T04:32:32.840792Z",
+          "out": "Mbeumo",
+          "in": "Schade"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T04:32:32.840476Z",
+          "out": "Rogers",
+          "in": "Munoz"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T04:32:32.840238Z",
+          "out": "Truffert",
+          "in": "Kayode"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T04:32:32.839879Z",
+          "out": "Amad",
+          "in": "B.Fernandes"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T04:32:32.839548Z",
+          "out": "Van Hecke",
+          "in": "Vuskovic"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T04:32:32.839244Z",
+          "out": "Lacroix",
+          "in": "Ajayi"
+        }
+      ],
       "overlap15": 4,
       "overlapXI": 3,
       "transferLikelihood": "กลาง",
@@ -2674,6 +3921,203 @@
           }
         ]
       },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 39,
+          "total_points": 39,
+          "rank": 7295429,
+          "overall_rank": 7295417,
+          "bank": 0,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 9
+        },
+        {
+          "event": 2,
+          "points": 58,
+          "total_points": 97,
+          "rank": 8860031,
+          "overall_rank": 8213150,
+          "bank": 0,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 6
+        },
+        {
+          "event": 3,
+          "points": 16,
+          "total_points": 113,
+          "rank": 1273190,
+          "overall_rank": 7333590,
+          "bank": 0,
+          "team_value": 99.5,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 1
+        }
+      ],
+      "chip_history": [
+        {
+          "name": "freehit",
+          "event": 3,
+          "time": "2026-09-02T10:46:51.017702Z"
+        }
+      ],
+      "transfer_history": [
+        {
+          "event": 3,
+          "time": "2026-09-04T15:17:09.820832Z",
+          "out": "Konsa",
+          "in": "Kayode"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-04T15:17:09.820598Z",
+          "out": "Calafiori",
+          "in": "Ajer"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-04T15:17:09.820326Z",
+          "out": "Verbruggen",
+          "in": "Kelleher"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-03T16:17:24.159606Z",
+          "out": "Wissa",
+          "in": "Akpom"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-03T16:17:24.159373Z",
+          "out": "M.Sangaré",
+          "in": "Yalcouyé"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-03T16:17:24.158801Z",
+          "out": "Gakpo",
+          "in": "B.Fernandes"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-03T16:17:24.158581Z",
+          "out": "Kelleher",
+          "in": "Verbruggen"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-03T16:17:24.158290Z",
+          "out": "Forster",
+          "in": "Leno"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-03T16:08:11.668674Z",
+          "out": "Groß",
+          "in": "Gakpo"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-03T16:08:11.668408Z",
+          "out": "Saka",
+          "in": "Foden"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-03T16:08:11.668055Z",
+          "out": "Gvardiol",
+          "in": "Konsa"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T11:07:50.132039Z",
+          "out": "Buendía",
+          "in": "Groß"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T11:03:31.924802Z",
+          "out": "Beto",
+          "in": "Isak"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T11:03:31.924367Z",
+          "out": "Mateta",
+          "in": "Wissa"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T11:03:31.923985Z",
+          "out": "Tzolis",
+          "in": "Buendía"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T11:03:31.923564Z",
+          "out": "E.Le Fée",
+          "in": "M.Sangaré"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T11:03:31.923037Z",
+          "out": "Semenyo",
+          "in": "Cherki"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T11:03:31.922604Z",
+          "out": "Yarmoliuk",
+          "in": "Saka"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T11:03:31.922232Z",
+          "out": "N.Williams",
+          "in": "Davis"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T11:03:31.921773Z",
+          "out": "O'Reilly",
+          "in": "Gvardiol"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T11:03:31.921345Z",
+          "out": "van Ewijk",
+          "in": "De Cuyper"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T11:03:31.920962Z",
+          "out": "Palestra",
+          "in": "Egan"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T11:03:31.920537Z",
+          "out": "Gabriel",
+          "in": "Calafiori"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T11:03:31.920166Z",
+          "out": "Verbruggen",
+          "in": "Forster"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T11:03:31.919671Z",
+          "out": "Raya",
+          "in": "Kelleher"
+        }
+      ],
       "overlap15": 5,
       "overlapXI": 5,
       "transferLikelihood": "ต่ำ",
@@ -2877,6 +4321,161 @@
           }
         ]
       },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 40,
+          "total_points": 40,
+          "rank": 7094525,
+          "overall_rank": 7094513,
+          "bank": 0,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 0
+        },
+        {
+          "event": 2,
+          "points": 109,
+          "total_points": 121,
+          "rank": 742559,
+          "overall_rank": 5967309,
+          "bank": 0,
+          "team_value": 100.1,
+          "event_transfers": 8,
+          "event_transfers_cost": 28,
+          "points_on_bench": 10
+        },
+        {
+          "event": 3,
+          "points": 7,
+          "total_points": 88,
+          "rank": 3672559,
+          "overall_rank": 8913776,
+          "bank": 0,
+          "team_value": 100.4,
+          "event_transfers": 11,
+          "event_transfers_cost": 40,
+          "points_on_bench": 0
+        }
+      ],
+      "chip_history": [],
+      "transfer_history": [
+        {
+          "event": 3,
+          "time": "2026-09-03T07:55:19.611434Z",
+          "out": "Gonzalo",
+          "in": "Marmoush"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-03T07:55:19.610617Z",
+          "out": "O.Richards",
+          "in": "Lacroix"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-03T07:55:19.609834Z",
+          "out": "Damsgaard",
+          "in": "Grealish"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-03T07:55:19.609230Z",
+          "out": "O'Reilly",
+          "in": "O'Shea"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-03T07:55:19.608509Z",
+          "out": "Gabriel",
+          "in": "Virgil"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-03T07:55:19.602339Z",
+          "out": "Lammens",
+          "in": "Henderson"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T15:35:18.524020Z",
+          "out": "Calvert-Lewin",
+          "in": "Gonzalo"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T01:50:46.070958Z",
+          "out": "Aina",
+          "in": "Robinson"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T01:47:10.644522Z",
+          "out": "Iwobi",
+          "in": "Damsgaard"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T01:43:06.538260Z",
+          "out": "Woltemade",
+          "in": "McBurnie"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-01T01:43:06.533105Z",
+          "out": "Shahar",
+          "in": "F.Kadıoğlu"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:36:29.085383Z",
+          "out": "Thiago",
+          "in": "Woltemade"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:36:29.078119Z",
+          "out": "Lewis",
+          "in": "O'Reilly"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:34:36.796680Z",
+          "out": "James",
+          "in": "Shahar"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:34:36.796013Z",
+          "out": "Furlong",
+          "in": "O.Richards"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:34:36.787490Z",
+          "out": "Diop",
+          "in": "Gabriel"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:32:06.005293Z",
+          "out": "Pope",
+          "in": "Raya"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-25T01:31:29.145688Z",
+          "out": "Isak",
+          "in": "Calvert-Lewin"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-24T01:43:15.553949Z",
+          "out": "Watkins",
+          "in": "João Pedro"
+        }
+      ],
       "overlap15": 3,
       "overlapXI": 3,
       "transferLikelihood": "สูง",
@@ -3080,6 +4679,137 @@
           }
         ]
       },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 48,
+          "total_points": 48,
+          "rank": 4969905,
+          "overall_rank": 4969899,
+          "bank": 0,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 10
+        },
+        {
+          "event": 2,
+          "points": 52,
+          "total_points": 88,
+          "rank": 9440484,
+          "overall_rank": 8738112,
+          "bank": 0.2,
+          "team_value": 99.9,
+          "event_transfers": 4,
+          "event_transfers_cost": 12,
+          "points_on_bench": 7
+        },
+        {
+          "event": 3,
+          "points": 22,
+          "total_points": 70,
+          "rank": 819125,
+          "overall_rank": 9476751,
+          "bank": 0.4,
+          "team_value": 99.8,
+          "event_transfers": 11,
+          "event_transfers_cost": 40,
+          "points_on_bench": 0
+        }
+      ],
+      "chip_history": [],
+      "transfer_history": [
+        {
+          "event": 3,
+          "time": "2026-09-04T15:18:54.314652Z",
+          "out": "James",
+          "in": "Calafiori"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-04T15:18:08.187980Z",
+          "out": "Havertz",
+          "in": "J.Angulo"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-04T15:18:08.181279Z",
+          "out": "Lewis-Potter",
+          "in": "Cunha"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-04T15:10:22.171232Z",
+          "out": "Szoboszlai",
+          "in": "Mbeumo"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-04T15:10:22.170835Z",
+          "out": "João Pedro",
+          "in": "Havertz"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-04T15:10:22.170343Z",
+          "out": "O'Reilly",
+          "in": "James"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-04T15:10:22.169967Z",
+          "out": "Ødegaard",
+          "in": "Semenyo"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-04T15:10:22.169567Z",
+          "out": "Tonali",
+          "in": "Lewis-Potter"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-04T15:10:22.169092Z",
+          "out": "Palmer",
+          "in": "Cherki"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-04T15:10:22.168668Z",
+          "out": "Delap",
+          "in": "Furo"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-04T15:10:22.160868Z",
+          "out": "Thiago",
+          "in": "Isak"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-28T17:04:06.787410Z",
+          "out": "Brobbey",
+          "in": "Delap"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-28T17:04:06.780790Z",
+          "out": "Cunha",
+          "in": "Palmer"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-28T16:59:14.741516Z",
+          "out": "Rice",
+          "in": "Ødegaard"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-28T16:59:14.734874Z",
+          "out": "Watkins",
+          "in": "João Pedro"
+        }
+      ],
       "overlap15": 2,
       "overlapXI": 1,
       "transferLikelihood": "สูง",
@@ -3411,17 +5141,6 @@
       "ownedByMe": false
     },
     {
-      "id": 454,
-      "web_name": "Elanga",
-      "team_short": "NEW",
-      "owners": 3,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 1,
-      "total_points": 3,
-      "ownedByMe": false
-    },
-    {
       "id": 552,
       "web_name": "Brobbey",
       "team_short": "SUN",
@@ -3442,6 +5161,17 @@
       "event_points": 0,
       "total_points": 0,
       "ownedByMe": true
+    },
+    {
+      "id": 454,
+      "web_name": "Elanga",
+      "team_short": "NEW",
+      "owners": 3,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 0,
+      "total_points": 0,
+      "ownedByMe": false
     },
     {
       "id": 82,
@@ -3675,9 +5405,9 @@
       "ownedByMe": false
     },
     {
-      "id": 565,
-      "web_name": "M.Sangaré",
-      "team_short": "BRE",
+      "id": 418,
+      "web_name": "Maguire",
+      "team_short": "MUN",
       "owners": 2,
       "captains": 0,
       "tripleCaptains": 0,
@@ -3686,9 +5416,9 @@
       "ownedByMe": false
     },
     {
-      "id": 418,
-      "web_name": "Maguire",
-      "team_short": "MUN",
+      "id": 565,
+      "web_name": "M.Sangaré",
+      "team_short": "BRE",
       "owners": 2,
       "captains": 0,
       "tripleCaptains": 0,
@@ -3972,9 +5702,9 @@
       "ownedByMe": false
     },
     {
-      "id": 651,
-      "web_name": "J.Angulo",
-      "team_short": "SUN",
+      "id": 98,
+      "web_name": "Janelt",
+      "team_short": "BRE",
       "owners": 1,
       "captains": 0,
       "tripleCaptains": 0,
@@ -3983,9 +5713,9 @@
       "ownedByMe": false
     },
     {
-      "id": 98,
-      "web_name": "Janelt",
-      "team_short": "BRE",
+      "id": 651,
+      "web_name": "J.Angulo",
+      "team_short": "SUN",
       "owners": 1,
       "captains": 0,
       "tripleCaptains": 0,
@@ -4275,7 +6005,7 @@
       "home": "NEW",
       "away": "BOU",
       "home_score": 0,
-      "away_score": 0
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-09-05T14:00:00Z",

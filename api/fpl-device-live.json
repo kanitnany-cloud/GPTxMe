@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "5/9/2569 18:40:18",
+  "updated_at_th": "5/9/2569 19:03:19",
   "gameweek": 3,
   "team": {
     "name": "Yedtsuna",
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Bombadoo FC.",
       "manager": "Apirak Aiman",
-      "points": 201,
+      "points": 200,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Bombadoo FC.",
-        "points": 201,
+        "points": 200,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -72,7 +72,7 @@
       {
         "rank": 6,
         "team": "Runner Up FC",
-        "points": 159,
+        "points": 158,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -80,7 +80,7 @@
         ]
       },
       {
-        "rank": 7,
+        "rank": 6,
         "team": "Sarumann",
         "points": 158,
         "captain": "B.Fernandes",
@@ -186,7 +186,7 @@
       "home": "NEW",
       "away": "BOU",
       "home_score": 0,
-      "away_score": 0
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-09-05T14:00:00Z",
