@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "6/9/2569 21:05:41",
+  "updated_at_th": "6/9/2569 22:38:19",
   "gameweek": 3,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
-    "points": 233,
-    "gw_points": 57,
+    "points": 236,
+    "gw_points": 60,
     "captain": "Haaland",
     "captain_multiplier": 3
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Yedtsuna",
       "manager": "Kanitnan Yamjongkol",
-      "points": 233,
+      "points": 236,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Yedtsuna",
-        "points": 233,
+        "points": 236,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "Bombadoo FC.",
-        "points": 231,
+        "points": 233,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -43,7 +43,7 @@
       {
         "rank": 3,
         "team": "KC888",
-        "points": 218,
+        "points": 222,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -52,7 +52,7 @@
       {
         "rank": 4,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 209,
+        "points": 214,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -62,7 +62,7 @@
       {
         "rank": 5,
         "team": "Runner Up FC",
-        "points": 204,
+        "points": 208,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -72,7 +72,7 @@
       {
         "rank": 6,
         "team": "GrossProfit United",
-        "points": 194,
+        "points": 196,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -81,21 +81,21 @@
       },
       {
         "rank": 7,
+        "team": "Sarumann",
+        "points": 190,
+        "captain": "B.Fernandes",
+        "chips": []
+      },
+      {
+        "rank": 8,
         "team": "Mr.Art",
-        "points": 183,
+        "points": 186,
         "captain": "Haaland",
         "chips": [
           "3xc",
           "wildcard",
           "freehit"
         ]
-      },
-      {
-        "rank": 8,
-        "team": "RelegationBattle",
-        "points": 181,
-        "captain": "Haaland",
-        "chips": []
       }
     ]
   },
@@ -105,8 +105,8 @@
       "club": "ARS",
       "owners": 13,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 1,
+      "total_points": 11,
       "owned_by_me": true
     },
     {
@@ -123,8 +123,8 @@
       "club": "MUN",
       "owners": 11,
       "captains": 2,
-      "gw_points": 1,
-      "total_points": 13,
+      "gw_points": 2,
+      "total_points": 26,
       "owned_by_me": true
     },
     {
@@ -141,8 +141,8 @@
       "club": "CHE",
       "owners": 11,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 1,
+      "total_points": 10,
       "owned_by_me": true
     },
     {
@@ -159,8 +159,8 @@
       "club": "ARS",
       "owners": 7,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 1,
+      "total_points": 6,
       "owned_by_me": false
     },
     {
@@ -252,17 +252,17 @@
       "finished": false,
       "home": "EVE",
       "away": "MUN",
-      "home_score": 0,
-      "away_score": 0
+      "home_score": 2,
+      "away_score": 2
     },
     {
       "kickoff_time": "2026-09-06T15:30:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "ARS",
       "away": "CHE",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 1
     }
   ],
   "strategy": {
