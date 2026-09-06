@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "6/9/2569 22:38:19",
+  "updated_at_th": "7/9/2569 00:18:14",
   "gameweek": 3,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
-    "points": 236,
-    "gw_points": 60,
+    "points": 237,
+    "gw_points": 61,
     "captain": "Haaland",
     "captain_multiplier": 3
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Yedtsuna",
       "manager": "Kanitnan Yamjongkol",
-      "points": 236,
+      "points": 237,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Yedtsuna",
-        "points": 236,
+        "points": 237,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "Bombadoo FC.",
-        "points": 233,
+        "points": 234,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -43,7 +43,7 @@
       {
         "rank": 3,
         "team": "KC888",
-        "points": 222,
+        "points": 225,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -52,7 +52,7 @@
       {
         "rank": 4,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 214,
+        "points": 221,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -62,7 +62,7 @@
       {
         "rank": 5,
         "team": "Runner Up FC",
-        "points": 208,
+        "points": 209,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -72,7 +72,7 @@
       {
         "rank": 6,
         "team": "GrossProfit United",
-        "points": 196,
+        "points": 199,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -82,14 +82,14 @@
       {
         "rank": 7,
         "team": "Sarumann",
-        "points": 190,
+        "points": 193,
         "captain": "B.Fernandes",
         "chips": []
       },
       {
         "rank": 8,
         "team": "Mr.Art",
-        "points": 186,
+        "points": 187,
         "captain": "Haaland",
         "chips": [
           "3xc",
@@ -105,8 +105,8 @@
       "club": "ARS",
       "owners": 13,
       "captains": 0,
-      "gw_points": 1,
-      "total_points": 11,
+      "gw_points": 2,
+      "total_points": 22,
       "owned_by_me": true
     },
     {
@@ -159,8 +159,8 @@
       "club": "ARS",
       "owners": 7,
       "captains": 0,
-      "gw_points": 1,
-      "total_points": 6,
+      "gw_points": 3,
+      "total_points": 18,
       "owned_by_me": false
     },
     {
@@ -261,7 +261,7 @@
       "finished": false,
       "home": "ARS",
       "away": "CHE",
-      "home_score": 0,
+      "home_score": 2,
       "away_score": 1
     }
   ],
