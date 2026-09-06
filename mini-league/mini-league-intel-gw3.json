@@ -70,15 +70,15 @@
     "most_captained": 411,
     "most_vice_captained": 426
   },
-  "generatedAt": "6/9/2569 22:38:19",
+  "generatedAt": "7/9/2569 01:03:22",
   "teams": [
     {
       "entry": 3944270,
       "entry_name": "Yedtsuna",
       "player_name": "Kanitnan Yamjongkol",
       "rank": 1,
-      "event_total": 60,
-      "total": 236,
+      "event_total": 61,
+      "total": 237,
       "team_value": 100.7,
       "bank": 0.8,
       "captain": "Haaland",
@@ -191,8 +191,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 2,
+          "points": 2
         },
         {
           "element": 330,
@@ -309,8 +309,8 @@
       "entry_name": "Bombadoo FC.",
       "player_name": "Apirak Aiman",
       "rank": 2,
-      "event_total": 47,
-      "total": 233,
+      "event_total": 48,
+      "total": 234,
       "team_value": 100.5,
       "bank": 0,
       "captain": "Haaland",
@@ -568,8 +568,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 2,
+          "points": 2
         },
         {
           "element": 454,
@@ -677,8 +677,8 @@
       "entry_name": "KC888",
       "player_name": "KC B",
       "rank": 3,
-      "event_total": 50,
-      "total": 222,
+      "event_total": 53,
+      "total": 225,
       "team_value": 100,
       "bank": 1.8,
       "captain": "Haaland",
@@ -769,8 +769,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 3,
+          "points": 3
         },
         {
           "element": 277,
@@ -787,8 +787,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 2,
+          "points": 2
         },
         {
           "element": 305,
@@ -905,8 +905,8 @@
       "entry_name": "ช่วยใจดีกับลุงหน่อย",
       "player_name": "Palm Xavier",
       "rank": 4,
-      "event_total": 67,
-      "total": 214,
+      "event_total": 74,
+      "total": 221,
       "team_value": 100.6,
       "bank": 0.5,
       "captain": "Haaland",
@@ -1013,8 +1013,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 3,
+          "points": 3
         },
         {
           "element": 8,
@@ -1022,8 +1022,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 2,
+          "points": 2
         },
         {
           "element": 418,
@@ -1049,8 +1049,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 5,
+          "points": 5
         },
         {
           "element": 399,
@@ -1149,8 +1149,8 @@
       "entry_name": "Runner Up FC",
       "player_name": "Tangii Slur",
       "rank": 5,
-      "event_total": 50,
-      "total": 208,
+      "event_total": 51,
+      "total": 209,
       "team_value": 100.1,
       "bank": 0.7,
       "captain": "Haaland",
@@ -1282,8 +1282,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 2,
+          "points": 2
         },
         {
           "element": 124,
@@ -1391,8 +1391,8 @@
       "entry_name": "GrossProfit United",
       "player_name": "wiroon chemkhoonthod",
       "rank": 6,
-      "event_total": 40,
-      "total": 196,
+      "event_total": 43,
+      "total": 199,
       "team_value": 100.8,
       "bank": 2.9,
       "captain": "Haaland",
@@ -1827,8 +1827,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 3,
+          "points": 3
         },
         {
           "element": 391,
@@ -1845,8 +1845,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 2,
+          "points": 2
         },
         {
           "element": 593,
@@ -1944,7 +1944,7 @@
           "club": "ARS",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 1,
+          "event_points": 4,
           "points": 0
         },
         {
@@ -1963,8 +1963,8 @@
       "entry_name": "Sarumann",
       "player_name": "Jetsadakorn Maungkum",
       "rank": 7,
-      "event_total": 48,
-      "total": 190,
+      "event_total": 51,
+      "total": 193,
       "team_value": 100.5,
       "bank": 0.3,
       "captain": "B.Fernandes",
@@ -2043,8 +2043,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 3,
+          "points": 3
         },
         {
           "element": 469,
@@ -2070,8 +2070,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 2,
+          "points": 2
         },
         {
           "element": 426,
@@ -2179,8 +2179,8 @@
       "entry_name": "Mr.Art",
       "player_name": "TANAWIN NUTCANAT",
       "rank": 8,
-      "event_total": 54,
-      "total": 186,
+      "event_total": 55,
+      "total": 187,
       "team_value": 100.9,
       "bank": 1.5,
       "captain": "Haaland",
@@ -2535,8 +2535,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 2,
+          "points": 2
         },
         {
           "element": 399,
@@ -2635,8 +2635,8 @@
       "entry_name": "RelegationBattle",
       "player_name": "Katha Panthong",
       "rank": 9,
-      "event_total": 66,
-      "total": 182,
+      "event_total": 67,
+      "total": 183,
       "team_value": 100.3,
       "bank": 0.1,
       "captain": "Haaland",
@@ -2752,8 +2752,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 2,
+          "points": 2
         },
         {
           "element": 453,
@@ -2842,7 +2842,7 @@
           "club": "ARS",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 1,
+          "event_points": 5,
           "points": 0
         },
         {
@@ -2861,8 +2861,8 @@
       "entry_name": "SilverBank",
       "player_name": "Mr PHAKPHUM",
       "rank": 10,
-      "event_total": 56,
-      "total": 180,
+      "event_total": 57,
+      "total": 181,
       "team_value": 100.3,
       "bank": 2.3,
       "captain": "Haaland",
@@ -2971,8 +2971,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 2,
+          "points": 2
         },
         {
           "element": 469,
@@ -3089,8 +3089,8 @@
       "entry_name": "JedYubZ_WCC",
       "player_name": "Chetsada Muangsri",
       "rank": 11,
-      "event_total": 38,
-      "total": 170,
+      "event_total": 45,
+      "total": 177,
       "team_value": 100.1,
       "bank": 0,
       "captain": "Haaland",
@@ -3179,8 +3179,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 3,
+          "points": 3
         },
         {
           "element": 423,
@@ -3197,8 +3197,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 2,
+          "points": 2
         },
         {
           "element": 115,
@@ -3233,8 +3233,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 5,
+          "points": 5
         },
         {
           "element": 399,
@@ -3315,8 +3315,8 @@
       "entry_name": "On",
       "player_name": "Peerawat Y",
       "rank": 12,
-      "event_total": 28,
-      "total": 162,
+      "event_total": 33,
+      "total": 167,
       "team_value": 99.9,
       "bank": 0.9,
       "captain": "Szoboszlai",
@@ -3393,8 +3393,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 2,
+          "points": 2
         },
         {
           "element": 356,
@@ -3429,8 +3429,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 5,
+          "points": 5
         },
         {
           "element": 368,
@@ -3492,7 +3492,7 @@
           "club": "ARS",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 1,
+          "event_points": 4,
           "points": 0
         },
         {
@@ -3792,7 +3792,7 @@
           "club": "ARS",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 1,
+          "event_points": 2,
           "points": 0
         }
       ]
@@ -4264,8 +4264,8 @@
       "entry_name": "Talens10",
       "player_name": "Talëns Ten",
       "rank": 15,
-      "event_total": 32,
-      "total": 113,
+      "event_total": 33,
+      "total": 114,
       "team_value": 100.4,
       "bank": 0,
       "captain": "B.Fernandes",
@@ -4504,8 +4504,8 @@
           "club": "CHE",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 2,
+          "points": 2
         },
         {
           "element": 356,
@@ -4585,7 +4585,7 @@
           "club": "ARS",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 1,
+          "event_points": 3,
           "points": 0
         },
         {
@@ -4622,8 +4622,8 @@
       "entry_name": "Goal888",
       "player_name": "Pichai Boonlay",
       "rank": 16,
-      "event_total": 57,
-      "total": 105,
+      "event_total": 60,
+      "total": 108,
       "team_value": 99.8,
       "bank": 0.4,
       "captain": "Cherki",
@@ -4820,8 +4820,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 3,
+          "points": 3
         },
         {
           "element": 4,
@@ -4829,8 +4829,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": 2,
+          "points": 2
         },
         {
           "element": 388,
@@ -4919,7 +4919,7 @@
           "club": "CHE",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 1,
+          "event_points": 3,
           "points": 0
         },
         {
@@ -4928,7 +4928,7 @@
           "club": "ARS",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 1,
+          "event_points": 2,
           "points": 0
         },
         {
@@ -4960,8 +4960,8 @@
       "owners": 13,
       "captains": 0,
       "tripleCaptains": 0,
-      "event_points": 1,
-      "total_points": 11,
+      "event_points": 2,
+      "total_points": 22,
       "ownedByMe": true
     },
     {
@@ -5026,8 +5026,8 @@
       "owners": 7,
       "captains": 0,
       "tripleCaptains": 0,
-      "event_points": 1,
-      "total_points": 6,
+      "event_points": 3,
+      "total_points": 18,
       "ownedByMe": false
     },
     {
@@ -5284,6 +5284,17 @@
       "ownedByMe": false
     },
     {
+      "id": 557,
+      "web_name": "Tzolis",
+      "team_short": "ARS",
+      "owners": 2,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 5,
+      "total_points": 10,
+      "ownedByMe": false
+    },
+    {
       "id": 428,
       "web_name": "Cunha",
       "team_short": "MUN",
@@ -5306,9 +5317,31 @@
       "ownedByMe": false
     },
     {
+      "id": 13,
+      "web_name": "Rice",
+      "team_short": "ARS",
+      "owners": 2,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 5,
+      "total_points": 5,
+      "ownedByMe": false
+    },
+    {
       "id": 87,
       "web_name": "Ajer",
       "team_short": "BRE",
+      "owners": 2,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 2,
+      "total_points": 4,
+      "ownedByMe": false
+    },
+    {
+      "id": 4,
+      "web_name": "Gabriel",
+      "team_short": "ARS",
       "owners": 2,
       "captains": 0,
       "tripleCaptains": 0,
@@ -5372,17 +5405,6 @@
       "ownedByMe": false
     },
     {
-      "id": 4,
-      "web_name": "Gabriel",
-      "team_short": "ARS",
-      "owners": 2,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 1,
-      "total_points": 2,
-      "ownedByMe": false
-    },
-    {
       "id": 127,
       "web_name": "Gomez",
       "team_short": "BHA",
@@ -5405,17 +5427,6 @@
       "ownedByMe": false
     },
     {
-      "id": 557,
-      "web_name": "Tzolis",
-      "team_short": "ARS",
-      "owners": 2,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 1,
-      "total_points": 2,
-      "ownedByMe": false
-    },
-    {
       "id": 605,
       "web_name": "Yalcouyé",
       "team_short": "BHA",
@@ -5430,17 +5441,6 @@
       "id": 305,
       "web_name": "Davis",
       "team_short": "IPS",
-      "owners": 2,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 1,
-      "total_points": 1,
-      "ownedByMe": false
-    },
-    {
-      "id": 13,
-      "web_name": "Rice",
-      "team_short": "ARS",
       "owners": 2,
       "captains": 0,
       "tripleCaptains": 0,
@@ -5477,7 +5477,7 @@
       "owners": 2,
       "captains": 0,
       "tripleCaptains": 0,
-      "event_points": 1,
+      "event_points": 4,
       "total_points": 0,
       "ownedByMe": false
     },
@@ -5658,6 +5658,17 @@
       "ownedByMe": false
     },
     {
+      "id": 200,
+      "web_name": "Lacroix",
+      "team_short": "CHE",
+      "owners": 1,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 2,
+      "total_points": 2,
+      "ownedByMe": false
+    },
+    {
       "id": 94,
       "web_name": "Schade",
       "team_short": "BRE",
@@ -5716,17 +5727,6 @@
       "id": 534,
       "web_name": "Hume",
       "team_short": "SUN",
-      "owners": 1,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 1,
-      "total_points": 1,
-      "ownedByMe": false
-    },
-    {
-      "id": 200,
-      "web_name": "Lacroix",
-      "team_short": "CHE",
       "owners": 1,
       "captains": 0,
       "tripleCaptains": 0,
@@ -5829,7 +5829,7 @@
       "owners": 1,
       "captains": 0,
       "tripleCaptains": 0,
-      "event_points": 1,
+      "event_points": 3,
       "total_points": 0,
       "ownedByMe": false
     },
@@ -6076,7 +6076,7 @@
       "finished": false,
       "home": "ARS",
       "away": "CHE",
-      "home_score": 0,
+      "home_score": 2,
       "away_score": 1
     }
   ]
