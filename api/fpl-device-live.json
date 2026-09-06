@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "6/9/2569 19:14:55",
+  "updated_at_th": "6/9/2569 21:05:41",
   "gameweek": 3,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
-    "points": 232,
-    "gw_points": 56,
+    "points": 233,
+    "gw_points": 57,
     "captain": "Haaland",
     "captain_multiplier": 3
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Yedtsuna",
       "manager": "Kanitnan Yamjongkol",
-      "points": 232,
+      "points": 233,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Yedtsuna",
-        "points": 232,
+        "points": 233,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "Bombadoo FC.",
-        "points": 230,
+        "points": 231,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -43,7 +43,7 @@
       {
         "rank": 3,
         "team": "KC888",
-        "points": 217,
+        "points": 218,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -52,7 +52,7 @@
       {
         "rank": 4,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 208,
+        "points": 209,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -62,7 +62,7 @@
       {
         "rank": 5,
         "team": "Runner Up FC",
-        "points": 202,
+        "points": 204,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -82,7 +82,7 @@
       {
         "rank": 7,
         "team": "Mr.Art",
-        "points": 182,
+        "points": 183,
         "captain": "Haaland",
         "chips": [
           "3xc",
@@ -123,8 +123,8 @@
       "club": "MUN",
       "owners": 11,
       "captains": 2,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 1,
+      "total_points": 13,
       "owned_by_me": true
     },
     {
@@ -248,12 +248,12 @@
     },
     {
       "kickoff_time": "2026-09-06T13:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "EVE",
       "away": "MUN",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-09-06T15:30:00Z",
