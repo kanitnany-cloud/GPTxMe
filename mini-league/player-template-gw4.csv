@@ -1,12 +1,12 @@
 player,club,owners,captains,triple_captains,gw_points,total_points,owned_by_me
 João Pedro,CHE,12,3,0,12,180,true
 Haaland,MCI,12,2,0,0,0,true
-Calafiori,ARS,12,0,0,0,0,true
+Calafiori,ARS,12,0,0,6,60,true
 Szoboszlai,LIV,10,1,0,3,30,true
 B.Fernandes,MUN,8,1,0,0,0,true
 Verbruggen,BHA,8,0,0,0,0,true
+Raya,ARS,7,0,0,14,84,false
 De Cuyper,BHA,7,0,0,0,0,true
-Raya,ARS,7,0,0,0,0,false
 Palmer,CHE,6,3,0,5,45,false
 Isak,LIV,6,3,1,2,20,false
 Wissa,NEW,6,1,0,0,0,true
@@ -18,19 +18,23 @@ Dubravka,TOT,4,0,0,0,0,true
 Elanga,NEW,4,0,0,0,0,false
 van Ewijk,COV,4,0,0,0,0,false
 Rogers,CHE,3,1,0,8,32,false
+Gabriel,ARS,3,0,0,8,24,false
+Rice,ARS,3,0,0,7,21,false
 N.Williams,NFO,3,0,0,2,6,false
 Ajayi,HUL,3,0,0,1,1,false
-Brobbey,SUN,3,0,0,0,0,false
+Brobbey,SUN,3,0,0,1,1,false
 Calvert-Lewin,LEE,3,0,0,0,0,false
-Gabriel,ARS,3,0,0,0,0,false
 Gvardiol,MCI,3,0,0,0,0,false
 Hall,NEW,3,0,0,0,0,false
 Mbeumo,MUN,3,0,0,0,0,false
-Rice,ARS,3,0,0,0,0,false
 Davis,IPS,2,0,0,14,28,false
 Virgil,LIV,2,0,0,8,16,false
+Konsa,ARS,2,0,0,6,12,false
 Scott,BOU,2,0,0,4,8,false
 Kinsky,TOT,2,0,0,7,7,false
+Ødegaard,ARS,2,0,0,3,6,false
+Saka,ARS,2,0,0,3,6,false
+Tzolis,ARS,2,0,0,3,6,false
 Tzolakis,HUL,2,0,0,2,4,false
 Muñoz,NFO,2,0,0,2,2,false
 Mendy,HUL,2,0,0,1,1,false
@@ -39,27 +43,24 @@ Cunha,MUN,2,0,0,0,0,false
 Diop,IPS,2,0,0,1,0,true
 E.Le Fée,SUN,2,0,0,0,0,false
 Guéhi,MCI,2,0,0,0,0,false
-Isidor,SUN,2,0,0,0,0,false
-Konsa,ARS,2,0,0,0,0,false
+Isidor,SUN,2,0,0,1,0,false
 Lammens,MUN,2,0,0,0,0,false
 M.Sangaré,BRE,2,0,0,4,0,false
 O'Reilly,MCI,2,0,0,0,0,true
-Ødegaard,ARS,2,0,0,0,0,false
-Saka,ARS,2,0,0,0,0,false
 Semenyo,MCI,2,0,0,0,0,false
 Shaw,MUN,2,0,0,0,0,false
 Trafford,LEE,2,0,0,0,0,false
-Tzolis,ARS,2,0,0,0,0,false
 Schade,BRE,1,0,0,15,15,false
 Gibbs-White,NFO,1,0,0,8,8,false
 Tarkowski,EVE,1,0,0,8,8,false
+Van Hecke,TOT,1,0,0,8,8,false
 Pickford,EVE,1,0,0,6,6,false
-Van Hecke,TOT,1,0,0,6,6,false
 Janelt,BRE,1,0,0,4,4,false
 Barcola,LIV,1,0,0,3,3,false
 Kelleher,BRE,1,0,0,3,3,false
 Wirtz,LIV,1,0,0,3,3,false
 Egan,HUL,1,0,0,2,2,false
+Havertz,ARS,1,0,0,2,2,false
 Ajer,BRE,1,0,0,1,1,false
 Coyle,HUL,1,0,0,1,1,false
 Gakpo,LIV,1,0,0,1,1,false
@@ -71,7 +72,6 @@ F.Kadıoğlu,BHA,1,0,0,0,0,false
 Fernandez-Pardo,NEW,1,0,0,0,0,false
 Furo,BRE,1,0,0,0,0,false
 Gomez,BHA,1,0,0,0,0,false
-Havertz,ARS,1,0,0,0,0,false
 Horníček,NEW,1,0,0,0,0,false
 Hughes,CRY,1,0,0,1,0,true
 Hume,SUN,1,0,0,0,0,false
@@ -82,7 +82,7 @@ Martinez,CHE,1,0,0,2,0,false
 Muharemović,LEE,1,0,0,0,0,false
 Onyeka,COV,1,0,0,0,0,false
 Rayan,BOU,1,0,0,2,0,false
-Roefs,SUN,1,0,0,0,0,false
+Roefs,SUN,1,0,0,3,0,false
 Sessegnon,FUL,1,0,0,0,0,false
 Slater,HUL,1,0,0,2,0,false
 Thomas,COV,1,0,0,0,0,false

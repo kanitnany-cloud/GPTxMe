@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "13/9/2569 02:36:37",
+  "updated_at_th": "13/9/2569 03:49:17",
   "gameweek": 4,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
-    "rank": 3,
-    "points": 253,
-    "gw_points": 16,
+    "rank": 4,
+    "points": 258,
+    "gw_points": 21,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "KC888",
       "manager": "KC B",
-      "points": 274,
+      "points": 294,
       "captain": "João Pedro"
     },
     "top": [
       {
         "rank": 1,
         "team": "KC888",
-        "points": 274,
+        "points": 294,
         "captain": "João Pedro",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "Bombadoo FC.",
-        "points": 273,
+        "points": 281,
         "captain": "Isak",
         "chips": [
           "bboost",
@@ -43,17 +43,27 @@
       },
       {
         "rank": 3,
+        "team": "GrossProfit United",
+        "points": 258,
+        "captain": "Palmer",
+        "chips": [
+          "bboost",
+          "wildcard"
+        ]
+      },
+      {
+        "rank": 4,
         "team": "Yedtsuna",
-        "points": 253,
+        "points": 258,
         "captain": "Haaland",
         "chips": [
           "3xc"
         ]
       },
       {
-        "rank": 4,
+        "rank": 5,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 251,
+        "points": 258,
         "captain": "Palmer",
         "chips": [
           "bboost",
@@ -62,9 +72,9 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 6,
         "team": "Runner Up FC",
-        "points": 239,
+        "points": 244,
         "captain": "Rogers",
         "chips": [
           "bboost",
@@ -72,34 +82,21 @@
         ]
       },
       {
-        "rank": 6,
-        "team": "GrossProfit United",
-        "points": 235,
-        "captain": "Palmer",
-        "chips": [
-          "bboost",
-          "wildcard"
-        ]
-      },
-      {
         "rank": 7,
-        "team": "SilverBank",
-        "points": 224,
-        "captain": "Palmer",
+        "team": "Sarumann",
+        "points": 237,
+        "captain": "Isak",
         "chips": [
           "3xc"
         ]
       },
       {
         "rank": 8,
-        "team": "Mr.Art",
-        "points": 220,
-        "captain": "Isak",
+        "team": "SilverBank",
+        "points": 229,
+        "captain": "Palmer",
         "chips": [
-          "3xc",
-          "wildcard",
-          "freehit",
-          "bboost"
+          "3xc"
         ]
       }
     ]
@@ -128,8 +125,8 @@
       "club": "ARS",
       "owners": 12,
       "captains": 0,
-      "gw_points": 1,
-      "total_points": 10,
+      "gw_points": 6,
+      "total_points": 60,
       "owned_by_me": true
     },
     {
@@ -164,8 +161,8 @@
       "club": "ARS",
       "owners": 7,
       "captains": 0,
-      "gw_points": 1,
-      "total_points": 6,
+      "gw_points": 14,
+      "total_points": 84,
       "owned_by_me": false
     },
     {
@@ -240,7 +237,7 @@
       "home": "SUN",
       "away": "ARS",
       "home_score": 0,
-      "away_score": 0
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-09-13T13:00:00Z",
