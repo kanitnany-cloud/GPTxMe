@@ -1,11 +1,11 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "13/9/2569 03:49:17",
+  "updated_at_th": "13/9/2569 05:09:52",
   "gameweek": 4,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
-    "rank": 4,
+    "rank": 5,
     "points": 258,
     "gw_points": 21,
     "captain": "Haaland",
@@ -17,14 +17,14 @@
     "leader": {
       "team": "KC888",
       "manager": "KC B",
-      "points": 294,
+      "points": 295,
       "captain": "João Pedro"
     },
     "top": [
       {
         "rank": 1,
         "team": "KC888",
-        "points": 294,
+        "points": 295,
         "captain": "João Pedro",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "Bombadoo FC.",
-        "points": 281,
+        "points": 280,
         "captain": "Isak",
         "chips": [
           "bboost",
@@ -43,6 +43,17 @@
       },
       {
         "rank": 3,
+        "team": "ช่วยใจดีกับลุงหน่อย",
+        "points": 263,
+        "captain": "Palmer",
+        "chips": [
+          "bboost",
+          "3xc",
+          "wildcard"
+        ]
+      },
+      {
+        "rank": 4,
         "team": "GrossProfit United",
         "points": 258,
         "captain": "Palmer",
@@ -52,23 +63,12 @@
         ]
       },
       {
-        "rank": 4,
+        "rank": 5,
         "team": "Yedtsuna",
         "points": 258,
         "captain": "Haaland",
         "chips": [
           "3xc"
-        ]
-      },
-      {
-        "rank": 5,
-        "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 258,
-        "captain": "Palmer",
-        "chips": [
-          "bboost",
-          "3xc",
-          "wildcard"
         ]
       },
       {
@@ -92,11 +92,14 @@
       },
       {
         "rank": 8,
-        "team": "SilverBank",
-        "points": 229,
-        "captain": "Palmer",
+        "team": "Mr.Art",
+        "points": 232,
+        "captain": "Isak",
         "chips": [
-          "3xc"
+          "3xc",
+          "wildcard",
+          "freehit",
+          "bboost"
         ]
       }
     ]
@@ -237,7 +240,7 @@
       "home": "SUN",
       "away": "ARS",
       "home_score": 0,
-      "away_score": 1
+      "away_score": 2
     },
     {
       "kickoff_time": "2026-09-13T13:00:00Z",
