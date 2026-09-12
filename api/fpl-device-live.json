@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "13/9/2569 01:08:50",
+  "updated_at_th": "13/9/2569 02:36:37",
   "gameweek": 4,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 3,
-    "points": 252,
-    "gw_points": 15,
+    "points": 253,
+    "gw_points": 16,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "KC888",
       "manager": "KC B",
-      "points": 272,
+      "points": 274,
       "captain": "João Pedro"
     },
     "top": [
       {
         "rank": 1,
         "team": "KC888",
-        "points": 272,
+        "points": 274,
         "captain": "João Pedro",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "Bombadoo FC.",
-        "points": 265,
+        "points": 273,
         "captain": "Isak",
         "chips": [
           "bboost",
@@ -44,7 +44,7 @@
       {
         "rank": 3,
         "team": "Yedtsuna",
-        "points": 252,
+        "points": 253,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -53,7 +53,7 @@
       {
         "rank": 4,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 249,
+        "points": 251,
         "captain": "Palmer",
         "chips": [
           "bboost",
@@ -64,7 +64,7 @@
       {
         "rank": 5,
         "team": "Runner Up FC",
-        "points": 238,
+        "points": 239,
         "captain": "Rogers",
         "chips": [
           "bboost",
@@ -74,7 +74,7 @@
       {
         "rank": 6,
         "team": "GrossProfit United",
-        "points": 232,
+        "points": 235,
         "captain": "Palmer",
         "chips": [
           "bboost",
@@ -84,7 +84,7 @@
       {
         "rank": 7,
         "team": "SilverBank",
-        "points": 221,
+        "points": 224,
         "captain": "Palmer",
         "chips": [
           "3xc"
@@ -92,11 +92,14 @@
       },
       {
         "rank": 8,
-        "team": "Sarumann",
-        "points": 217,
+        "team": "Mr.Art",
+        "points": 220,
         "captain": "Isak",
         "chips": [
-          "3xc"
+          "3xc",
+          "wildcard",
+          "freehit",
+          "bboost"
         ]
       }
     ]
@@ -125,8 +128,8 @@
       "club": "ARS",
       "owners": 12,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 1,
+      "total_points": 10,
       "owned_by_me": true
     },
     {
@@ -157,6 +160,15 @@
       "owned_by_me": true
     },
     {
+      "name": "Raya",
+      "club": "ARS",
+      "owners": 7,
+      "captains": 0,
+      "gw_points": 1,
+      "total_points": 6,
+      "owned_by_me": false
+    },
+    {
       "name": "De Cuyper",
       "club": "BHA",
       "owners": 7,
@@ -164,15 +176,6 @@
       "gw_points": 0,
       "total_points": 0,
       "owned_by_me": true
-    },
-    {
-      "name": "Raya",
-      "club": "ARS",
-      "owners": 7,
-      "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
-      "owned_by_me": false
     }
   ],
   "fixtures": [
@@ -232,12 +235,12 @@
     },
     {
       "kickoff_time": "2026-09-12T19:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "SUN",
       "away": "ARS",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-09-13T13:00:00Z",
