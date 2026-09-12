@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "13/9/2569 00:24:07",
+  "updated_at_th": "13/9/2569 01:08:50",
   "gameweek": 4,
   "team": {
     "name": "Yedtsuna",
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "Bombadoo FC.",
-        "points": 260,
+        "points": 265,
         "captain": "Isak",
         "chips": [
           "bboost",
@@ -83,23 +83,20 @@
       },
       {
         "rank": 7,
-        "team": "Sarumann",
-        "points": 217,
-        "captain": "Isak",
+        "team": "SilverBank",
+        "points": 221,
+        "captain": "Palmer",
         "chips": [
           "3xc"
         ]
       },
       {
         "rank": 8,
-        "team": "Mr.Art",
+        "team": "Sarumann",
         "points": 217,
         "captain": "Isak",
         "chips": [
-          "3xc",
-          "wildcard",
-          "freehit",
-          "bboost"
+          "3xc"
         ]
       }
     ]
