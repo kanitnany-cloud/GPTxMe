@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "12/9/2569 21:19:30",
+  "updated_at_th": "12/9/2569 22:44:18",
   "gameweek": 4,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
-    "rank": 2,
-    "points": 242,
-    "gw_points": 5,
+    "rank": 3,
+    "points": 252,
+    "gw_points": 15,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -15,16 +15,25 @@
     "id": 872362,
     "name": "AFC Premier",
     "leader": {
-      "team": "Bombadoo FC.",
-      "manager": "Apirak Aiman",
-      "points": 242,
-      "captain": "Isak"
+      "team": "KC888",
+      "manager": "KC B",
+      "points": 268,
+      "captain": "João Pedro"
     },
     "top": [
       {
         "rank": 1,
+        "team": "KC888",
+        "points": 268,
+        "captain": "João Pedro",
+        "chips": [
+          "3xc"
+        ]
+      },
+      {
+        "rank": 2,
         "team": "Bombadoo FC.",
-        "points": 242,
+        "points": 257,
         "captain": "Isak",
         "chips": [
           "bboost",
@@ -33,19 +42,10 @@
         ]
       },
       {
-        "rank": 2,
-        "team": "Yedtsuna",
-        "points": 242,
-        "captain": "Haaland",
-        "chips": [
-          "3xc"
-        ]
-      },
-      {
         "rank": 3,
-        "team": "KC888",
-        "points": 237,
-        "captain": "João Pedro",
+        "team": "Yedtsuna",
+        "points": 252,
+        "captain": "Haaland",
         "chips": [
           "3xc"
         ]
@@ -53,7 +53,7 @@
       {
         "rank": 4,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 230,
+        "points": 249,
         "captain": "Palmer",
         "chips": [
           "bboost",
@@ -64,7 +64,7 @@
       {
         "rank": 5,
         "team": "Runner Up FC",
-        "points": 226,
+        "points": 238,
         "captain": "Rogers",
         "chips": [
           "bboost",
@@ -74,7 +74,7 @@
       {
         "rank": 6,
         "team": "GrossProfit United",
-        "points": 207,
+        "points": 226,
         "captain": "Palmer",
         "chips": [
           "bboost",
@@ -84,7 +84,7 @@
       {
         "rank": 7,
         "team": "Sarumann",
-        "points": 203,
+        "points": 217,
         "captain": "Isak",
         "chips": [
           "3xc"
@@ -92,11 +92,14 @@
       },
       {
         "rank": 8,
-        "team": "SilverBank",
-        "points": 189,
-        "captain": "Palmer",
+        "team": "Mr.Art",
+        "points": 212,
+        "captain": "Isak",
         "chips": [
-          "3xc"
+          "3xc",
+          "wildcard",
+          "freehit",
+          "bboost"
         ]
       }
     ]
@@ -107,8 +110,8 @@
       "club": "CHE",
       "owners": 12,
       "captains": 3,
-      "gw_points": 4,
-      "total_points": 60,
+      "gw_points": 12,
+      "total_points": 180,
       "owned_by_me": true
     },
     {
@@ -134,8 +137,8 @@
       "club": "LIV",
       "owners": 10,
       "captains": 1,
-      "gw_points": 1,
-      "total_points": 10,
+      "gw_points": 3,
+      "total_points": 30,
       "owned_by_me": true
     },
     {
@@ -182,8 +185,8 @@
       "finished": false,
       "home": "AVL",
       "away": "NFO",
-      "home_score": 0,
-      "away_score": 0
+      "home_score": 1,
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-09-12T14:00:00Z",
@@ -191,8 +194,8 @@
       "finished": false,
       "home": "BOU",
       "away": "BRE",
-      "home_score": 0,
-      "away_score": 0
+      "home_score": 2,
+      "away_score": 2
     },
     {
       "kickoff_time": "2026-09-12T14:00:00Z",
@@ -200,8 +203,8 @@
       "finished": false,
       "home": "CHE",
       "away": "HUL",
-      "home_score": 1,
-      "away_score": 0
+      "home_score": 2,
+      "away_score": 2
     },
     {
       "kickoff_time": "2026-09-12T14:00:00Z",
@@ -209,8 +212,8 @@
       "finished": false,
       "home": "CRY",
       "away": "IPS",
-      "home_score": 1,
-      "away_score": 0
+      "home_score": 2,
+      "away_score": 2
     },
     {
       "kickoff_time": "2026-09-12T14:00:00Z",
