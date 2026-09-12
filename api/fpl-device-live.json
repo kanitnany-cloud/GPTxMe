@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "12/9/2569 22:44:18",
+  "updated_at_th": "13/9/2569 00:24:07",
   "gameweek": 4,
   "team": {
     "name": "Yedtsuna",
@@ -17,14 +17,14 @@
     "leader": {
       "team": "KC888",
       "manager": "KC B",
-      "points": 268,
+      "points": 272,
       "captain": "João Pedro"
     },
     "top": [
       {
         "rank": 1,
         "team": "KC888",
-        "points": 268,
+        "points": 272,
         "captain": "João Pedro",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "Bombadoo FC.",
-        "points": 257,
+        "points": 260,
         "captain": "Isak",
         "chips": [
           "bboost",
@@ -74,7 +74,7 @@
       {
         "rank": 6,
         "team": "GrossProfit United",
-        "points": 226,
+        "points": 232,
         "captain": "Palmer",
         "chips": [
           "bboost",
@@ -93,7 +93,7 @@
       {
         "rank": 8,
         "team": "Mr.Art",
-        "points": 212,
+        "points": 217,
         "captain": "Isak",
         "chips": [
           "3xc",
@@ -186,7 +186,7 @@
       "home": "AVL",
       "away": "NFO",
       "home_score": 1,
-      "away_score": 1
+      "away_score": 2
     },
     {
       "kickoff_time": "2026-09-12T14:00:00Z",
@@ -213,7 +213,7 @@
       "home": "CRY",
       "away": "IPS",
       "home_score": 2,
-      "away_score": 2
+      "away_score": 3
     },
     {
       "kickoff_time": "2026-09-12T14:00:00Z",
@@ -226,12 +226,12 @@
     },
     {
       "kickoff_time": "2026-09-12T16:30:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "TOT",
       "away": "EVE",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-09-12T19:00:00Z",
