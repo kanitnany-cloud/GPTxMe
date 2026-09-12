@@ -18,8 +18,8 @@ Dubravka,TOT,4,0,0,0,0,true
 Elanga,NEW,4,0,0,0,0,false
 van Ewijk,COV,4,0,0,0,0,false
 Rogers,CHE,3,1,0,8,32,false
-Gabriel,ARS,3,0,0,8,24,false
-Rice,ARS,3,0,0,7,21,false
+Gabriel,ARS,3,0,0,9,27,false
+Rice,ARS,3,0,0,6,18,false
 N.Williams,NFO,3,0,0,2,6,false
 Ajayi,HUL,3,0,0,1,1,false
 Brobbey,SUN,3,0,0,1,1,false
@@ -28,12 +28,12 @@ Gvardiol,MCI,3,0,0,0,0,false
 Hall,NEW,3,0,0,0,0,false
 Mbeumo,MUN,3,0,0,0,0,false
 Davis,IPS,2,0,0,14,28,false
+Saka,ARS,2,0,0,8,16,false
 Virgil,LIV,2,0,0,8,16,false
 Konsa,ARS,2,0,0,6,12,false
 Scott,BOU,2,0,0,4,8,false
 Kinsky,TOT,2,0,0,7,7,false
 Ødegaard,ARS,2,0,0,3,6,false
-Saka,ARS,2,0,0,3,6,false
 Tzolis,ARS,2,0,0,3,6,false
 Tzolakis,HUL,2,0,0,2,4,false
 Muñoz,NFO,2,0,0,2,2,false
@@ -60,10 +60,10 @@ Barcola,LIV,1,0,0,3,3,false
 Kelleher,BRE,1,0,0,3,3,false
 Wirtz,LIV,1,0,0,3,3,false
 Egan,HUL,1,0,0,2,2,false
-Havertz,ARS,1,0,0,2,2,false
 Ajer,BRE,1,0,0,1,1,false
 Coyle,HUL,1,0,0,1,1,false
 Gakpo,LIV,1,0,0,1,1,false
+Havertz,ARS,1,0,0,1,1,false
 Munoz,LIV,1,0,0,1,1,false
 Barnes,NEW,1,0,0,0,0,false
 Belloumi,HUL,1,0,0,13,0,false
@@ -82,7 +82,7 @@ Martinez,CHE,1,0,0,2,0,false
 Muharemović,LEE,1,0,0,0,0,false
 Onyeka,COV,1,0,0,0,0,false
 Rayan,BOU,1,0,0,2,0,false
-Roefs,SUN,1,0,0,3,0,false
+Roefs,SUN,1,0,0,2,0,false
 Sessegnon,FUL,1,0,0,0,0,false
 Slater,HUL,1,0,0,2,0,false
 Thomas,COV,1,0,0,0,0,false
