@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "14/9/2569 01:04:36",
+  "updated_at_th": "14/9/2569 04:01:51",
   "gameweek": 4,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 2,
-    "points": 313,
-    "gw_points": 76,
+    "points": 315,
+    "gw_points": 78,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "KC888",
       "manager": "KC B",
-      "points": 316,
+      "points": 317,
       "captain": "João Pedro"
     },
     "top": [
       {
         "rank": 1,
         "team": "KC888",
-        "points": 316,
+        "points": 317,
         "captain": "João Pedro",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "Yedtsuna",
-        "points": 313,
+        "points": 315,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -42,7 +42,7 @@
       {
         "rank": 3,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 307,
+        "points": 308,
         "captain": "Palmer",
         "chips": [
           "bboost",
@@ -64,7 +64,7 @@
       {
         "rank": 5,
         "team": "Runner Up FC",
-        "points": 286,
+        "points": 287,
         "captain": "Rogers",
         "chips": [
           "bboost",
@@ -74,7 +74,7 @@
       {
         "rank": 6,
         "team": "GrossProfit United",
-        "points": 283,
+        "points": 284,
         "captain": "Palmer",
         "chips": [
           "bboost",
@@ -84,7 +84,7 @@
       {
         "rank": 7,
         "team": "SilverBank",
-        "points": 265,
+        "points": 266,
         "captain": "Palmer",
         "chips": [
           "3xc"
@@ -93,7 +93,7 @@
       {
         "rank": 8,
         "team": "JedYubZ_WCC",
-        "points": 249,
+        "points": 250,
         "captain": "João Pedro",
         "chips": []
       }
@@ -114,8 +114,8 @@
       "club": "MCI",
       "owners": 12,
       "captains": 2,
-      "gw_points": 8,
-      "total_points": 112,
+      "gw_points": 9,
+      "total_points": 126,
       "owned_by_me": true
     },
     {
