@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "13/9/2569 18:11:27",
+  "updated_at_th": "13/9/2569 21:53:19",
   "gameweek": 4,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
-    "rank": 5,
-    "points": 258,
-    "gw_points": 21,
+    "rank": 3,
+    "points": 290,
+    "gw_points": 53,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "KC888",
       "manager": "KC B",
-      "points": 295,
+      "points": 306,
       "captain": "João Pedro"
     },
     "top": [
       {
         "rank": 1,
         "team": "KC888",
-        "points": 295,
+        "points": 306,
         "captain": "João Pedro",
         "chips": [
           "3xc"
@@ -32,6 +32,26 @@
       },
       {
         "rank": 2,
+        "team": "ช่วยใจดีกับลุงหน่อย",
+        "points": 295,
+        "captain": "Palmer",
+        "chips": [
+          "bboost",
+          "3xc",
+          "wildcard"
+        ]
+      },
+      {
+        "rank": 3,
+        "team": "Yedtsuna",
+        "points": 290,
+        "captain": "Haaland",
+        "chips": [
+          "3xc"
+        ]
+      },
+      {
+        "rank": 4,
         "team": "Bombadoo FC.",
         "points": 280,
         "captain": "Isak",
@@ -42,39 +62,19 @@
         ]
       },
       {
-        "rank": 3,
-        "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 263,
-        "captain": "Palmer",
-        "chips": [
-          "bboost",
-          "3xc",
-          "wildcard"
-        ]
-      },
-      {
-        "rank": 4,
-        "team": "GrossProfit United",
-        "points": 258,
-        "captain": "Palmer",
-        "chips": [
-          "bboost",
-          "wildcard"
-        ]
-      },
-      {
         "rank": 5,
-        "team": "Yedtsuna",
-        "points": 258,
-        "captain": "Haaland",
+        "team": "GrossProfit United",
+        "points": 272,
+        "captain": "Palmer",
         "chips": [
-          "3xc"
+          "bboost",
+          "wildcard"
         ]
       },
       {
         "rank": 6,
         "team": "Runner Up FC",
-        "points": 244,
+        "points": 271,
         "captain": "Rogers",
         "chips": [
           "bboost",
@@ -83,9 +83,9 @@
       },
       {
         "rank": 7,
-        "team": "Sarumann",
-        "points": 237,
-        "captain": "Isak",
+        "team": "SilverBank",
+        "points": 254,
+        "captain": "Palmer",
         "chips": [
           "3xc"
         ]
@@ -93,7 +93,7 @@
       {
         "rank": 8,
         "team": "Mr.Art",
-        "points": 232,
+        "points": 243,
         "captain": "Isak",
         "chips": [
           "3xc",
@@ -155,8 +155,8 @@
       "club": "BHA",
       "owners": 8,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 7,
+      "total_points": 35,
       "owned_by_me": true
     },
     {
@@ -173,8 +173,8 @@
       "club": "BHA",
       "owners": 7,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 11,
+      "total_points": 77,
       "owned_by_me": true
     }
   ],
@@ -244,12 +244,12 @@
     },
     {
       "kickoff_time": "2026-09-13T13:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "COV",
       "away": "BHA",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 4
     },
     {
       "kickoff_time": "2026-09-13T15:30:00Z",
