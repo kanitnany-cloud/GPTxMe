@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "13/9/2569 21:53:19",
+  "updated_at_th": "13/9/2569 21:58:54",
   "gameweek": 4,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 3,
-    "points": 290,
-    "gw_points": 53,
+    "points": 294,
+    "gw_points": 57,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 295,
+        "points": 299,
         "captain": "Palmer",
         "chips": [
           "bboost",
@@ -44,7 +44,7 @@
       {
         "rank": 3,
         "team": "Yedtsuna",
-        "points": 290,
+        "points": 294,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -64,7 +64,7 @@
       {
         "rank": 5,
         "team": "GrossProfit United",
-        "points": 272,
+        "points": 275,
         "captain": "Palmer",
         "chips": [
           "bboost",
@@ -74,7 +74,7 @@
       {
         "rank": 6,
         "team": "Runner Up FC",
-        "points": 271,
+        "points": 275,
         "captain": "Rogers",
         "chips": [
           "bboost",
@@ -84,7 +84,7 @@
       {
         "rank": 7,
         "team": "SilverBank",
-        "points": 254,
+        "points": 257,
         "captain": "Palmer",
         "chips": [
           "3xc"
@@ -155,8 +155,8 @@
       "club": "BHA",
       "owners": 8,
       "captains": 0,
-      "gw_points": 7,
-      "total_points": 35,
+      "gw_points": 8,
+      "total_points": 40,
       "owned_by_me": true
     },
     {
@@ -249,7 +249,7 @@
       "home": "COV",
       "away": "BHA",
       "home_score": 0,
-      "away_score": 4
+      "away_score": 5
     },
     {
       "kickoff_time": "2026-09-13T15:30:00Z",
