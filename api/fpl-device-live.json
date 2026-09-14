@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "15/9/2569 02:48:53",
+  "updated_at_th": "15/9/2569 05:38:47",
   "gameweek": 4,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
-    "rank": 2,
-    "points": 317,
-    "gw_points": 80,
+    "rank": 1,
+    "points": 332,
+    "gw_points": 95,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -15,26 +15,26 @@
     "id": 872362,
     "name": "AFC Premier",
     "leader": {
-      "team": "KC888",
-      "manager": "KC B",
-      "points": 318,
-      "captain": "João Pedro"
+      "team": "Yedtsuna",
+      "manager": "Kanitnan Yamjongkol",
+      "points": 332,
+      "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
-        "team": "KC888",
-        "points": 318,
-        "captain": "João Pedro",
+        "team": "Yedtsuna",
+        "points": 332,
+        "captain": "Haaland",
         "chips": [
           "3xc"
         ]
       },
       {
         "rank": 2,
-        "team": "Yedtsuna",
-        "points": 317,
-        "captain": "Haaland",
+        "team": "KC888",
+        "points": 318,
+        "captain": "João Pedro",
         "chips": [
           "3xc"
         ]
@@ -74,7 +74,7 @@
       {
         "rank": 6,
         "team": "GrossProfit United",
-        "points": 285,
+        "points": 286,
         "captain": "Palmer",
         "chips": [
           "bboost",
@@ -93,7 +93,7 @@
       {
         "rank": 8,
         "team": "JedYubZ_WCC",
-        "points": 257,
+        "points": 260,
         "captain": "João Pedro",
         "chips": []
       }
@@ -261,8 +261,8 @@
       "finished": false,
       "home": "LEE",
       "away": "NEW",
-      "home_score": 2,
-      "away_score": 0
+      "home_score": 4,
+      "away_score": 1
     }
   ],
   "strategy": {
