@@ -70,7 +70,7 @@
     "most_captained": 411,
     "most_vice_captained": 165
   },
-  "generatedAt": "14/9/2569 20:40:55",
+  "generatedAt": "15/9/2569 02:03:15",
   "teams": [
     {
       "entry": 7463306,
@@ -2425,7 +2425,7 @@
       ],
       "overlap15": 7,
       "overlapXI": 6,
-      "transferLikelihood": "กลาง",
+      "transferLikelihood": "สูง",
       "picks": [
         {
           "element": 1,
@@ -4673,7 +4673,7 @@
       ],
       "overlap15": 2,
       "overlapXI": 1,
-      "transferLikelihood": "กลาง",
+      "transferLikelihood": "สูง",
       "picks": [
         {
           "element": 1,
@@ -6366,7 +6366,7 @@
     },
     {
       "kickoff_time": "2026-09-14T19:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "LEE",
       "away": "NEW",

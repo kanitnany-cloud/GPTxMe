@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "14/9/2569 21:57:35",
+  "updated_at_th": "15/9/2569 02:03:15",
   "gameweek": 4,
   "team": {
     "name": "Yedtsuna",
@@ -257,7 +257,7 @@
     },
     {
       "kickoff_time": "2026-09-14T19:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "LEE",
       "away": "NEW",
