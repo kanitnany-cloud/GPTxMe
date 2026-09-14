@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "15/9/2569 02:03:15",
+  "updated_at_th": "15/9/2569 02:48:53",
   "gameweek": 4,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 2,
-    "points": 315,
-    "gw_points": 78,
+    "points": 317,
+    "gw_points": 80,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "KC888",
       "manager": "KC B",
-      "points": 317,
+      "points": 318,
       "captain": "João Pedro"
     },
     "top": [
       {
         "rank": 1,
         "team": "KC888",
-        "points": 317,
+        "points": 318,
         "captain": "João Pedro",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "Yedtsuna",
-        "points": 315,
+        "points": 317,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -74,7 +74,7 @@
       {
         "rank": 6,
         "team": "GrossProfit United",
-        "points": 284,
+        "points": 285,
         "captain": "Palmer",
         "chips": [
           "bboost",
@@ -93,7 +93,7 @@
       {
         "rank": 8,
         "team": "JedYubZ_WCC",
-        "points": 250,
+        "points": 257,
         "captain": "João Pedro",
         "chips": []
       }
@@ -261,8 +261,8 @@
       "finished": false,
       "home": "LEE",
       "away": "NEW",
-      "home_score": null,
-      "away_score": null
+      "home_score": 2,
+      "away_score": 0
     }
   ],
   "strategy": {
