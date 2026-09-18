@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "18/9/2569 23:40:09",
-  "gameweek": 4,
+  "updated_at_th": "19/9/2569 01:55:05",
+  "gameweek": 5,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
     "points": 332,
-    "gw_points": 95,
+    "gw_points": 0,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -34,16 +34,17 @@
         "rank": 2,
         "team": "KC888",
         "points": 318,
-        "captain": "João Pedro",
+        "captain": "B.Fernandes",
         "chips": [
-          "3xc"
+          "3xc",
+          "wildcard"
         ]
       },
       {
         "rank": 3,
         "team": "ช่วยใจดีกับลุงหน่อย",
         "points": 308,
-        "captain": "Palmer",
+        "captain": "Haaland",
         "chips": [
           "bboost",
           "3xc",
@@ -54,7 +55,7 @@
         "rank": 4,
         "team": "Bombadoo FC.",
         "points": 293,
-        "captain": "Isak",
+        "captain": "Ødegaard",
         "chips": [
           "bboost",
           "freehit",
@@ -65,7 +66,7 @@
         "rank": 5,
         "team": "tamako-",
         "points": 290,
-        "captain": "João Pedro",
+        "captain": "B.Fernandes",
         "chips": [
           "bboost",
           "freehit"
@@ -75,17 +76,18 @@
         "rank": 6,
         "team": "Runner Up FC",
         "points": 287,
-        "captain": "Rogers",
+        "captain": "Gibbs-White",
         "chips": [
           "bboost",
-          "3xc"
+          "3xc",
+          "freehit"
         ]
       },
       {
         "rank": 7,
         "team": "GrossProfit United",
         "points": 286,
-        "captain": "Palmer",
+        "captain": "Gibbs-White",
         "chips": [
           "bboost",
           "wildcard"
@@ -95,7 +97,7 @@
         "rank": 8,
         "team": "SilverBank",
         "points": 268,
-        "captain": "Palmer",
+        "captain": "Haaland",
         "chips": [
           "3xc"
         ]
@@ -104,168 +106,168 @@
   },
   "template_players": [
     {
-      "name": "João Pedro",
-      "club": "CHE",
-      "owners": 13,
-      "captains": 4,
-      "gw_points": 12,
-      "total_points": 204,
-      "owned_by_me": true
-    },
-    {
       "name": "Haaland",
       "club": "MCI",
-      "owners": 12,
-      "captains": 2,
-      "gw_points": 9,
-      "total_points": 126,
+      "owners": 14,
+      "captains": 10,
+      "gw_points": 0,
+      "total_points": 0,
       "owned_by_me": true
     },
     {
       "name": "Calafiori",
       "club": "ARS",
-      "owners": 12,
-      "captains": 0,
-      "gw_points": 6,
-      "total_points": 60,
-      "owned_by_me": true
-    },
-    {
-      "name": "Szoboszlai",
-      "club": "LIV",
       "owners": 11,
-      "captains": 1,
-      "gw_points": 3,
-      "total_points": 33,
+      "captains": 0,
+      "gw_points": 0,
+      "total_points": 0,
       "owned_by_me": true
     },
     {
-      "name": "B.Fernandes",
-      "club": "MUN",
-      "owners": 9,
-      "captains": 1,
-      "gw_points": 2,
-      "total_points": 20,
+      "name": "João Pedro",
+      "club": "CHE",
+      "owners": 11,
+      "captains": 0,
+      "gw_points": 0,
+      "total_points": 0,
       "owned_by_me": true
     },
     {
-      "name": "Verbruggen",
+      "name": "Rogers",
+      "club": "CHE",
+      "owners": 10,
+      "captains": 0,
+      "gw_points": 0,
+      "total_points": 0,
+      "owned_by_me": true
+    },
+    {
+      "name": "De Cuyper",
       "club": "BHA",
       "owners": 8,
       "captains": 0,
-      "gw_points": 8,
-      "total_points": 40,
+      "gw_points": 0,
+      "total_points": 0,
       "owned_by_me": true
-    },
-    {
-      "name": "Isak",
-      "club": "LIV",
-      "owners": 7,
-      "captains": 3,
-      "gw_points": 2,
-      "total_points": 22,
-      "owned_by_me": false
     },
     {
       "name": "Raya",
       "club": "ARS",
+      "owners": 8,
+      "captains": 0,
+      "gw_points": 0,
+      "total_points": 0,
+      "owned_by_me": false
+    },
+    {
+      "name": "B.Fernandes",
+      "club": "MUN",
+      "owners": 7,
+      "captains": 3,
+      "gw_points": 0,
+      "total_points": 0,
+      "owned_by_me": true
+    },
+    {
+      "name": "Gvardiol",
+      "club": "MCI",
       "owners": 7,
       "captains": 0,
-      "gw_points": 14,
-      "total_points": 84,
-      "owned_by_me": false
+      "gw_points": 0,
+      "total_points": 0,
+      "owned_by_me": true
     }
   ],
   "fixtures": [
     {
-      "kickoff_time": "2026-09-12T14:00:00Z",
-      "started": true,
-      "finished": true,
-      "home": "AVL",
-      "away": "NFO",
-      "home_score": 1,
-      "away_score": 2
+      "kickoff_time": "2026-09-18T19:00:00Z",
+      "started": false,
+      "finished": false,
+      "home": "BRE",
+      "away": "CHE",
+      "home_score": null,
+      "away_score": null
     },
     {
-      "kickoff_time": "2026-09-12T14:00:00Z",
-      "started": true,
-      "finished": true,
-      "home": "BOU",
-      "away": "BRE",
-      "home_score": 2,
-      "away_score": 2
-    },
-    {
-      "kickoff_time": "2026-09-12T14:00:00Z",
-      "started": true,
-      "finished": true,
-      "home": "CHE",
-      "away": "HUL",
-      "home_score": 2,
-      "away_score": 2
-    },
-    {
-      "kickoff_time": "2026-09-12T14:00:00Z",
-      "started": true,
-      "finished": true,
-      "home": "CRY",
-      "away": "IPS",
-      "home_score": 2,
-      "away_score": 3
-    },
-    {
-      "kickoff_time": "2026-09-12T14:00:00Z",
-      "started": true,
-      "finished": true,
-      "home": "LIV",
-      "away": "FUL",
-      "home_score": 0,
-      "away_score": 0
-    },
-    {
-      "kickoff_time": "2026-09-12T16:30:00Z",
-      "started": true,
-      "finished": true,
+      "kickoff_time": "2026-09-19T11:30:00Z",
+      "started": false,
+      "finished": false,
       "home": "TOT",
-      "away": "EVE",
-      "home_score": 0,
-      "away_score": 0
+      "away": "AVL",
+      "home_score": null,
+      "away_score": null
     },
     {
-      "kickoff_time": "2026-09-12T19:00:00Z",
-      "started": true,
-      "finished": true,
-      "home": "SUN",
+      "kickoff_time": "2026-09-19T14:00:00Z",
+      "started": false,
+      "finished": false,
+      "home": "BHA",
       "away": "ARS",
-      "home_score": 0,
-      "away_score": 2
+      "home_score": null,
+      "away_score": null
     },
     {
-      "kickoff_time": "2026-09-13T13:00:00Z",
-      "started": true,
-      "finished": true,
-      "home": "COV",
-      "away": "BHA",
-      "home_score": 0,
-      "away_score": 5
+      "kickoff_time": "2026-09-19T14:00:00Z",
+      "started": false,
+      "finished": false,
+      "home": "EVE",
+      "away": "IPS",
+      "home_score": null,
+      "away_score": null
     },
     {
-      "kickoff_time": "2026-09-13T15:30:00Z",
-      "started": true,
-      "finished": true,
-      "home": "MUN",
-      "away": "MCI",
-      "home_score": 0,
-      "away_score": 1
+      "kickoff_time": "2026-09-19T14:00:00Z",
+      "started": false,
+      "finished": false,
+      "home": "NEW",
+      "away": "HUL",
+      "home_score": null,
+      "away_score": null
     },
     {
-      "kickoff_time": "2026-09-14T19:00:00Z",
-      "started": true,
-      "finished": true,
+      "kickoff_time": "2026-09-19T16:30:00Z",
+      "started": false,
+      "finished": false,
+      "home": "NFO",
+      "away": "COV",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "kickoff_time": "2026-09-20T13:00:00Z",
+      "started": false,
+      "finished": false,
+      "home": "BOU",
+      "away": "LIV",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "kickoff_time": "2026-09-20T13:00:00Z",
+      "started": false,
+      "finished": false,
       "home": "LEE",
-      "away": "NEW",
-      "home_score": 4,
-      "away_score": 1
+      "away": "CRY",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "kickoff_time": "2026-09-20T13:00:00Z",
+      "started": false,
+      "finished": false,
+      "home": "MCI",
+      "away": "SUN",
+      "home_score": null,
+      "away_score": null
+    },
+    {
+      "kickoff_time": "2026-09-20T15:30:00Z",
+      "started": false,
+      "finished": false,
+      "home": "FUL",
+      "away": "MUN",
+      "home_score": null,
+      "away_score": null
     }
   ],
   "strategy": {
