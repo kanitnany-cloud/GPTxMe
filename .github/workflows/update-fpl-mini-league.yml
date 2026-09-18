@@ -21,7 +21,9 @@ jobs:
           node-version: '22'
 
       - name: Refresh FPL data
-        run: node scripts/update-fpl-mini-league.mjs
+        run: |
+          node scripts/update-fpl-mini-league.mjs
+          node scripts/build-fpl-gw5-preview.mjs
 
       - name: Commit updated data
         run: |
