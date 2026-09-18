@@ -383,6 +383,25 @@
   </section>
 
   <section class="panel">
+    <h2>Chip Roadmap + Rival Forecast</h2>
+    <p><span class="tag good">Confirmed</span> สถานะ chip มาจาก FPL API · <span class="tag warn">Plan</span> เป็นกรอบตัดสินใจ ต้องเช็ค fixture, minutes และข่าวก่อน deadline ทุกครั้ง</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Chip</th><th>หน้าต่างที่แนะนำ</th><th>เงื่อนไขก่อนใช้</th><th>เหตุผล / แผนสำรอง</th><th>สถานะเรา</th></tr></thead>
+        <tbody id="chipRoadmapRows"><tr><td colspan="5">กำลังสร้างแผน chip...</td></tr></tbody>
+      </table>
+    </div>
+    <h3>Mini-League Chip Forecast</h3>
+    <p>เป็นความน่าจะเป็นจาก chip ที่ใช้แล้ว, อันดับ, ช่องว่างคะแนน และพฤติกรรม transfer เดิม; FPL จะเปิดเผยการใช้จริงหลัง deadline เท่านั้น</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Team</th><th>Chip ที่เหลือครึ่งฤดูกาลแรก</th><th>แนวโน้ม chip ถัดไป</th><th>ช่วงที่น่าจับตา</th><th>Confidence</th><th>เกมที่เราควรเล่น</th></tr></thead>
+        <tbody id="chipRivalForecastRows"><tr><td colspan="6">กำลังวิเคราะห์คู่แข่ง...</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel">
     <h2>Predicted Transfer Player</h2>
     <p>ประเมินจากช่องว่าง template, ownership ในมินิลีก, คะแนนล่าสุด, captain/chip behavior และ overlap กับทีมเรา ไม่ใช่ transfer ที่ยืนยันแล้ว.</p>
     <div class="table-wrap">
@@ -438,6 +457,8 @@
     const fixtureRowsEl = document.getElementById('fixtureRows');
     const setPieceRowsEl = document.getElementById('setPieceRows');
     const chipTrackerEl = document.getElementById('chipTrackerRows');
+    const chipRoadmapEl = document.getElementById('chipRoadmapRows');
+    const chipRivalForecastEl = document.getElementById('chipRivalForecastRows');
     const actionAuditEl = document.getElementById('actionAuditRows');
     const snapshotBase = location.pathname.includes('/mini-league/') ? './' : './mini-league/';
     const currentSnapshotGw = 5;
@@ -483,6 +504,57 @@
       if (chipName === 'wildcard') return 'ทีมมีโครงสร้างใหม่ ให้จับ transfer trend และ template shift สัปดาห์ถัดไป';
       if (chipName === 'freehit') return 'คะแนน GW นั้นไม่สะท้อนทีมถาวร ระวังตีความผิด';
       return 'บันทึกเป็น chip context สำหรับวางกลยุทธ์รายสัปดาห์';
+    }
+
+    const firstHalfChips = ['wildcard', 'freehit', 'bboost', '3xc'];
+    const chipDisplayNames = {
+      wildcard: 'Wildcard', freehit: 'Free Hit', bboost: 'Bench Boost', '3xc': 'Triple Captain'
+    };
+
+    function remainingChips(team) {
+      const used = new Set((team.chips || []).map((chip) => chip.name));
+      return firstHalfChips.filter((chip) => !used.has(chip));
+    }
+
+    function renderChipRoadmap(report) {
+      if (!chipRoadmapEl || !chipRivalForecastEl) return;
+      const mine = (report.teams || []).find((team) => team.entry === myEntryId);
+      const myRemaining = remainingChips(mine || {}).map((chip) => chipDisplayNames[chip]).join(', ') || 'ไม่มี';
+      const roadmap = [
+        ['Triple Captain 1', 'GW3', 'ใช้แล้ว', 'Haaland ใช้ไปแล้ว; ไม่ต้องไล่ตาม TC ของคู่แข่งในช่วงนี้', 'ใช้แล้ว'],
+        ['Wildcard 1', 'เป้าหมาย GW16 · เร็วสุด GW6-7 เมื่อจำเป็น', 'มีปัญหาโครงสร้าง 4+ จุด, fixture swing ชัด หรือ minutes พังหลายตำแหน่ง', 'สร้างทีม 15 คนให้พร้อม Bench Boost GW17; ห้ามใช้เพียงเพราะแต้ม GW เดียว', myRemaining.includes('Wildcard') ? 'เหลือ' : 'ใช้แล้ว'],
+        ['Bench Boost 1', 'เป้าหมาย GW17 · ทางเลือก GW7', 'ตัวสำรอง 4 คนมีโอกาสออกตัวจริงสูง และ bench xP รวมอย่างน้อย 13', 'จับคู่หลัง Wildcard; ถ้า bench ไม่แข็งพอ ไม่ฝืน และเก็บแผนไปใช้ก่อน GW19', myRemaining.includes('Bench Boost') ? 'เหลือ' : 'ใช้แล้ว'],
+        ['Free Hit 1', 'GW12-18 · สำรอง GW19', 'มี Blank/fixture distortion จนตัวจริงปกติเล่นได้ 7 คนหรือน้อยกว่า', 'ใช้แก้ GW เดียว ไม่ทำลายทีมระยะยาว; ต้องใช้ก่อน deadline GW19', myRemaining.includes('Free Hit') ? 'เหลือ' : 'ใช้แล้ว'],
+        ['ชุดชิปครึ่งหลัง', 'GW20 เป็นต้นไป', 'รอ Blank/Double Gameweek ที่ยืนยันอย่างเป็นทางการ', 'TC2/BB2 เน้น Double Gameweek, FH2 เน้น Blank Gameweek, WC2 สำหรับยกเครื่องจริง', 'รอปลดล็อก GW20']
+      ];
+      chipRoadmapEl.innerHTML = roadmap.map((row) => `<tr>${row.map((cell, index) => `<td>${index === 4 && cell === 'เหลือ' ? '<span class="tag good">เหลือ</span>' : index === 4 && cell === 'ใช้แล้ว' ? '<span class="tag">ใช้แล้ว</span>' : safeText(cell)}</td>`).join('')}</tr>`).join('');
+
+      chipRivalForecastEl.innerHTML = (report.teams || []).map((team) => {
+        const remaining = remainingChips(team);
+        const usedText = remaining.length ? remaining.map((chip) => chipDisplayNames[chip]).join(', ') : 'ไม่มี';
+        const gap = Number(team.total || 0) - Number(mine?.total || 0);
+        let next = 'ไม่ใช้ chip 80%+';
+        let window = 'GW5-8';
+        let confidence = '70';
+        let play = 'ไม่ต้อง block chip; เล่นตาม xP และ captain template';
+        if (!remaining.length) {
+          next = 'ไม่มี chip เหลือ'; window = 'ทั้งครึ่งแรก'; confidence = '100'; play = 'เราได้ chip advantage; อย่ากลัวการไล่แต้มระยะสั้น';
+        } else if (remaining.length === 1) {
+          next = `${chipDisplayNames[remaining[0]]} · รอจังหวะเหมาะ`; window = 'GW12-19'; confidence = '82'; play = 'ไม่ต้องเดา GW เดียว; เตรียมรับ swing เมื่อ fixture พิเศษยืนยัน';
+        } else if (remaining.includes('wildcard') && gap <= -30) {
+          next = 'Wildcard 15-30% หากต้องแก้ทีม 4+ จุด'; window = 'GW6-8'; confidence = '58'; play = 'จับตา template ใหม่หลัง WC; ไม่ copy ก่อนเห็น minutes';
+        } else if (remaining.includes('freehit') && !remaining.includes('wildcard')) {
+          next = 'Free Hit เก็บรอ Blank'; window = 'GW12-19'; confidence = '72'; play = 'เราเก็บ FH เช่นกัน; เลือกใช้เฉพาะ GW ที่เสียหายจริง';
+        }
+        return `<tr>
+          <td>${team.entry === myEntryId ? '<span class="tag good">ME</span> ' : ''}<b>${safeText(team.entry_name)}</b></td>
+          <td>${safeText(usedText)}</td>
+          <td><span class="tag warn">Predicted</span> ${safeText(next)}</td>
+          <td>${safeText(window)}</td>
+          <td class="num">${confidence}%</td>
+          <td>${safeText(play)}</td>
+        </tr>`;
+      }).join('');
     }
 
     function buildPlayerRows(report) {
@@ -1018,6 +1090,7 @@
       renderTeamSummaryFromReport(report);
       renderTemplateFromReport(report);
       renderChipTrackerFromReport(report);
+      renderChipRoadmap(report);
       await renderWeeklyComparison(report);
       await renderRivalHistory(report);
       renderActionAuditFromReport(report);
