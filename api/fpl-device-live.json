@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "19/9/2569 02:30:11",
+  "updated_at_th": "19/9/2569 04:26:27",
   "gameweek": 5,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
-    "points": 333,
-    "gw_points": 1,
+    "points": 334,
+    "gw_points": 2,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Yedtsuna",
       "manager": "Kanitnan Yamjongkol",
-      "points": 333,
+      "points": 334,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Yedtsuna",
-        "points": 333,
+        "points": 334,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "KC888",
-        "points": 320,
+        "points": 323,
         "captain": "B.Fernandes",
         "chips": [
           "3xc",
@@ -43,7 +43,7 @@
       {
         "rank": 3,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 309,
+        "points": 310,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -54,7 +54,7 @@
       {
         "rank": 4,
         "team": "Bombadoo FC.",
-        "points": 294,
+        "points": 295,
         "captain": "Ødegaard",
         "chips": [
           "bboost",
@@ -65,7 +65,7 @@
       {
         "rank": 5,
         "team": "tamako-",
-        "points": 291,
+        "points": 292,
         "captain": "B.Fernandes",
         "chips": [
           "bboost",
@@ -75,7 +75,7 @@
       {
         "rank": 6,
         "team": "Runner Up FC",
-        "points": 288,
+        "points": 289,
         "captain": "Gibbs-White",
         "chips": [
           "bboost",
@@ -86,7 +86,7 @@
       {
         "rank": 7,
         "team": "GrossProfit United",
-        "points": 287,
+        "points": 288,
         "captain": "Gibbs-White",
         "chips": [
           "bboost",
@@ -96,7 +96,7 @@
       {
         "rank": 8,
         "team": "SilverBank",
-        "points": 269,
+        "points": 270,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -137,8 +137,8 @@
       "club": "CHE",
       "owners": 10,
       "captains": 0,
-      "gw_points": 1,
-      "total_points": 10,
+      "gw_points": 2,
+      "total_points": 20,
       "owned_by_me": true
     },
     {
@@ -185,7 +185,7 @@
       "finished": false,
       "home": "BRE",
       "away": "CHE",
-      "home_score": 0,
+      "home_score": 3,
       "away_score": 0
     },
     {
