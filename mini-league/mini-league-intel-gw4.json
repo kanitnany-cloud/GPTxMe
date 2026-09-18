@@ -70,7 +70,7 @@
     "most_captained": 411,
     "most_vice_captained": 165
   },
-  "generatedAt": "18/9/2569 08:23:04",
+  "generatedAt": "18/9/2569 13:21:08",
   "teams": [
     {
       "entry": 3944270,
@@ -1380,10 +1380,366 @@
       ]
     },
     {
+      "entry": 118119,
+      "entry_name": "tamako-",
+      "player_name": "tamako- .",
+      "rank": 5,
+      "event_total": 77,
+      "total": 290,
+      "team_value": 99.8,
+      "bank": 1.2,
+      "captain": "João Pedro",
+      "captain_multiplier": 2,
+      "chips": [
+        {
+          "name": "bboost",
+          "time": "2026-08-20T13:46:38.725613Z",
+          "event": 1
+        },
+        {
+          "name": "freehit",
+          "time": "2026-08-31T05:13:30.056624Z",
+          "event": 3
+        }
+      ],
+      "transfer_audit": {
+        "count": 2,
+        "cost": 0,
+        "moves": [
+          {
+            "out": "E.Le Fée",
+            "in": "King"
+          },
+          {
+            "out": "Mbeumo",
+            "in": "Rogers"
+          }
+        ]
+      },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 60,
+          "total_points": 60,
+          "rank": 1785496,
+          "overall_rank": 1785494,
+          "bank": 0.5,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 0
+        },
+        {
+          "event": 2,
+          "points": 99,
+          "total_points": 159,
+          "rank": 1737185,
+          "overall_rank": 1133449,
+          "bank": 0.5,
+          "team_value": 100.1,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 21
+        },
+        {
+          "event": 3,
+          "points": 54,
+          "total_points": 213,
+          "rank": 4127256,
+          "overall_rank": 1065607,
+          "bank": 0.5,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 16
+        },
+        {
+          "event": 4,
+          "points": 77,
+          "total_points": 290,
+          "rank": 3297887,
+          "overall_rank": 1244771,
+          "bank": 1.2,
+          "team_value": 99.8,
+          "event_transfers": 2,
+          "event_transfers_cost": 0,
+          "points_on_bench": 7
+        }
+      ],
+      "chip_history": [
+        {
+          "name": "bboost",
+          "event": 1,
+          "time": "2026-08-20T13:46:38.725613Z"
+        },
+        {
+          "name": "freehit",
+          "event": 3,
+          "time": "2026-08-31T05:13:30.056624Z"
+        }
+      ],
+      "transfer_history": [
+        {
+          "event": 4,
+          "time": "2026-09-06T23:31:48.149579Z",
+          "out": "E.Le Fée",
+          "in": "King"
+        },
+        {
+          "event": 4,
+          "time": "2026-09-06T23:31:48.138238Z",
+          "out": "Mbeumo",
+          "in": "Rogers"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-03T00:53:14.612308Z",
+          "out": "Dedić",
+          "in": "Hall"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-03T00:53:14.611991Z",
+          "out": "Virgil",
+          "in": "Calafiori"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T05:25:34.707141Z",
+          "out": "Saka",
+          "in": "Gibbs-White"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T05:25:34.706917Z",
+          "out": "Muharemović",
+          "in": "Virgil"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T05:13:57.387583Z",
+          "out": "Calvert-Lewin",
+          "in": "Wissa"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T05:13:57.387216Z",
+          "out": "João Pedro",
+          "in": "Haaland"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T05:13:57.386916Z",
+          "out": "Tzolis",
+          "in": "Schade"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T05:13:57.386586Z",
+          "out": "E.Le Fée",
+          "in": "Saka"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T05:13:57.386381Z",
+          "out": "Mbeumo",
+          "in": "Foden"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T05:13:57.386157Z",
+          "out": "B.Fernandes",
+          "in": "Cherki"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T05:13:57.385897Z",
+          "out": "Hume",
+          "in": "Egan"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T05:13:57.385663Z",
+          "out": "N.Williams",
+          "in": "Muharemović"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T05:13:57.385448Z",
+          "out": "Van Hecke",
+          "in": "De Cuyper"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T05:13:57.385227Z",
+          "out": "White",
+          "in": "Dedić"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T05:13:57.384859Z",
+          "out": "Gabriel",
+          "in": "Ajer"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T05:13:57.384406Z",
+          "out": "Kinsky",
+          "in": "Tzolakis"
+        },
+        {
+          "event": 3,
+          "time": "2026-08-31T05:13:57.383799Z",
+          "out": "Lammens",
+          "in": "Kelleher"
+        }
+      ],
+      "overlap15": 3,
+      "overlapXI": 3,
+      "transferLikelihood": "สูง",
+      "picks": [
+        {
+          "element": 496,
+          "web_name": "Kinsky",
+          "club": "TOT",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 7,
+          "points": 7
+        },
+        {
+          "element": 10,
+          "web_name": "White",
+          "club": "ARS",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 1,
+          "points": 1
+        },
+        {
+          "element": 4,
+          "web_name": "Gabriel",
+          "club": "ARS",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 9,
+          "points": 9
+        },
+        {
+          "element": 112,
+          "web_name": "Van Hecke",
+          "club": "TOT",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 8,
+          "points": 8
+        },
+        {
+          "element": 426,
+          "web_name": "B.Fernandes",
+          "club": "MUN",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 2,
+          "points": 2
+        },
+        {
+          "element": 40,
+          "web_name": "Rogers",
+          "club": "CHE",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 8,
+          "points": 8
+        },
+        {
+          "element": 368,
+          "web_name": "Szoboszlai",
+          "club": "LIV",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 3,
+          "points": 3
+        },
+        {
+          "element": 557,
+          "web_name": "Tzolis",
+          "club": "ARS",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 3,
+          "points": 3
+        },
+        {
+          "element": 346,
+          "web_name": "Calvert-Lewin",
+          "club": "LEE",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 10,
+          "points": 10
+        },
+        {
+          "element": 379,
+          "web_name": "Isak",
+          "club": "LIV",
+          "multiplier": 1,
+          "flag": "VC",
+          "event_points": 2,
+          "points": 2
+        },
+        {
+          "element": 165,
+          "web_name": "João Pedro",
+          "club": "CHE",
+          "multiplier": 2,
+          "flag": "C",
+          "event_points": 12,
+          "points": 24
+        },
+        {
+          "element": 412,
+          "web_name": "Lammens",
+          "club": "MUN",
+          "multiplier": 0,
+          "flag": "B",
+          "event_points": 2,
+          "points": 0
+        },
+        {
+          "element": 268,
+          "web_name": "King",
+          "club": "FUL",
+          "multiplier": 0,
+          "flag": "B",
+          "event_points": 3,
+          "points": 0
+        },
+        {
+          "element": 469,
+          "web_name": "N.Williams",
+          "club": "NFO",
+          "multiplier": 0,
+          "flag": "B",
+          "event_points": 2,
+          "points": 0
+        },
+        {
+          "element": 534,
+          "web_name": "Hume",
+          "club": "SUN",
+          "multiplier": 0,
+          "flag": "B",
+          "event_points": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
       "entry": 5090992,
       "entry_name": "Runner Up FC",
       "player_name": "Tangii Slur",
-      "rank": 5,
+      "rank": 6,
       "event_total": 78,
       "total": 287,
       "team_value": 100,
@@ -1639,7 +1995,7 @@
       "entry": 454063,
       "entry_name": "GrossProfit United",
       "player_name": "wiroon chemkhoonthod",
-      "rank": 6,
+      "rank": 7,
       "event_total": 87,
       "total": 286,
       "team_value": 101.4,
@@ -2093,7 +2449,7 @@
       "entry": 192330,
       "entry_name": "SilverBank",
       "player_name": "Mr PHAKPHUM",
-      "rank": 7,
+      "rank": 8,
       "event_total": 87,
       "total": 268,
       "team_value": 100.6,
@@ -2339,7 +2695,7 @@
       "entry": 7915661,
       "entry_name": "JedYubZ_WCC",
       "player_name": "Chetsada Muangsri",
-      "rank": 8,
+      "rank": 9,
       "event_total": 85,
       "total": 262,
       "team_value": 100.2,
@@ -2568,7 +2924,7 @@
       "entry": 3800481,
       "entry_name": "Sarumann",
       "player_name": "Jetsadakorn Maungkum",
-      "rank": 9,
+      "rank": 10,
       "event_total": 61,
       "total": 254,
       "team_value": 100.5,
@@ -2814,7 +3170,7 @@
       "entry": 3798782,
       "entry_name": "Mr.Art",
       "player_name": "TANAWIN NUTCANAT",
-      "rank": 10,
+      "rank": 11,
       "event_total": 74,
       "total": 249,
       "team_value": 101.5,
@@ -3276,7 +3632,7 @@
       "entry": 7002589,
       "entry_name": "On",
       "player_name": "Peerawat Y",
-      "rank": 11,
+      "rank": 12,
       "event_total": 74,
       "total": 245,
       "team_value": 100.3,
@@ -3596,7 +3952,7 @@
       "entry": 2164081,
       "entry_name": "RelegationBattle",
       "player_name": "Katha Panthong",
-      "rank": 12,
+      "rank": 13,
       "event_total": 59,
       "total": 243,
       "team_value": 100.6,
@@ -3836,7 +4192,7 @@
       "entry": 3801503,
       "entry_name": "Long_Darkz",
       "player_name": "Pisanu Wongsaard",
-      "rank": 13,
+      "rank": 14,
       "event_total": 55,
       "total": 215,
       "team_value": 100.1,
@@ -4101,7 +4457,7 @@
       "entry": 5229629,
       "entry_name": "Dek Dek FC",
       "player_name": "NTY D",
-      "rank": 14,
+      "rank": 15,
       "event_total": 75,
       "total": 215,
       "team_value": 99.2,
@@ -4515,7 +4871,7 @@
       "entry": 8489895,
       "entry_name": "Goal888",
       "player_name": "Pichai Boonlay",
-      "rank": 15,
+      "rank": 16,
       "event_total": 52,
       "total": 160,
       "team_value": 99.7,
@@ -4816,7 +5172,7 @@
       "entry": 7486501,
       "entry_name": "Talens10",
       "player_name": "Talëns Ten",
-      "rank": 16,
+      "rank": 17,
       "event_total": 42,
       "total": 104,
       "team_value": 100.4,
@@ -5284,11 +5640,11 @@
       "id": 165,
       "web_name": "João Pedro",
       "team_short": "CHE",
-      "owners": 12,
-      "captains": 3,
+      "owners": 13,
+      "captains": 4,
       "tripleCaptains": 0,
       "event_points": 12,
-      "total_points": 180,
+      "total_points": 204,
       "ownedByMe": true
     },
     {
@@ -5317,22 +5673,22 @@
       "id": 368,
       "web_name": "Szoboszlai",
       "team_short": "LIV",
-      "owners": 10,
+      "owners": 11,
       "captains": 1,
       "tripleCaptains": 0,
       "event_points": 3,
-      "total_points": 30,
+      "total_points": 33,
       "ownedByMe": true
     },
     {
       "id": 426,
       "web_name": "B.Fernandes",
       "team_short": "MUN",
-      "owners": 8,
+      "owners": 9,
       "captains": 1,
       "tripleCaptains": 0,
       "event_points": 2,
-      "total_points": 18,
+      "total_points": 20,
       "ownedByMe": true
     },
     {
@@ -5345,6 +5701,17 @@
       "event_points": 8,
       "total_points": 40,
       "ownedByMe": true
+    },
+    {
+      "id": 379,
+      "web_name": "Isak",
+      "team_short": "LIV",
+      "owners": 7,
+      "captains": 3,
+      "tripleCaptains": 1,
+      "event_points": 2,
+      "total_points": 22,
+      "ownedByMe": false
     },
     {
       "id": 1,
@@ -5380,17 +5747,6 @@
       "ownedByMe": false
     },
     {
-      "id": 379,
-      "web_name": "Isak",
-      "team_short": "LIV",
-      "owners": 6,
-      "captains": 3,
-      "tripleCaptains": 1,
-      "event_points": 2,
-      "total_points": 20,
-      "ownedByMe": false
-    },
-    {
       "id": 464,
       "web_name": "Wissa",
       "team_short": "NEW",
@@ -5422,6 +5778,50 @@
       "event_points": 17,
       "total_points": 85,
       "ownedByMe": true
+    },
+    {
+      "id": 40,
+      "web_name": "Rogers",
+      "team_short": "CHE",
+      "owners": 4,
+      "captains": 1,
+      "tripleCaptains": 0,
+      "event_points": 8,
+      "total_points": 40,
+      "ownedByMe": false
+    },
+    {
+      "id": 346,
+      "web_name": "Calvert-Lewin",
+      "team_short": "LEE",
+      "owners": 4,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 10,
+      "total_points": 40,
+      "ownedByMe": false
+    },
+    {
+      "id": 4,
+      "web_name": "Gabriel",
+      "team_short": "ARS",
+      "owners": 4,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 9,
+      "total_points": 36,
+      "ownedByMe": false
+    },
+    {
+      "id": 469,
+      "web_name": "N.Williams",
+      "team_short": "NFO",
+      "owners": 4,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 2,
+      "total_points": 6,
+      "ownedByMe": false
     },
     {
       "id": 204,
@@ -5479,39 +5879,6 @@
       "ownedByMe": false
     },
     {
-      "id": 40,
-      "web_name": "Rogers",
-      "team_short": "CHE",
-      "owners": 3,
-      "captains": 1,
-      "tripleCaptains": 0,
-      "event_points": 8,
-      "total_points": 32,
-      "ownedByMe": false
-    },
-    {
-      "id": 346,
-      "web_name": "Calvert-Lewin",
-      "team_short": "LEE",
-      "owners": 3,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 10,
-      "total_points": 30,
-      "ownedByMe": false
-    },
-    {
-      "id": 4,
-      "web_name": "Gabriel",
-      "team_short": "ARS",
-      "owners": 3,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 9,
-      "total_points": 27,
-      "ownedByMe": false
-    },
-    {
       "id": 13,
       "web_name": "Rice",
       "team_short": "ARS",
@@ -5520,6 +5887,17 @@
       "tripleCaptains": 0,
       "event_points": 6,
       "total_points": 18,
+      "ownedByMe": false
+    },
+    {
+      "id": 496,
+      "web_name": "Kinsky",
+      "team_short": "TOT",
+      "owners": 3,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 7,
+      "total_points": 14,
       "ownedByMe": false
     },
     {
@@ -5534,20 +5912,20 @@
       "ownedByMe": false
     },
     {
-      "id": 427,
-      "web_name": "Mbeumo",
-      "team_short": "MUN",
+      "id": 557,
+      "web_name": "Tzolis",
+      "team_short": "ARS",
       "owners": 3,
       "captains": 0,
       "tripleCaptains": 0,
-      "event_points": 2,
-      "total_points": 6,
+      "event_points": 3,
+      "total_points": 9,
       "ownedByMe": false
     },
     {
-      "id": 469,
-      "web_name": "N.Williams",
-      "team_short": "NFO",
+      "id": 427,
+      "web_name": "Mbeumo",
+      "team_short": "MUN",
       "owners": 3,
       "captains": 0,
       "tripleCaptains": 0,
@@ -5589,6 +5967,17 @@
       "ownedByMe": false
     },
     {
+      "id": 412,
+      "web_name": "Lammens",
+      "team_short": "MUN",
+      "owners": 3,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 2,
+      "total_points": 0,
+      "ownedByMe": false
+    },
+    {
       "id": 330,
       "web_name": "Bogle",
       "team_short": "LEE",
@@ -5614,6 +6003,17 @@
       "id": 12,
       "web_name": "Saka",
       "team_short": "ARS",
+      "owners": 2,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 8,
+      "total_points": 16,
+      "ownedByMe": false
+    },
+    {
+      "id": 112,
+      "web_name": "Van Hecke",
+      "team_short": "TOT",
       "owners": 2,
       "captains": 0,
       "tripleCaptains": 0,
@@ -5666,17 +6066,6 @@
       "ownedByMe": false
     },
     {
-      "id": 496,
-      "web_name": "Kinsky",
-      "team_short": "TOT",
-      "owners": 2,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 7,
-      "total_points": 7,
-      "ownedByMe": false
-    },
-    {
       "id": 15,
       "web_name": "Ødegaard",
       "team_short": "ARS",
@@ -5691,17 +6080,6 @@
       "id": 397,
       "web_name": "Semenyo",
       "team_short": "MCI",
-      "owners": 2,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 3,
-      "total_points": 6,
-      "ownedByMe": false
-    },
-    {
-      "id": 557,
-      "web_name": "Tzolis",
-      "team_short": "ARS",
       "owners": 2,
       "captains": 0,
       "tripleCaptains": 0,
@@ -5798,6 +6176,17 @@
       "ownedByMe": false
     },
     {
+      "id": 534,
+      "web_name": "Hume",
+      "team_short": "SUN",
+      "owners": 2,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 0,
+      "total_points": 0,
+      "ownedByMe": false
+    },
+    {
       "id": 553,
       "web_name": "Isidor",
       "team_short": "SUN",
@@ -5805,17 +6194,6 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 1,
-      "total_points": 0,
-      "ownedByMe": false
-    },
-    {
-      "id": 412,
-      "web_name": "Lammens",
-      "team_short": "MUN",
-      "owners": 2,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 2,
       "total_points": 0,
       "ownedByMe": false
     },
@@ -5867,17 +6245,6 @@
       "id": 229,
       "web_name": "Tarkowski",
       "team_short": "EVE",
-      "owners": 1,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 8,
-      "total_points": 8,
-      "ownedByMe": false
-    },
-    {
-      "id": 112,
-      "web_name": "Van Hecke",
-      "team_short": "TOT",
       "owners": 1,
       "captains": 0,
       "tripleCaptains": 0,
@@ -6062,6 +6429,17 @@
       "ownedByMe": false
     },
     {
+      "id": 10,
+      "web_name": "White",
+      "team_short": "ARS",
+      "owners": 1,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 1,
+      "total_points": 1,
+      "ownedByMe": false
+    },
+    {
       "id": 286,
       "web_name": "Belloumi",
       "team_short": "HUL",
@@ -6117,17 +6495,6 @@
       "ownedByMe": true
     },
     {
-      "id": 534,
-      "web_name": "Hume",
-      "team_short": "SUN",
-      "owners": 1,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 0,
-      "total_points": 0,
-      "ownedByMe": false
-    },
-    {
       "id": 651,
       "web_name": "J.Angulo",
       "team_short": "SUN",
@@ -6146,6 +6513,17 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 2,
+      "total_points": 0,
+      "ownedByMe": false
+    },
+    {
+      "id": 268,
+      "web_name": "King",
+      "team_short": "FUL",
+      "owners": 1,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 3,
       "total_points": 0,
       "ownedByMe": false
     },

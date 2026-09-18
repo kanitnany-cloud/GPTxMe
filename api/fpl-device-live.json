@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "18/9/2569 08:24:49",
+  "updated_at_th": "18/9/2569 13:21:08",
   "gameweek": 4,
   "team": {
     "name": "Yedtsuna",
@@ -63,6 +63,16 @@
       },
       {
         "rank": 5,
+        "team": "tamako-",
+        "points": 290,
+        "captain": "João Pedro",
+        "chips": [
+          "bboost",
+          "freehit"
+        ]
+      },
+      {
+        "rank": 6,
         "team": "Runner Up FC",
         "points": 287,
         "captain": "Rogers",
@@ -72,7 +82,7 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 7,
         "team": "GrossProfit United",
         "points": 286,
         "captain": "Palmer",
@@ -82,20 +92,13 @@
         ]
       },
       {
-        "rank": 7,
+        "rank": 8,
         "team": "SilverBank",
         "points": 268,
         "captain": "Palmer",
         "chips": [
           "3xc"
         ]
-      },
-      {
-        "rank": 8,
-        "team": "JedYubZ_WCC",
-        "points": 262,
-        "captain": "João Pedro",
-        "chips": []
       }
     ]
   },
@@ -103,10 +106,10 @@
     {
       "name": "João Pedro",
       "club": "CHE",
-      "owners": 12,
-      "captains": 3,
+      "owners": 13,
+      "captains": 4,
       "gw_points": 12,
-      "total_points": 180,
+      "total_points": 204,
       "owned_by_me": true
     },
     {
@@ -130,19 +133,19 @@
     {
       "name": "Szoboszlai",
       "club": "LIV",
-      "owners": 10,
+      "owners": 11,
       "captains": 1,
       "gw_points": 3,
-      "total_points": 30,
+      "total_points": 33,
       "owned_by_me": true
     },
     {
       "name": "B.Fernandes",
       "club": "MUN",
-      "owners": 8,
+      "owners": 9,
       "captains": 1,
       "gw_points": 2,
-      "total_points": 18,
+      "total_points": 20,
       "owned_by_me": true
     },
     {
@@ -155,6 +158,15 @@
       "owned_by_me": true
     },
     {
+      "name": "Isak",
+      "club": "LIV",
+      "owners": 7,
+      "captains": 3,
+      "gw_points": 2,
+      "total_points": 22,
+      "owned_by_me": false
+    },
+    {
       "name": "Raya",
       "club": "ARS",
       "owners": 7,
@@ -162,15 +174,6 @@
       "gw_points": 14,
       "total_points": 84,
       "owned_by_me": false
-    },
-    {
-      "name": "De Cuyper",
-      "club": "BHA",
-      "owners": 7,
-      "captains": 0,
-      "gw_points": 11,
-      "total_points": 77,
-      "owned_by_me": true
     }
   ],
   "fixtures": [
