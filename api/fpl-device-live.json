@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "19/9/2569 19:00:01",
+  "updated_at_th": "19/9/2569 21:18:01",
   "gameweek": 5,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
-    "points": 334,
-    "gw_points": 2,
+    "points": 338,
+    "gw_points": 6,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Yedtsuna",
       "manager": "Kanitnan Yamjongkol",
-      "points": 334,
+      "points": 338,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Yedtsuna",
-        "points": 334,
+        "points": 338,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "KC888",
-        "points": 323,
+        "points": 331,
         "captain": "B.Fernandes",
         "chips": [
           "3xc",
@@ -43,7 +43,7 @@
       {
         "rank": 3,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 310,
+        "points": 315,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -54,7 +54,7 @@
       {
         "rank": 4,
         "team": "Bombadoo FC.",
-        "points": 295,
+        "points": 308,
         "captain": "Ødegaard",
         "chips": [
           "bboost",
@@ -65,7 +65,7 @@
       {
         "rank": 5,
         "team": "tamako-",
-        "points": 292,
+        "points": 295,
         "captain": "B.Fernandes",
         "chips": [
           "bboost",
@@ -74,8 +74,18 @@
       },
       {
         "rank": 6,
+        "team": "GrossProfit United",
+        "points": 292,
+        "captain": "Gibbs-White",
+        "chips": [
+          "bboost",
+          "wildcard"
+        ]
+      },
+      {
+        "rank": 7,
         "team": "Runner Up FC",
-        "points": 289,
+        "points": 290,
         "captain": "Gibbs-White",
         "chips": [
           "bboost",
@@ -84,19 +94,9 @@
         ]
       },
       {
-        "rank": 7,
-        "team": "GrossProfit United",
-        "points": 288,
-        "captain": "Gibbs-White",
-        "chips": [
-          "bboost",
-          "wildcard"
-        ]
-      },
-      {
         "rank": 8,
         "team": "SilverBank",
-        "points": 272,
+        "points": 281,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -119,8 +119,8 @@
       "club": "ARS",
       "owners": 11,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 1,
+      "total_points": 10,
       "owned_by_me": true
     },
     {
@@ -142,22 +142,22 @@
       "owned_by_me": true
     },
     {
-      "name": "De Cuyper",
-      "club": "BHA",
-      "owners": 8,
-      "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
-      "owned_by_me": true
-    },
-    {
       "name": "Raya",
       "club": "ARS",
       "owners": 8,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 1,
+      "total_points": 8,
       "owned_by_me": false
+    },
+    {
+      "name": "De Cuyper",
+      "club": "BHA",
+      "owners": 8,
+      "captains": 0,
+      "gw_points": 1,
+      "total_points": 3,
+      "owned_by_me": true
     },
     {
       "name": "B.Fernandes",
@@ -169,12 +169,12 @@
       "owned_by_me": true
     },
     {
-      "name": "Gvardiol",
-      "club": "MCI",
+      "name": "Verbruggen",
+      "club": "BHA",
       "owners": 7,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 1,
+      "total_points": 2,
       "owned_by_me": true
     }
   ],
@@ -194,35 +194,35 @@
       "finished": false,
       "home": "TOT",
       "away": "AVL",
+      "home_score": 2,
+      "away_score": 3
+    },
+    {
+      "kickoff_time": "2026-09-19T14:00:00Z",
+      "started": true,
+      "finished": false,
+      "home": "BHA",
+      "away": "ARS",
       "home_score": 0,
       "away_score": 0
     },
     {
       "kickoff_time": "2026-09-19T14:00:00Z",
-      "started": false,
-      "finished": false,
-      "home": "BHA",
-      "away": "ARS",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "kickoff_time": "2026-09-19T14:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "EVE",
       "away": "IPS",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-09-19T14:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "NEW",
       "away": "HUL",
-      "home_score": null,
-      "away_score": null
+      "home_score": 2,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-09-19T16:30:00Z",
