@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "19/9/2569 21:18:01",
+  "updated_at_th": "19/9/2569 22:48:29",
   "gameweek": 5,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
-    "points": 338,
-    "gw_points": 6,
+    "points": 355,
+    "gw_points": 23,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Yedtsuna",
       "manager": "Kanitnan Yamjongkol",
-      "points": 338,
+      "points": 355,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Yedtsuna",
-        "points": 338,
+        "points": 355,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -32,18 +32,8 @@
       },
       {
         "rank": 2,
-        "team": "KC888",
-        "points": 331,
-        "captain": "B.Fernandes",
-        "chips": [
-          "3xc",
-          "wildcard"
-        ]
-      },
-      {
-        "rank": 3,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 315,
+        "points": 340,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -52,9 +42,19 @@
         ]
       },
       {
+        "rank": 3,
+        "team": "KC888",
+        "points": 332,
+        "captain": "B.Fernandes",
+        "chips": [
+          "3xc",
+          "wildcard"
+        ]
+      },
+      {
         "rank": 4,
         "team": "Bombadoo FC.",
-        "points": 308,
+        "points": 321,
         "captain": "Ødegaard",
         "chips": [
           "bboost",
@@ -64,6 +64,26 @@
       },
       {
         "rank": 5,
+        "team": "Runner Up FC",
+        "points": 303,
+        "captain": "Gibbs-White",
+        "chips": [
+          "bboost",
+          "3xc",
+          "freehit"
+        ]
+      },
+      {
+        "rank": 6,
+        "team": "SilverBank",
+        "points": 300,
+        "captain": "Haaland",
+        "chips": [
+          "3xc"
+        ]
+      },
+      {
+        "rank": 7,
         "team": "tamako-",
         "points": 295,
         "captain": "B.Fernandes",
@@ -73,33 +93,13 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 8,
         "team": "GrossProfit United",
-        "points": 292,
+        "points": 291,
         "captain": "Gibbs-White",
         "chips": [
           "bboost",
           "wildcard"
-        ]
-      },
-      {
-        "rank": 7,
-        "team": "Runner Up FC",
-        "points": 290,
-        "captain": "Gibbs-White",
-        "chips": [
-          "bboost",
-          "3xc",
-          "freehit"
-        ]
-      },
-      {
-        "rank": 8,
-        "team": "SilverBank",
-        "points": 281,
-        "captain": "Haaland",
-        "chips": [
-          "3xc"
         ]
       }
     ]
@@ -142,6 +142,15 @@
       "owned_by_me": true
     },
     {
+      "name": "De Cuyper",
+      "club": "BHA",
+      "owners": 8,
+      "captains": 0,
+      "gw_points": 7,
+      "total_points": 21,
+      "owned_by_me": true
+    },
+    {
       "name": "Raya",
       "club": "ARS",
       "owners": 8,
@@ -149,15 +158,6 @@
       "gw_points": 1,
       "total_points": 8,
       "owned_by_me": false
-    },
-    {
-      "name": "De Cuyper",
-      "club": "BHA",
-      "owners": 8,
-      "captains": 0,
-      "gw_points": 1,
-      "total_points": 3,
-      "owned_by_me": true
     },
     {
       "name": "B.Fernandes",
@@ -173,8 +173,8 @@
       "club": "BHA",
       "owners": 7,
       "captains": 0,
-      "gw_points": 1,
-      "total_points": 2,
+      "gw_points": 6,
+      "total_points": 12,
       "owned_by_me": true
     }
   ],
@@ -203,7 +203,7 @@
       "finished": false,
       "home": "BHA",
       "away": "ARS",
-      "home_score": 0,
+      "home_score": 3,
       "away_score": 0
     },
     {
@@ -222,7 +222,7 @@
       "home": "NEW",
       "away": "HUL",
       "home_score": 2,
-      "away_score": 0
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-09-19T16:30:00Z",
