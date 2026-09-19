@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "20/9/2569 00:23:00",
+  "updated_at_th": "20/9/2569 01:26:21",
   "gameweek": 5,
   "team": {
     "name": "Yedtsuna",
@@ -44,7 +44,7 @@
       {
         "rank": 3,
         "team": "KC888",
-        "points": 333,
+        "points": 336,
         "captain": "B.Fernandes",
         "chips": [
           "3xc",
@@ -65,7 +65,7 @@
       {
         "rank": 5,
         "team": "Runner Up FC",
-        "points": 314,
+        "points": 311,
         "captain": "Gibbs-White",
         "chips": [
           "bboost",
@@ -76,7 +76,7 @@
       {
         "rank": 6,
         "team": "SilverBank",
-        "points": 305,
+        "points": 302,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -85,7 +85,7 @@
       {
         "rank": 7,
         "team": "tamako-",
-        "points": 299,
+        "points": 297,
         "captain": "B.Fernandes",
         "chips": [
           "bboost",
@@ -95,7 +95,7 @@
       {
         "rank": 8,
         "team": "GrossProfit United",
-        "points": 297,
+        "points": 295,
         "captain": "Gibbs-White",
         "chips": [
           "bboost",
@@ -231,7 +231,7 @@
       "home": "NFO",
       "away": "COV",
       "home_score": 0,
-      "away_score": 0
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-09-20T13:00:00Z",

@@ -3,25 +3,25 @@ Haaland,MCI,14,10,0,0,0,true
 Calafiori,ARS,11,0,0,1,10,true
 João Pedro,CHE,11,0,0,0,0,true
 Rogers,CHE,10,0,0,2,20,true
-De Cuyper,BHA,8,0,0,7,21,true
+De Cuyper,BHA,8,0,0,5,15,true
 Raya,ARS,8,0,0,1,8,false
 B.Fernandes,MUN,7,3,0,0,0,true
-Verbruggen,BHA,7,0,0,6,12,true
+Verbruggen,BHA,7,0,0,7,14,true
 Gvardiol,MCI,7,0,0,0,0,true
 Szoboszlai,LIV,7,0,0,0,0,false
 Groß,BHA,6,0,0,14,70,true
 Calvert-Lewin,LEE,6,0,0,0,0,false
 Isak,LIV,6,0,0,0,0,false
 Wissa,NEW,6,0,0,0,0,true
-Gibbs-White,NFO,5,2,0,0,0,false
+Gibbs-White,NFO,5,2,0,2,14,false
+N.Williams,NFO,5,0,0,2,10,false
 Dubravka,TOT,5,0,0,0,0,true
-N.Williams,NFO,5,0,0,0,0,false
 Cherki,MCI,4,1,0,0,0,true
 Palmer,CHE,4,0,0,2,8,false
-Rice,ARS,4,0,0,2,8,false
 Gabriel,ARS,4,0,0,1,4,false
+Rice,ARS,4,0,0,1,4,false
 Bogle,LEE,4,0,0,0,0,true
-Hall,NEW,3,0,0,10,30,false
+Hall,NEW,3,0,0,12,36,false
 Schade,BRE,3,0,0,9,27,false
 Tzolis,ARS,3,0,0,2,6,false
 Konsa,ARS,3,0,0,1,3,false
@@ -37,12 +37,12 @@ Barnes,NEW,2,0,0,9,9,false
 Janelt,BRE,2,0,0,3,6,false
 Kayode,BRE,2,0,0,6,6,false
 Van Hecke,TOT,2,0,0,6,6,false
+Muñoz,NFO,2,0,0,2,4,false
 Egan,HUL,2,0,0,1,2,false
-Diop,IPS,2,0,0,2,0,true
+Diop,IPS,2,0,0,4,0,true
 Mainoo,MUN,2,0,0,0,0,false
 Mbeumo,MUN,2,0,0,0,0,false
 Mitchell,CRY,2,0,0,0,0,false
-Muñoz,NFO,2,0,0,0,0,false
 Scott,BOU,2,0,0,0,0,false
 Slater,HUL,2,0,0,2,0,false
 Trafford,LEE,2,0,0,0,0,false
@@ -52,8 +52,10 @@ Tarkowski,EVE,1,0,0,14,14,false
 Pickford,EVE,1,0,0,8,8,false
 Ajer,BRE,1,0,0,7,7,false
 Barry,EVE,1,0,0,6,6,false
+Murillo,NFO,1,0,0,4,4,false
 Horníček,NEW,1,0,0,3,3,false
 Saka,ARS,1,0,0,2,2,false
+Sels,NFO,1,0,0,2,2,false
 Coyle,HUL,1,0,0,1,1,false
 Belloumi,HUL,1,0,0,4,0,false
 Brobbey,SUN,1,0,0,0,0,false
@@ -78,14 +80,12 @@ Martinez,CHE,1,0,0,2,0,false
 Mendy,HUL,1,0,0,0,0,false
 Muharemović,LEE,1,0,0,0,0,false
 Munoz,LIV,1,0,0,0,0,false
-Murillo,NFO,1,0,0,0,0,false
 O'Reilly,MCI,1,0,0,0,0,false
 Rayan,BOU,1,0,0,0,0,false
 Roefs,SUN,1,0,0,0,0,false
-Sels,NFO,1,0,0,0,0,false
 Semenyo,MCI,1,0,0,0,0,false
-Thomas,COV,1,0,0,0,0,false
-Tzolakis,HUL,1,0,0,5,0,false
-Vuskovic,BHA,1,0,0,6,0,false
+Thomas,COV,1,0,0,9,0,false
+Tzolakis,HUL,1,0,0,6,0,false
+Vuskovic,BHA,1,0,0,8,0,false
 Walle Egeli,IPS,1,0,0,0,0,false
 Yarmoliuk,BRE,1,0,0,3,0,false
