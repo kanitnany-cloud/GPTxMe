@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "20/9/2569 02:32:25",
+  "updated_at_th": "20/9/2569 03:55:18",
   "gameweek": 5,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
-    "points": 356,
-    "gw_points": 24,
+    "points": 355,
+    "gw_points": 23,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Yedtsuna",
       "manager": "Kanitnan Yamjongkol",
-      "points": 356,
+      "points": 355,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Yedtsuna",
-        "points": 356,
+        "points": 355,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -76,7 +76,7 @@
       {
         "rank": 6,
         "team": "SilverBank",
-        "points": 302,
+        "points": 303,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -146,8 +146,8 @@
       "club": "BHA",
       "owners": 8,
       "captains": 0,
-      "gw_points": 5,
-      "total_points": 15,
+      "gw_points": 6,
+      "total_points": 18,
       "owned_by_me": true
     },
     {
@@ -173,8 +173,8 @@
       "club": "BHA",
       "owners": 7,
       "captains": 0,
-      "gw_points": 7,
-      "total_points": 14,
+      "gw_points": 6,
+      "total_points": 12,
       "owned_by_me": true
     }
   ],
