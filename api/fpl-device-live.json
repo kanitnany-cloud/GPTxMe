@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "19/9/2569 17:45:59",
+  "updated_at_th": "19/9/2569 19:00:01",
   "gameweek": 5,
   "team": {
     "name": "Yedtsuna",
@@ -96,7 +96,7 @@
       {
         "rank": 8,
         "team": "SilverBank",
-        "points": 270,
+        "points": 272,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -190,12 +190,12 @@
     },
     {
       "kickoff_time": "2026-09-19T11:30:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "TOT",
       "away": "AVL",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-09-19T14:00:00Z",

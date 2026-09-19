@@ -70,7 +70,7 @@
     "most_captained": 411,
     "most_vice_captained": 426
   },
-  "generatedAt": "19/9/2569 14:04:36",
+  "generatedAt": "19/9/2569 19:00:01",
   "teams": [
     {
       "entry": 3944270,
@@ -1748,7 +1748,7 @@
           "club": "TOT",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 0,
+          "event_points": 2,
           "points": 0
         },
         {
@@ -1766,7 +1766,7 @@
           "club": "TOT",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 0,
+          "event_points": 1,
           "points": 0
         },
         {
@@ -2641,8 +2641,8 @@
       "entry_name": "SilverBank",
       "player_name": "Mr PHAKPHUM",
       "rank": 8,
-      "event_total": 2,
-      "total": 270,
+      "event_total": 4,
+      "total": 272,
       "team_value": 101,
       "bank": 1.2,
       "captain": "Haaland",
@@ -2769,8 +2769,8 @@
           "club": "TOT",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 0,
-          "points": 0
+          "event_points": 2,
+          "points": 2
         },
         {
           "element": 8,
@@ -2796,8 +2796,8 @@
           "club": "TOT",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 115,
@@ -6348,7 +6348,7 @@
           "club": "TOT",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 0,
+          "event_points": 2,
           "points": 0
         },
         {
@@ -6636,6 +6636,17 @@
       "ownedByMe": false
     },
     {
+      "id": 496,
+      "web_name": "Kinsky",
+      "team_short": "TOT",
+      "owners": 3,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 2,
+      "total_points": 2,
+      "ownedByMe": false
+    },
+    {
       "id": 279,
       "web_name": "Ajayi",
       "team_short": "HUL",
@@ -6672,17 +6683,6 @@
       "id": 449,
       "web_name": "Hall",
       "team_short": "NEW",
-      "owners": 3,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 0,
-      "total_points": 0,
-      "ownedByMe": false
-    },
-    {
-      "id": 496,
-      "web_name": "Kinsky",
-      "team_short": "TOT",
       "owners": 3,
       "captains": 0,
       "tripleCaptains": 0,
@@ -6776,6 +6776,17 @@
       "tripleCaptains": 0,
       "event_points": 6,
       "total_points": 6,
+      "ownedByMe": false
+    },
+    {
+      "id": 112,
+      "web_name": "Van Hecke",
+      "team_short": "TOT",
+      "owners": 2,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 1,
+      "total_points": 1,
       "ownedByMe": false
     },
     {
@@ -6881,17 +6892,6 @@
       "id": 385,
       "web_name": "Trafford",
       "team_short": "LEE",
-      "owners": 2,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 0,
-      "total_points": 0,
-      "ownedByMe": false
-    },
-    {
-      "id": 112,
-      "web_name": "Van Hecke",
-      "team_short": "TOT",
       "owners": 2,
       "captains": 0,
       "tripleCaptains": 0,
@@ -7385,12 +7385,12 @@
     },
     {
       "kickoff_time": "2026-09-19T11:30:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "TOT",
       "away": "AVL",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-09-19T14:00:00Z",

@@ -22,11 +22,11 @@ Bogle,LEE,4,0,0,0,0,true
 Gabriel,ARS,4,0,0,0,0,false
 Rice,ARS,4,0,0,0,0,false
 Schade,BRE,3,0,0,9,27,false
+Kinsky,TOT,3,0,0,2,2,false
 Ajayi,HUL,3,0,0,0,0,false
 Davis,IPS,3,0,0,0,0,false
 Guéhi,MCI,3,0,0,0,0,false
 Hall,NEW,3,0,0,0,0,false
-Kinsky,TOT,3,0,0,0,0,false
 Konsa,ARS,3,0,0,0,0,false
 Lammens,MUN,3,0,0,0,0,false
 Tavernier,BOU,3,0,0,0,0,false
@@ -35,6 +35,7 @@ van Ewijk,COV,3,0,0,0,0,false
 Ødegaard,ARS,2,1,0,0,0,false
 Janelt,BRE,2,0,0,3,6,false
 Kayode,BRE,2,0,0,6,6,false
+Van Hecke,TOT,2,0,0,1,1,false
 Barnes,NEW,2,0,0,0,0,false
 Diop,IPS,2,0,0,0,0,true
 Egan,HUL,2,0,0,0,0,false
@@ -45,7 +46,6 @@ Muñoz,NFO,2,0,0,0,0,false
 Scott,BOU,2,0,0,0,0,false
 Slater,HUL,2,0,0,0,0,false
 Trafford,LEE,2,0,0,0,0,false
-Van Hecke,TOT,2,0,0,0,0,false
 Virgil,LIV,2,0,0,0,0,false
 Wirtz,LIV,2,0,0,0,0,false
 Ajer,BRE,1,0,0,7,7,false
