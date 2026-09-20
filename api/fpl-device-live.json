@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "20/9/2569 21:19:47",
+  "updated_at_th": "20/9/2569 21:31:58",
   "gameweek": 5,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
-    "points": 364,
-    "gw_points": 32,
+    "points": 373,
+    "gw_points": 41,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Yedtsuna",
       "manager": "Kanitnan Yamjongkol",
-      "points": 364,
+      "points": 373,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Yedtsuna",
-        "points": 364,
+        "points": 373,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 351,
+        "points": 365,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -44,7 +44,7 @@
       {
         "rank": 3,
         "team": "KC888",
-        "points": 337,
+        "points": 338,
         "captain": "B.Fernandes",
         "chips": [
           "3xc",
@@ -54,7 +54,7 @@
       {
         "rank": 4,
         "team": "Bombadoo FC.",
-        "points": 331,
+        "points": 333,
         "captain": "Ødegaard",
         "chips": [
           "bboost",
@@ -65,7 +65,7 @@
       {
         "rank": 5,
         "team": "Runner Up FC",
-        "points": 320,
+        "points": 329,
         "captain": "Gibbs-White",
         "chips": [
           "bboost",
@@ -76,7 +76,7 @@
       {
         "rank": 6,
         "team": "tamako-",
-        "points": 306,
+        "points": 309,
         "captain": "B.Fernandes",
         "chips": [
           "bboost",
@@ -86,7 +86,7 @@
       {
         "rank": 7,
         "team": "SilverBank",
-        "points": 305,
+        "points": 309,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -95,7 +95,7 @@
       {
         "rank": 8,
         "team": "GrossProfit United",
-        "points": 297,
+        "points": 302,
         "captain": "Gibbs-White",
         "chips": [
           "bboost",
@@ -110,8 +110,8 @@
       "club": "MCI",
       "owners": 14,
       "captains": 10,
-      "gw_points": 1,
-      "total_points": 24,
+      "gw_points": 2,
+      "total_points": 48,
       "owned_by_me": true
     },
     {
@@ -169,13 +169,13 @@
       "owned_by_me": true
     },
     {
-      "name": "Verbruggen",
-      "club": "BHA",
+      "name": "Szoboszlai",
+      "club": "LIV",
       "owners": 7,
       "captains": 0,
-      "gw_points": 6,
+      "gw_points": 2,
       "total_points": 12,
-      "owned_by_me": true
+      "owned_by_me": false
     }
   ],
   "fixtures": [
@@ -257,8 +257,8 @@
       "finished": false,
       "home": "MCI",
       "away": "SUN",
-      "home_score": 3,
-      "away_score": 2
+      "home_score": 4,
+      "away_score": 3
     },
     {
       "kickoff_time": "2026-09-20T15:30:00Z",
