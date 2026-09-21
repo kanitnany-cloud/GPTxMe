@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "21/9/2569 14:53:48",
+  "updated_at_th": "21/9/2569 20:40:07",
   "gameweek": 5,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
-    "points": 386,
-    "gw_points": 54,
+    "points": 392,
+    "gw_points": 60,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Yedtsuna",
       "manager": "Kanitnan Yamjongkol",
-      "points": 386,
+      "points": 392,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Yedtsuna",
-        "points": 386,
+        "points": 392,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -75,8 +75,17 @@
       },
       {
         "rank": 6,
+        "team": "SilverBank",
+        "points": 334,
+        "captain": "Haaland",
+        "chips": [
+          "3xc"
+        ]
+      },
+      {
+        "rank": 7,
         "team": "tamako-",
-        "points": 317,
+        "points": 319,
         "captain": "B.Fernandes",
         "chips": [
           "bboost",
@@ -84,18 +93,9 @@
         ]
       },
       {
-        "rank": 7,
-        "team": "SilverBank",
-        "points": 317,
-        "captain": "Haaland",
-        "chips": [
-          "3xc"
-        ]
-      },
-      {
         "rank": 8,
         "team": "GrossProfit United",
-        "points": 309,
+        "points": 310,
         "captain": "Gibbs-White",
         "chips": [
           "bboost",
@@ -147,7 +147,7 @@
       "owners": 8,
       "captains": 0,
       "gw_points": 6,
-      "total_points": 18,
+      "total_points": 24,
       "owned_by_me": true
     },
     {
@@ -182,7 +182,7 @@
     {
       "kickoff_time": "2026-09-18T19:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "BRE",
       "away": "CHE",
       "home_score": 3,
@@ -191,7 +191,7 @@
     {
       "kickoff_time": "2026-09-19T11:30:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "TOT",
       "away": "AVL",
       "home_score": 2,
@@ -200,7 +200,7 @@
     {
       "kickoff_time": "2026-09-19T14:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "BHA",
       "away": "ARS",
       "home_score": 3,
@@ -209,7 +209,7 @@
     {
       "kickoff_time": "2026-09-19T14:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "EVE",
       "away": "IPS",
       "home_score": 1,
@@ -218,7 +218,7 @@
     {
       "kickoff_time": "2026-09-19T14:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "NEW",
       "away": "HUL",
       "home_score": 2,
@@ -227,7 +227,7 @@
     {
       "kickoff_time": "2026-09-19T16:30:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "NFO",
       "away": "COV",
       "home_score": 0,
@@ -236,7 +236,7 @@
     {
       "kickoff_time": "2026-09-20T13:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "BOU",
       "away": "LIV",
       "home_score": 0,
@@ -245,7 +245,7 @@
     {
       "kickoff_time": "2026-09-20T13:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "LEE",
       "away": "CRY",
       "home_score": 0,
@@ -254,7 +254,7 @@
     {
       "kickoff_time": "2026-09-20T13:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "MCI",
       "away": "SUN",
       "home_score": 5,
@@ -263,7 +263,7 @@
     {
       "kickoff_time": "2026-09-20T15:30:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "FUL",
       "away": "MUN",
       "home_score": 1,
