@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "10/10/2569 19:58:16",
+  "updated_at_th": "10/10/2569 22:32:46",
   "gameweek": 6,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
-    "points": 400,
-    "gw_points": 8,
+    "points": 455,
+    "gw_points": 63,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Yedtsuna",
       "manager": "Kanitnan Yamjongkol",
-      "points": 400,
+      "points": 455,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Yedtsuna",
-        "points": 400,
+        "points": 455,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 376,
+        "points": 427,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -43,29 +43,8 @@
       },
       {
         "rank": 3,
-        "team": "KC888",
-        "points": 355,
-        "captain": "Wissa",
-        "chips": [
-          "3xc",
-          "wildcard"
-        ]
-      },
-      {
-        "rank": 4,
-        "team": "Bombadoo FC.",
-        "points": 350,
-        "captain": "João Pedro",
-        "chips": [
-          "bboost",
-          "freehit",
-          "wildcard"
-        ]
-      },
-      {
-        "rank": 5,
         "team": "Runner Up FC",
-        "points": 346,
+        "points": 392,
         "captain": "B.Fernandes",
         "chips": [
           "bboost",
@@ -74,10 +53,31 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 4,
         "team": "SilverBank",
-        "points": 342,
+        "points": 389,
         "captain": "Rogers",
+        "chips": [
+          "3xc",
+          "wildcard"
+        ]
+      },
+      {
+        "rank": 5,
+        "team": "Bombadoo FC.",
+        "points": 387,
+        "captain": "João Pedro",
+        "chips": [
+          "bboost",
+          "freehit",
+          "wildcard"
+        ]
+      },
+      {
+        "rank": 6,
+        "team": "KC888",
+        "points": 382,
+        "captain": "Wissa",
         "chips": [
           "3xc",
           "wildcard"
@@ -86,7 +86,7 @@
       {
         "rank": 7,
         "team": "tamako-",
-        "points": 334,
+        "points": 378,
         "captain": "Saka",
         "chips": [
           "bboost",
@@ -97,7 +97,7 @@
       {
         "rank": 8,
         "team": "GrossProfit United",
-        "points": 321,
+        "points": 375,
         "captain": "João Pedro",
         "chips": [
           "bboost",
@@ -121,17 +121,8 @@
       "club": "ARS",
       "owners": 13,
       "captains": 0,
-      "gw_points": 10,
-      "total_points": 120,
-      "owned_by_me": true
-    },
-    {
-      "name": "Groß",
-      "club": "BHA",
-      "owners": 11,
-      "captains": 2,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 9,
+      "total_points": 108,
       "owned_by_me": true
     },
     {
@@ -139,8 +130,17 @@
       "club": "CHE",
       "owners": 11,
       "captains": 2,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 13,
+      "total_points": 156,
+      "owned_by_me": true
+    },
+    {
+      "name": "Groß",
+      "club": "BHA",
+      "owners": 11,
+      "captains": 2,
+      "gw_points": 7,
+      "total_points": 91,
       "owned_by_me": true
     },
     {
@@ -148,8 +148,8 @@
       "club": "CHE",
       "owners": 10,
       "captains": 1,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 10,
+      "total_points": 110,
       "owned_by_me": true
     },
     {
@@ -157,8 +157,8 @@
       "club": "BHA",
       "owners": 10,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 15,
+      "total_points": 135,
       "owned_by_me": true
     },
     {
@@ -175,8 +175,8 @@
       "club": "BHA",
       "owners": 8,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 9,
+      "total_points": 27,
       "owned_by_me": true
     }
   ],
@@ -187,44 +187,44 @@
       "finished": false,
       "home": "ARS",
       "away": "LEE",
+      "home_score": 2,
+      "away_score": 1
+    },
+    {
+      "kickoff_time": "2026-10-10T14:00:00Z",
+      "started": true,
+      "finished": false,
+      "home": "AVL",
+      "away": "BRE",
       "home_score": 1,
       "away_score": 1
     },
     {
       "kickoff_time": "2026-10-10T14:00:00Z",
-      "started": false,
-      "finished": false,
-      "home": "AVL",
-      "away": "BRE",
-      "home_score": null,
-      "away_score": null
-    },
-    {
-      "kickoff_time": "2026-10-10T14:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "CHE",
       "away": "BOU",
-      "home_score": null,
-      "away_score": null
+      "home_score": 4,
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-10-10T14:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "IPS",
       "away": "FUL",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-10-10T14:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "SUN",
       "away": "BHA",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-10-10T16:30:00Z",
