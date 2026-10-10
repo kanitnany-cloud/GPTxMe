@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "11/10/2569 00:47:24",
+  "updated_at_th": "11/10/2569 02:49:23",
   "gameweek": 6,
   "team": {
     "name": "Yedtsuna",
@@ -44,7 +44,7 @@
       {
         "rank": 3,
         "team": "Runner Up FC",
-        "points": 395,
+        "points": 396,
         "captain": "B.Fernandes",
         "chips": [
           "bboost",
@@ -232,8 +232,8 @@
       "finished": false,
       "home": "MUN",
       "away": "TOT",
-      "home_score": 0,
-      "away_score": 0
+      "home_score": 1,
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-10-11T13:00:00Z",
