@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "11/10/2569 22:52:28",
+  "updated_at_th": "12/10/2569 02:08:02",
   "gameweek": 6,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
-    "points": 456,
-    "gw_points": 64,
+    "points": 479,
+    "gw_points": 87,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Yedtsuna",
       "manager": "Kanitnan Yamjongkol",
-      "points": 456,
+      "points": 479,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Yedtsuna",
-        "points": 456,
+        "points": 479,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 434,
+        "points": 444,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -44,7 +44,7 @@
       {
         "rank": 3,
         "team": "Runner Up FC",
-        "points": 401,
+        "points": 406,
         "captain": "B.Fernandes",
         "chips": [
           "bboost",
@@ -55,7 +55,7 @@
       {
         "rank": 4,
         "team": "KC888",
-        "points": 393,
+        "points": 398,
         "captain": "Wissa",
         "chips": [
           "3xc",
@@ -64,8 +64,18 @@
       },
       {
         "rank": 5,
+        "team": "SilverBank",
+        "points": 395,
+        "captain": "Rogers",
+        "chips": [
+          "3xc",
+          "wildcard"
+        ]
+      },
+      {
+        "rank": 6,
         "team": "Bombadoo FC.",
-        "points": 390,
+        "points": 394,
         "captain": "João Pedro",
         "chips": [
           "bboost",
@@ -74,19 +84,9 @@
         ]
       },
       {
-        "rank": 6,
-        "team": "SilverBank",
-        "points": 390,
-        "captain": "Rogers",
-        "chips": [
-          "3xc",
-          "wildcard"
-        ]
-      },
-      {
         "rank": 7,
         "team": "GrossProfit United",
-        "points": 378,
+        "points": 387,
         "captain": "João Pedro",
         "chips": [
           "bboost",
@@ -95,14 +95,10 @@
       },
       {
         "rank": 8,
-        "team": "tamako-",
-        "points": 369,
-        "captain": "Saka",
-        "chips": [
-          "bboost",
-          "freehit",
-          "wildcard"
-        ]
+        "team": "JedYubZ_WCC",
+        "points": 380,
+        "captain": "Groß",
+        "chips": []
       }
     ]
   },
@@ -112,8 +108,8 @@
       "club": "MCI",
       "owners": 15,
       "captains": 5,
-      "gw_points": 1,
-      "total_points": 19,
+      "gw_points": 6,
+      "total_points": 114,
       "owned_by_me": true
     },
     {
@@ -260,7 +256,7 @@
       "home": "LIV",
       "away": "MCI",
       "home_score": 0,
-      "away_score": 0
+      "away_score": 3
     },
     {
       "kickoff_time": "2026-10-12T19:00:00Z",
