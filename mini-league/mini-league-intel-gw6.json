@@ -19,13 +19,13 @@
     "name": "Gameweek 6",
     "deadline_time": "2026-10-10T10:00:00Z",
     "release_time": null,
-    "average_entry_score": 37,
+    "average_entry_score": 54,
     "finished": false,
     "data_checked": false,
-    "highest_scoring_entry": 7100567,
+    "highest_scoring_entry": 4480428,
     "deadline_time_epoch": 1791626400,
     "deadline_time_game_offset": 0,
-    "highest_score": 114,
+    "highest_score": 131,
     "is_previous": false,
     "is_current": true,
     "is_next": false,
@@ -34,7 +34,7 @@
     "can_enter": false,
     "can_manage": false,
     "released": true,
-    "ranked_count": 11009852,
+    "ranked_count": 11009184,
     "overrides": {
       "rules": {},
       "scoring": {},
@@ -70,7 +70,7 @@
     "most_captained": 411,
     "most_vice_captained": 1
   },
-  "generatedAt": "12/10/2569 01:17:30",
+  "generatedAt": "12/10/2569 02:56:32",
   "teams": [
     {
       "entry": 3944270,
@@ -158,10 +158,10 @@
         },
         {
           "event": 6,
-          "points": 61,
-          "total_points": 453,
-          "rank": 772983,
-          "overall_rank": 19081,
+          "points": 87,
+          "total_points": 479,
+          "rank": 114426,
+          "overall_rank": 3856,
           "bank": 0.8,
           "team_value": 101.8,
           "event_transfers": 0,
@@ -448,15 +448,15 @@
         },
         {
           "event": 6,
-          "points": 54,
-          "total_points": 428,
-          "rank": 1794698,
-          "overall_rank": 167799,
+          "points": 70,
+          "total_points": 444,
+          "rank": 1757469,
+          "overall_rank": 138579,
           "bank": 3.9,
           "team_value": 100.7,
           "event_transfers": 2,
           "event_transfers_cost": 0,
-          "points_on_bench": 6
+          "points_on_bench": 8
         }
       ],
       "chip_history": [
@@ -570,7 +570,7 @@
       ],
       "overlap15": 6,
       "overlapXI": 5,
-      "transferLikelihood": "กลาง",
+      "transferLikelihood": "สูง",
       "picks": [
         {
           "element": 109,
@@ -810,10 +810,10 @@
         },
         {
           "event": 6,
-          "points": 58,
-          "total_points": 396,
-          "rank": 1180757,
-          "overall_rank": 923827,
+          "points": 68,
+          "total_points": 406,
+          "rank": 2092945,
+          "overall_rank": 1140818,
           "bank": 0.7,
           "team_value": 100.1,
           "event_transfers": 1,
@@ -1162,15 +1162,15 @@
         },
         {
           "event": 6,
-          "points": 33,
-          "total_points": 383,
-          "rank": 6378420,
-          "overall_rank": 1494621,
+          "points": 48,
+          "total_points": 398,
+          "rank": 7137891,
+          "overall_rank": 1533467,
           "bank": 0,
           "team_value": 100.5,
           "event_transfers": 0,
           "event_transfers_cost": 0,
-          "points_on_bench": 7
+          "points_on_bench": 13
         }
       ],
       "chip_history": [
@@ -1504,15 +1504,15 @@
         },
         {
           "event": 6,
-          "points": 50,
-          "total_points": 384,
-          "rank": 2343286,
-          "overall_rank": 1454273,
+          "points": 61,
+          "total_points": 395,
+          "rank": 3584780,
+          "overall_rank": 1710480,
           "bank": 1.6,
           "team_value": 100.8,
           "event_transfers": 0,
           "event_transfers_cost": 0,
-          "points_on_bench": 20
+          "points_on_bench": 22
         }
       ],
       "chip_history": [
@@ -1849,15 +1849,15 @@
         },
         {
           "event": 6,
-          "points": 51,
-          "total_points": 389,
-          "rank": 2259750,
-          "overall_rank": 1203350,
+          "points": 56,
+          "total_points": 394,
+          "rank": 5105191,
+          "overall_rank": 1752051,
           "bank": 0.4,
           "team_value": 100.8,
           "event_transfers": 1,
           "event_transfers_cost": 0,
-          "points_on_bench": 15
+          "points_on_bench": 18
         }
       ],
       "chip_history": [
@@ -2290,15 +2290,15 @@
         },
         {
           "event": 6,
-          "points": 65,
-          "total_points": 375,
-          "rank": 486320,
-          "overall_rank": 1928021,
+          "points": 77,
+          "total_points": 387,
+          "rank": 730507,
+          "overall_rank": 2184308,
           "bank": 0,
           "team_value": 102.1,
           "event_transfers": 1,
           "event_transfers_cost": 0,
-          "points_on_bench": 14
+          "points_on_bench": 15
         }
       ],
       "chip_history": [
@@ -2773,10 +2773,10 @@
         },
         {
           "event": 6,
-          "points": 60,
-          "total_points": 356,
-          "rank": 962611,
-          "overall_rank": 3207490,
+          "points": 84,
+          "total_points": 380,
+          "rank": 242991,
+          "overall_rank": 2702706,
           "bank": 0.6,
           "team_value": 100.7,
           "event_transfers": 2,
@@ -3161,10 +3161,10 @@
         },
         {
           "event": 6,
-          "points": 49,
-          "total_points": 368,
-          "rank": 2530316,
-          "overall_rank": 2351969,
+          "points": 55,
+          "total_points": 374,
+          "rank": 5213174,
+          "overall_rank": 3073582,
           "bank": 0.8,
           "team_value": 99.6,
           "event_transfers": 0,
@@ -3680,15 +3680,15 @@
         },
         {
           "event": 6,
-          "points": 39,
-          "total_points": 335,
-          "rank": 4970388,
-          "overall_rank": 4696406,
+          "points": 59,
+          "total_points": 355,
+          "rank": 4271970,
+          "overall_rank": 4503128,
           "bank": 2.2,
           "team_value": 101.1,
           "event_transfers": 1,
           "event_transfers_cost": 0,
-          "points_on_bench": 3
+          "points_on_bench": 4
         }
       ],
       "chip_history": [
@@ -4112,10 +4112,10 @@
         },
         {
           "event": 6,
-          "points": 35,
-          "total_points": 319,
-          "rank": 5843280,
-          "overall_rank": 5875813,
+          "points": 51,
+          "total_points": 335,
+          "rank": 6330204,
+          "overall_rank": 5991118,
           "bank": 0,
           "team_value": 101.1,
           "event_transfers": 0,
@@ -4395,15 +4395,15 @@
         },
         {
           "event": 6,
-          "points": 21,
-          "total_points": 320,
-          "rank": 9198744,
-          "overall_rank": 5767509,
+          "points": 31,
+          "total_points": 330,
+          "rank": 10325738,
+          "overall_rank": 6294749,
           "bank": 1.7,
           "team_value": 101.1,
           "event_transfers": 0,
           "event_transfers_cost": 0,
-          "points_on_bench": 28
+          "points_on_bench": 32
         }
       ],
       "chip_history": [
@@ -4731,10 +4731,10 @@
         },
         {
           "event": 6,
-          "points": 26,
-          "total_points": 294,
-          "rank": 8339779,
-          "overall_rank": 7429725,
+          "points": 47,
+          "total_points": 315,
+          "rank": 7641268,
+          "overall_rank": 7245366,
           "bank": 3.1,
           "team_value": 100.5,
           "event_transfers": 4,
@@ -5084,15 +5084,15 @@
         },
         {
           "event": 6,
-          "points": 43,
-          "total_points": 300,
-          "rank": 4051809,
-          "overall_rank": 7103573,
+          "points": 49,
+          "total_points": 306,
+          "rank": 7116160,
+          "overall_rank": 7736720,
           "bank": 0.7,
           "team_value": 102,
           "event_transfers": 3,
           "event_transfers_cost": 8,
-          "points_on_bench": 0
+          "points_on_bench": 8
         }
       ],
       "chip_history": [
@@ -5610,10 +5610,10 @@
         },
         {
           "event": 6,
-          "points": 29,
-          "total_points": 269,
-          "rank": 7389551,
-          "overall_rank": 8588135,
+          "points": 60,
+          "total_points": 300,
+          "rank": 3845200,
+          "overall_rank": 8022574,
           "bank": 0.4,
           "team_value": 99.8,
           "event_transfers": 0,
@@ -5989,13 +5989,13 @@
           "event": 6,
           "points": 51,
           "total_points": 295,
-          "rank": 2164902,
-          "overall_rank": 7359999,
+          "rank": 6330204,
+          "overall_rank": 8223134,
           "bank": 0,
           "team_value": 99,
           "event_transfers": 0,
           "event_transfers_cost": 0,
-          "points_on_bench": 2
+          "points_on_bench": 12
         }
       ],
       "chip_history": [
@@ -6472,15 +6472,15 @@
         },
         {
           "event": 6,
-          "points": 41,
-          "total_points": 157,
-          "rank": 4467242,
-          "overall_rank": 10380970,
+          "points": 52,
+          "total_points": 168,
+          "rank": 6230069,
+          "overall_rank": 10429166,
           "bank": 0,
           "team_value": 100.5,
           "event_transfers": 1,
           "event_transfers_cost": 0,
-          "points_on_bench": 11
+          "points_on_bench": 12
         }
       ],
       "chip_history": [],
