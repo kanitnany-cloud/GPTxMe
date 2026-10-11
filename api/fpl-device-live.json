@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "11/10/2569 16:10:19",
+  "updated_at_th": "11/10/2569 21:18:45",
   "gameweek": 6,
   "team": {
     "name": "Yedtsuna",
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 428,
+        "points": 429,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -44,7 +44,7 @@
       {
         "rank": 3,
         "team": "Runner Up FC",
-        "points": 396,
+        "points": 397,
         "captain": "B.Fernandes",
         "chips": [
           "bboost",
@@ -55,7 +55,7 @@
       {
         "rank": 4,
         "team": "Bombadoo FC.",
-        "points": 389,
+        "points": 390,
         "captain": "João Pedro",
         "chips": [
           "bboost",
@@ -66,7 +66,7 @@
       {
         "rank": 5,
         "team": "SilverBank",
-        "points": 384,
+        "points": 389,
         "captain": "Rogers",
         "chips": [
           "3xc",
@@ -76,7 +76,7 @@
       {
         "rank": 6,
         "team": "KC888",
-        "points": 383,
+        "points": 385,
         "captain": "Wissa",
         "chips": [
           "3xc",
@@ -86,7 +86,7 @@
       {
         "rank": 7,
         "team": "GrossProfit United",
-        "points": 375,
+        "points": 376,
         "captain": "João Pedro",
         "chips": [
           "bboost",
@@ -237,21 +237,21 @@
     },
     {
       "kickoff_time": "2026-10-11T13:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "CRY",
       "away": "NFO",
-      "home_score": null,
-      "away_score": null
+      "home_score": 2,
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-10-11T13:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "HUL",
       "away": "EVE",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-10-11T15:30:00Z",
