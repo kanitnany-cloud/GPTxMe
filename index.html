@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AFC Premier Mini-League Intel GW5</title>
+  <title>AFC Premier Mini-League Intel GW6</title>
   <style>
     :root { --bg:#eef4fb; --card:#fff; --ink:#101827; --muted:#667085; --line:#d9e3ef; --pink:#e90052; --green:#00a86b; --navy:#12213a; --warn:#f59e0b; }
     * { box-sizing:border-box; }
@@ -62,8 +62,8 @@
   </style>
 </head>
 <body>
-  <h1>AFC Premier Mini-League Intel GW5</h1>
-  <p id="pageSubtitle">Gameweek 5 Preview · ทีมคู่แข่งใช้ snapshot ล่าสุดจาก GW4 · Fixture ราคา และข่าวผู้เล่นเป็นข้อมูล GW5</p>
+  <h1>AFC Premier Mini-League Intel GW6</h1>
+  <p id="pageSubtitle">Gameweek 6 Live · ทีมคู่แข่ง, chip และคะแนนใช้ snapshot ล่าสุดจาก FPL API</p>
 
   <section class="panel">
     <h2>Live Refresh Control</h2>
@@ -73,12 +73,13 @@
       <button id="toggleAutoRefresh">Auto Refresh: Off</button>
       <a class="link-btn" href="https://github.com/kanitnany-cloud/GPTxMe/actions/workflows/update-fpl-mini-league.yml" target="_blank" rel="noreferrer">Run GitHub Update</a>
       <a class="link-btn" href="https://fantasy.premierleague.com/leagues/872362/standings/c" target="_blank" rel="noreferrer">Open League</a>
-      <a class="link-btn" href="./mini-league/mini-league-intel-gw5.json" target="_blank" rel="noreferrer">Cached JSON</a>
+      <a class="link-btn" href="./mini-league/mini-league-intel-gw6.json" target="_blank" rel="noreferrer">Cached JSON</a>
+      <a class="link-btn" href="./mini-league/rival-ability-gw6.html">Rival Ability GW6</a>
     </div>
     <div class="status-line" id="liveIntelStatus">Ready · ยังไม่ได้ refresh ในรอบนี้</div>
     <div class="table-wrap" style="margin-top:12px">
       <table>
-        <thead><tr><th>Rank</th><th>Team</th><th>Manager</th><th class="num">GW4 Pts</th><th class="num">Total</th><th>Predicted Captain</th><th>Chip History</th><th>AI Read</th></tr></thead>
+        <thead><tr><th>Rank</th><th>Team</th><th>Manager</th><th class="num">GW6 Pts</th><th class="num">Total</th><th>Captain</th><th>Chip History</th><th>AI Read</th></tr></thead>
         <tbody id="liveIntelRows">
           <tr><td>-</td><td>รอกด Refresh</td><td>-</td><td class="num">-</td><td class="num">-</td><td>-</td><td>-</td><td>ใช้ตาราง snapshot ด้านล่างไปก่อน</td></tr>
         </tbody>
@@ -141,11 +142,11 @@
   </section>
 
   <section class="panel">
-    <h2>Pre-GW5 Actions Audit</h2>
-    <p>ก่อน deadline GW5 ตัวจริงและกัปตันยังถูกซ่อน ตารางนี้จึงแยก Transfer ที่ API ยืนยันแล้วออกจากการคาดการณ์ด้วยทีมล่าสุด, chip history, ราคา และ fixture.</p>
+    <h2>GW6 Actions Audit</h2>
+    <p>ข้อมูลยืนยันจาก FPL API: Transfer, hit, chip และกัปตันของทุกทีมใน GW6 ใช้เป็นฐานวิเคราะห์พฤติกรรมก่อนวางแผน GW7.</p>
     <div class="table-wrap">
       <table class="action-table">
-        <thead><tr><th>Rank</th><th>Team</th><th class="num">GW4 Pts</th><th class="num">Team Value</th><th class="num">Bank</th><th>Predicted Captain</th><th>Chip History</th><th class="num">Confirmed Transfers</th><th class="num">Hit</th><th>Confirmed Moves</th><th>AI Read</th></tr></thead>
+        <thead><tr><th>Rank</th><th>Team</th><th class="num">GW6 Pts</th><th class="num">Team Value</th><th class="num">Bank</th><th>Captain</th><th>Chip History</th><th class="num">Confirmed Transfers</th><th class="num">Hit</th><th>Confirmed Moves</th><th>AI Read</th></tr></thead>
         <tbody id="actionAuditRows">
           <tr><td colspan="11">กำลังโหลด GW actions...</td></tr>
         </tbody>
@@ -183,7 +184,7 @@
     <h2>Team Summary</h2>
     <div class="table-wrap">
       <table>
-        <thead><tr><th>Rank</th><th>Team</th><th>Manager</th><th class="num">GW4 Pts</th><th class="num">Total</th><th class="num">Team Value</th><th class="num">Bank</th><th>Predicted Captain</th><th>Chip Used</th><th>Overlap กับเรา</th><th>โอกาส transfer</th></tr></thead>
+        <thead><tr><th>Rank</th><th>Team</th><th>Manager</th><th class="num">GW6 Pts</th><th class="num">Total</th><th class="num">Team Value</th><th class="num">Bank</th><th>Captain</th><th>Chip Used</th><th>Overlap กับเรา</th><th>โอกาส transfer</th></tr></thead>
         <tbody id="teamSummaryRows">
           
           <tr>
@@ -373,7 +374,7 @@
       <h2>Mini-League Template</h2>
       <div class="table-wrap">
         <table>
-          <thead><tr><th>Player</th><th>Club</th><th class="num">Owners</th><th class="num">Captains</th><th class="num">GW4 Pts</th><th>Action</th></tr></thead>
+          <thead><tr><th>Player</th><th>Club</th><th class="num">Owners</th><th class="num">Captains</th><th class="num">GW6 Pts</th><th>Action</th></tr></thead>
           <tbody id="templateRows">
             <tr><td colspan="6">กำลังโหลด template จาก snapshot ล่าสุด...</td></tr>
           </tbody>
@@ -396,8 +397,8 @@
   </section>
 
   <section class="panel">
-    <h2>Rival-by-Rival GW5 Transfer Prediction</h2>
-    <p><span class="tag good">Confirmed</span> มาจาก FPL API · <span class="tag warn">Predicted</span> คำนวณจากทีม GW4, เงิน, ราคา, fixture, สถานะผู้เล่น, transfer trend และพฤติกรรมเดิม ไม่ใช่ทีมที่ล็อกแล้ว</p>
+    <h2>Rival-by-Rival GW7 Transfer Watch</h2>
+    <p><span class="tag good">Confirmed</span> มาจาก FPL API · <span class="tag warn">Predicted</span> คำนวณจากทีม GW6, เงิน, ราคา, fixture, สถานะผู้เล่น, transfer trend และพฤติกรรมเดิม ไม่ใช่ทีมที่ล็อกแล้ว</p>
     <div class="table-wrap">
       <table class="rival-prediction-table">
         <thead><tr><th>Rank</th><th>Team</th><th class="num">Gap</th><th>Likelihood</th><th>Behavior</th><th>Weak Link / Problem</th><th>Most Likely Targets</th><th>Confirmed GW5 Move</th><th>Predicted Captain</th><th>Chip Probability</th><th class="num">Confidence</th><th>Strategic Read</th></tr></thead>
@@ -408,7 +409,7 @@
 
   <section class="panel matrix">
     <h2>Player Owner + Point Matrix</h2>
-    <p>Owner = จำนวนทีมที่ถือจาก snapshot GW4, Player Total = คะแนน GW4 หลัง multiplier ใช้เป็นฐานอ่าน Template ก่อน GW5; ตัวจริงและกัปตัน GW5 จะยืนยันหลัง deadline</p>
+    <p>Owner = จำนวนทีมที่ถือจาก snapshot GW6, Player Total = คะแนน GW6 หลัง multiplier ใช้เป็นฐานอ่าน Template ก่อน GW7; ข้อมูลตัวจริงและกัปตัน GW6 เป็นข้อมูลยืนยันแล้ว</p>
     <div class="table-wrap">
       <table>
         <thead><tr><th>Player</th><th>Mr.Art</th><th>Sarumann</th><th>JedYubZ_WCC</th><th>ทีมของ Apirak</th><th>GrossProfit United</th><th>Dek Dek FC</th><th>Runner Up FC</th><th>ช่วยใจดีกับลุงหน่อย</th><th>Goal888</th><th>RelegationBattle</th><th>On</th><th>KC888</th><th>Long_Darkz</th><th>Yedtsuna</th><th>SilverBank</th></tr></thead>
@@ -440,7 +441,7 @@
     const chipTrackerEl = document.getElementById('chipTrackerRows');
     const actionAuditEl = document.getElementById('actionAuditRows');
     const snapshotBase = location.pathname.includes('/mini-league/') ? './' : './mini-league/';
-    const currentSnapshotGw = 5;
+    const currentSnapshotGw = 6;
     let autoRefreshTimer = null;
 
     const setPieceIntel = [
