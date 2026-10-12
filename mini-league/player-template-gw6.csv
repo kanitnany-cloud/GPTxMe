@@ -9,11 +9,11 @@ Raya,ARS,9,0,0,3,27,false
 Verbruggen,BHA,8,0,0,9,27,true
 Hall,NEW,7,0,0,0,0,false
 B.Fernandes,MUN,6,2,0,1,7,true
-Wissa,NEW,6,1,0,0,0,true
+Wissa,NEW,6,1,0,2,14,true
 Gvardiol,MCI,6,0,0,4,24,true
 Schade,BRE,6,0,0,1,4,false
 Kostoulas,BHA,5,0,0,1,5,false
-Barnes,NEW,4,1,0,0,0,false
+Barnes,NEW,4,1,0,2,10,false
 Rice,ARS,4,0,0,7,14,false
 Gibbs-White,NFO,4,0,0,2,8,false
 Mitchell,CRY,4,0,0,4,8,false
@@ -36,6 +36,7 @@ Belloumi,HUL,2,0,0,6,6,false
 Tarkowski,EVE,2,0,0,3,6,false
 Gabriel,ARS,2,0,0,2,4,false
 King,FUL,2,0,0,2,4,false
+Thomas,COV,2,0,0,4,4,false
 Wirtz,LIV,2,0,0,2,4,false
 Tzolakis,HUL,2,0,0,2,2,false
 Ajayi,HUL,2,0,0,1,1,false
@@ -45,7 +46,6 @@ Diop,IPS,2,0,0,2,0,true
 Kayode,BRE,2,0,0,0,0,false
 Kinsky,TOT,2,0,0,3,0,false
 Mainoo,MUN,2,0,0,4,0,false
-Thomas,COV,2,0,0,0,0,false
 Trafford,LEE,2,0,0,2,0,false
 Virgil,LIV,2,0,0,0,0,false
 Cunha,MUN,1,0,0,10,10,false
@@ -83,5 +83,5 @@ N.Williams,NFO,1,0,0,1,0,false
 Scott,BOU,1,0,0,0,0,false
 Slater,HUL,1,0,0,2,0,false
 Steele,BHA,1,0,0,0,0,false
-van Ewijk,COV,1,0,0,0,0,false
+van Ewijk,COV,1,0,0,6,0,false
 Van Hecke,TOT,1,0,0,3,0,false
