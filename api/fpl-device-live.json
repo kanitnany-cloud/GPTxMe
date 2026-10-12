@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "12/10/2569 19:47:01",
+  "updated_at_th": "13/10/2569 03:13:25",
   "gameweek": 6,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
-    "points": 479,
-    "gw_points": 87,
+    "points": 480,
+    "gw_points": 88,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Yedtsuna",
       "manager": "Kanitnan Yamjongkol",
-      "points": 479,
+      "points": 480,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Yedtsuna",
-        "points": 479,
+        "points": 480,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 444,
+        "points": 449,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -55,7 +55,7 @@
       {
         "rank": 4,
         "team": "KC888",
-        "points": 398,
+        "points": 400,
         "captain": "Wissa",
         "chips": [
           "3xc",
@@ -64,6 +64,17 @@
       },
       {
         "rank": 5,
+        "team": "Bombadoo FC.",
+        "points": 395,
+        "captain": "João Pedro",
+        "chips": [
+          "bboost",
+          "freehit",
+          "wildcard"
+        ]
+      },
+      {
+        "rank": 6,
         "team": "SilverBank",
         "points": 395,
         "captain": "Rogers",
@@ -73,20 +84,9 @@
         ]
       },
       {
-        "rank": 6,
-        "team": "Bombadoo FC.",
-        "points": 394,
-        "captain": "João Pedro",
-        "chips": [
-          "bboost",
-          "freehit",
-          "wildcard"
-        ]
-      },
-      {
         "rank": 7,
         "team": "GrossProfit United",
-        "points": 387,
+        "points": 388,
         "captain": "João Pedro",
         "chips": [
           "bboost",
@@ -260,12 +260,12 @@
     },
     {
       "kickoff_time": "2026-10-12T19:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "COV",
       "away": "NEW",
-      "home_score": null,
-      "away_score": null
+      "home_score": 2,
+      "away_score": 0
     }
   ],
   "strategy": {
