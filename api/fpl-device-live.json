@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "17/10/2569 23:34:33",
+  "updated_at_th": "18/10/2569 00:29:21",
   "gameweek": 7,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
-    "points": 511,
-    "gw_points": 30,
+    "points": 512,
+    "gw_points": 31,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Yedtsuna",
       "manager": "Kanitnan Yamjongkol",
-      "points": 511,
+      "points": 512,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Yedtsuna",
-        "points": 511,
+        "points": 512,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 482,
+        "points": 483,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -66,7 +66,7 @@
       {
         "rank": 5,
         "team": "SilverBank",
-        "points": 429,
+        "points": 431,
         "captain": "Haaland",
         "chips": [
           "3xc",
@@ -76,33 +76,33 @@
       },
       {
         "rank": 6,
-        "team": "KC888",
-        "points": 426,
-        "captain": "Groß",
-        "chips": [
-          "3xc",
-          "wildcard"
-        ]
-      },
-      {
-        "rank": 7,
         "team": "JedYubZ_WCC",
-        "points": 426,
+        "points": 428,
         "captain": "Haaland",
         "chips": [
           "3xc"
         ]
       },
       {
-        "rank": 8,
+        "rank": 7,
         "team": "tamako-",
-        "points": 425,
+        "points": 427,
         "captain": "Haaland",
         "chips": [
           "bboost",
           "freehit",
           "wildcard",
           "3xc"
+        ]
+      },
+      {
+        "rank": 8,
+        "team": "KC888",
+        "points": 426,
+        "captain": "Groß",
+        "chips": [
+          "3xc",
+          "wildcard"
         ]
       }
     ]
@@ -176,8 +176,8 @@
       "club": "NEW",
       "owners": 8,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 2,
+      "total_points": 16,
       "owned_by_me": false
     }
   ],
@@ -224,8 +224,8 @@
       "finished": false,
       "home": "NEW",
       "away": "AVL",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-10-18T13:00:00Z",
