@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "18/10/2569 00:29:21",
+  "updated_at_th": "18/10/2569 02:02:33",
   "gameweek": 7,
   "team": {
     "name": "Yedtsuna",
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 483,
+        "points": 484,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -66,7 +66,7 @@
       {
         "rank": 5,
         "team": "SilverBank",
-        "points": 431,
+        "points": 433,
         "captain": "Haaland",
         "chips": [
           "3xc",
@@ -77,7 +77,7 @@
       {
         "rank": 6,
         "team": "JedYubZ_WCC",
-        "points": 428,
+        "points": 430,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -86,7 +86,7 @@
       {
         "rank": 7,
         "team": "tamako-",
-        "points": 427,
+        "points": 429,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -176,8 +176,8 @@
       "club": "NEW",
       "owners": 8,
       "captains": 0,
-      "gw_points": 2,
-      "total_points": 16,
+      "gw_points": 4,
+      "total_points": 32,
       "owned_by_me": false
     }
   ],
