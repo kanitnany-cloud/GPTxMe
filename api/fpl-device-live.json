@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "18/10/2569 23:22:11",
+  "updated_at_th": "19/10/2569 00:13:38",
   "gameweek": 7,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
-    "points": 531,
-    "gw_points": 50,
+    "points": 536,
+    "gw_points": 55,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Yedtsuna",
       "manager": "Kanitnan Yamjongkol",
-      "points": 531,
+      "points": 536,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Yedtsuna",
-        "points": 531,
+        "points": 536,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 511,
+        "points": 518,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -44,7 +44,7 @@
       {
         "rank": 3,
         "team": "GrossProfit United",
-        "points": 467,
+        "points": 477,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -55,7 +55,7 @@
       {
         "rank": 4,
         "team": "Runner Up FC",
-        "points": 463,
+        "points": 468,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -65,19 +65,8 @@
       },
       {
         "rank": 5,
-        "team": "SilverBank",
-        "points": 457,
-        "captain": "Haaland",
-        "chips": [
-          "3xc",
-          "wildcard",
-          "bboost"
-        ]
-      },
-      {
-        "rank": 6,
         "team": "tamako-",
-        "points": 449,
+        "points": 462,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -87,9 +76,20 @@
         ]
       },
       {
+        "rank": 6,
+        "team": "SilverBank",
+        "points": 462,
+        "captain": "Haaland",
+        "chips": [
+          "3xc",
+          "wildcard",
+          "bboost"
+        ]
+      },
+      {
         "rank": 7,
         "team": "KC888",
-        "points": 446,
+        "points": 458,
         "captain": "Groß",
         "chips": [
           "3xc",
@@ -99,7 +99,7 @@
       {
         "rank": 8,
         "team": "JedYubZ_WCC",
-        "points": 443,
+        "points": 454,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -140,8 +140,8 @@
       "club": "ARS",
       "owners": 14,
       "captains": 0,
-      "gw_points": 1,
-      "total_points": 13,
+      "gw_points": 6,
+      "total_points": 78,
       "owned_by_me": true
     },
     {
@@ -167,8 +167,8 @@
       "club": "ARS",
       "owners": 9,
       "captains": 0,
-      "gw_points": 1,
-      "total_points": 7,
+      "gw_points": 7,
+      "total_points": 49,
       "owned_by_me": false
     },
     {
