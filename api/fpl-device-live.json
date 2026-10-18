@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "19/10/2569 00:13:38",
+  "updated_at_th": "19/10/2569 01:47:18",
   "gameweek": 7,
   "team": {
     "name": "Yedtsuna",
@@ -55,7 +55,7 @@
       {
         "rank": 4,
         "team": "Runner Up FC",
-        "points": 468,
+        "points": 470,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -66,7 +66,7 @@
       {
         "rank": 5,
         "team": "tamako-",
-        "points": 462,
+        "points": 464,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -89,7 +89,7 @@
       {
         "rank": 7,
         "team": "KC888",
-        "points": 458,
+        "points": 459,
         "captain": "Groß",
         "chips": [
           "3xc",
@@ -99,7 +99,7 @@
       {
         "rank": 8,
         "team": "JedYubZ_WCC",
-        "points": 454,
+        "points": 456,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -167,8 +167,8 @@
       "club": "ARS",
       "owners": 9,
       "captains": 0,
-      "gw_points": 7,
-      "total_points": 49,
+      "gw_points": 9,
+      "total_points": 63,
       "owned_by_me": false
     },
     {
@@ -261,7 +261,7 @@
       "home": "NFO",
       "away": "ARS",
       "home_score": 0,
-      "away_score": 0
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-10-19T19:00:00Z",
