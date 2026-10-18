@@ -86,7 +86,7 @@
       <button id="toggleAutoRefresh">Auto Refresh: Off</button>
       <a class="link-btn" href="https://github.com/kanitnany-cloud/GPTxMe/actions/workflows/update-fpl-mini-league.yml" target="_blank" rel="noreferrer">Run GitHub Update</a>
       <a class="link-btn" href="https://fantasy.premierleague.com/leagues/872362/standings/c" target="_blank" rel="noreferrer">Open League</a>
-      <a class="link-btn" href="./mini-league-intel-gw6.json" target="_blank" rel="noreferrer">Confirmed GW6 JSON</a>
+      <a class="link-btn" href="./mini-league-intel-gw7.json" target="_blank" rel="noreferrer">Live GW7 JSON</a>
     </div>
     <div class="status-line" id="liveIntelStatus">Ready · ยังไม่ได้ refresh ในรอบนี้</div>
     <div class="table-wrap" style="margin-top:12px">
@@ -117,7 +117,7 @@
 
   <section class="panel">
     <h2>Executive Read</h2>
-    <p><span class="tag warn">GW7 PREVIEW</span> รายชื่อ, กัปตัน, chip และ transfer ของคู่แข่งใน GW7 จะถือว่า <b>ยืนยัน</b> หลัง deadline เท่านั้น; หน้านี้ใช้ snapshot GW6 ล่าสุดเพื่อวางแผนล่วงหน้า.</p>
+    <p><span class="tag good">GW7 LIVE</span> รายชื่อ, กัปตัน, chip และ transfer ของคู่แข่งใน GW7 ดึงจาก FPL snapshot ปัจจุบัน; คะแนนยังเปลี่ยนได้จนทุกคู่จบ.</p>
     <div id="executiveRead" class="executive-list">
       <p><b>กำลังโหลด:</b> จะอัปเดตจาก JSON snapshot ล่าสุดเมื่อเปิดหน้า หรือเมื่อกด Refresh Rival Data.</p>
     </div>
@@ -484,8 +484,8 @@
     const chipRivalForecastEl = document.getElementById('chipRivalForecastRows');
     const actionAuditEl = document.getElementById('actionAuditRows');
     const snapshotBase = location.pathname.includes('/mini-league/') ? './' : './mini-league/';
-    // GW7 picks remain private pre-deadline, so the latest confirmed snapshot is GW6.
-    const currentSnapshotGw = 6;
+    // GW7 is in progress: picks, captains and chips are confirmed; live points remain provisional.
+    const currentSnapshotGw = 7;
     let autoRefreshTimer = null;
 
     const setPieceIntel = [
