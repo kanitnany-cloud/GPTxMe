@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "18/10/2569 19:43:45",
+  "updated_at_th": "18/10/2569 20:53:48",
   "gameweek": 7,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
-    "points": 512,
-    "gw_points": 31,
+    "points": 517,
+    "gw_points": 36,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Yedtsuna",
       "manager": "Kanitnan Yamjongkol",
-      "points": 512,
+      "points": 517,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Yedtsuna",
-        "points": 512,
+        "points": 517,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 484,
+        "points": 490,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -43,19 +43,8 @@
       },
       {
         "rank": 3,
-        "team": "Runner Up FC",
-        "points": 438,
-        "captain": "Haaland",
-        "chips": [
-          "bboost",
-          "3xc",
-          "freehit"
-        ]
-      },
-      {
-        "rank": 4,
         "team": "GrossProfit United",
-        "points": 435,
+        "points": 449,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -64,9 +53,20 @@
         ]
       },
       {
+        "rank": 4,
+        "team": "Runner Up FC",
+        "points": 445,
+        "captain": "Haaland",
+        "chips": [
+          "bboost",
+          "3xc",
+          "freehit"
+        ]
+      },
+      {
         "rank": 5,
         "team": "SilverBank",
-        "points": 433,
+        "points": 441,
         "captain": "Haaland",
         "chips": [
           "3xc",
@@ -76,17 +76,8 @@
       },
       {
         "rank": 6,
-        "team": "JedYubZ_WCC",
-        "points": 430,
-        "captain": "Haaland",
-        "chips": [
-          "3xc"
-        ]
-      },
-      {
-        "rank": 7,
         "team": "tamako-",
-        "points": 429,
+        "points": 436,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -96,9 +87,18 @@
         ]
       },
       {
+        "rank": 7,
+        "team": "JedYubZ_WCC",
+        "points": 434,
+        "captain": "Haaland",
+        "chips": [
+          "3xc"
+        ]
+      },
+      {
         "rank": 8,
         "team": "KC888",
-        "points": 426,
+        "points": 433,
         "captain": "Groß",
         "chips": [
           "3xc",
@@ -131,8 +131,8 @@
       "club": "BHA",
       "owners": 14,
       "captains": 1,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 3,
+      "total_points": 42,
       "owned_by_me": true
     },
     {
@@ -158,8 +158,8 @@
       "club": "BHA",
       "owners": 12,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 1,
+      "total_points": 12,
       "owned_by_me": true
     },
     {
@@ -229,30 +229,30 @@
     },
     {
       "kickoff_time": "2026-10-18T13:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "BOU",
       "away": "SUN",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-10-18T13:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "BHA",
       "away": "CRY",
-      "home_score": null,
-      "away_score": null
+      "home_score": 3,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-10-18T13:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "LEE",
       "away": "MUN",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-10-18T15:30:00Z",
