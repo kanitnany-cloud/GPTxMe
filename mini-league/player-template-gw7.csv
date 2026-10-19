@@ -39,15 +39,15 @@ King,FUL,2,0,0,2,4,false
 Ajayi,HUL,2,0,0,2,2,false
 Barry,EVE,2,0,0,2,2,false
 Cunha,MUN,2,0,0,1,2,false
+Kinsky,TOT,2,0,0,2,2,false
 Kayode,BRE,2,0,0,1,1,false
 Brobbey,SUN,2,0,0,0,0,false
 Diop,IPS,2,0,0,3,0,true
 Hughes,CRY,2,0,0,1,0,true
-Kinsky,TOT,2,0,0,0,0,false
 Mainoo,MUN,2,0,0,0,0,false
 Szoboszlai,LIV,2,0,0,1,0,false
 Tarkowski,EVE,2,0,0,0,0,false
-Thomas,COV,2,0,0,0,0,false
+Thomas,COV,2,0,0,3,0,false
 Trafford,LEE,2,0,0,2,0,false
 Evanilson,BOU,1,0,0,12,12,false
 Vuskovic,BHA,1,0,0,11,11,false
@@ -57,6 +57,7 @@ Wirtz,LIV,1,0,0,5,5,false
 E.Le Fée,SUN,1,0,0,4,4,false
 Maguire,MUN,1,0,0,4,4,false
 Thiago,BRE,1,0,0,4,4,false
+Van Hecke,TOT,1,0,0,4,4,false
 Virgil,LIV,1,0,0,4,4,false
 Ajer,BRE,1,0,0,3,3,false
 Rayan,BOU,1,0,0,3,3,false
@@ -84,6 +85,5 @@ Pickford,EVE,1,0,0,2,0,false
 Shaw,MUN,1,0,0,0,0,false
 Slater,HUL,1,0,0,1,0,false
 Steele,BHA,1,0,0,0,0,false
-van Ewijk,COV,1,0,0,0,0,false
-Van Hecke,TOT,1,0,0,0,0,false
+van Ewijk,COV,1,0,0,1,0,false
 Janelt,BRE,1,0,0,-1,-1,false

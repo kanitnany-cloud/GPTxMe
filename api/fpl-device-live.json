@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "20/10/2569 00:42:14",
+  "updated_at_th": "20/10/2569 04:20:50",
   "gameweek": 7,
   "team": {
     "name": "Yedtsuna",
@@ -65,6 +65,17 @@
       },
       {
         "rank": 5,
+        "team": "SilverBank",
+        "points": 468,
+        "captain": "Haaland",
+        "chips": [
+          "3xc",
+          "wildcard",
+          "bboost"
+        ]
+      },
+      {
+        "rank": 6,
         "team": "tamako-",
         "points": 464,
         "captain": "Haaland",
@@ -73,17 +84,6 @@
           "freehit",
           "wildcard",
           "3xc"
-        ]
-      },
-      {
-        "rank": 6,
-        "team": "SilverBank",
-        "points": 462,
-        "captain": "Haaland",
-        "chips": [
-          "3xc",
-          "wildcard",
-          "bboost"
         ]
       },
       {
@@ -265,12 +265,12 @@
     },
     {
       "kickoff_time": "2026-10-19T19:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "TOT",
       "away": "COV",
-      "home_score": null,
-      "away_score": null
+      "home_score": 3,
+      "away_score": 1
     }
   ],
   "strategy": {
