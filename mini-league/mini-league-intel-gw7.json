@@ -41,7 +41,24 @@
       "element_types": [],
       "pick_multiplier": null
     },
-    "chip_plays": [],
+    "chip_plays": [
+      {
+        "chip_name": "bboost",
+        "num_played": 179094
+      },
+      {
+        "chip_name": "freehit",
+        "num_played": 93126
+      },
+      {
+        "chip_name": "wildcard",
+        "num_played": 335228
+      },
+      {
+        "chip_name": "3xc",
+        "num_played": 724286
+      }
+    ],
     "most_selected": 411,
     "most_transferred_in": 399,
     "top_element": 156,
@@ -50,10 +67,10 @@
       "points": 15
     },
     "transfers_made": 12547022,
-    "most_captained": null,
-    "most_vice_captained": null
+    "most_captained": 411,
+    "most_vice_captained": 165
   },
-  "generatedAt": "19/10/2569 16:38:09",
+  "generatedAt": "19/10/2569 23:48:57",
   "teams": [
     {
       "entry": 3944270,
@@ -199,7 +216,7 @@
       ],
       "overlap15": 15,
       "overlapXI": 11,
-      "transferLikelihood": "กลาง",
+      "transferLikelihood": "สูง",
       "picks": [
         {
           "element": 109,
@@ -568,7 +585,7 @@
       ],
       "overlap15": 6,
       "overlapXI": 5,
-      "transferLikelihood": "ต่ำ",
+      "transferLikelihood": "สูง",
       "picks": [
         {
           "element": 109,
@@ -2007,7 +2024,7 @@
       ],
       "overlap15": 5,
       "overlapXI": 5,
-      "transferLikelihood": "ต่ำ",
+      "transferLikelihood": "สูง",
       "picks": [
         {
           "element": 1,
@@ -5115,7 +5132,7 @@
       ],
       "overlap15": 5,
       "overlapXI": 5,
-      "transferLikelihood": "กลาง",
+      "transferLikelihood": "สูง",
       "picks": [
         {
           "element": 1,
@@ -5452,7 +5469,7 @@
       ],
       "overlap15": 4,
       "overlapXI": 3,
-      "transferLikelihood": "กลาง",
+      "transferLikelihood": "สูง",
       "picks": [
         {
           "element": 572,
