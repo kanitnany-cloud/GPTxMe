@@ -53,7 +53,7 @@
     "most_captained": null,
     "most_vice_captained": null
   },
-  "generatedAt": "19/10/2569 06:30:23",
+  "generatedAt": "19/10/2569 10:30:26",
   "teams": [
     {
       "entry": 3944270,
@@ -3175,8 +3175,8 @@
       "entry_name": "Bombadoo FC.",
       "player_name": "Apirak Aiman",
       "rank": 9,
-      "event_total": 44,
-      "total": 440,
+      "event_total": 46,
+      "total": 442,
       "team_value": 100.8,
       "bank": 0.4,
       "captain": "João Pedro",
@@ -3537,8 +3537,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 7,
-          "points": 7
+          "event_points": 9,
+          "points": 9
         },
         {
           "element": 426,
@@ -4104,8 +4104,8 @@
       "entry_name": "RelegationBattle",
       "player_name": "Katha Panthong",
       "rank": 11,
-      "event_total": 67,
-      "total": 417,
+      "event_total": 69,
+      "total": 419,
       "team_value": 101.2,
       "bank": 1.2,
       "captain": "Haaland",
@@ -4313,8 +4313,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 7,
-          "points": 7
+          "event_points": 9,
+          "points": 9
         },
         {
           "element": 40,
@@ -4404,8 +4404,8 @@
       "entry_name": "On",
       "player_name": "Peerawat Y",
       "rank": 12,
-      "event_total": 70,
-      "total": 416,
+      "event_total": 72,
+      "total": 418,
       "team_value": 101.6,
       "bank": 1.7,
       "captain": "Haaland",
@@ -4653,8 +4653,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 7,
-          "points": 7
+          "event_points": 9,
+          "points": 9
         },
         {
           "element": 453,
@@ -6553,8 +6553,8 @@
       "entry_name": "Talens10",
       "player_name": "Talëns Ten",
       "rank": 17,
-      "event_total": 54,
-      "total": 206,
+      "event_total": 58,
+      "total": 210,
       "team_value": 100.5,
       "bank": 0.2,
       "captain": "Rice",
@@ -7030,8 +7030,8 @@
           "club": "ARS",
           "multiplier": 2,
           "flag": "C",
-          "event_points": 7,
-          "points": 14
+          "event_points": 9,
+          "points": 18
         },
         {
           "element": 239,
@@ -7424,8 +7424,8 @@
       "owners": 4,
       "captains": 1,
       "tripleCaptains": 0,
-      "event_points": 7,
-      "total_points": 35,
+      "event_points": 9,
+      "total_points": 45,
       "ownedByMe": false
     },
     {
