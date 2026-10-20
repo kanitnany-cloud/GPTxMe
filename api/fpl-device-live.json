@@ -1,12 +1,12 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "20/10/2569 17:59:28",
+  "updated_at_th": "20/10/2569 19:03:24",
   "gameweek": 7,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
-    "points": 536,
+    "points": 538,
     "gw_points": 57,
     "captain": "Haaland",
     "captain_multiplier": 2
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Yedtsuna",
       "manager": "Kanitnan Yamjongkol",
-      "points": 536,
+      "points": 538,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Yedtsuna",
-        "points": 536,
+        "points": 538,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -55,7 +55,7 @@
       {
         "rank": 4,
         "team": "Runner Up FC",
-        "points": 470,
+        "points": 473,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -88,21 +88,21 @@
       },
       {
         "rank": 7,
+        "team": "JedYubZ_WCC",
+        "points": 464,
+        "captain": "Haaland",
+        "chips": [
+          "3xc"
+        ]
+      },
+      {
+        "rank": 8,
         "team": "KC888",
         "points": 459,
         "captain": "Groß",
         "chips": [
           "3xc",
           "wildcard"
-        ]
-      },
-      {
-        "rank": 8,
-        "team": "JedYubZ_WCC",
-        "points": 456,
-        "captain": "Haaland",
-        "chips": [
-          "3xc"
         ]
       }
     ]
