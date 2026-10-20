@@ -20,8 +20,8 @@
     "deadline_time": "2026-10-17T10:00:00Z",
     "release_time": null,
     "average_entry_score": 59,
-    "finished": false,
-    "data_checked": false,
+    "finished": true,
+    "data_checked": true,
     "highest_scoring_entry": 504619,
     "deadline_time_epoch": 1792231200,
     "deadline_time_game_offset": 0,
@@ -70,7 +70,7 @@
     "most_captained": 411,
     "most_vice_captained": 165
   },
-  "generatedAt": "20/10/2569 22:36:49",
+  "generatedAt": "21/10/2569 02:50:36",
   "teams": [
     {
       "entry": 3944270,
@@ -216,7 +216,7 @@
       ],
       "overlap15": 15,
       "overlapXI": 11,
-      "transferLikelihood": "สูง",
+      "transferLikelihood": "กลาง",
       "picks": [
         {
           "element": 109,
@@ -585,7 +585,7 @@
       ],
       "overlap15": 6,
       "overlapXI": 5,
-      "transferLikelihood": "สูง",
+      "transferLikelihood": "ต่ำ",
       "picks": [
         {
           "element": 109,
@@ -2392,7 +2392,7 @@
       ],
       "overlap15": 5,
       "overlapXI": 5,
-      "transferLikelihood": "สูง",
+      "transferLikelihood": "กลาง",
       "picks": [
         {
           "element": 1,
@@ -5132,7 +5132,7 @@
       ],
       "overlap15": 5,
       "overlapXI": 5,
-      "transferLikelihood": "สูง",
+      "transferLikelihood": "กลาง",
       "picks": [
         {
           "element": 1,
