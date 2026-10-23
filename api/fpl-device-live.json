@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "24/10/2569 03:12:51",
+  "updated_at_th": "24/10/2569 06:01:42",
   "gameweek": 8,
   "team": {
     "name": "Yedtsuna",
@@ -44,7 +44,7 @@
       {
         "rank": 3,
         "team": "GrossProfit United",
-        "points": 478,
+        "points": 479,
         "captain": "João Pedro",
         "chips": [
           "bboost",
@@ -54,6 +54,17 @@
       },
       {
         "rank": 4,
+        "team": "SilverBank",
+        "points": 470,
+        "captain": "João Pedro",
+        "chips": [
+          "3xc",
+          "wildcard",
+          "bboost"
+        ]
+      },
+      {
+        "rank": 5,
         "team": "Runner Up FC",
         "points": 470,
         "captain": "Mbeumo",
@@ -61,17 +72,6 @@
           "bboost",
           "3xc",
           "freehit"
-        ]
-      },
-      {
-        "rank": 5,
-        "team": "SilverBank",
-        "points": 469,
-        "captain": "João Pedro",
-        "chips": [
-          "3xc",
-          "wildcard",
-          "bboost"
         ]
       },
       {
@@ -89,7 +89,7 @@
       {
         "rank": 7,
         "team": "KC888",
-        "points": 460,
+        "points": 461,
         "captain": "Haaland",
         "chips": [
           "3xc",
