@@ -19,13 +19,13 @@
     "name": "Gameweek 8",
     "deadline_time": "2026-10-23T17:30:00Z",
     "release_time": null,
-    "average_entry_score": 1,
+    "average_entry_score": 27,
     "finished": false,
     "data_checked": false,
-    "highest_scoring_entry": 11153761,
+    "highest_scoring_entry": 5718722,
     "deadline_time_epoch": 1792776600,
     "deadline_time_game_offset": 0,
-    "highest_score": 45,
+    "highest_score": 102,
     "is_previous": false,
     "is_current": true,
     "is_next": false,
@@ -34,7 +34,7 @@
     "can_enter": false,
     "can_manage": false,
     "released": true,
-    "ranked_count": 11112858,
+    "ranked_count": 11112337,
     "overrides": {
       "rules": {},
       "scoring": {},
@@ -70,15 +70,15 @@
     "most_captained": 411,
     "most_vice_captained": 165
   },
-  "generatedAt": "25/10/2569 01:19:10",
+  "generatedAt": "25/10/2569 04:03:42",
   "teams": [
     {
       "entry": 3944270,
       "entry_name": "Yedtsuna",
       "player_name": "Kanitnan Yamjongkol",
       "rank": 1,
-      "event_total": 19,
-      "total": 557,
+      "event_total": 18,
+      "total": 556,
       "team_value": 103.1,
       "bank": 0.8,
       "captain": "Haaland",
@@ -182,15 +182,15 @@
         },
         {
           "event": 8,
-          "points": 0,
-          "total_points": 538,
-          "rank": 3097279,
-          "overall_rank": 27319,
+          "points": 18,
+          "total_points": 556,
+          "rank": 8595743,
+          "overall_rank": 97173,
           "bank": 0.8,
           "team_value": 103.1,
           "event_transfers": 0,
           "event_transfers_cost": 0,
-          "points_on_bench": 1
+          "points_on_bench": 2
         }
       ],
       "chip_history": [
@@ -290,8 +290,8 @@
           "club": "CHE",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 2,
-          "points": 2
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 399,
@@ -492,15 +492,15 @@
         },
         {
           "event": 8,
-          "points": 0,
-          "total_points": 518,
-          "rank": 8199913,
-          "overall_rank": 144881,
+          "points": 23,
+          "total_points": 541,
+          "rank": 7111813,
+          "overall_rank": 254730,
           "bank": 7.2,
           "team_value": 101.7,
           "event_transfers": 1,
           "event_transfers_cost": 0,
-          "points_on_bench": 0
+          "points_on_bench": 1
         }
       ],
       "chip_history": [
@@ -884,15 +884,15 @@
         },
         {
           "event": 8,
-          "points": 2,
-          "total_points": 479,
-          "rank": 1985379,
-          "overall_rank": 1068470,
+          "points": 32,
+          "total_points": 509,
+          "rank": 3603495,
+          "overall_rank": 1075580,
           "bank": 1.8,
           "team_value": 103.4,
           "event_transfers": 1,
           "event_transfers_cost": 0,
-          "points_on_bench": 0
+          "points_on_bench": 1
         }
       ],
       "chip_history": [
@@ -1300,8 +1300,8 @@
       "entry_name": "KC888",
       "player_name": "KC B",
       "rank": 4,
-      "event_total": 45,
-      "total": 504,
+      "event_total": 44,
+      "total": 503,
       "team_value": 101.4,
       "bank": 4.9,
       "captain": "Haaland",
@@ -1415,15 +1415,15 @@
         },
         {
           "event": 8,
-          "points": 2,
-          "total_points": 461,
-          "rank": 1985379,
-          "overall_rank": 1921344,
+          "points": 44,
+          "total_points": 503,
+          "rank": 823174,
+          "overall_rank": 1328216,
           "bank": 4.9,
           "team_value": 101.4,
           "event_transfers": 1,
           "event_transfers_cost": 0,
-          "points_on_bench": 1
+          "points_on_bench": 3
         }
       ],
       "chip_history": [
@@ -1570,8 +1570,8 @@
           "club": "CHE",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 2,
-          "points": 2
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 286,
@@ -1652,8 +1652,8 @@
       "entry_name": "tamako-",
       "player_name": "tamako- .",
       "rank": 5,
-      "event_total": 30,
-      "total": 494,
+      "event_total": 29,
+      "total": 493,
       "team_value": 100.4,
       "bank": 0.7,
       "captain": "João Pedro",
@@ -1781,15 +1781,15 @@
         },
         {
           "event": 8,
-          "points": 0,
-          "total_points": 464,
-          "rank": 9740637,
-          "overall_rank": 1754268,
+          "points": 29,
+          "total_points": 493,
+          "rank": 4604443,
+          "overall_rank": 1783396,
           "bank": 0.7,
           "team_value": 100.4,
           "event_transfers": 2,
           "event_transfers_cost": 0,
-          "points_on_bench": 0
+          "points_on_bench": 1
         }
       ],
       "chip_history": [
@@ -2135,8 +2135,8 @@
           "club": "CHE",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 2,
-          "points": 2
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 268,
@@ -2226,8 +2226,8 @@
       "entry_name": "SilverBank",
       "player_name": "Mr PHAKPHUM",
       "rank": 6,
-      "event_total": 19,
-      "total": 487,
+      "event_total": 18,
+      "total": 486,
       "team_value": 102.2,
       "bank": 0,
       "captain": "João Pedro",
@@ -2341,15 +2341,15 @@
         },
         {
           "event": 8,
-          "points": 2,
-          "total_points": 470,
-          "rank": 1139922,
-          "overall_rank": 1459225,
+          "points": 18,
+          "total_points": 486,
+          "rank": 8595743,
+          "overall_rank": 2146073,
           "bank": 0,
           "team_value": 102.2,
           "event_transfers": 0,
           "event_transfers_cost": 0,
-          "points_on_bench": 0
+          "points_on_bench": 18
         }
       ],
       "chip_history": [
@@ -2510,8 +2510,8 @@
           "club": "CHE",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 2,
-          "points": 2
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 124,
@@ -2564,7 +2564,7 @@
           "club": "TOT",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 10,
+          "event_points": 9,
           "points": 0
         },
         {
@@ -2591,7 +2591,7 @@
           "club": "TOT",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 8,
+          "event_points": 7,
           "points": 0
         }
       ]
@@ -2601,8 +2601,8 @@
       "entry_name": "Runner Up FC",
       "player_name": "Tangii Slur",
       "rank": 7,
-      "event_total": 14,
-      "total": 487,
+      "event_total": 13,
+      "total": 486,
       "team_value": 101.1,
       "bank": 2.5,
       "captain": "Mbeumo",
@@ -2721,15 +2721,15 @@
         },
         {
           "event": 8,
-          "points": 0,
-          "total_points": 473,
-          "rank": 8199913,
-          "overall_rank": 1330770,
+          "points": 13,
+          "total_points": 486,
+          "rank": 9829574,
+          "overall_rank": 2155527,
           "bank": 2.5,
           "team_value": 101.1,
           "event_transfers": 1,
           "event_transfers_cost": 0,
-          "points_on_bench": 0
+          "points_on_bench": 9
         }
       ],
       "chip_history": [
@@ -2917,8 +2917,8 @@
           "club": "CHE",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 2,
-          "points": 2
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 14,
@@ -2962,7 +2962,7 @@
           "club": "TOT",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 10,
+          "event_points": 9,
           "points": 0
         },
         {
@@ -2999,8 +2999,8 @@
       "entry_name": "JedYubZ_WCC",
       "player_name": "Chetsada Muangsri",
       "rank": 8,
-      "event_total": 18,
-      "total": 482,
+      "event_total": 17,
+      "total": 481,
       "team_value": 102.1,
       "bank": 0.5,
       "captain": "João Pedro",
@@ -3109,15 +3109,15 @@
         },
         {
           "event": 8,
-          "points": 0,
-          "total_points": 464,
-          "rank": 8199913,
-          "overall_rank": 1791517,
+          "points": 17,
+          "total_points": 481,
+          "rank": 9155976,
+          "overall_rank": 2461247,
           "bank": 0.5,
           "team_value": 102.1,
           "event_transfers": 1,
           "event_transfers_cost": 0,
-          "points_on_bench": 0
+          "points_on_bench": 2
         }
       ],
       "chip_history": [
@@ -3253,8 +3253,8 @@
           "club": "CHE",
           "multiplier": 1,
           "flag": "VC",
-          "event_points": 2,
-          "points": 2
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 124,
@@ -3335,8 +3335,8 @@
       "entry_name": "RelegationBattle",
       "player_name": "Katha Panthong",
       "rank": 9,
-      "event_total": 43,
-      "total": 462,
+      "event_total": 42,
+      "total": 461,
       "team_value": 101.5,
       "bank": 2.6,
       "captain": "Haaland",
@@ -3443,15 +3443,15 @@
         },
         {
           "event": 8,
-          "points": 0,
-          "total_points": 419,
-          "rank": 9740637,
-          "overall_rank": 4569973,
+          "points": 42,
+          "total_points": 461,
+          "rank": 1208154,
+          "overall_rank": 3658115,
           "bank": 2.6,
           "team_value": 101.5,
           "event_transfers": 2,
           "event_transfers_cost": 0,
-          "points_on_bench": 7
+          "points_on_bench": 9
         }
       ],
       "chip_history": [],
@@ -3590,8 +3590,8 @@
           "club": "CHE",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 2,
-          "points": 2
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 79,
@@ -3663,8 +3663,8 @@
       "entry_name": "Sarumann",
       "player_name": "Jetsadakorn Maungkum",
       "rank": 10,
-      "event_total": 32,
-      "total": 452,
+      "event_total": 31,
+      "total": 451,
       "team_value": 102.5,
       "bank": 0.4,
       "captain": "João Pedro",
@@ -3791,10 +3791,10 @@
         },
         {
           "event": 8,
-          "points": 15,
-          "total_points": 435,
-          "rank": 21483,
-          "overall_rank": 3511619,
+          "points": 31,
+          "total_points": 451,
+          "rank": 4004304,
+          "overall_rank": 4279012,
           "bank": 0.4,
           "team_value": 102.5,
           "event_transfers": 3,
@@ -4092,8 +4092,8 @@
           "club": "CHE",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 2,
-          "points": 2
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 154,
@@ -4183,8 +4183,8 @@
       "entry_name": "Bombadoo FC.",
       "player_name": "Apirak Aiman",
       "rank": 11,
-      "event_total": 8,
-      "total": 450,
+      "event_total": 7,
+      "total": 449,
       "team_value": 101.1,
       "bank": 4.2,
       "captain": "João Pedro",
@@ -4303,15 +4303,15 @@
         },
         {
           "event": 8,
-          "points": 0,
-          "total_points": 442,
-          "rank": 8199913,
-          "overall_rank": 3015919,
+          "points": 7,
+          "total_points": 449,
+          "rank": 10728737,
+          "overall_rank": 4361195,
           "bank": 4.2,
           "team_value": 101.1,
           "event_transfers": 1,
           "event_transfers_cost": 0,
-          "points_on_bench": 0
+          "points_on_bench": 2
         }
       ],
       "chip_history": [
@@ -4577,8 +4577,8 @@
           "club": "CHE",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 2,
-          "points": 2
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 15,
@@ -4659,8 +4659,8 @@
       "entry_name": "On",
       "player_name": "Peerawat Y",
       "rank": 12,
-      "event_total": 23,
-      "total": 441,
+      "event_total": 22,
+      "total": 440,
       "team_value": 101.9,
       "bank": 0.6,
       "captain": "Haaland",
@@ -4773,15 +4773,15 @@
         },
         {
           "event": 8,
-          "points": 0,
-          "total_points": 418,
-          "rank": 9740637,
-          "overall_rank": 4598296,
+          "points": 22,
+          "total_points": 440,
+          "rank": 7473242,
+          "overall_rank": 4929832,
           "bank": 0.6,
           "team_value": 101.9,
           "event_transfers": 2,
           "event_transfers_cost": 0,
-          "points_on_bench": 0
+          "points_on_bench": 3
         }
       ],
       "chip_history": [
@@ -4932,8 +4932,8 @@
           "club": "CHE",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 2,
-          "points": 2
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 13,
@@ -5023,8 +5023,8 @@
       "entry_name": "Dek Dek FC",
       "player_name": "NTY D",
       "rank": 13,
-      "event_total": 17,
-      "total": 405,
+      "event_total": 16,
+      "total": 404,
       "team_value": 100.1,
       "bank": 0.1,
       "captain": "João Pedro",
@@ -5138,10 +5138,10 @@
         },
         {
           "event": 8,
-          "points": 0,
-          "total_points": 388,
-          "rank": 3097279,
-          "overall_rank": 6499567,
+          "points": 16,
+          "total_points": 404,
+          "rank": 9259876,
+          "overall_rank": 6973871,
           "bank": 0.1,
           "team_value": 100.1,
           "event_transfers": 0,
@@ -5454,8 +5454,8 @@
           "club": "CHE",
           "multiplier": 1,
           "flag": "VC",
-          "event_points": 2,
-          "points": 2
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 94,
@@ -5659,10 +5659,10 @@
         },
         {
           "event": 8,
-          "points": 0,
-          "total_points": 378,
-          "rank": 3097279,
-          "overall_rank": 7062335,
+          "points": 17,
+          "total_points": 395,
+          "rank": 8960257,
+          "overall_rank": 7407053,
           "bank": 3.1,
           "team_value": 101.2,
           "event_transfers": 0,
@@ -6002,15 +6002,15 @@
         },
         {
           "event": 8,
-          "points": 0,
-          "total_points": 357,
-          "rank": 3097279,
-          "overall_rank": 8060097,
+          "points": 23,
+          "total_points": 380,
+          "rank": 6902838,
+          "overall_rank": 8045045,
           "bank": 0.4,
           "team_value": 99.6,
           "event_transfers": 0,
           "event_transfers_cost": 0,
-          "points_on_bench": 0
+          "points_on_bench": 1
         }
       ],
       "chip_history": [],
@@ -6381,10 +6381,10 @@
         },
         {
           "event": 8,
-          "points": 0,
-          "total_points": 343,
-          "rank": 9740637,
-          "overall_rank": 8571814,
+          "points": 28,
+          "total_points": 371,
+          "rank": 5005121,
+          "overall_rank": 8367288,
           "bank": 2.1,
           "team_value": 103.1,
           "event_transfers": 2,
@@ -6984,15 +6984,15 @@
         },
         {
           "event": 8,
-          "points": 2,
-          "total_points": 212,
-          "rank": 1985379,
-          "overall_rank": 10486961,
+          "points": 30,
+          "total_points": 240,
+          "rank": 4208198,
+          "overall_rank": 10447960,
           "bank": 0,
           "team_value": 100.8,
           "event_transfers": 1,
           "event_transfers_cost": 0,
-          "points_on_bench": 1
+          "points_on_bench": 3
         }
       ],
       "chip_history": [],
@@ -7432,8 +7432,8 @@
       "entry_name": "Sweetzer's Team",
       "player_name": "Sweetzer level",
       "rank": 18,
-      "event_total": 2,
-      "total": 47,
+      "event_total": 1,
+      "total": 46,
       "team_value": 101.3,
       "bank": 1.1,
       "captain": "João Pedro",
@@ -7459,15 +7459,15 @@
         },
         {
           "event": 8,
-          "points": 0,
-          "total_points": 45,
-          "rank": 3097279,
-          "overall_rank": 11036026,
+          "points": 1,
+          "total_points": 46,
+          "rank": 11056712,
+          "overall_rank": 11055490,
           "bank": 1.1,
           "team_value": 101.3,
           "event_transfers": 0,
           "event_transfers_cost": 0,
-          "points_on_bench": 0
+          "points_on_bench": 1
         }
       ],
       "chip_history": [],
@@ -7536,8 +7536,8 @@
           "club": "CHE",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 2,
-          "points": 2
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 427,
@@ -7666,8 +7666,8 @@
       "owners": 12,
       "captains": 0,
       "tripleCaptains": 0,
-      "event_points": 2,
-      "total_points": 24,
+      "event_points": 1,
+      "total_points": 12,
       "ownedByMe": true
     },
     {
@@ -8117,7 +8117,7 @@
       "owners": 2,
       "captains": 0,
       "tripleCaptains": 0,
-      "event_points": 10,
+      "event_points": 9,
       "total_points": 0,
       "ownedByMe": false
     },
@@ -8535,7 +8535,7 @@
       "owners": 1,
       "captains": 0,
       "tripleCaptains": 0,
-      "event_points": 8,
+      "event_points": 7,
       "total_points": 0,
       "ownedByMe": false
     },
