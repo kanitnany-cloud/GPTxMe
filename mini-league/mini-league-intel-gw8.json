@@ -70,15 +70,15 @@
     "most_captained": 411,
     "most_vice_captained": 165
   },
-  "generatedAt": "24/10/2569 13:54:26",
+  "generatedAt": "24/10/2569 18:51:37",
   "teams": [
     {
       "entry": 3944270,
       "entry_name": "Yedtsuna",
       "player_name": "Kanitnan Yamjongkol",
       "rank": 1,
-      "event_total": 0,
-      "total": 538,
+      "event_total": 3,
+      "total": 541,
       "team_value": 103.1,
       "bank": 0.8,
       "captain": "Haaland",
@@ -299,8 +299,8 @@
           "club": "MCI",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 411,
@@ -308,8 +308,8 @@
           "club": "MCI",
           "multiplier": 2,
           "flag": "C",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 2
         },
         {
           "element": 165,
@@ -344,7 +344,7 @@
           "club": "MCI",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 0,
+          "event_points": 1,
           "points": 0
         },
         {
@@ -372,8 +372,8 @@
       "entry_name": "ช่วยใจดีกับลุงหน่อย",
       "player_name": "Palm Xavier",
       "rank": 2,
-      "event_total": 0,
-      "total": 518,
+      "event_total": 1,
+      "total": 519,
       "team_value": 101.7,
       "bank": 7.2,
       "captain": "Palmer",
@@ -620,7 +620,7 @@
       ],
       "overlap15": 6,
       "overlapXI": 5,
-      "transferLikelihood": "กลาง",
+      "transferLikelihood": "สูง",
       "picks": [
         {
           "element": 109,
@@ -718,8 +718,8 @@
           "club": "MCI",
           "multiplier": 1,
           "flag": "VC",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 497,
@@ -764,8 +764,8 @@
       "entry_name": "GrossProfit United",
       "player_name": "wiroon chemkhoonthod",
       "rank": 3,
-      "event_total": 2,
-      "total": 479,
+      "event_total": 3,
+      "total": 480,
       "team_value": 103.4,
       "bank": 1.8,
       "captain": "João Pedro",
@@ -1254,8 +1254,8 @@
           "club": "MCI",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 109,
@@ -1272,7 +1272,7 @@
           "club": "MCI",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 0,
+          "event_points": 1,
           "points": 0
         },
         {
@@ -1300,8 +1300,8 @@
       "entry_name": "Runner Up FC",
       "player_name": "Tangii Slur",
       "rank": 4,
-      "event_total": 0,
-      "total": 473,
+      "event_total": 2,
+      "total": 475,
       "team_value": 101.1,
       "bank": 2.5,
       "captain": "Mbeumo",
@@ -1607,8 +1607,8 @@
           "club": "MCI",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 40,
@@ -1652,8 +1652,8 @@
           "club": "MCI",
           "multiplier": 1,
           "flag": "VC",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 496,
@@ -1698,8 +1698,8 @@
       "entry_name": "SilverBank",
       "player_name": "Mr PHAKPHUM",
       "rank": 5,
-      "event_total": 2,
-      "total": 470,
+      "event_total": 4,
+      "total": 472,
       "team_value": 102.2,
       "bank": 0,
       "captain": "João Pedro",
@@ -2009,8 +2009,8 @@
           "club": "MCI",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 411,
@@ -2018,8 +2018,8 @@
           "club": "MCI",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 165,
@@ -2069,12 +2069,348 @@
       ]
     },
     {
+      "entry": 7915661,
+      "entry_name": "JedYubZ_WCC",
+      "player_name": "Chetsada Muangsri",
+      "rank": 6,
+      "event_total": 2,
+      "total": 466,
+      "team_value": 102.1,
+      "bank": 0.5,
+      "captain": "João Pedro",
+      "captain_multiplier": 2,
+      "chips": [
+        {
+          "name": "3xc",
+          "time": "2026-10-16T03:30:00.611086Z",
+          "event": 7
+        }
+      ],
+      "transfer_audit": {
+        "count": 1,
+        "cost": 0,
+        "moves": [
+          {
+            "out": "Gomez",
+            "in": "Mbeumo"
+          }
+        ]
+      },
+      "weekly_history": [
+        {
+          "event": 1,
+          "points": 50,
+          "total_points": 50,
+          "rank": 4383530,
+          "overall_rank": 4383525,
+          "bank": 0,
+          "team_value": 100,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 2
+        },
+        {
+          "event": 2,
+          "points": 86,
+          "total_points": 136,
+          "rank": 3847039,
+          "overall_rank": 3835742,
+          "bank": 0.9,
+          "team_value": 100.2,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 8
+        },
+        {
+          "event": 3,
+          "points": 45,
+          "total_points": 177,
+          "rank": 7750318,
+          "overall_rank": 5309421,
+          "bank": 0,
+          "team_value": 100.1,
+          "event_transfers": 2,
+          "event_transfers_cost": 4,
+          "points_on_bench": 9
+        },
+        {
+          "event": 4,
+          "points": 85,
+          "total_points": 262,
+          "rank": 1475370,
+          "overall_rank": 3551311,
+          "bank": 0,
+          "team_value": 100.2,
+          "event_transfers": 0,
+          "event_transfers_cost": 0,
+          "points_on_bench": 3
+        },
+        {
+          "event": 5,
+          "points": 42,
+          "total_points": 300,
+          "rank": 7644623,
+          "overall_rank": 4524801,
+          "bank": 0.1,
+          "team_value": 100.5,
+          "event_transfers": 3,
+          "event_transfers_cost": 4,
+          "points_on_bench": 8
+        },
+        {
+          "event": 6,
+          "points": 84,
+          "total_points": 380,
+          "rank": 351091,
+          "overall_rank": 2928033,
+          "bank": 0.6,
+          "team_value": 100.7,
+          "event_transfers": 2,
+          "event_transfers_cost": 4,
+          "points_on_bench": 13
+        },
+        {
+          "event": 7,
+          "points": 84,
+          "total_points": 464,
+          "rank": 297409,
+          "overall_rank": 1753091,
+          "bank": 3.4,
+          "team_value": 101.4,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 10
+        },
+        {
+          "event": 8,
+          "points": 0,
+          "total_points": 464,
+          "rank": 8199913,
+          "overall_rank": 1791517,
+          "bank": 0.5,
+          "team_value": 102.1,
+          "event_transfers": 1,
+          "event_transfers_cost": 0,
+          "points_on_bench": 0
+        }
+      ],
+      "chip_history": [
+        {
+          "name": "3xc",
+          "event": 7,
+          "time": "2026-10-16T03:30:00.611086Z"
+        }
+      ],
+      "transfer_history": [
+        {
+          "event": 8,
+          "time": "2026-10-23T15:33:11.808260Z",
+          "out": "Gomez",
+          "in": "Mbeumo"
+        },
+        {
+          "event": 7,
+          "time": "2026-10-17T08:56:30.087466Z",
+          "out": "Gibbs-White",
+          "in": "Belloumi"
+        },
+        {
+          "event": 6,
+          "time": "2026-10-10T06:36:15.959722Z",
+          "out": "Muñoz",
+          "in": "Hall"
+        },
+        {
+          "event": 6,
+          "time": "2026-10-09T03:07:22.444049Z",
+          "out": "Tzolis",
+          "in": "Groß"
+        },
+        {
+          "event": 5,
+          "time": "2026-09-18T13:21:49.832174Z",
+          "out": "Shaw",
+          "in": "Guéhi"
+        },
+        {
+          "event": 5,
+          "time": "2026-09-18T13:21:49.831641Z",
+          "out": "Tonali",
+          "in": "Gibbs-White"
+        },
+        {
+          "event": 5,
+          "time": "2026-09-18T13:21:49.825911Z",
+          "out": "B.Fernandes",
+          "in": "Rogers"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T06:29:48.728617Z",
+          "out": "M.Sangaré",
+          "in": "Cherki"
+        },
+        {
+          "event": 3,
+          "time": "2026-09-02T06:29:48.716455Z",
+          "out": "Senesi",
+          "in": "De Cuyper"
+        },
+        {
+          "event": 2,
+          "time": "2026-08-27T07:45:41.616420Z",
+          "out": "Sarr",
+          "in": "M.Sangaré"
+        }
+      ],
+      "overlap15": 8,
+      "overlapXI": 7,
+      "transferLikelihood": "สูง",
+      "picks": [
+        {
+          "element": 1,
+          "web_name": "Raya",
+          "club": "ARS",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 0,
+          "points": 0
+        },
+        {
+          "element": 8,
+          "web_name": "Calafiori",
+          "club": "ARS",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 0,
+          "points": 0
+        },
+        {
+          "element": 115,
+          "web_name": "De Cuyper",
+          "club": "BHA",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 0,
+          "points": 0
+        },
+        {
+          "element": 449,
+          "web_name": "Hall",
+          "club": "NEW",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 0,
+          "points": 0
+        },
+        {
+          "element": 427,
+          "web_name": "Mbeumo",
+          "club": "MUN",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 0,
+          "points": 0
+        },
+        {
+          "element": 399,
+          "web_name": "Cherki",
+          "club": "MCI",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 1,
+          "points": 1
+        },
+        {
+          "element": 40,
+          "web_name": "Rogers",
+          "club": "CHE",
+          "multiplier": 1,
+          "flag": "VC",
+          "event_points": 0,
+          "points": 0
+        },
+        {
+          "element": 124,
+          "web_name": "Groß",
+          "club": "BHA",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 0,
+          "points": 0
+        },
+        {
+          "element": 346,
+          "web_name": "Calvert-Lewin",
+          "club": "LEE",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 0,
+          "points": 0
+        },
+        {
+          "element": 165,
+          "web_name": "João Pedro",
+          "club": "CHE",
+          "multiplier": 2,
+          "flag": "C",
+          "event_points": 0,
+          "points": 0
+        },
+        {
+          "element": 411,
+          "web_name": "Haaland",
+          "club": "MCI",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 1,
+          "points": 1
+        },
+        {
+          "element": 497,
+          "web_name": "Dubravka",
+          "club": "TOT",
+          "multiplier": 0,
+          "flag": "B",
+          "event_points": 0,
+          "points": 0
+        },
+        {
+          "element": 286,
+          "web_name": "Belloumi",
+          "club": "HUL",
+          "multiplier": 0,
+          "flag": "B",
+          "event_points": 0,
+          "points": 0
+        },
+        {
+          "element": 388,
+          "web_name": "Guéhi",
+          "club": "MCI",
+          "multiplier": 0,
+          "flag": "B",
+          "event_points": 1,
+          "points": 0
+        },
+        {
+          "element": 175,
+          "web_name": "van Ewijk",
+          "club": "COV",
+          "multiplier": 0,
+          "flag": "B",
+          "event_points": 0,
+          "points": 0
+        }
+      ]
+    },
+    {
       "entry": 118119,
       "entry_name": "tamako-",
       "player_name": "tamako- .",
-      "rank": 6,
-      "event_total": 0,
-      "total": 464,
+      "rank": 7,
+      "event_total": 1,
+      "total": 465,
       "team_value": 100.4,
       "bank": 0.7,
       "captain": "João Pedro",
@@ -2503,7 +2839,7 @@
       ],
       "overlap15": 5,
       "overlapXI": 4,
-      "transferLikelihood": "กลาง",
+      "transferLikelihood": "สูง",
       "picks": [
         {
           "element": 1,
@@ -2601,8 +2937,8 @@
           "club": "MCI",
           "multiplier": 1,
           "flag": "VC",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 623,
@@ -2643,348 +2979,12 @@
       ]
     },
     {
-      "entry": 7915661,
-      "entry_name": "JedYubZ_WCC",
-      "player_name": "Chetsada Muangsri",
-      "rank": 7,
-      "event_total": 0,
-      "total": 464,
-      "team_value": 102.1,
-      "bank": 0.5,
-      "captain": "João Pedro",
-      "captain_multiplier": 2,
-      "chips": [
-        {
-          "name": "3xc",
-          "time": "2026-10-16T03:30:00.611086Z",
-          "event": 7
-        }
-      ],
-      "transfer_audit": {
-        "count": 1,
-        "cost": 0,
-        "moves": [
-          {
-            "out": "Gomez",
-            "in": "Mbeumo"
-          }
-        ]
-      },
-      "weekly_history": [
-        {
-          "event": 1,
-          "points": 50,
-          "total_points": 50,
-          "rank": 4383530,
-          "overall_rank": 4383525,
-          "bank": 0,
-          "team_value": 100,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 2
-        },
-        {
-          "event": 2,
-          "points": 86,
-          "total_points": 136,
-          "rank": 3847039,
-          "overall_rank": 3835742,
-          "bank": 0.9,
-          "team_value": 100.2,
-          "event_transfers": 1,
-          "event_transfers_cost": 0,
-          "points_on_bench": 8
-        },
-        {
-          "event": 3,
-          "points": 45,
-          "total_points": 177,
-          "rank": 7750318,
-          "overall_rank": 5309421,
-          "bank": 0,
-          "team_value": 100.1,
-          "event_transfers": 2,
-          "event_transfers_cost": 4,
-          "points_on_bench": 9
-        },
-        {
-          "event": 4,
-          "points": 85,
-          "total_points": 262,
-          "rank": 1475370,
-          "overall_rank": 3551311,
-          "bank": 0,
-          "team_value": 100.2,
-          "event_transfers": 0,
-          "event_transfers_cost": 0,
-          "points_on_bench": 3
-        },
-        {
-          "event": 5,
-          "points": 42,
-          "total_points": 300,
-          "rank": 7644623,
-          "overall_rank": 4524801,
-          "bank": 0.1,
-          "team_value": 100.5,
-          "event_transfers": 3,
-          "event_transfers_cost": 4,
-          "points_on_bench": 8
-        },
-        {
-          "event": 6,
-          "points": 84,
-          "total_points": 380,
-          "rank": 351091,
-          "overall_rank": 2928033,
-          "bank": 0.6,
-          "team_value": 100.7,
-          "event_transfers": 2,
-          "event_transfers_cost": 4,
-          "points_on_bench": 13
-        },
-        {
-          "event": 7,
-          "points": 84,
-          "total_points": 464,
-          "rank": 297409,
-          "overall_rank": 1753091,
-          "bank": 3.4,
-          "team_value": 101.4,
-          "event_transfers": 1,
-          "event_transfers_cost": 0,
-          "points_on_bench": 10
-        },
-        {
-          "event": 8,
-          "points": 0,
-          "total_points": 464,
-          "rank": 8199913,
-          "overall_rank": 1791517,
-          "bank": 0.5,
-          "team_value": 102.1,
-          "event_transfers": 1,
-          "event_transfers_cost": 0,
-          "points_on_bench": 0
-        }
-      ],
-      "chip_history": [
-        {
-          "name": "3xc",
-          "event": 7,
-          "time": "2026-10-16T03:30:00.611086Z"
-        }
-      ],
-      "transfer_history": [
-        {
-          "event": 8,
-          "time": "2026-10-23T15:33:11.808260Z",
-          "out": "Gomez",
-          "in": "Mbeumo"
-        },
-        {
-          "event": 7,
-          "time": "2026-10-17T08:56:30.087466Z",
-          "out": "Gibbs-White",
-          "in": "Belloumi"
-        },
-        {
-          "event": 6,
-          "time": "2026-10-10T06:36:15.959722Z",
-          "out": "Muñoz",
-          "in": "Hall"
-        },
-        {
-          "event": 6,
-          "time": "2026-10-09T03:07:22.444049Z",
-          "out": "Tzolis",
-          "in": "Groß"
-        },
-        {
-          "event": 5,
-          "time": "2026-09-18T13:21:49.832174Z",
-          "out": "Shaw",
-          "in": "Guéhi"
-        },
-        {
-          "event": 5,
-          "time": "2026-09-18T13:21:49.831641Z",
-          "out": "Tonali",
-          "in": "Gibbs-White"
-        },
-        {
-          "event": 5,
-          "time": "2026-09-18T13:21:49.825911Z",
-          "out": "B.Fernandes",
-          "in": "Rogers"
-        },
-        {
-          "event": 3,
-          "time": "2026-09-02T06:29:48.728617Z",
-          "out": "M.Sangaré",
-          "in": "Cherki"
-        },
-        {
-          "event": 3,
-          "time": "2026-09-02T06:29:48.716455Z",
-          "out": "Senesi",
-          "in": "De Cuyper"
-        },
-        {
-          "event": 2,
-          "time": "2026-08-27T07:45:41.616420Z",
-          "out": "Sarr",
-          "in": "M.Sangaré"
-        }
-      ],
-      "overlap15": 8,
-      "overlapXI": 7,
-      "transferLikelihood": "สูง",
-      "picks": [
-        {
-          "element": 1,
-          "web_name": "Raya",
-          "club": "ARS",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 8,
-          "web_name": "Calafiori",
-          "club": "ARS",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 115,
-          "web_name": "De Cuyper",
-          "club": "BHA",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 449,
-          "web_name": "Hall",
-          "club": "NEW",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 427,
-          "web_name": "Mbeumo",
-          "club": "MUN",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 399,
-          "web_name": "Cherki",
-          "club": "MCI",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 40,
-          "web_name": "Rogers",
-          "club": "CHE",
-          "multiplier": 1,
-          "flag": "VC",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 124,
-          "web_name": "Groß",
-          "club": "BHA",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 346,
-          "web_name": "Calvert-Lewin",
-          "club": "LEE",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 165,
-          "web_name": "João Pedro",
-          "club": "CHE",
-          "multiplier": 2,
-          "flag": "C",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 411,
-          "web_name": "Haaland",
-          "club": "MCI",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 497,
-          "web_name": "Dubravka",
-          "club": "TOT",
-          "multiplier": 0,
-          "flag": "B",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 286,
-          "web_name": "Belloumi",
-          "club": "HUL",
-          "multiplier": 0,
-          "flag": "B",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 388,
-          "web_name": "Guéhi",
-          "club": "MCI",
-          "multiplier": 0,
-          "flag": "B",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 175,
-          "web_name": "van Ewijk",
-          "club": "COV",
-          "multiplier": 0,
-          "flag": "B",
-          "event_points": 0,
-          "points": 0
-        }
-      ]
-    },
-    {
       "entry": 7463306,
       "entry_name": "KC888",
       "player_name": "KC B",
       "rank": 8,
-      "event_total": 2,
-      "total": 461,
+      "event_total": 4,
+      "total": 463,
       "team_value": 101.4,
       "bank": 4.9,
       "captain": "Haaland",
@@ -3280,8 +3280,8 @@
           "club": "MCI",
           "multiplier": 2,
           "flag": "C",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 2
         },
         {
           "element": 165,
@@ -3792,7 +3792,7 @@
           "club": "MCI",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 0,
+          "event_points": 1,
           "points": 0
         },
         {
@@ -3811,8 +3811,8 @@
       "entry_name": "Sarumann",
       "player_name": "Jetsadakorn Maungkum",
       "rank": 10,
-      "event_total": 15,
-      "total": 435,
+      "event_total": 16,
+      "total": 436,
       "team_value": 102.5,
       "bank": 0.4,
       "captain": "João Pedro",
@@ -4267,8 +4267,8 @@
           "club": "MCI",
           "multiplier": 1,
           "flag": "VC",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 165,
@@ -4331,8 +4331,8 @@
       "entry_name": "RelegationBattle",
       "player_name": "Katha Panthong",
       "rank": 11,
-      "event_total": 0,
-      "total": 419,
+      "event_total": 6,
+      "total": 425,
       "team_value": 101.5,
       "bank": 2.6,
       "captain": "Haaland",
@@ -4559,8 +4559,8 @@
           "club": "AVL",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 0,
-          "points": 0
+          "event_points": 4,
+          "points": 4
         },
         {
           "element": 453,
@@ -4604,8 +4604,8 @@
           "club": "MCI",
           "multiplier": 2,
           "flag": "C",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 2
         },
         {
           "element": 165,
@@ -4659,8 +4659,8 @@
       "entry_name": "On",
       "player_name": "Peerawat Y",
       "rank": 12,
-      "event_total": 0,
-      "total": 418,
+      "event_total": 3,
+      "total": 421,
       "team_value": 101.9,
       "bank": 0.6,
       "captain": "Haaland",
@@ -4914,8 +4914,8 @@
           "club": "MCI",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 427,
@@ -4977,8 +4977,8 @@
           "club": "MCI",
           "multiplier": 2,
           "flag": "C",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 2
         },
         {
           "element": 109,
@@ -5023,8 +5023,8 @@
       "entry_name": "Dek Dek FC",
       "player_name": "NTY D",
       "rank": 13,
-      "event_total": 0,
-      "total": 388,
+      "event_total": 1,
+      "total": 389,
       "team_value": 100.1,
       "bank": 0.1,
       "captain": "João Pedro",
@@ -5499,8 +5499,8 @@
           "club": "MCI",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 165,
@@ -5554,8 +5554,8 @@
       "entry_name": "Long_Darkz",
       "player_name": "Pisanu Wongsaard",
       "rank": 14,
-      "event_total": 0,
-      "total": 378,
+      "event_total": 2,
+      "total": 380,
       "team_value": 101.2,
       "bank": 3.1,
       "captain": "Haaland",
@@ -5857,8 +5857,8 @@
           "club": "MCI",
           "multiplier": 2,
           "flag": "C",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 2
         },
         {
           "element": 385,
@@ -5903,8 +5903,8 @@
       "entry_name": "Goal888",
       "player_name": "Pichai Boonlay",
       "rank": 15,
-      "event_total": 0,
-      "total": 357,
+      "event_total": 3,
+      "total": 360,
       "team_value": 99.6,
       "bank": 0.4,
       "captain": "Cherki",
@@ -6134,8 +6134,8 @@
           "club": "MCI",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 356,
@@ -6188,8 +6188,8 @@
           "club": "MCI",
           "multiplier": 2,
           "flag": "C",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 2
         },
         {
           "element": 428,
@@ -6252,8 +6252,8 @@
       "entry_name": "Mr.Art",
       "player_name": "TANAWIN NUTCANAT",
       "rank": 16,
-      "event_total": 0,
-      "total": 343,
+      "event_total": 4,
+      "total": 347,
       "team_value": 103.1,
       "bank": 2.1,
       "captain": "Haaland",
@@ -6771,8 +6771,8 @@
           "club": "MCI",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 156,
@@ -6807,8 +6807,8 @@
           "club": "MCI",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 1
         },
         {
           "element": 411,
@@ -6816,8 +6816,8 @@
           "club": "MCI",
           "multiplier": 2,
           "flag": "C",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 2
         },
         {
           "element": 138,
@@ -6880,8 +6880,8 @@
       "entry_name": "Talens10",
       "player_name": "Talëns Ten",
       "rank": 17,
-      "event_total": 2,
-      "total": 212,
+      "event_total": 4,
+      "total": 214,
       "team_value": 100.8,
       "bank": 0,
       "captain": "Haaland",
@@ -7386,8 +7386,8 @@
           "club": "MCI",
           "multiplier": 2,
           "flag": "C",
-          "event_points": 0,
-          "points": 0
+          "event_points": 1,
+          "points": 2
         },
         {
           "element": 572,
@@ -7474,7 +7474,7 @@
       "transfer_history": [],
       "overlap15": 7,
       "overlapXI": 6,
-      "transferLikelihood": "กลาง",
+      "transferLikelihood": "สูง",
       "picks": [
         {
           "element": 109,
@@ -7581,7 +7581,7 @@
           "club": "MCI",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 0,
+          "event_points": 1,
           "points": 0
         },
         {
@@ -7633,8 +7633,8 @@
       "owners": 15,
       "captains": 7,
       "tripleCaptains": 0,
-      "event_points": 0,
-      "total_points": 0,
+      "event_points": 1,
+      "total_points": 22,
       "ownedByMe": true
     },
     {
@@ -7754,8 +7754,8 @@
       "owners": 5,
       "captains": 1,
       "tripleCaptains": 0,
-      "event_points": 0,
-      "total_points": 0,
+      "event_points": 1,
+      "total_points": 6,
       "ownedByMe": true
     },
     {
@@ -7767,6 +7767,17 @@
       "tripleCaptains": 0,
       "event_points": 0,
       "total_points": 0,
+      "ownedByMe": true
+    },
+    {
+      "id": 391,
+      "web_name": "Gvardiol",
+      "team_short": "MCI",
+      "owners": 4,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 1,
+      "total_points": 1,
       "ownedByMe": true
     },
     {
@@ -7795,17 +7806,6 @@
       "id": 497,
       "web_name": "Dubravka",
       "team_short": "TOT",
-      "owners": 4,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 0,
-      "total_points": 0,
-      "ownedByMe": true
-    },
-    {
-      "id": 391,
-      "web_name": "Gvardiol",
-      "team_short": "MCI",
       "owners": 4,
       "captains": 0,
       "tripleCaptains": 0,
@@ -7880,6 +7880,17 @@
       "ownedByMe": false
     },
     {
+      "id": 388,
+      "web_name": "Guéhi",
+      "team_short": "MCI",
+      "owners": 3,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 1,
+      "total_points": 2,
+      "ownedByMe": false
+    },
+    {
       "id": 426,
       "web_name": "B.Fernandes",
       "team_short": "MUN",
@@ -7894,17 +7905,6 @@
       "id": 346,
       "web_name": "Calvert-Lewin",
       "team_short": "LEE",
-      "owners": 3,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 0,
-      "total_points": 0,
-      "ownedByMe": false
-    },
-    {
-      "id": 388,
-      "web_name": "Guéhi",
-      "team_short": "MCI",
       "owners": 3,
       "captains": 0,
       "tripleCaptains": 0,
@@ -8166,6 +8166,28 @@
       "ownedByMe": false
     },
     {
+      "id": 45,
+      "web_name": "McGinn",
+      "team_short": "AVL",
+      "owners": 1,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 4,
+      "total_points": 4,
+      "ownedByMe": false
+    },
+    {
+      "id": 400,
+      "web_name": "Doku",
+      "team_short": "MCI",
+      "owners": 1,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 1,
+      "total_points": 1,
+      "ownedByMe": false
+    },
+    {
       "id": 650,
       "web_name": "Affengruber",
       "team_short": "FUL",
@@ -8210,24 +8232,13 @@
       "ownedByMe": false
     },
     {
-      "id": 400,
-      "web_name": "Doku",
-      "team_short": "MCI",
-      "owners": 1,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 0,
-      "total_points": 0,
-      "ownedByMe": false
-    },
-    {
       "id": 384,
       "web_name": "Donnarumma",
       "team_short": "MCI",
       "owners": 1,
       "captains": 0,
       "tripleCaptains": 0,
-      "event_points": 0,
+      "event_points": 1,
       "total_points": 0,
       "ownedByMe": false
     },
@@ -8378,17 +8389,6 @@
       "id": 28,
       "web_name": "Martinez",
       "team_short": "CHE",
-      "owners": 1,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 0,
-      "total_points": 0,
-      "ownedByMe": false
-    },
-    {
-      "id": 45,
-      "web_name": "McGinn",
-      "team_short": "AVL",
       "owners": 1,
       "captains": 0,
       "tripleCaptains": 0,
@@ -8585,12 +8585,12 @@
     },
     {
       "kickoff_time": "2026-10-24T11:30:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "AVL",
       "away": "MCI",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-10-24T14:00:00Z",

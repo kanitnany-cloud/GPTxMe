@@ -1,6 +1,6 @@
 player,club,owners,captains,triple_captains,gw_points,total_points,owned_by_me
 João Pedro,CHE,16,8,0,0,0,true
-Haaland,MCI,15,7,0,0,0,true
+Haaland,MCI,15,7,0,1,22,true
 Calafiori,ARS,14,0,0,0,0,true
 Groß,BHA,14,0,0,0,0,true
 De Cuyper,BHA,12,0,0,0,0,true
@@ -11,21 +11,21 @@ Verbruggen,BHA,8,0,0,0,0,true
 Mbeumo,MUN,6,1,0,0,0,false
 Palmer,CHE,6,1,0,0,0,false
 Tavernier,BOU,6,0,0,0,0,false
-Cherki,MCI,5,1,0,0,0,true
+Cherki,MCI,5,1,0,1,6,true
 Bogle,LEE,5,0,0,0,0,true
+Gvardiol,MCI,4,0,0,1,1,true
 Barnes,NEW,4,0,0,0,0,false
 Belloumi,HUL,4,0,0,0,0,false
 Dubravka,TOT,4,0,0,0,0,true
-Gvardiol,MCI,4,0,0,0,0,true
 Isak,LIV,4,0,0,0,0,false
 Kostoulas,BHA,4,0,0,0,0,false
 Mitchell,CRY,4,0,0,0,0,false
 Rice,ARS,4,0,0,0,0,false
 Schade,BRE,4,0,0,0,0,false
 Davis,IPS,3,0,0,2,4,false
+Guéhi,MCI,3,0,0,1,2,false
 B.Fernandes,MUN,3,0,0,0,0,true
 Calvert-Lewin,LEE,3,0,0,0,0,false
-Guéhi,MCI,3,0,0,0,0,false
 Konsa,ARS,3,0,0,0,0,false
 Muharemović,LEE,3,0,0,0,0,false
 Trafford,LEE,3,0,0,0,0,false
@@ -49,12 +49,13 @@ Tarkowski,EVE,2,0,0,0,0,false
 Thomas,COV,2,0,0,0,0,false
 Wissa,NEW,2,0,0,0,0,true
 N.Williams,NFO,1,0,0,8,8,false
+McGinn,AVL,1,0,0,4,4,false
+Doku,MCI,1,0,0,1,1,false
 Affengruber,FUL,1,0,0,0,0,false
 Ajer,BRE,1,0,0,0,0,false
 Bentley,COV,1,0,0,0,0,false
 Dasilva,COV,1,0,0,0,0,false
-Doku,MCI,1,0,0,0,0,false
-Donnarumma,MCI,1,0,0,0,0,false
+Donnarumma,MCI,1,0,0,1,0,false
 Eze,ARS,1,0,0,0,0,false
 F.Kadıoğlu,BHA,1,0,0,0,0,false
 Furo,BRE,1,0,0,0,0,false
@@ -69,7 +70,6 @@ Lammens,MUN,1,0,0,0,0,false
 Maguire,MUN,1,0,0,0,0,false
 Mainoo,MUN,1,0,0,0,0,false
 Martinez,CHE,1,0,0,0,0,false
-McGinn,AVL,1,0,0,0,0,false
 Mendy,HUL,1,0,0,0,0,false
 Murillo,NFO,1,0,0,1,0,false
 Neto,CHE,1,0,0,0,0,false
