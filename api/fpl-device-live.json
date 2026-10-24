@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "24/10/2569 23:11:02",
+  "updated_at_th": "25/10/2569 01:19:10",
   "gameweek": 8,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 1,
-    "points": 555,
-    "gw_points": 17,
+    "points": 557,
+    "gw_points": 19,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "Yedtsuna",
       "manager": "Kanitnan Yamjongkol",
-      "points": 555,
+      "points": 557,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "Yedtsuna",
-        "points": 555,
+        "points": 557,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -33,7 +33,7 @@
       {
         "rank": 2,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 543,
+        "points": 541,
         "captain": "Palmer",
         "chips": [
           "bboost",
@@ -44,7 +44,7 @@
       {
         "rank": 3,
         "team": "GrossProfit United",
-        "points": 510,
+        "points": 509,
         "captain": "João Pedro",
         "chips": [
           "bboost",
@@ -55,7 +55,7 @@
       {
         "rank": 4,
         "team": "KC888",
-        "points": 500,
+        "points": 504,
         "captain": "Haaland",
         "chips": [
           "3xc",
@@ -65,7 +65,7 @@
       {
         "rank": 5,
         "team": "tamako-",
-        "points": 492,
+        "points": 494,
         "captain": "João Pedro",
         "chips": [
           "bboost",
@@ -77,7 +77,7 @@
       {
         "rank": 6,
         "team": "SilverBank",
-        "points": 485,
+        "points": 487,
         "captain": "João Pedro",
         "chips": [
           "3xc",
@@ -88,7 +88,7 @@
       {
         "rank": 7,
         "team": "Runner Up FC",
-        "points": 485,
+        "points": 487,
         "captain": "Mbeumo",
         "chips": [
           "bboost",
@@ -99,7 +99,7 @@
       {
         "rank": 8,
         "team": "JedYubZ_WCC",
-        "points": 480,
+        "points": 482,
         "captain": "João Pedro",
         "chips": [
           "3xc"
@@ -145,17 +145,17 @@
       "owned_by_me": true
     },
     {
-      "name": "De Cuyper",
-      "club": "BHA",
+      "name": "Rogers",
+      "club": "CHE",
       "owners": 12,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 2,
+      "total_points": 24,
       "owned_by_me": true
     },
     {
-      "name": "Rogers",
-      "club": "CHE",
+      "name": "De Cuyper",
+      "club": "BHA",
       "owners": 12,
       "captains": 0,
       "gw_points": 0,
@@ -220,12 +220,12 @@
     },
     {
       "kickoff_time": "2026-10-24T16:30:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "CHE",
       "away": "TOT",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 2
     },
     {
       "kickoff_time": "2026-10-25T14:00:00Z",
