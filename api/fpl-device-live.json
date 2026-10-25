@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "25/10/2569 20:52:18",
+  "updated_at_th": "26/10/2569 00:25:40",
   "gameweek": 8,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
-    "rank": 1,
-    "points": 556,
-    "gw_points": 18,
+    "rank": 2,
+    "points": 563,
+    "gw_points": 25,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -15,25 +15,16 @@
     "id": 872362,
     "name": "AFC Premier",
     "leader": {
-      "team": "Yedtsuna",
-      "manager": "Kanitnan Yamjongkol",
-      "points": 556,
-      "captain": "Haaland"
+      "team": "ช่วยใจดีกับลุงหน่อย",
+      "manager": "Palm Xavier",
+      "points": 564,
+      "captain": "Palmer"
     },
     "top": [
       {
         "rank": 1,
-        "team": "Yedtsuna",
-        "points": 556,
-        "captain": "Haaland",
-        "chips": [
-          "3xc"
-        ]
-      },
-      {
-        "rank": 2,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 540,
+        "points": 564,
         "captain": "Palmer",
         "chips": [
           "bboost",
@@ -42,9 +33,18 @@
         ]
       },
       {
+        "rank": 2,
+        "team": "Yedtsuna",
+        "points": 563,
+        "captain": "Haaland",
+        "chips": [
+          "3xc"
+        ]
+      },
+      {
         "rank": 3,
         "team": "GrossProfit United",
-        "points": 508,
+        "points": 520,
         "captain": "João Pedro",
         "chips": [
           "bboost",
@@ -54,18 +54,8 @@
       },
       {
         "rank": 4,
-        "team": "KC888",
-        "points": 504,
-        "captain": "Haaland",
-        "chips": [
-          "3xc",
-          "wildcard"
-        ]
-      },
-      {
-        "rank": 5,
         "team": "tamako-",
-        "points": 493,
+        "points": 517,
         "captain": "João Pedro",
         "chips": [
           "bboost",
@@ -75,9 +65,19 @@
         ]
       },
       {
+        "rank": 5,
+        "team": "KC888",
+        "points": 513,
+        "captain": "Haaland",
+        "chips": [
+          "3xc",
+          "wildcard"
+        ]
+      },
+      {
         "rank": 6,
         "team": "SilverBank",
-        "points": 486,
+        "points": 494,
         "captain": "João Pedro",
         "chips": [
           "3xc",
@@ -88,7 +88,7 @@
       {
         "rank": 7,
         "team": "Runner Up FC",
-        "points": 486,
+        "points": 493,
         "captain": "Mbeumo",
         "chips": [
           "bboost",
@@ -99,7 +99,7 @@
       {
         "rank": 8,
         "team": "JedYubZ_WCC",
-        "points": 481,
+        "points": 490,
         "captain": "João Pedro",
         "chips": [
           "3xc"
@@ -145,8 +145,8 @@
       "owned_by_me": true
     },
     {
-      "name": "Rogers",
-      "club": "CHE",
+      "name": "De Cuyper",
+      "club": "BHA",
       "owners": 12,
       "captains": 0,
       "gw_points": 1,
@@ -154,12 +154,12 @@
       "owned_by_me": true
     },
     {
-      "name": "De Cuyper",
-      "club": "BHA",
+      "name": "Rogers",
+      "club": "CHE",
       "owners": 12,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 1,
+      "total_points": 12,
       "owned_by_me": true
     },
     {
@@ -176,8 +176,8 @@
       "club": "NEW",
       "owners": 8,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 5,
+      "total_points": 30,
       "owned_by_me": false
     }
   ],
@@ -229,48 +229,48 @@
     },
     {
       "kickoff_time": "2026-10-25T14:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "CRY",
       "away": "NEW",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 2
     },
     {
       "kickoff_time": "2026-10-25T14:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "HUL",
       "away": "BRE",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-10-25T14:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "LIV",
       "away": "BHA",
-      "home_score": null,
-      "away_score": null
+      "home_score": 2,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-10-25T14:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "MUN",
       "away": "BOU",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 3
     },
     {
       "kickoff_time": "2026-10-25T16:30:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "SUN",
       "away": "LEE",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     }
   ],
   "strategy": {
