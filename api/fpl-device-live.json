@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "26/10/2569 00:33:34",
+  "updated_at_th": "26/10/2569 02:52:11",
   "gameweek": 8,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 2,
-    "points": 563,
-    "gw_points": 25,
+    "points": 565,
+    "gw_points": 27,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "ช่วยใจดีกับลุงหน่อย",
       "manager": "Palm Xavier",
-      "points": 564,
+      "points": 570,
       "captain": "Palmer"
     },
     "top": [
       {
         "rank": 1,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 564,
+        "points": 570,
         "captain": "Palmer",
         "chips": [
           "bboost",
@@ -35,7 +35,7 @@
       {
         "rank": 2,
         "team": "Yedtsuna",
-        "points": 563,
+        "points": 565,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -43,23 +43,23 @@
       },
       {
         "rank": 3,
-        "team": "GrossProfit United",
-        "points": 520,
+        "team": "tamako-",
+        "points": 523,
         "captain": "João Pedro",
         "chips": [
           "bboost",
+          "freehit",
           "wildcard",
           "3xc"
         ]
       },
       {
         "rank": 4,
-        "team": "tamako-",
-        "points": 517,
+        "team": "GrossProfit United",
+        "points": 521,
         "captain": "João Pedro",
         "chips": [
           "bboost",
-          "freehit",
           "wildcard",
           "3xc"
         ]
@@ -99,7 +99,7 @@
       {
         "rank": 8,
         "team": "JedYubZ_WCC",
-        "points": 490,
+        "points": 491,
         "captain": "João Pedro",
         "chips": [
           "3xc"
