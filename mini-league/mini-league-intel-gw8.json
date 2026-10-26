@@ -20,8 +20,8 @@
     "deadline_time": "2026-10-23T17:30:00Z",
     "release_time": null,
     "average_entry_score": 45,
-    "finished": false,
-    "data_checked": false,
+    "finished": true,
+    "data_checked": true,
     "highest_scoring_entry": 5112705,
     "deadline_time_epoch": 1792776600,
     "deadline_time_game_offset": 0,
@@ -70,7 +70,7 @@
     "most_captained": 411,
     "most_vice_captained": 165
   },
-  "generatedAt": "26/10/2569 19:21:22",
+  "generatedAt": "27/10/2569 01:48:03",
   "teams": [
     {
       "entry": 8479135,
