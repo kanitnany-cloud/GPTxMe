@@ -1,0 +1,876 @@
+{
+  "issuedAt": "2026-10-26T00:57:20.064Z",
+  "targetGw": 9,
+  "deadline": "2026-10-31T11:00:00Z",
+  "method": "Conditional shortlist, not calibrated probabilities. Score all listed candidates; do not cherry-pick matches. Frozen first issue.",
+  "forecasts": [
+    {
+      "id": 8479135,
+      "name": "ช่วยใจดีกับลุงหน่อย",
+      "action": "0",
+      "captains": [
+        "Konsa",
+        "Haaland",
+        "De Cuyper"
+      ],
+      "replacements": [
+        {
+          "out": "João Pedro",
+          "trigger": "หาก João Pedro ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 79,
+              "name": "Evanilson",
+              "price": 6.2
+            },
+            {
+              "id": 379,
+              "name": "Isak",
+              "price": 9
+            },
+            {
+              "id": 166,
+              "name": "N.Jackson",
+              "price": 6.7
+            }
+          ]
+        }
+      ],
+      "confidence": "ต่ำ: ยังไม่สอบเทียบรายชื่อ และไม่ได้ยืนยันงบขายของคู่แข่ง",
+      "chip": "ไม่มีหลักฐานพอระบุว่าจะใช้ชิป",
+      "issuedAt": "2026-10-26T00:57:20.064Z",
+      "targetGw": 9
+    },
+    {
+      "id": 118119,
+      "name": "tamako-",
+      "action": "0",
+      "captains": [
+        "Haaland",
+        "Tavernier",
+        "Raya"
+      ],
+      "replacements": [
+        {
+          "out": "João Pedro",
+          "trigger": "หาก João Pedro ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 79,
+              "name": "Evanilson",
+              "price": 6.2
+            },
+            {
+              "id": 166,
+              "name": "N.Jackson",
+              "price": 6.7
+            }
+          ]
+        },
+        {
+          "out": "Calafiori",
+          "trigger": "หาก Calafiori ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 4,
+              "name": "Gabriel",
+              "price": 7.9
+            },
+            {
+              "id": 31,
+              "name": "Konsa",
+              "price": 4.7
+            }
+          ]
+        }
+      ],
+      "confidence": "ต่ำ: ยังไม่สอบเทียบรายชื่อ และไม่ได้ยืนยันงบขายของคู่แข่ง",
+      "chip": "ไม่มีหลักฐานพอระบุว่าจะใช้ชิป",
+      "issuedAt": "2026-10-26T00:57:20.064Z",
+      "targetGw": 9
+    },
+    {
+      "id": 454063,
+      "name": "GrossProfit United",
+      "action": "1",
+      "captains": [
+        "Konsa",
+        "Haaland",
+        "De Cuyper"
+      ],
+      "replacements": [
+        {
+          "out": "João Pedro",
+          "trigger": "หาก João Pedro ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 79,
+              "name": "Evanilson",
+              "price": 6.2
+            },
+            {
+              "id": 379,
+              "name": "Isak",
+              "price": 9
+            },
+            {
+              "id": 166,
+              "name": "N.Jackson",
+              "price": 6.7
+            }
+          ]
+        },
+        {
+          "out": "Calafiori",
+          "trigger": "หาก Calafiori ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 4,
+              "name": "Gabriel",
+              "price": 7.9
+            },
+            {
+              "id": 334,
+              "name": "Muharemović",
+              "price": 5.1
+            }
+          ]
+        }
+      ],
+      "confidence": "ต่ำ: ยังไม่สอบเทียบรายชื่อ และไม่ได้ยืนยันงบขายของคู่แข่ง",
+      "chip": "ไม่มีหลักฐานพอระบุว่าจะใช้ชิป",
+      "issuedAt": "2026-10-26T00:57:20.064Z",
+      "targetGw": 9
+    },
+    {
+      "id": 7463306,
+      "name": "KC888",
+      "action": "1",
+      "captains": [
+        "Gabriel",
+        "Haaland",
+        "Henderson"
+      ],
+      "replacements": [
+        {
+          "out": "João Pedro",
+          "trigger": "หาก João Pedro ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 79,
+              "name": "Evanilson",
+              "price": 6.2
+            },
+            {
+              "id": 379,
+              "name": "Isak",
+              "price": 9
+            },
+            {
+              "id": 166,
+              "name": "N.Jackson",
+              "price": 6.7
+            }
+          ]
+        }
+      ],
+      "confidence": "ต่ำ: ยังไม่สอบเทียบรายชื่อ และไม่ได้ยืนยันงบขายของคู่แข่ง",
+      "chip": "ไม่มีหลักฐานพอระบุว่าจะใช้ชิป",
+      "issuedAt": "2026-10-26T00:57:20.064Z",
+      "targetGw": 9
+    },
+    {
+      "id": 192330,
+      "name": "SilverBank",
+      "action": "1",
+      "captains": [
+        "Haaland",
+        "De Cuyper",
+        "Kostoulas"
+      ],
+      "replacements": [
+        {
+          "out": "João Pedro",
+          "trigger": "หาก João Pedro ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 79,
+              "name": "Evanilson",
+              "price": 6.2
+            },
+            {
+              "id": 379,
+              "name": "Isak",
+              "price": 9
+            },
+            {
+              "id": 166,
+              "name": "N.Jackson",
+              "price": 6.7
+            }
+          ]
+        },
+        {
+          "out": "Calafiori",
+          "trigger": "หาก Calafiori ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 4,
+              "name": "Gabriel",
+              "price": 7.9
+            },
+            {
+              "id": 31,
+              "name": "Konsa",
+              "price": 4.7
+            },
+            {
+              "id": 334,
+              "name": "Muharemović",
+              "price": 5.1
+            }
+          ]
+        }
+      ],
+      "confidence": "ต่ำ: ยังไม่สอบเทียบรายชื่อ และไม่ได้ยืนยันงบขายของคู่แข่ง",
+      "chip": "ไม่มีหลักฐานพอระบุว่าจะใช้ชิป",
+      "issuedAt": "2026-10-26T00:57:20.064Z",
+      "targetGw": 9
+    },
+    {
+      "id": 5090992,
+      "name": "Runner Up FC",
+      "action": "1",
+      "captains": [
+        "Haaland",
+        "Mbeumo",
+        "Verbruggen"
+      ],
+      "replacements": [
+        {
+          "out": "João Pedro",
+          "trigger": "หาก João Pedro ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 79,
+              "name": "Evanilson",
+              "price": 6.2
+            },
+            {
+              "id": 379,
+              "name": "Isak",
+              "price": 9
+            },
+            {
+              "id": 166,
+              "name": "N.Jackson",
+              "price": 6.7
+            }
+          ]
+        },
+        {
+          "out": "Calafiori",
+          "trigger": "หาก Calafiori ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 4,
+              "name": "Gabriel",
+              "price": 7.9
+            },
+            {
+              "id": 31,
+              "name": "Konsa",
+              "price": 4.7
+            },
+            {
+              "id": 334,
+              "name": "Muharemović",
+              "price": 5.1
+            }
+          ]
+        }
+      ],
+      "confidence": "ต่ำ: ยังไม่สอบเทียบรายชื่อ และไม่ได้ยืนยันงบขายของคู่แข่ง",
+      "chip": "ไม่มีหลักฐานพอระบุว่าจะใช้ชิป",
+      "issuedAt": "2026-10-26T00:57:20.064Z",
+      "targetGw": 9
+    },
+    {
+      "id": 7915661,
+      "name": "JedYubZ_WCC",
+      "action": "1",
+      "captains": [
+        "Haaland",
+        "De Cuyper",
+        "Raya"
+      ],
+      "replacements": [
+        {
+          "out": "João Pedro",
+          "trigger": "หาก João Pedro ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 79,
+              "name": "Evanilson",
+              "price": 6.2
+            },
+            {
+              "id": 379,
+              "name": "Isak",
+              "price": 9
+            },
+            {
+              "id": 166,
+              "name": "N.Jackson",
+              "price": 6.7
+            }
+          ]
+        },
+        {
+          "out": "Calafiori",
+          "trigger": "หาก Calafiori ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 4,
+              "name": "Gabriel",
+              "price": 7.9
+            },
+            {
+              "id": 31,
+              "name": "Konsa",
+              "price": 4.7
+            },
+            {
+              "id": 334,
+              "name": "Muharemović",
+              "price": 5.1
+            }
+          ]
+        }
+      ],
+      "confidence": "ต่ำ: ยังไม่สอบเทียบรายชื่อ และไม่ได้ยืนยันงบขายของคู่แข่ง",
+      "chip": "ไม่มีหลักฐานพอระบุว่าจะใช้ชิป",
+      "issuedAt": "2026-10-26T00:57:20.064Z",
+      "targetGw": 9
+    },
+    {
+      "id": 694667,
+      "name": "Bombadoo FC.",
+      "action": "1",
+      "captains": [
+        "Tavernier",
+        "Rice",
+        "Isak"
+      ],
+      "replacements": [
+        {
+          "out": "João Pedro",
+          "trigger": "หาก João Pedro ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 79,
+              "name": "Evanilson",
+              "price": 6.2
+            },
+            {
+              "id": 166,
+              "name": "N.Jackson",
+              "price": 6.7
+            }
+          ]
+        },
+        {
+          "out": "Calafiori",
+          "trigger": "หาก Calafiori ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 4,
+              "name": "Gabriel",
+              "price": 7.9
+            },
+            {
+              "id": 31,
+              "name": "Konsa",
+              "price": 4.7
+            },
+            {
+              "id": 334,
+              "name": "Muharemović",
+              "price": 5.1
+            }
+          ]
+        }
+      ],
+      "confidence": "ต่ำ: ยังไม่สอบเทียบรายชื่อ และไม่ได้ยืนยันงบขายของคู่แข่ง",
+      "chip": "ไม่มีหลักฐานพอระบุว่าจะใช้ชิป",
+      "issuedAt": "2026-10-26T00:57:20.064Z",
+      "targetGw": 9
+    },
+    {
+      "id": 2164081,
+      "name": "RelegationBattle",
+      "action": "1",
+      "captains": [
+        "Konsa",
+        "Haaland",
+        "Evanilson"
+      ],
+      "replacements": [
+        {
+          "out": "João Pedro",
+          "trigger": "หาก João Pedro ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 379,
+              "name": "Isak",
+              "price": 9
+            },
+            {
+              "id": 166,
+              "name": "N.Jackson",
+              "price": 6.7
+            }
+          ]
+        },
+        {
+          "out": "Calafiori",
+          "trigger": "หาก Calafiori ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 4,
+              "name": "Gabriel",
+              "price": 7.9
+            },
+            {
+              "id": 334,
+              "name": "Muharemović",
+              "price": 5.1
+            }
+          ]
+        }
+      ],
+      "confidence": "ต่ำ: ยังไม่สอบเทียบรายชื่อ และไม่ได้ยืนยันงบขายของคู่แข่ง",
+      "chip": "ไม่มีหลักฐานพอระบุว่าจะใช้ชิป",
+      "issuedAt": "2026-10-26T00:57:20.064Z",
+      "targetGw": 9
+    },
+    {
+      "id": 3800481,
+      "name": "Sarumann",
+      "action": "1",
+      "captains": [
+        "Haaland",
+        "De Cuyper",
+        "Tavernier"
+      ],
+      "replacements": [
+        {
+          "out": "João Pedro",
+          "trigger": "หาก João Pedro ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 79,
+              "name": "Evanilson",
+              "price": 6.2
+            },
+            {
+              "id": 379,
+              "name": "Isak",
+              "price": 9
+            },
+            {
+              "id": 166,
+              "name": "N.Jackson",
+              "price": 6.7
+            }
+          ]
+        },
+        {
+          "out": "Calafiori",
+          "trigger": "หาก Calafiori ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 4,
+              "name": "Gabriel",
+              "price": 7.9
+            },
+            {
+              "id": 31,
+              "name": "Konsa",
+              "price": 4.7
+            },
+            {
+              "id": 334,
+              "name": "Muharemović",
+              "price": 5.1
+            }
+          ]
+        }
+      ],
+      "confidence": "ต่ำ: ยังไม่สอบเทียบรายชื่อ และไม่ได้ยืนยันงบขายของคู่แข่ง",
+      "chip": "ไม่มีหลักฐานพอระบุว่าจะใช้ชิป",
+      "issuedAt": "2026-10-26T00:57:20.064Z",
+      "targetGw": 9
+    },
+    {
+      "id": 7002589,
+      "name": "On",
+      "action": "0",
+      "captains": [
+        "Haaland",
+        "Rice",
+        "Mbeumo"
+      ],
+      "replacements": [
+        {
+          "out": "João Pedro",
+          "trigger": "หาก João Pedro ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 79,
+              "name": "Evanilson",
+              "price": 6.2
+            },
+            {
+              "id": 379,
+              "name": "Isak",
+              "price": 9
+            },
+            {
+              "id": 166,
+              "name": "N.Jackson",
+              "price": 6.7
+            }
+          ]
+        },
+        {
+          "out": "Calafiori",
+          "trigger": "หาก Calafiori ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 4,
+              "name": "Gabriel",
+              "price": 7.9
+            },
+            {
+              "id": 31,
+              "name": "Konsa",
+              "price": 4.7
+            },
+            {
+              "id": 334,
+              "name": "Muharemović",
+              "price": 5.1
+            }
+          ]
+        }
+      ],
+      "confidence": "ต่ำ: ยังไม่สอบเทียบรายชื่อ และไม่ได้ยืนยันงบขายของคู่แข่ง",
+      "chip": "ไม่มีหลักฐานพอระบุว่าจะใช้ชิป",
+      "issuedAt": "2026-10-26T00:57:20.064Z",
+      "targetGw": 9
+    },
+    {
+      "id": 3801503,
+      "name": "Long_Darkz",
+      "action": "0",
+      "captains": [
+        "Haaland",
+        "Vuskovic",
+        "Rayan"
+      ],
+      "replacements": [
+        {
+          "out": "Calafiori",
+          "trigger": "หาก Calafiori ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 4,
+              "name": "Gabriel",
+              "price": 7.9
+            },
+            {
+              "id": 31,
+              "name": "Konsa",
+              "price": 4.7
+            },
+            {
+              "id": 334,
+              "name": "Muharemović",
+              "price": 5.1
+            }
+          ]
+        },
+        {
+          "out": "B.Fernandes",
+          "trigger": "หากปรับงบจาก Bruno ตามผลตอบแทน/บทบาท",
+          "targets": [
+            {
+              "id": 68,
+              "name": "Tavernier",
+              "price": 6.3
+            },
+            {
+              "id": 427,
+              "name": "Mbeumo",
+              "price": 7.9
+            },
+            {
+              "id": 156,
+              "name": "Neto",
+              "price": 6.6
+            }
+          ]
+        }
+      ],
+      "confidence": "ต่ำ: ยังไม่สอบเทียบรายชื่อ และไม่ได้ยืนยันงบขายของคู่แข่ง",
+      "chip": "ไม่มีหลักฐานพอระบุว่าจะใช้ชิป",
+      "issuedAt": "2026-10-26T00:57:20.064Z",
+      "targetGw": 9
+    },
+    {
+      "id": 5229629,
+      "name": "Dek Dek FC",
+      "action": "0",
+      "captains": [
+        "Haaland",
+        "Evanilson",
+        "De Cuyper"
+      ],
+      "replacements": [
+        {
+          "out": "João Pedro",
+          "trigger": "หาก João Pedro ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 379,
+              "name": "Isak",
+              "price": 9
+            },
+            {
+              "id": 166,
+              "name": "N.Jackson",
+              "price": 6.7
+            }
+          ]
+        }
+      ],
+      "confidence": "ต่ำ: ยังไม่สอบเทียบรายชื่อ และไม่ได้ยืนยันงบขายของคู่แข่ง",
+      "chip": "ไม่มีหลักฐานพอระบุว่าจะใช้ชิป",
+      "issuedAt": "2026-10-26T00:57:20.064Z",
+      "targetGw": 9
+    },
+    {
+      "id": 8489895,
+      "name": "Goal888",
+      "action": "0",
+      "captains": [
+        "Gabriel",
+        "Raya",
+        "Mbeumo"
+      ],
+      "replacements": [
+        {
+          "out": "Calafiori",
+          "trigger": "หาก Calafiori ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 31,
+              "name": "Konsa",
+              "price": 4.7
+            },
+            {
+              "id": 334,
+              "name": "Muharemović",
+              "price": 5.1
+            }
+          ]
+        }
+      ],
+      "confidence": "ต่ำ: ยังไม่สอบเทียบรายชื่อ และไม่ได้ยืนยันงบขายของคู่แข่ง",
+      "chip": "เฝ้า WC หากปัญหาหลายตำแหน่งยืนยัน",
+      "issuedAt": "2026-10-26T00:57:20.064Z",
+      "targetGw": 9
+    },
+    {
+      "id": 3798782,
+      "name": "Mr.Art",
+      "action": "2+",
+      "captains": [
+        "Haaland",
+        "Neto",
+        "De Cuyper"
+      ],
+      "replacements": [
+        {
+          "out": "João Pedro",
+          "trigger": "หาก João Pedro ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 79,
+              "name": "Evanilson",
+              "price": 6.2
+            },
+            {
+              "id": 379,
+              "name": "Isak",
+              "price": 9
+            },
+            {
+              "id": 166,
+              "name": "N.Jackson",
+              "price": 6.7
+            }
+          ]
+        },
+        {
+          "out": "Calafiori",
+          "trigger": "หาก Calafiori ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 4,
+              "name": "Gabriel",
+              "price": 7.9
+            },
+            {
+              "id": 31,
+              "name": "Konsa",
+              "price": 4.7
+            },
+            {
+              "id": 334,
+              "name": "Muharemović",
+              "price": 5.1
+            }
+          ]
+        },
+        {
+          "out": "Hughes",
+          "trigger": "หากแก้สำรองที่มีนาทีน้อย",
+          "targets": [
+            {
+              "id": 68,
+              "name": "Tavernier",
+              "price": 6.3
+            },
+            {
+              "id": 261,
+              "name": "Iwobi",
+              "price": 5.4
+            },
+            {
+              "id": 13,
+              "name": "Rice",
+              "price": 7.4
+            }
+          ]
+        }
+      ],
+      "confidence": "ต่ำ: ยังไม่สอบเทียบรายชื่อ และไม่ได้ยืนยันงบขายของคู่แข่ง",
+      "chip": "ไม่มีหลักฐานพอระบุว่าจะใช้ชิป",
+      "issuedAt": "2026-10-26T00:57:20.064Z",
+      "targetGw": 9
+    },
+    {
+      "id": 7486501,
+      "name": "Talens10",
+      "action": "2+",
+      "captains": [
+        "Haaland",
+        "De Cuyper",
+        "Tavernier"
+      ],
+      "replacements": [
+        {
+          "out": "João Pedro",
+          "trigger": "หาก João Pedro ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 79,
+              "name": "Evanilson",
+              "price": 6.2
+            },
+            {
+              "id": 379,
+              "name": "Isak",
+              "price": 9
+            },
+            {
+              "id": 166,
+              "name": "N.Jackson",
+              "price": 6.7
+            }
+          ]
+        },
+        {
+          "out": "B.Fernandes",
+          "trigger": "หากปรับงบจาก Bruno ตามผลตอบแทน/บทบาท",
+          "targets": [
+            {
+              "id": 156,
+              "name": "Neto",
+              "price": 6.6
+            }
+          ]
+        }
+      ],
+      "confidence": "ต่ำ: ยังไม่สอบเทียบรายชื่อ และไม่ได้ยืนยันงบขายของคู่แข่ง",
+      "chip": "ไม่มีหลักฐานพอระบุว่าจะใช้ชิป",
+      "issuedAt": "2026-10-26T00:57:20.064Z",
+      "targetGw": 9
+    },
+    {
+      "id": 11062145,
+      "name": "Sweetzer's Team",
+      "action": "0",
+      "captains": [
+        "De Cuyper",
+        "Mbeumo",
+        "Isak"
+      ],
+      "replacements": [
+        {
+          "out": "João Pedro",
+          "trigger": "หาก João Pedro ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 79,
+              "name": "Evanilson",
+              "price": 6.2
+            },
+            {
+              "id": 166,
+              "name": "N.Jackson",
+              "price": 6.7
+            }
+          ]
+        },
+        {
+          "out": "Calafiori",
+          "trigger": "หาก Calafiori ยังไม่พร้อม",
+          "targets": [
+            {
+              "id": 4,
+              "name": "Gabriel",
+              "price": 7.9
+            },
+            {
+              "id": 31,
+              "name": "Konsa",
+              "price": 4.7
+            },
+            {
+              "id": 334,
+              "name": "Muharemović",
+              "price": 5.1
+            }
+          ]
+        }
+      ],
+      "confidence": "ต่ำ: ยังไม่สอบเทียบรายชื่อ และไม่ได้ยืนยันงบขายของคู่แข่ง",
+      "chip": "ไม่มีหลักฐานพอระบุว่าจะใช้ชิป",
+      "issuedAt": "2026-10-26T00:57:20.064Z",
+      "targetGw": 9
+    }
+  ]
+}
