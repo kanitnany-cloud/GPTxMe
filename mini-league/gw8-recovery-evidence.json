@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-30T18:43:57.658Z",
-  "leagueUpdatedAt": "2026-10-30T18:40:00Z",
+  "generatedAt": "2026-10-30T22:48:29.077Z",
+  "leagueUpdatedAt": "2026-10-30T22:44:31Z",
   "gw": 8,
   "event": {
     "id": 8,
@@ -39746,6 +39746,680 @@
       ]
     },
     {
+      "id": 28824,
+      "name": "Fergie's Fledglings",
+      "rank": 6,
+      "total": 654,
+      "history": [
+        {
+          "gw": 6,
+          "points": 83,
+          "hit": 0,
+          "net": 83,
+          "total": 508,
+          "overallRank": 59,
+          "bench": 3,
+          "bank": 0.9,
+          "transfers": 0,
+          "chip": null,
+          "captain": "Rogers",
+          "captainId": 40,
+          "multiplier": 2,
+          "calculated": 83,
+          "unreconciled": 0,
+          "picks": [
+            {
+              "element": 1,
+              "position": 1,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 1,
+              "name": "Raya",
+              "club": "ARS",
+              "points": 3,
+              "minutes": 90
+            },
+            {
+              "element": 8,
+              "position": 2,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": true,
+              "element_type": 2,
+              "name": "Calafiori",
+              "club": "ARS",
+              "points": 9,
+              "minutes": 81
+            },
+            {
+              "element": 115,
+              "position": 3,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 2,
+              "name": "De Cuyper",
+              "club": "BHA",
+              "points": 15,
+              "minutes": 67
+            },
+            {
+              "element": 31,
+              "position": 4,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 2,
+              "name": "Konsa",
+              "club": "ARS",
+              "points": 4,
+              "minutes": 90
+            },
+            {
+              "element": 449,
+              "position": 5,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 2,
+              "name": "Hall",
+              "club": "NEW",
+              "points": 0,
+              "minutes": 90
+            },
+            {
+              "element": 124,
+              "position": 6,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 3,
+              "name": "Groß",
+              "club": "BHA",
+              "points": 6,
+              "minutes": 90
+            },
+            {
+              "element": 154,
+              "position": 7,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 3,
+              "name": "Palmer",
+              "club": "CHE",
+              "points": 8,
+              "minutes": 87
+            },
+            {
+              "element": 40,
+              "position": 8,
+              "multiplier": 2,
+              "is_captain": true,
+              "is_vice_captain": false,
+              "element_type": 3,
+              "name": "Rogers",
+              "club": "CHE",
+              "points": 9,
+              "minutes": 83
+            },
+            {
+              "element": 165,
+              "position": 9,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 4,
+              "name": "João Pedro",
+              "club": "CHE",
+              "points": 12,
+              "minutes": 71
+            },
+            {
+              "element": 411,
+              "position": 10,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 4,
+              "name": "Haaland",
+              "club": "MCI",
+              "points": 6,
+              "minutes": 79
+            },
+            {
+              "element": 464,
+              "position": 11,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 4,
+              "name": "Wissa",
+              "club": "NEW",
+              "points": 2,
+              "minutes": 77
+            },
+            {
+              "element": 302,
+              "position": 12,
+              "multiplier": 0,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 1,
+              "name": "Button",
+              "club": "IPS",
+              "points": 0,
+              "minutes": 0
+            },
+            {
+              "element": 334,
+              "position": 13,
+              "multiplier": 0,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 2,
+              "name": "Muharemović",
+              "club": "LEE",
+              "points": 2,
+              "minutes": 90
+            },
+            {
+              "element": 565,
+              "position": 14,
+              "multiplier": 0,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 3,
+              "name": "M.Sangaré",
+              "club": "BRE",
+              "points": 1,
+              "minutes": 38
+            },
+            {
+              "element": 367,
+              "position": 15,
+              "multiplier": 0,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 3,
+              "name": "Gakpo",
+              "club": "LIV",
+              "points": 0,
+              "minutes": 0
+            }
+          ]
+        },
+        {
+          "gw": 7,
+          "points": 94,
+          "hit": 0,
+          "net": 94,
+          "total": 602,
+          "overallRank": 4,
+          "bench": 15,
+          "bank": 0.8,
+          "transfers": 2,
+          "chip": "3xc",
+          "captain": "Haaland",
+          "captainId": 411,
+          "multiplier": 3,
+          "calculated": 94,
+          "unreconciled": 0,
+          "picks": [
+            {
+              "element": 1,
+              "position": 1,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 1,
+              "name": "Raya",
+              "club": "ARS",
+              "points": 9,
+              "minutes": 90
+            },
+            {
+              "element": 8,
+              "position": 2,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 2,
+              "name": "Calafiori",
+              "club": "ARS",
+              "points": 6,
+              "minutes": 90
+            },
+            {
+              "element": 115,
+              "position": 3,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 2,
+              "name": "De Cuyper",
+              "club": "BHA",
+              "points": 6,
+              "minutes": 90
+            },
+            {
+              "element": 31,
+              "position": 4,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 2,
+              "name": "Konsa",
+              "club": "ARS",
+              "points": 9,
+              "minutes": 90
+            },
+            {
+              "element": 334,
+              "position": 5,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 2,
+              "name": "Muharemović",
+              "club": "LEE",
+              "points": 5,
+              "minutes": 90
+            },
+            {
+              "element": 124,
+              "position": 6,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": true,
+              "element_type": 3,
+              "name": "Groß",
+              "club": "BHA",
+              "points": 5,
+              "minutes": 70
+            },
+            {
+              "element": 154,
+              "position": 7,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 3,
+              "name": "Palmer",
+              "club": "CHE",
+              "points": 2,
+              "minutes": 90
+            },
+            {
+              "element": 40,
+              "position": 8,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 3,
+              "name": "Rogers",
+              "club": "CHE",
+              "points": 2,
+              "minutes": 90
+            },
+            {
+              "element": 165,
+              "position": 9,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 4,
+              "name": "João Pedro",
+              "club": "CHE",
+              "points": 2,
+              "minutes": 90
+            },
+            {
+              "element": 411,
+              "position": 10,
+              "multiplier": 3,
+              "is_captain": true,
+              "is_vice_captain": false,
+              "element_type": 4,
+              "name": "Haaland",
+              "club": "MCI",
+              "points": 13,
+              "minutes": 90
+            },
+            {
+              "element": 346,
+              "position": 11,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 4,
+              "name": "Calvert-Lewin",
+              "club": "LEE",
+              "points": 9,
+              "minutes": 90
+            },
+            {
+              "element": 302,
+              "position": 12,
+              "multiplier": 0,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 1,
+              "name": "Button",
+              "club": "IPS",
+              "points": 0,
+              "minutes": 0
+            },
+            {
+              "element": 53,
+              "position": 13,
+              "multiplier": 0,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 3,
+              "name": "Manzambi",
+              "club": "AVL",
+              "points": 11,
+              "minutes": 71
+            },
+            {
+              "element": 449,
+              "position": 14,
+              "multiplier": 0,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 2,
+              "name": "Hall",
+              "club": "NEW",
+              "points": 4,
+              "minutes": 90
+            },
+            {
+              "element": 367,
+              "position": 15,
+              "multiplier": 0,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 3,
+              "name": "Gakpo",
+              "club": "LIV",
+              "points": 0,
+              "minutes": 0
+            }
+          ]
+        },
+        {
+          "gw": 8,
+          "points": 52,
+          "hit": 0,
+          "net": 52,
+          "total": 654,
+          "overallRank": 6,
+          "bench": 6,
+          "bank": 0,
+          "transfers": 1,
+          "chip": null,
+          "captain": "Haaland",
+          "captainId": 411,
+          "multiplier": 2,
+          "calculated": 52,
+          "unreconciled": 0,
+          "picks": [
+            {
+              "element": 1,
+              "position": 1,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 1,
+              "name": "Raya",
+              "club": "ARS",
+              "points": 7,
+              "minutes": 90
+            },
+            {
+              "element": 334,
+              "position": 2,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 2,
+              "name": "Muharemović",
+              "club": "LEE",
+              "points": 9,
+              "minutes": 90
+            },
+            {
+              "element": 8,
+              "position": 3,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 2,
+              "name": "Calafiori",
+              "club": "ARS",
+              "points": 1,
+              "minutes": 22
+            },
+            {
+              "element": 31,
+              "position": 4,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 2,
+              "name": "Konsa",
+              "club": "ARS",
+              "points": 14,
+              "minutes": 90
+            },
+            {
+              "element": 115,
+              "position": 5,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 2,
+              "name": "De Cuyper",
+              "club": "BHA",
+              "points": 1,
+              "minutes": 90
+            },
+            {
+              "element": 124,
+              "position": 6,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 3,
+              "name": "Groß",
+              "club": "BHA",
+              "points": 0,
+              "minutes": 90
+            },
+            {
+              "element": 40,
+              "position": 7,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 3,
+              "name": "Rogers",
+              "club": "CHE",
+              "points": 1,
+              "minutes": 90
+            },
+            {
+              "element": 154,
+              "position": 8,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 3,
+              "name": "Palmer",
+              "club": "CHE",
+              "points": -1,
+              "minutes": 79
+            },
+            {
+              "element": 480,
+              "position": 9,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 3,
+              "name": "Gibbs-White",
+              "club": "NFO",
+              "points": 2,
+              "minutes": 90
+            },
+            {
+              "element": 346,
+              "position": 10,
+              "multiplier": 1,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 4,
+              "name": "Calvert-Lewin",
+              "club": "LEE",
+              "points": 2,
+              "minutes": 84
+            },
+            {
+              "element": 411,
+              "position": 11,
+              "multiplier": 2,
+              "is_captain": true,
+              "is_vice_captain": false,
+              "element_type": 4,
+              "name": "Haaland",
+              "club": "MCI",
+              "points": 8,
+              "minutes": 90
+            },
+            {
+              "element": 302,
+              "position": 12,
+              "multiplier": 0,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 1,
+              "name": "Button",
+              "club": "IPS",
+              "points": 0,
+              "minutes": 0
+            },
+            {
+              "element": 165,
+              "position": 13,
+              "multiplier": 0,
+              "is_captain": false,
+              "is_vice_captain": true,
+              "element_type": 4,
+              "name": "João Pedro",
+              "club": "CHE",
+              "points": 0,
+              "minutes": 0
+            },
+            {
+              "element": 449,
+              "position": 14,
+              "multiplier": 0,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 2,
+              "name": "Hall",
+              "club": "NEW",
+              "points": 5,
+              "minutes": 90
+            },
+            {
+              "element": 53,
+              "position": 15,
+              "multiplier": 0,
+              "is_captain": false,
+              "is_vice_captain": false,
+              "element_type": 3,
+              "name": "Manzambi",
+              "club": "AVL",
+              "points": 1,
+              "minutes": 65
+            }
+          ]
+        }
+      ],
+      "chips": [
+        {
+          "name": "bboost",
+          "time": "2026-08-16T13:32:24.704231Z",
+          "event": 1
+        },
+        {
+          "name": "wildcard",
+          "time": "2026-08-31T23:13:54.177119Z",
+          "event": 3
+        },
+        {
+          "name": "freehit",
+          "time": "2026-09-18T16:59:02.780117Z",
+          "event": 5
+        },
+        {
+          "name": "3xc",
+          "time": "2026-10-10T22:44:14.947909Z",
+          "event": 7
+        }
+      ],
+      "priorRanks": [
+        {
+          "gw": 1,
+          "rank": 46116
+        },
+        {
+          "gw": 2,
+          "rank": 33171
+        },
+        {
+          "gw": 3,
+          "rank": 52299
+        },
+        {
+          "gw": 4,
+          "rank": 4638
+        },
+        {
+          "gw": 5,
+          "rank": 175
+        },
+        {
+          "gw": 6,
+          "rank": 59
+        },
+        {
+          "gw": 7,
+          "rank": 4
+        }
+      ],
+      "transfers": [
+        {
+          "gw": 8,
+          "in": "Gibbs-White",
+          "out": "Gakpo"
+        },
+        {
+          "gw": 7,
+          "in": "Calvert-Lewin",
+          "out": "Wissa"
+        },
+        {
+          "gw": 7,
+          "in": "Manzambi",
+          "out": "M.Sangaré"
+        }
+      ]
+    },
+    {
       "id": 4041739,
       "name": "simo",
       "rank": 6,
@@ -40496,680 +41170,6 @@
           "gw": 6,
           "in": "Cherki",
           "out": "B.Fernandes"
-        }
-      ]
-    },
-    {
-      "id": 28824,
-      "name": "Fergie's Fledglings",
-      "rank": 6,
-      "total": 654,
-      "history": [
-        {
-          "gw": 6,
-          "points": 83,
-          "hit": 0,
-          "net": 83,
-          "total": 508,
-          "overallRank": 59,
-          "bench": 3,
-          "bank": 0.9,
-          "transfers": 0,
-          "chip": null,
-          "captain": "Rogers",
-          "captainId": 40,
-          "multiplier": 2,
-          "calculated": 83,
-          "unreconciled": 0,
-          "picks": [
-            {
-              "element": 1,
-              "position": 1,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 1,
-              "name": "Raya",
-              "club": "ARS",
-              "points": 3,
-              "minutes": 90
-            },
-            {
-              "element": 8,
-              "position": 2,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": true,
-              "element_type": 2,
-              "name": "Calafiori",
-              "club": "ARS",
-              "points": 9,
-              "minutes": 81
-            },
-            {
-              "element": 115,
-              "position": 3,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 2,
-              "name": "De Cuyper",
-              "club": "BHA",
-              "points": 15,
-              "minutes": 67
-            },
-            {
-              "element": 31,
-              "position": 4,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 2,
-              "name": "Konsa",
-              "club": "ARS",
-              "points": 4,
-              "minutes": 90
-            },
-            {
-              "element": 449,
-              "position": 5,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 2,
-              "name": "Hall",
-              "club": "NEW",
-              "points": 0,
-              "minutes": 90
-            },
-            {
-              "element": 124,
-              "position": 6,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 3,
-              "name": "Groß",
-              "club": "BHA",
-              "points": 6,
-              "minutes": 90
-            },
-            {
-              "element": 154,
-              "position": 7,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 3,
-              "name": "Palmer",
-              "club": "CHE",
-              "points": 8,
-              "minutes": 87
-            },
-            {
-              "element": 40,
-              "position": 8,
-              "multiplier": 2,
-              "is_captain": true,
-              "is_vice_captain": false,
-              "element_type": 3,
-              "name": "Rogers",
-              "club": "CHE",
-              "points": 9,
-              "minutes": 83
-            },
-            {
-              "element": 165,
-              "position": 9,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 4,
-              "name": "João Pedro",
-              "club": "CHE",
-              "points": 12,
-              "minutes": 71
-            },
-            {
-              "element": 411,
-              "position": 10,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 4,
-              "name": "Haaland",
-              "club": "MCI",
-              "points": 6,
-              "minutes": 79
-            },
-            {
-              "element": 464,
-              "position": 11,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 4,
-              "name": "Wissa",
-              "club": "NEW",
-              "points": 2,
-              "minutes": 77
-            },
-            {
-              "element": 302,
-              "position": 12,
-              "multiplier": 0,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 1,
-              "name": "Button",
-              "club": "IPS",
-              "points": 0,
-              "minutes": 0
-            },
-            {
-              "element": 334,
-              "position": 13,
-              "multiplier": 0,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 2,
-              "name": "Muharemović",
-              "club": "LEE",
-              "points": 2,
-              "minutes": 90
-            },
-            {
-              "element": 565,
-              "position": 14,
-              "multiplier": 0,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 3,
-              "name": "M.Sangaré",
-              "club": "BRE",
-              "points": 1,
-              "minutes": 38
-            },
-            {
-              "element": 367,
-              "position": 15,
-              "multiplier": 0,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 3,
-              "name": "Gakpo",
-              "club": "LIV",
-              "points": 0,
-              "minutes": 0
-            }
-          ]
-        },
-        {
-          "gw": 7,
-          "points": 94,
-          "hit": 0,
-          "net": 94,
-          "total": 602,
-          "overallRank": 4,
-          "bench": 15,
-          "bank": 0.8,
-          "transfers": 2,
-          "chip": "3xc",
-          "captain": "Haaland",
-          "captainId": 411,
-          "multiplier": 3,
-          "calculated": 94,
-          "unreconciled": 0,
-          "picks": [
-            {
-              "element": 1,
-              "position": 1,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 1,
-              "name": "Raya",
-              "club": "ARS",
-              "points": 9,
-              "minutes": 90
-            },
-            {
-              "element": 8,
-              "position": 2,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 2,
-              "name": "Calafiori",
-              "club": "ARS",
-              "points": 6,
-              "minutes": 90
-            },
-            {
-              "element": 115,
-              "position": 3,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 2,
-              "name": "De Cuyper",
-              "club": "BHA",
-              "points": 6,
-              "minutes": 90
-            },
-            {
-              "element": 31,
-              "position": 4,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 2,
-              "name": "Konsa",
-              "club": "ARS",
-              "points": 9,
-              "minutes": 90
-            },
-            {
-              "element": 334,
-              "position": 5,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 2,
-              "name": "Muharemović",
-              "club": "LEE",
-              "points": 5,
-              "minutes": 90
-            },
-            {
-              "element": 124,
-              "position": 6,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": true,
-              "element_type": 3,
-              "name": "Groß",
-              "club": "BHA",
-              "points": 5,
-              "minutes": 70
-            },
-            {
-              "element": 154,
-              "position": 7,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 3,
-              "name": "Palmer",
-              "club": "CHE",
-              "points": 2,
-              "minutes": 90
-            },
-            {
-              "element": 40,
-              "position": 8,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 3,
-              "name": "Rogers",
-              "club": "CHE",
-              "points": 2,
-              "minutes": 90
-            },
-            {
-              "element": 165,
-              "position": 9,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 4,
-              "name": "João Pedro",
-              "club": "CHE",
-              "points": 2,
-              "minutes": 90
-            },
-            {
-              "element": 411,
-              "position": 10,
-              "multiplier": 3,
-              "is_captain": true,
-              "is_vice_captain": false,
-              "element_type": 4,
-              "name": "Haaland",
-              "club": "MCI",
-              "points": 13,
-              "minutes": 90
-            },
-            {
-              "element": 346,
-              "position": 11,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 4,
-              "name": "Calvert-Lewin",
-              "club": "LEE",
-              "points": 9,
-              "minutes": 90
-            },
-            {
-              "element": 302,
-              "position": 12,
-              "multiplier": 0,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 1,
-              "name": "Button",
-              "club": "IPS",
-              "points": 0,
-              "minutes": 0
-            },
-            {
-              "element": 53,
-              "position": 13,
-              "multiplier": 0,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 3,
-              "name": "Manzambi",
-              "club": "AVL",
-              "points": 11,
-              "minutes": 71
-            },
-            {
-              "element": 449,
-              "position": 14,
-              "multiplier": 0,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 2,
-              "name": "Hall",
-              "club": "NEW",
-              "points": 4,
-              "minutes": 90
-            },
-            {
-              "element": 367,
-              "position": 15,
-              "multiplier": 0,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 3,
-              "name": "Gakpo",
-              "club": "LIV",
-              "points": 0,
-              "minutes": 0
-            }
-          ]
-        },
-        {
-          "gw": 8,
-          "points": 52,
-          "hit": 0,
-          "net": 52,
-          "total": 654,
-          "overallRank": 6,
-          "bench": 6,
-          "bank": 0,
-          "transfers": 1,
-          "chip": null,
-          "captain": "Haaland",
-          "captainId": 411,
-          "multiplier": 2,
-          "calculated": 52,
-          "unreconciled": 0,
-          "picks": [
-            {
-              "element": 1,
-              "position": 1,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 1,
-              "name": "Raya",
-              "club": "ARS",
-              "points": 7,
-              "minutes": 90
-            },
-            {
-              "element": 334,
-              "position": 2,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 2,
-              "name": "Muharemović",
-              "club": "LEE",
-              "points": 9,
-              "minutes": 90
-            },
-            {
-              "element": 8,
-              "position": 3,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 2,
-              "name": "Calafiori",
-              "club": "ARS",
-              "points": 1,
-              "minutes": 22
-            },
-            {
-              "element": 31,
-              "position": 4,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 2,
-              "name": "Konsa",
-              "club": "ARS",
-              "points": 14,
-              "minutes": 90
-            },
-            {
-              "element": 115,
-              "position": 5,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 2,
-              "name": "De Cuyper",
-              "club": "BHA",
-              "points": 1,
-              "minutes": 90
-            },
-            {
-              "element": 124,
-              "position": 6,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 3,
-              "name": "Groß",
-              "club": "BHA",
-              "points": 0,
-              "minutes": 90
-            },
-            {
-              "element": 40,
-              "position": 7,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 3,
-              "name": "Rogers",
-              "club": "CHE",
-              "points": 1,
-              "minutes": 90
-            },
-            {
-              "element": 154,
-              "position": 8,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 3,
-              "name": "Palmer",
-              "club": "CHE",
-              "points": -1,
-              "minutes": 79
-            },
-            {
-              "element": 480,
-              "position": 9,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 3,
-              "name": "Gibbs-White",
-              "club": "NFO",
-              "points": 2,
-              "minutes": 90
-            },
-            {
-              "element": 346,
-              "position": 10,
-              "multiplier": 1,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 4,
-              "name": "Calvert-Lewin",
-              "club": "LEE",
-              "points": 2,
-              "minutes": 84
-            },
-            {
-              "element": 411,
-              "position": 11,
-              "multiplier": 2,
-              "is_captain": true,
-              "is_vice_captain": false,
-              "element_type": 4,
-              "name": "Haaland",
-              "club": "MCI",
-              "points": 8,
-              "minutes": 90
-            },
-            {
-              "element": 302,
-              "position": 12,
-              "multiplier": 0,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 1,
-              "name": "Button",
-              "club": "IPS",
-              "points": 0,
-              "minutes": 0
-            },
-            {
-              "element": 165,
-              "position": 13,
-              "multiplier": 0,
-              "is_captain": false,
-              "is_vice_captain": true,
-              "element_type": 4,
-              "name": "João Pedro",
-              "club": "CHE",
-              "points": 0,
-              "minutes": 0
-            },
-            {
-              "element": 449,
-              "position": 14,
-              "multiplier": 0,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 2,
-              "name": "Hall",
-              "club": "NEW",
-              "points": 5,
-              "minutes": 90
-            },
-            {
-              "element": 53,
-              "position": 15,
-              "multiplier": 0,
-              "is_captain": false,
-              "is_vice_captain": false,
-              "element_type": 3,
-              "name": "Manzambi",
-              "club": "AVL",
-              "points": 1,
-              "minutes": 65
-            }
-          ]
-        }
-      ],
-      "chips": [
-        {
-          "name": "bboost",
-          "time": "2026-08-16T13:32:24.704231Z",
-          "event": 1
-        },
-        {
-          "name": "wildcard",
-          "time": "2026-08-31T23:13:54.177119Z",
-          "event": 3
-        },
-        {
-          "name": "freehit",
-          "time": "2026-09-18T16:59:02.780117Z",
-          "event": 5
-        },
-        {
-          "name": "3xc",
-          "time": "2026-10-10T22:44:14.947909Z",
-          "event": 7
-        }
-      ],
-      "priorRanks": [
-        {
-          "gw": 1,
-          "rank": 46116
-        },
-        {
-          "gw": 2,
-          "rank": 33171
-        },
-        {
-          "gw": 3,
-          "rank": 52299
-        },
-        {
-          "gw": 4,
-          "rank": 4638
-        },
-        {
-          "gw": 5,
-          "rank": 175
-        },
-        {
-          "gw": 6,
-          "rank": 59
-        },
-        {
-          "gw": 7,
-          "rank": 4
-        }
-      ],
-      "transfers": [
-        {
-          "gw": 8,
-          "in": "Gibbs-White",
-          "out": "Gakpo"
-        },
-        {
-          "gw": 7,
-          "in": "Calvert-Lewin",
-          "out": "Wissa"
-        },
-        {
-          "gw": 7,
-          "in": "Manzambi",
-          "out": "M.Sangaré"
         }
       ]
     },
@@ -44234,8 +44234,8 @@
       "points": 40,
       "priceEvent": 0,
       "priceSeason": 0.1,
-      "transfersIn": 41464,
-      "transfersOut": 59631,
+      "transfersIn": 44161,
+      "transfersOut": 64873,
       "penalties": null,
       "freekicks": null,
       "corners": null,
@@ -44336,8 +44336,8 @@
       "points": 60,
       "priceEvent": 0,
       "priceSeason": 0.8,
-      "transfersIn": 171745,
-      "transfersOut": 56677,
+      "transfersIn": 184729,
+      "transfersOut": 61329,
       "penalties": null,
       "freekicks": 4,
       "corners": 2,
@@ -44438,8 +44438,8 @@
       "points": 45,
       "priceEvent": -0.1,
       "priceSeason": 0.4,
-      "transfersIn": 23987,
-      "transfersOut": 525163,
+      "transfersIn": 25035,
+      "transfersOut": 567120,
       "penalties": null,
       "freekicks": null,
       "corners": null,
@@ -44540,8 +44540,8 @@
       "points": 50,
       "priceEvent": 0.1,
       "priceSeason": 0.3,
-      "transfersIn": 91804,
-      "transfersOut": 32593,
+      "transfersIn": 97950,
+      "transfersOut": 35085,
       "penalties": null,
       "freekicks": null,
       "corners": null,
@@ -44642,8 +44642,8 @@
       "points": 42,
       "priceEvent": -0.1,
       "priceSeason": 0.2,
-      "transfersIn": 55269,
-      "transfersOut": 142543,
+      "transfersIn": 60127,
+      "transfersOut": 151132,
       "penalties": null,
       "freekicks": null,
       "corners": null,
@@ -44744,8 +44744,8 @@
       "points": 18,
       "priceEvent": 0,
       "priceSeason": -0.1,
-      "transfersIn": 12934,
-      "transfersOut": 48418,
+      "transfersIn": 13837,
+      "transfersOut": 53151,
       "penalties": null,
       "freekicks": null,
       "corners": null,
@@ -44846,8 +44846,8 @@
       "points": 41,
       "priceEvent": 0,
       "priceSeason": 0.5,
-      "transfersIn": 185342,
-      "transfersOut": 75668,
+      "transfersIn": 199934,
+      "transfersOut": 80624,
       "penalties": null,
       "freekicks": 4,
       "corners": 6,
@@ -44948,8 +44948,8 @@
       "points": 58,
       "priceEvent": 0,
       "priceSeason": 0.7,
-      "transfersIn": 148176,
-      "transfersOut": 98529,
+      "transfersIn": 156793,
+      "transfersOut": 106661,
       "penalties": 1,
       "freekicks": 1,
       "corners": 1,
@@ -45050,8 +45050,8 @@
       "points": 44,
       "priceEvent": 0,
       "priceSeason": 0.5,
-      "transfersIn": 168216,
-      "transfersOut": 305476,
+      "transfersIn": 177676,
+      "transfersOut": 327035,
       "penalties": null,
       "freekicks": 1,
       "corners": 1,
@@ -45152,8 +45152,8 @@
       "points": 66,
       "priceEvent": 0.1,
       "priceSeason": 0.3,
-      "transfersIn": 129278,
-      "transfersOut": 12083,
+      "transfersIn": 138684,
+      "transfersOut": 12678,
       "penalties": 1,
       "freekicks": null,
       "corners": null,
@@ -45254,8 +45254,8 @@
       "points": 19,
       "priceEvent": -0.1,
       "priceSeason": 0,
-      "transfersIn": 10552,
-      "transfersOut": 196852,
+      "transfersIn": 11216,
+      "transfersOut": 209902,
       "penalties": 1,
       "freekicks": null,
       "corners": null,
@@ -45356,8 +45356,8 @@
       "points": 0,
       "priceEvent": 0,
       "priceSeason": 0,
-      "transfersIn": 10469,
-      "transfersOut": 48134,
+      "transfersIn": 11256,
+      "transfersOut": 52633,
       "penalties": null,
       "freekicks": null,
       "corners": null,
@@ -45458,8 +45458,8 @@
       "points": 33,
       "priceEvent": -0.1,
       "priceSeason": -0.3,
-      "transfersIn": 11472,
-      "transfersOut": 316178,
+      "transfersIn": 12366,
+      "transfersOut": 337549,
       "penalties": 1,
       "freekicks": 1,
       "corners": 1,
@@ -45560,8 +45560,8 @@
       "points": 47,
       "priceEvent": -0.1,
       "priceSeason": 0.3,
-      "transfersIn": 26261,
-      "transfersOut": 2042829,
+      "transfersIn": 26374,
+      "transfersOut": 2262865,
       "penalties": null,
       "freekicks": null,
       "corners": null,
@@ -45662,8 +45662,8 @@
       "points": 3,
       "priceEvent": 0,
       "priceSeason": -0.2,
-      "transfersIn": 20413,
-      "transfersOut": 38948,
+      "transfersIn": 21325,
+      "transfersOut": 42722,
       "penalties": null,
       "freekicks": null,
       "corners": 4,
@@ -45766,8 +45766,8 @@
       "points": 52,
       "priceEvent": 0.2,
       "priceSeason": 0.4,
-      "transfersIn": 972778,
-      "transfersOut": 10066,
+      "transfersIn": 1050186,
+      "transfersOut": 10773,
       "penalties": 3,
       "freekicks": 1,
       "corners": 1,
@@ -45864,8 +45864,8 @@
       "points": 43,
       "priceEvent": 0.2,
       "priceSeason": 0.3,
-      "transfersIn": 633333,
-      "transfersOut": 22180,
+      "transfersIn": 699601,
+      "transfersOut": 23683,
       "penalties": null,
       "freekicks": null,
       "corners": null,
@@ -45962,8 +45962,8 @@
       "points": 43,
       "priceEvent": 0,
       "priceSeason": -0.1,
-      "transfersIn": 91351,
-      "transfersOut": 136107,
+      "transfersIn": 97094,
+      "transfersOut": 147056,
       "penalties": 2,
       "freekicks": 2,
       "corners": 2,
@@ -46060,8 +46060,8 @@
       "points": 52,
       "priceEvent": 0,
       "priceSeason": -0.1,
-      "transfersIn": 258379,
-      "transfersOut": 25884,
+      "transfersIn": 275424,
+      "transfersOut": 27999,
       "penalties": null,
       "freekicks": null,
       "corners": null,
@@ -46158,8 +46158,8 @@
       "points": 39,
       "priceEvent": 0.1,
       "priceSeason": 0.2,
-      "transfersIn": 277220,
-      "transfersOut": 21147,
+      "transfersIn": 294223,
+      "transfersOut": 23250,
       "penalties": null,
       "freekicks": null,
       "corners": null,
@@ -46256,8 +46256,8 @@
       "points": 43,
       "priceEvent": 0.1,
       "priceSeason": 0.1,
-      "transfersIn": 61125,
-      "transfersOut": 11671,
+      "transfersIn": 66443,
+      "transfersOut": 12894,
       "penalties": null,
       "freekicks": null,
       "corners": null,
@@ -46354,8 +46354,8 @@
       "points": 40,
       "priceEvent": 0,
       "priceSeason": 0.1,
-      "transfersIn": 54594,
-      "transfersOut": 35534,
+      "transfersIn": 58459,
+      "transfersOut": 39307,
       "penalties": null,
       "freekicks": null,
       "corners": 4,
@@ -46452,8 +46452,8 @@
       "points": 34,
       "priceEvent": 0.2,
       "priceSeason": 0.3,
-      "transfersIn": 1493816,
-      "transfersOut": 12414,
+      "transfersIn": 1629750,
+      "transfersOut": 13485,
       "penalties": 2,
       "freekicks": null,
       "corners": null,
@@ -46550,8 +46550,8 @@
       "points": 37,
       "priceEvent": 0.1,
       "priceSeason": 0.1,
-      "transfersIn": 112670,
-      "transfersOut": 20405,
+      "transfersIn": 120488,
+      "transfersOut": 21950,
       "penalties": null,
       "freekicks": 5,
       "corners": 2,
@@ -46648,8 +46648,8 @@
       "points": 39,
       "priceEvent": 0.1,
       "priceSeason": -0.1,
-      "transfersIn": 74517,
-      "transfersOut": 65706,
+      "transfersIn": 75273,
+      "transfersOut": 73095,
       "penalties": null,
       "freekicks": 1,
       "corners": 1,
@@ -46746,8 +46746,8 @@
       "points": 32,
       "priceEvent": 0,
       "priceSeason": -0.1,
-      "transfersIn": 11347,
-      "transfersOut": 12767,
+      "transfersIn": 11965,
+      "transfersOut": 13708,
       "penalties": 3,
       "freekicks": 1,
       "corners": 1,
@@ -47874,1111 +47874,1111 @@
   "sources": [
     {
       "url": "https://fantasy.premierleague.com/api/fixtures/",
-      "retrievedAt": "2026-10-30T18:43:55.335Z"
+      "retrievedAt": "2026-10-30T22:48:26.098Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/bootstrap-static/",
-      "retrievedAt": "2026-10-30T18:43:55.359Z"
+      "retrievedAt": "2026-10-30T22:48:26.120Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/leagues-classic/314/standings/",
-      "retrievedAt": "2026-10-30T18:43:55.438Z"
+      "retrievedAt": "2026-10-30T22:48:26.140Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/leagues-classic/872362/standings/",
-      "retrievedAt": "2026-10-30T18:43:55.609Z"
+      "retrievedAt": "2026-10-30T22:48:26.189Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/event/5/live/",
-      "retrievedAt": "2026-10-30T18:43:55.627Z"
+      "retrievedAt": "2026-10-30T22:48:26.207Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/event/8/live/",
-      "retrievedAt": "2026-10-30T18:43:55.632Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/event/6/live/",
-      "retrievedAt": "2026-10-30T18:43:55.636Z"
+      "retrievedAt": "2026-10-30T22:48:26.212Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/event/7/live/",
-      "retrievedAt": "2026-10-30T18:43:55.639Z"
+      "retrievedAt": "2026-10-30T22:48:26.219Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/event/6/live/",
+      "retrievedAt": "2026-10-30T22:48:26.222Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/3944270/history/",
-      "retrievedAt": "2026-10-30T18:43:55.663Z"
+      "retrievedAt": "2026-10-30T22:48:26.243Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/8479135/history/",
-      "retrievedAt": "2026-10-30T18:43:55.663Z"
+      "retrievedAt": "2026-10-30T22:48:26.244Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/8479135/transfers/",
-      "retrievedAt": "2026-10-30T18:43:55.665Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/3944270/transfers/",
-      "retrievedAt": "2026-10-30T18:43:55.699Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/454063/transfers/",
-      "retrievedAt": "2026-10-30T18:43:55.708Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/118119/history/",
-      "retrievedAt": "2026-10-30T18:43:55.723Z"
+      "retrievedAt": "2026-10-30T22:48:26.247Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/454063/history/",
-      "retrievedAt": "2026-10-30T18:43:55.728Z"
+      "retrievedAt": "2026-10-30T22:48:26.271Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/7463306/transfers/",
-      "retrievedAt": "2026-10-30T18:43:55.741Z"
+      "url": "https://fantasy.premierleague.com/api/entry/118119/history/",
+      "retrievedAt": "2026-10-30T22:48:26.281Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/118119/transfers/",
-      "retrievedAt": "2026-10-30T18:43:55.751Z"
+      "retrievedAt": "2026-10-30T22:48:26.290Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/7463306/history/",
-      "retrievedAt": "2026-10-30T18:43:55.757Z"
+      "retrievedAt": "2026-10-30T22:48:26.290Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/8479135/",
-      "retrievedAt": "2026-10-30T18:43:55.767Z"
+      "url": "https://fantasy.premierleague.com/api/entry/7463306/transfers/",
+      "retrievedAt": "2026-10-30T22:48:26.296Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/8479135/event/1/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.781Z"
+      "url": "https://fantasy.premierleague.com/api/entry/3944270/transfers/",
+      "retrievedAt": "2026-10-30T22:48:26.296Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/8479135/event/2/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.794Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/8479135/event/3/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.808Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/8479135/event/4/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.822Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/3944270/",
-      "retrievedAt": "2026-10-30T18:43:55.830Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/8479135/event/5/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.836Z"
+      "url": "https://fantasy.premierleague.com/api/entry/454063/transfers/",
+      "retrievedAt": "2026-10-30T22:48:26.350Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/454063/",
-      "retrievedAt": "2026-10-30T18:43:55.842Z"
+      "retrievedAt": "2026-10-30T22:48:26.382Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3944270/event/1/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.847Z"
+      "url": "https://fantasy.premierleague.com/api/entry/8479135/",
+      "retrievedAt": "2026-10-30T22:48:26.383Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/7463306/",
-      "retrievedAt": "2026-10-30T18:43:55.850Z"
+      "url": "https://fantasy.premierleague.com/api/entry/3944270/",
+      "retrievedAt": "2026-10-30T22:48:26.385Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/118119/",
-      "retrievedAt": "2026-10-30T18:43:55.854Z"
+      "retrievedAt": "2026-10-30T22:48:26.386Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/454063/event/1/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.857Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/8479135/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.861Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/3944270/event/2/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.863Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7463306/event/1/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.864Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/118119/event/1/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.864Z"
+      "retrievedAt": "2026-10-30T22:48:26.391Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/454063/event/2/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.874Z"
+      "retrievedAt": "2026-10-30T22:48:26.398Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/118119/event/2/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.876Z"
+      "url": "https://fantasy.premierleague.com/api/entry/118119/event/1/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.400Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/8479135/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.876Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7463306/event/2/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.877Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/8479135/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.886Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7463306/event/3/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.891Z"
+      "url": "https://fantasy.premierleague.com/api/entry/7463306/",
+      "retrievedAt": "2026-10-30T22:48:26.405Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/454063/event/3/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.891Z"
+      "retrievedAt": "2026-10-30T22:48:26.406Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/118119/event/3/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.892Z"
+      "url": "https://fantasy.premierleague.com/api/entry/118119/event/2/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.409Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/5090992/history/",
-      "retrievedAt": "2026-10-30T18:43:55.896Z"
+      "url": "https://fantasy.premierleague.com/api/entry/8479135/event/1/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.467Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/5090992/transfers/",
-      "retrievedAt": "2026-10-30T18:43:55.896Z"
+      "url": "https://fantasy.premierleague.com/api/entry/3944270/event/1/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.472Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7463306/event/1/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.493Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/454063/event/4/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.904Z"
+      "retrievedAt": "2026-10-30T22:48:26.495Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/118119/event/3/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.496Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/118119/event/4/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.905Z"
+      "retrievedAt": "2026-10-30T22:48:26.504Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/7463306/event/4/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.908Z"
+      "url": "https://fantasy.premierleague.com/api/entry/3944270/event/2/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.559Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/8479135/event/2/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.571Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7463306/event/2/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.578Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/454063/event/5/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.917Z"
+      "retrievedAt": "2026-10-30T22:48:26.583Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/118119/event/5/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.918Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/454063/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.931Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7463306/event/5/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.931Z"
+      "retrievedAt": "2026-10-30T22:48:26.590Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/118119/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.932Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7463306/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.944Z"
+      "retrievedAt": "2026-10-30T22:48:26.600Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/118119/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.948Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/454063/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.956Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7463306/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.957Z"
+      "retrievedAt": "2026-10-30T22:48:26.608Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/118119/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.962Z"
+      "retrievedAt": "2026-10-30T22:48:26.616Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/7463306/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.971Z"
+      "url": "https://fantasy.premierleague.com/api/entry/5090992/history/",
+      "retrievedAt": "2026-10-30T22:48:26.625Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/454063/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.972Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/192330/transfers/",
-      "retrievedAt": "2026-10-30T18:43:55.973Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/192330/history/",
-      "retrievedAt": "2026-10-30T18:43:55.975Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7915661/transfers/",
-      "retrievedAt": "2026-10-30T18:43:55.982Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/2164081/transfers/",
-      "retrievedAt": "2026-10-30T18:43:55.982Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7915661/history/",
-      "retrievedAt": "2026-10-30T18:43:55.984Z"
+      "url": "https://fantasy.premierleague.com/api/entry/5090992/transfers/",
+      "retrievedAt": "2026-10-30T22:48:26.625Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/3944270/event/3/picks/",
-      "retrievedAt": "2026-10-30T18:43:55.987Z"
+      "retrievedAt": "2026-10-30T22:48:26.645Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/2164081/history/",
-      "retrievedAt": "2026-10-30T18:43:55.988Z"
+      "url": "https://fantasy.premierleague.com/api/entry/8479135/event/3/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.661Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7463306/event/3/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.664Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7463306/event/4/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.671Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/454063/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.672Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7463306/event/5/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.681Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7463306/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.690Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/5090992/",
-      "retrievedAt": "2026-10-30T18:43:56.027Z"
+      "retrievedAt": "2026-10-30T22:48:26.741Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/5090992/event/1/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.043Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/5090992/event/2/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.062Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/5090992/event/3/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.080Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/192330/",
-      "retrievedAt": "2026-10-30T18:43:56.094Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7915661/",
-      "retrievedAt": "2026-10-30T18:43:56.103Z"
+      "url": "https://fantasy.premierleague.com/api/entry/8479135/event/4/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.748Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/3944270/event/4/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.105Z"
+      "retrievedAt": "2026-10-30T22:48:26.755Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/2164081/",
-      "retrievedAt": "2026-10-30T18:43:56.107Z"
+      "url": "https://fantasy.premierleague.com/api/entry/454063/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.767Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/7915661/event/1/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.117Z"
+      "url": "https://fantasy.premierleague.com/api/entry/454063/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.776Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/2164081/event/1/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.118Z"
+      "url": "https://fantasy.premierleague.com/api/entry/7463306/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.777Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/192330/transfers/",
+      "retrievedAt": "2026-10-30T22:48:26.784Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/192330/history/",
+      "retrievedAt": "2026-10-30T22:48:26.785Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7463306/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.785Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7915661/transfers/",
+      "retrievedAt": "2026-10-30T22:48:26.794Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7915661/history/",
+      "retrievedAt": "2026-10-30T22:48:26.794Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/5090992/event/1/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.827Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/8479135/event/5/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.832Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/5090992/event/2/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.835Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/3944270/event/5/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.121Z"
+      "retrievedAt": "2026-10-30T22:48:26.840Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/2164081/event/2/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.128Z"
+      "url": "https://fantasy.premierleague.com/api/entry/192330/",
+      "retrievedAt": "2026-10-30T22:48:26.906Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/8479135/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.918Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/5090992/event/3/picks/",
+      "retrievedAt": "2026-10-30T22:48:26.924Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/3944270/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.134Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/2164081/event/3/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.138Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/2164081/event/4/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.149Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/2164081/event/5/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.160Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/2164081/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.170Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/2164081/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.181Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/2164081/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.192Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/5090992/event/4/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.193Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/694667/history/",
-      "retrievedAt": "2026-10-30T18:43:56.204Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/694667/transfers/",
-      "retrievedAt": "2026-10-30T18:43:56.204Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/5090992/event/5/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.208Z"
+      "retrievedAt": "2026-10-30T22:48:26.925Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/192330/event/1/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.215Z"
+      "retrievedAt": "2026-10-30T22:48:27.004Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/7915661/event/2/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.221Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/5090992/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.224Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/192330/event/2/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.230Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7915661/event/3/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.236Z"
+      "url": "https://fantasy.premierleague.com/api/entry/8479135/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.004Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/3944270/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.238Z"
+      "retrievedAt": "2026-10-30T22:48:27.014Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/5090992/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.240Z"
+      "url": "https://fantasy.premierleague.com/api/entry/8479135/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.014Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/192330/event/3/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.247Z"
+      "url": "https://fantasy.premierleague.com/api/entry/5090992/event/4/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.017Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/7915661/event/4/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.249Z"
+      "url": "https://fantasy.premierleague.com/api/entry/2164081/history/",
+      "retrievedAt": "2026-10-30T22:48:27.023Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/2164081/transfers/",
+      "retrievedAt": "2026-10-30T22:48:27.030Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/192330/event/2/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.090Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/3944270/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.253Z"
+      "retrievedAt": "2026-10-30T22:48:27.101Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/5090992/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.257Z"
+      "url": "https://fantasy.premierleague.com/api/entry/5090992/event/5/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.105Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/7915661/event/5/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.263Z"
+      "url": "https://fantasy.premierleague.com/api/entry/694667/transfers/",
+      "retrievedAt": "2026-10-30T22:48:27.110Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3800481/transfers/",
-      "retrievedAt": "2026-10-30T18:43:56.264Z"
+      "url": "https://fantasy.premierleague.com/api/entry/694667/history/",
+      "retrievedAt": "2026-10-30T22:48:27.115Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3800481/history/",
-      "retrievedAt": "2026-10-30T18:43:56.266Z"
+      "url": "https://fantasy.premierleague.com/api/entry/2164081/",
+      "retrievedAt": "2026-10-30T22:48:27.136Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/7002589/transfers/",
-      "retrievedAt": "2026-10-30T18:43:56.267Z"
+      "url": "https://fantasy.premierleague.com/api/entry/7915661/",
+      "retrievedAt": "2026-10-30T22:48:27.142Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/7002589/history/",
-      "retrievedAt": "2026-10-30T18:43:56.273Z"
+      "url": "https://fantasy.premierleague.com/api/entry/192330/event/3/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.176Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/192330/event/4/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.352Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/192330/event/5/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.365Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7915661/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.366Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7002589/",
-      "retrievedAt": "2026-10-30T18:43:56.376Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/192330/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.379Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7915661/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.383Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7002589/event/1/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.393Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/192330/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.393Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/3800481/",
-      "retrievedAt": "2026-10-30T18:43:56.395Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7915661/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.399Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/3800481/event/1/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.408Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7002589/event/2/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.410Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/192330/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.411Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/5229629/transfers/",
-      "retrievedAt": "2026-10-30T18:43:56.411Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/5229629/history/",
-      "retrievedAt": "2026-10-30T18:43:56.415Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/3800481/event/2/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.421Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/3801503/transfers/",
-      "retrievedAt": "2026-10-30T18:43:56.421Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7002589/event/3/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.424Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/3801503/history/",
-      "retrievedAt": "2026-10-30T18:43:56.427Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/3800481/event/3/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.437Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7002589/event/4/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.438Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7002589/event/5/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.451Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/3800481/event/4/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.453Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7002589/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.466Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/3800481/event/5/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.469Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7002589/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.479Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/3800481/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.484Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7002589/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.492Z"
+      "url": "https://fantasy.premierleague.com/api/entry/5090992/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.193Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/694667/",
-      "retrievedAt": "2026-10-30T18:43:56.498Z"
+      "retrievedAt": "2026-10-30T22:48:27.202Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3800481/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.501Z"
+      "url": "https://fantasy.premierleague.com/api/entry/2164081/event/1/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.223Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/8489895/history/",
-      "retrievedAt": "2026-10-30T18:43:56.505Z"
+      "url": "https://fantasy.premierleague.com/api/entry/7915661/event/1/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.229Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/8489895/transfers/",
-      "retrievedAt": "2026-10-30T18:43:56.510Z"
+      "url": "https://fantasy.premierleague.com/api/entry/7915661/event/2/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.237Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3800481/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.518Z"
+      "url": "https://fantasy.premierleague.com/api/entry/192330/event/4/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.261Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3798782/history/",
-      "retrievedAt": "2026-10-30T18:43:56.532Z"
+      "url": "https://fantasy.premierleague.com/api/entry/5090992/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.283Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3798782/transfers/",
-      "retrievedAt": "2026-10-30T18:43:56.537Z"
+      "url": "https://fantasy.premierleague.com/api/entry/5090992/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.292Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3801503/",
-      "retrievedAt": "2026-10-30T18:43:56.549Z"
+      "url": "https://fantasy.premierleague.com/api/entry/3800481/transfers/",
+      "retrievedAt": "2026-10-30T22:48:27.301Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3801503/event/1/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.563Z"
+      "url": "https://fantasy.premierleague.com/api/entry/3800481/history/",
+      "retrievedAt": "2026-10-30T22:48:27.301Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/2164081/event/2/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.308Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/694667/event/1/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.605Z"
+      "retrievedAt": "2026-10-30T22:48:27.309Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/2164081/event/3/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.317Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/2164081/event/4/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.325Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7915661/event/3/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.331Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/192330/event/5/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.346Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/192330/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.360Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/694667/event/2/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.621Z"
+      "retrievedAt": "2026-10-30T22:48:27.395Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/8489895/",
-      "retrievedAt": "2026-10-30T18:43:56.631Z"
+      "url": "https://fantasy.premierleague.com/api/entry/2164081/event/5/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.415Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3798782/",
-      "retrievedAt": "2026-10-30T18:43:56.638Z"
+      "url": "https://fantasy.premierleague.com/api/entry/3800481/",
+      "retrievedAt": "2026-10-30T22:48:27.416Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7915661/event/4/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.418Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/192330/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.447Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/694667/event/3/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.639Z"
+      "retrievedAt": "2026-10-30T22:48:27.481Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3800481/event/1/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.501Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/2164081/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.502Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7915661/event/5/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.506Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/2164081/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.510Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7915661/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.513Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/2164081/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.517Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7915661/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.521Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7002589/transfers/",
+      "retrievedAt": "2026-10-30T22:48:27.525Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7002589/history/",
+      "retrievedAt": "2026-10-30T22:48:27.526Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7915661/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.531Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/192330/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.533Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/5229629/transfers/",
+      "retrievedAt": "2026-10-30T22:48:27.539Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3801503/transfers/",
+      "retrievedAt": "2026-10-30T22:48:27.541Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/5229629/history/",
+      "retrievedAt": "2026-10-30T22:48:27.542Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/694667/event/4/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.656Z"
+      "retrievedAt": "2026-10-30T22:48:27.567Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3798782/event/1/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.661Z"
+      "url": "https://fantasy.premierleague.com/api/entry/3800481/event/2/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.585Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3801503/event/2/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.662Z"
+      "url": "https://fantasy.premierleague.com/api/entry/7002589/",
+      "retrievedAt": "2026-10-30T22:48:27.616Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/694667/event/5/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.671Z"
+      "url": "https://fantasy.premierleague.com/api/entry/3801503/history/",
+      "retrievedAt": "2026-10-30T22:48:27.619Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3801503/event/3/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.676Z"
+      "url": "https://fantasy.premierleague.com/api/entry/7002589/event/1/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.625Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/5229629/",
-      "retrievedAt": "2026-10-30T18:43:56.684Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/3801503/event/4/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.689Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/694667/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.693Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/3801503/event/5/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.702Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/694667/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.709Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/3801503/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.717Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/694667/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.725Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/3801503/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.731Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/8489895/event/1/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.733Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7486501/transfers/",
-      "retrievedAt": "2026-10-30T18:43:56.735Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/7486501/history/",
-      "retrievedAt": "2026-10-30T18:43:56.741Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/3801503/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.744Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/8489895/event/2/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.746Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/11062145/history/",
-      "retrievedAt": "2026-10-30T18:43:56.757Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/11062145/transfers/",
-      "retrievedAt": "2026-10-30T18:43:56.760Z"
+      "retrievedAt": "2026-10-30T22:48:27.634Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/5229629/event/1/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.788Z"
+      "retrievedAt": "2026-10-30T22:48:27.642Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3801503/",
+      "retrievedAt": "2026-10-30T22:48:27.656Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/694667/event/5/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.658Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3800481/event/3/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.671Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7002589/event/2/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.711Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/5229629/event/2/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.802Z"
+      "retrievedAt": "2026-10-30T22:48:27.729Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3801503/event/1/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.742Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/694667/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.747Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3800481/event/4/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.757Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7002589/event/3/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.796Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/5229629/event/3/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.815Z"
+      "retrievedAt": "2026-10-30T22:48:27.819Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/5229629/event/4/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.828Z"
+      "retrievedAt": "2026-10-30T22:48:27.826Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3801503/event/2/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.827Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/694667/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.834Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/5229629/event/5/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.842Z"
+      "retrievedAt": "2026-10-30T22:48:27.835Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/8489895/event/3/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.852Z"
+      "url": "https://fantasy.premierleague.com/api/entry/3800481/event/5/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.843Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/694667/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.843Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/8489895/history/",
+      "retrievedAt": "2026-10-30T22:48:27.852Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7002589/event/4/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.886Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3801503/event/3/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.913Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/5229629/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.855Z"
+      "retrievedAt": "2026-10-30T22:48:27.923Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/11062145/",
-      "retrievedAt": "2026-10-30T18:43:56.860Z"
+      "url": "https://fantasy.premierleague.com/api/entry/3800481/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.928Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/8489895/event/4/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.867Z"
+      "url": "https://fantasy.premierleague.com/api/entry/8489895/transfers/",
+      "retrievedAt": "2026-10-30T22:48:27.932Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/8489895/",
+      "retrievedAt": "2026-10-30T22:48:27.966Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7002589/event/5/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.974Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3801503/event/4/picks/",
+      "retrievedAt": "2026-10-30T22:48:27.998Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/5229629/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.868Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/11062145/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.873Z"
+      "retrievedAt": "2026-10-30T22:48:28.011Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/5229629/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.881Z"
+      "retrievedAt": "2026-10-30T22:48:28.019Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/8489895/event/5/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.883Z"
+      "url": "https://fantasy.premierleague.com/api/entry/3798782/history/",
+      "retrievedAt": "2026-10-30T22:48:28.028Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/11062145/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.886Z"
+      "url": "https://fantasy.premierleague.com/api/entry/3800481/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.028Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/8489895/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.896Z"
+      "url": "https://fantasy.premierleague.com/api/entry/3798782/transfers/",
+      "retrievedAt": "2026-10-30T22:48:28.028Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/8489895/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.909Z"
+      "url": "https://fantasy.premierleague.com/api/entry/3800481/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.043Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/8489895/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.922Z"
+      "url": "https://fantasy.premierleague.com/api/entry/7486501/transfers/",
+      "retrievedAt": "2026-10-30T22:48:28.051Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3798782/event/2/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.938Z"
+      "url": "https://fantasy.premierleague.com/api/entry/8489895/event/1/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.052Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3798782/event/3/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.952Z"
+      "url": "https://fantasy.premierleague.com/api/entry/7002589/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.061Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3798782/event/4/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.966Z"
+      "url": "https://fantasy.premierleague.com/api/entry/3801503/event/5/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.083Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3798782/event/5/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.981Z"
+      "url": "https://fantasy.premierleague.com/api/entry/3798782/",
+      "retrievedAt": "2026-10-30T22:48:28.128Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3798782/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:56.994Z"
+      "url": "https://fantasy.premierleague.com/api/entry/7486501/history/",
+      "retrievedAt": "2026-10-30T22:48:28.129Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3798782/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.008Z"
+      "url": "https://fantasy.premierleague.com/api/entry/8489895/event/2/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.150Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/3798782/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.022Z"
+      "url": "https://fantasy.premierleague.com/api/entry/7002589/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.152Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/7486501/",
-      "retrievedAt": "2026-10-30T18:43:57.061Z"
+      "retrievedAt": "2026-10-30T22:48:28.156Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/7002589/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.162Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3801503/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.167Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/11062145/history/",
+      "retrievedAt": "2026-10-30T22:48:28.170Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/11062145/transfers/",
+      "retrievedAt": "2026-10-30T22:48:28.170Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3798782/event/1/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.215Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3798782/event/2/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.222Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3798782/event/3/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.230Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/7486501/event/1/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.074Z"
+      "retrievedAt": "2026-10-30T22:48:28.241Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/8489895/event/3/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.242Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3801503/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.252Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/11062145/",
+      "retrievedAt": "2026-10-30T22:48:28.268Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/7486501/event/2/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.087Z"
+      "retrievedAt": "2026-10-30T22:48:28.327Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/8489895/event/4/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.332Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3801503/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.337Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/11062145/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.355Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/7486501/event/3/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.192Z"
+      "retrievedAt": "2026-10-30T22:48:28.413Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/8489895/event/5/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.430Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/8489895/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.440Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/11062145/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.450Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3798782/event/4/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.490Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/7486501/event/4/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.206Z"
+      "retrievedAt": "2026-10-30T22:48:28.499Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/8489895/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.526Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/8489895/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.540Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3798782/event/5/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.577Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/7486501/event/5/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.220Z"
+      "retrievedAt": "2026-10-30T22:48:28.585Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3798782/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.670Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/7486501/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.233Z"
+      "retrievedAt": "2026-10-30T22:48:28.670Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/7486501/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.246Z"
+      "retrievedAt": "2026-10-30T22:48:28.756Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3798782/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.769Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/3798782/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.776Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/7486501/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.259Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/1829025/transfers/",
-      "retrievedAt": "2026-10-30T18:43:57.270Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/1829025/history/",
-      "retrievedAt": "2026-10-30T18:43:57.271Z"
+      "retrievedAt": "2026-10-30T22:48:28.842Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/54864/history/",
-      "retrievedAt": "2026-10-30T18:43:57.273Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/895045/history/",
-      "retrievedAt": "2026-10-30T18:43:57.273Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/4182037/history/",
-      "retrievedAt": "2026-10-30T18:43:57.273Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/4182037/transfers/",
-      "retrievedAt": "2026-10-30T18:43:57.276Z"
+      "retrievedAt": "2026-10-30T22:48:28.852Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/52087/transfers/",
-      "retrievedAt": "2026-10-30T18:43:57.277Z"
+      "retrievedAt": "2026-10-30T22:48:28.852Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/52087/history/",
-      "retrievedAt": "2026-10-30T18:43:57.277Z"
+      "url": "https://fantasy.premierleague.com/api/entry/4182037/history/",
+      "retrievedAt": "2026-10-30T22:48:28.852Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/895045/transfers/",
-      "retrievedAt": "2026-10-30T18:43:57.277Z"
+      "url": "https://fantasy.premierleague.com/api/entry/895045/history/",
+      "retrievedAt": "2026-10-30T22:48:28.852Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/54864/transfers/",
-      "retrievedAt": "2026-10-30T18:43:57.277Z"
+      "retrievedAt": "2026-10-30T22:48:28.852Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/1829025/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.280Z"
+      "url": "https://fantasy.premierleague.com/api/entry/4182037/transfers/",
+      "retrievedAt": "2026-10-30T22:48:28.853Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/1829025/transfers/",
+      "retrievedAt": "2026-10-30T22:48:28.853Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/895045/transfers/",
+      "retrievedAt": "2026-10-30T22:48:28.856Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/52087/history/",
+      "retrievedAt": "2026-10-30T22:48:28.857Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/1829025/history/",
+      "retrievedAt": "2026-10-30T22:48:28.857Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/4182037/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.290Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/1829025/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.291Z"
+      "retrievedAt": "2026-10-30T22:48:28.861Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/54864/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.292Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/52087/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.293Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/895045/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.293Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/1829025/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.300Z"
+      "retrievedAt": "2026-10-30T22:48:28.862Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/4182037/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.303Z"
+      "retrievedAt": "2026-10-30T22:48:28.868Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/895045/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.869Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/54864/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.304Z"
+      "retrievedAt": "2026-10-30T22:48:28.870Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/52087/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.308Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/4041739/transfers/",
-      "retrievedAt": "2026-10-30T18:43:57.310Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/895045/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.310Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/4041739/history/",
-      "retrievedAt": "2026-10-30T18:43:57.310Z"
+      "url": "https://fantasy.premierleague.com/api/entry/52087/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.870Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/4182037/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.316Z"
+      "retrievedAt": "2026-10-30T22:48:28.878Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/54864/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.317Z"
+      "retrievedAt": "2026-10-30T22:48:28.878Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/4041739/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.320Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/52087/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.323Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/895045/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.326Z"
+      "url": "https://fantasy.premierleague.com/api/entry/895045/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.882Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/28824/transfers/",
-      "retrievedAt": "2026-10-30T18:43:57.326Z"
+      "retrievedAt": "2026-10-30T22:48:28.885Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/2053223/history/",
-      "retrievedAt": "2026-10-30T18:43:57.330Z"
+      "url": "https://fantasy.premierleague.com/api/entry/4041739/history/",
+      "retrievedAt": "2026-10-30T22:48:28.886Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/2053223/transfers/",
-      "retrievedAt": "2026-10-30T18:43:57.331Z"
+      "url": "https://fantasy.premierleague.com/api/entry/895045/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.894Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/4041739/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.331Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/483424/transfers/",
-      "retrievedAt": "2026-10-30T18:43:57.334Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/5333454/transfers/",
-      "retrievedAt": "2026-10-30T18:43:57.336Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/4041739/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.341Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/5333454/history/",
-      "retrievedAt": "2026-10-30T18:43:57.343Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/2053223/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.343Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/2053223/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.357Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/5333454/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.359Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/2053223/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.369Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/5333454/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.374Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/entry/5333454/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.390Z"
+      "url": "https://fantasy.premierleague.com/api/entry/4041739/transfers/",
+      "retrievedAt": "2026-10-30T22:48:28.899Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/28824/history/",
-      "retrievedAt": "2026-10-30T18:43:57.415Z"
+      "retrievedAt": "2026-10-30T22:48:28.900Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/2053223/history/",
+      "retrievedAt": "2026-10-30T22:48:28.902Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/28824/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.428Z"
+      "retrievedAt": "2026-10-30T22:48:28.908Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/entry/483424/history/",
-      "retrievedAt": "2026-10-30T18:43:57.436Z"
+      "url": "https://fantasy.premierleague.com/api/entry/4041739/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.912Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/28824/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.441Z"
+      "retrievedAt": "2026-10-30T22:48:28.914Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/4041739/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.919Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/28824/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.459Z"
+      "retrievedAt": "2026-10-30T22:48:28.921Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/4041739/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.927Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/483424/transfers/",
+      "retrievedAt": "2026-10-30T22:48:28.928Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/483424/history/",
+      "retrievedAt": "2026-10-30T22:48:28.929Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/5333454/history/",
+      "retrievedAt": "2026-10-30T22:48:28.934Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/5333454/transfers/",
+      "retrievedAt": "2026-10-30T22:48:28.935Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/483424/event/6/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.550Z"
+      "retrievedAt": "2026-10-30T22:48:28.937Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/5333454/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.942Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/1829025/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.942Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/483424/event/7/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.563Z"
+      "retrievedAt": "2026-10-30T22:48:28.946Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/5333454/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.949Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/5333454/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.955Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/52087/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.956Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/1829025/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.957Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/entry/483424/event/8/picks/",
-      "retrievedAt": "2026-10-30T18:43:57.576Z"
+      "retrievedAt": "2026-10-30T22:48:28.957Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/element-summary/391/",
-      "retrievedAt": "2026-10-30T18:43:57.587Z"
+      "url": "https://fantasy.premierleague.com/api/entry/1829025/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.964Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/element-summary/109/",
-      "retrievedAt": "2026-10-30T18:43:57.591Z"
+      "url": "https://fantasy.premierleague.com/api/entry/52087/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.969Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/2053223/transfers/",
+      "retrievedAt": "2026-10-30T22:48:28.989Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/2053223/event/6/picks/",
+      "retrievedAt": "2026-10-30T22:48:28.996Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/2053223/event/7/picks/",
+      "retrievedAt": "2026-10-30T22:48:29.003Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/entry/2053223/event/8/picks/",
+      "retrievedAt": "2026-10-30T22:48:29.010Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/element-summary/330/",
-      "retrievedAt": "2026-10-30T18:43:57.591Z"
+      "retrievedAt": "2026-10-30T22:48:29.018Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/109/",
+      "retrievedAt": "2026-10-30T22:48:29.019Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/391/",
+      "retrievedAt": "2026-10-30T22:48:29.024Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/element-summary/115/",
-      "retrievedAt": "2026-10-30T18:43:57.592Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/element-summary/8/",
-      "retrievedAt": "2026-10-30T18:43:57.593Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/element-summary/259/",
-      "retrievedAt": "2026-10-30T18:43:57.598Z"
+      "retrievedAt": "2026-10-30T22:48:29.025Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/element-summary/40/",
-      "retrievedAt": "2026-10-30T18:43:57.605Z"
+      "retrievedAt": "2026-10-30T22:48:29.027Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/element-summary/124/",
-      "retrievedAt": "2026-10-30T18:43:57.605Z"
+      "url": "https://fantasy.premierleague.com/api/element-summary/8/",
+      "retrievedAt": "2026-10-30T22:48:29.027Z"
     },
     {
-      "url": "https://fantasy.premierleague.com/api/element-summary/399/",
-      "retrievedAt": "2026-10-30T18:43:57.608Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/element-summary/464/",
-      "retrievedAt": "2026-10-30T18:43:57.608Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/element-summary/411/",
-      "retrievedAt": "2026-10-30T18:43:57.611Z"
+      "url": "https://fantasy.premierleague.com/api/element-summary/259/",
+      "retrievedAt": "2026-10-30T22:48:29.027Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/element-summary/497/",
-      "retrievedAt": "2026-10-30T18:43:57.618Z"
+      "retrievedAt": "2026-10-30T22:48:29.035Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/411/",
+      "retrievedAt": "2026-10-30T22:48:29.037Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/124/",
+      "retrievedAt": "2026-10-30T22:48:29.038Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/399/",
+      "retrievedAt": "2026-10-30T22:48:29.039Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/464/",
+      "retrievedAt": "2026-10-30T22:48:29.040Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/element-summary/426/",
-      "retrievedAt": "2026-10-30T18:43:57.619Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/element-summary/212/",
-      "retrievedAt": "2026-10-30T18:43:57.621Z"
+      "retrievedAt": "2026-10-30T22:48:29.043Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/element-summary/165/",
-      "retrievedAt": "2026-10-30T18:43:57.623Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/element-summary/4/",
-      "retrievedAt": "2026-10-30T18:43:57.627Z"
+      "retrievedAt": "2026-10-30T22:48:29.048Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/element-summary/68/",
-      "retrievedAt": "2026-10-30T18:43:57.632Z"
+      "retrievedAt": "2026-10-30T22:48:29.049Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/212/",
+      "retrievedAt": "2026-10-30T22:48:29.051Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/4/",
+      "retrievedAt": "2026-10-30T22:48:29.052Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/element-summary/31/",
-      "retrievedAt": "2026-10-30T18:43:57.632Z"
+      "retrievedAt": "2026-10-30T22:48:29.057Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/element-summary/79/",
-      "retrievedAt": "2026-10-30T18:43:57.632Z"
+      "retrievedAt": "2026-10-30T22:48:29.057Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/element-summary/427/",
-      "retrievedAt": "2026-10-30T18:43:57.640Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/element-summary/166/",
-      "retrievedAt": "2026-10-30T18:43:57.642Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/element-summary/334/",
-      "retrievedAt": "2026-10-30T18:43:57.643Z"
+      "retrievedAt": "2026-10-30T22:48:29.059Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/element-summary/569/",
-      "retrievedAt": "2026-10-30T18:43:57.645Z"
+      "retrievedAt": "2026-10-30T22:48:29.064Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/334/",
+      "retrievedAt": "2026-10-30T22:48:29.064Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/element-summary/453/",
-      "retrievedAt": "2026-10-30T18:43:57.645Z"
-    },
-    {
-      "url": "https://fantasy.premierleague.com/api/element-summary/13/",
-      "retrievedAt": "2026-10-30T18:43:57.652Z"
+      "retrievedAt": "2026-10-30T22:48:29.065Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/element-summary/156/",
-      "retrievedAt": "2026-10-30T18:43:57.655Z"
+      "retrievedAt": "2026-10-30T22:48:29.066Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/166/",
+      "retrievedAt": "2026-10-30T22:48:29.070Z"
+    },
+    {
+      "url": "https://fantasy.premierleague.com/api/element-summary/13/",
+      "retrievedAt": "2026-10-30T22:48:29.072Z"
     },
     {
       "url": "https://fantasy.premierleague.com/api/element-summary/261/",
-      "retrievedAt": "2026-10-30T18:43:57.658Z"
+      "retrievedAt": "2026-10-30T22:48:29.077Z"
     }
   ],
   "checks": {
