@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "1/11/2569 03:13:34",
+  "updated_at_th": "1/11/2569 05:43:34",
   "gameweek": 9,
   "team": {
     "name": "Yedtsuna",
@@ -17,14 +17,14 @@
     "leader": {
       "team": "ช่วยใจดีกับลุงหน่อย",
       "manager": "Palm Xavier",
-      "points": 627,
+      "points": 635,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 627,
+        "points": 635,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -44,7 +44,7 @@
       {
         "rank": 3,
         "team": "GrossProfit United",
-        "points": 574,
+        "points": 580,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -55,7 +55,7 @@
       {
         "rank": 4,
         "team": "Runner Up FC",
-        "points": 559,
+        "points": 565,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -66,18 +66,8 @@
       },
       {
         "rank": 5,
-        "team": "KC888",
-        "points": 550,
-        "captain": "Haaland",
-        "chips": [
-          "3xc",
-          "wildcard"
-        ]
-      },
-      {
-        "rank": 6,
         "team": "tamako-",
-        "points": 544,
+        "points": 551,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -87,7 +77,26 @@
         ]
       },
       {
+        "rank": 6,
+        "team": "KC888",
+        "points": 550,
+        "captain": "Haaland",
+        "chips": [
+          "3xc",
+          "wildcard"
+        ]
+      },
+      {
         "rank": 7,
+        "team": "JedYubZ_WCC",
+        "points": 541,
+        "captain": "N.Jackson",
+        "chips": [
+          "3xc"
+        ]
+      },
+      {
+        "rank": 8,
         "team": "SilverBank",
         "points": 534,
         "captain": "Isak",
@@ -95,15 +104,6 @@
           "3xc",
           "wildcard",
           "bboost"
-        ]
-      },
-      {
-        "rank": 8,
-        "team": "JedYubZ_WCC",
-        "points": 525,
-        "captain": "N.Jackson",
-        "chips": [
-          "3xc"
         ]
       }
     ]
@@ -252,8 +252,8 @@
       "finished": false,
       "home": "AVL",
       "away": "FUL",
-      "home_score": 0,
-      "away_score": 0
+      "home_score": 1,
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-11-01T16:30:00Z",
