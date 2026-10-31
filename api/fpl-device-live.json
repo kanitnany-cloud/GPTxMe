@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "1/11/2569 02:27:12",
+  "updated_at_th": "1/11/2569 03:13:34",
   "gameweek": 9,
   "team": {
     "name": "Yedtsuna",
@@ -17,14 +17,14 @@
     "leader": {
       "team": "ช่วยใจดีกับลุงหน่อย",
       "manager": "Palm Xavier",
-      "points": 626,
+      "points": 627,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 626,
+        "points": 627,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -44,7 +44,7 @@
       {
         "rank": 3,
         "team": "GrossProfit United",
-        "points": 573,
+        "points": 574,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -55,7 +55,7 @@
       {
         "rank": 4,
         "team": "Runner Up FC",
-        "points": 558,
+        "points": 559,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -77,7 +77,7 @@
       {
         "rank": 6,
         "team": "tamako-",
-        "points": 542,
+        "points": 544,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -89,7 +89,7 @@
       {
         "rank": 7,
         "team": "SilverBank",
-        "points": 532,
+        "points": 534,
         "captain": "Isak",
         "chips": [
           "3xc",
@@ -100,7 +100,7 @@
       {
         "rank": 8,
         "team": "JedYubZ_WCC",
-        "points": 523,
+        "points": 525,
         "captain": "N.Jackson",
         "chips": [
           "3xc"
@@ -248,12 +248,12 @@
     },
     {
       "kickoff_time": "2026-10-31T20:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "AVL",
       "away": "FUL",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-11-01T16:30:00Z",
