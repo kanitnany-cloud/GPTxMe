@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "31/10/2569 22:05:41",
+  "updated_at_th": "31/10/2569 23:16:46",
   "gameweek": 9,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
-    "rank": 2,
-    "points": 583,
-    "gw_points": 16,
+    "rank": 1,
+    "points": 591,
+    "gw_points": 24,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -15,16 +15,25 @@
     "id": 872362,
     "name": "AFC Premier",
     "leader": {
-      "team": "ช่วยใจดีกับลุงหน่อย",
-      "manager": "Palm Xavier",
-      "points": 586,
+      "team": "Yedtsuna",
+      "manager": "Kanitnan Yamjongkol",
+      "points": 591,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
+        "team": "Yedtsuna",
+        "points": 591,
+        "captain": "Haaland",
+        "chips": [
+          "3xc"
+        ]
+      },
+      {
+        "rank": 2,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 586,
+        "points": 588,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -33,18 +42,9 @@
         ]
       },
       {
-        "rank": 2,
-        "team": "Yedtsuna",
-        "points": 583,
-        "captain": "Haaland",
-        "chips": [
-          "3xc"
-        ]
-      },
-      {
         "rank": 3,
         "team": "GrossProfit United",
-        "points": 545,
+        "points": 547,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -54,8 +54,18 @@
       },
       {
         "rank": 4,
+        "team": "KC888",
+        "points": 534,
+        "captain": "Haaland",
+        "chips": [
+          "3xc",
+          "wildcard"
+        ]
+      },
+      {
+        "rank": 5,
         "team": "tamako-",
-        "points": 532,
+        "points": 533,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -65,19 +75,9 @@
         ]
       },
       {
-        "rank": 5,
-        "team": "KC888",
-        "points": 527,
-        "captain": "Haaland",
-        "chips": [
-          "3xc",
-          "wildcard"
-        ]
-      },
-      {
         "rank": 6,
         "team": "Runner Up FC",
-        "points": 514,
+        "points": 524,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -88,24 +88,18 @@
       },
       {
         "rank": 7,
-        "team": "Bombadoo FC.",
-        "points": 507,
-        "captain": "Rogers",
-        "chips": [
-          "bboost",
-          "freehit",
-          "wildcard"
-        ]
+        "team": "RelegationBattle",
+        "points": 508,
+        "captain": "Haaland",
+        "chips": []
       },
       {
         "rank": 8,
-        "team": "SilverBank",
-        "points": 506,
-        "captain": "Isak",
+        "team": "JedYubZ_WCC",
+        "points": 508,
+        "captain": "N.Jackson",
         "chips": [
-          "3xc",
-          "wildcard",
-          "bboost"
+          "3xc"
         ]
       }
     ]
@@ -134,8 +128,8 @@
       "club": "BHA",
       "owners": 13,
       "captains": 0,
-      "gw_points": 1,
-      "total_points": 7,
+      "gw_points": 3,
+      "total_points": 21,
       "owned_by_me": true
     },
     {
@@ -200,7 +194,7 @@
       "finished": false,
       "home": "BOU",
       "away": "LEE",
-      "home_score": 0,
+      "home_score": 1,
       "away_score": 0
     },
     {
@@ -209,8 +203,8 @@
       "finished": false,
       "home": "BRE",
       "away": "NFO",
-      "home_score": null,
-      "away_score": null
+      "home_score": 1,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-10-31T15:00:00Z",
@@ -218,7 +212,7 @@
       "finished": false,
       "home": "COV",
       "away": "SUN",
-      "home_score": 0,
+      "home_score": 3,
       "away_score": 0
     },
     {
@@ -227,8 +221,8 @@
       "finished": false,
       "home": "HUL",
       "away": "IPS",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-10-31T15:00:00Z",
@@ -237,7 +231,7 @@
       "home": "MCI",
       "away": "BHA",
       "home_score": 0,
-      "away_score": 0
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-10-31T17:30:00Z",
