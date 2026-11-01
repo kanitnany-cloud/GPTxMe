@@ -70,7 +70,7 @@
     "most_captained": 411,
     "most_vice_captained": 1
   },
-  "generatedAt": "1/11/2569 08:53:54",
+  "generatedAt": "1/11/2569 13:54:03",
   "teams": [
     {
       "entry": 8479135,
@@ -8780,17 +8780,6 @@
       "ownedByMe": false
     },
     {
-      "id": 426,
-      "web_name": "B.Fernandes",
-      "team_short": "MUN",
-      "owners": 1,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 2,
-      "total_points": 0,
-      "ownedByMe": false
-    },
-    {
       "id": 623,
       "web_name": "Bentley",
       "team_short": "COV",
@@ -8798,6 +8787,17 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
+      "total_points": 0,
+      "ownedByMe": false
+    },
+    {
+      "id": 426,
+      "web_name": "B.Fernandes",
+      "team_short": "MUN",
+      "owners": 1,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 2,
       "total_points": 0,
       "ownedByMe": false
     },

@@ -1,0 +1,2890 @@
+{
+  "at": "2026-10-31T10:09:32.306Z",
+  "event": {
+    "id": 8,
+    "name": "Gameweek 8",
+    "deadline_time": "2026-10-23T17:30:00Z",
+    "release_time": null,
+    "average_entry_score": 45,
+    "finished": true,
+    "data_checked": true,
+    "highest_scoring_entry": 5112705,
+    "deadline_time_epoch": 1792776600,
+    "deadline_time_game_offset": 0,
+    "highest_score": 120,
+    "is_previous": false,
+    "is_current": true,
+    "is_next": false,
+    "cup_leagues_created": true,
+    "h2h_ko_matches_created": true,
+    "can_enter": false,
+    "can_manage": false,
+    "released": true,
+    "ranked_count": 11111669,
+    "overrides": {
+      "rules": {},
+      "scoring": {},
+      "element_types": [],
+      "pick_multiplier": null
+    },
+    "chip_plays": [
+      {
+        "chip_name": "bboost",
+        "num_played": 157767
+      },
+      {
+        "chip_name": "freehit",
+        "num_played": 84907
+      },
+      {
+        "chip_name": "wildcard",
+        "num_played": 216025
+      },
+      {
+        "chip_name": "3xc",
+        "num_played": 78068
+      }
+    ],
+    "most_selected": 411,
+    "most_transferred_in": 68,
+    "top_element": 4,
+    "top_element_info": {
+      "id": 4,
+      "points": 17
+    },
+    "transfers_made": 10389270,
+    "most_captained": 411,
+    "most_vice_captained": 165
+  },
+  "worldN": 100,
+  "miniN": 17,
+  "captains": {
+    "Haaland": 64,
+    "João Pedro": 26,
+    "Tavernier": 1,
+    "Palmer": 5,
+    "B.Fernandes": 1,
+    "Ødegaard": 1,
+    "Isak": 1,
+    "Gabriel": 1
+  },
+  "players": [
+    {
+      "id": 68,
+      "name": "Tavernier",
+      "price": 6.5,
+      "status": "a",
+      "news": "",
+      "global": "26.1",
+      "top100": 56,
+      "mini": 6,
+      "minutes": 660,
+      "xGI": "4.94",
+      "xGI90": 0.67,
+      "last3": [
+        {
+          "gw": 6,
+          "min": 72,
+          "pts": 1,
+          "xGI": "0.04"
+        },
+        {
+          "gw": 7,
+          "min": 78,
+          "pts": 10,
+          "xGI": "1.35"
+        },
+        {
+          "gw": 8,
+          "min": 86,
+          "pts": 10,
+          "xGI": "0.93"
+        }
+      ],
+      "fixtures": [
+        {
+          "gw": 9,
+          "opp": "LEE",
+          "home": true,
+          "fdr": 3
+        },
+        {
+          "gw": 10,
+          "opp": "IPS",
+          "home": false,
+          "fdr": 2
+        },
+        {
+          "gw": 11,
+          "opp": "NFO",
+          "home": true,
+          "fdr": 3
+        },
+        {
+          "gw": 12,
+          "opp": "FUL",
+          "home": false,
+          "fdr": 3
+        }
+      ],
+      "priceChangeGW": 3,
+      "netTransfers": 1259805
+    },
+    {
+      "id": 79,
+      "name": "Evanilson",
+      "price": 6.3,
+      "status": "a",
+      "news": "",
+      "global": "14.6",
+      "top100": 1,
+      "mini": 2,
+      "minutes": 678,
+      "xGI": "4.09",
+      "xGI90": 0.54,
+      "last3": [
+        {
+          "gw": 6,
+          "min": 90,
+          "pts": 7,
+          "xGI": "0.71"
+        },
+        {
+          "gw": 7,
+          "min": 78,
+          "pts": 12,
+          "xGI": "1.46"
+        },
+        {
+          "gw": 8,
+          "min": 86,
+          "pts": 6,
+          "xGI": "0.53"
+        }
+      ],
+      "fixtures": [
+        {
+          "gw": 9,
+          "opp": "LEE",
+          "home": true,
+          "fdr": 3
+        },
+        {
+          "gw": 10,
+          "opp": "IPS",
+          "home": false,
+          "fdr": 2
+        },
+        {
+          "gw": 11,
+          "opp": "NFO",
+          "home": true,
+          "fdr": 3
+        },
+        {
+          "gw": 12,
+          "opp": "FUL",
+          "home": false,
+          "fdr": 3
+        }
+      ],
+      "priceChangeGW": 2,
+      "netTransfers": 869139
+    },
+    {
+      "id": 427,
+      "name": "Mbeumo",
+      "price": 7.9,
+      "status": "a",
+      "news": "",
+      "global": "20.9",
+      "top100": 32,
+      "mini": 6,
+      "minutes": 720,
+      "xGI": "5.16",
+      "xGI90": 0.65,
+      "last3": [
+        {
+          "gw": 6,
+          "min": 90,
+          "pts": 8,
+          "xGI": "0.34"
+        },
+        {
+          "gw": 7,
+          "min": 90,
+          "pts": 8,
+          "xGI": "0.65"
+        },
+        {
+          "gw": 8,
+          "min": 90,
+          "pts": 2,
+          "xGI": "0.30"
+        }
+      ],
+      "fixtures": [
+        {
+          "gw": 9,
+          "opp": "CHE",
+          "home": false,
+          "fdr": 4
+        },
+        {
+          "gw": 10,
+          "opp": "AVL",
+          "home": true,
+          "fdr": 3
+        },
+        {
+          "gw": 11,
+          "opp": "LIV",
+          "home": false,
+          "fdr": 4
+        },
+        {
+          "gw": 12,
+          "opp": "BRE",
+          "home": true,
+          "fdr": 3
+        }
+      ],
+      "priceChangeGW": 0,
+      "netTransfers": -61125
+    },
+    {
+      "id": 426,
+      "name": "B.Fernandes",
+      "price": 11.7,
+      "status": "a",
+      "news": "",
+      "global": "22.5",
+      "top100": 1,
+      "mini": 2,
+      "minutes": 630,
+      "xGI": "4.16",
+      "xGI90": 0.59,
+      "last3": [
+        {
+          "gw": 6,
+          "min": 90,
+          "pts": 1,
+          "xGI": "0.16"
+        },
+        {
+          "gw": 7,
+          "min": 90,
+          "pts": 1,
+          "xGI": "0.12"
+        },
+        {
+          "gw": 8,
+          "min": 0,
+          "pts": 0,
+          "xGI": "0.00"
+        }
+      ],
+      "fixtures": [
+        {
+          "gw": 9,
+          "opp": "CHE",
+          "home": false,
+          "fdr": 4
+        },
+        {
+          "gw": 10,
+          "opp": "AVL",
+          "home": true,
+          "fdr": 3
+        },
+        {
+          "gw": 11,
+          "opp": "LIV",
+          "home": false,
+          "fdr": 4
+        },
+        {
+          "gw": 12,
+          "opp": "BRE",
+          "home": true,
+          "fdr": 3
+        }
+      ],
+      "priceChangeGW": -1,
+      "netTransfers": -382173
+    },
+    {
+      "id": 212,
+      "name": "Hughes",
+      "price": 4.3,
+      "status": "a",
+      "news": "",
+      "global": "5.8",
+      "top100": 1,
+      "mini": 1,
+      "minutes": 38,
+      "xGI": "0.04",
+      "xGI90": 0.09,
+      "last3": [
+        {
+          "gw": 6,
+          "min": 0,
+          "pts": 0,
+          "xGI": "0.00"
+        },
+        {
+          "gw": 7,
+          "min": 9,
+          "pts": 1,
+          "xGI": "0.00"
+        },
+        {
+          "gw": 8,
+          "min": 0,
+          "pts": 0,
+          "xGI": "0.00"
+        }
+      ],
+      "fixtures": [
+        {
+          "gw": 9,
+          "opp": "TOT",
+          "home": false,
+          "fdr": 3
+        },
+        {
+          "gw": 10,
+          "opp": "LIV",
+          "home": true,
+          "fdr": 4
+        },
+        {
+          "gw": 11,
+          "opp": "COV",
+          "home": false,
+          "fdr": 2
+        },
+        {
+          "gw": 12,
+          "opp": "HUL",
+          "home": true,
+          "fdr": 2
+        }
+      ],
+      "priceChangeGW": 0,
+      "netTransfers": -29612
+    },
+    {
+      "id": 165,
+      "name": "João Pedro",
+      "price": 7.8,
+      "status": "i",
+      "news": "Thigh injury - Unknown return date",
+      "global": "45.8",
+      "top100": 99,
+      "mini": 15,
+      "minutes": 521,
+      "xGI": "3.36",
+      "xGI90": 0.58,
+      "last3": [
+        {
+          "gw": 6,
+          "min": 71,
+          "pts": 12,
+          "xGI": "0.70"
+        },
+        {
+          "gw": 7,
+          "min": 90,
+          "pts": 2,
+          "xGI": "0.30"
+        },
+        {
+          "gw": 8,
+          "min": 0,
+          "pts": 0,
+          "xGI": "0.00"
+        }
+      ],
+      "fixtures": [
+        {
+          "gw": 9,
+          "opp": "MUN",
+          "home": true,
+          "fdr": 4
+        },
+        {
+          "gw": 10,
+          "opp": "SUN",
+          "home": false,
+          "fdr": 3
+        },
+        {
+          "gw": 11,
+          "opp": "LEE",
+          "home": true,
+          "fdr": 3
+        },
+        {
+          "gw": 12,
+          "opp": "NFO",
+          "home": false,
+          "fdr": 3
+        }
+      ],
+      "priceChangeGW": -1,
+      "netTransfers": -2857430
+    },
+    {
+      "id": 4,
+      "name": "Gabriel",
+      "price": 8,
+      "status": "a",
+      "news": "",
+      "global": "24.2",
+      "top100": 12,
+      "mini": 2,
+      "minutes": 720,
+      "xGI": "1.72",
+      "xGI90": 0.21,
+      "last3": [
+        {
+          "gw": 6,
+          "min": 90,
+          "pts": 2,
+          "xGI": "0.01"
+        },
+        {
+          "gw": 7,
+          "min": 90,
+          "pts": 8,
+          "xGI": "0.44"
+        },
+        {
+          "gw": 8,
+          "min": 90,
+          "pts": 17,
+          "xGI": "0.56"
+        }
+      ],
+      "fixtures": [
+        {
+          "gw": 9,
+          "opp": "LIV",
+          "home": false,
+          "fdr": 4
+        },
+        {
+          "gw": 10,
+          "opp": "HUL",
+          "home": true,
+          "fdr": 2
+        },
+        {
+          "gw": 11,
+          "opp": "NEW",
+          "home": false,
+          "fdr": 3
+        },
+        {
+          "gw": 12,
+          "opp": "MCI",
+          "home": true,
+          "fdr": 4
+        }
+      ],
+      "priceChangeGW": 1,
+      "netTransfers": 280690
+    },
+    {
+      "id": 8,
+      "name": "Calafiori",
+      "price": 5.9,
+      "status": "d",
+      "news": "Hip injury - 75% chance of playing",
+      "global": "46.7",
+      "top100": 93,
+      "mini": 13,
+      "minutes": 609,
+      "xGI": "2.20",
+      "xGI90": 0.32,
+      "last3": [
+        {
+          "gw": 6,
+          "min": 81,
+          "pts": 9,
+          "xGI": "0.61"
+        },
+        {
+          "gw": 7,
+          "min": 90,
+          "pts": 6,
+          "xGI": "0.30"
+        },
+        {
+          "gw": 8,
+          "min": 22,
+          "pts": 1,
+          "xGI": "0.00"
+        }
+      ],
+      "fixtures": [
+        {
+          "gw": 9,
+          "opp": "LIV",
+          "home": false,
+          "fdr": 4
+        },
+        {
+          "gw": 10,
+          "opp": "HUL",
+          "home": true,
+          "fdr": 2
+        },
+        {
+          "gw": 11,
+          "opp": "NEW",
+          "home": false,
+          "fdr": 3
+        },
+        {
+          "gw": 12,
+          "opp": "MCI",
+          "home": true,
+          "fdr": 4
+        }
+      ],
+      "priceChangeGW": -1,
+      "netTransfers": -663774
+    },
+    {
+      "id": 31,
+      "name": "Konsa",
+      "price": 4.7,
+      "status": "a",
+      "news": "",
+      "global": "21.2",
+      "top100": 83,
+      "mini": 3,
+      "minutes": 551,
+      "xGI": "0.64",
+      "xGI90": 0.1,
+      "last3": [
+        {
+          "gw": 6,
+          "min": 90,
+          "pts": 4,
+          "xGI": "0.00"
+        },
+        {
+          "gw": 7,
+          "min": 90,
+          "pts": 9,
+          "xGI": "0.01"
+        },
+        {
+          "gw": 8,
+          "min": 90,
+          "pts": 14,
+          "xGI": "0.38"
+        }
+      ],
+      "fixtures": [
+        {
+          "gw": 9,
+          "opp": "LIV",
+          "home": false,
+          "fdr": 4
+        },
+        {
+          "gw": 10,
+          "opp": "HUL",
+          "home": true,
+          "fdr": 2
+        },
+        {
+          "gw": 11,
+          "opp": "NEW",
+          "home": false,
+          "fdr": 3
+        },
+        {
+          "gw": 12,
+          "opp": "MCI",
+          "home": true,
+          "fdr": 4
+        }
+      ],
+      "priceChangeGW": 1,
+      "netTransfers": 313057
+    },
+    {
+      "id": 464,
+      "name": "Wissa",
+      "price": 6,
+      "status": "a",
+      "news": "",
+      "global": "10.2",
+      "top100": 3,
+      "mini": 1,
+      "minutes": 621,
+      "xGI": "3.11",
+      "xGI90": 0.45,
+      "last3": [
+        {
+          "gw": 6,
+          "min": 77,
+          "pts": 2,
+          "xGI": "0.16"
+        },
+        {
+          "gw": 7,
+          "min": 90,
+          "pts": 1,
+          "xGI": "0.54"
+        },
+        {
+          "gw": 8,
+          "min": 13,
+          "pts": 1,
+          "xGI": "0.00"
+        }
+      ],
+      "fixtures": [
+        {
+          "gw": 9,
+          "opp": "EVE",
+          "home": true,
+          "fdr": 3
+        },
+        {
+          "gw": 10,
+          "opp": "FUL",
+          "home": false,
+          "fdr": 3
+        },
+        {
+          "gw": 11,
+          "opp": "ARS",
+          "home": true,
+          "fdr": 4
+        },
+        {
+          "gw": 12,
+          "opp": "BHA",
+          "home": false,
+          "fdr": 4
+        }
+      ],
+      "priceChangeGW": -1,
+      "netTransfers": -236570
+    },
+    {
+      "id": 411,
+      "name": "Haaland",
+      "price": 15.8,
+      "status": "a",
+      "news": "",
+      "global": "78.9",
+      "top100": 100,
+      "mini": 14,
+      "minutes": 709,
+      "xGI": "6.86",
+      "xGI90": 0.87,
+      "last3": [
+        {
+          "gw": 6,
+          "min": 79,
+          "pts": 6,
+          "xGI": "0.41"
+        },
+        {
+          "gw": 7,
+          "min": 90,
+          "pts": 13,
+          "xGI": "1.10"
+        },
+        {
+          "gw": 8,
+          "min": 90,
+          "pts": 8,
+          "xGI": "0.40"
+        }
+      ],
+      "fixtures": [
+        {
+          "gw": 9,
+          "opp": "BHA",
+          "home": true,
+          "fdr": 3
+        },
+        {
+          "gw": 10,
+          "opp": "NFO",
+          "home": false,
+          "fdr": 3
+        },
+        {
+          "gw": 11,
+          "opp": "FUL",
+          "home": true,
+          "fdr": 2
+        },
+        {
+          "gw": 12,
+          "opp": "ARS",
+          "home": false,
+          "fdr": 5
+        }
+      ],
+      "priceChangeGW": 1,
+      "netTransfers": 148757
+    },
+    {
+      "id": 124,
+      "name": "Groß",
+      "price": 6.2,
+      "status": "a",
+      "news": "",
+      "global": "45.4",
+      "top100": 90,
+      "mini": 13,
+      "minutes": 700,
+      "xGI": "3.67",
+      "xGI90": 0.47,
+      "last3": [
+        {
+          "gw": 6,
+          "min": 90,
+          "pts": 6,
+          "xGI": "0.44"
+        },
+        {
+          "gw": 7,
+          "min": 70,
+          "pts": 5,
+          "xGI": "0.25"
+        },
+        {
+          "gw": 8,
+          "min": 90,
+          "pts": 0,
+          "xGI": "0.35"
+        }
+      ],
+      "fixtures": [
+        {
+          "gw": 9,
+          "opp": "MCI",
+          "home": false,
+          "fdr": 5
+        },
+        {
+          "gw": 10,
+          "opp": "BRE",
+          "home": true,
+          "fdr": 3
+        },
+        {
+          "gw": 11,
+          "opp": "HUL",
+          "home": false,
+          "fdr": 2
+        },
+        {
+          "gw": 12,
+          "opp": "NEW",
+          "home": true,
+          "fdr": 3
+        }
+      ],
+      "priceChangeGW": 0,
+      "netTransfers": 49604
+    },
+    {
+      "id": 115,
+      "name": "De Cuyper",
+      "price": 5.3,
+      "status": "a",
+      "news": "",
+      "global": "42.4",
+      "top100": 88,
+      "mini": 11,
+      "minutes": 670,
+      "xGI": "2.93",
+      "xGI90": 0.4,
+      "last3": [
+        {
+          "gw": 6,
+          "min": 67,
+          "pts": 15,
+          "xGI": "0.25"
+        },
+        {
+          "gw": 7,
+          "min": 90,
+          "pts": 6,
+          "xGI": "0.13"
+        },
+        {
+          "gw": 8,
+          "min": 90,
+          "pts": 1,
+          "xGI": "0.33"
+        }
+      ],
+      "fixtures": [
+        {
+          "gw": 9,
+          "opp": "MCI",
+          "home": false,
+          "fdr": 5
+        },
+        {
+          "gw": 10,
+          "opp": "BRE",
+          "home": true,
+          "fdr": 3
+        },
+        {
+          "gw": 11,
+          "opp": "HUL",
+          "home": false,
+          "fdr": 2
+        },
+        {
+          "gw": 12,
+          "opp": "NEW",
+          "home": true,
+          "fdr": 3
+        }
+      ],
+      "priceChangeGW": 0,
+      "netTransfers": 144318
+    },
+    {
+      "id": 399,
+      "name": "Cherki",
+      "price": 8,
+      "status": "a",
+      "news": "",
+      "global": "36.8",
+      "top100": 17,
+      "mini": 4,
+      "minutes": 437,
+      "xGI": "3.43",
+      "xGI90": 0.71,
+      "last3": [
+        {
+          "gw": 6,
+          "min": 90,
+          "pts": 10,
+          "xGI": "0.74"
+        },
+        {
+          "gw": 7,
+          "min": 0,
+          "pts": 0,
+          "xGI": "0.00"
+        },
+        {
+          "gw": 8,
+          "min": 45,
+          "pts": 0,
+          "xGI": "0.43"
+        }
+      ],
+      "fixtures": [
+        {
+          "gw": 9,
+          "opp": "BHA",
+          "home": true,
+          "fdr": 3
+        },
+        {
+          "gw": 10,
+          "opp": "NFO",
+          "home": false,
+          "fdr": 3
+        },
+        {
+          "gw": 11,
+          "opp": "FUL",
+          "home": true,
+          "fdr": 2
+        },
+        {
+          "gw": 12,
+          "opp": "ARS",
+          "home": false,
+          "fdr": 5
+        }
+      ],
+      "priceChangeGW": 0,
+      "netTransfers": -191264
+    },
+    {
+      "id": 391,
+      "name": "Gvardiol",
+      "price": 5.7,
+      "status": "a",
+      "news": "",
+      "global": "26.2",
+      "top100": 11,
+      "mini": 3,
+      "minutes": 577,
+      "xGI": "1.69",
+      "xGI90": 0.26,
+      "last3": [
+        {
+          "gw": 6,
+          "min": 24,
+          "pts": 4,
+          "xGI": "0.15"
+        },
+        {
+          "gw": 7,
+          "min": 29,
+          "pts": 0,
+          "xGI": "0.09"
+        },
+        {
+          "gw": 8,
+          "min": 90,
+          "pts": 1,
+          "xGI": "0.49"
+        }
+      ],
+      "fixtures": [
+        {
+          "gw": 9,
+          "opp": "BHA",
+          "home": true,
+          "fdr": 3
+        },
+        {
+          "gw": 10,
+          "opp": "NFO",
+          "home": false,
+          "fdr": 3
+        },
+        {
+          "gw": 11,
+          "opp": "FUL",
+          "home": true,
+          "fdr": 2
+        },
+        {
+          "gw": 12,
+          "opp": "ARS",
+          "home": false,
+          "fdr": 5
+        }
+      ],
+      "priceChangeGW": -1,
+      "netTransfers": -103639
+    }
+  ],
+  "profiles": [
+    {
+      "entry": 8479135,
+      "team": "ช่วยใจดีกับลุงหน่อย",
+      "total": 571,
+      "deltaFromUs": 4,
+      "captain": "Palmer",
+      "squad": [
+        "Verbruggen",
+        "Konsa",
+        "Muharemović",
+        "De Cuyper",
+        "Thomas",
+        "Palmer",
+        "Tavernier",
+        "Groß",
+        "Barnes",
+        "Haaland",
+        "Gonzalo",
+        "Dubravka",
+        "João Pedro",
+        "Mitchell",
+        "Slater"
+      ],
+      "chips": [
+        {
+          "name": "bboost",
+          "time": "2026-08-21T15:16:07.174091Z",
+          "event": 1
+        },
+        {
+          "name": "3xc",
+          "time": "2026-09-04T17:19:49.883948Z",
+          "event": 3
+        },
+        {
+          "name": "wildcard",
+          "time": "2026-09-12T11:40:51.046981Z",
+          "event": 4
+        }
+      ],
+      "last3": [
+        {
+          "gw": 6,
+          "pts": 76,
+          "hit": 0,
+          "moves": 2
+        },
+        {
+          "gw": 7,
+          "pts": 68,
+          "hit": 0,
+          "moves": 0
+        },
+        {
+          "gw": 8,
+          "pts": 53,
+          "hit": 0,
+          "moves": 1
+        }
+      ],
+      "moves": [
+        {
+          "gw": 8,
+          "in": "Tavernier",
+          "out": "Saka",
+          "time": "2026-10-23T12:57:55.276970Z"
+        },
+        {
+          "gw": 6,
+          "in": "Gonzalo",
+          "out": "Isak",
+          "time": "2026-10-10T06:55:39.501028Z"
+        },
+        {
+          "gw": 6,
+          "in": "Barnes",
+          "out": "Szoboszlai",
+          "time": "2026-10-10T06:55:39.497549Z"
+        }
+      ]
+    },
+    {
+      "entry": 454063,
+      "team": "GrossProfit United",
+      "total": 532,
+      "deltaFromUs": -35,
+      "captain": "João Pedro",
+      "squad": [
+        "Raya",
+        "Calafiori",
+        "De Cuyper",
+        "Konsa",
+        "Gvardiol",
+        "Gibbs-White",
+        "Palmer",
+        "Tavernier",
+        "Groß",
+        "Haaland",
+        "Calvert-Lewin",
+        "Verbruggen",
+        "João Pedro",
+        "Ajayi",
+        "Belloumi"
+      ],
+      "chips": [
+        {
+          "name": "bboost",
+          "time": "2026-08-21T17:21:26.311079Z",
+          "event": 1
+        },
+        {
+          "name": "wildcard",
+          "time": "2026-08-29T00:38:15.196689Z",
+          "event": 3
+        },
+        {
+          "name": "3xc",
+          "time": "2026-10-17T06:54:49.814914Z",
+          "event": 7
+        }
+      ],
+      "last3": [
+        {
+          "gw": 6,
+          "pts": 80,
+          "hit": 0,
+          "moves": 1
+        },
+        {
+          "gw": 7,
+          "pts": 87,
+          "hit": 0,
+          "moves": 1
+        },
+        {
+          "gw": 8,
+          "pts": 55,
+          "hit": 0,
+          "moves": 1
+        }
+      ],
+      "moves": [
+        {
+          "gw": 8,
+          "in": "Calvert-Lewin",
+          "out": "Wissa",
+          "time": "2026-10-18T14:33:51.345987Z"
+        },
+        {
+          "gw": 7,
+          "in": "Belloumi",
+          "out": "Szoboszlai",
+          "time": "2026-10-16T15:59:56.207931Z"
+        },
+        {
+          "gw": 6,
+          "in": "De Cuyper",
+          "out": "Dedić",
+          "time": "2026-10-10T08:38:13.920467Z"
+        }
+      ]
+    },
+    {
+      "entry": 118119,
+      "team": "tamako-",
+      "total": 531,
+      "deltaFromUs": -36,
+      "captain": "João Pedro",
+      "squad": [
+        "Raya",
+        "Muharemović",
+        "Calafiori",
+        "Affengruber",
+        "Schade",
+        "Rogers",
+        "Tavernier",
+        "King",
+        "Groß",
+        "Haaland",
+        "Isak",
+        "Bentley",
+        "João Pedro",
+        "Hall",
+        "Thomas"
+      ],
+      "chips": [
+        {
+          "name": "bboost",
+          "time": "2026-08-20T13:46:38.725613Z",
+          "event": 1
+        },
+        {
+          "name": "freehit",
+          "time": "2026-08-31T05:13:30.056624Z",
+          "event": 3
+        },
+        {
+          "name": "wildcard",
+          "time": "2026-10-05T11:53:14.557520Z",
+          "event": 6
+        },
+        {
+          "name": "3xc",
+          "time": "2026-10-17T07:26:32.660829Z",
+          "event": 7
+        }
+      ],
+      "last3": [
+        {
+          "gw": 6,
+          "pts": 55,
+          "hit": 0,
+          "moves": 0
+        },
+        {
+          "gw": 7,
+          "pts": 90,
+          "hit": 0,
+          "moves": 0
+        },
+        {
+          "gw": 8,
+          "pts": 67,
+          "hit": 0,
+          "moves": 2
+        }
+      ],
+      "moves": [
+        {
+          "gw": 8,
+          "in": "Isak",
+          "out": "Kostoulas",
+          "time": "2026-10-23T03:01:38.525640Z"
+        },
+        {
+          "gw": 8,
+          "in": "Tavernier",
+          "out": "Saka",
+          "time": "2026-10-22T14:21:52.134740Z"
+        },
+        {
+          "gw": 6,
+          "in": "Bentley",
+          "out": "Dubravka",
+          "time": "2026-10-08T03:04:10.423358Z"
+        },
+        {
+          "gw": 6,
+          "in": "Muharemović",
+          "out": "Vuskovic",
+          "time": "2026-10-07T06:06:15.687679Z"
+        },
+        {
+          "gw": 6,
+          "in": "Vuskovic",
+          "out": "Muharemović",
+          "time": "2026-10-07T05:59:31.939488Z"
+        },
+        {
+          "gw": 6,
+          "in": "João Pedro",
+          "out": "Gonzalo",
+          "time": "2026-10-06T12:46:57.082573Z"
+        },
+        {
+          "gw": 6,
+          "in": "King",
+          "out": "Tavernier",
+          "time": "2026-10-06T12:46:57.082447Z"
+        },
+        {
+          "gw": 6,
+          "in": "Affengruber",
+          "out": "Tarkowski",
+          "time": "2026-10-06T12:46:57.082305Z"
+        },
+        {
+          "gw": 6,
+          "in": "Tavernier",
+          "out": "King",
+          "time": "2026-10-05T12:06:11.126794Z"
+        },
+        {
+          "gw": 6,
+          "in": "King",
+          "out": "Tavernier",
+          "time": "2026-10-05T12:02:05.114937Z"
+        },
+        {
+          "gw": 6,
+          "in": "Haaland",
+          "out": "Isak",
+          "time": "2026-10-05T11:53:23.613837Z"
+        },
+        {
+          "gw": 6,
+          "in": "Gonzalo",
+          "out": "Calvert-Lewin",
+          "time": "2026-10-05T11:53:23.613414Z"
+        },
+        {
+          "gw": 6,
+          "in": "Kostoulas",
+          "out": "João Pedro",
+          "time": "2026-10-05T11:53:23.612937Z"
+        },
+        {
+          "gw": 6,
+          "in": "Schade",
+          "out": "Tzolis",
+          "time": "2026-10-05T11:53:23.612511Z"
+        },
+        {
+          "gw": 6,
+          "in": "Groß",
+          "out": "B.Fernandes",
+          "time": "2026-10-05T11:53:23.612132Z"
+        },
+        {
+          "gw": 6,
+          "in": "Saka",
+          "out": "Szoboszlai",
+          "time": "2026-10-05T11:53:23.611839Z"
+        },
+        {
+          "gw": 6,
+          "in": "Tavernier",
+          "out": "King",
+          "time": "2026-10-05T11:53:23.611564Z"
+        },
+        {
+          "gw": 6,
+          "in": "Muharemović",
+          "out": "Hume",
+          "time": "2026-10-05T11:53:23.611239Z"
+        },
+        {
+          "gw": 6,
+          "in": "Thomas",
+          "out": "N.Williams",
+          "time": "2026-10-05T11:53:23.610857Z"
+        },
+        {
+          "gw": 6,
+          "in": "Tarkowski",
+          "out": "Van Hecke",
+          "time": "2026-10-05T11:53:23.610446Z"
+        },
+        {
+          "gw": 6,
+          "in": "Hall",
+          "out": "J.Timber",
+          "time": "2026-10-05T11:53:23.609901Z"
+        },
+        {
+          "gw": 6,
+          "in": "Calafiori",
+          "out": "Gabriel",
+          "time": "2026-10-05T11:53:23.609427Z"
+        },
+        {
+          "gw": 6,
+          "in": "Dubravka",
+          "out": "Kinsky",
+          "time": "2026-10-05T11:53:23.608912Z"
+        },
+        {
+          "gw": 6,
+          "in": "Raya",
+          "out": "Lammens",
+          "time": "2026-10-05T11:53:23.608385Z"
+        }
+      ]
+    },
+    {
+      "entry": 7463306,
+      "team": "KC888",
+      "total": 515,
+      "deltaFromUs": -52,
+      "captain": "Haaland",
+      "squad": [
+        "Raya",
+        "De Cuyper",
+        "Davis",
+        "Gabriel",
+        "Egan",
+        "Belloumi",
+        "Groß",
+        "Rogers",
+        "Henderson",
+        "Haaland",
+        "Barry",
+        "Trafford",
+        "João Pedro",
+        "Murillo",
+        "Janelt"
+      ],
+      "chips": [
+        {
+          "name": "3xc",
+          "time": "2026-08-21T01:39:04.826643Z",
+          "event": 1
+        },
+        {
+          "name": "wildcard",
+          "time": "2026-09-18T14:53:36.764283Z",
+          "event": 5
+        }
+      ],
+      "last3": [
+        {
+          "gw": 6,
+          "pts": 52,
+          "hit": 0,
+          "moves": 0
+        },
+        {
+          "gw": 7,
+          "pts": 57,
+          "hit": 0,
+          "moves": 2
+        },
+        {
+          "gw": 8,
+          "pts": 56,
+          "hit": 0,
+          "moves": 1
+        }
+      ],
+      "moves": [
+        {
+          "gw": 8,
+          "in": "Henderson",
+          "out": "Mainoo",
+          "time": "2026-10-22T13:21:28.556456Z"
+        },
+        {
+          "gw": 7,
+          "in": "João Pedro",
+          "out": "Wissa",
+          "time": "2026-10-15T02:11:30.614632Z"
+        },
+        {
+          "gw": 7,
+          "in": "Groß",
+          "out": "B.Fernandes",
+          "time": "2026-10-15T02:11:30.611133Z"
+        }
+      ]
+    },
+    {
+      "entry": 5090992,
+      "team": "Runner Up FC",
+      "total": 499,
+      "deltaFromUs": -68,
+      "captain": "Mbeumo",
+      "squad": [
+        "Verbruggen",
+        "F.Kadıoğlu",
+        "Maguire",
+        "Calafiori",
+        "Hume",
+        "Cherki",
+        "Rogers",
+        "Eze",
+        "Groß",
+        "Mbeumo",
+        "Haaland",
+        "Kinsky",
+        "João Pedro",
+        "Brobbey",
+        "Mitchell"
+      ],
+      "chips": [
+        {
+          "name": "bboost",
+          "time": "2026-08-21T15:16:47.126274Z",
+          "event": 1
+        },
+        {
+          "name": "3xc",
+          "time": "2026-09-01T14:24:36.463167Z",
+          "event": 3
+        },
+        {
+          "name": "freehit",
+          "time": "2026-09-17T14:38:36.787007Z",
+          "event": 5
+        }
+      ],
+      "last3": [
+        {
+          "gw": 6,
+          "pts": 70,
+          "hit": 0,
+          "moves": 1
+        },
+        {
+          "gw": 7,
+          "pts": 65,
+          "hit": 0,
+          "moves": 1
+        },
+        {
+          "gw": 8,
+          "pts": 26,
+          "hit": 0,
+          "moves": 1
+        }
+      ],
+      "moves": [
+        {
+          "gw": 8,
+          "in": "Mbeumo",
+          "out": "E.Le Fée",
+          "time": "2026-10-23T10:30:43.538277Z"
+        },
+        {
+          "gw": 7,
+          "in": "Cherki",
+          "out": "B.Fernandes",
+          "time": "2026-10-16T15:37:14.419358Z"
+        },
+        {
+          "gw": 6,
+          "in": "Eze",
+          "out": "Elanga",
+          "time": "2026-10-10T02:34:59.924414Z"
+        }
+      ]
+    },
+    {
+      "entry": 192330,
+      "team": "SilverBank",
+      "total": 496,
+      "deltaFromUs": -71,
+      "captain": "João Pedro",
+      "squad": [
+        "Kelleher",
+        "De Cuyper",
+        "Calafiori",
+        "Hall",
+        "Cherki",
+        "Gibbs-White",
+        "Groß",
+        "King",
+        "Rogers",
+        "Kostoulas",
+        "Haaland",
+        "Kinsky",
+        "João Pedro",
+        "Tarkowski",
+        "Van Hecke"
+      ],
+      "chips": [
+        {
+          "name": "3xc",
+          "time": "2026-08-31T05:09:10.727538Z",
+          "event": 3
+        },
+        {
+          "name": "wildcard",
+          "time": "2026-10-08T03:01:18.148204Z",
+          "event": 6
+        },
+        {
+          "name": "bboost",
+          "time": "2026-10-11T17:23:53.355991Z",
+          "event": 7
+        }
+      ],
+      "last3": [
+        {
+          "gw": 6,
+          "pts": 61,
+          "hit": 0,
+          "moves": 0
+        },
+        {
+          "gw": 7,
+          "pts": 73,
+          "hit": 0,
+          "moves": 1
+        },
+        {
+          "gw": 8,
+          "pts": 28,
+          "hit": 0,
+          "moves": 0
+        }
+      ],
+      "moves": [
+        {
+          "gw": 7,
+          "in": "Cherki",
+          "out": "Schade",
+          "time": "2026-10-13T13:09:40.510895Z"
+        },
+        {
+          "gw": 6,
+          "in": "Kostoulas",
+          "out": "Barry",
+          "time": "2026-10-10T01:57:56.539540Z"
+        },
+        {
+          "gw": 6,
+          "in": "Van Hecke",
+          "out": "N.Williams",
+          "time": "2026-10-10T01:54:25.727889Z"
+        },
+        {
+          "gw": 6,
+          "in": "Schade",
+          "out": "Szoboszlai",
+          "time": "2026-10-08T13:01:09.002789Z"
+        },
+        {
+          "gw": 6,
+          "in": "Barry",
+          "out": "Brobbey",
+          "time": "2026-10-08T11:30:16.174399Z"
+        },
+        {
+          "gw": 6,
+          "in": "King",
+          "out": "Elanga",
+          "time": "2026-10-08T03:03:14.743238Z"
+        },
+        {
+          "gw": 6,
+          "in": "Hall",
+          "out": "van Ewijk",
+          "time": "2026-10-08T03:03:14.743131Z"
+        },
+        {
+          "gw": 6,
+          "in": "Kelleher",
+          "out": "Roefs",
+          "time": "2026-10-08T03:03:14.743019Z"
+        },
+        {
+          "gw": 6,
+          "in": "Rogers",
+          "out": "Palmer",
+          "time": "2026-10-08T03:03:14.742904Z"
+        },
+        {
+          "gw": 6,
+          "in": "Tarkowski",
+          "out": "Van Hecke",
+          "time": "2026-10-08T03:03:14.742748Z"
+        }
+      ]
+    },
+    {
+      "entry": 7915661,
+      "team": "JedYubZ_WCC",
+      "total": 496,
+      "deltaFromUs": -71,
+      "captain": "João Pedro",
+      "squad": [
+        "Raya",
+        "Hall",
+        "Calafiori",
+        "De Cuyper",
+        "Rogers",
+        "Groß",
+        "Cherki",
+        "Mbeumo",
+        "Belloumi",
+        "Haaland",
+        "Calvert-Lewin",
+        "Dubravka",
+        "João Pedro",
+        "Guéhi",
+        "van Ewijk"
+      ],
+      "chips": [
+        {
+          "name": "3xc",
+          "time": "2026-10-16T03:30:00.611086Z",
+          "event": 7
+        }
+      ],
+      "last3": [
+        {
+          "gw": 6,
+          "pts": 84,
+          "hit": 4,
+          "moves": 2
+        },
+        {
+          "gw": 7,
+          "pts": 84,
+          "hit": 0,
+          "moves": 1
+        },
+        {
+          "gw": 8,
+          "pts": 32,
+          "hit": 0,
+          "moves": 1
+        }
+      ],
+      "moves": [
+        {
+          "gw": 8,
+          "in": "Mbeumo",
+          "out": "Gomez",
+          "time": "2026-10-23T15:33:11.808260Z"
+        },
+        {
+          "gw": 7,
+          "in": "Belloumi",
+          "out": "Gibbs-White",
+          "time": "2026-10-17T08:56:30.087466Z"
+        },
+        {
+          "gw": 6,
+          "in": "Hall",
+          "out": "Muñoz",
+          "time": "2026-10-10T06:36:15.959722Z"
+        },
+        {
+          "gw": 6,
+          "in": "Groß",
+          "out": "Tzolis",
+          "time": "2026-10-09T03:07:22.444049Z"
+        }
+      ]
+    },
+    {
+      "entry": 2164081,
+      "team": "RelegationBattle",
+      "total": 484,
+      "deltaFromUs": -83,
+      "captain": "Haaland",
+      "squad": [
+        "Verbruggen",
+        "De Cuyper",
+        "Konsa",
+        "Calafiori",
+        "Muñoz",
+        "Barnes",
+        "Rogers",
+        "Rice",
+        "McGinn",
+        "Haaland",
+        "Evanilson",
+        "Lammens",
+        "João Pedro",
+        "Tarkowski",
+        "Mainoo"
+      ],
+      "chips": [],
+      "last3": [
+        {
+          "gw": 6,
+          "pts": 66,
+          "hit": 0,
+          "moves": 0
+        },
+        {
+          "gw": 7,
+          "pts": 69,
+          "hit": 0,
+          "moves": 1
+        },
+        {
+          "gw": 8,
+          "pts": 65,
+          "hit": 0,
+          "moves": 2
+        }
+      ],
+      "moves": [
+        {
+          "gw": 8,
+          "in": "McGinn",
+          "out": "Szoboszlai",
+          "time": "2026-10-23T13:46:17.064691Z"
+        },
+        {
+          "gw": 8,
+          "in": "Evanilson",
+          "out": "Wissa",
+          "time": "2026-10-23T13:46:17.060595Z"
+        },
+        {
+          "gw": 7,
+          "in": "João Pedro",
+          "out": "Isak",
+          "time": "2026-10-12T03:45:44.396958Z"
+        }
+      ]
+    },
+    {
+      "entry": 694667,
+      "team": "Bombadoo FC.",
+      "total": 481,
+      "deltaFromUs": -86,
+      "captain": "João Pedro",
+      "squad": [
+        "Verbruggen",
+        "Justin",
+        "Hall",
+        "Calafiori",
+        "Palmer",
+        "Tavernier",
+        "Rogers",
+        "Rice",
+        "Ødegaard",
+        "Wissa",
+        "Isak",
+        "Pickford",
+        "João Pedro",
+        "Gvardiol",
+        "Mendy"
+      ],
+      "chips": [
+        {
+          "name": "bboost",
+          "time": "2026-08-18T02:57:47.394626Z",
+          "event": 1
+        },
+        {
+          "name": "freehit",
+          "time": "2026-08-31T21:04:35.657995Z",
+          "event": 3
+        },
+        {
+          "name": "wildcard",
+          "time": "2026-09-12T07:19:30.757268Z",
+          "event": 4
+        }
+      ],
+      "last3": [
+        {
+          "gw": 6,
+          "pts": 58,
+          "hit": 0,
+          "moves": 1
+        },
+        {
+          "gw": 7,
+          "pts": 46,
+          "hit": 0,
+          "moves": 0
+        },
+        {
+          "gw": 8,
+          "pts": 39,
+          "hit": 0,
+          "moves": 1
+        }
+      ],
+      "moves": [
+        {
+          "gw": 8,
+          "in": "Rogers",
+          "out": "B.Fernandes",
+          "time": "2026-10-22T19:43:38.374669Z"
+        },
+        {
+          "gw": 6,
+          "in": "Tavernier",
+          "out": "Scott",
+          "time": "2026-10-05T10:28:48.214993Z"
+        }
+      ]
+    },
+    {
+      "entry": 3800481,
+      "team": "Sarumann",
+      "total": 479,
+      "deltaFromUs": -88,
+      "captain": "João Pedro",
+      "squad": [
+        "Raya",
+        "Bogle",
+        "Muñoz",
+        "De Cuyper",
+        "Calafiori",
+        "Palmer",
+        "Rogers",
+        "Tavernier",
+        "Groß",
+        "Kostoulas",
+        "Haaland",
+        "Dubravka",
+        "João Pedro",
+        "Schade",
+        "N.Williams"
+      ],
+      "chips": [
+        {
+          "name": "3xc",
+          "time": "2026-09-12T03:26:00.483290Z",
+          "event": 4
+        },
+        {
+          "name": "wildcard",
+          "time": "2026-09-13T00:53:17.429751Z",
+          "event": 5
+        },
+        {
+          "name": "bboost",
+          "time": "2026-10-21T06:19:20.873364Z",
+          "event": 8
+        }
+      ],
+      "last3": [
+        {
+          "gw": 6,
+          "pts": 59,
+          "hit": 0,
+          "moves": 1
+        },
+        {
+          "gw": 7,
+          "pts": 77,
+          "hit": 4,
+          "moves": 2
+        },
+        {
+          "gw": 8,
+          "pts": 59,
+          "hit": 8,
+          "moves": 3
+        }
+      ],
+      "moves": [
+        {
+          "gw": 8,
+          "in": "Kostoulas",
+          "out": "Calvert-Lewin",
+          "time": "2026-10-23T14:49:33.700904Z"
+        },
+        {
+          "gw": 8,
+          "in": "Palmer",
+          "out": "Gibbs-White",
+          "time": "2026-10-18T15:00:35.976883Z"
+        },
+        {
+          "gw": 8,
+          "in": "Muñoz",
+          "out": "Gvardiol",
+          "time": "2026-10-18T15:00:35.970727Z"
+        },
+        {
+          "gw": 7,
+          "in": "Groß",
+          "out": "Wirtz",
+          "time": "2026-10-16T00:21:14.355896Z"
+        },
+        {
+          "gw": 7,
+          "in": "João Pedro",
+          "out": "Kostoulas",
+          "time": "2026-10-10T18:38:39.148738Z"
+        },
+        {
+          "gw": 6,
+          "in": "Kostoulas",
+          "out": "Havertz",
+          "time": "2026-10-09T03:57:19.883348Z"
+        }
+      ]
+    },
+    {
+      "entry": 7002589,
+      "team": "On",
+      "total": 470,
+      "deltaFromUs": -97,
+      "captain": "Haaland",
+      "squad": [
+        "Trafford",
+        "Calafiori",
+        "Gvardiol",
+        "Bogle",
+        "Rice",
+        "Mbeumo",
+        "Barnes",
+        "Rogers",
+        "Ødegaard",
+        "Haaland",
+        "Kostoulas",
+        "Verbruggen",
+        "João Pedro",
+        "Hall",
+        "Mitchell"
+      ],
+      "chips": [
+        {
+          "name": "wildcard",
+          "time": "2026-09-10T05:12:33.090350Z",
+          "event": 4
+        }
+      ],
+      "last3": [
+        {
+          "gw": 6,
+          "pts": 47,
+          "hit": 0,
+          "moves": 0
+        },
+        {
+          "gw": 7,
+          "pts": 72,
+          "hit": 0,
+          "moves": 0
+        },
+        {
+          "gw": 8,
+          "pts": 52,
+          "hit": 0,
+          "moves": 2
+        }
+      ],
+      "moves": [
+        {
+          "gw": 8,
+          "in": "Trafford",
+          "out": "Horníček",
+          "time": "2026-10-23T10:46:51.477861Z"
+        },
+        {
+          "gw": 8,
+          "in": "Mbeumo",
+          "out": "Szoboszlai",
+          "time": "2026-10-23T10:43:21.300819Z"
+        }
+      ]
+    },
+    {
+      "entry": 5229629,
+      "team": "Dek Dek FC",
+      "total": 431,
+      "deltaFromUs": -136,
+      "captain": "João Pedro",
+      "squad": [
+        "Raya",
+        "De Cuyper",
+        "Muharemović",
+        "Hall",
+        "Mitchell",
+        "Davis",
+        "Rogers",
+        "Schade",
+        "Groß",
+        "Haaland",
+        "Evanilson",
+        "Steele",
+        "Saka",
+        "João Pedro",
+        "Barnes"
+      ],
+      "chips": [
+        {
+          "name": "freehit",
+          "time": "2026-09-02T10:46:51.017702Z",
+          "event": 3
+        },
+        {
+          "name": "wildcard",
+          "time": "2026-10-09T11:10:19.348901Z",
+          "event": 6
+        },
+        {
+          "name": "3xc",
+          "time": "2026-10-17T06:58:29.082483Z",
+          "event": 7
+        }
+      ],
+      "last3": [
+        {
+          "gw": 6,
+          "pts": 55,
+          "hit": 0,
+          "moves": 0
+        },
+        {
+          "gw": 7,
+          "pts": 89,
+          "hit": 0,
+          "moves": 1
+        },
+        {
+          "gw": 8,
+          "pts": 43,
+          "hit": 0,
+          "moves": 0
+        }
+      ],
+      "moves": [
+        {
+          "gw": 7,
+          "in": "Evanilson",
+          "out": "Wissa",
+          "time": "2026-10-17T07:00:04.144104Z"
+        },
+        {
+          "gw": 6,
+          "in": "Saka",
+          "out": "Tzolis",
+          "time": "2026-10-09T11:24:50.810842Z"
+        },
+        {
+          "gw": 6,
+          "in": "Schade",
+          "out": "E.Le Fée",
+          "time": "2026-10-09T11:24:50.810743Z"
+        },
+        {
+          "gw": 6,
+          "in": "Barnes",
+          "out": "Szoboszlai",
+          "time": "2026-10-09T11:24:50.810642Z"
+        },
+        {
+          "gw": 6,
+          "in": "Groß",
+          "out": "Yarmoliuk",
+          "time": "2026-10-09T11:24:50.810532Z"
+        },
+        {
+          "gw": 6,
+          "in": "Mitchell",
+          "out": "N.Williams",
+          "time": "2026-10-09T11:24:50.810433Z"
+        },
+        {
+          "gw": 6,
+          "in": "Muharemović",
+          "out": "O'Reilly",
+          "time": "2026-10-09T11:24:50.810319Z"
+        },
+        {
+          "gw": 6,
+          "in": "Hall",
+          "out": "Ajayi",
+          "time": "2026-10-09T11:24:50.810218Z"
+        },
+        {
+          "gw": 6,
+          "in": "Davis",
+          "out": "van Ewijk",
+          "time": "2026-10-09T11:24:50.810111Z"
+        },
+        {
+          "gw": 6,
+          "in": "De Cuyper",
+          "out": "Gabriel",
+          "time": "2026-10-09T11:24:50.809999Z"
+        },
+        {
+          "gw": 6,
+          "in": "Steele",
+          "out": "Verbruggen",
+          "time": "2026-10-09T11:24:50.809852Z"
+        }
+      ]
+    },
+    {
+      "entry": 3801503,
+      "team": "Long_Darkz",
+      "total": 428,
+      "deltaFromUs": -139,
+      "captain": "Haaland",
+      "squad": [
+        "Tzolakis",
+        "Calafiori",
+        "Ajayi",
+        "Hall",
+        "Kayode",
+        "Vuskovic",
+        "Schade",
+        "Rayan",
+        "Groß",
+        "Belloumi",
+        "Haaland",
+        "Trafford",
+        "Calvert-Lewin",
+        "Brobbey",
+        "B.Fernandes"
+      ],
+      "chips": [
+        {
+          "name": "wildcard",
+          "time": "2026-09-01T04:22:59.875101Z",
+          "event": 3
+        }
+      ],
+      "last3": [
+        {
+          "gw": 6,
+          "pts": 47,
+          "hit": 8,
+          "moves": 4
+        },
+        {
+          "gw": 7,
+          "pts": 63,
+          "hit": 0,
+          "moves": 0
+        },
+        {
+          "gw": 8,
+          "pts": 50,
+          "hit": 0,
+          "moves": 0
+        }
+      ],
+      "moves": [
+        {
+          "gw": 6,
+          "in": "Tzolakis",
+          "out": "Lammens",
+          "time": "2026-09-20T15:22:05.302347Z"
+        },
+        {
+          "gw": 6,
+          "in": "Belloumi",
+          "out": "Munoz",
+          "time": "2026-09-20T15:22:05.301937Z"
+        },
+        {
+          "gw": 6,
+          "in": "Groß",
+          "out": "Janelt",
+          "time": "2026-09-20T15:22:05.301497Z"
+        },
+        {
+          "gw": 6,
+          "in": "Brobbey",
+          "out": "João Pedro",
+          "time": "2026-09-20T15:22:05.296445Z"
+        }
+      ]
+    },
+    {
+      "entry": 8489895,
+      "team": "Goal888",
+      "total": 411,
+      "deltaFromUs": -156,
+      "captain": "Cherki",
+      "squad": [
+        "Raya",
+        "Gabriel",
+        "Guéhi",
+        "Virgil",
+        "Ajer",
+        "Calafiori",
+        "Wirtz",
+        "Cunha",
+        "Cherki",
+        "Mbeumo",
+        "Isak",
+        "Martinez",
+        "Semenyo",
+        "J.Angulo",
+        "Furo"
+      ],
+      "chips": [],
+      "last3": [
+        {
+          "gw": 6,
+          "pts": 61,
+          "hit": 0,
+          "moves": 0
+        },
+        {
+          "gw": 7,
+          "pts": 56,
+          "hit": 0,
+          "moves": 0
+        },
+        {
+          "gw": 8,
+          "pts": 54,
+          "hit": 0,
+          "moves": 0
+        }
+      ],
+      "moves": []
+    },
+    {
+      "entry": 3798782,
+      "team": "Mr.Art",
+      "total": 378,
+      "deltaFromUs": -189,
+      "captain": "Haaland",
+      "squad": [
+        "Raya",
+        "Calafiori",
+        "De Cuyper",
+        "Guéhi",
+        "Kayode",
+        "Neto",
+        "Doku",
+        "Groß",
+        "Palmer",
+        "Haaland",
+        "Kostoulas",
+        "Tzolakis",
+        "João Pedro",
+        "Hughes",
+        "Bogle"
+      ],
+      "chips": [
+        {
+          "name": "3xc",
+          "time": "2026-08-11T08:54:43.948886Z",
+          "event": 1
+        },
+        {
+          "name": "wildcard",
+          "time": "2026-08-25T01:44:47.991557Z",
+          "event": 2
+        },
+        {
+          "name": "freehit",
+          "time": "2026-09-01T00:35:37.139485Z",
+          "event": 3
+        },
+        {
+          "name": "bboost",
+          "time": "2026-09-07T00:29:07.828709Z",
+          "event": 4
+        }
+      ],
+      "last3": [
+        {
+          "gw": 6,
+          "pts": 49,
+          "hit": 8,
+          "moves": 3
+        },
+        {
+          "gw": 7,
+          "pts": 61,
+          "hit": 20,
+          "moves": 6
+        },
+        {
+          "gw": 8,
+          "pts": 35,
+          "hit": 4,
+          "moves": 2
+        }
+      ],
+      "moves": [
+        {
+          "gw": 8,
+          "in": "Doku",
+          "out": "Cherki",
+          "time": "2026-10-18T14:59:44.873172Z"
+        },
+        {
+          "gw": 8,
+          "in": "Neto",
+          "out": "Rogers",
+          "time": "2026-10-18T14:59:44.869535Z"
+        },
+        {
+          "gw": 7,
+          "in": "Hughes",
+          "out": "Schade",
+          "time": "2026-10-11T23:41:45.483051Z"
+        },
+        {
+          "gw": 7,
+          "in": "Palmer",
+          "out": "Tavernier",
+          "time": "2026-10-11T23:41:45.482728Z"
+        },
+        {
+          "gw": 7,
+          "in": "Bogle",
+          "out": "Virgil",
+          "time": "2026-10-11T23:41:45.478205Z"
+        },
+        {
+          "gw": 7,
+          "in": "Rogers",
+          "out": "Ødegaard",
+          "time": "2026-10-11T18:15:34.543312Z"
+        },
+        {
+          "gw": 7,
+          "in": "Cherki",
+          "out": "Gakpo",
+          "time": "2026-10-11T18:15:34.543102Z"
+        },
+        {
+          "gw": 7,
+          "in": "João Pedro",
+          "out": "Isak",
+          "time": "2026-10-11T18:15:34.539288Z"
+        },
+        {
+          "gw": 6,
+          "in": "Ødegaard",
+          "out": "Rogers",
+          "time": "2026-09-20T09:24:47.699244Z"
+        },
+        {
+          "gw": 6,
+          "in": "Kostoulas",
+          "out": "Calvert-Lewin",
+          "time": "2026-09-20T09:24:47.698795Z"
+        },
+        {
+          "gw": 6,
+          "in": "Groß",
+          "out": "Slater",
+          "time": "2026-09-20T09:24:47.693619Z"
+        }
+      ]
+    },
+    {
+      "entry": 7486501,
+      "team": "Talens10",
+      "total": 259,
+      "deltaFromUs": -308,
+      "captain": "Haaland",
+      "squad": [
+        "Raya",
+        "De Cuyper",
+        "Davis",
+        "Dasilva",
+        "Egan",
+        "Groß",
+        "Mbeumo",
+        "Tavernier",
+        "Rice",
+        "Haaland",
+        "Barry",
+        "Tzolakis",
+        "B.Fernandes",
+        "João Pedro",
+        "Diop"
+      ],
+      "chips": [],
+      "last3": [
+        {
+          "gw": 6,
+          "pts": 52,
+          "hit": 0,
+          "moves": 1
+        },
+        {
+          "gw": 7,
+          "pts": 58,
+          "hit": 16,
+          "moves": 5
+        },
+        {
+          "gw": 8,
+          "pts": 49,
+          "hit": 0,
+          "moves": 1
+        }
+      ],
+      "moves": [
+        {
+          "gw": 8,
+          "in": "Tavernier",
+          "out": "Garner",
+          "time": "2026-10-20T05:28:39.538509Z"
+        },
+        {
+          "gw": 7,
+          "in": "Tzolakis",
+          "out": "Verbruggen",
+          "time": "2026-10-13T07:33:28.627776Z"
+        },
+        {
+          "gw": 7,
+          "in": "Dasilva",
+          "out": "Coyle",
+          "time": "2026-10-13T07:33:28.623509Z"
+        },
+        {
+          "gw": 7,
+          "in": "Barry",
+          "out": "Emersonn",
+          "time": "2026-10-13T07:30:42.032598Z"
+        },
+        {
+          "gw": 7,
+          "in": "De Cuyper",
+          "out": "Gvardiol",
+          "time": "2026-10-13T07:28:41.885277Z"
+        },
+        {
+          "gw": 7,
+          "in": "Garner",
+          "out": "Scott",
+          "time": "2026-10-13T07:26:56.282571Z"
+        },
+        {
+          "gw": 6,
+          "in": "Verbruggen",
+          "out": "Kinsky",
+          "time": "2026-09-21T14:15:43.031526Z"
+        }
+      ]
+    },
+    {
+      "entry": 11062145,
+      "team": "Sweetzer's Team",
+      "total": 69,
+      "deltaFromUs": -498,
+      "captain": "João Pedro",
+      "squad": [
+        "Verbruggen",
+        "Hall",
+        "Calafiori",
+        "De Cuyper",
+        "Bogle",
+        "Palmer",
+        "Rogers",
+        "Mbeumo",
+        "Cunha",
+        "Groß",
+        "Thiago",
+        "Donnarumma",
+        "Shaw",
+        "João Pedro",
+        "Isak"
+      ],
+      "chips": [],
+      "last3": [
+        {
+          "gw": 7,
+          "pts": 45,
+          "hit": 0,
+          "moves": 0
+        },
+        {
+          "gw": 8,
+          "pts": 24,
+          "hit": 0,
+          "moves": 0
+        }
+      ],
+      "moves": []
+    }
+  ],
+  "topOwnership": [
+    {
+      "name": "Haaland",
+      "n": 100
+    },
+    {
+      "name": "João Pedro",
+      "n": 99
+    },
+    {
+      "name": "Calafiori",
+      "n": 93
+    },
+    {
+      "name": "Groß",
+      "n": 90
+    },
+    {
+      "name": "De Cuyper",
+      "n": 88
+    },
+    {
+      "name": "Rogers",
+      "n": 88
+    },
+    {
+      "name": "Konsa",
+      "n": 83
+    },
+    {
+      "name": "Raya",
+      "n": 81
+    },
+    {
+      "name": "Palmer",
+      "n": 63
+    },
+    {
+      "name": "Tavernier",
+      "n": 56
+    },
+    {
+      "name": "Hall",
+      "n": 45
+    },
+    {
+      "name": "Muharemović",
+      "n": 43
+    },
+    {
+      "name": "Calvert-Lewin",
+      "n": 39
+    },
+    {
+      "name": "Verbruggen",
+      "n": 32
+    },
+    {
+      "name": "Mbeumo",
+      "n": 32
+    },
+    {
+      "name": "Gibbs-White",
+      "n": 27
+    },
+    {
+      "name": "Barnes",
+      "n": 22
+    },
+    {
+      "name": "Schade",
+      "n": 21
+    },
+    {
+      "name": "Dubravka",
+      "n": 20
+    },
+    {
+      "name": "Barry",
+      "n": 19
+    }
+  ],
+  "decomposition": [
+    {
+      "gw": 6,
+      "delta": -13,
+      "base": -13,
+      "captain": 0,
+      "rows": [
+        {
+          "name": "Palmer",
+          "delta": 8,
+          "base": 8,
+          "captain": 0
+        },
+        {
+          "name": "Mitchell",
+          "delta": 4,
+          "base": 4,
+          "captain": 0
+        },
+        {
+          "name": "Thomas",
+          "delta": 4,
+          "base": 4,
+          "captain": 0
+        },
+        {
+          "name": "Barnes",
+          "delta": 2,
+          "base": 2,
+          "captain": 0
+        },
+        {
+          "name": "Saka",
+          "delta": 2,
+          "base": 2,
+          "captain": 0
+        },
+        {
+          "name": "Gonzalo",
+          "delta": 2,
+          "base": 2,
+          "captain": 0
+        },
+        {
+          "name": "B.Fernandes",
+          "delta": -1,
+          "base": -1,
+          "captain": 0
+        },
+        {
+          "name": "Wissa",
+          "delta": -2,
+          "base": -2,
+          "captain": 0
+        },
+        {
+          "name": "Gvardiol",
+          "delta": -4,
+          "base": -4,
+          "captain": 0
+        },
+        {
+          "name": "Calafiori",
+          "delta": -9,
+          "base": -9,
+          "captain": 0
+        },
+        {
+          "name": "Rogers",
+          "delta": -9,
+          "base": -9,
+          "captain": 0
+        },
+        {
+          "name": "Cherki",
+          "delta": -10,
+          "base": -10,
+          "captain": 0
+        }
+      ]
+    },
+    {
+      "gw": 7,
+      "delta": 11,
+      "base": 11,
+      "captain": 0,
+      "rows": [
+        {
+          "name": "Konsa",
+          "delta": 9,
+          "base": 9,
+          "captain": 0
+        },
+        {
+          "name": "Muharemović",
+          "delta": 5,
+          "base": 5,
+          "captain": 0
+        },
+        {
+          "name": "Saka",
+          "delta": 3,
+          "base": 3,
+          "captain": 0
+        },
+        {
+          "name": "Barnes",
+          "delta": 2,
+          "base": 2,
+          "captain": 0
+        },
+        {
+          "name": "Palmer",
+          "delta": 2,
+          "base": 2,
+          "captain": 0
+        },
+        {
+          "name": "Gonzalo",
+          "delta": 2,
+          "base": 2,
+          "captain": 0
+        },
+        {
+          "name": "B.Fernandes",
+          "delta": -1,
+          "base": -1,
+          "captain": 0
+        },
+        {
+          "name": "Wissa",
+          "delta": -1,
+          "base": -1,
+          "captain": 0
+        },
+        {
+          "name": "Bogle",
+          "delta": -2,
+          "base": -2,
+          "captain": 0
+        },
+        {
+          "name": "Rogers",
+          "delta": -2,
+          "base": -2,
+          "captain": 0
+        },
+        {
+          "name": "Calafiori",
+          "delta": -6,
+          "base": -6,
+          "captain": 0
+        }
+      ]
+    },
+    {
+      "gw": 8,
+      "delta": 24,
+      "base": 33,
+      "captain": -9,
+      "rows": [
+        {
+          "name": "Konsa",
+          "delta": 14,
+          "base": 14,
+          "captain": 0
+        },
+        {
+          "name": "Tavernier",
+          "delta": 10,
+          "base": 10,
+          "captain": 0
+        },
+        {
+          "name": "Muharemović",
+          "delta": 9,
+          "base": 9,
+          "captain": 0
+        },
+        {
+          "name": "Barnes",
+          "delta": 8,
+          "base": 8,
+          "captain": 0
+        },
+        {
+          "name": "Gonzalo",
+          "delta": 2,
+          "base": 2,
+          "captain": 0
+        },
+        {
+          "name": "Thomas",
+          "delta": 1,
+          "base": 1,
+          "captain": 0
+        },
+        {
+          "name": "Calafiori",
+          "delta": -1,
+          "base": -1,
+          "captain": 0
+        },
+        {
+          "name": "Gvardiol",
+          "delta": -1,
+          "base": -1,
+          "captain": 0
+        },
+        {
+          "name": "Diop",
+          "delta": -1,
+          "base": -1,
+          "captain": 0
+        },
+        {
+          "name": "Rogers",
+          "delta": -1,
+          "base": -1,
+          "captain": 0
+        },
+        {
+          "name": "Wissa",
+          "delta": -1,
+          "base": -1,
+          "captain": 0
+        },
+        {
+          "name": "Palmer",
+          "delta": -2,
+          "base": -1,
+          "captain": -1
+        },
+        {
+          "name": "Bogle",
+          "delta": -5,
+          "base": -5,
+          "captain": 0
+        },
+        {
+          "name": "Haaland",
+          "delta": -8,
+          "base": 0,
+          "captain": -8
+        }
+      ]
+    }
+  ],
+  "worldBehavior": [
+    {
+      "gw": 6,
+      "noMoves": 56,
+      "hitTeams": 1,
+      "chips": 5
+    },
+    {
+      "gw": 7,
+      "noMoves": 39,
+      "hitTeams": 1,
+      "chips": 55
+    },
+    {
+      "gw": 8,
+      "noMoves": 27,
+      "hitTeams": 1,
+      "chips": 3
+    }
+  ]
+}

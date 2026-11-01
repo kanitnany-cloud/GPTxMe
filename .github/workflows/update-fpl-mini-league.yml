@@ -29,6 +29,7 @@ jobs:
           node scripts/update-fpl-mini-league.mjs
           node scripts/build-fpl-gw5-preview.mjs
           node scripts/collect-gw8-evidence.mjs
+          node scripts/collect-gw9-intel.mjs
           if [ -f output/gw8-evidence/raw.json ]; then
             node scripts/build-gw8-recovery.mjs
           fi
@@ -39,6 +40,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add api/fpl-device-live.json api/fpl-device-lite.json mini-league/mini-league-intel-gw*.json mini-league/player-template-gw*.csv mini-league/team-summary-gw*.csv
           git add mini-league/gw8-recovery-evidence.json
+          if [ -f mini-league/gw9-intel-evidence.json ]; then
+            git add mini-league/gw9-intel-evidence.json
+          fi
           if git diff --cached --quiet; then
             echo "No FPL data changes to commit."
           else
