@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "1/11/2569 22:48:19",
+  "updated_at_th": "2/11/2569 01:30:24",
   "gameweek": 9,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 2,
-    "points": 608,
-    "gw_points": 41,
+    "points": 616,
+    "gw_points": 49,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "ช่วยใจดีกับลุงหน่อย",
       "manager": "Palm Xavier",
-      "points": 635,
+      "points": 645,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 635,
+        "points": 645,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -35,7 +35,7 @@
       {
         "rank": 2,
         "team": "Yedtsuna",
-        "points": 608,
+        "points": 616,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -44,7 +44,7 @@
       {
         "rank": 3,
         "team": "GrossProfit United",
-        "points": 580,
+        "points": 595,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -67,7 +67,7 @@
       {
         "rank": 5,
         "team": "tamako-",
-        "points": 551,
+        "points": 564,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -79,7 +79,7 @@
       {
         "rank": 6,
         "team": "KC888",
-        "points": 550,
+        "points": 561,
         "captain": "Haaland",
         "chips": [
           "3xc",
@@ -89,7 +89,7 @@
       {
         "rank": 7,
         "team": "JedYubZ_WCC",
-        "points": 541,
+        "points": 546,
         "captain": "N.Jackson",
         "chips": [
           "3xc"
@@ -97,13 +97,13 @@
       },
       {
         "rank": 8,
-        "team": "SilverBank",
-        "points": 534,
-        "captain": "Isak",
+        "team": "Bombadoo FC.",
+        "points": 539,
+        "captain": "Rogers",
         "chips": [
-          "3xc",
-          "wildcard",
-          "bboost"
+          "bboost",
+          "freehit",
+          "wildcard"
         ]
       }
     ]
@@ -150,8 +150,8 @@
       "club": "ARS",
       "owners": 11,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 8,
+      "total_points": 48,
       "owned_by_me": true
     },
     {
@@ -164,17 +164,17 @@
       "owned_by_me": true
     },
     {
-      "name": "Hall",
-      "club": "NEW",
+      "name": "Raya",
+      "club": "ARS",
       "owners": 9,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 5,
+      "total_points": 45,
       "owned_by_me": false
     },
     {
-      "name": "Raya",
-      "club": "ARS",
+      "name": "Hall",
+      "club": "NEW",
       "owners": 9,
       "captains": 0,
       "gw_points": 0,
@@ -257,12 +257,12 @@
     },
     {
       "kickoff_time": "2026-11-01T16:30:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "LIV",
       "away": "ARS",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-11-02T20:00:00Z",
