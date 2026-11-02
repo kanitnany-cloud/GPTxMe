@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "3/11/2569 03:11:52",
+  "updated_at_th": "3/11/2569 05:24:39",
   "gameweek": 9,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 2,
-    "points": 614,
-    "gw_points": 47,
+    "points": 615,
+    "gw_points": 48,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "ช่วยใจดีกับลุงหน่อย",
       "manager": "Palm Xavier",
-      "points": 646,
+      "points": 647,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 646,
+        "points": 647,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -35,7 +35,7 @@
       {
         "rank": 2,
         "team": "Yedtsuna",
-        "points": 614,
+        "points": 615,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -54,8 +54,18 @@
       },
       {
         "rank": 4,
+        "team": "KC888",
+        "points": 570,
+        "captain": "Haaland",
+        "chips": [
+          "3xc",
+          "wildcard"
+        ]
+      },
+      {
+        "rank": 5,
         "team": "Runner Up FC",
-        "points": 566,
+        "points": 567,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -65,9 +75,9 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 6,
         "team": "tamako-",
-        "points": 565,
+        "points": 566,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -77,33 +87,23 @@
         ]
       },
       {
-        "rank": 6,
-        "team": "KC888",
-        "points": 562,
-        "captain": "Haaland",
-        "chips": [
-          "3xc",
-          "wildcard"
-        ]
-      },
-      {
         "rank": 7,
-        "team": "JedYubZ_WCC",
-        "points": 547,
-        "captain": "N.Jackson",
-        "chips": [
-          "3xc"
-        ]
-      },
-      {
-        "rank": 8,
         "team": "Bombadoo FC.",
-        "points": 540,
+        "points": 548,
         "captain": "Rogers",
         "chips": [
           "bboost",
           "freehit",
           "wildcard"
+        ]
+      },
+      {
+        "rank": 8,
+        "team": "JedYubZ_WCC",
+        "points": 548,
+        "captain": "N.Jackson",
+        "chips": [
+          "3xc"
         ]
       }
     ]
@@ -177,8 +177,8 @@
       "club": "NEW",
       "owners": 9,
       "captains": 0,
-      "gw_points": 1,
-      "total_points": 9,
+      "gw_points": 2,
+      "total_points": 18,
       "owned_by_me": false
     }
   ],
@@ -271,7 +271,7 @@
       "home": "NEW",
       "away": "EVE",
       "home_score": 0,
-      "away_score": 0
+      "away_score": 1
     }
   ],
   "strategy": {
