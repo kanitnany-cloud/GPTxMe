@@ -70,7 +70,7 @@
     "most_captained": 411,
     "most_vice_captained": 1
   },
-  "generatedAt": "2/11/2569 06:46:25",
+  "generatedAt": "2/11/2569 11:43:04",
   "teams": [
     {
       "entry": 8479135,
@@ -497,8 +497,8 @@
       "entry_name": "Yedtsuna",
       "player_name": "Kanitnan Yamjongkol",
       "rank": 2,
-      "event_total": 49,
-      "total": 616,
+      "event_total": 47,
+      "total": 614,
       "team_value": 102.7,
       "bank": 3.7,
       "captain": "Haaland",
@@ -717,8 +717,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 8,
-          "points": 8
+          "event_points": 6,
+          "points": 6
         },
         {
           "element": 391,
@@ -3227,7 +3227,7 @@
           "club": "ARS",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 8,
+          "event_points": 6,
           "points": 0
         },
         {
@@ -3246,8 +3246,8 @@
       "entry_name": "Bombadoo FC.",
       "player_name": "Apirak Aiman",
       "rank": 8,
-      "event_total": 59,
-      "total": 540,
+      "event_total": 57,
+      "total": 538,
       "team_value": 101.1,
       "bank": 5.7,
       "captain": "Rogers",
@@ -3651,8 +3651,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 8,
-          "points": 8
+          "event_points": 6,
+          "points": 6
         },
         {
           "element": 31,
@@ -4158,7 +4158,7 @@
           "club": "ARS",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 8,
+          "event_points": 6,
           "points": 0
         }
       ]
@@ -4482,7 +4482,7 @@
           "club": "ARS",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 8,
+          "event_points": 6,
           "points": 0
         },
         {
@@ -5021,7 +5021,7 @@
           "club": "ARS",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 8,
+          "event_points": 6,
           "points": 0
         },
         {
@@ -5040,8 +5040,8 @@
       "entry_name": "On",
       "player_name": "Peerawat Y",
       "rank": 12,
-      "event_total": 38,
-      "total": 508,
+      "event_total": 36,
+      "total": 506,
       "team_value": 102,
       "bank": 0.6,
       "captain": "Haaland",
@@ -5298,8 +5298,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 8,
-          "points": 8
+          "event_points": 6,
+          "points": 6
         },
         {
           "element": 427,
@@ -5971,8 +5971,8 @@
       "entry_name": "Long_Darkz",
       "player_name": "Pisanu Wongsaard",
       "rank": 14,
-      "event_total": 39,
-      "total": 467,
+      "event_total": 37,
+      "total": 465,
       "team_value": 101.2,
       "bank": 3.1,
       "captain": "Haaland",
@@ -6205,8 +6205,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 8,
-          "points": 8
+          "event_points": 6,
+          "points": 6
         },
         {
           "element": 279,
@@ -6665,7 +6665,7 @@
           "club": "ARS",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 8,
+          "event_points": 6,
           "points": 0
         },
         {
@@ -6693,8 +6693,8 @@
       "entry_name": "Mr.Art",
       "player_name": "TANAWIN NUTCANAT",
       "rank": 16,
-      "event_total": 43,
-      "total": 413,
+      "event_total": 41,
+      "total": 411,
       "team_value": 103.4,
       "bank": 3,
       "captain": "Haaland",
@@ -7228,8 +7228,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 8,
-          "points": 8
+          "event_points": 6,
+          "points": 6
         },
         {
           "element": 88,
@@ -7935,8 +7935,8 @@
       "entry_name": "Sweetzer's Team",
       "player_name": "Sweetzer level",
       "rank": 18,
-      "event_total": 58,
-      "total": 127,
+      "event_total": 56,
+      "total": 125,
       "team_value": 101.2,
       "bank": 1.1,
       "captain": "João Pedro",
@@ -8015,8 +8015,8 @@
           "club": "ARS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 8,
-          "points": 8
+          "event_points": 6,
+          "points": 6
         },
         {
           "element": 115,
@@ -8181,8 +8181,8 @@
       "owners": 11,
       "captains": 0,
       "tripleCaptains": 0,
-      "event_points": 8,
-      "total_points": 48,
+      "event_points": 6,
+      "total_points": 36,
       "ownedByMe": true
     },
     {
