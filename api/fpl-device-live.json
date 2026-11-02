@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "2/11/2569 20:09:09",
+  "updated_at_th": "3/11/2569 03:11:52",
   "gameweek": 9,
   "team": {
     "name": "Yedtsuna",
@@ -17,14 +17,14 @@
     "leader": {
       "team": "ช่วยใจดีกับลุงหน่อย",
       "manager": "Palm Xavier",
-      "points": 645,
+      "points": 646,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 645,
+        "points": 646,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -55,7 +55,7 @@
       {
         "rank": 4,
         "team": "Runner Up FC",
-        "points": 565,
+        "points": 566,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -67,7 +67,7 @@
       {
         "rank": 5,
         "team": "tamako-",
-        "points": 564,
+        "points": 565,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -79,7 +79,7 @@
       {
         "rank": 6,
         "team": "KC888",
-        "points": 561,
+        "points": 562,
         "captain": "Haaland",
         "chips": [
           "3xc",
@@ -89,7 +89,7 @@
       {
         "rank": 7,
         "team": "JedYubZ_WCC",
-        "points": 546,
+        "points": 547,
         "captain": "N.Jackson",
         "chips": [
           "3xc"
@@ -98,7 +98,7 @@
       {
         "rank": 8,
         "team": "Bombadoo FC.",
-        "points": 538,
+        "points": 540,
         "captain": "Rogers",
         "chips": [
           "bboost",
@@ -177,8 +177,8 @@
       "club": "NEW",
       "owners": 9,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 1,
+      "total_points": 9,
       "owned_by_me": false
     }
   ],
@@ -266,12 +266,12 @@
     },
     {
       "kickoff_time": "2026-11-02T20:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "NEW",
       "away": "EVE",
-      "home_score": null,
-      "away_score": null
+      "home_score": 0,
+      "away_score": 0
     }
   ],
   "strategy": {
