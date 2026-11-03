@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "3/11/2569 05:24:39",
+  "updated_at_th": "3/11/2569 09:34:39",
   "gameweek": 9,
   "team": {
     "name": "Yedtsuna",
@@ -88,22 +88,22 @@
       },
       {
         "rank": 7,
-        "team": "Bombadoo FC.",
-        "points": 548,
-        "captain": "Rogers",
-        "chips": [
-          "bboost",
-          "freehit",
-          "wildcard"
-        ]
-      },
-      {
-        "rank": 8,
         "team": "JedYubZ_WCC",
         "points": 548,
         "captain": "N.Jackson",
         "chips": [
           "3xc"
+        ]
+      },
+      {
+        "rank": 8,
+        "team": "Bombadoo FC.",
+        "points": 547,
+        "captain": "Rogers",
+        "chips": [
+          "bboost",
+          "freehit",
+          "wildcard"
         ]
       }
     ]
