@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rival Ability Lab | GW9 Forecast</title>
+<meta name="description" content="GW9 rival forecast สำหรับ AFC Premier mini-league: กัปตันที่น่าจะเลือก, ตัวที่คาดว่าจะเปลี่ยน, ระดับ action และ threat เทียบกับทีมเรา">
+<style>
+:root{--ink:#10213b;--navy:#172a4b;--paper:#fff9e9;--cream:#fff2cc;--sky:#8bd8ef;--mint:#9ae6b4;--coral:#ff7b6b;--gold:#ffcf5a;--violet:#c9a7ff;--line:#18314e}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,system-ui,sans-serif}
+a{color:inherit}
+.wrap{max-width:1320px;margin:auto;padding:22px}
+.banner{position:relative;overflow:hidden;background:var(--navy);border:4px solid var(--line);box-shadow:8px 8px 0 var(--gold);color:#fff;padding:26px 28px 24px;min-height:185px}
+.banner:before,.banner:after{content:"";position:absolute;width:18px;height:18px;background:var(--sky);box-shadow:22px 0 var(--coral),44px 0 var(--mint),66px 0 var(--gold)}
+.banner:before{right:98px;top:28px}.banner:after{right:54px;bottom:36px}
+.eyebrow{margin:0 0 10px;color:var(--gold);font-size:12px;font-weight:800;letter-spacing:1.2px}
+.banner h1{margin:0;font-size:clamp(27px,5vw,55px);line-height:1}
+.banner p{max-width:720px;margin:16px 0 0;font-size:15px;line-height:1.5;color:#e9f3ff}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:17px}
+.tag{border:2px solid currentColor;padding:6px 9px;background:var(--ink);font-size:12px;font-weight:800}
+.notice{margin:28px 0 20px;border:3px solid var(--line);background:#eaf8fc;padding:13px 15px;font-size:13px;line-height:1.5}
+.notice b{color:#a4372c}
+.section-title{display:flex;justify-content:space-between;align-items:end;gap:20px;margin:30px 0 12px}
+.section-title h2{margin:0;font-size:23px}
+.section-title p{margin:0;font-size:12px;color:#4c5f73}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px}
+.kpi{border:4px solid var(--line);background:#fff;box-shadow:5px 5px 0 var(--c,var(--sky));padding:14px}
+.kpi b{display:block;font-size:30px}.kpi small{font-size:11px;color:#4c5f73;line-height:1.4;display:block;margin-top:3px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.panel{border:4px solid var(--line);background:#fff;padding:14px}
+.panel h3{margin:0 0 10px;font-size:16px}
+.bar{display:grid;grid-template-columns:110px 1fr 34px;align-items:center;gap:8px;margin:7px 0;font-size:12px;font-weight:700}
+.bar i{display:block;height:14px;background:var(--gold);border:2px solid var(--line)}
+.bar.sub i{background:var(--mint)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.filters button{cursor:pointer;border:3px solid var(--line);background:#fff;box-shadow:3px 3px 0 var(--ink);padding:8px 12px;font-size:12px;font-weight:800;color:var(--ink);border-radius:0}
+.filters button[aria-pressed=true]{background:var(--gold)}
+.filters button:active{box-shadow:none;transform:translate(3px,3px)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(285px,1fr));gap:18px}
+.card{border:4px solid var(--line);box-shadow:6px 6px 0 var(--accent);background:#fff;padding:14px;display:flex;flex-direction:column;gap:10px}
+.person{display:flex;gap:12px;align-items:center;border-bottom:2px dashed #a5b4c4;padding-bottom:10px}
+.avatar{width:54px;height:54px;flex:0 0 54px;display:grid;place-items:center;background:var(--accent);border:4px solid var(--line);box-shadow:4px 4px 0 var(--ink);font-weight:900;font-size:16px}
+.person h3{margin:0 0 2px;font-size:16px}.person p{margin:0;font-size:11px;color:#4c5f73}
+.rank{margin-left:auto;align-self:start;background:var(--ink);color:#fff;padding:5px 7px;font-size:12px;font-weight:800}
+.row{font-size:12px;line-height:1.5}.row b{display:block;font-size:10px;letter-spacing:1px;color:#a4372c;margin-bottom:2px}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.chip{border:2px solid var(--line);padding:2px 7px;font-size:11px;font-weight:800;background:var(--cream)}
+.chip.c1{background:var(--gold)}
+.act{font-weight:900;border:2px solid var(--line);padding:3px 8px;font-size:11px;white-space:nowrap}
+.act.a0{background:var(--mint)}.act.a1{background:var(--gold)}.act.a2{background:var(--coral)}
+.meter{height:10px;background:#e3ebf2;border:2px solid var(--line)}.meter i{display:block;height:100%;background:var(--accent)}
+.table-wrap{overflow:auto;border:4px solid var(--line);background:#fff}
+.table{width:100%;border-collapse:collapse;min-width:760px}
+.table th{background:var(--navy);color:#fff;font-size:12px;padding:10px;text-align:left}
+.table td{padding:10px;border-top:2px solid #b6c7d5;font-size:12px}
+.table tr:nth-child(even){background:#f1f8fb}
+.table tr.me{background:var(--cream);font-weight:700}
+.pos{color:#a4372c;font-weight:800}.neg{color:#1d7a4a;font-weight:800}
+.foot{margin:28px 0 2px;font-size:11px;color:#53677a;line-height:1.55}
+#error{display:none;border:3px solid #a4372c;background:#ffe3df;padding:12px;margin-top:20px;font-size:13px}
+@media(max-width:760px){.wrap{padding:14px}.banner{padding:22px 18px;box-shadow:5px 5px 0 var(--gold)}.banner:before,.banner:after{display:none}.two{grid-template-columns:1fr}.section-title{flex-direction:column;align-items:start;gap:5px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<section class="banner">
+  <p class="eyebrow">AFC PREMIER MINI-LEAGUE | SEASON 2026/27 | GAMEWEEK 9</p>
+  <h1>Rival Ability Lab · GW9</h1>
+  <p>ต่อจาก GW8: ใครน่าจะเลือกกัปตันคนไหน ใครมีแนวโน้มปรับทีมก่อน deadline และคู่แข่งคนไหนที่ต้องจับตาเพื่อทวงตำแหน่งผู้นำคืน</p>
+  <div class="meta" id="meta"></div>
+</section>
+<div class="notice"><b>อ่านผลให้ถูก:</b> อันดับและคะแนนมาจาก FPL public standings (GW8) ส่วนกัปตัน, ตัวที่จะเปลี่ยน และ action เป็น <b>conditional shortlist</b> ที่ออกก่อนเริ่ม GW9 ไม่ใช่ความน่าจะเป็นที่ผ่านการสอบเทียบ และไม่ใช่ข้อมูลทางการของ FPL</div>
+<div id="error"></div>
+
+<div class="section-title"><h2>Overview</h2><p>เทียบกับทีมเรา (Yedtsuna)</p></div>
+<section class="kpis" id="kpis"></section>
+
+<div class="section-title"><h2>Consensus</h2><p>นับจากรายชื่อใน forecast ทุกทีม</p></div>
+<section class="two">
+  <div class="panel"><h3>กัปตันที่ถูกคาดว่าจะเลือกมากที่สุด</h3><div id="capBars"></div></div>
+  <div class="panel"><h3>ตัวแทนที่ถูกคาดว่าจะซื้อมากที่สุด</h3><div id="inBars"></div></div>
+</section>
+
+<div class="section-title"><h2>Rival Forecast Cards</h2><p>กรองตามระดับ action ที่คาดว่าจะทำใน GW9</p></div>
+<div class="filters" id="filters" role="group" aria-label="กรอง action">
+  <button data-f="all" aria-pressed="true">ทั้งหมด</button>
+  <button data-f="0" aria-pressed="false">Action 0 (นิ่ง)</button>
+  <button data-f="1" aria-pressed="false">Action 1</button>
+  <button data-f="2+" aria-pressed="false">Action 2+</button>
+</div>
+<section class="grid" id="cards"></section>
+
+<div class="section-title"><h2>Standings + Threat Read</h2><p>Gap = คะแนนต่างจากทีมเรา (+ คือนำเรา)</p></div>
+<div class="table-wrap"><table class="table"><thead><tr>
+<th>#</th><th>ทีม / ผู้จัดการ</th><th>GW8</th><th>รวม</th><th>Gap</th><th>Action</th><th>กัปตันหลัก</th><th>Threat</th>
+</tr></thead><tbody id="rows"></tbody></table></div>
+
+<p class="foot" id="foot"></p>
+</main>
+<script>
+const ME_ID=3944270;
+const COLORS=['#ffcf5a','#8bd8ef','#9ae6b4','#ff9f86','#c9a7ff'];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const initials=n=>{const p=n.replace(/[^\p{L}\p{N} ]/gu,'').trim().split(/\s+/);return (p.length>1?p[0][0]+p[1][0]:n.slice(0,2)).toUpperCase()};
+const actNum=a=>a==='0'?0:a==='1'?1:2;
+let state={teams:[],fc:{},filter:'all'};
+
+function threat(t,me,f){
+  const gap=t.total-me.total;
+  const prox=Math.max(0,100-Math.abs(gap)*1.4);
+  const form=Math.min(100,t.event_total*1.4);
+  const act=f?actNum(f.action)*12:0;
+  return Math.round(Math.min(100,prox*.55+form*.3+act+8));
+}
+function bars(el,map,cls){
+  const arr=[...map.entries()].sort((a,b)=>b[1]-a[1]).slice(0,7);
+  const max=arr[0]?arr[0][1]:1;
+  $(el).innerHTML=arr.map(([k,v])=>`<div class="bar ${cls||''}"><span>${esc(k)}</span><i style="width:${v/max*100}%"></i><span>${v}</span></div>`).join('');
+}
+function render(){
+  const {teams,fc}=state;
+  const me=teams.find(t=>t.entry===ME_ID);
+  const rivals=teams.filter(t=>t.entry!==ME_ID);
+  const withF=rivals.map(t=>({t,f:fc[t.entry]})).map(o=>({...o,th:threat(o.t,me,o.f)}));
+  const leader=teams[0];
+  $('kpis').innerHTML=[
+    ['#'+me.rank,'อันดับทีมเรา (Yedtsuna)','var(--gold)'],
+    [me.total,'คะแนนรวม','var(--sky)'],
+    [(leader.entry===ME_ID?0:leader.total-me.total),'ช่องว่างจากผู้นำ ('+esc(leader.entry_name)+')','var(--coral)'],
+    [withF.filter(o=>o.f&&actNum(o.f.action)>=1).length+'/'+withF.length,'คู่แข่งที่คาดว่าจะแก้ทีมอย่างน้อย 1 ตัว','var(--mint)']
+  ].map(([b,s,c])=>`<div class="kpi" style="--c:${c}"><b>${b}</b><small>${s}</small></div>`).join('');
+
+  const caps=new Map(),ins=new Map();
+  Object.values(fc).forEach(f=>{
+    f.captains.forEach((c,i)=>{if(i===0)caps.set(c,(caps.get(c)||0)+1)});
+    f.replacements.forEach(r=>r.targets.forEach(t=>ins.set(t.name,(ins.get(t.name)||0)+1)));
+  });
+  bars('capBars',caps);bars('inBars',ins,'sub');
+
+  const shown=withF.filter(o=>{if(!o.f)return state.filter==='all';return state.filter==='all'||o.f.action===state.filter});
+  $('cards').innerHTML=shown.map((o,i)=>{
+    const {t,f,th}=o,col=COLORS[i%COLORS.length];
+    if(!f)return `<article class="card" style="--accent:${col}"><div class="person"><div class="avatar">${initials(t.entry_name)}</div><div><h3>${esc(t.entry_name)}</h3><p>${esc(t.player_name)}</p></div><span class="rank">#${t.rank}</span></div><div class="row">ไม่มีข้อมูล forecast</div></article>`;
+    const reps=f.replacements.length?f.replacements.map(r=>`<div><b style="display:inline;color:var(--ink)">${esc(r.out)}</b> → ${r.targets.map(x=>`<span class="chip">${esc(x.name)} £${x.price}</span>`).join(' ')}</div>`).join(''):'<span style="color:#4c5f73">ไม่มีตัวที่คาดว่าจะเปลี่ยน</span>';
+    return `<article class="card" style="--accent:${col}">
+      <div class="person"><div class="avatar">${initials(t.entry_name)}</div><div><h3>${esc(t.entry_name)}</h3><p>${esc(t.player_name)} · รวม ${t.total} · GW8 ${t.event_total}</p></div><span class="rank">#${t.rank}</span></div>
+      <div class="row"><b>ACTION</b><span class="act a${actNum(f.action)}">${esc(f.action)} transfer</span></div>
+      <div class="row"><b>กัปตันที่เป็นไปได้</b><div class="chips">${f.captains.map((c,j)=>`<span class="chip ${j===0?'c1':''}">${esc(c)}</span>`).join('')}</div></div>
+      <div class="row"><b>ตัวที่อาจเปลี่ยน</b>${reps}</div>
+      <div class="row"><b>ชิป</b>${esc(f.chip)}</div>
+      <div class="row"><b>ความมั่นใจ</b>${esc(f.confidence)}</div>
+      <div class="meter" style="--accent:${col}" title="threat ${th}/100"><i style="width:${th}%"></i></div>
+      <div class="row" style="font-size:11px">Threat ${th}/100</div>
+    </article>`}).join('')||'<div class="panel">ไม่มีทีมในตัวกรองนี้</div>';
+
+  $('rows').innerHTML=teams.map(t=>{
+    const f=fc[t.entry],isMe=t.entry===ME_ID,gap=t.total-me.total;
+    const th=isMe?'—':threat(t,me,f)+'/100';
+    return `<tr class="${isMe?'me':''}"><td>#${t.rank}</td><td><b>${esc(t.entry_name)}</b><br><small>${esc(t.player_name)}</small></td><td>${t.event_total}</td><td>${t.total}</td>
+    <td class="${gap>0?'pos':gap<0?'neg':''}">${isMe?'ทีมเรา':(gap>0?'+':'')+gap}</td>
+    <td>${f?`<span class="act a${actNum(f.action)}">${esc(f.action)}</span>`:'—'}</td>
+    <td>${f?esc(f.captains[0]):'—'}</td><td>${th}</td></tr>`}).join('');
+}
+async function init(){
+  try{
+    const [fcj,gj]=await Promise.all([fetch('gw9-rival-forecast-20261026.json').then(r=>r.json()),fetch('mini-league-intel-gw8.json').then(r=>r.json())]);
+    state.teams=[...gj.teams].sort((a,b)=>a.rank-b.rank);
+    fcj.forecasts.forEach(f=>state.fc[f.id]=f);
+    const dl=new Date(fcj.deadline),iss=new Date(fcj.issuedAt);
+    const fmt=d=>d.toLocaleString('th-TH',{dateStyle:'medium',timeStyle:'short',timeZone:'Asia/Bangkok'});
+    $('meta').innerHTML=`<span class="tag">DEADLINE: ${fmt(dl)}</span><span class="tag">FORECAST ISSUED: ${fmt(iss)}</span><span class="tag">STANDINGS: GW${gj.event.id} FINAL</span>`;
+    $('foot').textContent=`แหล่งข้อมูล: FPL public standings (league ${gj.league.id}, ${gj.league.name}) และ gw9-rival-forecast. วิธีการ: ${fcj.method} Threat เป็นคะแนนเชิงกลยุทธ์จากระยะห่างคะแนน ฟอร์ม GW8 และระดับ action ไม่ใช่ความสามารถจริงของบุคคล`;
+    render();
+  }catch(e){
+    const el=$('error');el.style.display='block';el.textContent='โหลดข้อมูลไม่สำเร็จ: เปิดหน้านี้ผ่าน web server (เช่น GitHub Pages หรือ npx serve) ไม่ใช่ file:// — '+e.message;
+  }
+}
+$('filters').addEventListener('click',e=>{
+  const b=e.target.closest('button[data-f]');if(!b)return;
+  state.filter=b.dataset.f;
+  document.querySelectorAll('#filters button').forEach(x=>x.setAttribute('aria-pressed',x===b));
+  render();
+});
+init();
+</script>
+</body>
+</html>

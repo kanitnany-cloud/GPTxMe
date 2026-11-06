@@ -2,8 +2,6 @@ name: Update FPL mini-league data
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '*/30 * * * *'
 
 permissions:
   contents: write
@@ -25,16 +23,19 @@ jobs:
           node-version: '22'
 
       - name: Update FPL data
-        run: node scripts/update-fpl-mini-league.mjs
+        run: |
+          node scripts/update-fpl-mini-league.mjs
+          node scripts/collect-gw9-intel.mjs
+          node scripts/sync-fpl-current.mjs
 
       - name: Commit changed data
         run: |
-          if git diff --quiet -- mini-league/mini-league-intel-gw1.json mini-league/team-summary-gw1.csv mini-league/player-template-gw1.csv api/fpl-device-live.json; then
+          git add index.html api/current-gw.json api/esp32-config.json api/fpl-device-snapshot.json api/fpl-device-live.json api/fpl-device-lite.json mini-league/mini-league-intel-gw9.json mini-league/gw9-intel-evidence.json mini-league/team-summary-gw9.csv mini-league/player-template-gw9.csv mini-league/rival-ability-gw9.html daily-dashboard/daily-dashboard-gw9.html daily-dashboard/daily-dashboard-gw9.json daily-dashboard/top100-template-gw9.csv
+          if git diff --cached --quiet; then
             echo "No FPL data changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add mini-league/mini-league-intel-gw1.json mini-league/team-summary-gw1.csv mini-league/player-template-gw1.csv api/fpl-device-live.json
           git commit -m "Update FPL mini-league data"
           git push

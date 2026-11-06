@@ -1,7 +1,7 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "version": "2026.08.21-esp32-s3",
-  "updated_at_th": "2026-08-21T21:45:00+07:00",
+  "version": "2026.11-gw9",
+  "updated_at_th": "6/11/2569 14:52:44",
   "device_target": {
     "board": "ESP32-S3",
     "display": "3.5 inch TFT",
@@ -22,7 +22,10 @@
     "mini_league": "https://fantasy.premierleague.com/api/leagues-classic/872362/standings/",
     "premier_league_stats": "https://www.premierleague.com/en/stats",
     "premier_league_table": "https://www.premierleague.com/en/tables",
-    "premier_league_fixtures": "https://www.premierleague.com/en/fixtures"
+    "premier_league_fixtures": "https://www.premierleague.com/en/fixtures",
+    "device_live": "https://kanitnany-cloud.github.io/GPTxMe/api/fpl-device-live.json",
+    "device_lite": "https://kanitnany-cloud.github.io/GPTxMe/api/fpl-device-lite.json",
+    "current_dashboard": "https://kanitnany-cloud.github.io/GPTxMe/mini-league/mini-league-intel-gw9.html"
   },
   "screens": [
     {
@@ -30,40 +33,75 @@
       "title": "Live Score",
       "source": "fpl_fixtures",
       "refresh_seconds": 60,
-      "fields": ["kickoff_time", "started", "finished", "team_h", "team_a", "team_h_score", "team_a_score"]
+      "fields": [
+        "kickoff_time",
+        "started",
+        "finished",
+        "team_h",
+        "team_a",
+        "team_h_score",
+        "team_a_score"
+      ]
     },
     {
       "id": "fixtures",
       "title": "Fixtures",
       "source": "fpl_fixtures",
       "refresh_seconds": 3600,
-      "fields": ["event", "kickoff_time", "team_h", "team_a", "difficulty"]
+      "fields": [
+        "event",
+        "kickoff_time",
+        "team_h",
+        "team_a",
+        "difficulty"
+      ]
     },
     {
       "id": "player_stats",
       "title": "Player Stats",
       "source": "fpl_bootstrap_and_premier_league_stats",
       "refresh_seconds": 21600,
-      "fields": ["web_name", "team", "element_type", "total_points", "goals_scored", "assists", "expected_goals", "expected_assists"]
+      "fields": [
+        "web_name",
+        "team",
+        "element_type",
+        "total_points",
+        "goals_scored",
+        "assists",
+        "expected_goals",
+        "expected_assists"
+      ]
     },
     {
       "id": "mini_league",
       "title": "Mini League",
       "source": "mini_league",
       "refresh_seconds": 900,
-      "fields": ["rank", "entry", "entry_name", "player_name", "total"]
+      "fields": [
+        "rank",
+        "entry",
+        "entry_name",
+        "player_name",
+        "total"
+      ]
     },
     {
       "id": "fpl_team",
       "title": "Yedtsuna XI",
       "source": "device_snapshot",
       "refresh_seconds": 3600,
-      "fields": ["starting_xi", "captain", "vice_captain", "bench"]
+      "fields": [
+        "starting_xi",
+        "captain",
+        "vice_captain",
+        "bench"
+      ]
     }
   ],
   "notes": [
     "No paid API key is required for this static config.",
     "ESP32 is not affected by browser CORS, but HTTPS memory/certificate handling must be implemented carefully.",
     "Premier League Stats is included as an official reference page; if machine-readable stats are needed later, add a free local scraper or a no-cost hosted proxy only after approval."
-  ]
+  ],
+  "gameweek": 9
 }

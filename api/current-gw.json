@@ -1,0 +1,22 @@
+{
+  "gameweek": 9,
+  "generatedAt": "2026-11-06T07:52:44.052Z",
+  "status": "final",
+  "files": [
+    "index.html",
+    "mini-league/mini-league-intel-gw9.html",
+    "mini-league/rival-ability-gw9.html",
+    "mini-league/mini-league-intel-gw9.json",
+    "mini-league/gw9-intel-evidence.json",
+    "mini-league/team-summary-gw9.csv",
+    "mini-league/player-template-gw9.csv",
+    "daily-dashboard/daily-dashboard-gw9.html",
+    "daily-dashboard/daily-dashboard-gw9.json",
+    "daily-dashboard/top100-template-gw9.csv",
+    "api/fpl-device-live.json",
+    "api/fpl-device-lite.json",
+    "api/fpl-device-snapshot.json",
+    "api/esp32-config.json"
+  ],
+  "archivePolicy": "GW1–8 and dated forecasts are historical; do not relabel their data."
+}

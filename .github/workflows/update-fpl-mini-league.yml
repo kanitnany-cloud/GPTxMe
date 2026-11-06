@@ -27,19 +27,15 @@ jobs:
       - name: Refresh FPL data
         run: |
           node scripts/update-fpl-mini-league.mjs
-          node scripts/build-fpl-gw5-preview.mjs
-          node scripts/collect-gw8-evidence.mjs
           node scripts/collect-gw9-intel.mjs
-          if [ -f output/gw8-evidence/raw.json ]; then
-            node scripts/build-gw8-recovery.mjs
-          fi
+          node scripts/sync-fpl-current.mjs
 
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add api/fpl-device-live.json api/fpl-device-lite.json mini-league/mini-league-intel-gw*.json mini-league/player-template-gw*.csv mini-league/team-summary-gw*.csv
-          git add mini-league/gw8-recovery-evidence.json
+          git add index.html api/current-gw.json api/esp32-config.json api/fpl-device-snapshot.json daily-dashboard/daily-dashboard-gw9.html daily-dashboard/daily-dashboard-gw9.json daily-dashboard/top100-template-gw9.csv mini-league/rival-ability-gw9.html
           if [ -f mini-league/gw9-intel-evidence.json ]; then
             git add mini-league/gw9-intel-evidence.json
           fi
