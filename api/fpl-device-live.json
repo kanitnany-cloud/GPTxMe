@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "8/11/2569 00:29:09",
+  "updated_at_th": "8/11/2569 04:03:29",
   "gameweek": 10,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 2,
-    "points": 629,
-    "gw_points": 14,
+    "points": 633,
+    "gw_points": 18,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "ช่วยใจดีกับลุงหน่อย",
       "manager": "Palm Xavier",
-      "points": 657,
+      "points": 661,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 657,
+        "points": 661,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -35,7 +35,7 @@
       {
         "rank": 2,
         "team": "Yedtsuna",
-        "points": 629,
+        "points": 633,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -44,7 +44,7 @@
       {
         "rank": 3,
         "team": "GrossProfit United",
-        "points": 613,
+        "points": 615,
         "captain": "Isak",
         "chips": [
           "bboost",
@@ -55,7 +55,7 @@
       {
         "rank": 4,
         "team": "KC888",
-        "points": 605,
+        "points": 609,
         "captain": "Haaland",
         "chips": [
           "3xc",
@@ -65,7 +65,7 @@
       {
         "rank": 5,
         "team": "tamako-",
-        "points": 586,
+        "points": 588,
         "captain": "Isak",
         "chips": [
           "bboost",
@@ -77,7 +77,7 @@
       {
         "rank": 6,
         "team": "Runner Up FC",
-        "points": 579,
+        "points": 583,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -100,7 +100,7 @@
       {
         "rank": 8,
         "team": "JedYubZ_WCC",
-        "points": 568,
+        "points": 572,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -114,8 +114,8 @@
       "club": "MCI",
       "owners": 15,
       "captains": 11,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 2,
+      "total_points": 52,
       "owned_by_me": true
     },
     {
@@ -221,12 +221,12 @@
     },
     {
       "kickoff_time": "2026-11-07T17:30:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "NFO",
       "away": "MCI",
-      "home_score": null,
-      "away_score": null
+      "home_score": 3,
+      "away_score": 1
     },
     {
       "kickoff_time": "2026-11-08T14:00:00Z",

@@ -1,5 +1,5 @@
 player,club,owners,captains,triple_captains,gw_points,total_points,owned_by_me
-Haaland,MCI,15,11,0,0,0,true
+Haaland,MCI,15,11,0,2,52,true
 Groß,BHA,15,0,0,0,0,true
 De Cuyper,BHA,14,0,0,0,0,true
 Rogers,CHE,14,0,0,0,0,true
@@ -28,16 +28,16 @@ Kostoulas,BHA,3,0,0,0,0,false
 McGinn,AVL,3,0,0,0,0,false
 Schade,BRE,3,0,0,0,0,false
 Trafford,LEE,3,0,0,10,0,false
-Cherki,MCI,2,1,0,0,0,true
+Cherki,MCI,2,1,0,9,18,true
 João Pedro,CHE,2,1,0,0,0,false
 Muharemović,LEE,2,0,0,10,20,false
 Barry,EVE,2,0,0,16,16,false
 Ajayi,HUL,2,0,0,6,6,false
 Tarkowski,EVE,2,0,0,2,4,false
+Doku,MCI,2,0,0,2,2,false
 Egan,HUL,2,0,0,2,2,false
 Kinsky,TOT,2,0,0,2,2,false
 Cunha,MUN,2,0,0,0,0,false
-Doku,MCI,2,0,0,0,0,false
 Guéhi,MCI,2,0,0,0,0,false
 Gvardiol,MCI,2,0,0,0,0,false
 Kayode,BRE,2,0,0,0,0,false
@@ -49,6 +49,7 @@ Silva,BOU,2,0,0,0,0,false
 Thiago,BRE,2,0,0,0,0,false
 Ødegaard,ARS,1,0,0,11,11,false
 Justin,LEE,1,0,0,9,9,false
+Gibbs-White,NFO,1,0,0,5,5,false
 Pedro Porro,TOT,1,0,0,5,5,false
 Pickford,EVE,1,0,0,3,3,false
 Dasilva,COV,1,0,0,1,1,false
@@ -60,10 +61,9 @@ Bentley,COV,1,0,0,0,0,false
 Brobbey,SUN,1,0,0,0,0,false
 Cherif,COV,1,0,0,1,0,false
 Diop,IPS,1,0,0,0,0,true
-Donnarumma,MCI,1,0,0,0,0,false
+Donnarumma,MCI,1,0,0,1,0,false
 Furo,BRE,1,0,0,0,0,false
 Gakpo,LIV,1,0,0,0,0,false
-Gibbs-White,NFO,1,0,0,0,0,false
 Hughes,CRY,1,0,0,0,0,false
 J.Angulo,SUN,1,0,0,0,0,false
 Janelt,BRE,1,0,0,0,0,false
@@ -72,8 +72,8 @@ Lammens,MUN,1,0,0,0,0,false
 Mainoo,MUN,1,0,0,0,0,false
 Martinez,CHE,1,0,0,0,0,false
 Mendy,HUL,1,0,0,3,0,false
-Muñoz,NFO,1,0,0,0,0,false
-Murillo,NFO,1,0,0,0,0,false
+Muñoz,NFO,1,0,0,2,0,false
+Murillo,NFO,1,0,0,2,0,false
 Rayan,BOU,1,0,0,0,0,false
 Semenyo,MCI,1,0,0,0,0,false
 Shaw,MUN,1,0,0,0,0,false
