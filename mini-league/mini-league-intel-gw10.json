@@ -70,7 +70,7 @@
     "most_captained": 411,
     "most_vice_captained": 1
   },
-  "generatedAt": "9/11/2569 01:57:22",
+  "generatedAt": "9/11/2569 05:43:41",
   "teams": [
     {
       "entry": 8479135,
@@ -1821,7 +1821,7 @@
           "club": "IPS",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 1,
+          "event_points": -1,
           "points": 0
         },
         {
@@ -6194,7 +6194,7 @@
           "club": "IPS",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 1,
+          "event_points": -1,
           "points": 0
         }
       ]
@@ -7632,8 +7632,8 @@
       "entry_name": "Talens10",
       "player_name": "Talëns Ten",
       "rank": 17,
-      "event_total": 46,
-      "total": 344,
+      "event_total": 44,
+      "total": 342,
       "team_value": 101.3,
       "bank": 0.1,
       "captain": "Haaland",
@@ -8117,8 +8117,8 @@
           "club": "IPS",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 1,
-          "points": 1
+          "event_points": -1,
+          "points": -1
         },
         {
           "element": 4,
@@ -8720,17 +8720,6 @@
       "ownedByMe": false
     },
     {
-      "id": 305,
-      "web_name": "Davis",
-      "team_short": "IPS",
-      "owners": 3,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 1,
-      "total_points": 1,
-      "ownedByMe": false
-    },
-    {
       "id": 94,
       "web_name": "Schade",
       "team_short": "BRE",
@@ -8750,6 +8739,17 @@
       "tripleCaptains": 0,
       "event_points": 10,
       "total_points": 0,
+      "ownedByMe": false
+    },
+    {
+      "id": 305,
+      "web_name": "Davis",
+      "team_short": "IPS",
+      "owners": 3,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": -1,
+      "total_points": -1,
       "ownedByMe": false
     },
     {
