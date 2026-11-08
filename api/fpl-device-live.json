@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "8/11/2569 21:10:14",
+  "updated_at_th": "9/11/2569 01:57:22",
   "gameweek": 10,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 2,
-    "points": 643,
-    "gw_points": 28,
+    "points": 682,
+    "gw_points": 67,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "ช่วยใจดีกับลุงหน่อย",
       "manager": "Palm Xavier",
-      "points": 667,
+      "points": 703,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 667,
+        "points": 703,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -35,7 +35,7 @@
       {
         "rank": 2,
         "team": "Yedtsuna",
-        "points": 643,
+        "points": 682,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -44,7 +44,7 @@
       {
         "rank": 3,
         "team": "GrossProfit United",
-        "points": 621,
+        "points": 654,
         "captain": "Isak",
         "chips": [
           "bboost",
@@ -55,7 +55,7 @@
       {
         "rank": 4,
         "team": "KC888",
-        "points": 614,
+        "points": 630,
         "captain": "Haaland",
         "chips": [
           "3xc",
@@ -65,7 +65,7 @@
       {
         "rank": 5,
         "team": "tamako-",
-        "points": 598,
+        "points": 630,
         "captain": "Isak",
         "chips": [
           "bboost",
@@ -77,7 +77,7 @@
       {
         "rank": 6,
         "team": "Runner Up FC",
-        "points": 593,
+        "points": 625,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -88,22 +88,22 @@
       },
       {
         "rank": 7,
-        "team": "Bombadoo FC.",
-        "points": 584,
-        "captain": "Isak",
+        "team": "RelegationBattle",
+        "points": 617,
+        "captain": "Haaland",
         "chips": [
-          "bboost",
-          "freehit",
-          "wildcard"
+          "bboost"
         ]
       },
       {
         "rank": 8,
-        "team": "JedYubZ_WCC",
-        "points": 576,
-        "captain": "Haaland",
+        "team": "SilverBank",
+        "points": 609,
+        "captain": "Isak",
         "chips": [
-          "3xc"
+          "3xc",
+          "wildcard",
+          "bboost"
         ]
       }
     ]
@@ -123,17 +123,8 @@
       "club": "BHA",
       "owners": 15,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
-      "owned_by_me": true
-    },
-    {
-      "name": "Rogers",
-      "club": "CHE",
-      "owners": 14,
-      "captains": 0,
-      "gw_points": 1,
-      "total_points": 14,
+      "gw_points": 10,
+      "total_points": 120,
       "owned_by_me": true
     },
     {
@@ -141,8 +132,17 @@
       "club": "BHA",
       "owners": 14,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 6,
+      "total_points": 78,
+      "owned_by_me": true
+    },
+    {
+      "name": "Rogers",
+      "club": "CHE",
+      "owners": 14,
+      "captains": 0,
+      "gw_points": 2,
+      "total_points": 28,
       "owned_by_me": true
     },
     {
@@ -159,8 +159,8 @@
       "club": "BOU",
       "owners": 10,
       "captains": 0,
-      "gw_points": 1,
-      "total_points": 10,
+      "gw_points": 3,
+      "total_points": 30,
       "owned_by_me": true
     },
     {
@@ -168,8 +168,8 @@
       "club": "LIV",
       "owners": 9,
       "captains": 4,
-      "gw_points": 1,
-      "total_points": 12,
+      "gw_points": 8,
+      "total_points": 96,
       "owned_by_me": false
     },
     {
@@ -234,7 +234,7 @@
       "finished": false,
       "home": "BHA",
       "away": "BRE",
-      "home_score": 0,
+      "home_score": 2,
       "away_score": 0
     },
     {
@@ -243,8 +243,8 @@
       "finished": false,
       "home": "CRY",
       "away": "LIV",
-      "home_score": 0,
-      "away_score": 0
+      "home_score": 1,
+      "away_score": 3
     },
     {
       "kickoff_time": "2026-11-08T14:00:00Z",
@@ -252,8 +252,8 @@
       "finished": false,
       "home": "IPS",
       "away": "BOU",
-      "home_score": 0,
-      "away_score": 1
+      "home_score": 1,
+      "away_score": 2
     },
     {
       "kickoff_time": "2026-11-08T14:00:00Z",
@@ -261,17 +261,17 @@
       "finished": false,
       "home": "SUN",
       "away": "CHE",
-      "home_score": 0,
+      "home_score": 1,
       "away_score": 0
     },
     {
       "kickoff_time": "2026-11-08T16:30:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "MUN",
       "away": "AVL",
-      "home_score": null,
-      "away_score": null
+      "home_score": 4,
+      "away_score": 4
     }
   ],
   "strategy": {
