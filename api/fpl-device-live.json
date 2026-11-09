@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "9/11/2569 09:24:11",
+  "updated_at_th": "9/11/2569 17:05:59",
   "gameweek": 10,
   "team": {
     "name": "Yedtsuna",
@@ -186,7 +186,7 @@
     {
       "kickoff_time": "2026-11-06T20:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "EVE",
       "away": "COV",
       "home_score": 3,
@@ -195,7 +195,7 @@
     {
       "kickoff_time": "2026-11-07T12:30:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "LEE",
       "away": "TOT",
       "home_score": 1,
@@ -204,7 +204,7 @@
     {
       "kickoff_time": "2026-11-07T15:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "ARS",
       "away": "HUL",
       "home_score": 1,
@@ -213,7 +213,7 @@
     {
       "kickoff_time": "2026-11-07T15:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "FUL",
       "away": "NEW",
       "home_score": 1,
@@ -222,7 +222,7 @@
     {
       "kickoff_time": "2026-11-07T17:30:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "NFO",
       "away": "MCI",
       "home_score": 3,
@@ -231,7 +231,7 @@
     {
       "kickoff_time": "2026-11-08T14:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "BHA",
       "away": "BRE",
       "home_score": 2,
@@ -240,7 +240,7 @@
     {
       "kickoff_time": "2026-11-08T14:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "CRY",
       "away": "LIV",
       "home_score": 1,
@@ -249,7 +249,7 @@
     {
       "kickoff_time": "2026-11-08T14:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "IPS",
       "away": "BOU",
       "home_score": 1,
@@ -258,7 +258,7 @@
     {
       "kickoff_time": "2026-11-08T14:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "SUN",
       "away": "CHE",
       "home_score": 1,
@@ -267,7 +267,7 @@
     {
       "kickoff_time": "2026-11-08T16:30:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "MUN",
       "away": "AVL",
       "home_score": 4,

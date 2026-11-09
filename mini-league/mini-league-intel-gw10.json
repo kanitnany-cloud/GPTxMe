@@ -70,7 +70,7 @@
     "most_captained": 411,
     "most_vice_captained": 1
   },
-  "generatedAt": "9/11/2569 09:24:11",
+  "generatedAt": "9/11/2569 17:05:59",
   "teams": [
     {
       "entry": 8479135,
@@ -4177,15 +4177,6 @@
           "points": 6
         },
         {
-          "element": 8,
-          "web_name": "Calafiori",
-          "club": "ARS",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 6,
-          "points": 6
-        },
-        {
           "element": 31,
           "web_name": "Konsa",
           "club": "ARS",
@@ -4193,6 +4184,15 @@
           "flag": "XI",
           "event_points": 8,
           "points": 8
+        },
+        {
+          "element": 8,
+          "web_name": "Calafiori",
+          "club": "ARS",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 6,
+          "points": 6
         },
         {
           "element": 154,
@@ -4204,9 +4204,9 @@
           "points": 2
         },
         {
-          "element": 13,
-          "web_name": "Rice",
-          "club": "ARS",
+          "element": 68,
+          "web_name": "Tavernier",
+          "club": "BOU",
           "multiplier": 1,
           "flag": "XI",
           "event_points": 3,
@@ -4222,9 +4222,18 @@
           "points": 2
         },
         {
-          "element": 68,
-          "web_name": "Tavernier",
-          "club": "BOU",
+          "element": 13,
+          "web_name": "Rice",
+          "club": "ARS",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 3,
+          "points": 3
+        },
+        {
+          "element": 367,
+          "web_name": "Gakpo",
+          "club": "LIV",
           "multiplier": 1,
           "flag": "XI",
           "event_points": 3,
@@ -4240,15 +4249,6 @@
           "points": 16
         },
         {
-          "element": 165,
-          "web_name": "João Pedro",
-          "club": "CHE",
-          "multiplier": 1,
-          "flag": "XI",
-          "event_points": 0,
-          "points": 0
-        },
-        {
           "element": 109,
           "web_name": "Verbruggen",
           "club": "BHA",
@@ -4258,12 +4258,12 @@
           "points": 0
         },
         {
-          "element": 367,
-          "web_name": "Gakpo",
-          "club": "LIV",
+          "element": 165,
+          "web_name": "João Pedro",
+          "club": "CHE",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 3,
+          "event_points": 0,
           "points": 0
         },
         {
@@ -9061,6 +9061,17 @@
       "ownedByMe": false
     },
     {
+      "id": 367,
+      "web_name": "Gakpo",
+      "team_short": "LIV",
+      "owners": 1,
+      "captains": 0,
+      "tripleCaptains": 0,
+      "event_points": 3,
+      "total_points": 3,
+      "ownedByMe": false
+    },
+    {
       "id": 226,
       "web_name": "Pickford",
       "team_short": "EVE",
@@ -9200,17 +9211,6 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 0,
-      "total_points": 0,
-      "ownedByMe": false
-    },
-    {
-      "id": 367,
-      "web_name": "Gakpo",
-      "team_short": "LIV",
-      "owners": 1,
-      "captains": 0,
-      "tripleCaptains": 0,
-      "event_points": 3,
       "total_points": 0,
       "ownedByMe": false
     },
@@ -9362,7 +9362,7 @@
     {
       "kickoff_time": "2026-11-06T20:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "EVE",
       "away": "COV",
       "home_score": 3,
@@ -9371,7 +9371,7 @@
     {
       "kickoff_time": "2026-11-07T12:30:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "LEE",
       "away": "TOT",
       "home_score": 1,
@@ -9380,7 +9380,7 @@
     {
       "kickoff_time": "2026-11-07T15:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "ARS",
       "away": "HUL",
       "home_score": 1,
@@ -9389,7 +9389,7 @@
     {
       "kickoff_time": "2026-11-07T15:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "FUL",
       "away": "NEW",
       "home_score": 1,
@@ -9398,7 +9398,7 @@
     {
       "kickoff_time": "2026-11-07T17:30:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "NFO",
       "away": "MCI",
       "home_score": 3,
@@ -9407,7 +9407,7 @@
     {
       "kickoff_time": "2026-11-08T14:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "BHA",
       "away": "BRE",
       "home_score": 2,
@@ -9416,7 +9416,7 @@
     {
       "kickoff_time": "2026-11-08T14:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "CRY",
       "away": "LIV",
       "home_score": 1,
@@ -9425,7 +9425,7 @@
     {
       "kickoff_time": "2026-11-08T14:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "IPS",
       "away": "BOU",
       "home_score": 1,
@@ -9434,7 +9434,7 @@
     {
       "kickoff_time": "2026-11-08T14:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "SUN",
       "away": "CHE",
       "home_score": 1,
@@ -9443,7 +9443,7 @@
     {
       "kickoff_time": "2026-11-08T16:30:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "MUN",
       "away": "AVL",
       "home_score": 4,
