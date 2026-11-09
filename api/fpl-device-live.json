@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "9/11/2569 17:05:59",
+  "updated_at_th": "10/11/2569 03:57:05",
   "gameweek": 10,
   "team": {
     "name": "Yedtsuna",
@@ -17,14 +17,14 @@
     "leader": {
       "team": "ช่วยใจดีกับลุงหน่อย",
       "manager": "Palm Xavier",
-      "points": 703,
+      "points": 709,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 703,
+        "points": 709,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -54,16 +54,6 @@
       },
       {
         "rank": 4,
-        "team": "KC888",
-        "points": 630,
-        "captain": "Haaland",
-        "chips": [
-          "3xc",
-          "wildcard"
-        ]
-      },
-      {
-        "rank": 5,
         "team": "tamako-",
         "points": 630,
         "captain": "Isak",
@@ -72,6 +62,16 @@
           "freehit",
           "wildcard",
           "3xc"
+        ]
+      },
+      {
+        "rank": 5,
+        "team": "KC888",
+        "points": 629,
+        "captain": "Haaland",
+        "chips": [
+          "3xc",
+          "wildcard"
         ]
       },
       {
@@ -97,13 +97,13 @@
       },
       {
         "rank": 8,
-        "team": "SilverBank",
-        "points": 609,
+        "team": "Bombadoo FC.",
+        "points": 610,
         "captain": "Isak",
         "chips": [
-          "3xc",
-          "wildcard",
-          "bboost"
+          "bboost",
+          "freehit",
+          "wildcard"
         ]
       }
     ]
@@ -124,7 +124,7 @@
       "owners": 15,
       "captains": 0,
       "gw_points": 10,
-      "total_points": 120,
+      "total_points": 130,
       "owned_by_me": true
     },
     {
@@ -151,7 +151,7 @@
       "owners": 11,
       "captains": 0,
       "gw_points": 6,
-      "total_points": 54,
+      "total_points": 60,
       "owned_by_me": true
     },
     {

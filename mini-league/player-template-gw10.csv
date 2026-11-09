@@ -1,14 +1,14 @@
 player,club,owners,captains,triple_captains,gw_points,total_points,owned_by_me
 Haaland,MCI,15,11,0,2,52,true
-Groß,BHA,15,0,0,10,120,true
+Groß,BHA,15,0,0,10,130,true
 De Cuyper,BHA,14,0,0,6,78,true
 Rogers,CHE,14,0,0,2,28,true
-Calafiori,ARS,11,0,0,6,54,true
+Calafiori,ARS,11,0,0,6,60,true
 Tavernier,BOU,10,0,0,3,30,true
 Isak,LIV,9,4,0,8,96,false
 Raya,ARS,9,0,0,6,54,false
 N.Jackson,AVL,8,0,0,11,77,true
-Verbruggen,BHA,8,0,0,6,30,true
+Verbruggen,BHA,8,0,0,6,42,true
 Van Hecke,TOT,7,0,0,4,28,false
 Hall,NEW,7,0,0,4,20,false
 Evanilson,BOU,6,1,0,9,63,true
@@ -23,11 +23,11 @@ Belloumi,HUL,4,0,0,0,0,false
 Dubravka,TOT,4,0,0,0,0,true
 McGinn,AVL,3,0,0,10,30,false
 Tzolakis,HUL,3,0,0,6,6,false
+Calvert-Lewin,LEE,3,0,0,2,4,false
 Kostoulas,BHA,3,0,0,2,4,false
-Calvert-Lewin,LEE,3,0,0,2,2,false
 Schade,BRE,3,0,0,1,1,false
 Trafford,LEE,3,0,0,10,0,false
-Davis,IPS,3,0,0,-1,-1,false
+Davis,IPS,3,0,0,-1,-2,false
 Cherki,MCI,2,1,0,9,18,true
 João Pedro,CHE,2,1,0,0,0,false
 Muharemović,LEE,2,0,0,10,20,false
