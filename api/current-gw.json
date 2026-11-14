@@ -1,22 +1,22 @@
 {
-  "gameweek": 9,
-  "generatedAt": "2026-11-06T11:51:25.644Z",
+  "gameweek": 10,
+  "generatedAt": "2026-11-14T09:13:49.555Z",
   "status": "final",
   "files": [
     "index.html",
-    "mini-league/mini-league-intel-gw9.html",
-    "mini-league/rival-ability-gw9.html",
-    "mini-league/mini-league-intel-gw9.json",
-    "mini-league/gw9-intel-evidence.json",
-    "mini-league/team-summary-gw9.csv",
-    "mini-league/player-template-gw9.csv",
-    "daily-dashboard/daily-dashboard-gw9.html",
-    "daily-dashboard/daily-dashboard-gw9.json",
-    "daily-dashboard/top100-template-gw9.csv",
+    "mini-league/mini-league-intel-gw10.html",
+    "mini-league/rival-ability-gw10.html",
+    "mini-league/mini-league-intel-gw10.json",
+    "mini-league/gw10-intel-evidence.json",
+    "mini-league/team-summary-gw10.csv",
+    "mini-league/player-template-gw10.csv",
+    "daily-dashboard/daily-dashboard-gw10.html",
+    "daily-dashboard/daily-dashboard-gw10.json",
+    "daily-dashboard/top100-template-gw10.csv",
     "api/fpl-device-live.json",
     "api/fpl-device-lite.json",
     "api/fpl-device-snapshot.json",
     "api/esp32-config.json"
   ],
-  "archivePolicy": "GW1–8 and dated forecasts are historical; do not relabel their data."
+  "archivePolicy": "Earlier gameweeks and dated forecasts are historical; do not relabel their data."
 }

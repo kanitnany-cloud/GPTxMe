@@ -313,9 +313,9 @@ async function main() {
     })),
     fixtures: fplFixtures,
     strategy: {
-      mode: 'confidence-first',
-      safe: 'Block high EO captain threats first.',
-      attack: 'Use differential only when minutes and fixture are strong.',
+      mode: 'review-required',
+      safe: 'Verify minutes, news, selling prices and free transfers before acting.',
+      attack: 'Compare projected points over four fixtures and rival exposure; no new transfer recommendation is published.',
     },
   };
 
@@ -356,29 +356,7 @@ async function main() {
       o: player.owners,
       p: player.total_points,
     })),
-    scout: [
-      {
-        n: 'Calafiori',
-        c: 'ARS',
-        tag: 'BLOCK',
-        conf: 82,
-        why: 'High mini ownership. Protect rank.',
-      },
-      {
-        n: 'Szoboszlai',
-        c: 'LIV',
-        tag: 'WATCH',
-        conf: 72,
-        why: 'Template threat. Buy only if role holds.',
-      },
-      {
-        n: 'De Cuyper',
-        c: 'BHA',
-        tag: 'HOLD',
-        conf: 76,
-        why: 'Good start, avoid knee-jerk sale.',
-      },
-    ],
+    scout: [], // Publish recommendations only after a current evidence-backed review.
   };
 
   await writeFile(`${OUT_DIR}/mini-league-intel-gw${event.id}.json`, JSON.stringify(json, null, 2), 'utf8');

@@ -2,7 +2,7 @@
 
 8-bit Fantasy Premier League dashboard for tracking the weekly decision process between Kanitnan and AI.
 
-Open the [current dashboard](https://kanitnany-cloud.github.io/GPTxMe/) or the [GW9 results and GW10 plan](https://kanitnany-cloud.github.io/GPTxMe/mini-league/mini-league-intel-gw9.html#plan). The [active file manifest](api/current-gw.json) lists the current web, CSV and device outputs. Earlier numbered files preserve their historical snapshots.
+Open the [current dashboard](https://kanitnany-cloud.github.io/GPTxMe/) or the [latest results and upcoming fixtures](https://kanitnany-cloud.github.io/GPTxMe/). The [active file manifest](api/current-gw.json) lists the current web, CSV and device outputs. Earlier numbered files preserve their historical snapshots.
 
 ## What This Tracks
 

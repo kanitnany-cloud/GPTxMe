@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "14/11/2569 15:39:29",
+  "updated_at_th": "14/11/2569 16:16:11",
   "gameweek": 10,
   "team": {
     "name": "Yedtsuna",
@@ -275,8 +275,8 @@
     }
   ],
   "strategy": {
-    "mode": "confidence-first",
-    "safe": "Block high EO captain threats first.",
-    "attack": "Use differential only when minutes and fixture are strong."
+    "mode": "review-required",
+    "safe": "Verify minutes, news, selling prices and free transfers before acting.",
+    "attack": "Compare projected points over four fixtures and rival exposure; no new transfer recommendation is published."
   }
 }

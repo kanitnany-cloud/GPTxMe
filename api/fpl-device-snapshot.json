@@ -1,18 +1,18 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "2026-11-06T18:51:25.644+07:00",
-  "generated_at": "2026-11-06T11:51:25.644Z",
-  "gameweek": 9,
-  "deadline_th": "2026-10-31T18:00:00.000+07:00",
-  "deadline_utc": "2026-10-31T11:00:00Z",
+  "updated_at_th": "2026-11-14T16:13:49.555+07:00",
+  "generated_at": "2026-11-14T09:13:49.555Z",
+  "gameweek": 10,
+  "deadline_th": "2026-11-07T01:30:00.000+07:00",
+  "deadline_utc": "2026-11-06T18:30:00Z",
   "status": "final",
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 2,
-    "points": 615,
-    "gw_points": 48,
-    "money_in_bank": "£3.7m",
+    "points": 682,
+    "gw_points": 67,
+    "money_in_bank": "£0.4m",
     "confidence": null,
     "risk_level": "not_assessed"
   },
@@ -21,15 +21,15 @@
     {
       "name": "Verbruggen",
       "club": "Brighton",
-      "fixture": "MCI (A)",
+      "fixture": "BRE (H)",
       "kit": null,
       "captain": false,
       "vice_captain": false
     },
     {
-      "name": "Bogle",
-      "club": "Leeds",
-      "fixture": "BOU (A)",
+      "name": "Gabriel",
+      "club": "Arsenal",
+      "fixture": "HUL (H)",
       "kit": null,
       "captain": false,
       "vice_captain": false
@@ -37,23 +37,23 @@
     {
       "name": "Calafiori",
       "club": "Arsenal",
-      "fixture": "LIV (A)",
+      "fixture": "HUL (H)",
       "kit": null,
       "captain": false,
       "vice_captain": false
     },
     {
-      "name": "Gvardiol",
-      "club": "Man City",
-      "fixture": "BHA (H)",
+      "name": "De Cuyper",
+      "club": "Brighton",
+      "fixture": "BRE (H)",
       "kit": null,
       "captain": false,
       "vice_captain": false
     },
     {
-      "name": "Mbeumo",
-      "club": "Man Utd",
-      "fixture": "CHE (A)",
+      "name": "Groß",
+      "club": "Brighton",
+      "fixture": "BRE (H)",
       "kit": null,
       "captain": false,
       "vice_captain": false
@@ -61,7 +61,7 @@
     {
       "name": "Tavernier",
       "club": "Bournemouth",
-      "fixture": "LEE (H)",
+      "fixture": "IPS (A)",
       "kit": null,
       "captain": false,
       "vice_captain": false
@@ -69,15 +69,15 @@
     {
       "name": "Rogers",
       "club": "Chelsea",
-      "fixture": "MUN (H)",
+      "fixture": "SUN (A)",
       "kit": null,
       "captain": false,
       "vice_captain": false
     },
     {
-      "name": "Cherki",
-      "club": "Man City",
-      "fixture": "BHA (H)",
+      "name": "Mbeumo",
+      "club": "Man Utd",
+      "fixture": "AVL (H)",
       "kit": null,
       "captain": false,
       "vice_captain": false
@@ -85,7 +85,7 @@
     {
       "name": "Haaland",
       "club": "Man City",
-      "fixture": "BHA (H)",
+      "fixture": "NFO (A)",
       "kit": null,
       "captain": true,
       "vice_captain": false
@@ -93,15 +93,15 @@
     {
       "name": "Evanilson",
       "club": "Bournemouth",
-      "fixture": "LEE (H)",
+      "fixture": "IPS (A)",
       "kit": null,
       "captain": false,
       "vice_captain": true
     },
     {
-      "name": "Wissa",
-      "club": "Newcastle",
-      "fixture": "EVE (H)",
+      "name": "N.Jackson",
+      "club": "Aston Villa",
+      "fixture": "MUN (A)",
       "kit": null,
       "captain": false,
       "vice_captain": false
@@ -109,8 +109,8 @@
   ],
   "bench": [
     "Dubravka",
-    "Groß",
-    "De Cuyper",
+    "Cherki",
+    "Bogle",
     "Diop"
   ],
   "captain": "Haaland",
@@ -121,14 +121,14 @@
     "leader": {
       "team": "ช่วยใจดีกับลุงหน่อย",
       "manager": "Palm Xavier",
-      "points": 647,
+      "points": 709,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 647,
+        "points": 709,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -139,7 +139,7 @@
       {
         "rank": 2,
         "team": "Yedtsuna",
-        "points": 615,
+        "points": 682,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -148,8 +148,8 @@
       {
         "rank": 3,
         "team": "GrossProfit United",
-        "points": 595,
-        "captain": "Haaland",
+        "points": 654,
+        "captain": "Isak",
         "chips": [
           "bboost",
           "wildcard",
@@ -158,31 +158,9 @@
       },
       {
         "rank": 4,
-        "team": "KC888",
-        "points": 573,
-        "captain": "Haaland",
-        "chips": [
-          "3xc",
-          "wildcard"
-        ]
-      },
-      {
-        "rank": 5,
-        "team": "Runner Up FC",
-        "points": 567,
-        "captain": "Haaland",
-        "chips": [
-          "bboost",
-          "3xc",
-          "freehit",
-          "wildcard"
-        ]
-      },
-      {
-        "rank": 6,
         "team": "tamako-",
-        "points": 566,
-        "captain": "Haaland",
+        "points": 630,
+        "captain": "Isak",
         "chips": [
           "bboost",
           "freehit",
@@ -191,19 +169,41 @@
         ]
       },
       {
-        "rank": 7,
-        "team": "JedYubZ_WCC",
-        "points": 554,
-        "captain": "N.Jackson",
+        "rank": 5,
+        "team": "KC888",
+        "points": 629,
+        "captain": "Haaland",
         "chips": [
-          "3xc"
+          "3xc",
+          "wildcard"
+        ]
+      },
+      {
+        "rank": 6,
+        "team": "Runner Up FC",
+        "points": 625,
+        "captain": "Haaland",
+        "chips": [
+          "bboost",
+          "3xc",
+          "freehit",
+          "wildcard"
+        ]
+      },
+      {
+        "rank": 7,
+        "team": "RelegationBattle",
+        "points": 617,
+        "captain": "Haaland",
+        "chips": [
+          "bboost"
         ]
       },
       {
         "rank": 8,
         "team": "Bombadoo FC.",
-        "points": 549,
-        "captain": "Rogers",
+        "points": 610,
+        "captain": "Isak",
         "chips": [
           "bboost",
           "freehit",
@@ -213,9 +213,9 @@
     ]
   },
   "strategy": {
-    "mode": "confidence-first",
-    "safe": "Block high EO captain threats first.",
-    "attack": "Use differential only when minutes and fixture are strong."
+    "mode": "review-required",
+    "safe": "Verify minutes, news, selling prices and free transfers before acting.",
+    "attack": "Compare projected points over four fixtures and rival exposure; no new transfer recommendation is published."
   },
   "notes": [
     "Public deadline picks; not a claim about unpublished transfers.",

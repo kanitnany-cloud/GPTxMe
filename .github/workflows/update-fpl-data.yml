@@ -25,12 +25,12 @@ jobs:
       - name: Update FPL data
         run: |
           node scripts/update-fpl-mini-league.mjs
-          node scripts/collect-gw9-intel.mjs
+          node scripts/collect-current-intel.mjs
           node scripts/sync-fpl-current.mjs
 
       - name: Commit changed data
         run: |
-          git add index.html api/current-gw.json api/esp32-config.json api/fpl-device-snapshot.json api/fpl-device-live.json api/fpl-device-lite.json mini-league/mini-league-intel-gw9.json mini-league/gw9-intel-evidence.json mini-league/team-summary-gw9.csv mini-league/player-template-gw9.csv mini-league/rival-ability-gw9.html daily-dashboard/daily-dashboard-gw9.html daily-dashboard/daily-dashboard-gw9.json daily-dashboard/top100-template-gw9.csv
+          git add index.html api/*.json mini-league/*.html mini-league/*.json mini-league/*.csv daily-dashboard/*.html daily-dashboard/*.json daily-dashboard/*.csv
           if git diff --cached --quiet; then
             echo "No FPL data changes"
             exit 0
