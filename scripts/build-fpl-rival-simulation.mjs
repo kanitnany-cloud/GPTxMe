@@ -28,7 +28,12 @@ async function main() {
   const next = bootstrap.events.find((e) => e.id > current.id && !e.finished) || current;
   const clubs = new Map(bootstrap.teams.map((x) => [x.id, x]));
   const players = new Map(bootstrap.elements.map((x) => [x.id, x]));
-  const rows = (league.standings?.results || []).slice(0, 10);
+  const rows = [...(league.standings?.results || [])];
+  for (let page = 2; league.standings?.has_next && page <= 20; page += 1) {
+    const extra = await get(`${API}/leagues-classic/${LEAGUE_ID}/standings/?page_standings=${page}&page_new_entries=1`);
+    rows.push(...(extra.standings?.results || []));
+    if (!extra.standings?.has_next) break;
+  }
 
   const rivals = await mapLimit(rows, 4, async (row) => {
     const [history, transfers, currentPicks] = await Promise.all([
