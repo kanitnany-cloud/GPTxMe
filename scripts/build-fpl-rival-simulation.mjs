@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, writeFile, readFile } from 'node:fs/promises';
 
 const LEAGUE_ID = 872362;
 const MY_ENTRY = 3944270;
@@ -19,6 +19,8 @@ const avg = (xs) => xs.length ? xs.reduce((a, b) => a + b, 0) / xs.length : 0;
 const pct = (n, d) => d ? Math.round((n / d) * 100) : 0;
 
 async function main() {
+  let previous = null;
+  try { previous = JSON.parse(await readFile(OUT, 'utf8')); } catch {}
   const [bootstrap, fixtures, league] = await Promise.all([
     get(`${API}/bootstrap-static/`), get(`${API}/fixtures/`), get(`${API}/leagues-classic/${LEAGUE_ID}/standings/?page_standings=1&page_new_entries=1`),
   ]);
@@ -70,12 +72,25 @@ async function main() {
       captainConfidence: cap?.is_captain ? 'last_revealed' : 'unknown',
       reason: hasInjury ? `มีผู้เล่น status ไม่พร้อม ${hasInjury} คน` : `อัตราใช้ FT จากอดีต ${profile.transferRate}%`,
     };
+    const old = previous?.rivals?.find((x) => x.entry === row.entry);
+    const actualMoves = Number(currentPicks.entry_history?.event_transfers ?? 0);
+    const actualCaptain = cap ? players.get(cap.element)?.web_name : null;
+    const priorForecast = old?.simulated;
+    const forecastVsActual = previous?.nextEvent === current.id && priorForecast ? [{
+      targetEvent: current.id,
+      predictedAction: priorForecast.action,
+      actualAction: actualMoves > 0 ? 'likely_transfer' : 'likely_roll',
+      actionCorrect: priorForecast.action === (actualMoves > 0 ? 'likely_transfer' : 'likely_roll'),
+      predictedCaptain: old.current?.captain || null,
+      actualCaptain,
+      captainCorrect: old.current?.captain === actualCaptain,
+    }] : (old?.learning?.forecastVsActual || []);
     return {
       entry: row.entry, rank: row.rank, name: row.player_name, team: row.entry_name, total: row.total,
       current: { event: current.id, points: currentPicks.entry_history?.points ?? null, captain: cap ? players.get(cap.element)?.web_name : null, captainMultiplier: cap?.multiplier ?? 1, picks: picks.map((x) => ({ name: players.get(x.element)?.web_name, club: clubs.get(players.get(x.element)?.team)?.short_name, flag: x.is_captain ? 'C' : x.is_vice_captain ? 'VC' : x.multiplier ? 'XI' : 'B' })) },
       history: currentHistory.map((x) => ({ event: x.event, points: x.points, rank: x.rank, transfers: x.event_transfers, hit: x.event_transfers_cost, bench: x.points_on_bench })),
       transfers: (transfers || []).map((x) => ({ event: x.event, out: players.get(x.element_out)?.web_name, in: players.get(x.element_in)?.web_name, time: x.time })),
-      chips: history.chips || [], profile, simulated, learning: { forecastVsActual: [], modelVersion: 'v1.0' },
+      chips: history.chips || [], profile, simulated, learning: { forecastVsActual, modelVersion: 'v1.0' },
     };
   });
   const generatedAt = new Date().toLocaleString('th-TH', { timeZone: 'Asia/Bangkok', hour12: false });
