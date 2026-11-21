@@ -28,6 +28,11 @@ async function main() {
   const next = bootstrap.events.find((e) => e.id > current.id && !e.finished) || current;
   const clubs = new Map(bootstrap.teams.map((x) => [x.id, x]));
   const players = new Map(bootstrap.elements.map((x) => [x.id, x]));
+  const fixtureByTeam = new Map();
+  for (const fx of fixtures.filter((x) => x.event === next.id)) {
+    fixtureByTeam.set(fx.team_h, { opponent: fx.team_a, home: true, difficulty: fx.team_h_difficulty ?? 3 });
+    fixtureByTeam.set(fx.team_a, { opponent: fx.team_h, home: false, difficulty: fx.team_a_difficulty ?? 3 });
+  }
   const rows = [...(league.standings?.results || [])];
   for (let page = 2; league.standings?.has_next && page <= 20; page += 1) {
     const extra = await get(`${API}/leagues-classic/${LEAGUE_ID}/standings/?page_standings=${page}&page_new_entries=1`);
@@ -55,13 +60,39 @@ async function main() {
     const avgMoves = avg(gwWithMoves);
     const action = current.id >= next.id ? 'awaiting_next_gw' : 'observe';
     const hasInjury = picks.filter((x) => players.get(x.element)?.status !== 'a').length;
-    const candidatePool = [...players.values()]
-      .filter((p) => !p.id || !p.web_name || p.status === 'u')
-      .sort((a, b) => Number(b.form || 0) - Number(a.form || 0));
     const owned = new Set(picks.map((x) => x.element));
-    const candidates = [...players.values()].filter((p) => !owned.has(p.id) && p.status === 'a')
-      .sort((a, b) => (Number(b.form || 0) + Number(b.transfers_in_event || 0) / 100000) - (Number(a.form || 0) + Number(a.transfers_in_event || 0) / 100000))
-      .slice(0, 5).map((p) => ({ player: p.web_name, club: clubs.get(p.team)?.short_name, price: p.now_cost / 10, form: Number(p.form || 0), globalOwner: Number(p.selected_by_percent || 0) }));
+    const bank = Number(currentPicks.entry_history?.bank ?? 0) / 10;
+    const clubCounts = new Map(picks.map((x) => players.get(x.element)?.team).filter(Boolean).map((club) => [club, picks.filter((x) => players.get(x.element)?.team === club).length]));
+    const candidates = [];
+    for (const outgoingPick of picks.filter((x) => x.multiplier > 0 || x.position > 11)) {
+      const outgoing = players.get(outgoingPick.element);
+      if (!outgoing) continue;
+      if (outgoingPick.is_captain) continue;
+      const maxPrice = bank + outgoing.now_cost / 10;
+      for (const incoming of players.values()) {
+        if (incoming.status !== 'a' || owned.has(incoming.id) || incoming.element_type !== outgoing.element_type || incoming.now_cost / 10 > maxPrice) continue;
+        if ((clubCounts.get(incoming.team) || 0) >= 3 && incoming.team !== outgoing.team) continue;
+        const fx = fixtureByTeam.get(incoming.team);
+        const fixtureScore = fx ? (5 - Number(fx.difficulty)) * 1.4 + (fx.home ? 0.5 : 0) : 0;
+        const incomingForm = Number(incoming.form || 0);
+        const outgoingForm = Number(outgoing.form || 0);
+        const upgrade = incomingForm - outgoingForm;
+        const benchBonus = outgoingPick.multiplier === 0 ? 1.2 : 0;
+        const score = incomingForm * 1.7 + fixtureScore + Number(incoming.selected_by_percent || 0) * 0.05 + Number(incoming.transfers_in_event || 0) / 300000 + upgrade * 1.8 + benchBonus;
+        candidates.push({ out: outgoing.web_name, in: incoming.web_name, outPrice: outgoing.now_cost / 10, inPrice: incoming.now_cost / 10, club: clubs.get(incoming.team)?.short_name, position: incoming.element_type, form: incomingForm, outgoingForm, upgrade: Number(upgrade.toFixed(1)), globalOwner: Number(incoming.selected_by_percent || 0), fixture: fx ? `${clubs.get(incoming.team)?.short_name} ${fx.home ? 'H' : 'A'} v ${clubs.get(fx.opponent)?.short_name}` : 'ไม่มี fixture', score: Number(score.toFixed(2)), threat: Number(incoming.selected_by_percent || 0) >= 20 });
+      }
+    }
+    candidates.sort((a, b) => b.score - a.score);
+    const uniqueCandidates = candidates.filter((x, i, all) => all.findIndex((y) => y.in === x.in) === i);
+    const bestUpgrades = uniqueCandidates.filter((x) => x.upgrade > 0 || (x.outPrice <= bank + 4.5 && x.outgoingForm < 3)).slice(0, 6);
+    const threatTargets = candidates.filter((x) => x.threat && (x.upgrade >= 0 || x.outgoingForm < 3) && !bestUpgrades.some((y) => y.in === x.in)).slice(0, 3);
+    const legalCandidates = [...bestUpgrades, ...threatTargets].slice(0, 8);
+    const blockedTargets = [...players.values()].filter((incoming) => incoming.status === 'a' && !owned.has(incoming.id) && Number(incoming.selected_by_percent || 0) >= 20).map((incoming) => {
+      const possibleOut = picks.filter((x) => !x.is_captain && players.get(x.element)?.element_type === incoming.element_type).sort((a, b) => (players.get(b.element)?.now_cost || 0) - (players.get(a.element)?.now_cost || 0))[0];
+      const outgoing = possibleOut ? players.get(possibleOut.element) : null;
+      const maxPrice = outgoing ? bank + outgoing.now_cost / 10 : bank;
+      return outgoing && incoming.now_cost / 10 > maxPrice ? { in: incoming.web_name, position: incoming.element_type, price: incoming.now_cost / 10, maxPrice: Number(maxPrice.toFixed(1)), out: outgoing.web_name, globalOwner: Number(incoming.selected_by_percent || 0), reason: 'ราคาเกินงบของ transfer เดียว' } : null;
+    }).filter(Boolean).slice(0, 5);
     const transferPressure = Math.min(100, Math.round(avgMoves * 28 + hasInjury * 14 + (recent.at(-1)?.points < 50 ? 18 : 0)));
     const profile = {
       transferRate: pct(gwWithMoves.filter((n) => n > 0).length, Math.max(1, currentHistory.length)),
@@ -73,7 +104,7 @@ async function main() {
     const simulated = {
       action: profile.transferRate >= 60 || transferPressure >= 55 ? 'likely_transfer' : 'likely_roll',
       confidence: profile.sampleGWs >= 6 ? (transferPressure >= 55 ? 'medium' : 'low') : 'low',
-      transferPressure, candidates, captain: cap ? players.get(cap.element)?.web_name : null,
+      transferPressure, candidates: legalCandidates, blockedTargets, captain: cap ? players.get(cap.element)?.web_name : null,
       captainConfidence: cap?.is_captain ? 'last_revealed' : 'unknown',
       reason: hasInjury ? `มีผู้เล่น status ไม่พร้อม ${hasInjury} คน` : `อัตราใช้ FT จากอดีต ${profile.transferRate}%`,
     };
@@ -95,11 +126,11 @@ async function main() {
       current: { event: current.id, points: currentPicks.entry_history?.points ?? null, captain: cap ? players.get(cap.element)?.web_name : null, captainMultiplier: cap?.multiplier ?? 1, picks: picks.map((x) => ({ name: players.get(x.element)?.web_name, club: clubs.get(players.get(x.element)?.team)?.short_name, flag: x.is_captain ? 'C' : x.is_vice_captain ? 'VC' : x.multiplier ? 'XI' : 'B' })) },
       history: currentHistory.map((x) => ({ event: x.event, points: x.points, rank: x.rank, transfers: x.event_transfers, hit: x.event_transfers_cost, bench: x.points_on_bench })),
       transfers: (transfers || []).map((x) => ({ event: x.event, out: players.get(x.element_out)?.web_name, in: players.get(x.element_in)?.web_name, time: x.time })),
-      chips: history.chips || [], profile, simulated, learning: { forecastVsActual, modelVersion: 'v1.0' },
+      chips: history.chips || [], profile, simulated, learning: { forecastVsActual, modelVersion: 'v1.2' },
     };
   });
   const generatedAt = new Date().toLocaleString('th-TH', { timeZone: 'Asia/Bangkok', hour12: false });
-  const json = { generatedAt, modelVersion: 'v1.0', league: league.league, currentEvent: current.id, nextEvent: next.id, currentStatus: { finished: current.finished, dataChecked: current.data_checked, deadline: current.deadline_time }, fixtures: fixtures.filter((x) => x.event === next.id).map((x) => ({ kickoff: x.kickoff_time, home: clubs.get(x.team_h)?.short_name, away: clubs.get(x.team_a)?.short_name })), rivals, notes: ['Forecast เป็น inference จากประวัติ ไม่ใช่ข้อมูล transfer ที่ยังไม่เปิดเผย', 'หลัง GW จบให้เติม actual และวัด action/captain/player accuracy ก่อนปรับ model weights'] };
+  const json = { generatedAt, modelVersion: 'v1.2', league: league.league, currentEvent: current.id, nextEvent: next.id, currentStatus: { finished: current.finished, dataChecked: current.data_checked, deadline: current.deadline_time }, fixtures: fixtures.filter((x) => x.event === next.id).map((x) => ({ kickoff: x.kickoff_time, home: clubs.get(x.team_h)?.short_name, away: clubs.get(x.team_a)?.short_name })), rivals, notes: ['Forecast เป็น inference จากประวัติ ไม่ใช่ข้อมูล transfer ที่ยังไม่เปิดเผย', 'v1.2 กรองตามตำแหน่ง, bank หน่วย £0.1m, captain protection และ squad structure พร้อมแยก blocked targets', 'หลัง GW จบให้เติม actual และวัด model accuracy ก่อนปรับ weights'] };
   await mkdir('mini-league', { recursive: true }); await writeFile(OUT, JSON.stringify(json, null, 2));
   console.log(JSON.stringify({ generatedAt, currentEvent: current.id, nextEvent: next.id, rivals: rivals.length, out: OUT }, null, 2));
 }
