@@ -1,17 +1,17 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "2026-11-21T17:03:12.818+07:00",
-  "generated_at": "2026-11-21T10:03:12.818Z",
-  "gameweek": 10,
-  "deadline_th": "2026-11-07T01:30:00.000+07:00",
-  "deadline_utc": "2026-11-06T18:30:00Z",
-  "status": "final",
+  "updated_at_th": "2026-11-22T00:43:20.974+07:00",
+  "generated_at": "2026-11-21T17:43:20.974Z",
+  "gameweek": 11,
+  "deadline_th": "2026-11-21T18:00:00.000+07:00",
+  "deadline_utc": "2026-11-21T11:00:00Z",
+  "status": "provisional",
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 2,
-    "points": 682,
-    "gw_points": 67,
+    "points": 710,
+    "gw_points": 28,
     "money_in_bank": "£0.4m",
     "confidence": null,
     "risk_level": "not_assessed"
@@ -21,7 +21,7 @@
     {
       "name": "Verbruggen",
       "club": "Brighton",
-      "fixture": "BRE (H)",
+      "fixture": "HUL (A)",
       "kit": null,
       "captain": false,
       "vice_captain": false
@@ -29,7 +29,7 @@
     {
       "name": "Gabriel",
       "club": "Arsenal",
-      "fixture": "HUL (H)",
+      "fixture": "NEW (A)",
       "kit": null,
       "captain": false,
       "vice_captain": false
@@ -37,7 +37,7 @@
     {
       "name": "Calafiori",
       "club": "Arsenal",
-      "fixture": "HUL (H)",
+      "fixture": "NEW (A)",
       "kit": null,
       "captain": false,
       "vice_captain": false
@@ -45,7 +45,15 @@
     {
       "name": "De Cuyper",
       "club": "Brighton",
-      "fixture": "BRE (H)",
+      "fixture": "HUL (A)",
+      "kit": null,
+      "captain": false,
+      "vice_captain": false
+    },
+    {
+      "name": "Cherki",
+      "club": "Man City",
+      "fixture": "FUL (H)",
       "kit": null,
       "captain": false,
       "vice_captain": false
@@ -53,7 +61,7 @@
     {
       "name": "Groß",
       "club": "Brighton",
-      "fixture": "BRE (H)",
+      "fixture": "HUL (A)",
       "kit": null,
       "captain": false,
       "vice_captain": false
@@ -61,7 +69,7 @@
     {
       "name": "Tavernier",
       "club": "Bournemouth",
-      "fixture": "IPS (A)",
+      "fixture": "NFO (H)",
       "kit": null,
       "captain": false,
       "vice_captain": false
@@ -69,15 +77,7 @@
     {
       "name": "Rogers",
       "club": "Chelsea",
-      "fixture": "SUN (A)",
-      "kit": null,
-      "captain": false,
-      "vice_captain": false
-    },
-    {
-      "name": "Mbeumo",
-      "club": "Man Utd",
-      "fixture": "AVL (H)",
+      "fixture": "LEE (H)",
       "kit": null,
       "captain": false,
       "vice_captain": false
@@ -85,7 +85,7 @@
     {
       "name": "Haaland",
       "club": "Man City",
-      "fixture": "NFO (A)",
+      "fixture": "FUL (H)",
       "kit": null,
       "captain": true,
       "vice_captain": false
@@ -93,7 +93,7 @@
     {
       "name": "Evanilson",
       "club": "Bournemouth",
-      "fixture": "IPS (A)",
+      "fixture": "NFO (H)",
       "kit": null,
       "captain": false,
       "vice_captain": true
@@ -101,7 +101,7 @@
     {
       "name": "N.Jackson",
       "club": "Aston Villa",
-      "fixture": "MUN (A)",
+      "fixture": "SUN (H)",
       "kit": null,
       "captain": false,
       "vice_captain": false
@@ -109,7 +109,7 @@
   ],
   "bench": [
     "Dubravka",
-    "Cherki",
+    "Mbeumo",
     "Bogle",
     "Diop"
   ],
@@ -121,14 +121,14 @@
     "leader": {
       "team": "ช่วยใจดีกับลุงหน่อย",
       "manager": "Palm Xavier",
-      "points": 709,
+      "points": 737,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 709,
+        "points": 737,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -139,7 +139,7 @@
       {
         "rank": 2,
         "team": "Yedtsuna",
-        "points": 682,
+        "points": 710,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -148,8 +148,8 @@
       {
         "rank": 3,
         "team": "GrossProfit United",
-        "points": 654,
-        "captain": "Isak",
+        "points": 676,
+        "captain": "De Cuyper",
         "chips": [
           "bboost",
           "wildcard",
@@ -158,9 +158,21 @@
       },
       {
         "rank": 4,
+        "team": "Runner Up FC",
+        "points": 658,
+        "captain": "N.Jackson",
+        "chips": [
+          "bboost",
+          "3xc",
+          "freehit",
+          "wildcard"
+        ]
+      },
+      {
+        "rank": 5,
         "team": "tamako-",
-        "points": 630,
-        "captain": "Isak",
+        "points": 658,
+        "captain": "Haaland",
         "chips": [
           "bboost",
           "freehit",
@@ -169,31 +181,19 @@
         ]
       },
       {
-        "rank": 5,
-        "team": "KC888",
-        "points": 629,
-        "captain": "Haaland",
-        "chips": [
-          "3xc",
-          "wildcard"
-        ]
-      },
-      {
         "rank": 6,
-        "team": "Runner Up FC",
-        "points": 625,
+        "team": "KC888",
+        "points": 647,
         "captain": "Haaland",
         "chips": [
-          "bboost",
           "3xc",
-          "freehit",
           "wildcard"
         ]
       },
       {
         "rank": 7,
         "team": "RelegationBattle",
-        "points": 617,
+        "points": 647,
         "captain": "Haaland",
         "chips": [
           "bboost"
@@ -202,7 +202,7 @@
       {
         "rank": 8,
         "team": "Bombadoo FC.",
-        "points": 610,
+        "points": 634,
         "captain": "Isak",
         "chips": [
           "bboost",
