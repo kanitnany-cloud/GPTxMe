@@ -1,5 +1,5 @@
 {
-  "generatedAt": "22/11/2569 13:41:59",
+  "generatedAt": "22/11/2569 16:00:41",
   "modelVersion": "v1.2",
   "league": {
     "admin_entry": 2164081,
@@ -434,7 +434,7 @@
             "upgrade": 2.7,
             "globalOwner": 26.4,
             "fixture": "BOU A v FUL",
-            "score": 21.89,
+            "score": 21.9,
             "threat": true
           },
           {
@@ -835,9 +835,9 @@
             "form": 8.8,
             "outgoingForm": 3.5,
             "upgrade": 5.3,
-            "globalOwner": 3.5,
+            "globalOwner": 3.6,
             "fixture": "BOU A v FUL",
-            "score": 27.53,
+            "score": 27.54,
             "threat": false
           },
           {
@@ -1449,9 +1449,9 @@
             "form": 8.8,
             "outgoingForm": 1,
             "upgrade": 7.8,
-            "globalOwner": 3.5,
+            "globalOwner": 3.6,
             "fixture": "BOU A v FUL",
-            "score": 33.23,
+            "score": 33.24,
             "threat": false
           },
           {
@@ -1496,7 +1496,7 @@
             "upgrade": 4,
             "globalOwner": 26.4,
             "fixture": "BOU A v FUL",
-            "score": 24.23,
+            "score": 24.24,
             "threat": true
           },
           {
@@ -2029,9 +2029,9 @@
             "form": 5.8,
             "outgoingForm": 1.2,
             "upgrade": 4.6,
-            "globalOwner": 1.6,
+            "globalOwner": 1.7,
             "fixture": "COV A v LEE",
-            "score": 22.25,
+            "score": 22.26,
             "threat": false
           },
           {
@@ -2091,7 +2091,7 @@
             "upgrade": 1.3,
             "globalOwner": 26.4,
             "fixture": "LIV A v EVE",
-            "score": 14.69,
+            "score": 14.7,
             "threat": true
           },
           {
@@ -2106,7 +2106,7 @@
             "upgrade": 1.6,
             "globalOwner": 28,
             "fixture": "CHE A v NFO",
-            "score": 14.45,
+            "score": 14.46,
             "threat": true
           }
         ],
@@ -2696,9 +2696,9 @@
             "form": 8.8,
             "outgoingForm": 4.8,
             "upgrade": 4,
-            "globalOwner": 3.5,
+            "globalOwner": 3.6,
             "fixture": "BOU A v FUL",
-            "score": 25.19,
+            "score": 25.2,
             "threat": false
           },
           {
@@ -2773,7 +2773,7 @@
             "upgrade": 0,
             "globalOwner": 24.3,
             "fixture": "BHA H v NEW",
-            "score": 12.71,
+            "score": 12.72,
             "threat": true
           }
         ],
@@ -3105,9 +3105,9 @@
             "form": 8.8,
             "outgoingForm": 2.5,
             "upgrade": 6.3,
-            "globalOwner": 3.5,
+            "globalOwner": 3.6,
             "fixture": "BOU A v FUL",
-            "score": 29.33,
+            "score": 29.34,
             "threat": false
           },
           {
@@ -3180,9 +3180,9 @@
             "form": 6,
             "outgoingForm": 1.2,
             "upgrade": 4.8,
-            "globalOwner": 6.9,
+            "globalOwner": 7,
             "fixture": "LEE H v COV",
-            "score": 25.16,
+            "score": 25.17,
             "threat": false
           },
           {
@@ -3197,7 +3197,7 @@
             "upgrade": 1.8,
             "globalOwner": 32.8,
             "fixture": "BOU A v FUL",
-            "score": 17.99,
+            "score": 18,
             "threat": true
           },
           {
@@ -3212,7 +3212,7 @@
             "upgrade": 1.8,
             "globalOwner": 32.8,
             "fixture": "BOU A v FUL",
-            "score": 17.99,
+            "score": 18,
             "threat": true
           }
         ],
@@ -3579,9 +3579,9 @@
             "form": 8.8,
             "outgoingForm": 0.8,
             "upgrade": 8,
-            "globalOwner": 3.5,
+            "globalOwner": 3.6,
             "fixture": "BOU A v FUL",
-            "score": 33.59,
+            "score": 33.6,
             "threat": false
           },
           {
@@ -3611,7 +3611,7 @@
             "upgrade": 6,
             "globalOwner": 26.4,
             "fixture": "BOU A v FUL",
-            "score": 27.83,
+            "score": 27.84,
             "threat": true
           },
           {
@@ -3656,7 +3656,7 @@
             "upgrade": 4.2,
             "globalOwner": 32.8,
             "fixture": "BOU A v FUL",
-            "score": 23.51,
+            "score": 23.52,
             "threat": true
           },
           {
@@ -3671,7 +3671,7 @@
             "upgrade": 3.8,
             "globalOwner": 32.8,
             "fixture": "BOU A v FUL",
-            "score": 22.79,
+            "score": 22.8,
             "threat": true
           }
         ],
@@ -4126,9 +4126,9 @@
             "form": 8.8,
             "outgoingForm": 1.5,
             "upgrade": 7.3,
-            "globalOwner": 3.5,
+            "globalOwner": 3.6,
             "fixture": "BOU A v FUL",
-            "score": 32.33,
+            "score": 32.34,
             "threat": false
           },
           {
@@ -4158,7 +4158,7 @@
             "upgrade": 6.3,
             "globalOwner": 26.4,
             "fixture": "BOU A v FUL",
-            "score": 29.57,
+            "score": 29.58,
             "threat": true
           },
           {
@@ -4599,9 +4599,9 @@
             "form": 8.8,
             "outgoingForm": 2.5,
             "upgrade": 6.3,
-            "globalOwner": 3.5,
+            "globalOwner": 3.6,
             "fixture": "BOU A v FUL",
-            "score": 30.53,
+            "score": 30.54,
             "threat": false
           },
           {
@@ -4631,7 +4631,7 @@
             "upgrade": 6,
             "globalOwner": 26.4,
             "fixture": "BOU A v FUL",
-            "score": 27.83,
+            "score": 27.84,
             "threat": true
           },
           {
@@ -4676,7 +4676,7 @@
             "upgrade": 3.2,
             "globalOwner": 32.8,
             "fixture": "BOU A v FUL",
-            "score": 20.51,
+            "score": 20.52,
             "threat": true
           },
           {
@@ -4691,7 +4691,7 @@
             "upgrade": 3,
             "globalOwner": 32.8,
             "fixture": "BOU A v FUL",
-            "score": 20.15,
+            "score": 20.16,
             "threat": true
           }
         ],
@@ -5044,9 +5044,9 @@
             "form": 8.8,
             "outgoingForm": 2,
             "upgrade": 6.8,
-            "globalOwner": 3.5,
+            "globalOwner": 3.6,
             "fixture": "BOU A v FUL",
-            "score": 31.43,
+            "score": 31.44,
             "threat": false
           },
           {
@@ -5089,9 +5089,9 @@
             "form": 6,
             "outgoingForm": 0,
             "upgrade": 6,
-            "globalOwner": 6.9,
+            "globalOwner": 7,
             "fixture": "LEE H v COV",
-            "score": 27.32,
+            "score": 27.33,
             "threat": false
           },
           {
@@ -5106,7 +5106,7 @@
             "upgrade": 6,
             "globalOwner": 15.9,
             "fixture": "TOT A v SUN",
-            "score": 25.82,
+            "score": 25.83,
             "threat": false
           },
           {
@@ -5136,7 +5136,7 @@
             "upgrade": 4.8,
             "globalOwner": 24.3,
             "fixture": "BHA H v NEW",
-            "score": 22.55,
+            "score": 22.56,
             "threat": true
           },
           {
@@ -5151,7 +5151,7 @@
             "upgrade": 1.3,
             "globalOwner": 26.4,
             "fixture": "LIV A v EVE",
-            "score": 14.69,
+            "score": 14.7,
             "threat": true
           }
         ],
@@ -5630,9 +5630,9 @@
             "form": 8.8,
             "outgoingForm": 2.2,
             "upgrade": 6.6,
-            "globalOwner": 3.5,
+            "globalOwner": 3.6,
             "fixture": "BOU A v FUL",
-            "score": 31.07,
+            "score": 31.08,
             "threat": false
           },
           {
@@ -5722,7 +5722,7 @@
             "upgrade": 0,
             "globalOwner": 24.3,
             "fixture": "BHA H v NEW",
-            "score": 12.71,
+            "score": 12.72,
             "threat": true
           },
           {
@@ -6096,9 +6096,9 @@
             "form": 8.8,
             "outgoingForm": 1,
             "upgrade": 7.8,
-            "globalOwner": 3.5,
+            "globalOwner": 3.6,
             "fixture": "BOU A v FUL",
-            "score": 33.23,
+            "score": 33.24,
             "threat": false
           },
           {
@@ -6128,7 +6128,7 @@
             "upgrade": 6,
             "globalOwner": 26.4,
             "fixture": "BOU A v FUL",
-            "score": 27.83,
+            "score": 27.84,
             "threat": true
           },
           {
@@ -6203,7 +6203,7 @@
             "upgrade": 3,
             "globalOwner": 32.8,
             "fixture": "BOU A v FUL",
-            "score": 20.15,
+            "score": 20.16,
             "threat": true
           }
         ],
@@ -6722,9 +6722,9 @@
             "form": 8.8,
             "outgoingForm": 0.8,
             "upgrade": 8,
-            "globalOwner": 3.5,
+            "globalOwner": 3.6,
             "fixture": "BOU A v FUL",
-            "score": 33.59,
+            "score": 33.6,
             "threat": false
           },
           {
@@ -6782,9 +6782,9 @@
             "form": 6,
             "outgoingForm": 0,
             "upgrade": 6,
-            "globalOwner": 6.9,
+            "globalOwner": 7,
             "fixture": "LEE H v COV",
-            "score": 27.32,
+            "score": 27.33,
             "threat": false
           },
           {
@@ -6814,7 +6814,7 @@
             "upgrade": 4.5,
             "globalOwner": 32.8,
             "fixture": "BOU A v FUL",
-            "score": 22.85,
+            "score": 22.86,
             "threat": true
           },
           {
@@ -6829,7 +6829,7 @@
             "upgrade": 4.8,
             "globalOwner": 24.3,
             "fixture": "BHA H v NEW",
-            "score": 22.55,
+            "score": 22.56,
             "threat": true
           }
         ],
@@ -7157,9 +7157,9 @@
             "form": 8.8,
             "outgoingForm": 2.5,
             "upgrade": 6.3,
-            "globalOwner": 3.5,
+            "globalOwner": 3.6,
             "fixture": "BOU A v FUL",
-            "score": 29.33,
+            "score": 29.34,
             "threat": false
           },
           {
@@ -7174,7 +7174,7 @@
             "upgrade": 5.5,
             "globalOwner": 26.4,
             "fixture": "BOU A v FUL",
-            "score": 28.13,
+            "score": 28.14,
             "threat": true
           },
           {
@@ -7234,7 +7234,7 @@
             "upgrade": 4.5,
             "globalOwner": 32.8,
             "fixture": "BOU A v FUL",
-            "score": 22.85,
+            "score": 22.86,
             "threat": true
           },
           {
@@ -7249,7 +7249,7 @@
             "upgrade": 3.8,
             "globalOwner": 32.8,
             "fixture": "BOU A v FUL",
-            "score": 21.59,
+            "score": 21.6,
             "threat": true
           }
         ],
@@ -7578,9 +7578,9 @@
             "form": 8.8,
             "outgoingForm": 0.5,
             "upgrade": 8.3,
-            "globalOwner": 3.5,
+            "globalOwner": 3.6,
             "fixture": "BOU A v FUL",
-            "score": 32.93,
+            "score": 32.94,
             "threat": false
           },
           {
@@ -7638,9 +7638,9 @@
             "form": 6,
             "outgoingForm": 0.2,
             "upgrade": 5.8,
-            "globalOwner": 6.9,
+            "globalOwner": 7,
             "fixture": "LEE H v COV",
-            "score": 26.96,
+            "score": 26.97,
             "threat": false
           },
           {
@@ -7670,7 +7670,7 @@
             "upgrade": 6,
             "globalOwner": 32.8,
             "fixture": "BOU A v FUL",
-            "score": 25.55,
+            "score": 25.56,
             "threat": true
           },
           {
@@ -7685,7 +7685,7 @@
             "upgrade": 4.8,
             "globalOwner": 32.8,
             "fixture": "BOU A v FUL",
-            "score": 23.39,
+            "score": 23.4,
             "threat": true
           }
         ],
@@ -8323,9 +8323,9 @@
             "form": 8.8,
             "outgoingForm": 3.5,
             "upgrade": 5.3,
-            "globalOwner": 3.5,
+            "globalOwner": 3.6,
             "fixture": "BOU A v FUL",
-            "score": 27.53,
+            "score": 27.54,
             "threat": false
           },
           {
@@ -8370,7 +8370,7 @@
             "upgrade": 4,
             "globalOwner": 26.4,
             "fixture": "BOU A v FUL",
-            "score": 24.23,
+            "score": 24.24,
             "threat": true
           },
           {
@@ -8400,7 +8400,7 @@
             "upgrade": 3.5,
             "globalOwner": 15.9,
             "fixture": "TOT A v SUN",
-            "score": 21.32,
+            "score": 21.33,
             "threat": false
           }
         ],
@@ -9076,7 +9076,7 @@
             "upgrade": 2.3,
             "globalOwner": 24.3,
             "fixture": "BHA H v NEW",
-            "score": 18.05,
+            "score": 18.06,
             "threat": true
           },
           {
@@ -9362,9 +9362,9 @@
             "form": 8.8,
             "outgoingForm": 3,
             "upgrade": 5.8,
-            "globalOwner": 3.5,
+            "globalOwner": 3.6,
             "fixture": "BOU A v FUL",
-            "score": 28.43,
+            "score": 28.44,
             "threat": false
           },
           {
@@ -9409,7 +9409,7 @@
             "upgrade": 4.5,
             "globalOwner": 26.4,
             "fixture": "BOU A v FUL",
-            "score": 25.13,
+            "score": 25.14,
             "threat": true
           },
           {
@@ -9424,7 +9424,7 @@
             "upgrade": 4.8,
             "globalOwner": 32.8,
             "fixture": "BOU A v FUL",
-            "score": 23.39,
+            "score": 23.4,
             "threat": true
           }
         ],
