@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "22/11/2569 05:49:02",
+  "updated_at_th": "22/11/2569 09:50:30",
   "gameweek": 11,
   "team": {
     "name": "Yedtsuna",
@@ -78,6 +78,15 @@
       },
       {
         "rank": 6,
+        "team": "RelegationBattle",
+        "points": 649,
+        "captain": "Haaland",
+        "chips": [
+          "bboost"
+        ]
+      },
+      {
+        "rank": 7,
         "team": "KC888",
         "points": 647,
         "captain": "Haaland",
@@ -87,18 +96,9 @@
         ]
       },
       {
-        "rank": 7,
-        "team": "RelegationBattle",
-        "points": 647,
-        "captain": "Haaland",
-        "chips": [
-          "bboost"
-        ]
-      },
-      {
         "rank": 8,
         "team": "Bombadoo FC.",
-        "points": 634,
+        "points": 636,
         "captain": "Isak",
         "chips": [
           "bboost",
