@@ -1,13 +1,13 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "22/11/2569 17:46:12",
+  "updated_at_th": "23/11/2569 12:59:59",
   "gameweek": 11,
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 2,
-    "points": 710,
-    "gw_points": 28,
+    "points": 717,
+    "gw_points": 35,
     "captain": "Haaland",
     "captain_multiplier": 2
   },
@@ -17,14 +17,14 @@
     "leader": {
       "team": "ช่วยใจดีกับลุงหน่อย",
       "manager": "Palm Xavier",
-      "points": 737,
+      "points": 749,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 737,
+        "points": 749,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -35,7 +35,7 @@
       {
         "rank": 2,
         "team": "Yedtsuna",
-        "points": 710,
+        "points": 717,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -44,7 +44,7 @@
       {
         "rank": 3,
         "team": "GrossProfit United",
-        "points": 676,
+        "points": 689,
         "captain": "De Cuyper",
         "chips": [
           "bboost",
@@ -54,20 +54,8 @@
       },
       {
         "rank": 4,
-        "team": "Runner Up FC",
-        "points": 658,
-        "captain": "N.Jackson",
-        "chips": [
-          "bboost",
-          "3xc",
-          "freehit",
-          "wildcard"
-        ]
-      },
-      {
-        "rank": 5,
         "team": "tamako-",
-        "points": 658,
+        "points": 667,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -77,9 +65,21 @@
         ]
       },
       {
+        "rank": 5,
+        "team": "Runner Up FC",
+        "points": 665,
+        "captain": "N.Jackson",
+        "chips": [
+          "bboost",
+          "3xc",
+          "freehit",
+          "wildcard"
+        ]
+      },
+      {
         "rank": 6,
         "team": "RelegationBattle",
-        "points": 649,
+        "points": 657,
         "captain": "Haaland",
         "chips": [
           "bboost"
@@ -88,7 +88,7 @@
       {
         "rank": 7,
         "team": "KC888",
-        "points": 647,
+        "points": 653,
         "captain": "Haaland",
         "chips": [
           "3xc",
@@ -97,13 +97,13 @@
       },
       {
         "rank": 8,
-        "team": "Bombadoo FC.",
-        "points": 636,
+        "team": "SilverBank",
+        "points": 649,
         "captain": "Isak",
         "chips": [
-          "bboost",
-          "freehit",
-          "wildcard"
+          "3xc",
+          "wildcard",
+          "bboost"
         ]
       }
     ]
@@ -123,8 +123,8 @@
       "club": "BHA",
       "owners": 15,
       "captains": 0,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 4,
+      "total_points": 56,
       "owned_by_me": true
     },
     {
@@ -132,8 +132,8 @@
       "club": "BHA",
       "owners": 14,
       "captains": 2,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 1,
+      "total_points": 16,
       "owned_by_me": true
     },
     {
@@ -177,8 +177,8 @@
       "club": "LIV",
       "owners": 9,
       "captains": 2,
-      "gw_points": 0,
-      "total_points": 0,
+      "gw_points": 5,
+      "total_points": 50,
       "owned_by_me": false
     }
   ],
@@ -248,21 +248,21 @@
     },
     {
       "kickoff_time": "2026-11-22T14:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "HUL",
       "away": "BHA",
-      "home_score": null,
-      "away_score": null
+      "home_score": 2,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-11-22T16:30:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "LIV",
       "away": "MUN",
-      "home_score": null,
-      "away_score": null
+      "home_score": 4,
+      "away_score": 0
     },
     {
       "kickoff_time": "2026-11-23T20:00:00Z",

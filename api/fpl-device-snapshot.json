@@ -1,7 +1,7 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "2026-11-22T17:46:14.020+07:00",
-  "generated_at": "2026-11-22T10:46:14.020Z",
+  "updated_at_th": "2026-11-23T13:00:00.544+07:00",
+  "generated_at": "2026-11-23T06:00:00.544Z",
   "gameweek": 11,
   "deadline_th": "2026-11-21T18:00:00.000+07:00",
   "deadline_utc": "2026-11-21T11:00:00Z",
@@ -10,8 +10,8 @@
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 2,
-    "points": 710,
-    "gw_points": 28,
+    "points": 717,
+    "gw_points": 35,
     "money_in_bank": "£0.4m",
     "confidence": null,
     "risk_level": "not_assessed"
@@ -121,14 +121,14 @@
     "leader": {
       "team": "ช่วยใจดีกับลุงหน่อย",
       "manager": "Palm Xavier",
-      "points": 737,
+      "points": 749,
       "captain": "Haaland"
     },
     "top": [
       {
         "rank": 1,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 737,
+        "points": 749,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -139,7 +139,7 @@
       {
         "rank": 2,
         "team": "Yedtsuna",
-        "points": 710,
+        "points": 717,
         "captain": "Haaland",
         "chips": [
           "3xc"
@@ -148,7 +148,7 @@
       {
         "rank": 3,
         "team": "GrossProfit United",
-        "points": 676,
+        "points": 689,
         "captain": "De Cuyper",
         "chips": [
           "bboost",
@@ -158,20 +158,8 @@
       },
       {
         "rank": 4,
-        "team": "Runner Up FC",
-        "points": 658,
-        "captain": "N.Jackson",
-        "chips": [
-          "bboost",
-          "3xc",
-          "freehit",
-          "wildcard"
-        ]
-      },
-      {
-        "rank": 5,
         "team": "tamako-",
-        "points": 658,
+        "points": 667,
         "captain": "Haaland",
         "chips": [
           "bboost",
@@ -181,9 +169,21 @@
         ]
       },
       {
+        "rank": 5,
+        "team": "Runner Up FC",
+        "points": 665,
+        "captain": "N.Jackson",
+        "chips": [
+          "bboost",
+          "3xc",
+          "freehit",
+          "wildcard"
+        ]
+      },
+      {
         "rank": 6,
         "team": "RelegationBattle",
-        "points": 649,
+        "points": 657,
         "captain": "Haaland",
         "chips": [
           "bboost"
@@ -192,7 +192,7 @@
       {
         "rank": 7,
         "team": "KC888",
-        "points": 647,
+        "points": 653,
         "captain": "Haaland",
         "chips": [
           "3xc",
@@ -201,13 +201,13 @@
       },
       {
         "rank": 8,
-        "team": "Bombadoo FC.",
-        "points": 636,
+        "team": "SilverBank",
+        "points": 649,
         "captain": "Isak",
         "chips": [
-          "bboost",
-          "freehit",
-          "wildcard"
+          "3xc",
+          "wildcard",
+          "bboost"
         ]
       }
     ]
