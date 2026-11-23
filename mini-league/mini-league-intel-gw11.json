@@ -70,7 +70,7 @@
     "most_captained": 411,
     "most_vice_captained": 1
   },
-  "generatedAt": "23/11/2569 12:59:59",
+  "generatedAt": "24/11/2569 00:55:48",
   "teams": [
     {
       "entry": 8479135,
@@ -2649,8 +2649,8 @@
       "entry_name": "RelegationBattle",
       "player_name": "Katha Panthong",
       "rank": 6,
-      "event_total": 40,
-      "total": 657,
+      "event_total": 39,
+      "total": 656,
       "team_value": 102.7,
       "bank": 0.5,
       "captain": "Haaland",
@@ -2934,8 +2934,8 @@
           "club": "TOT",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 12,
-          "points": 12
+          "event_points": 11,
+          "points": 11
         },
         {
           "element": 45,
@@ -9178,8 +9178,8 @@
       "owners": 1,
       "captains": 0,
       "tripleCaptains": 0,
-      "event_points": 12,
-      "total_points": 12,
+      "event_points": 11,
+      "total_points": 11,
       "ownedByMe": false
     },
     {
