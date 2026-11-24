@@ -19,9 +19,9 @@
     "name": "Gameweek 11",
     "deadline_time": "2026-11-21T11:00:00Z",
     "release_time": null,
-    "average_entry_score": 33,
-    "finished": false,
-    "data_checked": false,
+    "average_entry_score": 35,
+    "finished": true,
+    "data_checked": true,
     "highest_scoring_entry": 2293627,
     "deadline_time_epoch": 1795258800,
     "deadline_time_game_offset": 0,
@@ -34,7 +34,7 @@
     "can_enter": false,
     "can_manage": false,
     "released": true,
-    "ranked_count": 11261452,
+    "ranked_count": 11261396,
     "overrides": {
       "rules": {},
       "scoring": {},
@@ -70,7 +70,7 @@
     "most_captained": 411,
     "most_vice_captained": 1
   },
-  "generatedAt": "24/11/2569 10:52:17",
+  "generatedAt": "24/11/2569 21:35:44",
   "teams": [
     {
       "entry": 8479135,
@@ -230,8 +230,8 @@
           "event": 11,
           "points": 40,
           "total_points": 749,
-          "rank": 2358109,
-          "overall_rank": 46389,
+          "rank": 2996298,
+          "overall_rank": 46663,
           "bank": 0,
           "team_value": 102.9,
           "event_transfers": 0,
@@ -667,8 +667,8 @@
           "event": 11,
           "points": 35,
           "total_points": 717,
-          "rank": 4389563,
-          "overall_rank": 277077,
+          "rank": 5297188,
+          "overall_rank": 279051,
           "bank": 0.4,
           "team_value": 103.6,
           "event_transfers": 0,
@@ -1043,8 +1043,8 @@
           "event": 11,
           "points": 35,
           "total_points": 689,
-          "rank": 4681696,
-          "overall_rank": 803879,
+          "rank": 5624776,
+          "overall_rank": 811346,
           "bank": 1.6,
           "team_value": 104.5,
           "event_transfers": 1,
@@ -1648,8 +1648,8 @@
           "event": 11,
           "points": 41,
           "total_points": 667,
-          "rank": 2299204,
-          "overall_rank": 1492570,
+          "rank": 2934794,
+          "overall_rank": 1510210,
           "bank": 0.3,
           "team_value": 101.7,
           "event_transfers": 2,
@@ -2296,8 +2296,8 @@
           "event": 11,
           "points": 40,
           "total_points": 665,
-          "rank": 2558719,
-          "overall_rank": 1537382,
+          "rank": 3251017,
+          "overall_rank": 1556103,
           "bank": 2.5,
           "team_value": 102.1,
           "event_transfers": 1,
@@ -2802,8 +2802,8 @@
           "event": 11,
           "points": 26,
           "total_points": 655,
-          "rank": 8787923,
-          "overall_rank": 1936241,
+          "rank": 9659640,
+          "overall_rank": 1962459,
           "bank": 4,
           "team_value": 102.2,
           "event_transfers": 1,
@@ -3198,8 +3198,8 @@
           "event": 11,
           "points": 35,
           "total_points": 652,
-          "rank": 4389563,
-          "overall_rank": 2081364,
+          "rank": 5297188,
+          "overall_rank": 2110158,
           "bank": 0.5,
           "team_value": 102.7,
           "event_transfers": 0,
@@ -3593,8 +3593,8 @@
           "event": 11,
           "points": 40,
           "total_points": 649,
-          "rank": 2358109,
-          "overall_rank": 2177409,
+          "rank": 2996298,
+          "overall_rank": 2208811,
           "bank": 1,
           "team_value": 102.4,
           "event_transfers": 0,
@@ -4021,8 +4021,8 @@
           "event": 11,
           "points": 39,
           "total_points": 649,
-          "rank": 2936167,
-          "overall_rank": 2181404,
+          "rank": 3687170,
+          "overall_rank": 2212849,
           "bank": 5.8,
           "team_value": 101.7,
           "event_transfers": 1,
@@ -4561,8 +4561,8 @@
           "event": 11,
           "points": 34,
           "total_points": 636,
-          "rank": 5354056,
-          "overall_rank": 2802645,
+          "rank": 6328235,
+          "overall_rank": 2848160,
           "bank": 4.8,
           "team_value": 102.6,
           "event_transfers": 3,
@@ -4968,8 +4968,8 @@
           "event": 11,
           "points": 40,
           "total_points": 629,
-          "rank": 2358109,
-          "overall_rank": 3138105,
+          "rank": 2996298,
+          "overall_rank": 3191199,
           "bank": 0.4,
           "team_value": 103.7,
           "event_transfers": 0,
@@ -5519,8 +5519,8 @@
           "event": 11,
           "points": 32,
           "total_points": 592,
-          "rank": 5872331,
-          "overall_rank": 5010974,
+          "rank": 6868194,
+          "overall_rank": 5106153,
           "bank": 2.9,
           "team_value": 102,
           "event_transfers": 0,
@@ -5932,8 +5932,8 @@
           "event": 11,
           "points": 38,
           "total_points": 592,
-          "rank": 3106366,
-          "overall_rank": 5020373,
+          "rank": 3862690,
+          "overall_rank": 5115657,
           "bank": 4.4,
           "team_value": 101.1,
           "event_transfers": 0,
@@ -6513,8 +6513,8 @@
           "event": 11,
           "points": 43,
           "total_points": 564,
-          "rank": 1523984,
-          "overall_rank": 6389366,
+          "rank": 1992549,
+          "overall_rank": 6505873,
           "bank": 3.1,
           "team_value": 101,
           "event_transfers": 0,
@@ -6755,8 +6755,8 @@
       "entry_name": "Goal888",
       "player_name": "Pichai Boonlay",
       "rank": 15,
-      "event_total": 39,
-      "total": 557,
+      "event_total": 40,
+      "total": 558,
       "team_value": 99.6,
       "bank": 0.4,
       "captain": "Cherki",
@@ -6890,15 +6890,15 @@
         },
         {
           "event": 11,
-          "points": 39,
-          "total_points": 557,
-          "rank": 2717424,
-          "overall_rank": 6728045,
+          "points": 40,
+          "total_points": 558,
+          "rank": 2996298,
+          "overall_rank": 6802186,
           "bank": 0.4,
           "team_value": 99.6,
           "event_transfers": 0,
           "event_transfers_cost": 0,
-          "points_on_bench": 2
+          "points_on_bench": 1
         }
       ],
       "chip_history": [],
@@ -6995,7 +6995,7 @@
         }
       ],
       "overlap15": 4,
-      "overlapXI": 2,
+      "overlapXI": 3,
       "transferLikelihood": "สูง",
       "picks": [
         {
@@ -7044,6 +7044,15 @@
           "points": 6
         },
         {
+          "element": 8,
+          "web_name": "Calafiori",
+          "club": "ARS",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 1,
+          "points": 1
+        },
+        {
           "element": 366,
           "web_name": "Wirtz",
           "club": "LIV",
@@ -7053,17 +7062,8 @@
           "points": 14
         },
         {
-          "element": 397,
-          "web_name": "Semenyo",
-          "club": "MCI",
-          "multiplier": 1,
-          "flag": "VC",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 427,
-          "web_name": "Mbeumo",
+          "element": 428,
+          "web_name": "Cunha",
           "club": "MUN",
           "multiplier": 1,
           "flag": "XI",
@@ -7080,8 +7080,8 @@
           "points": 2
         },
         {
-          "element": 428,
-          "web_name": "Cunha",
+          "element": 427,
+          "web_name": "Mbeumo",
           "club": "MUN",
           "multiplier": 1,
           "flag": "XI",
@@ -7107,12 +7107,12 @@
           "points": 0
         },
         {
-          "element": 8,
-          "web_name": "Calafiori",
-          "club": "ARS",
+          "element": 397,
+          "web_name": "Semenyo",
+          "club": "MCI",
           "multiplier": 0,
-          "flag": "B",
-          "event_points": 1,
+          "flag": "VC",
+          "event_points": 0,
           "points": 0
         },
         {
@@ -7307,8 +7307,8 @@
           "event": 11,
           "points": 42,
           "total_points": 506,
-          "rank": 1994371,
-          "overall_rank": 8539890,
+          "rank": 2571013,
+          "overall_rank": 8642558,
           "bank": 0,
           "team_value": 104.5,
           "event_transfers": 2,
@@ -7992,8 +7992,8 @@
           "event": 11,
           "points": 33,
           "total_points": 371,
-          "rank": 5791316,
-          "overall_rank": 10478274,
+          "rank": 6787813,
+          "overall_rank": 10500999,
           "bank": 0,
           "team_value": 101.9,
           "event_transfers": 2,
@@ -8468,12 +8468,12 @@
       "entry_name": "Sweetzer's Team",
       "player_name": "Sweetzer level",
       "rank": 18,
-      "event_total": 18,
-      "total": 212,
+      "event_total": 29,
+      "total": 223,
       "team_value": 101.4,
       "bank": 1.1,
       "captain": "João Pedro",
-      "captain_multiplier": 2,
+      "captain_multiplier": 0,
       "chips": [],
       "transfer_audit": {
         "count": 0,
@@ -8531,31 +8531,31 @@
         },
         {
           "event": 11,
-          "points": 18,
-          "total_points": 212,
-          "rank": 10596408,
-          "overall_rank": 11016855,
+          "points": 29,
+          "total_points": 223,
+          "rank": 8262465,
+          "overall_rank": 11004419,
           "bank": 1.1,
           "team_value": 101.4,
           "event_transfers": 0,
           "event_transfers_cost": 0,
-          "points_on_bench": 11
+          "points_on_bench": 2
         }
       ],
       "chip_history": [],
       "transfer_history": [],
       "overlap15": 7,
-      "overlapXI": 4,
+      "overlapXI": 5,
       "transferLikelihood": "สูง",
       "picks": [
         {
           "element": 109,
           "web_name": "Verbruggen",
           "club": "BHA",
-          "multiplier": 1,
+          "multiplier": 2,
           "flag": "VC",
           "event_points": 2,
-          "points": 2
+          "points": 4
         },
         {
           "element": 449,
@@ -8630,22 +8630,22 @@
           "points": 1
         },
         {
-          "element": 165,
-          "web_name": "João Pedro",
-          "club": "CHE",
-          "multiplier": 2,
-          "flag": "C",
-          "event_points": 0,
-          "points": 0
-        },
-        {
-          "element": 106,
-          "web_name": "Thiago",
-          "club": "BRE",
+          "element": 124,
+          "web_name": "Groß",
+          "club": "BHA",
           "multiplier": 1,
           "flag": "XI",
-          "event_points": 0,
-          "points": 0
+          "event_points": 4,
+          "points": 4
+        },
+        {
+          "element": 379,
+          "web_name": "Isak",
+          "club": "LIV",
+          "multiplier": 1,
+          "flag": "XI",
+          "event_points": 5,
+          "points": 5
         },
         {
           "element": 384,
@@ -8666,21 +8666,21 @@
           "points": 0
         },
         {
-          "element": 124,
-          "web_name": "Groß",
-          "club": "BHA",
+          "element": 165,
+          "web_name": "João Pedro",
+          "club": "CHE",
           "multiplier": 0,
-          "flag": "B",
-          "event_points": 4,
+          "flag": "C",
+          "event_points": 0,
           "points": 0
         },
         {
-          "element": 379,
-          "web_name": "Isak",
-          "club": "LIV",
+          "element": 106,
+          "web_name": "Thiago",
+          "club": "BRE",
           "multiplier": 0,
           "flag": "B",
-          "event_points": 5,
+          "event_points": 0,
           "points": 0
         }
       ]
@@ -8706,7 +8706,7 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 4,
-      "total_points": 56,
+      "total_points": 60,
       "ownedByMe": true
     },
     {
@@ -8739,7 +8739,7 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 1,
-      "total_points": 10,
+      "total_points": 11,
       "ownedByMe": true
     },
     {
@@ -8772,7 +8772,7 @@
       "captains": 2,
       "tripleCaptains": 0,
       "event_points": 5,
-      "total_points": 50,
+      "total_points": 55,
       "ownedByMe": false
     },
     {
@@ -8816,7 +8816,7 @@
       "captains": 0,
       "tripleCaptains": 0,
       "event_points": 2,
-      "total_points": 16,
+      "total_points": 18,
       "ownedByMe": true
     },
     {
@@ -9616,7 +9616,7 @@
     {
       "kickoff_time": "2026-11-21T12:30:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "MCI",
       "away": "FUL",
       "home_score": 1,
@@ -9625,7 +9625,7 @@
     {
       "kickoff_time": "2026-11-21T15:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "AVL",
       "away": "SUN",
       "home_score": 0,
@@ -9634,7 +9634,7 @@
     {
       "kickoff_time": "2026-11-21T15:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "BOU",
       "away": "NFO",
       "home_score": 2,
@@ -9643,7 +9643,7 @@
     {
       "kickoff_time": "2026-11-21T15:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "CHE",
       "away": "LEE",
       "home_score": 1,
@@ -9652,7 +9652,7 @@
     {
       "kickoff_time": "2026-11-21T15:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "COV",
       "away": "CRY",
       "home_score": 3,
@@ -9661,7 +9661,7 @@
     {
       "kickoff_time": "2026-11-21T15:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "TOT",
       "away": "IPS",
       "home_score": 2,
@@ -9670,7 +9670,7 @@
     {
       "kickoff_time": "2026-11-21T17:30:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "NEW",
       "away": "ARS",
       "home_score": 2,
@@ -9679,7 +9679,7 @@
     {
       "kickoff_time": "2026-11-22T14:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "HUL",
       "away": "BHA",
       "home_score": 2,
@@ -9688,7 +9688,7 @@
     {
       "kickoff_time": "2026-11-22T16:30:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "LIV",
       "away": "MUN",
       "home_score": 4,
@@ -9697,7 +9697,7 @@
     {
       "kickoff_time": "2026-11-23T20:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "BRE",
       "away": "EVE",
       "home_score": 4,

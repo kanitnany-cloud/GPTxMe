@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "24/11/2569 10:52:17",
+  "updated_at_th": "24/11/2569 21:35:44",
   "gameweek": 11,
   "team": {
     "name": "Yedtsuna",
@@ -124,7 +124,7 @@
       "owners": 15,
       "captains": 0,
       "gw_points": 4,
-      "total_points": 56,
+      "total_points": 60,
       "owned_by_me": true
     },
     {
@@ -151,7 +151,7 @@
       "owners": 11,
       "captains": 0,
       "gw_points": 1,
-      "total_points": 10,
+      "total_points": 11,
       "owned_by_me": true
     },
     {
@@ -178,7 +178,7 @@
       "owners": 9,
       "captains": 2,
       "gw_points": 5,
-      "total_points": 50,
+      "total_points": 55,
       "owned_by_me": false
     }
   ],
@@ -186,7 +186,7 @@
     {
       "kickoff_time": "2026-11-21T12:30:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "MCI",
       "away": "FUL",
       "home_score": 1,
@@ -195,7 +195,7 @@
     {
       "kickoff_time": "2026-11-21T15:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "AVL",
       "away": "SUN",
       "home_score": 0,
@@ -204,7 +204,7 @@
     {
       "kickoff_time": "2026-11-21T15:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "BOU",
       "away": "NFO",
       "home_score": 2,
@@ -213,7 +213,7 @@
     {
       "kickoff_time": "2026-11-21T15:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "CHE",
       "away": "LEE",
       "home_score": 1,
@@ -222,7 +222,7 @@
     {
       "kickoff_time": "2026-11-21T15:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "COV",
       "away": "CRY",
       "home_score": 3,
@@ -231,7 +231,7 @@
     {
       "kickoff_time": "2026-11-21T15:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "TOT",
       "away": "IPS",
       "home_score": 2,
@@ -240,7 +240,7 @@
     {
       "kickoff_time": "2026-11-21T17:30:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "NEW",
       "away": "ARS",
       "home_score": 2,
@@ -249,7 +249,7 @@
     {
       "kickoff_time": "2026-11-22T14:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "HUL",
       "away": "BHA",
       "home_score": 2,
@@ -258,7 +258,7 @@
     {
       "kickoff_time": "2026-11-22T16:30:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "LIV",
       "away": "MUN",
       "home_score": 4,
@@ -267,7 +267,7 @@
     {
       "kickoff_time": "2026-11-23T20:00:00Z",
       "started": true,
-      "finished": false,
+      "finished": true,
       "home": "BRE",
       "away": "EVE",
       "home_score": 4,
