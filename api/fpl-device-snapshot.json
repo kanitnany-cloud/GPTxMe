@@ -1,7 +1,7 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "2026-11-24T00:55:49.211+07:00",
-  "generated_at": "2026-11-23T17:55:49.211Z",
+  "updated_at_th": "2026-11-24T10:52:18.514+07:00",
+  "generated_at": "2026-11-24T03:52:18.514Z",
   "gameweek": 11,
   "deadline_th": "2026-11-21T18:00:00.000+07:00",
   "deadline_utc": "2026-11-21T11:00:00Z",
@@ -182,21 +182,21 @@
       },
       {
         "rank": 6,
-        "team": "RelegationBattle",
-        "points": 656,
-        "captain": "Haaland",
-        "chips": [
-          "bboost"
-        ]
-      },
-      {
-        "rank": 7,
         "team": "KC888",
-        "points": 653,
+        "points": 655,
         "captain": "Haaland",
         "chips": [
           "3xc",
           "wildcard"
+        ]
+      },
+      {
+        "rank": 7,
+        "team": "RelegationBattle",
+        "points": 652,
+        "captain": "Haaland",
+        "chips": [
+          "bboost"
         ]
       },
       {

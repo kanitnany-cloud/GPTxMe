@@ -1,6 +1,6 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "24/11/2569 00:55:48",
+  "updated_at_th": "24/11/2569 10:52:17",
   "gameweek": 11,
   "team": {
     "name": "Yedtsuna",
@@ -78,21 +78,21 @@
       },
       {
         "rank": 6,
-        "team": "RelegationBattle",
-        "points": 656,
-        "captain": "Haaland",
-        "chips": [
-          "bboost"
-        ]
-      },
-      {
-        "rank": 7,
         "team": "KC888",
-        "points": 653,
+        "points": 655,
         "captain": "Haaland",
         "chips": [
           "3xc",
           "wildcard"
+        ]
+      },
+      {
+        "rank": 7,
+        "team": "RelegationBattle",
+        "points": 652,
+        "captain": "Haaland",
+        "chips": [
+          "bboost"
         ]
       },
       {
@@ -266,12 +266,12 @@
     },
     {
       "kickoff_time": "2026-11-23T20:00:00Z",
-      "started": false,
+      "started": true,
       "finished": false,
       "home": "BRE",
       "away": "EVE",
-      "home_score": null,
-      "away_score": null
+      "home_score": 4,
+      "away_score": 0
     }
   ],
   "strategy": {
