@@ -1,5 +1,5 @@
 {
-  "generatedAt": "26/11/2569 04:38:46",
+  "generatedAt": "26/11/2569 15:11:03",
   "modelVersion": "v1.2",
   "league": {
     "admin_entry": 2164081,
@@ -417,15 +417,15 @@
             "form": 9.7,
             "outgoingForm": 4,
             "upgrade": 5.7,
-            "globalOwner": 10.6,
+            "globalOwner": 11.1,
             "fixture": "LIV A v EVE",
-            "score": 31.36,
+            "score": 31.55,
             "threat": false
           },
           {
             "out": "Isak",
             "in": "McBurnie",
-            "outPrice": 9.3,
+            "outPrice": 9.4,
             "inPrice": 5.5,
             "club": "HUL",
             "position": 4,
@@ -434,13 +434,13 @@
             "upgrade": 4,
             "globalOwner": 2.1,
             "fixture": "HUL A v CRY",
-            "score": 26.91,
+            "score": 26.92,
             "threat": false
           },
           {
             "out": "Isak",
             "in": "Barry",
-            "outPrice": 9.3,
+            "outPrice": 9.4,
             "inPrice": 5.7,
             "club": "EVE",
             "position": 4,
@@ -455,16 +455,16 @@
           {
             "out": "Isak",
             "in": "Evanilson",
-            "outPrice": 9.3,
+            "outPrice": 9.4,
             "inPrice": 6.6,
             "club": "BOU",
             "position": 4,
             "form": 8,
             "outgoingForm": 5,
             "upgrade": 3,
-            "globalOwner": 27.6,
+            "globalOwner": 27.7,
             "fixture": "BOU A v FUL",
-            "score": 23.79,
+            "score": 23.82,
             "threat": true
           },
           {
@@ -494,7 +494,7 @@
             "upgrade": 3.3,
             "globalOwner": 0.7,
             "fixture": "AVL A v IPS",
-            "score": 23.31,
+            "score": 23.32,
             "threat": false
           }
         ],
@@ -505,7 +505,7 @@
             "price": 8.1,
             "maxPrice": 5.5,
             "out": "De Cuyper",
-            "globalOwner": 26.8,
+            "globalOwner": 26.9,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -514,7 +514,7 @@
             "price": 5.9,
             "maxPrice": 5.5,
             "out": "De Cuyper",
-            "globalOwner": 48.2,
+            "globalOwner": 48.1,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -811,9 +811,9 @@
             "form": 9.7,
             "outgoingForm": 1.3,
             "upgrade": 8.4,
-            "globalOwner": 10.6,
+            "globalOwner": 11.1,
             "fixture": "LIV A v EVE",
-            "score": 37.42,
+            "score": 37.61,
             "threat": false
           },
           {
@@ -843,7 +843,7 @@
             "upgrade": 5.7,
             "globalOwner": 0.7,
             "fixture": "AVL A v IPS",
-            "score": 27.63,
+            "score": 27.64,
             "threat": false
           },
           {
@@ -856,9 +856,9 @@
             "form": 6.7,
             "outgoingForm": 1.3,
             "upgrade": 5.4,
-            "globalOwner": 1.4,
+            "globalOwner": 1.5,
             "fixture": "LEE H v COV",
-            "score": 27.45,
+            "score": 27.48,
             "threat": false
           },
           {
@@ -871,9 +871,9 @@
             "form": 8.3,
             "outgoingForm": 4,
             "upgrade": 4.3,
-            "globalOwner": 19.7,
+            "globalOwner": 19.8,
             "fixture": "TOT A v SUN",
-            "score": 27.35,
+            "score": 27.39,
             "threat": false
           },
           {
@@ -888,7 +888,7 @@
             "upgrade": 5.7,
             "globalOwner": 1.9,
             "fixture": "COV A v LEE",
-            "score": 26.36,
+            "score": 26.37,
             "threat": false
           },
           {
@@ -929,16 +929,16 @@
             "price": 9.8,
             "maxPrice": 8.7,
             "out": "Rogers",
-            "globalOwner": 27.2,
+            "globalOwner": 27.1,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
             "in": "Isak",
             "position": 4,
-            "price": 9.3,
+            "price": 9.4,
             "maxPrice": 7.7,
             "out": "N.Jackson",
-            "globalOwner": 27.2,
+            "globalOwner": 27.4,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -1455,9 +1455,9 @@
             "form": 9.7,
             "outgoingForm": 3.3,
             "upgrade": 6.4,
-            "globalOwner": 10.6,
+            "globalOwner": 11.1,
             "fixture": "LIV A v EVE",
-            "score": 32.62,
+            "score": 32.81,
             "threat": false
           },
           {
@@ -1472,7 +1472,7 @@
             "upgrade": 7,
             "globalOwner": 2.1,
             "fixture": "HUL A v CRY",
-            "score": 32.31,
+            "score": 32.32,
             "threat": false
           },
           {
@@ -1485,9 +1485,9 @@
             "form": 8,
             "outgoingForm": 1,
             "upgrade": 7,
-            "globalOwner": 4.6,
+            "globalOwner": 4.7,
             "fixture": "BOU A v FUL",
-            "score": 30.82,
+            "score": 30.84,
             "threat": false
           },
           {
@@ -1515,9 +1515,9 @@
             "form": 8,
             "outgoingForm": 2,
             "upgrade": 6,
-            "globalOwner": 27.6,
+            "globalOwner": 27.7,
             "fixture": "BOU A v FUL",
-            "score": 29.19,
+            "score": 29.22,
             "threat": true
           },
           {
@@ -1532,7 +1532,7 @@
             "upgrade": 5.3,
             "globalOwner": 4.1,
             "fixture": "BOU A v FUL",
-            "score": 24.53,
+            "score": 24.54,
             "threat": false
           },
           {
@@ -1545,7 +1545,7 @@
             "form": 4.3,
             "outgoingForm": 1,
             "upgrade": 3.3,
-            "globalOwner": 48.2,
+            "globalOwner": 48.1,
             "fixture": "ARS H v MCI",
             "score": 18.83,
             "threat": true
@@ -1573,7 +1573,7 @@
             "price": 8.1,
             "maxPrice": 7.1,
             "out": "Gvardiol",
-            "globalOwner": 26.8,
+            "globalOwner": 26.9,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -2137,15 +2137,15 @@
             "form": 9.7,
             "outgoingForm": 5.3,
             "upgrade": 4.4,
-            "globalOwner": 10.6,
+            "globalOwner": 11.1,
             "fixture": "LIV A v EVE",
-            "score": 29.02,
+            "score": 29.21,
             "threat": false
           },
           {
             "out": "Isak",
             "in": "McBurnie",
-            "outPrice": 9.3,
+            "outPrice": 9.4,
             "inPrice": 5.5,
             "club": "HUL",
             "position": 4,
@@ -2154,13 +2154,13 @@
             "upgrade": 4,
             "globalOwner": 2.1,
             "fixture": "HUL A v CRY",
-            "score": 26.91,
+            "score": 26.92,
             "threat": false
           },
           {
             "out": "Isak",
             "in": "Barry",
-            "outPrice": 9.3,
+            "outPrice": 9.4,
             "inPrice": 5.7,
             "club": "EVE",
             "position": 4,
@@ -2190,7 +2190,7 @@
           {
             "out": "Isak",
             "in": "N.Jackson",
-            "outPrice": 9.3,
+            "outPrice": 9.4,
             "inPrice": 7.3,
             "club": "AVL",
             "position": 4,
@@ -2199,7 +2199,7 @@
             "upgrade": 2.3,
             "globalOwner": 36.6,
             "fixture": "AVL A v IPS",
-            "score": 22.98,
+            "score": 23,
             "threat": true
           },
           {
@@ -2214,22 +2214,22 @@
             "upgrade": 3.7,
             "globalOwner": 0.7,
             "fixture": "AVL A v IPS",
-            "score": 22.83,
+            "score": 22.84,
             "threat": false
           },
           {
             "out": "Raya",
             "in": "Verbruggen",
-            "outPrice": 6.3,
+            "outPrice": 6.2,
             "inPrice": 4.7,
             "club": "BHA",
             "position": 1,
             "form": 6.3,
             "outgoingForm": 4,
             "upgrade": 2.3,
-            "globalOwner": 24.8,
+            "globalOwner": 24.9,
             "fixture": "BHA H v NEW",
-            "score": 19.66,
+            "score": 19.68,
             "threat": true
           },
           {
@@ -2255,7 +2255,7 @@
             "price": 9.8,
             "maxPrice": 8.6,
             "out": "Rogers",
-            "globalOwner": 27.2,
+            "globalOwner": 27.1,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -2687,9 +2687,9 @@
             "form": 9.7,
             "outgoingForm": 1.3,
             "upgrade": 8.4,
-            "globalOwner": 10.6,
+            "globalOwner": 11.1,
             "fixture": "LIV A v EVE",
-            "score": 37.42,
+            "score": 37.61,
             "threat": false
           },
           {
@@ -2704,7 +2704,7 @@
             "upgrade": 7,
             "globalOwner": 2.1,
             "fixture": "HUL A v CRY",
-            "score": 32.31,
+            "score": 32.32,
             "threat": false
           },
           {
@@ -2749,7 +2749,7 @@
             "upgrade": 5.7,
             "globalOwner": 0.7,
             "fixture": "AVL A v IPS",
-            "score": 27.63,
+            "score": 27.64,
             "threat": false
           },
           {
@@ -2762,10 +2762,25 @@
             "form": 6.7,
             "outgoingForm": 1.3,
             "upgrade": 5.4,
-            "globalOwner": 1.4,
+            "globalOwner": 1.5,
             "fixture": "LEE H v COV",
-            "score": 27.45,
+            "score": 27.48,
             "threat": false
+          },
+          {
+            "out": "Haaland",
+            "in": "Isak",
+            "outPrice": 15.8,
+            "inPrice": 9.4,
+            "club": "LIV",
+            "position": 4,
+            "form": 5,
+            "outgoingForm": 2,
+            "upgrade": 3,
+            "globalOwner": 27.4,
+            "fixture": "LIV A v EVE",
+            "score": 18.52,
+            "threat": true
           },
           {
             "out": "Mbeumo",
@@ -2777,24 +2792,9 @@
             "form": 4,
             "outgoingForm": 1.3,
             "upgrade": 2.7,
-            "globalOwner": 27.2,
+            "globalOwner": 27.1,
             "fixture": "CHE A v NFO",
             "score": 18.48,
-            "threat": true
-          },
-          {
-            "out": "Haaland",
-            "in": "Isak",
-            "outPrice": 15.8,
-            "inPrice": 9.3,
-            "club": "LIV",
-            "position": 4,
-            "form": 5,
-            "outgoingForm": 2,
-            "upgrade": 3,
-            "globalOwner": 27.2,
-            "fixture": "LIV A v EVE",
-            "score": 18.44,
             "threat": true
           }
         ],
@@ -2805,7 +2805,7 @@
             "price": 8.1,
             "maxPrice": 8,
             "out": "De Cuyper",
-            "globalOwner": 26.8,
+            "globalOwner": 26.9,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -3137,9 +3137,9 @@
             "form": 9.7,
             "outgoingForm": 1.7,
             "upgrade": 8,
-            "globalOwner": 10.6,
+            "globalOwner": 11.1,
             "fixture": "LIV A v EVE",
-            "score": 35.5,
+            "score": 35.69,
             "threat": false
           },
           {
@@ -3154,7 +3154,7 @@
             "upgrade": 7.3,
             "globalOwner": 2.1,
             "fixture": "HUL A v CRY",
-            "score": 32.85,
+            "score": 32.86,
             "threat": false
           },
           {
@@ -3167,9 +3167,9 @@
             "form": 8,
             "outgoingForm": 0.3,
             "upgrade": 7.7,
-            "globalOwner": 4.6,
+            "globalOwner": 4.7,
             "fixture": "BOU A v FUL",
-            "score": 32.08,
+            "score": 32.1,
             "threat": false
           },
           {
@@ -3182,9 +3182,9 @@
             "form": 8,
             "outgoingForm": 1.7,
             "upgrade": 6.3,
-            "globalOwner": 27.6,
+            "globalOwner": 27.7,
             "fixture": "BOU A v FUL",
-            "score": 29.73,
+            "score": 29.76,
             "threat": true
           },
           {
@@ -3199,7 +3199,7 @@
             "upgrade": 5.6,
             "globalOwner": 36.6,
             "fixture": "AVL A v IPS",
-            "score": 28.92,
+            "score": 28.94,
             "threat": true
           },
           {
@@ -3557,9 +3557,9 @@
             "form": 8.3,
             "outgoingForm": 1.3,
             "upgrade": 7,
-            "globalOwner": 19.7,
+            "globalOwner": 19.8,
             "fixture": "TOT A v SUN",
-            "score": 31.01,
+            "score": 31.05,
             "threat": false
           },
           {
@@ -3572,9 +3572,9 @@
             "form": 9.7,
             "outgoingForm": 4.7,
             "upgrade": 5,
-            "globalOwner": 10.6,
+            "globalOwner": 11.1,
             "fixture": "LIV A v EVE",
-            "score": 30.1,
+            "score": 30.29,
             "threat": false
           },
           {
@@ -3587,15 +3587,15 @@
             "form": 8,
             "outgoingForm": 1.3,
             "upgrade": 6.7,
-            "globalOwner": 4.6,
+            "globalOwner": 4.7,
             "fixture": "BOU A v FUL",
-            "score": 29.08,
+            "score": 29.1,
             "threat": false
           },
           {
             "out": "Isak",
             "in": "McBurnie",
-            "outPrice": 9.3,
+            "outPrice": 9.4,
             "inPrice": 5.5,
             "club": "HUL",
             "position": 4,
@@ -3604,7 +3604,7 @@
             "upgrade": 4,
             "globalOwner": 2.1,
             "fixture": "HUL A v CRY",
-            "score": 26.91,
+            "score": 26.92,
             "threat": false
           },
           {
@@ -3619,7 +3619,7 @@
             "upgrade": 5,
             "globalOwner": 2.1,
             "fixture": "SUN H v TOT",
-            "score": 25.54,
+            "score": 25.55,
             "threat": false
           },
           {
@@ -3640,7 +3640,7 @@
           {
             "out": "Isak",
             "in": "N.Jackson",
-            "outPrice": 9.3,
+            "outPrice": 9.4,
             "inPrice": 7.3,
             "club": "AVL",
             "position": 4,
@@ -3649,7 +3649,7 @@
             "upgrade": 2.3,
             "globalOwner": 36.6,
             "fixture": "AVL A v IPS",
-            "score": 22.98,
+            "score": 23,
             "threat": true
           },
           {
@@ -3675,7 +3675,7 @@
             "price": 8.1,
             "maxPrice": 6.7,
             "out": "Tarkowski",
-            "globalOwner": 26.8,
+            "globalOwner": 26.9,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -3684,7 +3684,7 @@
             "price": 9.8,
             "maxPrice": 8.8,
             "out": "Rogers",
-            "globalOwner": 27.2,
+            "globalOwner": 27.1,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -4033,9 +4033,9 @@
             "form": 9.7,
             "outgoingForm": 3,
             "upgrade": 6.7,
-            "globalOwner": 10.6,
+            "globalOwner": 11.1,
             "fixture": "LIV A v EVE",
-            "score": 33.16,
+            "score": 33.35,
             "threat": false
           },
           {
@@ -4050,7 +4050,7 @@
             "upgrade": 7.3,
             "globalOwner": 2.1,
             "fixture": "HUL A v CRY",
-            "score": 32.85,
+            "score": 32.86,
             "threat": false
           },
           {
@@ -4078,9 +4078,9 @@
             "form": 8,
             "outgoingForm": 1.3,
             "upgrade": 6.7,
-            "globalOwner": 4.6,
+            "globalOwner": 4.7,
             "fixture": "BOU A v FUL",
-            "score": 30.28,
+            "score": 30.3,
             "threat": false
           },
           {
@@ -4093,9 +4093,9 @@
             "form": 8,
             "outgoingForm": 1.7,
             "upgrade": 6.3,
-            "globalOwner": 27.6,
+            "globalOwner": 27.7,
             "fixture": "BOU A v FUL",
-            "score": 29.73,
+            "score": 29.76,
             "threat": true
           },
           {
@@ -4110,7 +4110,7 @@
             "upgrade": 5.3,
             "globalOwner": 36.6,
             "fixture": "AVL A v IPS",
-            "score": 28.38,
+            "score": 28.4,
             "threat": true
           },
           {
@@ -4151,7 +4151,7 @@
             "price": 8.1,
             "maxPrice": 7.2,
             "out": "Tarkowski",
-            "globalOwner": 26.8,
+            "globalOwner": 26.9,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -4160,7 +4160,7 @@
             "price": 9.8,
             "maxPrice": 9.3,
             "out": "Rogers",
-            "globalOwner": 27.2,
+            "globalOwner": 27.1,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -4623,9 +4623,9 @@
             "form": 9.7,
             "outgoingForm": 1.7,
             "upgrade": 8,
-            "globalOwner": 10.6,
+            "globalOwner": 11.1,
             "fixture": "LIV A v EVE",
-            "score": 36.7,
+            "score": 36.89,
             "threat": false
           },
           {
@@ -4640,7 +4640,7 @@
             "upgrade": 8,
             "globalOwner": 2.1,
             "fixture": "HUL A v CRY",
-            "score": 35.31,
+            "score": 35.32,
             "threat": false
           },
           {
@@ -4668,9 +4668,9 @@
             "form": 8,
             "outgoingForm": 1,
             "upgrade": 7,
-            "globalOwner": 27.6,
+            "globalOwner": 27.7,
             "fixture": "BOU A v FUL",
-            "score": 32.19,
+            "score": 32.22,
             "threat": true
           },
           {
@@ -4683,9 +4683,9 @@
             "form": 8.3,
             "outgoingForm": 3.7,
             "upgrade": 4.6,
-            "globalOwner": 19.7,
+            "globalOwner": 19.8,
             "fixture": "TOT A v SUN",
-            "score": 27.89,
+            "score": 27.93,
             "threat": false
           },
           {
@@ -4715,7 +4715,7 @@
             "upgrade": 3.6,
             "globalOwner": 49.6,
             "fixture": "BHA H v NEW",
-            "score": 22.64,
+            "score": 22.65,
             "threat": true
           },
           {
@@ -4730,7 +4730,7 @@
             "upgrade": 3,
             "globalOwner": 20,
             "fixture": "MUN H v BRE",
-            "score": 18.97,
+            "score": 18.99,
             "threat": true
           }
         ],
@@ -4741,7 +4741,7 @@
             "price": 15.8,
             "maxPrice": 13.1,
             "out": "N.Jackson",
-            "globalOwner": 77.4,
+            "globalOwner": 77.2,
             "reason": "ราคาเกินงบของ transfer เดียว"
           }
         ],
@@ -5065,9 +5065,9 @@
             "form": 9.7,
             "outgoingForm": 3.3,
             "upgrade": 6.4,
-            "globalOwner": 10.6,
+            "globalOwner": 11.1,
             "fixture": "LIV A v EVE",
-            "score": 32.62,
+            "score": 32.81,
             "threat": false
           },
           {
@@ -5082,7 +5082,7 @@
             "upgrade": 7,
             "globalOwner": 2.1,
             "fixture": "HUL A v CRY",
-            "score": 32.31,
+            "score": 32.32,
             "threat": false
           },
           {
@@ -5095,9 +5095,9 @@
             "form": 8.3,
             "outgoingForm": 2,
             "upgrade": 6.3,
-            "globalOwner": 19.7,
+            "globalOwner": 19.8,
             "fixture": "TOT A v SUN",
-            "score": 30.95,
+            "score": 30.99,
             "threat": false
           },
           {
@@ -5127,7 +5127,7 @@
             "upgrade": 7,
             "globalOwner": 2.1,
             "fixture": "SUN H v TOT",
-            "score": 29.14,
+            "score": 29.15,
             "threat": false
           },
           {
@@ -5140,9 +5140,9 @@
             "form": 8,
             "outgoingForm": 2,
             "upgrade": 6,
-            "globalOwner": 4.6,
+            "globalOwner": 4.7,
             "fixture": "BOU A v FUL",
-            "score": 29.02,
+            "score": 29.04,
             "threat": false
           },
           {
@@ -5155,24 +5155,24 @@
             "form": 6.3,
             "outgoingForm": 0,
             "upgrade": 6.3,
-            "globalOwner": 24.8,
+            "globalOwner": 24.9,
             "fixture": "BHA H v NEW",
-            "score": 28.06,
+            "score": 28.08,
             "threat": true
           },
           {
             "out": "Raya",
             "in": "Verbruggen",
-            "outPrice": 6.3,
+            "outPrice": 6.2,
             "inPrice": 4.7,
             "club": "BHA",
             "position": 1,
             "form": 6.3,
             "outgoingForm": 4,
             "upgrade": 2.3,
-            "globalOwner": 24.8,
+            "globalOwner": 24.9,
             "fixture": "BHA H v NEW",
-            "score": 19.66,
+            "score": 19.68,
             "threat": true
           }
         ],
@@ -5651,9 +5651,9 @@
             "form": 9.7,
             "outgoingForm": 4,
             "upgrade": 5.7,
-            "globalOwner": 10.6,
+            "globalOwner": 11.1,
             "fixture": "LIV A v EVE",
-            "score": 31.36,
+            "score": 31.55,
             "threat": false
           },
           {
@@ -5683,7 +5683,7 @@
             "upgrade": 5.3,
             "globalOwner": 0.7,
             "fixture": "AVL A v IPS",
-            "score": 26.91,
+            "score": 26.92,
             "threat": false
           },
           {
@@ -5696,9 +5696,9 @@
             "form": 6.7,
             "outgoingForm": 1.7,
             "upgrade": 5,
-            "globalOwner": 1.4,
+            "globalOwner": 1.5,
             "fixture": "LEE H v COV",
-            "score": 26.73,
+            "score": 26.76,
             "threat": false
           },
           {
@@ -5713,7 +5713,7 @@
             "upgrade": 5.3,
             "globalOwner": 1.9,
             "fixture": "COV A v LEE",
-            "score": 25.64,
+            "score": 25.65,
             "threat": false
           },
           {
@@ -5734,16 +5734,16 @@
           {
             "out": "Raya",
             "in": "Verbruggen",
-            "outPrice": 6.3,
+            "outPrice": 6.2,
             "inPrice": 4.7,
             "club": "BHA",
             "position": 1,
             "form": 6.3,
             "outgoingForm": 4,
             "upgrade": 2.3,
-            "globalOwner": 24.8,
+            "globalOwner": 24.9,
             "fixture": "BHA H v NEW",
-            "score": 19.66,
+            "score": 19.68,
             "threat": true
           }
         ],
@@ -5754,16 +5754,16 @@
             "price": 8.1,
             "maxPrice": 6.3,
             "out": "Calafiori",
-            "globalOwner": 26.8,
+            "globalOwner": 26.9,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
             "in": "Isak",
             "position": 4,
-            "price": 9.3,
+            "price": 9.4,
             "maxPrice": 7.7,
             "out": "N.Jackson",
-            "globalOwner": 27.2,
+            "globalOwner": 27.4,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -6102,9 +6102,9 @@
             "form": 9.7,
             "outgoingForm": 3.7,
             "upgrade": 6,
-            "globalOwner": 10.6,
+            "globalOwner": 11.1,
             "fixture": "LIV A v EVE",
-            "score": 33.1,
+            "score": 33.29,
             "threat": false
           },
           {
@@ -6119,7 +6119,7 @@
             "upgrade": 7.3,
             "globalOwner": 2.1,
             "fixture": "HUL A v CRY",
-            "score": 32.85,
+            "score": 32.86,
             "threat": false
           },
           {
@@ -6132,9 +6132,9 @@
             "form": 8.3,
             "outgoingForm": 1,
             "upgrade": 7.3,
-            "globalOwner": 19.7,
+            "globalOwner": 19.8,
             "fixture": "TOT A v SUN",
-            "score": 32.75,
+            "score": 32.79,
             "threat": false
           },
           {
@@ -6162,9 +6162,9 @@
             "form": 8,
             "outgoingForm": 1,
             "upgrade": 7,
-            "globalOwner": 4.6,
+            "globalOwner": 4.7,
             "fixture": "BOU A v FUL",
-            "score": 30.82,
+            "score": 30.84,
             "threat": false
           },
           {
@@ -6177,9 +6177,9 @@
             "form": 8,
             "outgoingForm": 1.7,
             "upgrade": 6.3,
-            "globalOwner": 27.6,
+            "globalOwner": 27.7,
             "fixture": "BOU A v FUL",
-            "score": 29.73,
+            "score": 29.76,
             "threat": true
           },
           {
@@ -6209,7 +6209,7 @@
             "upgrade": 1,
             "globalOwner": 33.7,
             "fixture": "BOU A v FUL",
-            "score": 15.93,
+            "score": 15.95,
             "threat": true
           }
         ],
@@ -6728,9 +6728,9 @@
             "form": 9.7,
             "outgoingForm": 1.7,
             "upgrade": 8,
-            "globalOwner": 10.6,
+            "globalOwner": 11.1,
             "fixture": "LIV A v EVE",
-            "score": 35.5,
+            "score": 35.69,
             "threat": false
           },
           {
@@ -6745,7 +6745,7 @@
             "upgrade": 7,
             "globalOwner": 2.1,
             "fixture": "HUL A v CRY",
-            "score": 32.31,
+            "score": 32.32,
             "threat": false
           },
           {
@@ -6758,9 +6758,9 @@
             "form": 8,
             "outgoingForm": 0.3,
             "upgrade": 7.7,
-            "globalOwner": 4.6,
+            "globalOwner": 4.7,
             "fixture": "BOU A v FUL",
-            "score": 32.08,
+            "score": 32.1,
             "threat": false
           },
           {
@@ -6790,7 +6790,7 @@
             "upgrade": 7,
             "globalOwner": 2.1,
             "fixture": "SUN H v TOT",
-            "score": 29.14,
+            "score": 29.15,
             "threat": false
           },
           {
@@ -6803,9 +6803,9 @@
             "form": 6.3,
             "outgoingForm": 0,
             "upgrade": 6.3,
-            "globalOwner": 24.8,
+            "globalOwner": 24.9,
             "fixture": "BHA H v NEW",
-            "score": 28.06,
+            "score": 28.08,
             "threat": true
           },
           {
@@ -7148,9 +7148,9 @@
             "form": 9.7,
             "outgoingForm": 1.7,
             "upgrade": 8,
-            "globalOwner": 10.6,
+            "globalOwner": 11.1,
             "fixture": "LIV A v EVE",
-            "score": 35.5,
+            "score": 35.69,
             "threat": false
           },
           {
@@ -7178,9 +7178,9 @@
             "form": 8,
             "outgoingForm": 2,
             "upgrade": 6,
-            "globalOwner": 27.6,
+            "globalOwner": 27.7,
             "fixture": "BOU A v FUL",
-            "score": 30.39,
+            "score": 30.42,
             "threat": true
           },
           {
@@ -7195,7 +7195,7 @@
             "upgrade": 5.3,
             "globalOwner": 36.6,
             "fixture": "AVL A v IPS",
-            "score": 29.58,
+            "score": 29.6,
             "threat": true
           },
           {
@@ -7208,9 +7208,9 @@
             "form": 8.3,
             "outgoingForm": 2.3,
             "upgrade": 6,
-            "globalOwner": 19.7,
+            "globalOwner": 19.8,
             "fixture": "TOT A v SUN",
-            "score": 29.21,
+            "score": 29.25,
             "threat": false
           },
           {
@@ -7223,9 +7223,9 @@
             "form": 8,
             "outgoingForm": 2.3,
             "upgrade": 5.7,
-            "globalOwner": 4.6,
+            "globalOwner": 4.7,
             "fixture": "BOU A v FUL",
-            "score": 27.28,
+            "score": 27.3,
             "threat": false
           },
           {
@@ -7263,10 +7263,10 @@
           {
             "in": "Isak",
             "position": 4,
-            "price": 9.3,
+            "price": 9.4,
             "maxPrice": 9.1,
             "out": "Calvert-Lewin",
-            "globalOwner": 27.2,
+            "globalOwner": 27.4,
             "reason": "ราคาเกินงบของ transfer เดียว"
           }
         ],
@@ -7584,9 +7584,9 @@
             "form": 8.3,
             "outgoingForm": 0.7,
             "upgrade": 7.6,
-            "globalOwner": 19.7,
+            "globalOwner": 19.8,
             "fixture": "TOT A v SUN",
-            "score": 32.09,
+            "score": 32.13,
             "threat": false
           },
           {
@@ -7614,9 +7614,9 @@
             "form": 8,
             "outgoingForm": 0.7,
             "upgrade": 7.3,
-            "globalOwner": 4.6,
+            "globalOwner": 4.7,
             "fixture": "BOU A v FUL",
-            "score": 30.16,
+            "score": 30.18,
             "threat": false
           },
           {
@@ -7631,7 +7631,7 @@
             "upgrade": 7,
             "globalOwner": 0.7,
             "fixture": "AVL A v IPS",
-            "score": 29.97,
+            "score": 29.98,
             "threat": false
           },
           {
@@ -7644,9 +7644,9 @@
             "form": 6.7,
             "outgoingForm": 0,
             "upgrade": 6.7,
-            "globalOwner": 1.4,
+            "globalOwner": 1.5,
             "fixture": "LEE H v COV",
-            "score": 29.79,
+            "score": 29.82,
             "threat": false
           },
           {
@@ -7661,7 +7661,7 @@
             "upgrade": 7,
             "globalOwner": 1.9,
             "fixture": "COV A v LEE",
-            "score": 28.7,
+            "score": 28.71,
             "threat": false
           },
           {
@@ -7674,9 +7674,9 @@
             "form": 6.3,
             "outgoingForm": 0.3,
             "upgrade": 6,
-            "globalOwner": 24.8,
+            "globalOwner": 24.9,
             "fixture": "BHA H v NEW",
-            "score": 27.52,
+            "score": 27.54,
             "threat": true
           },
           {
@@ -7702,16 +7702,16 @@
             "price": 9.8,
             "maxPrice": 8.5,
             "out": "Semenyo",
-            "globalOwner": 27.2,
+            "globalOwner": 27.1,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
             "in": "Haaland",
             "position": 4,
             "price": 15.8,
-            "maxPrice": 9.7,
+            "maxPrice": 9.8,
             "out": "Isak",
-            "globalOwner": 77.4,
+            "globalOwner": 77.2,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -8331,7 +8331,7 @@
             "upgrade": 7,
             "globalOwner": 2.1,
             "fixture": "HUL A v CRY",
-            "score": 32.31,
+            "score": 32.32,
             "threat": false
           },
           {
@@ -8359,9 +8359,9 @@
             "form": 8,
             "outgoingForm": 2,
             "upgrade": 6,
-            "globalOwner": 27.6,
+            "globalOwner": 27.7,
             "fixture": "BOU A v FUL",
-            "score": 29.19,
+            "score": 29.22,
             "threat": true
           },
           {
@@ -8391,7 +8391,7 @@
             "upgrade": 5.3,
             "globalOwner": 0.7,
             "fixture": "AVL A v IPS",
-            "score": 25.71,
+            "score": 25.72,
             "threat": false
           },
           {
@@ -8404,9 +8404,9 @@
             "form": 8.3,
             "outgoingForm": 4.3,
             "upgrade": 4,
-            "globalOwner": 19.7,
+            "globalOwner": 19.8,
             "fixture": "TOT A v SUN",
-            "score": 25.61,
+            "score": 25.65,
             "threat": false
           },
           {
@@ -8456,7 +8456,7 @@
             "price": 9.8,
             "maxPrice": 7.4,
             "out": "Wirtz",
-            "globalOwner": 27.2,
+            "globalOwner": 27.1,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -8465,7 +8465,7 @@
             "price": 7.8,
             "maxPrice": 7.4,
             "out": "Wirtz",
-            "globalOwner": 31.5,
+            "globalOwner": 31.4,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -9020,9 +9020,9 @@
             "form": 9.7,
             "outgoingForm": 1.3,
             "upgrade": 8.4,
-            "globalOwner": 10.6,
+            "globalOwner": 11.1,
             "fixture": "LIV A v EVE",
-            "score": 36.22,
+            "score": 36.41,
             "threat": false
           },
           {
@@ -9052,7 +9052,7 @@
             "upgrade": 5.7,
             "globalOwner": 0.7,
             "fixture": "AVL A v IPS",
-            "score": 26.43,
+            "score": 26.44,
             "threat": false
           },
           {
@@ -9065,9 +9065,9 @@
             "form": 6.7,
             "outgoingForm": 1.3,
             "upgrade": 5.4,
-            "globalOwner": 1.4,
+            "globalOwner": 1.5,
             "fixture": "LEE H v COV",
-            "score": 26.25,
+            "score": 26.28,
             "threat": false
           },
           {
@@ -9082,7 +9082,7 @@
             "upgrade": 5.7,
             "globalOwner": 1.9,
             "fixture": "COV A v LEE",
-            "score": 25.16,
+            "score": 25.17,
             "threat": false
           },
           {
@@ -9095,24 +9095,24 @@
             "form": 8.3,
             "outgoingForm": 4.7,
             "upgrade": 3.6,
-            "globalOwner": 19.7,
+            "globalOwner": 19.8,
             "fixture": "TOT A v SUN",
-            "score": 24.89,
+            "score": 24.93,
             "threat": false
           },
           {
             "out": "Raya",
             "in": "Verbruggen",
-            "outPrice": 6.3,
+            "outPrice": 6.2,
             "inPrice": 4.7,
             "club": "BHA",
             "position": 1,
             "form": 6.3,
             "outgoingForm": 4,
             "upgrade": 2.3,
-            "globalOwner": 24.8,
+            "globalOwner": 24.9,
             "fixture": "BHA H v NEW",
-            "score": 19.66,
+            "score": 19.68,
             "threat": true
           },
           {
@@ -9125,9 +9125,9 @@
             "form": 6.3,
             "outgoingForm": 5.7,
             "upgrade": 0.6,
-            "globalOwner": 24.8,
+            "globalOwner": 24.9,
             "fixture": "BHA H v NEW",
-            "score": 17.8,
+            "score": 17.82,
             "threat": true
           }
         ],
@@ -9156,16 +9156,16 @@
             "price": 9.8,
             "maxPrice": 7.8,
             "out": "Mbeumo",
-            "globalOwner": 27.2,
+            "globalOwner": 27.1,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
             "in": "Isak",
             "position": 4,
-            "price": 9.3,
+            "price": 9.4,
             "maxPrice": 6.6,
             "out": "Evanilson",
-            "globalOwner": 27.2,
+            "globalOwner": 27.4,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -9353,9 +9353,9 @@
             "form": 9.7,
             "outgoingForm": 1.3,
             "upgrade": 8.4,
-            "globalOwner": 10.6,
+            "globalOwner": 11.1,
             "fixture": "LIV A v EVE",
-            "score": 36.22,
+            "score": 36.41,
             "threat": false
           },
           {
@@ -9368,9 +9368,9 @@
             "form": 8.3,
             "outgoingForm": 0,
             "upgrade": 8.3,
-            "globalOwner": 19.7,
+            "globalOwner": 19.8,
             "fixture": "TOT A v SUN",
-            "score": 34.55,
+            "score": 34.59,
             "threat": false
           },
           {
@@ -9385,7 +9385,7 @@
             "upgrade": 6.7,
             "globalOwner": 2.1,
             "fixture": "HUL A v CRY",
-            "score": 32.97,
+            "score": 32.98,
             "threat": false
           },
           {
@@ -9413,9 +9413,9 @@
             "form": 8,
             "outgoingForm": 2.3,
             "upgrade": 5.7,
-            "globalOwner": 27.6,
+            "globalOwner": 27.7,
             "fixture": "BOU A v FUL",
-            "score": 29.85,
+            "score": 29.88,
             "threat": true
           },
           {
@@ -9430,7 +9430,7 @@
             "upgrade": 5,
             "globalOwner": 36.6,
             "fixture": "AVL A v IPS",
-            "score": 29.04,
+            "score": 29.06,
             "threat": true
           },
           {
@@ -9471,16 +9471,16 @@
             "price": 8.1,
             "maxPrice": 7,
             "out": "Calafiori",
-            "globalOwner": 26.8,
+            "globalOwner": 26.9,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
             "in": "Haaland",
             "position": 4,
             "price": 15.8,
-            "maxPrice": 10.4,
+            "maxPrice": 10.5,
             "out": "Isak",
-            "globalOwner": 77.4,
+            "globalOwner": 77.2,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
