@@ -1,5 +1,5 @@
 {
-  "generatedAt": "27/11/2569 15:22:25",
+  "generatedAt": "28/11/2569 04:13:30",
   "modelVersion": "v1.2",
   "league": {
     "admin_entry": 2164081,
@@ -16,63 +16,63 @@
     "scoring": "c",
     "start_event": 1
   },
-  "currentEvent": 11,
-  "nextEvent": 12,
+  "currentEvent": 12,
+  "nextEvent": 13,
   "currentStatus": {
-    "finished": true,
-    "dataChecked": true,
-    "deadline": "2026-11-21T11:00:00Z"
+    "finished": false,
+    "dataChecked": false,
+    "deadline": "2026-11-27T18:30:00Z"
   },
   "fixtures": [
     {
-      "kickoff": "2026-11-27T20:00:00Z",
-      "home": "NFO",
-      "away": "CHE"
+      "kickoff": "2026-12-01T20:00:00Z",
+      "home": "COV",
+      "away": "IPS"
     },
     {
-      "kickoff": "2026-11-28T15:00:00Z",
-      "home": "LEE",
-      "away": "COV"
+      "kickoff": "2026-12-02T19:30:00Z",
+      "home": "CHE",
+      "away": "CRY"
     },
     {
-      "kickoff": "2026-11-28T15:00:00Z",
-      "home": "MUN",
-      "away": "BRE"
+      "kickoff": "2026-12-02T19:30:00Z",
+      "home": "HUL",
+      "away": "NFO"
     },
     {
-      "kickoff": "2026-11-28T17:30:00Z",
-      "home": "IPS",
-      "away": "AVL"
+      "kickoff": "2026-12-02T19:30:00Z",
+      "home": "LIV",
+      "away": "SUN"
     },
     {
-      "kickoff": "2026-11-29T12:00:00Z",
-      "home": "EVE",
-      "away": "LIV"
+      "kickoff": "2026-12-02T19:30:00Z",
+      "home": "MCI",
+      "away": "LEE"
     },
     {
-      "kickoff": "2026-11-29T14:05:00Z",
-      "home": "BHA",
-      "away": "NEW"
+      "kickoff": "2026-12-02T20:15:00Z",
+      "home": "AVL",
+      "away": "EVE"
     },
     {
-      "kickoff": "2026-11-29T14:05:00Z",
-      "home": "CRY",
-      "away": "HUL"
+      "kickoff": "2026-12-02T20:15:00Z",
+      "home": "BOU",
+      "away": "BHA"
     },
     {
-      "kickoff": "2026-11-29T14:05:00Z",
-      "home": "FUL",
-      "away": "BOU"
+      "kickoff": "2026-12-02T20:15:00Z",
+      "home": "BRE",
+      "away": "ARS"
     },
     {
-      "kickoff": "2026-11-29T14:05:00Z",
-      "home": "SUN",
-      "away": "TOT"
+      "kickoff": "2026-12-02T20:15:00Z",
+      "home": "NEW",
+      "away": "MUN"
     },
     {
-      "kickoff": "2026-11-29T16:30:00Z",
-      "home": "ARS",
-      "away": "MCI"
+      "kickoff": "2026-12-03T20:00:00Z",
+      "home": "TOT",
+      "away": "FUL"
     }
   ],
   "rivals": [
@@ -81,11 +81,11 @@
       "rank": 1,
       "name": "Palm Xavier",
       "team": "ช่วยใจดีกับลุงหน่อย",
-      "total": 749,
+      "total": 750,
       "current": {
-        "event": 11,
-        "points": 40,
-        "captain": "Haaland",
+        "event": 12,
+        "points": 0,
+        "captain": "Isak",
         "captainMultiplier": 2,
         "picks": [
           {
@@ -99,8 +99,8 @@
             "flag": "XI"
           },
           {
-            "name": "Konsa",
-            "club": "ARS",
+            "name": "Muharemović",
+            "club": "LEE",
             "flag": "XI"
           },
           {
@@ -124,14 +124,14 @@
             "flag": "XI"
           },
           {
-            "name": "Palmer",
-            "club": "CHE",
+            "name": "Wirtz",
+            "club": "LIV",
             "flag": "XI"
           },
           {
             "name": "Isak",
             "club": "LIV",
-            "flag": "XI"
+            "flag": "C"
           },
           {
             "name": "N.Jackson",
@@ -141,7 +141,7 @@
           {
             "name": "Haaland",
             "club": "MCI",
-            "flag": "C"
+            "flag": "XI"
           },
           {
             "name": "Dubravka",
@@ -154,13 +154,13 @@
             "flag": "B"
           },
           {
-            "name": "Mitchell",
-            "club": "CRY",
+            "name": "Konsa",
+            "club": "ARS",
             "flag": "B"
           },
           {
-            "name": "Muharemović",
-            "club": "LEE",
+            "name": "Mitchell",
+            "club": "CRY",
             "flag": "B"
           }
         ]
@@ -253,9 +253,23 @@
           "transfers": 0,
           "hit": 0,
           "bench": 10
+        },
+        {
+          "event": 12,
+          "points": 0,
+          "rank": null,
+          "transfers": 1,
+          "hit": 0,
+          "bench": 0
         }
       ],
       "transfers": [
+        {
+          "event": 12,
+          "out": "Palmer",
+          "in": "Wirtz",
+          "time": "2026-11-27T14:44:50.318408Z"
+        },
         {
           "event": 10,
           "out": "Slater",
@@ -395,107 +409,137 @@
         }
       ],
       "profile": {
-        "transferRate": 64,
-        "avgMoves": 2.86,
-        "hitRate": 18,
-        "captainHaalandRate": 64,
+        "transferRate": 67,
+        "avgMoves": 2.63,
+        "hitRate": 17,
+        "captainHaalandRate": 58,
         "chipCountRecent": 0,
-        "sampleGWs": 11
+        "sampleGWs": 12
       },
       "simulated": {
         "action": "likely_transfer",
         "confidence": "medium",
-        "transferPressure": 98,
+        "transferPressure": 92,
         "candidates": [
           {
-            "out": "Palmer",
-            "in": "Wirtz",
-            "outPrice": 9.8,
-            "inPrice": 7.5,
-            "club": "LIV",
-            "position": 3,
-            "form": 9.7,
-            "outgoingForm": 4,
-            "upgrade": 5.7,
-            "globalOwner": 13.3,
-            "fixture": "LIV A v EVE",
-            "score": 32.43,
-            "threat": false
-          },
-          {
-            "out": "Isak",
+            "out": "Haaland",
             "in": "McBurnie",
-            "outPrice": 9.4,
+            "outPrice": 15.7,
             "inPrice": 5.5,
             "club": "HUL",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 5,
-            "upgrade": 4,
-            "globalOwner": 2.2,
-            "fixture": "HUL A v CRY",
-            "score": 26.96,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 2.3,
+            "fixture": "HUL H v NFO",
+            "score": 24.52,
             "threat": false
           },
           {
-            "out": "Isak",
+            "out": "Haaland",
             "in": "Barry",
-            "outPrice": 9.4,
+            "outPrice": 15.7,
             "inPrice": 5.7,
             "club": "EVE",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 5,
-            "upgrade": 4,
-            "globalOwner": 11.1,
-            "fixture": "EVE H v LIV",
-            "score": 25.08,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 10.8,
+            "fixture": "EVE A v AVL",
+            "score": 24.44,
             "threat": false
           },
           {
-            "out": "Isak",
+            "out": "Mitchell",
+            "in": "Hill",
+            "outPrice": 4.4,
+            "inPrice": 5.7,
+            "club": "BOU",
+            "position": 2,
+            "form": 6,
+            "outgoingForm": 1.2,
+            "upgrade": 4.8,
+            "globalOwner": 5.3,
+            "fixture": "BOU H v BHA",
+            "score": 22.21,
+            "threat": false
+          },
+          {
+            "out": "Haaland",
             "in": "Evanilson",
-            "outPrice": 9.4,
+            "outPrice": 15.7,
             "inPrice": 6.6,
             "club": "BOU",
             "position": 4,
-            "form": 8,
-            "outgoingForm": 5,
-            "upgrade": 3,
-            "globalOwner": 28,
-            "fixture": "BOU A v FUL",
-            "score": 24,
+            "form": 6,
+            "outgoingForm": 1.5,
+            "upgrade": 4.5,
+            "globalOwner": 28.7,
+            "fixture": "BOU H v BHA",
+            "score": 21.64,
+            "threat": true
+          },
+          {
+            "out": "Dubravka",
+            "in": "Roefs",
+            "outPrice": 3.9,
+            "inPrice": 4.8,
+            "club": "SUN",
+            "position": 1,
+            "form": 5.2,
+            "outgoingForm": 0,
+            "upgrade": 5.2,
+            "globalOwner": 2.1,
+            "fixture": "SUN A v LIV",
+            "score": 20.91,
+            "threat": false
+          },
+          {
+            "out": "Dubravka",
+            "in": "Kinsky",
+            "outPrice": 3.9,
+            "inPrice": 4.5,
+            "club": "TOT",
+            "position": 1,
+            "form": 3.8,
+            "outgoingForm": 0,
+            "upgrade": 3.8,
+            "globalOwner": 17.2,
+            "fixture": "TOT H v FUL",
+            "score": 20.06,
+            "threat": false
+          },
+          {
+            "out": "Mitchell",
+            "in": "Calafiori",
+            "outPrice": 4.4,
+            "inPrice": 5.9,
+            "club": "ARS",
+            "position": 2,
+            "form": 3.2,
+            "outgoingForm": 1.2,
+            "upgrade": 2,
+            "globalOwner": 47.9,
+            "fixture": "ARS A v BRE",
+            "score": 14.04,
             "threat": true
           },
           {
             "out": "Barnes",
-            "in": "E.Le Fée",
+            "in": "Cherki",
             "outPrice": 6,
-            "inPrice": 5.7,
-            "club": "SUN",
+            "inPrice": 7.8,
+            "club": "MCI",
             "position": 3,
-            "form": 7.3,
-            "outgoingForm": 3.7,
-            "upgrade": 3.6,
-            "globalOwner": 3.1,
-            "fixture": "SUN H v TOT",
-            "score": 23.6,
-            "threat": false
-          },
-          {
-            "out": "Barnes",
-            "in": "Alysson",
-            "outPrice": 6,
-            "inPrice": 4.9,
-            "club": "AVL",
-            "position": 3,
-            "form": 7,
-            "outgoingForm": 3.7,
-            "upgrade": 3.3,
-            "globalOwner": 0.7,
-            "fixture": "AVL A v IPS",
-            "score": 23.33,
-            "threat": false
+            "form": 2.8,
+            "outgoingForm": 2.8,
+            "upgrade": 0,
+            "globalOwner": 29.2,
+            "fixture": "MCI H v LEE",
+            "score": 10.72,
+            "threat": true
           }
         ],
         "blockedTargets": [
@@ -503,44 +547,26 @@
             "in": "Gabriel",
             "position": 2,
             "price": 8.1,
-            "maxPrice": 5.6,
+            "maxPrice": 7.8,
             "out": "De Cuyper",
-            "globalOwner": 26.9,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          },
-          {
-            "in": "Calafiori",
-            "position": 2,
-            "price": 5.9,
-            "maxPrice": 5.6,
-            "out": "De Cuyper",
-            "globalOwner": 47.8,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          },
-          {
-            "in": "B.Fernandes",
-            "position": 3,
-            "price": 11.6,
-            "maxPrice": 9.8,
-            "out": "Palmer",
-            "globalOwner": 20.4,
+            "globalOwner": 27,
             "reason": "ราคาเกินงบของ transfer เดียว"
           }
         ],
-        "captain": "Haaland",
+        "captain": "Isak",
         "captainConfidence": "last_revealed",
-        "reason": "อัตราใช้ FT จากอดีต 64%"
+        "reason": "อัตราใช้ FT จากอดีต 67%"
       },
       "learning": {
         "forecastVsActual": [
           {
-            "targetEvent": 11,
+            "targetEvent": 12,
             "predictedAction": "likely_transfer",
-            "actualAction": "likely_roll",
-            "actionCorrect": false,
+            "actualAction": "likely_transfer",
+            "actionCorrect": true,
             "predictedCaptain": "Haaland",
-            "actualCaptain": "Haaland",
-            "captainCorrect": true
+            "actualCaptain": "Isak",
+            "captainCorrect": false
           }
         ],
         "modelVersion": "v1.2"
@@ -553,9 +579,9 @@
       "team": "Yedtsuna",
       "total": 717,
       "current": {
-        "event": 11,
-        "points": 35,
-        "captain": "Haaland",
+        "event": 12,
+        "points": 0,
+        "captain": "N.Jackson",
         "captainMultiplier": 2,
         "picks": [
           {
@@ -569,18 +595,18 @@
             "flag": "XI"
           },
           {
-            "name": "Calafiori",
-            "club": "ARS",
+            "name": "Bogle",
+            "club": "LEE",
             "flag": "XI"
           },
           {
             "name": "De Cuyper",
             "club": "BHA",
-            "flag": "XI"
+            "flag": "VC"
           },
           {
-            "name": "Cherki",
-            "club": "MCI",
+            "name": "Wirtz",
+            "club": "LIV",
             "flag": "XI"
           },
           {
@@ -594,24 +620,24 @@
             "flag": "XI"
           },
           {
-            "name": "Rogers",
-            "club": "CHE",
+            "name": "Mbeumo",
+            "club": "MUN",
             "flag": "XI"
           },
           {
             "name": "Haaland",
             "club": "MCI",
-            "flag": "C"
+            "flag": "XI"
           },
           {
             "name": "Evanilson",
             "club": "BOU",
-            "flag": "VC"
+            "flag": "XI"
           },
           {
             "name": "N.Jackson",
             "club": "AVL",
-            "flag": "XI"
+            "flag": "C"
           },
           {
             "name": "Dubravka",
@@ -619,13 +645,13 @@
             "flag": "B"
           },
           {
-            "name": "Mbeumo",
-            "club": "MUN",
+            "name": "Rogers",
+            "club": "CHE",
             "flag": "B"
           },
           {
-            "name": "Bogle",
-            "club": "LEE",
+            "name": "Calafiori",
+            "club": "ARS",
             "flag": "B"
           },
           {
@@ -723,9 +749,23 @@
           "transfers": 0,
           "hit": 0,
           "bench": 5
+        },
+        {
+          "event": 12,
+          "points": 0,
+          "rank": null,
+          "transfers": 1,
+          "hit": 0,
+          "bench": 0
         }
       ],
       "transfers": [
+        {
+          "event": 12,
+          "out": "Cherki",
+          "in": "Wirtz",
+          "time": "2026-11-27T15:52:55.890193Z"
+        },
         {
           "event": 10,
           "out": "Gvardiol",
@@ -789,46 +829,76 @@
         }
       ],
       "profile": {
-        "transferRate": 36,
-        "avgMoves": 2.25,
+        "transferRate": 42,
+        "avgMoves": 2,
         "hitRate": 0,
-        "captainHaalandRate": 100,
+        "captainHaalandRate": 92,
         "chipCountRecent": 0,
-        "sampleGWs": 11
+        "sampleGWs": 12
       },
       "simulated": {
         "action": "likely_transfer",
         "confidence": "medium",
-        "transferPressure": 81,
+        "transferPressure": 74,
         "candidates": [
           {
-            "out": "Mbeumo",
-            "in": "Wirtz",
-            "outPrice": 7.8,
-            "inPrice": 7.5,
-            "club": "LIV",
-            "position": 3,
-            "form": 9.7,
-            "outgoingForm": 1.3,
-            "upgrade": 8.4,
-            "globalOwner": 13.3,
-            "fixture": "LIV A v EVE",
-            "score": 38.49,
+            "out": "Haaland",
+            "in": "McBurnie",
+            "outPrice": 15.7,
+            "inPrice": 5.5,
+            "club": "HUL",
+            "position": 4,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 2.3,
+            "fixture": "HUL H v NFO",
+            "score": 24.52,
             "threat": false
           },
           {
-            "out": "Mbeumo",
-            "in": "E.Le Fée",
-            "outPrice": 7.8,
+            "out": "Haaland",
+            "in": "Barry",
+            "outPrice": 15.7,
             "inPrice": 5.7,
-            "club": "SUN",
+            "club": "EVE",
+            "position": 4,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 10.8,
+            "fixture": "EVE A v AVL",
+            "score": 24.44,
+            "threat": false
+          },
+          {
+            "out": "Calafiori",
+            "in": "Van Hecke",
+            "outPrice": 5.9,
+            "inPrice": 5.2,
+            "club": "TOT",
+            "position": 2,
+            "form": 6.2,
+            "outgoingForm": 3.2,
+            "upgrade": 3,
+            "globalOwner": 21.5,
+            "fixture": "TOT H v FUL",
+            "score": 22.92,
+            "threat": true
+          },
+          {
+            "out": "Mbeumo",
+            "in": "Rudoni",
+            "outPrice": 7.8,
+            "inPrice": 5,
+            "club": "COV",
             "position": 3,
-            "form": 7.3,
-            "outgoingForm": 1.3,
-            "upgrade": 6,
-            "globalOwner": 3.1,
-            "fixture": "SUN H v TOT",
-            "score": 27.92,
+            "form": 5.2,
+            "outgoingForm": 1,
+            "upgrade": 4.2,
+            "globalOwner": 2.1,
+            "fixture": "COV H v IPS",
+            "score": 21.21,
             "threat": false
           },
           {
@@ -838,72 +908,42 @@
             "inPrice": 4.9,
             "club": "AVL",
             "position": 3,
-            "form": 7,
-            "outgoingForm": 1.3,
-            "upgrade": 5.7,
-            "globalOwner": 0.7,
-            "fixture": "AVL A v IPS",
-            "score": 27.65,
-            "threat": false
-          },
-          {
-            "out": "Bogle",
-            "in": "Van Hecke",
-            "outPrice": 4.8,
-            "inPrice": 5.2,
-            "club": "TOT",
-            "position": 2,
-            "form": 8.3,
-            "outgoingForm": 4,
-            "upgrade": 4.3,
-            "globalOwner": 20.5,
-            "fixture": "TOT A v SUN",
-            "score": 27.65,
-            "threat": true
-          },
-          {
-            "out": "Mbeumo",
-            "in": "Okafor",
-            "outPrice": 7.8,
-            "inPrice": 5.8,
-            "club": "LEE",
-            "position": 3,
-            "form": 6.7,
-            "outgoingForm": 1.3,
-            "upgrade": 5.4,
-            "globalOwner": 1.9,
-            "fixture": "LEE H v COV",
-            "score": 27.64,
+            "form": 5.2,
+            "outgoingForm": 1,
+            "upgrade": 4.2,
+            "globalOwner": 0.8,
+            "fixture": "AVL H v EVE",
+            "score": 19.74,
             "threat": false
           },
           {
             "out": "Mbeumo",
-            "in": "Rudoni",
+            "in": "E.Le Fée",
             "outPrice": 7.8,
-            "inPrice": 5,
-            "club": "COV",
+            "inPrice": 5.7,
+            "club": "SUN",
             "position": 3,
-            "form": 7,
-            "outgoingForm": 1.3,
-            "upgrade": 5.7,
-            "globalOwner": 1.9,
-            "fixture": "COV A v LEE",
-            "score": 26.4,
+            "form": 5.5,
+            "outgoingForm": 1,
+            "upgrade": 4.5,
+            "globalOwner": 3.1,
+            "fixture": "SUN A v LIV",
+            "score": 19.01,
             "threat": false
           },
           {
-            "out": "Bogle",
-            "in": "Konsa",
-            "outPrice": 4.8,
-            "inPrice": 4.9,
-            "club": "ARS",
-            "position": 2,
-            "form": 6.3,
-            "outgoingForm": 4,
+            "out": "Haaland",
+            "in": "Isak",
+            "outPrice": 15.7,
+            "inPrice": 9.4,
+            "club": "LIV",
+            "position": 4,
+            "form": 3.8,
+            "outgoingForm": 1.5,
             "upgrade": 2.3,
-            "globalOwner": 25,
-            "fixture": "ARS H v MCI",
-            "score": 19.33,
+            "globalOwner": 29.2,
+            "fixture": "LIV H v SUN",
+            "score": 16.77,
             "threat": true
           },
           {
@@ -913,12 +953,12 @@
             "inPrice": 4.9,
             "club": "ARS",
             "position": 2,
-            "form": 6.3,
-            "outgoingForm": 4.3,
-            "upgrade": 2,
-            "globalOwner": 25,
-            "fixture": "ARS H v MCI",
-            "score": 17.59,
+            "form": 4.8,
+            "outgoingForm": 3.2,
+            "upgrade": 1.6,
+            "globalOwner": 25.1,
+            "fixture": "ARS A v BRE",
+            "score": 14.9,
             "threat": true
           }
         ],
@@ -927,44 +967,26 @@
             "in": "Palmer",
             "position": 3,
             "price": 9.8,
-            "maxPrice": 8.7,
+            "maxPrice": 8.8,
             "out": "Rogers",
-            "globalOwner": 26.5,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          },
-          {
-            "in": "Isak",
-            "position": 4,
-            "price": 9.4,
-            "maxPrice": 7.7,
-            "out": "N.Jackson",
-            "globalOwner": 28.2,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          },
-          {
-            "in": "B.Fernandes",
-            "position": 3,
-            "price": 11.6,
-            "maxPrice": 8.7,
-            "out": "Rogers",
-            "globalOwner": 20.4,
+            "globalOwner": 25.6,
             "reason": "ราคาเกินงบของ transfer เดียว"
           }
         ],
-        "captain": "Haaland",
+        "captain": "N.Jackson",
         "captainConfidence": "last_revealed",
-        "reason": "อัตราใช้ FT จากอดีต 36%"
+        "reason": "อัตราใช้ FT จากอดีต 42%"
       },
       "learning": {
         "forecastVsActual": [
           {
-            "targetEvent": 11,
+            "targetEvent": 12,
             "predictedAction": "likely_transfer",
-            "actualAction": "likely_roll",
-            "actionCorrect": false,
+            "actualAction": "likely_transfer",
+            "actionCorrect": true,
             "predictedCaptain": "Haaland",
-            "actualCaptain": "Haaland",
-            "captainCorrect": true
+            "actualCaptain": "N.Jackson",
+            "captainCorrect": false
           }
         ],
         "modelVersion": "v1.2"
@@ -975,11 +997,11 @@
       "rank": 3,
       "name": "wiroon chemkhoonthod",
       "team": "GrossProfit United",
-      "total": 689,
+      "total": 690,
       "current": {
-        "event": 11,
-        "points": 35,
-        "captain": "De Cuyper",
+        "event": 12,
+        "points": 0,
+        "captain": "N.Jackson",
         "captainMultiplier": 2,
         "picks": [
           {
@@ -988,8 +1010,8 @@
             "flag": "XI"
           },
           {
-            "name": "Konsa",
-            "club": "ARS",
+            "name": "Muharemović",
+            "club": "LEE",
             "flag": "XI"
           },
           {
@@ -1000,7 +1022,7 @@
           {
             "name": "De Cuyper",
             "club": "BHA",
-            "flag": "C"
+            "flag": "XI"
           },
           {
             "name": "Manzambi",
@@ -1025,12 +1047,12 @@
           {
             "name": "N.Jackson",
             "club": "AVL",
-            "flag": "VC"
+            "flag": "C"
           },
           {
             "name": "Isak",
             "club": "LIV",
-            "flag": "XI"
+            "flag": "VC"
           },
           {
             "name": "Haaland",
@@ -1043,8 +1065,8 @@
             "flag": "B"
           },
           {
-            "name": "Gvardiol",
-            "club": "MCI",
+            "name": "Konsa",
+            "club": "ARS",
             "flag": "B"
           },
           {
@@ -1147,9 +1169,23 @@
           "transfers": 1,
           "hit": 0,
           "bench": 15
+        },
+        {
+          "event": 12,
+          "points": 0,
+          "rank": null,
+          "transfers": 1,
+          "hit": 0,
+          "bench": 0
         }
       ],
       "transfers": [
+        {
+          "event": 12,
+          "out": "Gvardiol",
+          "in": "Muharemović",
+          "time": "2026-11-27T14:32:23.145681Z"
+        },
         {
           "event": 11,
           "out": "Calvert-Lewin",
@@ -1433,12 +1469,12 @@
         }
       ],
       "profile": {
-        "transferRate": 82,
-        "avgMoves": 4.89,
+        "transferRate": 83,
+        "avgMoves": 4.5,
         "hitRate": 0,
-        "captainHaalandRate": 27,
+        "captainHaalandRate": 25,
         "chipCountRecent": 1,
-        "sampleGWs": 11
+        "sampleGWs": 12
       },
       "simulated": {
         "action": "likely_transfer",
@@ -1452,12 +1488,12 @@
             "inPrice": 7.5,
             "club": "LIV",
             "position": 3,
-            "form": 9.7,
-            "outgoingForm": 3.3,
-            "upgrade": 6.4,
-            "globalOwner": 13.3,
-            "fixture": "LIV A v EVE",
-            "score": 33.69,
+            "form": 7.2,
+            "outgoingForm": 2.5,
+            "upgrade": 4.7,
+            "globalOwner": 16.8,
+            "fixture": "LIV H v SUN",
+            "score": 26.27,
             "threat": false
           },
           {
@@ -1467,27 +1503,12 @@
             "inPrice": 5.5,
             "club": "HUL",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 2,
-            "upgrade": 7,
-            "globalOwner": 2.2,
-            "fixture": "HUL A v CRY",
-            "score": 32.36,
-            "threat": false
-          },
-          {
-            "out": "Gvardiol",
-            "in": "Hill",
-            "outPrice": 5.5,
-            "inPrice": 5.7,
-            "club": "BOU",
-            "position": 2,
-            "form": 8,
-            "outgoingForm": 1,
-            "upgrade": 7,
-            "globalOwner": 5.1,
-            "fixture": "BOU A v FUL",
-            "score": 30.97,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 2.3,
+            "fixture": "HUL H v NFO",
+            "score": 24.52,
             "threat": false
           },
           {
@@ -1497,12 +1518,12 @@
             "inPrice": 5.7,
             "club": "EVE",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 2,
-            "upgrade": 7,
-            "globalOwner": 11.1,
-            "fixture": "EVE H v LIV",
-            "score": 30.48,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 10.8,
+            "fixture": "EVE A v AVL",
+            "score": 24.44,
             "threat": false
           },
           {
@@ -1512,43 +1533,43 @@
             "inPrice": 6.6,
             "club": "BOU",
             "position": 4,
-            "form": 8,
-            "outgoingForm": 2,
-            "upgrade": 6,
-            "globalOwner": 28,
-            "fixture": "BOU A v FUL",
-            "score": 29.4,
+            "form": 6,
+            "outgoingForm": 1.5,
+            "upgrade": 4.5,
+            "globalOwner": 28.7,
+            "fixture": "BOU H v BHA",
+            "score": 21.64,
             "threat": true
           },
           {
-            "out": "Gvardiol",
-            "in": "Silva",
-            "outPrice": 5.5,
-            "inPrice": 5.1,
-            "club": "BOU",
-            "position": 2,
-            "form": 6.3,
-            "outgoingForm": 1,
-            "upgrade": 5.3,
-            "globalOwner": 4.2,
-            "fixture": "BOU A v FUL",
-            "score": 24.57,
+            "out": "Belloumi",
+            "in": "Rudoni",
+            "outPrice": 5.2,
+            "inPrice": 5,
+            "club": "COV",
+            "position": 3,
+            "form": 5.2,
+            "outgoingForm": 3,
+            "upgrade": 2.2,
+            "globalOwner": 2.1,
+            "fixture": "COV H v IPS",
+            "score": 18.81,
             "threat": false
           },
           {
-            "out": "Gvardiol",
-            "in": "Calafiori",
-            "outPrice": 5.5,
-            "inPrice": 5.9,
-            "club": "ARS",
+            "out": "Ajayi",
+            "in": "Hill",
+            "outPrice": 4.2,
+            "inPrice": 5.7,
+            "club": "BOU",
             "position": 2,
-            "form": 4.3,
-            "outgoingForm": 1,
-            "upgrade": 3.3,
-            "globalOwner": 47.8,
-            "fixture": "ARS H v MCI",
-            "score": 18.84,
-            "threat": true
+            "form": 6,
+            "outgoingForm": 3.5,
+            "upgrade": 2.5,
+            "globalOwner": 5.3,
+            "fixture": "BOU H v BHA",
+            "score": 18.07,
+            "threat": false
           },
           {
             "out": "Palmer",
@@ -1557,12 +1578,27 @@
             "inPrice": 8.3,
             "club": "CHE",
             "position": 3,
-            "form": 5.3,
-            "outgoingForm": 4,
-            "upgrade": 1.3,
-            "globalOwner": 54.5,
-            "fixture": "CHE A v NFO",
-            "score": 18.52,
+            "form": 4.2,
+            "outgoingForm": 3.2,
+            "upgrade": 1,
+            "globalOwner": 54.7,
+            "fixture": "CHE H v CRY",
+            "score": 16.38,
+            "threat": true
+          },
+          {
+            "out": "Tavernier",
+            "in": "Rogers",
+            "outPrice": 6.8,
+            "inPrice": 8.3,
+            "club": "CHE",
+            "position": 3,
+            "form": 4.2,
+            "outgoingForm": 3.5,
+            "upgrade": 0.7,
+            "globalOwner": 54.7,
+            "fixture": "CHE H v CRY",
+            "score": 15.84,
             "threat": true
           }
         ],
@@ -1571,34 +1607,565 @@
             "in": "Gabriel",
             "position": 2,
             "price": 8.1,
-            "maxPrice": 7.1,
-            "out": "Gvardiol",
-            "globalOwner": 26.9,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          },
-          {
-            "in": "B.Fernandes",
-            "position": 3,
-            "price": 11.6,
-            "maxPrice": 11.4,
-            "out": "Palmer",
-            "globalOwner": 20.4,
+            "maxPrice": 7.5,
+            "out": "De Cuyper",
+            "globalOwner": 27,
             "reason": "ราคาเกินงบของ transfer เดียว"
           }
         ],
-        "captain": "De Cuyper",
+        "captain": "N.Jackson",
         "captainConfidence": "last_revealed",
         "reason": "มีผู้เล่น status ไม่พร้อม 1 คน"
       },
       "learning": {
         "forecastVsActual": [
           {
-            "targetEvent": 11,
+            "targetEvent": 12,
             "predictedAction": "likely_transfer",
             "actualAction": "likely_transfer",
             "actionCorrect": true,
-            "predictedCaptain": "Isak",
-            "actualCaptain": "De Cuyper",
+            "predictedCaptain": "De Cuyper",
+            "actualCaptain": "N.Jackson",
+            "captainCorrect": false
+          }
+        ],
+        "modelVersion": "v1.2"
+      }
+    },
+    {
+      "entry": 5090992,
+      "rank": 4,
+      "name": "Tangii Slur",
+      "team": "Runner Up FC",
+      "total": 666,
+      "current": {
+        "event": 12,
+        "points": 0,
+        "captain": "Isak",
+        "captainMultiplier": 2,
+        "picks": [
+          {
+            "name": "Kinsky",
+            "club": "TOT",
+            "flag": "XI"
+          },
+          {
+            "name": "Van Hecke",
+            "club": "TOT",
+            "flag": "XI"
+          },
+          {
+            "name": "Silva",
+            "club": "BOU",
+            "flag": "XI"
+          },
+          {
+            "name": "De Cuyper",
+            "club": "BHA",
+            "flag": "XI"
+          },
+          {
+            "name": "Groß",
+            "club": "BHA",
+            "flag": "XI"
+          },
+          {
+            "name": "Rogers",
+            "club": "CHE",
+            "flag": "XI"
+          },
+          {
+            "name": "Tavernier",
+            "club": "BOU",
+            "flag": "XI"
+          },
+          {
+            "name": "Wirtz",
+            "club": "LIV",
+            "flag": "VC"
+          },
+          {
+            "name": "Isak",
+            "club": "LIV",
+            "flag": "C"
+          },
+          {
+            "name": "Evanilson",
+            "club": "BOU",
+            "flag": "XI"
+          },
+          {
+            "name": "Haaland",
+            "club": "MCI",
+            "flag": "XI"
+          },
+          {
+            "name": "Verbruggen",
+            "club": "BHA",
+            "flag": "B"
+          },
+          {
+            "name": "Konsa",
+            "club": "ARS",
+            "flag": "B"
+          },
+          {
+            "name": "Manzambi",
+            "club": "AVL",
+            "flag": "B"
+          },
+          {
+            "name": "Hall",
+            "club": "NEW",
+            "flag": "B"
+          }
+        ]
+      },
+      "history": [
+        {
+          "event": 1,
+          "points": 52,
+          "rank": 3770915,
+          "transfers": 0,
+          "hit": 0,
+          "bench": 0
+        },
+        {
+          "event": 2,
+          "points": 106,
+          "rank": 939542,
+          "transfers": 0,
+          "hit": 0,
+          "bench": 13
+        },
+        {
+          "event": 3,
+          "points": 51,
+          "rank": 5557444,
+          "transfers": 2,
+          "hit": 0,
+          "bench": 25
+        },
+        {
+          "event": 4,
+          "points": 78,
+          "rank": 2983393,
+          "transfers": 1,
+          "hit": 0,
+          "bench": 8
+        },
+        {
+          "event": 5,
+          "points": 51,
+          "rank": 4021733,
+          "transfers": 0,
+          "hit": 0,
+          "bench": 2
+        },
+        {
+          "event": 6,
+          "points": 70,
+          "rank": 2292530,
+          "transfers": 1,
+          "hit": 0,
+          "bench": 4
+        },
+        {
+          "event": 7,
+          "points": 65,
+          "rank": 3979589,
+          "transfers": 1,
+          "hit": 0,
+          "bench": 2
+        },
+        {
+          "event": 8,
+          "points": 26,
+          "rank": 10688453,
+          "transfers": 1,
+          "hit": 0,
+          "bench": 12
+        },
+        {
+          "event": 9,
+          "points": 68,
+          "rank": 590328,
+          "transfers": 0,
+          "hit": 0,
+          "bench": 32
+        },
+        {
+          "event": 10,
+          "points": 58,
+          "rank": 4478288,
+          "transfers": 0,
+          "hit": 0,
+          "bench": 18
+        },
+        {
+          "event": 11,
+          "points": 40,
+          "rank": 3251017,
+          "transfers": 1,
+          "hit": 0,
+          "bench": 17
+        },
+        {
+          "event": 12,
+          "points": 0,
+          "rank": null,
+          "transfers": 2,
+          "hit": 0,
+          "bench": 0
+        }
+      ],
+      "transfers": [
+        {
+          "event": 12,
+          "out": "N.Jackson",
+          "in": "Isak",
+          "time": "2026-11-26T15:59:27.541686Z"
+        },
+        {
+          "event": 12,
+          "out": "Mbeumo",
+          "in": "Wirtz",
+          "time": "2026-11-26T15:59:27.538181Z"
+        },
+        {
+          "event": 11,
+          "out": "Doku",
+          "in": "Manzambi",
+          "time": "2026-11-21T10:33:28.730260Z"
+        },
+        {
+          "event": 9,
+          "out": "Bogle",
+          "in": "Van Hecke",
+          "time": "2026-10-31T10:36:03.443255Z"
+        },
+        {
+          "event": 9,
+          "out": "Hill",
+          "in": "Silva",
+          "time": "2026-10-31T10:29:41.453624Z"
+        },
+        {
+          "event": 9,
+          "out": "Brobbey",
+          "in": "Evanilson",
+          "time": "2026-10-30T03:53:44.954881Z"
+        },
+        {
+          "event": 9,
+          "out": "João Pedro",
+          "in": "N.Jackson",
+          "time": "2026-10-30T03:53:44.954784Z"
+        },
+        {
+          "event": 9,
+          "out": "Cherki",
+          "in": "Tavernier",
+          "time": "2026-10-30T03:53:44.954685Z"
+        },
+        {
+          "event": 9,
+          "out": "Eze",
+          "in": "Doku",
+          "time": "2026-10-30T03:53:44.954586Z"
+        },
+        {
+          "event": 9,
+          "out": "Hume",
+          "in": "Hill",
+          "time": "2026-10-30T03:53:44.954487Z"
+        },
+        {
+          "event": 9,
+          "out": "Maguire",
+          "in": "Bogle",
+          "time": "2026-10-30T03:53:44.954387Z"
+        },
+        {
+          "event": 9,
+          "out": "Mitchell",
+          "in": "Hall",
+          "time": "2026-10-30T03:53:44.954282Z"
+        },
+        {
+          "event": 9,
+          "out": "F.Kadıoğlu",
+          "in": "De Cuyper",
+          "time": "2026-10-30T03:53:44.954172Z"
+        },
+        {
+          "event": 9,
+          "out": "Calafiori",
+          "in": "Konsa",
+          "time": "2026-10-30T03:53:44.954025Z"
+        },
+        {
+          "event": 8,
+          "out": "E.Le Fée",
+          "in": "Mbeumo",
+          "time": "2026-10-23T10:30:43.538277Z"
+        },
+        {
+          "event": 7,
+          "out": "B.Fernandes",
+          "in": "Cherki",
+          "time": "2026-10-16T15:37:14.419358Z"
+        },
+        {
+          "event": 6,
+          "out": "Elanga",
+          "in": "Eze",
+          "time": "2026-10-10T02:34:59.924414Z"
+        },
+        {
+          "event": 5,
+          "out": "João Pedro",
+          "in": "Calvert-Lewin",
+          "time": "2026-09-17T15:19:26.110934Z"
+        },
+        {
+          "event": 5,
+          "out": "Calafiori",
+          "in": "Bogle",
+          "time": "2026-09-17T15:19:26.110685Z"
+        },
+        {
+          "event": 5,
+          "out": "F.Kadıoğlu",
+          "in": "Giles",
+          "time": "2026-09-17T15:19:26.110407Z"
+        },
+        {
+          "event": 5,
+          "out": "Elanga",
+          "in": "Cherki",
+          "time": "2026-09-17T15:19:26.110095Z"
+        },
+        {
+          "event": 5,
+          "out": "E.Le Fée",
+          "in": "Gibbs-White",
+          "time": "2026-09-17T15:19:26.109724Z"
+        },
+        {
+          "event": 5,
+          "out": "Brobbey",
+          "in": "Walle Egeli",
+          "time": "2026-09-17T15:19:26.109333Z"
+        },
+        {
+          "event": 5,
+          "out": "Hume",
+          "in": "Davis",
+          "time": "2026-09-17T15:19:26.108904Z"
+        },
+        {
+          "event": 5,
+          "out": "Mitchell",
+          "in": "N.Williams",
+          "time": "2026-09-17T15:19:26.108470Z"
+        },
+        {
+          "event": 5,
+          "out": "Maguire",
+          "in": "Gvardiol",
+          "time": "2026-09-17T15:19:26.108026Z"
+        },
+        {
+          "event": 5,
+          "out": "Kinsky",
+          "in": "Dubravka",
+          "time": "2026-09-17T15:19:26.107601Z"
+        },
+        {
+          "event": 5,
+          "out": "Verbruggen",
+          "in": "Sels",
+          "time": "2026-09-17T15:19:26.107067Z"
+        },
+        {
+          "event": 4,
+          "out": "Cherki",
+          "in": "Rogers",
+          "time": "2026-09-07T06:27:30.417126Z"
+        },
+        {
+          "event": 3,
+          "out": "Tzolis",
+          "in": "Elanga",
+          "time": "2026-09-01T14:24:30.728686Z"
+        },
+        {
+          "event": 3,
+          "out": "Mbeumo",
+          "in": "Cherki",
+          "time": "2026-09-01T14:24:30.720999Z"
+        }
+      ],
+      "chips": [
+        {
+          "name": "bboost",
+          "time": "2026-08-21T15:16:47.126274Z",
+          "event": 1
+        },
+        {
+          "name": "3xc",
+          "time": "2026-09-01T14:24:36.463167Z",
+          "event": 3
+        },
+        {
+          "name": "freehit",
+          "time": "2026-09-17T14:38:36.787007Z",
+          "event": 5
+        },
+        {
+          "name": "wildcard",
+          "time": "2026-10-30T03:53:38.569751Z",
+          "event": 9
+        }
+      ],
+      "profile": {
+        "transferRate": 75,
+        "avgMoves": 3.44,
+        "hitRate": 0,
+        "captainHaalandRate": 33,
+        "chipCountRecent": 1,
+        "sampleGWs": 12
+      },
+      "simulated": {
+        "action": "likely_transfer",
+        "confidence": "medium",
+        "transferPressure": 100,
+        "candidates": [
+          {
+            "out": "Haaland",
+            "in": "McBurnie",
+            "outPrice": 15.7,
+            "inPrice": 5.5,
+            "club": "HUL",
+            "position": 4,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 2.3,
+            "fixture": "HUL H v NFO",
+            "score": 24.52,
+            "threat": false
+          },
+          {
+            "out": "Haaland",
+            "in": "Barry",
+            "outPrice": 15.7,
+            "inPrice": 5.7,
+            "club": "EVE",
+            "position": 4,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 10.8,
+            "fixture": "EVE A v AVL",
+            "score": 24.44,
+            "threat": false
+          },
+          {
+            "out": "Haaland",
+            "in": "N.Jackson",
+            "outPrice": 15.7,
+            "inPrice": 7.3,
+            "club": "AVL",
+            "position": 4,
+            "form": 5.5,
+            "outgoingForm": 1.5,
+            "upgrade": 4,
+            "globalOwner": 37.3,
+            "fixture": "AVL H v EVE",
+            "score": 21.72,
+            "threat": true
+          },
+          {
+            "out": "Manzambi",
+            "in": "Rudoni",
+            "outPrice": 6.2,
+            "inPrice": 5,
+            "club": "COV",
+            "position": 3,
+            "form": 5.2,
+            "outgoingForm": 2.5,
+            "upgrade": 2.7,
+            "globalOwner": 2.1,
+            "fixture": "COV H v IPS",
+            "score": 19.71,
+            "threat": false
+          },
+          {
+            "out": "Manzambi",
+            "in": "Alysson",
+            "outPrice": 6.2,
+            "inPrice": 4.9,
+            "club": "AVL",
+            "position": 3,
+            "form": 5.2,
+            "outgoingForm": 2.5,
+            "upgrade": 2.7,
+            "globalOwner": 0.8,
+            "fixture": "AVL H v EVE",
+            "score": 18.24,
+            "threat": false
+          },
+          {
+            "out": "Hall",
+            "in": "Pedro Porro",
+            "outPrice": 5.2,
+            "inPrice": 5.3,
+            "club": "TOT",
+            "position": 2,
+            "form": 4.2,
+            "outgoingForm": 1.8,
+            "upgrade": 2.4,
+            "globalOwner": 5.5,
+            "fixture": "TOT H v FUL",
+            "score": 17.64,
+            "threat": false
+          }
+        ],
+        "blockedTargets": [
+          {
+            "in": "Gabriel",
+            "position": 2,
+            "price": 8.1,
+            "maxPrice": 6.1,
+            "out": "De Cuyper",
+            "globalOwner": 27,
+            "reason": "ราคาเกินงบของ transfer เดียว"
+          },
+          {
+            "in": "Palmer",
+            "position": 3,
+            "price": 9.8,
+            "maxPrice": 8.8,
+            "out": "Rogers",
+            "globalOwner": 25.6,
+            "reason": "ราคาเกินงบของ transfer เดียว"
+          }
+        ],
+        "captain": "Isak",
+        "captainConfidence": "last_revealed",
+        "reason": "มีผู้เล่น status ไม่พร้อม 1 คน"
+      },
+      "learning": {
+        "forecastVsActual": [
+          {
+            "targetEvent": 12,
+            "predictedAction": "likely_transfer",
+            "actualAction": "likely_transfer",
+            "actionCorrect": true,
+            "predictedCaptain": "N.Jackson",
+            "actualCaptain": "Isak",
             "captainCorrect": false
           }
         ],
@@ -1607,19 +2174,19 @@
     },
     {
       "entry": 118119,
-      "rank": 4,
+      "rank": 5,
       "name": "tamako- .",
       "team": "tamako-",
-      "total": 667,
+      "total": 664,
       "current": {
-        "event": 11,
-        "points": 41,
-        "captain": "Haaland",
+        "event": 12,
+        "points": 0,
+        "captain": "Isak",
         "captainMultiplier": 2,
         "picks": [
           {
-            "name": "Raya",
-            "club": "ARS",
+            "name": "Verbruggen",
+            "club": "BHA",
             "flag": "XI"
           },
           {
@@ -1628,8 +2195,8 @@
             "flag": "XI"
           },
           {
-            "name": "Gabriel",
-            "club": "ARS",
+            "name": "Muharemović",
+            "club": "LEE",
             "flag": "XI"
           },
           {
@@ -1643,8 +2210,8 @@
             "flag": "XI"
           },
           {
-            "name": "Manzambi",
-            "club": "AVL",
+            "name": "Wirtz",
+            "club": "LIV",
             "flag": "XI"
           },
           {
@@ -1655,22 +2222,22 @@
           {
             "name": "Groß",
             "club": "BHA",
-            "flag": "XI"
+            "flag": "VC"
           },
           {
             "name": "Evanilson",
             "club": "BOU",
-            "flag": "VC"
+            "flag": "XI"
           },
           {
             "name": "Isak",
             "club": "LIV",
-            "flag": "XI"
+            "flag": "C"
           },
           {
             "name": "Haaland",
             "club": "MCI",
-            "flag": "C"
+            "flag": "XI"
           },
           {
             "name": "Bentley",
@@ -1678,8 +2245,8 @@
             "flag": "B"
           },
           {
-            "name": "Muharemović",
-            "club": "LEE",
+            "name": "Gabriel",
+            "club": "ARS",
             "flag": "B"
           },
           {
@@ -1782,9 +2349,29 @@
           "transfers": 2,
           "hit": 4,
           "bench": 8
+        },
+        {
+          "event": 12,
+          "points": 0,
+          "rank": null,
+          "transfers": 2,
+          "hit": 4,
+          "bench": 0
         }
       ],
       "transfers": [
+        {
+          "event": 12,
+          "out": "Manzambi",
+          "in": "Wirtz",
+          "time": "2026-11-27T14:10:09.943627Z"
+        },
+        {
+          "event": 12,
+          "out": "Raya",
+          "in": "Verbruggen",
+          "time": "2026-11-22T04:01:30.286028Z"
+        },
         {
           "event": 11,
           "out": "King",
@@ -2115,12 +2702,12 @@
         }
       ],
       "profile": {
-        "transferRate": 73,
-        "avgMoves": 6.38,
-        "hitRate": 27,
-        "captainHaalandRate": 36,
-        "chipCountRecent": 2,
-        "sampleGWs": 11
+        "transferRate": 75,
+        "avgMoves": 5.89,
+        "hitRate": 33,
+        "captainHaalandRate": 33,
+        "chipCountRecent": 1,
+        "sampleGWs": 12
       },
       "simulated": {
         "action": "likely_transfer",
@@ -2128,108 +2715,108 @@
         "transferPressure": 100,
         "candidates": [
           {
-            "out": "Rogers",
-            "in": "Wirtz",
-            "outPrice": 8.3,
-            "inPrice": 7.5,
-            "club": "LIV",
-            "position": 3,
-            "form": 9.7,
-            "outgoingForm": 5.3,
-            "upgrade": 4.4,
-            "globalOwner": 13.3,
-            "fixture": "LIV A v EVE",
-            "score": 30.09,
-            "threat": false
-          },
-          {
-            "out": "Isak",
+            "out": "Haaland",
             "in": "McBurnie",
-            "outPrice": 9.4,
+            "outPrice": 15.7,
             "inPrice": 5.5,
             "club": "HUL",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 5,
-            "upgrade": 4,
-            "globalOwner": 2.2,
-            "fixture": "HUL A v CRY",
-            "score": 26.96,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 2.3,
+            "fixture": "HUL H v NFO",
+            "score": 24.52,
             "threat": false
           },
           {
-            "out": "Isak",
+            "out": "Haaland",
             "in": "Barry",
-            "outPrice": 9.4,
+            "outPrice": 15.7,
             "inPrice": 5.7,
             "club": "EVE",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 5,
-            "upgrade": 4,
-            "globalOwner": 11.1,
-            "fixture": "EVE H v LIV",
-            "score": 25.08,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 10.8,
+            "fixture": "EVE A v AVL",
+            "score": 24.44,
             "threat": false
           },
           {
-            "out": "Isak",
+            "out": "Haaland",
             "in": "N.Jackson",
-            "outPrice": 9.4,
+            "outPrice": 15.7,
             "inPrice": 7.3,
             "club": "AVL",
             "position": 4,
-            "form": 7.3,
-            "outgoingForm": 5,
-            "upgrade": 2.3,
-            "globalOwner": 36.9,
-            "fixture": "AVL A v IPS",
-            "score": 23.14,
+            "form": 5.5,
+            "outgoingForm": 1.5,
+            "upgrade": 4,
+            "globalOwner": 37.3,
+            "fixture": "AVL H v EVE",
+            "score": 21.72,
             "threat": true
           },
           {
-            "out": "Manzambi",
-            "in": "E.Le Fée",
-            "outPrice": 6.2,
-            "inPrice": 5.7,
-            "club": "SUN",
-            "position": 3,
-            "form": 7.3,
-            "outgoingForm": 3.3,
-            "upgrade": 4,
-            "globalOwner": 3.1,
-            "fixture": "SUN H v TOT",
-            "score": 23.12,
-            "threat": false
-          },
-          {
-            "out": "Manzambi",
+            "out": "Slater",
             "in": "Alysson",
-            "outPrice": 6.2,
+            "outPrice": 4.5,
             "inPrice": 4.9,
             "club": "AVL",
             "position": 3,
-            "form": 7,
-            "outgoingForm": 3.3,
-            "upgrade": 3.7,
-            "globalOwner": 0.7,
-            "fixture": "AVL A v IPS",
-            "score": 22.85,
+            "form": 5.2,
+            "outgoingForm": 1.8,
+            "upgrade": 3.4,
+            "globalOwner": 0.8,
+            "fixture": "AVL H v EVE",
+            "score": 19.5,
             "threat": false
           },
           {
-            "out": "Raya",
-            "in": "Verbruggen",
-            "outPrice": 6.2,
-            "inPrice": 4.7,
-            "club": "BHA",
-            "position": 1,
-            "form": 6.3,
-            "outgoingForm": 4,
-            "upgrade": 2.3,
+            "out": "Gabriel",
+            "in": "Hill",
+            "outPrice": 8.1,
+            "inPrice": 5.7,
+            "club": "BOU",
+            "position": 2,
+            "form": 6,
+            "outgoingForm": 3.8,
+            "upgrade": 2.2,
+            "globalOwner": 5.3,
+            "fixture": "BOU H v BHA",
+            "score": 17.53,
+            "threat": false
+          },
+          {
+            "out": "Tavernier",
+            "in": "Rudoni",
+            "outPrice": 6.8,
+            "inPrice": 5,
+            "club": "COV",
+            "position": 3,
+            "form": 5.2,
+            "outgoingForm": 3.5,
+            "upgrade": 1.7,
+            "globalOwner": 2.1,
+            "fixture": "COV H v IPS",
+            "score": 16.71,
+            "threat": false
+          },
+          {
+            "out": "Gabriel",
+            "in": "Konsa",
+            "outPrice": 8.1,
+            "inPrice": 4.9,
+            "club": "ARS",
+            "position": 2,
+            "form": 4.8,
+            "outgoingForm": 3.8,
+            "upgrade": 1,
             "globalOwner": 25.1,
-            "fixture": "BHA H v NEW",
-            "score": 19.81,
+            "fixture": "ARS A v BRE",
+            "score": 13.82,
             "threat": true
           },
           {
@@ -2239,12 +2826,12 @@
             "inPrice": 4.9,
             "club": "ARS",
             "position": 2,
-            "form": 6.3,
-            "outgoingForm": 5,
-            "upgrade": 1.3,
-            "globalOwner": 25,
-            "fixture": "ARS H v MCI",
-            "score": 17.53,
+            "form": 4.8,
+            "outgoingForm": 3.8,
+            "upgrade": 1,
+            "globalOwner": 25.1,
+            "fixture": "ARS A v BRE",
+            "score": 12.62,
             "threat": true
           }
         ],
@@ -2253,575 +2840,25 @@
             "in": "Palmer",
             "position": 3,
             "price": 9.8,
-            "maxPrice": 8.6,
+            "maxPrice": 8.7,
             "out": "Rogers",
-            "globalOwner": 26.5,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          },
-          {
-            "in": "B.Fernandes",
-            "position": 3,
-            "price": 11.6,
-            "maxPrice": 8.6,
-            "out": "Rogers",
-            "globalOwner": 20.4,
+            "globalOwner": 25.6,
             "reason": "ราคาเกินงบของ transfer เดียว"
           }
         ],
-        "captain": "Haaland",
+        "captain": "Isak",
         "captainConfidence": "last_revealed",
-        "reason": "มีผู้เล่น status ไม่พร้อม 1 คน"
+        "reason": "อัตราใช้ FT จากอดีต 75%"
       },
       "learning": {
         "forecastVsActual": [
           {
-            "targetEvent": 11,
-            "predictedAction": "likely_transfer",
-            "actualAction": "likely_transfer",
-            "actionCorrect": true,
-            "predictedCaptain": "Isak",
-            "actualCaptain": "Haaland",
-            "captainCorrect": false
-          }
-        ],
-        "modelVersion": "v1.2"
-      }
-    },
-    {
-      "entry": 5090992,
-      "rank": 5,
-      "name": "Tangii Slur",
-      "team": "Runner Up FC",
-      "total": 665,
-      "current": {
-        "event": 11,
-        "points": 40,
-        "captain": "N.Jackson",
-        "captainMultiplier": 2,
-        "picks": [
-          {
-            "name": "Verbruggen",
-            "club": "BHA",
-            "flag": "XI"
-          },
-          {
-            "name": "Van Hecke",
-            "club": "TOT",
-            "flag": "XI"
-          },
-          {
-            "name": "Silva",
-            "club": "BOU",
-            "flag": "XI"
-          },
-          {
-            "name": "Konsa",
-            "club": "ARS",
-            "flag": "XI"
-          },
-          {
-            "name": "De Cuyper",
-            "club": "BHA",
-            "flag": "XI"
-          },
-          {
-            "name": "Groß",
-            "club": "BHA",
-            "flag": "XI"
-          },
-          {
-            "name": "Rogers",
-            "club": "CHE",
-            "flag": "XI"
-          },
-          {
-            "name": "Manzambi",
-            "club": "AVL",
-            "flag": "XI"
-          },
-          {
-            "name": "N.Jackson",
-            "club": "AVL",
-            "flag": "C"
-          },
-          {
-            "name": "Evanilson",
-            "club": "BOU",
-            "flag": "XI"
-          },
-          {
-            "name": "Haaland",
-            "club": "MCI",
-            "flag": "VC"
-          },
-          {
-            "name": "Kinsky",
-            "club": "TOT",
-            "flag": "B"
-          },
-          {
-            "name": "Tavernier",
-            "club": "BOU",
-            "flag": "B"
-          },
-          {
-            "name": "Mbeumo",
-            "club": "MUN",
-            "flag": "B"
-          },
-          {
-            "name": "Hall",
-            "club": "NEW",
-            "flag": "B"
-          }
-        ]
-      },
-      "history": [
-        {
-          "event": 1,
-          "points": 52,
-          "rank": 3770915,
-          "transfers": 0,
-          "hit": 0,
-          "bench": 0
-        },
-        {
-          "event": 2,
-          "points": 106,
-          "rank": 939542,
-          "transfers": 0,
-          "hit": 0,
-          "bench": 13
-        },
-        {
-          "event": 3,
-          "points": 51,
-          "rank": 5557444,
-          "transfers": 2,
-          "hit": 0,
-          "bench": 25
-        },
-        {
-          "event": 4,
-          "points": 78,
-          "rank": 2983393,
-          "transfers": 1,
-          "hit": 0,
-          "bench": 8
-        },
-        {
-          "event": 5,
-          "points": 51,
-          "rank": 4021733,
-          "transfers": 0,
-          "hit": 0,
-          "bench": 2
-        },
-        {
-          "event": 6,
-          "points": 70,
-          "rank": 2292530,
-          "transfers": 1,
-          "hit": 0,
-          "bench": 4
-        },
-        {
-          "event": 7,
-          "points": 65,
-          "rank": 3979589,
-          "transfers": 1,
-          "hit": 0,
-          "bench": 2
-        },
-        {
-          "event": 8,
-          "points": 26,
-          "rank": 10688453,
-          "transfers": 1,
-          "hit": 0,
-          "bench": 12
-        },
-        {
-          "event": 9,
-          "points": 68,
-          "rank": 590328,
-          "transfers": 0,
-          "hit": 0,
-          "bench": 32
-        },
-        {
-          "event": 10,
-          "points": 58,
-          "rank": 4478288,
-          "transfers": 0,
-          "hit": 0,
-          "bench": 18
-        },
-        {
-          "event": 11,
-          "points": 40,
-          "rank": 3251017,
-          "transfers": 1,
-          "hit": 0,
-          "bench": 17
-        }
-      ],
-      "transfers": [
-        {
-          "event": 11,
-          "out": "Doku",
-          "in": "Manzambi",
-          "time": "2026-11-21T10:33:28.730260Z"
-        },
-        {
-          "event": 9,
-          "out": "Bogle",
-          "in": "Van Hecke",
-          "time": "2026-10-31T10:36:03.443255Z"
-        },
-        {
-          "event": 9,
-          "out": "Hill",
-          "in": "Silva",
-          "time": "2026-10-31T10:29:41.453624Z"
-        },
-        {
-          "event": 9,
-          "out": "Brobbey",
-          "in": "Evanilson",
-          "time": "2026-10-30T03:53:44.954881Z"
-        },
-        {
-          "event": 9,
-          "out": "João Pedro",
-          "in": "N.Jackson",
-          "time": "2026-10-30T03:53:44.954784Z"
-        },
-        {
-          "event": 9,
-          "out": "Cherki",
-          "in": "Tavernier",
-          "time": "2026-10-30T03:53:44.954685Z"
-        },
-        {
-          "event": 9,
-          "out": "Eze",
-          "in": "Doku",
-          "time": "2026-10-30T03:53:44.954586Z"
-        },
-        {
-          "event": 9,
-          "out": "Hume",
-          "in": "Hill",
-          "time": "2026-10-30T03:53:44.954487Z"
-        },
-        {
-          "event": 9,
-          "out": "Maguire",
-          "in": "Bogle",
-          "time": "2026-10-30T03:53:44.954387Z"
-        },
-        {
-          "event": 9,
-          "out": "Mitchell",
-          "in": "Hall",
-          "time": "2026-10-30T03:53:44.954282Z"
-        },
-        {
-          "event": 9,
-          "out": "F.Kadıoğlu",
-          "in": "De Cuyper",
-          "time": "2026-10-30T03:53:44.954172Z"
-        },
-        {
-          "event": 9,
-          "out": "Calafiori",
-          "in": "Konsa",
-          "time": "2026-10-30T03:53:44.954025Z"
-        },
-        {
-          "event": 8,
-          "out": "E.Le Fée",
-          "in": "Mbeumo",
-          "time": "2026-10-23T10:30:43.538277Z"
-        },
-        {
-          "event": 7,
-          "out": "B.Fernandes",
-          "in": "Cherki",
-          "time": "2026-10-16T15:37:14.419358Z"
-        },
-        {
-          "event": 6,
-          "out": "Elanga",
-          "in": "Eze",
-          "time": "2026-10-10T02:34:59.924414Z"
-        },
-        {
-          "event": 5,
-          "out": "João Pedro",
-          "in": "Calvert-Lewin",
-          "time": "2026-09-17T15:19:26.110934Z"
-        },
-        {
-          "event": 5,
-          "out": "Calafiori",
-          "in": "Bogle",
-          "time": "2026-09-17T15:19:26.110685Z"
-        },
-        {
-          "event": 5,
-          "out": "F.Kadıoğlu",
-          "in": "Giles",
-          "time": "2026-09-17T15:19:26.110407Z"
-        },
-        {
-          "event": 5,
-          "out": "Elanga",
-          "in": "Cherki",
-          "time": "2026-09-17T15:19:26.110095Z"
-        },
-        {
-          "event": 5,
-          "out": "E.Le Fée",
-          "in": "Gibbs-White",
-          "time": "2026-09-17T15:19:26.109724Z"
-        },
-        {
-          "event": 5,
-          "out": "Brobbey",
-          "in": "Walle Egeli",
-          "time": "2026-09-17T15:19:26.109333Z"
-        },
-        {
-          "event": 5,
-          "out": "Hume",
-          "in": "Davis",
-          "time": "2026-09-17T15:19:26.108904Z"
-        },
-        {
-          "event": 5,
-          "out": "Mitchell",
-          "in": "N.Williams",
-          "time": "2026-09-17T15:19:26.108470Z"
-        },
-        {
-          "event": 5,
-          "out": "Maguire",
-          "in": "Gvardiol",
-          "time": "2026-09-17T15:19:26.108026Z"
-        },
-        {
-          "event": 5,
-          "out": "Kinsky",
-          "in": "Dubravka",
-          "time": "2026-09-17T15:19:26.107601Z"
-        },
-        {
-          "event": 5,
-          "out": "Verbruggen",
-          "in": "Sels",
-          "time": "2026-09-17T15:19:26.107067Z"
-        },
-        {
-          "event": 4,
-          "out": "Cherki",
-          "in": "Rogers",
-          "time": "2026-09-07T06:27:30.417126Z"
-        },
-        {
-          "event": 3,
-          "out": "Tzolis",
-          "in": "Elanga",
-          "time": "2026-09-01T14:24:30.728686Z"
-        },
-        {
-          "event": 3,
-          "out": "Mbeumo",
-          "in": "Cherki",
-          "time": "2026-09-01T14:24:30.720999Z"
-        }
-      ],
-      "chips": [
-        {
-          "name": "bboost",
-          "time": "2026-08-21T15:16:47.126274Z",
-          "event": 1
-        },
-        {
-          "name": "3xc",
-          "time": "2026-09-01T14:24:36.463167Z",
-          "event": 3
-        },
-        {
-          "name": "freehit",
-          "time": "2026-09-17T14:38:36.787007Z",
-          "event": 5
-        },
-        {
-          "name": "wildcard",
-          "time": "2026-10-30T03:53:38.569751Z",
-          "event": 9
-        }
-      ],
-      "profile": {
-        "transferRate": 73,
-        "avgMoves": 3.63,
-        "hitRate": 0,
-        "captainHaalandRate": 36,
-        "chipCountRecent": 1,
-        "sampleGWs": 11
-      },
-      "simulated": {
-        "action": "likely_transfer",
-        "confidence": "medium",
-        "transferPressure": 100,
-        "candidates": [
-          {
-            "out": "Mbeumo",
-            "in": "Wirtz",
-            "outPrice": 7.8,
-            "inPrice": 7.5,
-            "club": "LIV",
-            "position": 3,
-            "form": 9.7,
-            "outgoingForm": 1.3,
-            "upgrade": 8.4,
-            "globalOwner": 13.3,
-            "fixture": "LIV A v EVE",
-            "score": 38.49,
-            "threat": false
-          },
-          {
-            "out": "Haaland",
-            "in": "McBurnie",
-            "outPrice": 15.7,
-            "inPrice": 5.5,
-            "club": "HUL",
-            "position": 4,
-            "form": 9,
-            "outgoingForm": 2,
-            "upgrade": 7,
-            "globalOwner": 2.2,
-            "fixture": "HUL A v CRY",
-            "score": 32.36,
-            "threat": false
-          },
-          {
-            "out": "Haaland",
-            "in": "Barry",
-            "outPrice": 15.7,
-            "inPrice": 5.7,
-            "club": "EVE",
-            "position": 4,
-            "form": 9,
-            "outgoingForm": 2,
-            "upgrade": 7,
-            "globalOwner": 11.1,
-            "fixture": "EVE H v LIV",
-            "score": 30.48,
-            "threat": false
-          },
-          {
-            "out": "Mbeumo",
-            "in": "E.Le Fée",
-            "outPrice": 7.8,
-            "inPrice": 5.7,
-            "club": "SUN",
-            "position": 3,
-            "form": 7.3,
-            "outgoingForm": 1.3,
-            "upgrade": 6,
-            "globalOwner": 3.1,
-            "fixture": "SUN H v TOT",
-            "score": 27.92,
-            "threat": false
-          },
-          {
-            "out": "Mbeumo",
-            "in": "Alysson",
-            "outPrice": 7.8,
-            "inPrice": 4.9,
-            "club": "AVL",
-            "position": 3,
-            "form": 7,
-            "outgoingForm": 1.3,
-            "upgrade": 5.7,
-            "globalOwner": 0.7,
-            "fixture": "AVL A v IPS",
-            "score": 27.65,
-            "threat": false
-          },
-          {
-            "out": "Mbeumo",
-            "in": "Okafor",
-            "outPrice": 7.8,
-            "inPrice": 5.8,
-            "club": "LEE",
-            "position": 3,
-            "form": 6.7,
-            "outgoingForm": 1.3,
-            "upgrade": 5.4,
-            "globalOwner": 1.9,
-            "fixture": "LEE H v COV",
-            "score": 27.64,
-            "threat": false
-          },
-          {
-            "out": "Haaland",
-            "in": "Isak",
-            "outPrice": 15.7,
-            "inPrice": 9.4,
-            "club": "LIV",
-            "position": 4,
-            "form": 5,
-            "outgoingForm": 2,
-            "upgrade": 3,
-            "globalOwner": 28.2,
-            "fixture": "LIV A v EVE",
-            "score": 18.82,
-            "threat": true
-          },
-          {
-            "out": "Mbeumo",
-            "in": "Palmer",
-            "outPrice": 7.8,
-            "inPrice": 9.8,
-            "club": "CHE",
-            "position": 3,
-            "form": 4,
-            "outgoingForm": 1.3,
-            "upgrade": 2.7,
-            "globalOwner": 26.5,
-            "fixture": "CHE A v NFO",
-            "score": 18.47,
-            "threat": true
-          }
-        ],
-        "blockedTargets": [
-          {
-            "in": "B.Fernandes",
-            "position": 3,
-            "price": 11.6,
-            "maxPrice": 10.8,
-            "out": "Rogers",
-            "globalOwner": 20.4,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          }
-        ],
-        "captain": "N.Jackson",
-        "captainConfidence": "last_revealed",
-        "reason": "มีผู้เล่น status ไม่พร้อม 1 คน"
-      },
-      "learning": {
-        "forecastVsActual": [
-          {
-            "targetEvent": 11,
+            "targetEvent": 12,
             "predictedAction": "likely_transfer",
             "actualAction": "likely_transfer",
             "actionCorrect": true,
             "predictedCaptain": "Haaland",
-            "actualCaptain": "N.Jackson",
+            "actualCaptain": "Isak",
             "captainCorrect": false
           }
         ],
@@ -2833,16 +2870,16 @@
       "rank": 6,
       "name": "KC B",
       "team": "KC888",
-      "total": 655,
+      "total": 656,
       "current": {
-        "event": 11,
-        "points": 26,
-        "captain": "Haaland",
+        "event": 12,
+        "points": 0,
+        "captain": "Evanilson",
         "captainMultiplier": 2,
         "picks": [
           {
-            "name": "Raya",
-            "club": "ARS",
+            "name": "Trafford",
+            "club": "LEE",
             "flag": "XI"
           },
           {
@@ -2861,11 +2898,6 @@
             "flag": "XI"
           },
           {
-            "name": "Murillo",
-            "club": "NFO",
-            "flag": "XI"
-          },
-          {
             "name": "Groß",
             "club": "BHA",
             "flag": "XI"
@@ -2876,19 +2908,24 @@
             "flag": "VC"
           },
           {
-            "name": "Neto",
-            "club": "CHE",
+            "name": "Janelt",
+            "club": "BRE",
+            "flag": "XI"
+          },
+          {
+            "name": "Belloumi",
+            "club": "HUL",
             "flag": "XI"
           },
           {
             "name": "Haaland",
             "club": "MCI",
-            "flag": "C"
+            "flag": "XI"
           },
           {
-            "name": "Barry",
-            "club": "EVE",
-            "flag": "XI"
+            "name": "Evanilson",
+            "club": "BOU",
+            "flag": "C"
           },
           {
             "name": "Kostoulas",
@@ -2896,18 +2933,18 @@
             "flag": "XI"
           },
           {
-            "name": "Trafford",
-            "club": "LEE",
+            "name": "Raya",
+            "club": "ARS",
             "flag": "B"
           },
           {
-            "name": "Janelt",
-            "club": "BRE",
+            "name": "Neto",
+            "club": "CHE",
             "flag": "B"
           },
           {
-            "name": "Belloumi",
-            "club": "HUL",
+            "name": "Murillo",
+            "club": "NFO",
             "flag": "B"
           },
           {
@@ -3005,9 +3042,23 @@
           "transfers": 1,
           "hit": 0,
           "bench": 20
+        },
+        {
+          "event": 12,
+          "points": 0,
+          "rank": null,
+          "transfers": 1,
+          "hit": 0,
+          "bench": 0
         }
       ],
       "transfers": [
+        {
+          "event": 12,
+          "out": "Barry",
+          "in": "Evanilson",
+          "time": "2026-11-27T11:27:47.554780Z"
+        },
         {
           "event": 11,
           "out": "Egan",
@@ -3106,17 +3157,17 @@
         }
       ],
       "profile": {
-        "transferRate": 73,
-        "avgMoves": 1.75,
+        "transferRate": 75,
+        "avgMoves": 1.67,
         "hitRate": 0,
-        "captainHaalandRate": 55,
+        "captainHaalandRate": 50,
         "chipCountRecent": 0,
-        "sampleGWs": 11
+        "sampleGWs": 12
       },
       "simulated": {
         "action": "likely_transfer",
         "confidence": "medium",
-        "transferPressure": 95,
+        "transferPressure": 79,
         "candidates": [
           {
             "out": "Neto",
@@ -3125,12 +3176,12 @@
             "inPrice": 7.5,
             "club": "LIV",
             "position": 3,
-            "form": 9.7,
-            "outgoingForm": 1.7,
-            "upgrade": 8,
-            "globalOwner": 13.3,
-            "fixture": "LIV A v EVE",
-            "score": 36.57,
+            "form": 7.2,
+            "outgoingForm": 1.5,
+            "upgrade": 5.7,
+            "globalOwner": 16.8,
+            "fixture": "LIV H v SUN",
+            "score": 29.27,
             "threat": false
           },
           {
@@ -3140,12 +3191,27 @@
             "inPrice": 5.5,
             "club": "HUL",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 1.7,
-            "upgrade": 7.3,
-            "globalOwner": 2.2,
-            "fixture": "HUL A v CRY",
-            "score": 32.9,
+            "form": 6.8,
+            "outgoingForm": 1.2,
+            "upgrade": 5.6,
+            "globalOwner": 2.3,
+            "fixture": "HUL H v NFO",
+            "score": 25.06,
+            "threat": false
+          },
+          {
+            "out": "Kostoulas",
+            "in": "Barry",
+            "outPrice": 5.7,
+            "inPrice": 5.7,
+            "club": "EVE",
+            "position": 4,
+            "form": 6.8,
+            "outgoingForm": 1.2,
+            "upgrade": 5.6,
+            "globalOwner": 10.8,
+            "fixture": "EVE A v AVL",
+            "score": 24.98,
             "threat": false
           },
           {
@@ -3155,28 +3221,13 @@
             "inPrice": 5.7,
             "club": "BOU",
             "position": 2,
-            "form": 8,
-            "outgoingForm": 0.3,
-            "upgrade": 7.7,
-            "globalOwner": 5.1,
-            "fixture": "BOU A v FUL",
-            "score": 32.23,
+            "form": 6,
+            "outgoingForm": 0.2,
+            "upgrade": 5.8,
+            "globalOwner": 5.3,
+            "fixture": "BOU H v BHA",
+            "score": 24.01,
             "threat": false
-          },
-          {
-            "out": "Kostoulas",
-            "in": "Evanilson",
-            "outPrice": 5.7,
-            "inPrice": 6.6,
-            "club": "BOU",
-            "position": 4,
-            "form": 8,
-            "outgoingForm": 1.7,
-            "upgrade": 6.3,
-            "globalOwner": 28,
-            "fixture": "BOU A v FUL",
-            "score": 29.94,
-            "threat": true
           },
           {
             "out": "Kostoulas",
@@ -3185,27 +3236,27 @@
             "inPrice": 7.3,
             "club": "AVL",
             "position": 4,
-            "form": 7.3,
-            "outgoingForm": 1.7,
-            "upgrade": 5.6,
-            "globalOwner": 36.9,
-            "fixture": "AVL A v IPS",
-            "score": 29.08,
+            "form": 5.5,
+            "outgoingForm": 1.2,
+            "upgrade": 4.3,
+            "globalOwner": 37.3,
+            "fixture": "AVL H v EVE",
+            "score": 22.26,
             "threat": true
           },
           {
             "out": "Neto",
-            "in": "E.Le Fée",
+            "in": "Rudoni",
             "outPrice": 6.6,
-            "inPrice": 5.7,
-            "club": "SUN",
+            "inPrice": 5,
+            "club": "COV",
             "position": 3,
-            "form": 7.3,
-            "outgoingForm": 1.7,
-            "upgrade": 5.6,
-            "globalOwner": 3.1,
-            "fixture": "SUN H v TOT",
-            "score": 26,
+            "form": 5.2,
+            "outgoingForm": 1.5,
+            "upgrade": 3.7,
+            "globalOwner": 2.1,
+            "fixture": "COV H v IPS",
+            "score": 21.51,
             "threat": false
           },
           {
@@ -3215,12 +3266,12 @@
             "inPrice": 4.9,
             "club": "ARS",
             "position": 2,
-            "form": 6.3,
-            "outgoingForm": 0.3,
-            "upgrade": 6,
-            "globalOwner": 25,
-            "fixture": "ARS H v MCI",
-            "score": 25.99,
+            "form": 4.8,
+            "outgoingForm": 0.2,
+            "upgrade": 4.6,
+            "globalOwner": 25.1,
+            "fixture": "ARS A v BRE",
+            "score": 20.3,
             "threat": true
           },
           {
@@ -3230,30 +3281,30 @@
             "inPrice": 4.9,
             "club": "ARS",
             "position": 2,
-            "form": 6.3,
-            "outgoingForm": 2.3,
-            "upgrade": 4,
-            "globalOwner": 25,
-            "fixture": "ARS H v MCI",
-            "score": 21.19,
+            "form": 4.8,
+            "outgoingForm": 2,
+            "upgrade": 2.8,
+            "globalOwner": 25.1,
+            "fixture": "ARS A v BRE",
+            "score": 17.06,
             "threat": true
           }
         ],
         "blockedTargets": [],
-        "captain": "Haaland",
+        "captain": "Evanilson",
         "captainConfidence": "last_revealed",
-        "reason": "มีผู้เล่น status ไม่พร้อม 2 คน"
+        "reason": "มีผู้เล่น status ไม่พร้อม 1 คน"
       },
       "learning": {
         "forecastVsActual": [
           {
-            "targetEvent": 11,
+            "targetEvent": 12,
             "predictedAction": "likely_transfer",
             "actualAction": "likely_transfer",
             "actionCorrect": true,
             "predictedCaptain": "Haaland",
-            "actualCaptain": "Haaland",
-            "captainCorrect": true
+            "actualCaptain": "Evanilson",
+            "captainCorrect": false
           }
         ],
         "modelVersion": "v1.2"
@@ -3264,11 +3315,11 @@
       "rank": 7,
       "name": "Katha Panthong",
       "team": "RelegationBattle",
-      "total": 652,
+      "total": 653,
       "current": {
-        "event": 11,
-        "points": 35,
-        "captain": "Haaland",
+        "event": 12,
+        "points": 0,
+        "captain": "Isak",
         "captainMultiplier": 2,
         "picks": [
           {
@@ -3282,17 +3333,17 @@
             "flag": "XI"
           },
           {
-            "name": "Calafiori",
-            "club": "ARS",
-            "flag": "XI"
-          },
-          {
-            "name": "Tarkowski",
-            "club": "EVE",
+            "name": "Araujo",
+            "club": "LIV",
             "flag": "VC"
           },
           {
             "name": "Pedro Porro",
+            "club": "TOT",
+            "flag": "XI"
+          },
+          {
+            "name": "Van Hecke",
             "club": "TOT",
             "flag": "XI"
           },
@@ -3302,8 +3353,8 @@
             "flag": "XI"
           },
           {
-            "name": "Rice",
-            "club": "ARS",
+            "name": "Mainoo",
+            "club": "MUN",
             "flag": "XI"
           },
           {
@@ -3314,7 +3365,7 @@
           {
             "name": "Isak",
             "club": "LIV",
-            "flag": "XI"
+            "flag": "C"
           },
           {
             "name": "Evanilson",
@@ -3324,7 +3375,7 @@
           {
             "name": "Haaland",
             "club": "MCI",
-            "flag": "C"
+            "flag": "XI"
           },
           {
             "name": "Lammens",
@@ -3332,18 +3383,18 @@
             "flag": "B"
           },
           {
-            "name": "Mainoo",
-            "club": "MUN",
+            "name": "Rice",
+            "club": "ARS",
+            "flag": "B"
+          },
+          {
+            "name": "Calafiori",
+            "club": "ARS",
             "flag": "B"
           },
           {
             "name": "Barnes",
             "club": "NEW",
-            "flag": "B"
-          },
-          {
-            "name": "Araujo",
-            "club": "LIV",
             "flag": "B"
           }
         ]
@@ -3436,9 +3487,23 @@
           "transfers": 0,
           "hit": 0,
           "bench": 19
+        },
+        {
+          "event": 12,
+          "points": 0,
+          "rank": null,
+          "transfers": 1,
+          "hit": 0,
+          "bench": 0
         }
       ],
       "transfers": [
+        {
+          "event": 12,
+          "out": "Tarkowski",
+          "in": "Van Hecke",
+          "time": "2026-11-24T01:53:10.248716Z"
+        },
         {
           "event": 10,
           "out": "Konsa",
@@ -3526,33 +3591,18 @@
         }
       ],
       "profile": {
-        "transferRate": 73,
-        "avgMoves": 1.63,
-        "hitRate": 27,
-        "captainHaalandRate": 73,
+        "transferRate": 75,
+        "avgMoves": 1.56,
+        "hitRate": 25,
+        "captainHaalandRate": 67,
         "chipCountRecent": 1,
-        "sampleGWs": 11
+        "sampleGWs": 12
       },
       "simulated": {
         "action": "likely_transfer",
         "confidence": "medium",
-        "transferPressure": 78,
+        "transferPressure": 62,
         "candidates": [
-          {
-            "out": "Tarkowski",
-            "in": "Van Hecke",
-            "outPrice": 6.2,
-            "inPrice": 5.2,
-            "club": "TOT",
-            "position": 2,
-            "form": 8.3,
-            "outgoingForm": 1.3,
-            "upgrade": 7,
-            "globalOwner": 20.5,
-            "fixture": "TOT A v SUN",
-            "score": 31.31,
-            "threat": true
-          },
           {
             "out": "Rice",
             "in": "Wirtz",
@@ -3560,534 +3610,43 @@
             "inPrice": 7.5,
             "club": "LIV",
             "position": 3,
-            "form": 9.7,
-            "outgoingForm": 4.7,
-            "upgrade": 5,
-            "globalOwner": 13.3,
-            "fixture": "LIV A v EVE",
-            "score": 31.17,
+            "form": 7.2,
+            "outgoingForm": 3.5,
+            "upgrade": 3.7,
+            "globalOwner": 16.8,
+            "fixture": "LIV H v SUN",
+            "score": 25.67,
             "threat": false
           },
           {
-            "out": "Tarkowski",
-            "in": "Hill",
-            "outPrice": 6.2,
-            "inPrice": 5.7,
-            "club": "BOU",
-            "position": 2,
-            "form": 8,
-            "outgoingForm": 1.3,
-            "upgrade": 6.7,
-            "globalOwner": 5.1,
-            "fixture": "BOU A v FUL",
-            "score": 29.23,
-            "threat": false
-          },
-          {
-            "out": "Isak",
+            "out": "Haaland",
             "in": "McBurnie",
-            "outPrice": 9.4,
+            "outPrice": 15.7,
             "inPrice": 5.5,
             "club": "HUL",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 5,
-            "upgrade": 4,
-            "globalOwner": 2.2,
-            "fixture": "HUL A v CRY",
-            "score": 26.96,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 2.3,
+            "fixture": "HUL H v NFO",
+            "score": 24.52,
             "threat": false
           },
           {
-            "out": "Lammens",
-            "in": "Roefs",
-            "outPrice": 4.8,
-            "inPrice": 4.8,
-            "club": "SUN",
-            "position": 1,
-            "form": 7,
-            "outgoingForm": 2,
-            "upgrade": 5,
-            "globalOwner": 2.1,
-            "fixture": "SUN H v TOT",
-            "score": 25.56,
-            "threat": false
-          },
-          {
-            "out": "Mainoo",
-            "in": "E.Le Fée",
-            "outPrice": 5.5,
-            "inPrice": 5.7,
-            "club": "SUN",
-            "position": 3,
-            "form": 7.3,
-            "outgoingForm": 2.7,
-            "upgrade": 4.6,
-            "globalOwner": 3.1,
-            "fixture": "SUN H v TOT",
-            "score": 25.4,
-            "threat": false
-          },
-          {
-            "out": "Isak",
-            "in": "N.Jackson",
-            "outPrice": 9.4,
-            "inPrice": 7.3,
-            "club": "AVL",
-            "position": 4,
-            "form": 7.3,
-            "outgoingForm": 5,
-            "upgrade": 2.3,
-            "globalOwner": 36.9,
-            "fixture": "AVL A v IPS",
-            "score": 23.14,
-            "threat": true
-          },
-          {
-            "out": "Tarkowski",
-            "in": "Konsa",
-            "outPrice": 6.2,
-            "inPrice": 4.9,
-            "club": "ARS",
-            "position": 2,
-            "form": 6.3,
-            "outgoingForm": 1.3,
-            "upgrade": 5,
-            "globalOwner": 25,
-            "fixture": "ARS H v MCI",
-            "score": 22.99,
-            "threat": true
-          }
-        ],
-        "blockedTargets": [
-          {
-            "in": "Gabriel",
-            "position": 2,
-            "price": 8.1,
-            "maxPrice": 6.7,
-            "out": "Tarkowski",
-            "globalOwner": 26.9,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          },
-          {
-            "in": "Palmer",
-            "position": 3,
-            "price": 9.8,
-            "maxPrice": 8.8,
-            "out": "Rogers",
-            "globalOwner": 26.5,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          },
-          {
-            "in": "B.Fernandes",
-            "position": 3,
-            "price": 11.6,
-            "maxPrice": 8.8,
-            "out": "Rogers",
-            "globalOwner": 20.4,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          }
-        ],
-        "captain": "Haaland",
-        "captainConfidence": "last_revealed",
-        "reason": "มีผู้เล่น status ไม่พร้อม 1 คน"
-      },
-      "learning": {
-        "forecastVsActual": [
-          {
-            "targetEvent": 11,
-            "predictedAction": "likely_transfer",
-            "actualAction": "likely_roll",
-            "actionCorrect": false,
-            "predictedCaptain": "Haaland",
-            "actualCaptain": "Haaland",
-            "captainCorrect": true
-          }
-        ],
-        "modelVersion": "v1.2"
-      }
-    },
-    {
-      "entry": 192330,
-      "rank": 8,
-      "name": "Mr PHAKPHUM",
-      "team": "SilverBank",
-      "total": 649,
-      "current": {
-        "event": 11,
-        "points": 40,
-        "captain": "Isak",
-        "captainMultiplier": 2,
-        "picks": [
-          {
-            "name": "Kinsky",
-            "club": "TOT",
-            "flag": "XI"
-          },
-          {
-            "name": "Van Hecke",
-            "club": "TOT",
-            "flag": "XI"
-          },
-          {
-            "name": "Calafiori",
-            "club": "ARS",
-            "flag": "XI"
-          },
-          {
-            "name": "De Cuyper",
-            "club": "BHA",
-            "flag": "XI"
-          },
-          {
-            "name": "Gibbs-White",
-            "club": "NFO",
-            "flag": "XI"
-          },
-          {
-            "name": "Rogers",
-            "club": "CHE",
-            "flag": "XI"
-          },
-          {
-            "name": "Groß",
-            "club": "BHA",
-            "flag": "XI"
-          },
-          {
-            "name": "McGinn",
-            "club": "AVL",
-            "flag": "XI"
-          },
-          {
-            "name": "Kostoulas",
-            "club": "BHA",
-            "flag": "XI"
-          },
-          {
-            "name": "Haaland",
-            "club": "MCI",
-            "flag": "VC"
-          },
-          {
-            "name": "Isak",
-            "club": "LIV",
-            "flag": "C"
-          },
-          {
-            "name": "Kelleher",
-            "club": "BRE",
-            "flag": "B"
-          },
-          {
-            "name": "King",
-            "club": "FUL",
-            "flag": "B"
-          },
-          {
-            "name": "Tarkowski",
-            "club": "EVE",
-            "flag": "B"
-          },
-          {
-            "name": "Hall",
-            "club": "NEW",
-            "flag": "B"
-          }
-        ]
-      },
-      "history": [
-        {
-          "event": 1,
-          "points": 44,
-          "rank": 6124842,
-          "transfers": 0,
-          "hit": 0,
-          "bench": 6
-        },
-        {
-          "event": 2,
-          "points": 80,
-          "rank": 5042969,
-          "transfers": 1,
-          "hit": 0,
-          "bench": 21
-        },
-        {
-          "event": 3,
-          "points": 57,
-          "rank": 3224540,
-          "transfers": 1,
-          "hit": 0,
-          "bench": 19
-        },
-        {
-          "event": 4,
-          "points": 87,
-          "rank": 1251387,
-          "transfers": 1,
-          "hit": 0,
-          "bench": 3
-        },
-        {
-          "event": 5,
-          "points": 66,
-          "rank": 767476,
-          "transfers": 1,
-          "hit": 0,
-          "bench": 0
-        },
-        {
-          "event": 6,
-          "points": 61,
-          "rank": 4551923,
-          "transfers": 0,
-          "hit": 0,
-          "bench": 22
-        },
-        {
-          "event": 7,
-          "points": 73,
-          "rank": 1676084,
-          "transfers": 1,
-          "hit": 0,
-          "bench": 0
-        },
-        {
-          "event": 8,
-          "points": 28,
-          "rank": 10406726,
-          "transfers": 0,
-          "hit": 0,
-          "bench": 18
-        },
-        {
-          "event": 9,
-          "points": 50,
-          "rank": 4646248,
-          "transfers": 2,
-          "hit": 0,
-          "bench": 24
-        },
-        {
-          "event": 10,
-          "points": 63,
-          "rank": 2869923,
-          "transfers": 0,
-          "hit": 0,
-          "bench": 13
-        },
-        {
-          "event": 11,
-          "points": 40,
-          "rank": 2996298,
-          "transfers": 0,
-          "hit": 0,
-          "bench": 5
-        }
-      ],
-      "transfers": [
-        {
-          "event": 9,
-          "out": "João Pedro",
-          "in": "Isak",
-          "time": "2026-10-28T02:48:01.296441Z"
-        },
-        {
-          "event": 9,
-          "out": "Cherki",
-          "in": "McGinn",
-          "time": "2026-10-26T01:41:04.632981Z"
-        },
-        {
-          "event": 7,
-          "out": "Schade",
-          "in": "Cherki",
-          "time": "2026-10-13T13:09:40.510895Z"
-        },
-        {
-          "event": 6,
-          "out": "Barry",
-          "in": "Kostoulas",
-          "time": "2026-10-10T01:57:56.539540Z"
-        },
-        {
-          "event": 6,
-          "out": "N.Williams",
-          "in": "Van Hecke",
-          "time": "2026-10-10T01:54:25.727889Z"
-        },
-        {
-          "event": 6,
-          "out": "Szoboszlai",
-          "in": "Schade",
-          "time": "2026-10-08T13:01:09.002789Z"
-        },
-        {
-          "event": 6,
-          "out": "Brobbey",
-          "in": "Barry",
-          "time": "2026-10-08T11:30:16.174399Z"
-        },
-        {
-          "event": 6,
-          "out": "Elanga",
-          "in": "King",
-          "time": "2026-10-08T03:03:14.743238Z"
-        },
-        {
-          "event": 6,
-          "out": "van Ewijk",
-          "in": "Hall",
-          "time": "2026-10-08T03:03:14.743131Z"
-        },
-        {
-          "event": 6,
-          "out": "Roefs",
-          "in": "Kelleher",
-          "time": "2026-10-08T03:03:14.743019Z"
-        },
-        {
-          "event": 6,
-          "out": "Palmer",
-          "in": "Rogers",
-          "time": "2026-10-08T03:03:14.742904Z"
-        },
-        {
-          "event": 6,
-          "out": "Van Hecke",
-          "in": "Tarkowski",
-          "time": "2026-10-08T03:03:14.742748Z"
-        },
-        {
-          "event": 5,
-          "out": "Cunha",
-          "in": "Gibbs-White",
-          "time": "2026-09-13T15:12:17.859950Z"
-        },
-        {
-          "event": 4,
-          "out": "Semenyo",
-          "in": "Palmer",
-          "time": "2026-09-05T16:45:46.153481Z"
-        },
-        {
-          "event": 3,
-          "out": "Shaw",
-          "in": "De Cuyper",
-          "time": "2026-09-01T06:41:53.018788Z"
-        },
-        {
-          "event": 2,
-          "out": "Wirtz",
-          "in": "Elanga",
-          "time": "2026-08-25T15:21:10.424027Z"
-        }
-      ],
-      "chips": [
-        {
-          "name": "3xc",
-          "time": "2026-08-31T05:09:10.727538Z",
-          "event": 3
-        },
-        {
-          "name": "wildcard",
-          "time": "2026-10-08T03:01:18.148204Z",
-          "event": 6
-        },
-        {
-          "name": "bboost",
-          "time": "2026-10-11T17:23:53.355991Z",
-          "event": 7
-        }
-      ],
-      "profile": {
-        "transferRate": 64,
-        "avgMoves": 2.29,
-        "hitRate": 0,
-        "captainHaalandRate": 36,
-        "chipCountRecent": 2,
-        "sampleGWs": 11
-      },
-      "simulated": {
-        "action": "likely_transfer",
-        "confidence": "medium",
-        "transferPressure": 100,
-        "candidates": [
-          {
-            "out": "Gibbs-White",
-            "in": "Wirtz",
-            "outPrice": 7.8,
-            "inPrice": 7.5,
-            "club": "LIV",
-            "position": 3,
-            "form": 9.7,
-            "outgoingForm": 3,
-            "upgrade": 6.7,
-            "globalOwner": 13.3,
-            "fixture": "LIV A v EVE",
-            "score": 34.23,
-            "threat": false
-          },
-          {
-            "out": "Kostoulas",
-            "in": "McBurnie",
-            "outPrice": 5.7,
-            "inPrice": 5.5,
-            "club": "HUL",
-            "position": 4,
-            "form": 9,
-            "outgoingForm": 1.7,
-            "upgrade": 7.3,
-            "globalOwner": 2.2,
-            "fixture": "HUL A v CRY",
-            "score": 32.9,
-            "threat": false
-          },
-          {
-            "out": "Kostoulas",
+            "out": "Haaland",
             "in": "Barry",
-            "outPrice": 5.7,
+            "outPrice": 15.7,
             "inPrice": 5.7,
             "club": "EVE",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 1.7,
-            "upgrade": 7.3,
-            "globalOwner": 11.1,
-            "fixture": "EVE H v LIV",
-            "score": 31.02,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 10.8,
+            "fixture": "EVE A v AVL",
+            "score": 24.44,
             "threat": false
-          },
-          {
-            "out": "Tarkowski",
-            "in": "Hill",
-            "outPrice": 6.2,
-            "inPrice": 5.7,
-            "club": "BOU",
-            "position": 2,
-            "form": 8,
-            "outgoingForm": 1.3,
-            "upgrade": 6.7,
-            "globalOwner": 5.1,
-            "fixture": "BOU A v FUL",
-            "score": 30.43,
-            "threat": false
-          },
-          {
-            "out": "Kostoulas",
-            "in": "Evanilson",
-            "outPrice": 5.7,
-            "inPrice": 6.6,
-            "club": "BOU",
-            "position": 4,
-            "form": 8,
-            "outgoingForm": 1.7,
-            "upgrade": 6.3,
-            "globalOwner": 28,
-            "fixture": "BOU A v FUL",
-            "score": 29.94,
-            "threat": true
           },
           {
             "out": "Haaland",
@@ -4096,42 +3655,72 @@
             "inPrice": 7.3,
             "club": "AVL",
             "position": 4,
-            "form": 7.3,
-            "outgoingForm": 2,
-            "upgrade": 5.3,
-            "globalOwner": 36.9,
-            "fixture": "AVL A v IPS",
-            "score": 28.54,
-            "threat": true
-          },
-          {
-            "out": "Tarkowski",
-            "in": "Konsa",
-            "outPrice": 6.2,
-            "inPrice": 4.9,
-            "club": "ARS",
-            "position": 2,
-            "form": 6.3,
-            "outgoingForm": 1.3,
-            "upgrade": 5,
-            "globalOwner": 25,
-            "fixture": "ARS H v MCI",
-            "score": 24.19,
-            "threat": true
-          },
-          {
-            "out": "Hall",
-            "in": "Konsa",
-            "outPrice": 5.2,
-            "inPrice": 4.9,
-            "club": "ARS",
-            "position": 2,
-            "form": 6.3,
-            "outgoingForm": 2.3,
+            "form": 5.5,
+            "outgoingForm": 1.5,
             "upgrade": 4,
-            "globalOwner": 25,
-            "fixture": "ARS H v MCI",
-            "score": 22.39,
+            "globalOwner": 37.3,
+            "fixture": "AVL H v EVE",
+            "score": 21.72,
+            "threat": true
+          },
+          {
+            "out": "Mainoo",
+            "in": "Rudoni",
+            "outPrice": 5.5,
+            "inPrice": 5,
+            "club": "COV",
+            "position": 3,
+            "form": 5.2,
+            "outgoingForm": 2,
+            "upgrade": 3.2,
+            "globalOwner": 2.1,
+            "fixture": "COV H v IPS",
+            "score": 19.41,
+            "threat": false
+          },
+          {
+            "out": "Calafiori",
+            "in": "Hill",
+            "outPrice": 5.9,
+            "inPrice": 5.7,
+            "club": "BOU",
+            "position": 2,
+            "form": 6,
+            "outgoingForm": 3.2,
+            "upgrade": 2.8,
+            "globalOwner": 5.3,
+            "fixture": "BOU H v BHA",
+            "score": 18.61,
+            "threat": false
+          },
+          {
+            "out": "Calafiori",
+            "in": "Konsa",
+            "outPrice": 5.9,
+            "inPrice": 4.9,
+            "club": "ARS",
+            "position": 2,
+            "form": 4.8,
+            "outgoingForm": 3.2,
+            "upgrade": 1.6,
+            "globalOwner": 25.1,
+            "fixture": "ARS A v BRE",
+            "score": 14.9,
+            "threat": true
+          },
+          {
+            "out": "Mainoo",
+            "in": "Groß",
+            "outPrice": 5.5,
+            "inPrice": 6.3,
+            "club": "BHA",
+            "position": 3,
+            "form": 4,
+            "outgoingForm": 2,
+            "upgrade": 2,
+            "globalOwner": 50,
+            "fixture": "BHA A v BOU",
+            "score": 14.3,
             "threat": true
           }
         ],
@@ -4140,44 +3729,35 @@
             "in": "Gabriel",
             "position": 2,
             "price": 8.1,
-            "maxPrice": 7.2,
-            "out": "Tarkowski",
-            "globalOwner": 26.9,
+            "maxPrice": 7.3,
+            "out": "Calafiori",
+            "globalOwner": 27,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
             "in": "Palmer",
             "position": 3,
             "price": 9.8,
-            "maxPrice": 9.3,
+            "maxPrice": 9.7,
             "out": "Rogers",
-            "globalOwner": 26.5,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          },
-          {
-            "in": "B.Fernandes",
-            "position": 3,
-            "price": 11.6,
-            "maxPrice": 9.3,
-            "out": "Rogers",
-            "globalOwner": 20.4,
+            "globalOwner": 25.6,
             "reason": "ราคาเกินงบของ transfer เดียว"
           }
         ],
         "captain": "Isak",
         "captainConfidence": "last_revealed",
-        "reason": "มีผู้เล่น status ไม่พร้อม 2 คน"
+        "reason": "อัตราใช้ FT จากอดีต 75%"
       },
       "learning": {
         "forecastVsActual": [
           {
-            "targetEvent": 11,
+            "targetEvent": 12,
             "predictedAction": "likely_transfer",
-            "actualAction": "likely_roll",
-            "actionCorrect": false,
-            "predictedCaptain": "Isak",
+            "actualAction": "likely_transfer",
+            "actionCorrect": true,
+            "predictedCaptain": "Haaland",
             "actualCaptain": "Isak",
-            "captainCorrect": true
+            "captainCorrect": false
           }
         ],
         "modelVersion": "v1.2"
@@ -4185,13 +3765,13 @@
     },
     {
       "entry": 694667,
-      "rank": 9,
+      "rank": 8,
       "name": "Apirak Aiman",
       "team": "Bombadoo FC.",
-      "total": 649,
+      "total": 651,
       "current": {
-        "event": 11,
-        "points": 39,
+        "event": 12,
+        "points": 0,
         "captain": "Isak",
         "captainMultiplier": 2,
         "picks": [
@@ -4360,6 +3940,14 @@
           "transfers": 1,
           "hit": 0,
           "bench": 7
+        },
+        {
+          "event": 12,
+          "points": 0,
+          "rank": null,
+          "transfers": 0,
+          "hit": 0,
+          "bench": 0
         }
       ],
       "transfers": [
@@ -4592,12 +4180,12 @@
         }
       ],
       "profile": {
-        "transferRate": 73,
+        "transferRate": 67,
         "avgMoves": 4.38,
         "hitRate": 0,
-        "captainHaalandRate": 9,
+        "captainHaalandRate": 8,
         "chipCountRecent": 0,
-        "sampleGWs": 11
+        "sampleGWs": 12
       },
       "simulated": {
         "action": "likely_transfer",
@@ -4611,12 +4199,12 @@
             "inPrice": 7.5,
             "club": "LIV",
             "position": 3,
-            "form": 9.7,
-            "outgoingForm": 1.7,
-            "upgrade": 8,
-            "globalOwner": 13.3,
-            "fixture": "LIV A v EVE",
-            "score": 37.77,
+            "form": 7.2,
+            "outgoingForm": 1.2,
+            "upgrade": 6,
+            "globalOwner": 16.8,
+            "fixture": "LIV H v SUN",
+            "score": 29.81,
             "threat": false
           },
           {
@@ -4626,12 +4214,12 @@
             "inPrice": 5.5,
             "club": "HUL",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 1,
-            "upgrade": 8,
-            "globalOwner": 2.2,
-            "fixture": "HUL A v CRY",
-            "score": 35.36,
+            "form": 6.8,
+            "outgoingForm": 0.8,
+            "upgrade": 6,
+            "globalOwner": 2.3,
+            "fixture": "HUL H v NFO",
+            "score": 26.98,
             "threat": false
           },
           {
@@ -4641,12 +4229,12 @@
             "inPrice": 5.7,
             "club": "EVE",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 1,
-            "upgrade": 8,
-            "globalOwner": 11.1,
-            "fixture": "EVE H v LIV",
-            "score": 33.48,
+            "form": 6.8,
+            "outgoingForm": 0.8,
+            "upgrade": 6,
+            "globalOwner": 10.8,
+            "fixture": "EVE A v AVL",
+            "score": 26.9,
             "threat": false
           },
           {
@@ -4656,12 +4244,12 @@
             "inPrice": 6.6,
             "club": "BOU",
             "position": 4,
-            "form": 8,
-            "outgoingForm": 1,
-            "upgrade": 7,
-            "globalOwner": 28,
-            "fixture": "BOU A v FUL",
-            "score": 32.4,
+            "form": 6,
+            "outgoingForm": 0.8,
+            "upgrade": 5.2,
+            "globalOwner": 28.7,
+            "fixture": "BOU H v BHA",
+            "score": 24.1,
             "threat": true
           },
           {
@@ -4671,27 +4259,27 @@
             "inPrice": 5.2,
             "club": "TOT",
             "position": 2,
-            "form": 8.3,
-            "outgoingForm": 3.7,
-            "upgrade": 4.6,
-            "globalOwner": 20.5,
-            "fixture": "TOT A v SUN",
-            "score": 28.19,
+            "form": 6.2,
+            "outgoingForm": 2.8,
+            "upgrade": 3.4,
+            "globalOwner": 21.5,
+            "fixture": "TOT H v FUL",
+            "score": 23.64,
             "threat": true
           },
           {
             "out": "Gakpo",
-            "in": "E.Le Fée",
+            "in": "Rudoni",
             "outPrice": 7.1,
-            "inPrice": 5.7,
-            "club": "SUN",
+            "inPrice": 5,
+            "club": "COV",
             "position": 3,
-            "form": 7.3,
-            "outgoingForm": 1.7,
-            "upgrade": 5.6,
-            "globalOwner": 3.1,
-            "fixture": "SUN H v TOT",
-            "score": 27.2,
+            "form": 5.2,
+            "outgoingForm": 1.2,
+            "upgrade": 4,
+            "globalOwner": 2.1,
+            "fixture": "COV H v IPS",
+            "score": 22.05,
             "threat": false
           },
           {
@@ -4701,27 +4289,27 @@
             "inPrice": 6.3,
             "club": "BHA",
             "position": 3,
-            "form": 5.3,
-            "outgoingForm": 1.7,
-            "upgrade": 3.6,
-            "globalOwner": 49.7,
-            "fixture": "BHA H v NEW",
-            "score": 22.72,
+            "form": 4,
+            "outgoingForm": 1.2,
+            "upgrade": 2.8,
+            "globalOwner": 50,
+            "fixture": "BHA A v BOU",
+            "score": 16.94,
             "threat": true
           },
           {
             "out": "Gakpo",
-            "in": "B.Fernandes",
+            "in": "Cherki",
             "outPrice": 7.1,
-            "inPrice": 11.6,
-            "club": "MUN",
+            "inPrice": 7.8,
+            "club": "MCI",
             "position": 3,
-            "form": 4.7,
-            "outgoingForm": 1.7,
-            "upgrade": 3,
-            "globalOwner": 20.4,
-            "fixture": "MUN H v BRE",
-            "score": 19.11,
+            "form": 2.8,
+            "outgoingForm": 1.2,
+            "upgrade": 1.6,
+            "globalOwner": 29.2,
+            "fixture": "MCI H v LEE",
+            "score": 13.6,
             "threat": true
           }
         ],
@@ -4732,7 +4320,7 @@
             "price": 15.7,
             "maxPrice": 13.1,
             "out": "N.Jackson",
-            "globalOwner": 76.2,
+            "globalOwner": 75.5,
             "reason": "ราคาเกินงบของ transfer เดียว"
           }
         ],
@@ -4743,7 +4331,481 @@
       "learning": {
         "forecastVsActual": [
           {
-            "targetEvent": 11,
+            "targetEvent": 12,
+            "predictedAction": "likely_transfer",
+            "actualAction": "likely_roll",
+            "actionCorrect": false,
+            "predictedCaptain": "Isak",
+            "actualCaptain": "Isak",
+            "captainCorrect": true
+          }
+        ],
+        "modelVersion": "v1.2"
+      }
+    },
+    {
+      "entry": 192330,
+      "rank": 9,
+      "name": "Mr PHAKPHUM",
+      "team": "SilverBank",
+      "total": 650,
+      "current": {
+        "event": 12,
+        "points": 0,
+        "captain": "Isak",
+        "captainMultiplier": 2,
+        "picks": [
+          {
+            "name": "Kinsky",
+            "club": "TOT",
+            "flag": "XI"
+          },
+          {
+            "name": "Van Hecke",
+            "club": "TOT",
+            "flag": "XI"
+          },
+          {
+            "name": "Bogle",
+            "club": "LEE",
+            "flag": "XI"
+          },
+          {
+            "name": "De Cuyper",
+            "club": "BHA",
+            "flag": "XI"
+          },
+          {
+            "name": "Okafor",
+            "club": "LEE",
+            "flag": "XI"
+          },
+          {
+            "name": "Rogers",
+            "club": "CHE",
+            "flag": "XI"
+          },
+          {
+            "name": "Groß",
+            "club": "BHA",
+            "flag": "XI"
+          },
+          {
+            "name": "McGinn",
+            "club": "AVL",
+            "flag": "XI"
+          },
+          {
+            "name": "Evanilson",
+            "club": "BOU",
+            "flag": "XI"
+          },
+          {
+            "name": "Haaland",
+            "club": "MCI",
+            "flag": "VC"
+          },
+          {
+            "name": "Isak",
+            "club": "LIV",
+            "flag": "C"
+          },
+          {
+            "name": "Kelleher",
+            "club": "BRE",
+            "flag": "B"
+          },
+          {
+            "name": "Calafiori",
+            "club": "ARS",
+            "flag": "B"
+          },
+          {
+            "name": "King",
+            "club": "FUL",
+            "flag": "B"
+          },
+          {
+            "name": "Hall",
+            "club": "NEW",
+            "flag": "B"
+          }
+        ]
+      },
+      "history": [
+        {
+          "event": 1,
+          "points": 44,
+          "rank": 6124842,
+          "transfers": 0,
+          "hit": 0,
+          "bench": 6
+        },
+        {
+          "event": 2,
+          "points": 80,
+          "rank": 5042969,
+          "transfers": 1,
+          "hit": 0,
+          "bench": 21
+        },
+        {
+          "event": 3,
+          "points": 57,
+          "rank": 3224540,
+          "transfers": 1,
+          "hit": 0,
+          "bench": 19
+        },
+        {
+          "event": 4,
+          "points": 87,
+          "rank": 1251387,
+          "transfers": 1,
+          "hit": 0,
+          "bench": 3
+        },
+        {
+          "event": 5,
+          "points": 66,
+          "rank": 767476,
+          "transfers": 1,
+          "hit": 0,
+          "bench": 0
+        },
+        {
+          "event": 6,
+          "points": 61,
+          "rank": 4551923,
+          "transfers": 0,
+          "hit": 0,
+          "bench": 22
+        },
+        {
+          "event": 7,
+          "points": 73,
+          "rank": 1676084,
+          "transfers": 1,
+          "hit": 0,
+          "bench": 0
+        },
+        {
+          "event": 8,
+          "points": 28,
+          "rank": 10406726,
+          "transfers": 0,
+          "hit": 0,
+          "bench": 18
+        },
+        {
+          "event": 9,
+          "points": 50,
+          "rank": 4646248,
+          "transfers": 2,
+          "hit": 0,
+          "bench": 24
+        },
+        {
+          "event": 10,
+          "points": 63,
+          "rank": 2869923,
+          "transfers": 0,
+          "hit": 0,
+          "bench": 13
+        },
+        {
+          "event": 11,
+          "points": 40,
+          "rank": 2996298,
+          "transfers": 0,
+          "hit": 0,
+          "bench": 5
+        },
+        {
+          "event": 12,
+          "points": 0,
+          "rank": null,
+          "transfers": 3,
+          "hit": 0,
+          "bench": 0
+        }
+      ],
+      "transfers": [
+        {
+          "event": 12,
+          "out": "Tarkowski",
+          "in": "Bogle",
+          "time": "2026-11-21T16:32:24.912848Z"
+        },
+        {
+          "event": 12,
+          "out": "Kostoulas",
+          "in": "Evanilson",
+          "time": "2026-11-21T16:32:24.912643Z"
+        },
+        {
+          "event": 12,
+          "out": "Gibbs-White",
+          "in": "Okafor",
+          "time": "2026-11-21T16:32:24.908463Z"
+        },
+        {
+          "event": 9,
+          "out": "João Pedro",
+          "in": "Isak",
+          "time": "2026-10-28T02:48:01.296441Z"
+        },
+        {
+          "event": 9,
+          "out": "Cherki",
+          "in": "McGinn",
+          "time": "2026-10-26T01:41:04.632981Z"
+        },
+        {
+          "event": 7,
+          "out": "Schade",
+          "in": "Cherki",
+          "time": "2026-10-13T13:09:40.510895Z"
+        },
+        {
+          "event": 6,
+          "out": "Barry",
+          "in": "Kostoulas",
+          "time": "2026-10-10T01:57:56.539540Z"
+        },
+        {
+          "event": 6,
+          "out": "N.Williams",
+          "in": "Van Hecke",
+          "time": "2026-10-10T01:54:25.727889Z"
+        },
+        {
+          "event": 6,
+          "out": "Szoboszlai",
+          "in": "Schade",
+          "time": "2026-10-08T13:01:09.002789Z"
+        },
+        {
+          "event": 6,
+          "out": "Brobbey",
+          "in": "Barry",
+          "time": "2026-10-08T11:30:16.174399Z"
+        },
+        {
+          "event": 6,
+          "out": "Elanga",
+          "in": "King",
+          "time": "2026-10-08T03:03:14.743238Z"
+        },
+        {
+          "event": 6,
+          "out": "van Ewijk",
+          "in": "Hall",
+          "time": "2026-10-08T03:03:14.743131Z"
+        },
+        {
+          "event": 6,
+          "out": "Roefs",
+          "in": "Kelleher",
+          "time": "2026-10-08T03:03:14.743019Z"
+        },
+        {
+          "event": 6,
+          "out": "Palmer",
+          "in": "Rogers",
+          "time": "2026-10-08T03:03:14.742904Z"
+        },
+        {
+          "event": 6,
+          "out": "Van Hecke",
+          "in": "Tarkowski",
+          "time": "2026-10-08T03:03:14.742748Z"
+        },
+        {
+          "event": 5,
+          "out": "Cunha",
+          "in": "Gibbs-White",
+          "time": "2026-09-13T15:12:17.859950Z"
+        },
+        {
+          "event": 4,
+          "out": "Semenyo",
+          "in": "Palmer",
+          "time": "2026-09-05T16:45:46.153481Z"
+        },
+        {
+          "event": 3,
+          "out": "Shaw",
+          "in": "De Cuyper",
+          "time": "2026-09-01T06:41:53.018788Z"
+        },
+        {
+          "event": 2,
+          "out": "Wirtz",
+          "in": "Elanga",
+          "time": "2026-08-25T15:21:10.424027Z"
+        }
+      ],
+      "chips": [
+        {
+          "name": "3xc",
+          "time": "2026-08-31T05:09:10.727538Z",
+          "event": 3
+        },
+        {
+          "name": "wildcard",
+          "time": "2026-10-08T03:01:18.148204Z",
+          "event": 6
+        },
+        {
+          "name": "bboost",
+          "time": "2026-10-11T17:23:53.355991Z",
+          "event": 7
+        }
+      ],
+      "profile": {
+        "transferRate": 67,
+        "avgMoves": 2.38,
+        "hitRate": 0,
+        "captainHaalandRate": 33,
+        "chipCountRecent": 1,
+        "sampleGWs": 12
+      },
+      "simulated": {
+        "action": "likely_transfer",
+        "confidence": "medium",
+        "transferPressure": 99,
+        "candidates": [
+          {
+            "out": "King",
+            "in": "Wirtz",
+            "outPrice": 5.4,
+            "inPrice": 7.5,
+            "club": "LIV",
+            "position": 3,
+            "form": 7.2,
+            "outgoingForm": 1.8,
+            "upgrade": 5.4,
+            "globalOwner": 16.8,
+            "fixture": "LIV H v SUN",
+            "score": 28.73,
+            "threat": false
+          },
+          {
+            "out": "Haaland",
+            "in": "McBurnie",
+            "outPrice": 15.7,
+            "inPrice": 5.5,
+            "club": "HUL",
+            "position": 4,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 2.3,
+            "fixture": "HUL H v NFO",
+            "score": 24.52,
+            "threat": false
+          },
+          {
+            "out": "Haaland",
+            "in": "Barry",
+            "outPrice": 15.7,
+            "inPrice": 5.7,
+            "club": "EVE",
+            "position": 4,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 10.8,
+            "fixture": "EVE A v AVL",
+            "score": 24.44,
+            "threat": false
+          },
+          {
+            "out": "Haaland",
+            "in": "N.Jackson",
+            "outPrice": 15.7,
+            "inPrice": 7.3,
+            "club": "AVL",
+            "position": 4,
+            "form": 5.5,
+            "outgoingForm": 1.5,
+            "upgrade": 4,
+            "globalOwner": 37.3,
+            "fixture": "AVL H v EVE",
+            "score": 21.72,
+            "threat": true
+          },
+          {
+            "out": "Hall",
+            "in": "Hill",
+            "outPrice": 5.2,
+            "inPrice": 5.7,
+            "club": "BOU",
+            "position": 2,
+            "form": 6,
+            "outgoingForm": 1.8,
+            "upgrade": 4.2,
+            "globalOwner": 5.3,
+            "fixture": "BOU H v BHA",
+            "score": 21.13,
+            "threat": false
+          },
+          {
+            "out": "King",
+            "in": "Rudoni",
+            "outPrice": 5.4,
+            "inPrice": 5,
+            "club": "COV",
+            "position": 3,
+            "form": 5.2,
+            "outgoingForm": 1.8,
+            "upgrade": 3.4,
+            "globalOwner": 2.1,
+            "fixture": "COV H v IPS",
+            "score": 20.97,
+            "threat": false
+          },
+          {
+            "out": "Hall",
+            "in": "Konsa",
+            "outPrice": 5.2,
+            "inPrice": 4.9,
+            "club": "ARS",
+            "position": 2,
+            "form": 4.8,
+            "outgoingForm": 1.8,
+            "upgrade": 3,
+            "globalOwner": 25.1,
+            "fixture": "ARS A v BRE",
+            "score": 17.42,
+            "threat": true
+          },
+          {
+            "out": "Calafiori",
+            "in": "Konsa",
+            "outPrice": 5.9,
+            "inPrice": 4.9,
+            "club": "ARS",
+            "position": 2,
+            "form": 4.8,
+            "outgoingForm": 3.2,
+            "upgrade": 1.6,
+            "globalOwner": 25.1,
+            "fixture": "ARS A v BRE",
+            "score": 14.9,
+            "threat": true
+          }
+        ],
+        "blockedTargets": [],
+        "captain": "Isak",
+        "captainConfidence": "last_revealed",
+        "reason": "มีผู้เล่น status ไม่พร้อม 1 คน"
+      },
+      "learning": {
+        "forecastVsActual": [
+          {
+            "targetEvent": 12,
             "predictedAction": "likely_transfer",
             "actualAction": "likely_transfer",
             "actionCorrect": true,
@@ -4760,10 +4822,10 @@
       "rank": 10,
       "name": "Chetsada Muangsri",
       "team": "JedYubZ_WCC",
-      "total": 636,
+      "total": 637,
       "current": {
-        "event": 11,
-        "points": 34,
+        "event": 12,
+        "points": 0,
         "captain": "N.Jackson",
         "captainMultiplier": 2,
         "picks": [
@@ -4932,6 +4994,14 @@
           "transfers": 3,
           "hit": 4,
           "bench": 9
+        },
+        {
+          "event": 12,
+          "points": 0,
+          "rank": null,
+          "transfers": 0,
+          "hit": 0,
+          "bench": 0
         }
       ],
       "transfers": [
@@ -5034,12 +5104,12 @@
         }
       ],
       "profile": {
-        "transferRate": 73,
+        "transferRate": 67,
         "avgMoves": 1.88,
-        "hitRate": 45,
-        "captainHaalandRate": 45,
+        "hitRate": 42,
+        "captainHaalandRate": 42,
         "chipCountRecent": 1,
-        "sampleGWs": 11
+        "sampleGWs": 12
       },
       "simulated": {
         "action": "likely_transfer",
@@ -5047,33 +5117,18 @@
         "transferPressure": 99,
         "candidates": [
           {
-            "out": "Manzambi",
+            "out": "Belloumi",
             "in": "Wirtz",
-            "outPrice": 6.2,
+            "outPrice": 5.2,
             "inPrice": 7.5,
             "club": "LIV",
             "position": 3,
-            "form": 9.7,
-            "outgoingForm": 3.3,
-            "upgrade": 6.4,
-            "globalOwner": 13.3,
-            "fixture": "LIV A v EVE",
-            "score": 33.69,
-            "threat": false
-          },
-          {
-            "out": "Haaland",
-            "in": "McBurnie",
-            "outPrice": 15.7,
-            "inPrice": 5.5,
-            "club": "HUL",
-            "position": 4,
-            "form": 9,
-            "outgoingForm": 2,
-            "upgrade": 7,
-            "globalOwner": 2.2,
-            "fixture": "HUL A v CRY",
-            "score": 32.36,
+            "form": 7.2,
+            "outgoingForm": 3,
+            "upgrade": 4.2,
+            "globalOwner": 16.8,
+            "fixture": "LIV H v SUN",
+            "score": 26.57,
             "threat": false
           },
           {
@@ -5083,13 +5138,28 @@
             "inPrice": 5.2,
             "club": "TOT",
             "position": 2,
-            "form": 8.3,
-            "outgoingForm": 2,
-            "upgrade": 6.3,
-            "globalOwner": 20.5,
-            "fixture": "TOT A v SUN",
-            "score": 31.25,
+            "form": 6.2,
+            "outgoingForm": 1.5,
+            "upgrade": 4.7,
+            "globalOwner": 21.5,
+            "fixture": "TOT H v FUL",
+            "score": 25.98,
             "threat": true
+          },
+          {
+            "out": "Haaland",
+            "in": "McBurnie",
+            "outPrice": 15.7,
+            "inPrice": 5.5,
+            "club": "HUL",
+            "position": 4,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 2.3,
+            "fixture": "HUL H v NFO",
+            "score": 24.52,
+            "threat": false
           },
           {
             "out": "Haaland",
@@ -5098,12 +5168,12 @@
             "inPrice": 5.7,
             "club": "EVE",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 2,
-            "upgrade": 7,
-            "globalOwner": 11.1,
-            "fixture": "EVE H v LIV",
-            "score": 30.48,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 10.8,
+            "fixture": "EVE A v AVL",
+            "score": 24.44,
             "threat": false
           },
           {
@@ -5113,12 +5183,12 @@
             "inPrice": 5.7,
             "club": "BOU",
             "position": 2,
-            "form": 8,
-            "outgoingForm": 2,
-            "upgrade": 6,
-            "globalOwner": 5.1,
-            "fixture": "BOU A v FUL",
-            "score": 29.17,
+            "form": 6,
+            "outgoingForm": 1.5,
+            "upgrade": 4.5,
+            "globalOwner": 5.3,
+            "fixture": "BOU H v BHA",
+            "score": 21.67,
             "threat": false
           },
           {
@@ -5128,12 +5198,12 @@
             "inPrice": 4.8,
             "club": "SUN",
             "position": 1,
-            "form": 7,
+            "form": 5.2,
             "outgoingForm": 0,
-            "upgrade": 7,
+            "upgrade": 5.2,
             "globalOwner": 2.1,
-            "fixture": "SUN H v TOT",
-            "score": 29.16,
+            "fixture": "SUN A v LIV",
+            "score": 20.91,
             "threat": false
           },
           {
@@ -5143,27 +5213,27 @@
             "inPrice": 4.7,
             "club": "BHA",
             "position": 1,
-            "form": 6.3,
+            "form": 4.8,
             "outgoingForm": 0,
-            "upgrade": 6.3,
-            "globalOwner": 25.1,
-            "fixture": "BHA H v NEW",
-            "score": 28.21,
+            "upgrade": 4.8,
+            "globalOwner": 25.7,
+            "fixture": "BHA A v BOU",
+            "score": 20.69,
             "threat": true
           },
           {
-            "out": "Raya",
-            "in": "Verbruggen",
-            "outPrice": 6.2,
-            "inPrice": 4.7,
-            "club": "BHA",
-            "position": 1,
-            "form": 6.3,
-            "outgoingForm": 4,
+            "out": "Haaland",
+            "in": "Isak",
+            "outPrice": 15.7,
+            "inPrice": 9.4,
+            "club": "LIV",
+            "position": 4,
+            "form": 3.8,
+            "outgoingForm": 1.5,
             "upgrade": 2.3,
-            "globalOwner": 25.1,
-            "fixture": "BHA H v NEW",
-            "score": 19.81,
+            "globalOwner": 29.2,
+            "fixture": "LIV H v SUN",
+            "score": 16.77,
             "threat": true
           }
         ],
@@ -5175,13 +5245,13 @@
       "learning": {
         "forecastVsActual": [
           {
-            "targetEvent": 11,
+            "targetEvent": 12,
             "predictedAction": "likely_transfer",
-            "actualAction": "likely_transfer",
-            "actionCorrect": true,
-            "predictedCaptain": "Haaland",
+            "actualAction": "likely_roll",
+            "actionCorrect": false,
+            "predictedCaptain": "N.Jackson",
             "actualCaptain": "N.Jackson",
-            "captainCorrect": false
+            "captainCorrect": true
           }
         ],
         "modelVersion": "v1.2"
@@ -5192,16 +5262,16 @@
       "rank": 11,
       "name": "Jetsadakorn Maungkum",
       "team": "Sarumann",
-      "total": 629,
+      "total": 630,
       "current": {
-        "event": 11,
-        "points": 40,
-        "captain": "Haaland",
+        "event": 12,
+        "points": 0,
+        "captain": "Evanilson",
         "captainMultiplier": 2,
         "picks": [
           {
-            "name": "Raya",
-            "club": "ARS",
+            "name": "Trafford",
+            "club": "LEE",
             "flag": "XI"
           },
           {
@@ -5220,13 +5290,18 @@
             "flag": "XI"
           },
           {
+            "name": "Bogle",
+            "club": "LEE",
+            "flag": "XI"
+          },
+          {
             "name": "Rogers",
             "club": "CHE",
             "flag": "XI"
           },
           {
-            "name": "Palmer",
-            "club": "CHE",
+            "name": "Wirtz",
+            "club": "LIV",
             "flag": "XI"
           },
           {
@@ -5240,14 +5315,9 @@
             "flag": "XI"
           },
           {
-            "name": "Haaland",
-            "club": "MCI",
-            "flag": "C"
-          },
-          {
             "name": "Evanilson",
             "club": "BOU",
-            "flag": "XI"
+            "flag": "C"
           },
           {
             "name": "N.Jackson",
@@ -5260,8 +5330,8 @@
             "flag": "B"
           },
           {
-            "name": "Bogle",
-            "club": "LEE",
+            "name": "Haaland",
+            "club": "MCI",
             "flag": "B"
           },
           {
@@ -5364,9 +5434,29 @@
           "transfers": 0,
           "hit": 0,
           "bench": 5
+        },
+        {
+          "event": 12,
+          "points": 0,
+          "rank": null,
+          "transfers": 2,
+          "hit": 0,
+          "bench": 0
         }
       ],
       "transfers": [
+        {
+          "event": 12,
+          "out": "Palmer",
+          "in": "Wirtz",
+          "time": "2026-11-24T00:13:58.635666Z"
+        },
+        {
+          "event": 12,
+          "out": "Raya",
+          "in": "Trafford",
+          "time": "2026-11-24T00:13:58.632099Z"
+        },
         {
           "event": 10,
           "out": "Kostoulas",
@@ -5620,12 +5710,12 @@
         }
       ],
       "profile": {
-        "transferRate": 82,
-        "avgMoves": 4.33,
-        "hitRate": 27,
-        "captainHaalandRate": 55,
+        "transferRate": 83,
+        "avgMoves": 4.1,
+        "hitRate": 25,
+        "captainHaalandRate": 50,
         "chipCountRecent": 1,
-        "sampleGWs": 11
+        "sampleGWs": 12
       },
       "simulated": {
         "action": "likely_transfer",
@@ -5633,63 +5723,33 @@
         "transferPressure": 100,
         "candidates": [
           {
-            "out": "Palmer",
-            "in": "Wirtz",
-            "outPrice": 9.8,
-            "inPrice": 7.5,
-            "club": "LIV",
-            "position": 3,
-            "form": 9.7,
-            "outgoingForm": 4,
-            "upgrade": 5.7,
-            "globalOwner": 13.3,
-            "fixture": "LIV A v EVE",
-            "score": 32.43,
-            "threat": false
-          },
-          {
-            "out": "Schade",
-            "in": "E.Le Fée",
-            "outPrice": 6.1,
-            "inPrice": 5.7,
-            "club": "SUN",
-            "position": 3,
-            "form": 7.3,
-            "outgoingForm": 1.7,
-            "upgrade": 5.6,
-            "globalOwner": 3.1,
-            "fixture": "SUN H v TOT",
-            "score": 27.2,
-            "threat": false
-          },
-          {
-            "out": "Schade",
-            "in": "Alysson",
-            "outPrice": 6.1,
-            "inPrice": 4.9,
-            "club": "AVL",
-            "position": 3,
-            "form": 7,
-            "outgoingForm": 1.7,
+            "out": "Haaland",
+            "in": "McBurnie",
+            "outPrice": 15.7,
+            "inPrice": 5.5,
+            "club": "HUL",
+            "position": 4,
+            "form": 6.8,
+            "outgoingForm": 1.5,
             "upgrade": 5.3,
-            "globalOwner": 0.7,
-            "fixture": "AVL A v IPS",
-            "score": 26.93,
+            "globalOwner": 2.3,
+            "fixture": "HUL H v NFO",
+            "score": 25.72,
             "threat": false
           },
           {
-            "out": "Schade",
-            "in": "Okafor",
-            "outPrice": 6.1,
-            "inPrice": 5.8,
-            "club": "LEE",
-            "position": 3,
-            "form": 6.7,
-            "outgoingForm": 1.7,
-            "upgrade": 5,
-            "globalOwner": 1.9,
-            "fixture": "LEE H v COV",
-            "score": 26.92,
+            "out": "Haaland",
+            "in": "Barry",
+            "outPrice": 15.7,
+            "inPrice": 5.7,
+            "club": "EVE",
+            "position": 4,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 10.8,
+            "fixture": "EVE A v AVL",
+            "score": 25.64,
             "threat": false
           },
           {
@@ -5699,13 +5759,73 @@
             "inPrice": 5,
             "club": "COV",
             "position": 3,
-            "form": 7,
-            "outgoingForm": 1.7,
-            "upgrade": 5.3,
-            "globalOwner": 1.9,
-            "fixture": "COV A v LEE",
-            "score": 25.68,
+            "form": 5.2,
+            "outgoingForm": 1.2,
+            "upgrade": 4,
+            "globalOwner": 2.1,
+            "fixture": "COV H v IPS",
+            "score": 22.05,
             "threat": false
+          },
+          {
+            "out": "Muñoz",
+            "in": "Hill",
+            "outPrice": 5.2,
+            "inPrice": 5.7,
+            "club": "BOU",
+            "position": 2,
+            "form": 6,
+            "outgoingForm": 1.5,
+            "upgrade": 4.5,
+            "globalOwner": 5.3,
+            "fixture": "BOU H v BHA",
+            "score": 21.67,
+            "threat": false
+          },
+          {
+            "out": "Dubravka",
+            "in": "Roefs",
+            "outPrice": 3.9,
+            "inPrice": 4.8,
+            "club": "SUN",
+            "position": 1,
+            "form": 5.2,
+            "outgoingForm": 0,
+            "upgrade": 5.2,
+            "globalOwner": 2.1,
+            "fixture": "SUN A v LIV",
+            "score": 20.91,
+            "threat": false
+          },
+          {
+            "out": "Dubravka",
+            "in": "Verbruggen",
+            "outPrice": 3.9,
+            "inPrice": 4.7,
+            "club": "BHA",
+            "position": 1,
+            "form": 4.8,
+            "outgoingForm": 0,
+            "upgrade": 4.8,
+            "globalOwner": 25.7,
+            "fixture": "BHA A v BOU",
+            "score": 20.69,
+            "threat": true
+          },
+          {
+            "out": "Haaland",
+            "in": "Isak",
+            "outPrice": 15.7,
+            "inPrice": 9.4,
+            "club": "LIV",
+            "position": 4,
+            "form": 3.8,
+            "outgoingForm": 1.5,
+            "upgrade": 2.3,
+            "globalOwner": 29.2,
+            "fixture": "LIV H v SUN",
+            "score": 17.97,
+            "threat": true
           },
           {
             "out": "Muñoz",
@@ -5714,73 +5834,30 @@
             "inPrice": 4.9,
             "club": "ARS",
             "position": 2,
-            "form": 6.3,
-            "outgoingForm": 0.7,
-            "upgrade": 5.6,
-            "globalOwner": 25,
-            "fixture": "ARS H v MCI",
-            "score": 25.27,
-            "threat": true
-          },
-          {
-            "out": "Raya",
-            "in": "Verbruggen",
-            "outPrice": 6.2,
-            "inPrice": 4.7,
-            "club": "BHA",
-            "position": 1,
-            "form": 6.3,
-            "outgoingForm": 4,
-            "upgrade": 2.3,
+            "form": 4.8,
+            "outgoingForm": 1.5,
+            "upgrade": 3.3,
             "globalOwner": 25.1,
-            "fixture": "BHA H v NEW",
-            "score": 19.81,
+            "fixture": "ARS A v BRE",
+            "score": 17.96,
             "threat": true
           }
         ],
-        "blockedTargets": [
-          {
-            "in": "Gabriel",
-            "position": 2,
-            "price": 8.1,
-            "maxPrice": 6.3,
-            "out": "Calafiori",
-            "globalOwner": 26.9,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          },
-          {
-            "in": "Isak",
-            "position": 4,
-            "price": 9.4,
-            "maxPrice": 7.7,
-            "out": "N.Jackson",
-            "globalOwner": 28.2,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          },
-          {
-            "in": "B.Fernandes",
-            "position": 3,
-            "price": 11.6,
-            "maxPrice": 10.2,
-            "out": "Palmer",
-            "globalOwner": 20.4,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          }
-        ],
-        "captain": "Haaland",
+        "blockedTargets": [],
+        "captain": "Evanilson",
         "captainConfidence": "last_revealed",
-        "reason": "มีผู้เล่น status ไม่พร้อม 1 คน"
+        "reason": "อัตราใช้ FT จากอดีต 83%"
       },
       "learning": {
         "forecastVsActual": [
           {
-            "targetEvent": 11,
+            "targetEvent": 12,
             "predictedAction": "likely_transfer",
-            "actualAction": "likely_roll",
-            "actionCorrect": false,
+            "actualAction": "likely_transfer",
+            "actionCorrect": true,
             "predictedCaptain": "Haaland",
-            "actualCaptain": "Haaland",
-            "captainCorrect": true
+            "actualCaptain": "Evanilson",
+            "captainCorrect": false
           }
         ],
         "modelVersion": "v1.2"
@@ -5791,16 +5868,16 @@
       "rank": 12,
       "name": "Peerawat Y",
       "team": "On",
-      "total": 592,
+      "total": 593,
       "current": {
-        "event": 11,
-        "points": 32,
-        "captain": "Haaland",
+        "event": 12,
+        "points": 0,
+        "captain": "N.Jackson",
         "captainMultiplier": 2,
         "picks": [
           {
-            "name": "Verbruggen",
-            "club": "BHA",
+            "name": "Trafford",
+            "club": "LEE",
             "flag": "XI"
           },
           {
@@ -5809,13 +5886,13 @@
             "flag": "XI"
           },
           {
-            "name": "Mitchell",
-            "club": "CRY",
+            "name": "De Cuyper",
+            "club": "BHA",
             "flag": "XI"
           },
           {
-            "name": "Calafiori",
-            "club": "ARS",
+            "name": "Van Hecke",
+            "club": "TOT",
             "flag": "XI"
           },
           {
@@ -5831,7 +5908,7 @@
           {
             "name": "Rice",
             "club": "ARS",
-            "flag": "VC"
+            "flag": "XI"
           },
           {
             "name": "Ødegaard",
@@ -5839,23 +5916,23 @@
             "flag": "XI"
           },
           {
-            "name": "Kostoulas",
-            "club": "BHA",
+            "name": "Evanilson",
+            "club": "BOU",
             "flag": "XI"
           },
           {
             "name": "N.Jackson",
             "club": "AVL",
-            "flag": "XI"
+            "flag": "C"
           },
           {
             "name": "Haaland",
             "club": "MCI",
-            "flag": "C"
+            "flag": "VC"
           },
           {
-            "name": "Trafford",
-            "club": "LEE",
+            "name": "Verbruggen",
+            "club": "BHA",
             "flag": "B"
           },
           {
@@ -5864,13 +5941,13 @@
             "flag": "B"
           },
           {
-            "name": "Hall",
-            "club": "NEW",
+            "name": "Calafiori",
+            "club": "ARS",
             "flag": "B"
           },
           {
-            "name": "Gvardiol",
-            "club": "MCI",
+            "name": "Mitchell",
+            "club": "CRY",
             "flag": "B"
           }
         ]
@@ -5963,9 +6040,35 @@
           "transfers": 0,
           "hit": 0,
           "bench": 11
+        },
+        {
+          "event": 12,
+          "points": 0,
+          "rank": null,
+          "transfers": 3,
+          "hit": 0,
+          "bench": 0
         }
       ],
       "transfers": [
+        {
+          "event": 12,
+          "out": "Kostoulas",
+          "in": "Evanilson",
+          "time": "2026-11-27T13:06:36.827585Z"
+        },
+        {
+          "event": 12,
+          "out": "Hall",
+          "in": "Van Hecke",
+          "time": "2026-11-27T13:06:36.827286Z"
+        },
+        {
+          "event": 12,
+          "out": "Gvardiol",
+          "in": "De Cuyper",
+          "time": "2026-11-27T13:06:36.824372Z"
+        },
         {
           "event": 10,
           "out": "João Pedro",
@@ -6071,12 +6174,12 @@
         }
       ],
       "profile": {
-        "transferRate": 45,
-        "avgMoves": 3.2,
+        "transferRate": 50,
+        "avgMoves": 3.17,
         "hitRate": 0,
-        "captainHaalandRate": 55,
+        "captainHaalandRate": 50,
         "chipCountRecent": 0,
-        "sampleGWs": 11
+        "sampleGWs": 12
       },
       "simulated": {
         "action": "likely_transfer",
@@ -6090,87 +6193,102 @@
             "inPrice": 7.5,
             "club": "LIV",
             "position": 3,
-            "form": 9.7,
-            "outgoingForm": 3.7,
-            "upgrade": 6,
-            "globalOwner": 13.3,
-            "fixture": "LIV A v EVE",
-            "score": 34.17,
+            "form": 7.2,
+            "outgoingForm": 2.8,
+            "upgrade": 4.4,
+            "globalOwner": 16.8,
+            "fixture": "LIV H v SUN",
+            "score": 26.93,
             "threat": false
           },
           {
-            "out": "Gvardiol",
-            "in": "Van Hecke",
-            "outPrice": 5.5,
-            "inPrice": 5.2,
-            "club": "TOT",
-            "position": 2,
-            "form": 8.3,
-            "outgoingForm": 1,
-            "upgrade": 7.3,
-            "globalOwner": 20.5,
-            "fixture": "TOT A v SUN",
-            "score": 33.05,
-            "threat": true
-          },
-          {
-            "out": "Kostoulas",
+            "out": "Haaland",
             "in": "McBurnie",
-            "outPrice": 5.7,
+            "outPrice": 15.7,
             "inPrice": 5.5,
             "club": "HUL",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 1.7,
-            "upgrade": 7.3,
-            "globalOwner": 2.2,
-            "fixture": "HUL A v CRY",
-            "score": 32.9,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 2.3,
+            "fixture": "HUL H v NFO",
+            "score": 24.52,
             "threat": false
           },
           {
-            "out": "Kostoulas",
+            "out": "Haaland",
             "in": "Barry",
-            "outPrice": 5.7,
+            "outPrice": 15.7,
             "inPrice": 5.7,
             "club": "EVE",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 1.7,
-            "upgrade": 7.3,
-            "globalOwner": 11.1,
-            "fixture": "EVE H v LIV",
-            "score": 31.02,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 10.8,
+            "fixture": "EVE A v AVL",
+            "score": 24.44,
             "threat": false
           },
           {
-            "out": "Gvardiol",
+            "out": "Mitchell",
             "in": "Hill",
-            "outPrice": 5.5,
+            "outPrice": 4.4,
             "inPrice": 5.7,
             "club": "BOU",
             "position": 2,
-            "form": 8,
-            "outgoingForm": 1,
-            "upgrade": 7,
-            "globalOwner": 5.1,
-            "fixture": "BOU A v FUL",
-            "score": 30.97,
+            "form": 6,
+            "outgoingForm": 1.2,
+            "upgrade": 4.8,
+            "globalOwner": 5.3,
+            "fixture": "BOU H v BHA",
+            "score": 22.21,
             "threat": false
           },
           {
-            "out": "Kostoulas",
-            "in": "Evanilson",
-            "outPrice": 5.7,
-            "inPrice": 6.6,
-            "club": "BOU",
+            "out": "Barnes",
+            "in": "Rudoni",
+            "outPrice": 6,
+            "inPrice": 5,
+            "club": "COV",
+            "position": 3,
+            "form": 5.2,
+            "outgoingForm": 2.8,
+            "upgrade": 2.4,
+            "globalOwner": 2.1,
+            "fixture": "COV H v IPS",
+            "score": 19.17,
+            "threat": false
+          },
+          {
+            "out": "Mitchell",
+            "in": "Pedro Porro",
+            "outPrice": 4.4,
+            "inPrice": 5.3,
+            "club": "TOT",
+            "position": 2,
+            "form": 4.2,
+            "outgoingForm": 1.2,
+            "upgrade": 3,
+            "globalOwner": 5.5,
+            "fixture": "TOT H v FUL",
+            "score": 18.72,
+            "threat": false
+          },
+          {
+            "out": "Haaland",
+            "in": "Isak",
+            "outPrice": 15.7,
+            "inPrice": 9.4,
+            "club": "LIV",
             "position": 4,
-            "form": 8,
-            "outgoingForm": 1.7,
-            "upgrade": 6.3,
-            "globalOwner": 28,
-            "fixture": "BOU A v FUL",
-            "score": 29.94,
+            "form": 3.8,
+            "outgoingForm": 1.5,
+            "upgrade": 2.3,
+            "globalOwner": 29.2,
+            "fixture": "LIV H v SUN",
+            "score": 16.77,
             "threat": true
           },
           {
@@ -6180,55 +6298,40 @@
             "inPrice": 4.9,
             "club": "ARS",
             "position": 2,
-            "form": 6.3,
-            "outgoingForm": 4.3,
-            "upgrade": 2,
-            "globalOwner": 25,
-            "fixture": "ARS H v MCI",
-            "score": 17.59,
-            "threat": true
-          },
-          {
-            "out": "Barnes",
-            "in": "Tavernier",
-            "outPrice": 6,
-            "inPrice": 6.8,
-            "club": "BOU",
-            "position": 3,
-            "form": 4.7,
-            "outgoingForm": 3.7,
-            "upgrade": 1,
-            "globalOwner": 34,
-            "fixture": "BOU A v FUL",
-            "score": 16.09,
+            "form": 4.8,
+            "outgoingForm": 3.2,
+            "upgrade": 1.6,
+            "globalOwner": 25.1,
+            "fixture": "ARS A v BRE",
+            "score": 14.9,
             "threat": true
           }
         ],
         "blockedTargets": [
           {
-            "in": "B.Fernandes",
-            "position": 3,
-            "price": 11.6,
-            "maxPrice": 11.2,
-            "out": "Rogers",
-            "globalOwner": 20.4,
+            "in": "Gabriel",
+            "position": 2,
+            "price": 8.1,
+            "maxPrice": 7.6,
+            "out": "Calafiori",
+            "globalOwner": 27,
             "reason": "ราคาเกินงบของ transfer เดียว"
           }
         ],
-        "captain": "Haaland",
+        "captain": "N.Jackson",
         "captainConfidence": "last_revealed",
-        "reason": "มีผู้เล่น status ไม่พร้อม 1 คน"
+        "reason": "อัตราใช้ FT จากอดีต 50%"
       },
       "learning": {
         "forecastVsActual": [
           {
-            "targetEvent": 11,
+            "targetEvent": 12,
             "predictedAction": "likely_transfer",
-            "actualAction": "likely_roll",
-            "actionCorrect": false,
+            "actualAction": "likely_transfer",
+            "actionCorrect": true,
             "predictedCaptain": "Haaland",
-            "actualCaptain": "Haaland",
-            "captainCorrect": true
+            "actualCaptain": "N.Jackson",
+            "captainCorrect": false
           }
         ],
         "modelVersion": "v1.2"
@@ -6239,11 +6342,11 @@
       "rank": 13,
       "name": "NTY D",
       "team": "Dek Dek FC",
-      "total": 592,
+      "total": 593,
       "current": {
-        "event": 11,
-        "points": 38,
-        "captain": "De Cuyper",
+        "event": 12,
+        "points": 0,
+        "captain": "Evanilson",
         "captainMultiplier": 2,
         "picks": [
           {
@@ -6264,11 +6367,11 @@
           {
             "name": "De Cuyper",
             "club": "BHA",
-            "flag": "C"
+            "flag": "XI"
           },
           {
-            "name": "Schade",
-            "club": "BRE",
+            "name": "Muharemović",
+            "club": "LEE",
             "flag": "XI"
           },
           {
@@ -6282,8 +6385,8 @@
             "flag": "XI"
           },
           {
-            "name": "McGinn",
-            "club": "AVL",
+            "name": "Wirtz",
+            "club": "LIV",
             "flag": "XI"
           },
           {
@@ -6294,7 +6397,7 @@
           {
             "name": "Evanilson",
             "club": "BOU",
-            "flag": "XI"
+            "flag": "C"
           },
           {
             "name": "Haaland",
@@ -6307,18 +6410,18 @@
             "flag": "B"
           },
           {
-            "name": "Davis",
-            "club": "IPS",
-            "flag": "B"
-          },
-          {
             "name": "Barnes",
             "club": "NEW",
             "flag": "B"
           },
           {
-            "name": "Hall",
-            "club": "NEW",
+            "name": "Schade",
+            "club": "BRE",
+            "flag": "B"
+          },
+          {
+            "name": "Davis",
+            "club": "IPS",
             "flag": "B"
           }
         ]
@@ -6411,9 +6514,29 @@
           "transfers": 0,
           "hit": 0,
           "bench": 9
+        },
+        {
+          "event": 12,
+          "points": 0,
+          "rank": null,
+          "transfers": 2,
+          "hit": 0,
+          "bench": 0
         }
       ],
       "transfers": [
+        {
+          "event": 12,
+          "out": "McGinn",
+          "in": "Wirtz",
+          "time": "2026-11-27T14:05:23.801604Z"
+        },
+        {
+          "event": 12,
+          "out": "Hall",
+          "in": "Muharemović",
+          "time": "2026-11-27T14:05:23.797372Z"
+        },
         {
           "event": 10,
           "out": "João Pedro",
@@ -6697,12 +6820,12 @@
         }
       ],
       "profile": {
-        "transferRate": 55,
-        "avgMoves": 7.33,
-        "hitRate": 9,
-        "captainHaalandRate": 55,
-        "chipCountRecent": 2,
-        "sampleGWs": 11
+        "transferRate": 58,
+        "avgMoves": 6.57,
+        "hitRate": 8,
+        "captainHaalandRate": 50,
+        "chipCountRecent": 1,
+        "sampleGWs": 12
       },
       "simulated": {
         "action": "likely_transfer",
@@ -6710,48 +6833,18 @@
         "transferPressure": 100,
         "candidates": [
           {
-            "out": "Schade",
-            "in": "Wirtz",
-            "outPrice": 6.1,
-            "inPrice": 7.5,
-            "club": "LIV",
-            "position": 3,
-            "form": 9.7,
-            "outgoingForm": 1.7,
-            "upgrade": 8,
-            "globalOwner": 13.3,
-            "fixture": "LIV A v EVE",
-            "score": 36.57,
-            "threat": false
-          },
-          {
             "out": "Haaland",
             "in": "McBurnie",
             "outPrice": 15.7,
             "inPrice": 5.5,
             "club": "HUL",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 2,
-            "upgrade": 7,
-            "globalOwner": 2.2,
-            "fixture": "HUL A v CRY",
-            "score": 32.36,
-            "threat": false
-          },
-          {
-            "out": "Davis",
-            "in": "Hill",
-            "outPrice": 4,
-            "inPrice": 5.7,
-            "club": "BOU",
-            "position": 2,
-            "form": 8,
-            "outgoingForm": 0.3,
-            "upgrade": 7.7,
-            "globalOwner": 5.1,
-            "fixture": "BOU A v FUL",
-            "score": 32.23,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 2.3,
+            "fixture": "HUL H v NFO",
+            "score": 24.52,
             "threat": false
           },
           {
@@ -6761,12 +6854,42 @@
             "inPrice": 5.7,
             "club": "EVE",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 2,
-            "upgrade": 7,
-            "globalOwner": 11.1,
-            "fixture": "EVE H v LIV",
-            "score": 30.48,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 10.8,
+            "fixture": "EVE A v AVL",
+            "score": 24.44,
+            "threat": false
+          },
+          {
+            "out": "Davis",
+            "in": "Hill",
+            "outPrice": 4,
+            "inPrice": 5.7,
+            "club": "BOU",
+            "position": 2,
+            "form": 6,
+            "outgoingForm": 0.2,
+            "upgrade": 5.8,
+            "globalOwner": 5.3,
+            "fixture": "BOU H v BHA",
+            "score": 24.01,
+            "threat": false
+          },
+          {
+            "out": "Schade",
+            "in": "Rudoni",
+            "outPrice": 6.1,
+            "inPrice": 5,
+            "club": "COV",
+            "position": 3,
+            "form": 5.2,
+            "outgoingForm": 1.2,
+            "upgrade": 4,
+            "globalOwner": 2.1,
+            "fixture": "COV H v IPS",
+            "score": 22.05,
             "threat": false
           },
           {
@@ -6776,12 +6899,12 @@
             "inPrice": 4.8,
             "club": "SUN",
             "position": 1,
-            "form": 7,
+            "form": 5.2,
             "outgoingForm": 0,
-            "upgrade": 7,
+            "upgrade": 5.2,
             "globalOwner": 2.1,
-            "fixture": "SUN H v TOT",
-            "score": 29.16,
+            "fixture": "SUN A v LIV",
+            "score": 20.91,
             "threat": false
           },
           {
@@ -6791,12 +6914,12 @@
             "inPrice": 4.7,
             "club": "BHA",
             "position": 1,
-            "form": 6.3,
+            "form": 4.8,
             "outgoingForm": 0,
-            "upgrade": 6.3,
-            "globalOwner": 25.1,
-            "fixture": "BHA H v NEW",
-            "score": 28.21,
+            "upgrade": 4.8,
+            "globalOwner": 25.7,
+            "fixture": "BHA A v BOU",
+            "score": 20.69,
             "threat": true
           },
           {
@@ -6806,44 +6929,54 @@
             "inPrice": 4.9,
             "club": "ARS",
             "position": 2,
-            "form": 6.3,
-            "outgoingForm": 0.3,
-            "upgrade": 6,
-            "globalOwner": 25,
-            "fixture": "ARS H v MCI",
-            "score": 25.99,
+            "form": 4.8,
+            "outgoingForm": 0.2,
+            "upgrade": 4.6,
+            "globalOwner": 25.1,
+            "fixture": "ARS A v BRE",
+            "score": 20.3,
             "threat": true
           },
           {
-            "out": "Hall",
-            "in": "Konsa",
-            "outPrice": 5.2,
-            "inPrice": 4.9,
-            "club": "ARS",
-            "position": 2,
-            "form": 6.3,
-            "outgoingForm": 2.3,
-            "upgrade": 4,
-            "globalOwner": 25,
-            "fixture": "ARS H v MCI",
-            "score": 22.39,
+            "out": "Haaland",
+            "in": "Isak",
+            "outPrice": 15.7,
+            "inPrice": 9.4,
+            "club": "LIV",
+            "position": 4,
+            "form": 3.8,
+            "outgoingForm": 1.5,
+            "upgrade": 2.3,
+            "globalOwner": 29.2,
+            "fixture": "LIV H v SUN",
+            "score": 16.77,
             "threat": true
           }
         ],
-        "blockedTargets": [],
-        "captain": "De Cuyper",
+        "blockedTargets": [
+          {
+            "in": "Gabriel",
+            "position": 2,
+            "price": 8.1,
+            "maxPrice": 7.9,
+            "out": "De Cuyper",
+            "globalOwner": 27,
+            "reason": "ราคาเกินงบของ transfer เดียว"
+          }
+        ],
+        "captain": "Evanilson",
         "captainConfidence": "last_revealed",
-        "reason": "มีผู้เล่น status ไม่พร้อม 3 คน"
+        "reason": "มีผู้เล่น status ไม่พร้อม 1 คน"
       },
       "learning": {
         "forecastVsActual": [
           {
-            "targetEvent": 11,
+            "targetEvent": 12,
             "predictedAction": "likely_transfer",
-            "actualAction": "likely_roll",
-            "actionCorrect": false,
-            "predictedCaptain": "Evanilson",
-            "actualCaptain": "De Cuyper",
+            "actualAction": "likely_transfer",
+            "actionCorrect": true,
+            "predictedCaptain": "De Cuyper",
+            "actualCaptain": "Evanilson",
             "captainCorrect": false
           }
         ],
@@ -6857,8 +6990,8 @@
       "team": "Long_Darkz",
       "total": 564,
       "current": {
-        "event": 11,
-        "points": 43,
+        "event": 12,
+        "points": 0,
         "captain": "Haaland",
         "captainMultiplier": 2,
         "picks": [
@@ -7027,6 +7160,14 @@
           "transfers": 0,
           "hit": 0,
           "bench": 13
+        },
+        {
+          "event": 12,
+          "points": 0,
+          "rank": null,
+          "transfers": 0,
+          "hit": 0,
+          "bench": 0
         }
       ],
       "transfers": [
@@ -7117,12 +7258,12 @@
         }
       ],
       "profile": {
-        "transferRate": 27,
+        "transferRate": 25,
         "avgMoves": 4.33,
-        "hitRate": 9,
-        "captainHaalandRate": 82,
+        "hitRate": 8,
+        "captainHaalandRate": 83,
         "chipCountRecent": 0,
-        "sampleGWs": 11
+        "sampleGWs": 12
       },
       "simulated": {
         "action": "likely_transfer",
@@ -7136,12 +7277,12 @@
             "inPrice": 7.5,
             "club": "LIV",
             "position": 3,
-            "form": 9.7,
-            "outgoingForm": 1.7,
-            "upgrade": 8,
-            "globalOwner": 13.3,
-            "fixture": "LIV A v EVE",
-            "score": 36.57,
+            "form": 7.2,
+            "outgoingForm": 1.2,
+            "upgrade": 6,
+            "globalOwner": 16.8,
+            "fixture": "LIV H v SUN",
+            "score": 28.61,
             "threat": false
           },
           {
@@ -7151,27 +7292,27 @@
             "inPrice": 5.7,
             "club": "EVE",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 2,
-            "upgrade": 7,
-            "globalOwner": 11.1,
-            "fixture": "EVE H v LIV",
-            "score": 31.68,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 10.8,
+            "fixture": "EVE A v AVL",
+            "score": 25.64,
             "threat": false
           },
           {
-            "out": "Brobbey",
-            "in": "Evanilson",
-            "outPrice": 5.6,
-            "inPrice": 6.6,
-            "club": "BOU",
-            "position": 4,
-            "form": 8,
-            "outgoingForm": 2,
-            "upgrade": 6,
-            "globalOwner": 28,
-            "fixture": "BOU A v FUL",
-            "score": 30.6,
+            "out": "Hall",
+            "in": "Van Hecke",
+            "outPrice": 5.2,
+            "inPrice": 5.2,
+            "club": "TOT",
+            "position": 2,
+            "form": 6.2,
+            "outgoingForm": 1.8,
+            "upgrade": 4.4,
+            "globalOwner": 21.5,
+            "fixture": "TOT H v FUL",
+            "score": 24.24,
             "threat": true
           },
           {
@@ -7181,42 +7322,42 @@
             "inPrice": 7.3,
             "club": "AVL",
             "position": 4,
-            "form": 7.3,
-            "outgoingForm": 2,
-            "upgrade": 5.3,
-            "globalOwner": 36.9,
-            "fixture": "AVL A v IPS",
-            "score": 29.74,
+            "form": 5.5,
+            "outgoingForm": 1.5,
+            "upgrade": 4,
+            "globalOwner": 37.3,
+            "fixture": "AVL H v EVE",
+            "score": 22.92,
             "threat": true
           },
           {
-            "out": "Hall",
-            "in": "Van Hecke",
-            "outPrice": 5.2,
-            "inPrice": 5.2,
-            "club": "TOT",
-            "position": 2,
-            "form": 8.3,
-            "outgoingForm": 2.3,
-            "upgrade": 6,
-            "globalOwner": 20.5,
-            "fixture": "TOT A v SUN",
-            "score": 29.51,
-            "threat": true
-          },
-          {
-            "out": "Hall",
-            "in": "Hill",
-            "outPrice": 5.2,
-            "inPrice": 5.7,
+            "out": "Brobbey",
+            "in": "Evanilson",
+            "outPrice": 5.6,
+            "inPrice": 6.6,
             "club": "BOU",
-            "position": 2,
-            "form": 8,
-            "outgoingForm": 2.3,
-            "upgrade": 5.7,
-            "globalOwner": 5.1,
-            "fixture": "BOU A v FUL",
-            "score": 27.43,
+            "position": 4,
+            "form": 6,
+            "outgoingForm": 1.5,
+            "upgrade": 4.5,
+            "globalOwner": 28.7,
+            "fixture": "BOU H v BHA",
+            "score": 22.84,
+            "threat": true
+          },
+          {
+            "out": "Schade",
+            "in": "Rudoni",
+            "outPrice": 6.1,
+            "inPrice": 5,
+            "club": "COV",
+            "position": 3,
+            "form": 5.2,
+            "outgoingForm": 1.2,
+            "upgrade": 4,
+            "globalOwner": 2.1,
+            "fixture": "COV H v IPS",
+            "score": 20.85,
             "threat": false
           },
           {
@@ -7226,27 +7367,27 @@
             "inPrice": 8.3,
             "club": "CHE",
             "position": 3,
-            "form": 5.3,
-            "outgoingForm": 1.7,
-            "upgrade": 3.6,
-            "globalOwner": 54.5,
-            "fixture": "CHE A v NFO",
-            "score": 22.66,
+            "form": 4.2,
+            "outgoingForm": 1.2,
+            "upgrade": 3,
+            "globalOwner": 54.7,
+            "fixture": "CHE H v CRY",
+            "score": 19.98,
             "threat": true
           },
           {
-            "out": "Hall",
-            "in": "Konsa",
-            "outPrice": 5.2,
-            "inPrice": 4.9,
-            "club": "ARS",
-            "position": 2,
-            "form": 6.3,
-            "outgoingForm": 2.3,
-            "upgrade": 4,
-            "globalOwner": 25,
-            "fixture": "ARS H v MCI",
-            "score": 21.19,
+            "out": "Rayan",
+            "in": "Rogers",
+            "outPrice": 6.3,
+            "inPrice": 8.3,
+            "club": "CHE",
+            "position": 3,
+            "form": 4.2,
+            "outgoingForm": 2,
+            "upgrade": 2.2,
+            "globalOwner": 54.7,
+            "fixture": "CHE H v CRY",
+            "score": 18.54,
             "threat": true
           }
         ],
@@ -7257,18 +7398,18 @@
             "price": 9.4,
             "maxPrice": 9.1,
             "out": "Calvert-Lewin",
-            "globalOwner": 28.2,
+            "globalOwner": 29.2,
             "reason": "ราคาเกินงบของ transfer เดียว"
           }
         ],
         "captain": "Haaland",
         "captainConfidence": "last_revealed",
-        "reason": "มีผู้เล่น status ไม่พร้อม 2 คน"
+        "reason": "มีผู้เล่น status ไม่พร้อม 3 คน"
       },
       "learning": {
         "forecastVsActual": [
           {
-            "targetEvent": 11,
+            "targetEvent": 12,
             "predictedAction": "likely_transfer",
             "actualAction": "likely_roll",
             "actionCorrect": false,
@@ -7287,14 +7428,14 @@
       "team": "Goal888",
       "total": 558,
       "current": {
-        "event": 11,
-        "points": 40,
-        "captain": "Cherki",
-        "captainMultiplier": 2,
+        "event": 12,
+        "points": 0,
+        "captain": "Isak",
+        "captainMultiplier": 3,
         "picks": [
           {
-            "name": "Raya",
-            "club": "ARS",
+            "name": "Martinez",
+            "club": "CHE",
             "flag": "XI"
           },
           {
@@ -7303,8 +7444,8 @@
             "flag": "XI"
           },
           {
-            "name": "Guéhi",
-            "club": "MCI",
+            "name": "Calafiori",
+            "club": "ARS",
             "flag": "XI"
           },
           {
@@ -7318,13 +7459,18 @@
             "flag": "XI"
           },
           {
-            "name": "Calafiori",
-            "club": "ARS",
+            "name": "Wirtz",
+            "club": "LIV",
+            "flag": "VC"
+          },
+          {
+            "name": "Tonali",
+            "club": "TOT",
             "flag": "XI"
           },
           {
-            "name": "Wirtz",
-            "club": "LIV",
+            "name": "Cherki",
+            "club": "MCI",
             "flag": "XI"
           },
           {
@@ -7333,29 +7479,24 @@
             "flag": "XI"
           },
           {
-            "name": "Cherki",
-            "club": "MCI",
+            "name": "Isak",
+            "club": "LIV",
             "flag": "C"
           },
           {
-            "name": "Mbeumo",
-            "club": "MUN",
+            "name": "McBurnie",
+            "club": "HUL",
             "flag": "XI"
           },
           {
-            "name": "Isak",
-            "club": "LIV",
-            "flag": "XI"
-          },
-          {
-            "name": "Martinez",
-            "club": "CHE",
+            "name": "Raya",
+            "club": "ARS",
             "flag": "B"
           },
           {
-            "name": "Semenyo",
+            "name": "Guéhi",
             "club": "MCI",
-            "flag": "VC"
+            "flag": "B"
           },
           {
             "name": "J.Angulo",
@@ -7363,8 +7504,8 @@
             "flag": "B"
           },
           {
-            "name": "Furo",
-            "club": "BRE",
+            "name": "Mbeumo",
+            "club": "MUN",
             "flag": "B"
           }
         ]
@@ -7457,9 +7598,29 @@
           "transfers": 0,
           "hit": 0,
           "bench": 1
+        },
+        {
+          "event": 12,
+          "points": 0,
+          "rank": null,
+          "transfers": 2,
+          "hit": 0,
+          "bench": 0
         }
       ],
       "transfers": [
+        {
+          "event": 12,
+          "out": "Semenyo",
+          "in": "Tonali",
+          "time": "2026-11-27T12:21:14.899127Z"
+        },
+        {
+          "event": 12,
+          "out": "Furo",
+          "in": "McBurnie",
+          "time": "2026-11-27T12:21:14.895557Z"
+        },
         {
           "event": 3,
           "out": "James",
@@ -7551,14 +7712,20 @@
           "time": "2026-08-28T16:59:14.734874Z"
         }
       ],
-      "chips": [],
+      "chips": [
+        {
+          "name": "3xc",
+          "time": "2026-11-27T12:22:04.219468Z",
+          "event": 12
+        }
+      ],
       "profile": {
-        "transferRate": 18,
-        "avgMoves": 7.5,
-        "hitRate": 18,
+        "transferRate": 25,
+        "avgMoves": 5.67,
+        "hitRate": 17,
         "captainHaalandRate": 0,
-        "chipCountRecent": 0,
-        "sampleGWs": 11
+        "chipCountRecent": 1,
+        "sampleGWs": 12
       },
       "simulated": {
         "action": "likely_transfer",
@@ -7566,18 +7733,48 @@
         "transferPressure": 100,
         "candidates": [
           {
+            "out": "J.Angulo",
+            "in": "Barry",
+            "outPrice": 4.5,
+            "inPrice": 5.7,
+            "club": "EVE",
+            "position": 4,
+            "form": 6.8,
+            "outgoingForm": 0,
+            "upgrade": 6.8,
+            "globalOwner": 10.8,
+            "fixture": "EVE A v AVL",
+            "score": 28.34,
+            "threat": false
+          },
+          {
             "out": "Guéhi",
             "in": "Van Hecke",
             "outPrice": 5.9,
             "inPrice": 5.2,
             "club": "TOT",
             "position": 2,
-            "form": 8.3,
-            "outgoingForm": 0.7,
-            "upgrade": 7.6,
-            "globalOwner": 20.5,
-            "fixture": "TOT A v SUN",
-            "score": 32.39,
+            "form": 6.2,
+            "outgoingForm": 0.5,
+            "upgrade": 5.7,
+            "globalOwner": 21.5,
+            "fixture": "TOT H v FUL",
+            "score": 27.78,
+            "threat": true
+          },
+          {
+            "out": "J.Angulo",
+            "in": "Evanilson",
+            "outPrice": 4.5,
+            "inPrice": 6.6,
+            "club": "BOU",
+            "position": 4,
+            "form": 6,
+            "outgoingForm": 0,
+            "upgrade": 6,
+            "globalOwner": 28.7,
+            "fixture": "BOU H v BHA",
+            "score": 25.54,
             "threat": true
           },
           {
@@ -7587,73 +7784,43 @@
             "inPrice": 5.7,
             "club": "BOU",
             "position": 2,
-            "form": 8,
-            "outgoingForm": 0.7,
-            "upgrade": 7.3,
-            "globalOwner": 5.1,
-            "fixture": "BOU A v FUL",
-            "score": 30.31,
+            "form": 6,
+            "outgoingForm": 0.5,
+            "upgrade": 5.5,
+            "globalOwner": 5.3,
+            "fixture": "BOU H v BHA",
+            "score": 23.47,
             "threat": false
           },
           {
-            "out": "Semenyo",
-            "in": "E.Le Fée",
-            "outPrice": 8.1,
-            "inPrice": 5.7,
-            "club": "SUN",
-            "position": 3,
-            "form": 7.3,
-            "outgoingForm": 0,
-            "upgrade": 7.3,
-            "globalOwner": 3.1,
-            "fixture": "SUN H v TOT",
-            "score": 30.26,
-            "threat": false
-          },
-          {
-            "out": "Semenyo",
-            "in": "Alysson",
-            "outPrice": 8.1,
-            "inPrice": 4.9,
-            "club": "AVL",
-            "position": 3,
-            "form": 7,
-            "outgoingForm": 0,
-            "upgrade": 7,
-            "globalOwner": 0.7,
-            "fixture": "AVL A v IPS",
-            "score": 29.99,
-            "threat": false
-          },
-          {
-            "out": "Semenyo",
-            "in": "Okafor",
-            "outPrice": 8.1,
-            "inPrice": 5.8,
-            "club": "LEE",
-            "position": 3,
-            "form": 6.7,
-            "outgoingForm": 0,
-            "upgrade": 6.7,
-            "globalOwner": 1.9,
-            "fixture": "LEE H v COV",
-            "score": 29.98,
-            "threat": false
-          },
-          {
-            "out": "Semenyo",
+            "out": "Mbeumo",
             "in": "Rudoni",
-            "outPrice": 8.1,
+            "outPrice": 7.8,
             "inPrice": 5,
             "club": "COV",
             "position": 3,
-            "form": 7,
-            "outgoingForm": 0,
-            "upgrade": 7,
-            "globalOwner": 1.9,
-            "fixture": "COV A v LEE",
-            "score": 28.74,
+            "form": 5.2,
+            "outgoingForm": 1,
+            "upgrade": 4.2,
+            "globalOwner": 2.1,
+            "fixture": "COV H v IPS",
+            "score": 22.41,
             "threat": false
+          },
+          {
+            "out": "Mbeumo",
+            "in": "Rogers",
+            "outPrice": 7.8,
+            "inPrice": 8.3,
+            "club": "CHE",
+            "position": 3,
+            "form": 4.2,
+            "outgoingForm": 1,
+            "upgrade": 3.2,
+            "globalOwner": 54.7,
+            "fixture": "CHE H v CRY",
+            "score": 21.54,
+            "threat": true
           },
           {
             "out": "Martinez",
@@ -7662,73 +7829,55 @@
             "inPrice": 4.7,
             "club": "BHA",
             "position": 1,
-            "form": 6.3,
-            "outgoingForm": 0.3,
-            "upgrade": 6,
-            "globalOwner": 25.1,
-            "fixture": "BHA H v NEW",
-            "score": 27.67,
+            "form": 4.8,
+            "outgoingForm": 0.5,
+            "upgrade": 4.3,
+            "globalOwner": 25.7,
+            "fixture": "BHA A v BOU",
+            "score": 18.59,
             "threat": true
           },
           {
-            "out": "Semenyo",
-            "in": "Rogers",
-            "outPrice": 8.1,
-            "inPrice": 8.3,
-            "club": "CHE",
-            "position": 3,
-            "form": 5.3,
-            "outgoingForm": 0,
-            "upgrade": 5.3,
-            "globalOwner": 54.5,
-            "fixture": "CHE A v NFO",
-            "score": 26.92,
+            "out": "Guéhi",
+            "in": "De Cuyper",
+            "outPrice": 5.9,
+            "inPrice": 5.6,
+            "club": "BHA",
+            "position": 2,
+            "form": 4,
+            "outgoingForm": 0.5,
+            "upgrade": 3.5,
+            "globalOwner": 51.1,
+            "fixture": "BHA A v BOU",
+            "score": 18.26,
             "threat": true
           }
         ],
         "blockedTargets": [
           {
-            "in": "Palmer",
-            "position": 3,
-            "price": 9.8,
-            "maxPrice": 8.5,
-            "out": "Semenyo",
-            "globalOwner": 26.5,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          },
-          {
             "in": "Haaland",
             "position": 4,
             "price": 15.7,
-            "maxPrice": 9.8,
-            "out": "Isak",
-            "globalOwner": 76.2,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          },
-          {
-            "in": "B.Fernandes",
-            "position": 3,
-            "price": 11.6,
-            "maxPrice": 8.5,
-            "out": "Semenyo",
-            "globalOwner": 20.4,
+            "maxPrice": 7.6,
+            "out": "McBurnie",
+            "globalOwner": 75.5,
             "reason": "ราคาเกินงบของ transfer เดียว"
           }
         ],
-        "captain": "Cherki",
+        "captain": "Isak",
         "captainConfidence": "last_revealed",
-        "reason": "มีผู้เล่น status ไม่พร้อม 3 คน"
+        "reason": "มีผู้เล่น status ไม่พร้อม 1 คน"
       },
       "learning": {
         "forecastVsActual": [
           {
-            "targetEvent": 11,
+            "targetEvent": 12,
             "predictedAction": "likely_transfer",
-            "actualAction": "likely_roll",
-            "actionCorrect": false,
+            "actualAction": "likely_transfer",
+            "actionCorrect": true,
             "predictedCaptain": "Cherki",
-            "actualCaptain": "Cherki",
-            "captainCorrect": true
+            "actualCaptain": "Isak",
+            "captainCorrect": false
           }
         ],
         "modelVersion": "v1.2"
@@ -7741,14 +7890,14 @@
       "team": "Mr.Art",
       "total": 506,
       "current": {
-        "event": 11,
-        "points": 42,
-        "captain": "N.Jackson",
+        "event": 12,
+        "points": 0,
+        "captain": "Isak",
         "captainMultiplier": 2,
         "picks": [
           {
-            "name": "Raya",
-            "club": "ARS",
+            "name": "Tzolakis",
+            "club": "HUL",
             "flag": "XI"
           },
           {
@@ -7767,8 +7916,8 @@
             "flag": "XI"
           },
           {
-            "name": "Neto",
-            "club": "CHE",
+            "name": "Kluivert",
+            "club": "BOU",
             "flag": "XI"
           },
           {
@@ -7794,16 +7943,16 @@
           {
             "name": "N.Jackson",
             "club": "AVL",
-            "flag": "C"
+            "flag": "VC"
           },
           {
             "name": "Isak",
             "club": "LIV",
-            "flag": "VC"
+            "flag": "C"
           },
           {
-            "name": "Tzolakis",
-            "club": "HUL",
+            "name": "Raya",
+            "club": "ARS",
             "flag": "B"
           },
           {
@@ -7911,9 +8060,23 @@
           "transfers": 2,
           "hit": 4,
           "bench": 23
+        },
+        {
+          "event": 12,
+          "points": 0,
+          "rank": null,
+          "transfers": 1,
+          "hit": 0,
+          "bench": 0
         }
       ],
       "transfers": [
+        {
+          "event": 12,
+          "out": "Neto",
+          "in": "Kluivert",
+          "time": "2026-11-23T02:06:46.393267Z"
+        },
         {
           "event": 11,
           "out": "Hughes",
@@ -8298,12 +8461,12 @@
         }
       ],
       "profile": {
-        "transferRate": 91,
-        "avgMoves": 6,
-        "hitRate": 73,
-        "captainHaalandRate": 45,
+        "transferRate": 92,
+        "avgMoves": 5.55,
+        "hitRate": 67,
+        "captainHaalandRate": 42,
         "chipCountRecent": 0,
-        "sampleGWs": 11
+        "sampleGWs": 12
       },
       "simulated": {
         "action": "likely_transfer",
@@ -8317,12 +8480,12 @@
             "inPrice": 5.5,
             "club": "HUL",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 2,
-            "upgrade": 7,
-            "globalOwner": 2.2,
-            "fixture": "HUL A v CRY",
-            "score": 32.36,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 2.3,
+            "fixture": "HUL H v NFO",
+            "score": 24.52,
             "threat": false
           },
           {
@@ -8332,13 +8495,28 @@
             "inPrice": 5.7,
             "club": "EVE",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 2,
-            "upgrade": 7,
-            "globalOwner": 11.1,
-            "fixture": "EVE H v LIV",
-            "score": 30.48,
+            "form": 6.8,
+            "outgoingForm": 1.5,
+            "upgrade": 5.3,
+            "globalOwner": 10.8,
+            "fixture": "EVE A v AVL",
+            "score": 24.44,
             "threat": false
+          },
+          {
+            "out": "Bogle",
+            "in": "Van Hecke",
+            "outPrice": 4.8,
+            "inPrice": 5.2,
+            "club": "TOT",
+            "position": 2,
+            "form": 6.2,
+            "outgoingForm": 3,
+            "upgrade": 3.2,
+            "globalOwner": 21.5,
+            "fixture": "TOT H v FUL",
+            "score": 23.28,
+            "threat": true
           },
           {
             "out": "Haaland",
@@ -8347,57 +8525,42 @@
             "inPrice": 6.6,
             "club": "BOU",
             "position": 4,
-            "form": 8,
-            "outgoingForm": 2,
-            "upgrade": 6,
-            "globalOwner": 28,
-            "fixture": "BOU A v FUL",
-            "score": 29.4,
+            "form": 6,
+            "outgoingForm": 1.5,
+            "upgrade": 4.5,
+            "globalOwner": 28.7,
+            "fixture": "BOU H v BHA",
+            "score": 21.64,
             "threat": true
-          },
-          {
-            "out": "Neto",
-            "in": "E.Le Fée",
-            "outPrice": 6.6,
-            "inPrice": 5.7,
-            "club": "SUN",
-            "position": 3,
-            "form": 7.3,
-            "outgoingForm": 1.7,
-            "upgrade": 5.6,
-            "globalOwner": 3.1,
-            "fixture": "SUN H v TOT",
-            "score": 26,
-            "threat": false
           },
           {
             "out": "Calafiori",
-            "in": "Van Hecke",
+            "in": "Hill",
             "outPrice": 5.9,
-            "inPrice": 5.2,
-            "club": "TOT",
+            "inPrice": 5.7,
+            "club": "BOU",
             "position": 2,
-            "form": 8.3,
-            "outgoingForm": 4.3,
-            "upgrade": 4,
-            "globalOwner": 20.5,
-            "fixture": "TOT A v SUN",
-            "score": 25.91,
-            "threat": true
+            "form": 6,
+            "outgoingForm": 3.2,
+            "upgrade": 2.8,
+            "globalOwner": 5.3,
+            "fixture": "BOU H v BHA",
+            "score": 17.41,
+            "threat": false
           },
           {
-            "out": "Neto",
-            "in": "Alysson",
-            "outPrice": 6.6,
-            "inPrice": 4.9,
-            "club": "AVL",
+            "out": "Ayari",
+            "in": "Rudoni",
+            "outPrice": 5.5,
+            "inPrice": 5,
+            "club": "COV",
             "position": 3,
-            "form": 7,
-            "outgoingForm": 1.7,
-            "upgrade": 5.3,
-            "globalOwner": 0.7,
-            "fixture": "AVL A v IPS",
-            "score": 25.73,
+            "form": 5.2,
+            "outgoingForm": 4,
+            "upgrade": 1.2,
+            "globalOwner": 2.1,
+            "fixture": "COV H v IPS",
+            "score": 17.01,
             "threat": false
           },
           {
@@ -8407,12 +8570,12 @@
             "inPrice": 4.9,
             "club": "ARS",
             "position": 2,
-            "form": 6.3,
-            "outgoingForm": 4.3,
-            "upgrade": 2,
-            "globalOwner": 25,
-            "fixture": "ARS H v MCI",
-            "score": 17.59,
+            "form": 4.8,
+            "outgoingForm": 3.2,
+            "upgrade": 1.6,
+            "globalOwner": 25.1,
+            "fixture": "ARS A v BRE",
+            "score": 13.7,
             "threat": true
           },
           {
@@ -8422,12 +8585,12 @@
             "inPrice": 4.9,
             "club": "ARS",
             "position": 2,
-            "form": 6.3,
-            "outgoingForm": 5,
-            "upgrade": 1.3,
-            "globalOwner": 25,
-            "fixture": "ARS H v MCI",
-            "score": 16.33,
+            "form": 4.8,
+            "outgoingForm": 3.8,
+            "upgrade": 1,
+            "globalOwner": 25.1,
+            "fixture": "ARS A v BRE",
+            "score": 12.62,
             "threat": true
           }
         ],
@@ -8436,52 +8599,34 @@
             "in": "Rogers",
             "position": 3,
             "price": 8.3,
-            "maxPrice": 7.5,
+            "maxPrice": 8.1,
             "out": "Wirtz",
-            "globalOwner": 54.5,
+            "globalOwner": 54.7,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
             "in": "Palmer",
             "position": 3,
             "price": 9.8,
-            "maxPrice": 7.5,
+            "maxPrice": 8.1,
             "out": "Wirtz",
-            "globalOwner": 26.5,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          },
-          {
-            "in": "Cherki",
-            "position": 3,
-            "price": 7.8,
-            "maxPrice": 7.5,
-            "out": "Wirtz",
-            "globalOwner": 30.6,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          },
-          {
-            "in": "B.Fernandes",
-            "position": 3,
-            "price": 11.6,
-            "maxPrice": 7.5,
-            "out": "Wirtz",
-            "globalOwner": 20.4,
+            "globalOwner": 25.6,
             "reason": "ราคาเกินงบของ transfer เดียว"
           }
         ],
-        "captain": "N.Jackson",
+        "captain": "Isak",
         "captainConfidence": "last_revealed",
         "reason": "มีผู้เล่น status ไม่พร้อม 1 คน"
       },
       "learning": {
         "forecastVsActual": [
           {
-            "targetEvent": 11,
+            "targetEvent": 12,
             "predictedAction": "likely_transfer",
             "actualAction": "likely_transfer",
             "actionCorrect": true,
-            "predictedCaptain": "Haaland",
-            "actualCaptain": "N.Jackson",
+            "predictedCaptain": "N.Jackson",
+            "actualCaptain": "Isak",
             "captainCorrect": false
           }
         ],
@@ -8495,14 +8640,14 @@
       "team": "Talens10",
       "total": 371,
       "current": {
-        "event": 11,
-        "points": 33,
+        "event": 12,
+        "points": 0,
         "captain": "Haaland",
         "captainMultiplier": 2,
         "picks": [
           {
-            "name": "Raya",
-            "club": "ARS",
+            "name": "Tzolakis",
+            "club": "HUL",
             "flag": "XI"
           },
           {
@@ -8556,8 +8701,8 @@
             "flag": "C"
           },
           {
-            "name": "Tzolakis",
-            "club": "HUL",
+            "name": "Raya",
+            "club": "ARS",
             "flag": "B"
           },
           {
@@ -8571,8 +8716,8 @@
             "flag": "B"
           },
           {
-            "name": "Davis",
-            "club": "IPS",
+            "name": "Coyle",
+            "club": "HUL",
             "flag": "B"
           }
         ]
@@ -8665,9 +8810,23 @@
           "transfers": 2,
           "hit": 4,
           "bench": 13
+        },
+        {
+          "event": 12,
+          "points": 0,
+          "rank": null,
+          "transfers": 1,
+          "hit": 0,
+          "bench": 0
         }
       ],
       "transfers": [
+        {
+          "event": 12,
+          "out": "Davis",
+          "in": "Coyle",
+          "time": "2026-11-23T23:56:30.942529Z"
+        },
         {
           "event": 11,
           "out": "Egan",
@@ -8989,12 +9148,12 @@
       ],
       "chips": [],
       "profile": {
-        "transferRate": 91,
-        "avgMoves": 5.3,
-        "hitRate": 64,
-        "captainHaalandRate": 36,
+        "transferRate": 92,
+        "avgMoves": 4.91,
+        "hitRate": 58,
+        "captainHaalandRate": 42,
         "chipCountRecent": 0,
-        "sampleGWs": 11
+        "sampleGWs": 12
       },
       "simulated": {
         "action": "likely_transfer",
@@ -9008,57 +9167,12 @@
             "inPrice": 7.5,
             "club": "LIV",
             "position": 3,
-            "form": 9.7,
-            "outgoingForm": 1.3,
-            "upgrade": 8.4,
-            "globalOwner": 13.3,
-            "fixture": "LIV A v EVE",
-            "score": 37.29,
-            "threat": false
-          },
-          {
-            "out": "Mbeumo",
-            "in": "E.Le Fée",
-            "outPrice": 7.8,
-            "inPrice": 5.7,
-            "club": "SUN",
-            "position": 3,
-            "form": 7.3,
-            "outgoingForm": 1.3,
-            "upgrade": 6,
-            "globalOwner": 3.1,
-            "fixture": "SUN H v TOT",
-            "score": 26.72,
-            "threat": false
-          },
-          {
-            "out": "Mbeumo",
-            "in": "Alysson",
-            "outPrice": 7.8,
-            "inPrice": 4.9,
-            "club": "AVL",
-            "position": 3,
-            "form": 7,
-            "outgoingForm": 1.3,
-            "upgrade": 5.7,
-            "globalOwner": 0.7,
-            "fixture": "AVL A v IPS",
-            "score": 26.45,
-            "threat": false
-          },
-          {
-            "out": "Mbeumo",
-            "in": "Okafor",
-            "outPrice": 7.8,
-            "inPrice": 5.8,
-            "club": "LEE",
-            "position": 3,
-            "form": 6.7,
-            "outgoingForm": 1.3,
-            "upgrade": 5.4,
-            "globalOwner": 1.9,
-            "fixture": "LEE H v COV",
-            "score": 26.44,
+            "form": 7.2,
+            "outgoingForm": 1,
+            "upgrade": 6.2,
+            "globalOwner": 16.8,
+            "fixture": "LIV H v SUN",
+            "score": 28.97,
             "threat": false
           },
           {
@@ -9068,12 +9182,12 @@
             "inPrice": 5,
             "club": "COV",
             "position": 3,
-            "form": 7,
-            "outgoingForm": 1.3,
-            "upgrade": 5.7,
-            "globalOwner": 1.9,
-            "fixture": "COV A v LEE",
-            "score": 25.2,
+            "form": 5.2,
+            "outgoingForm": 1,
+            "upgrade": 4.2,
+            "globalOwner": 2.1,
+            "fixture": "COV H v IPS",
+            "score": 21.21,
             "threat": false
           },
           {
@@ -9083,13 +9197,58 @@
             "inPrice": 5.2,
             "club": "TOT",
             "position": 2,
-            "form": 8.3,
-            "outgoingForm": 4.7,
-            "upgrade": 3.6,
-            "globalOwner": 20.5,
-            "fixture": "TOT A v SUN",
-            "score": 25.19,
+            "form": 6.2,
+            "outgoingForm": 3.5,
+            "upgrade": 2.7,
+            "globalOwner": 21.5,
+            "fixture": "TOT H v FUL",
+            "score": 21.18,
             "threat": true
+          },
+          {
+            "out": "Mbeumo",
+            "in": "Alysson",
+            "outPrice": 7.8,
+            "inPrice": 4.9,
+            "club": "AVL",
+            "position": 3,
+            "form": 5.2,
+            "outgoingForm": 1,
+            "upgrade": 4.2,
+            "globalOwner": 0.8,
+            "fixture": "AVL H v EVE",
+            "score": 19.74,
+            "threat": false
+          },
+          {
+            "out": "Mbeumo",
+            "in": "E.Le Fée",
+            "outPrice": 7.8,
+            "inPrice": 5.7,
+            "club": "SUN",
+            "position": 3,
+            "form": 5.5,
+            "outgoingForm": 1,
+            "upgrade": 4.5,
+            "globalOwner": 3.1,
+            "fixture": "SUN A v LIV",
+            "score": 19.01,
+            "threat": false
+          },
+          {
+            "out": "Mbeumo",
+            "in": "Szoboszlai",
+            "outPrice": 7.8,
+            "inPrice": 6.7,
+            "club": "LIV",
+            "position": 3,
+            "form": 4.2,
+            "outgoingForm": 1,
+            "upgrade": 3.2,
+            "globalOwner": 14.4,
+            "fixture": "LIV H v SUN",
+            "score": 18.32,
+            "threat": false
           },
           {
             "out": "Raya",
@@ -9098,27 +9257,27 @@
             "inPrice": 4.7,
             "club": "BHA",
             "position": 1,
-            "form": 6.3,
-            "outgoingForm": 4,
-            "upgrade": 2.3,
-            "globalOwner": 25.1,
-            "fixture": "BHA H v NEW",
-            "score": 19.81,
+            "form": 4.8,
+            "outgoingForm": 3,
+            "upgrade": 1.8,
+            "globalOwner": 25.7,
+            "fixture": "BHA A v BOU",
+            "score": 15.29,
             "threat": true
           },
           {
-            "out": "Tzolakis",
-            "in": "Verbruggen",
-            "outPrice": 4.7,
-            "inPrice": 4.7,
-            "club": "BHA",
-            "position": 1,
-            "form": 6.3,
-            "outgoingForm": 5.7,
-            "upgrade": 0.6,
-            "globalOwner": 25.1,
-            "fixture": "BHA H v NEW",
-            "score": 17.95,
+            "out": "Mbeumo",
+            "in": "Cherki",
+            "outPrice": 7.8,
+            "inPrice": 7.8,
+            "club": "MCI",
+            "position": 3,
+            "form": 2.8,
+            "outgoingForm": 1,
+            "upgrade": 1.8,
+            "globalOwner": 29.2,
+            "fixture": "MCI H v LEE",
+            "score": 12.76,
             "threat": true
           }
         ],
@@ -9129,7 +9288,7 @@
             "price": 7.3,
             "maxPrice": 6.6,
             "out": "Evanilson",
-            "globalOwner": 36.9,
+            "globalOwner": 37.3,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -9138,7 +9297,7 @@
             "price": 8.3,
             "maxPrice": 7.8,
             "out": "Mbeumo",
-            "globalOwner": 54.5,
+            "globalOwner": 54.7,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -9147,7 +9306,7 @@
             "price": 9.8,
             "maxPrice": 7.8,
             "out": "Mbeumo",
-            "globalOwner": 26.5,
+            "globalOwner": 25.6,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -9156,27 +9315,18 @@
             "price": 9.4,
             "maxPrice": 6.6,
             "out": "Evanilson",
-            "globalOwner": 28.2,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          },
-          {
-            "in": "B.Fernandes",
-            "position": 3,
-            "price": 11.6,
-            "maxPrice": 7.8,
-            "out": "Mbeumo",
-            "globalOwner": 20.4,
+            "globalOwner": 29.2,
             "reason": "ราคาเกินงบของ transfer เดียว"
           }
         ],
         "captain": "Haaland",
         "captainConfidence": "last_revealed",
-        "reason": "มีผู้เล่น status ไม่พร้อม 2 คน"
+        "reason": "มีผู้เล่น status ไม่พร้อม 1 คน"
       },
       "learning": {
         "forecastVsActual": [
           {
-            "targetEvent": 11,
+            "targetEvent": 12,
             "predictedAction": "likely_transfer",
             "actualAction": "likely_transfer",
             "actionCorrect": true,
@@ -9193,12 +9343,12 @@
       "rank": 18,
       "name": "Sweetzer level",
       "team": "Sweetzer's Team",
-      "total": 223,
+      "total": 225,
       "current": {
-        "event": 11,
-        "points": 29,
+        "event": 12,
+        "points": 0,
         "captain": "João Pedro",
-        "captainMultiplier": 0,
+        "captainMultiplier": 2,
         "picks": [
           {
             "name": "Verbruggen",
@@ -9246,13 +9396,13 @@
             "flag": "XI"
           },
           {
-            "name": "Groß",
-            "club": "BHA",
-            "flag": "XI"
+            "name": "João Pedro",
+            "club": "CHE",
+            "flag": "C"
           },
           {
-            "name": "Isak",
-            "club": "LIV",
+            "name": "Thiago",
+            "club": "BRE",
             "flag": "XI"
           },
           {
@@ -9266,13 +9416,13 @@
             "flag": "B"
           },
           {
-            "name": "João Pedro",
-            "club": "CHE",
-            "flag": "C"
+            "name": "Groß",
+            "club": "BHA",
+            "flag": "B"
           },
           {
-            "name": "Thiago",
-            "club": "BRE",
+            "name": "Isak",
+            "club": "LIV",
             "flag": "B"
           }
         ]
@@ -9317,6 +9467,14 @@
           "transfers": 0,
           "hit": 0,
           "bench": 2
+        },
+        {
+          "event": 12,
+          "points": 0,
+          "rank": null,
+          "transfers": 0,
+          "hit": 0,
+          "bench": 0
         }
       ],
       "transfers": [],
@@ -9327,11 +9485,11 @@
         "hitRate": 0,
         "captainHaalandRate": 0,
         "chipCountRecent": 0,
-        "sampleGWs": 5
+        "sampleGWs": 6
       },
       "simulated": {
         "action": "likely_transfer",
-        "confidence": "low",
+        "confidence": "medium",
         "transferPressure": 60,
         "candidates": [
           {
@@ -9341,12 +9499,12 @@
             "inPrice": 7.5,
             "club": "LIV",
             "position": 3,
-            "form": 9.7,
-            "outgoingForm": 1.3,
-            "upgrade": 8.4,
-            "globalOwner": 13.3,
-            "fixture": "LIV A v EVE",
-            "score": 37.29,
+            "form": 7.2,
+            "outgoingForm": 1,
+            "upgrade": 6.2,
+            "globalOwner": 16.8,
+            "fixture": "LIV H v SUN",
+            "score": 28.97,
             "threat": false
           },
           {
@@ -9356,12 +9514,12 @@
             "inPrice": 5.2,
             "club": "TOT",
             "position": 2,
-            "form": 8.3,
+            "form": 6.2,
             "outgoingForm": 0,
-            "upgrade": 8.3,
-            "globalOwner": 20.5,
-            "fixture": "TOT A v SUN",
-            "score": 34.85,
+            "upgrade": 6.2,
+            "globalOwner": 21.5,
+            "fixture": "TOT H v FUL",
+            "score": 28.68,
             "threat": true
           },
           {
@@ -9371,12 +9529,12 @@
             "inPrice": 5.5,
             "club": "HUL",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 2.3,
-            "upgrade": 6.7,
-            "globalOwner": 2.2,
-            "fixture": "HUL A v CRY",
-            "score": 33.02,
+            "form": 6.8,
+            "outgoingForm": 1.8,
+            "upgrade": 5,
+            "globalOwner": 2.3,
+            "fixture": "HUL H v NFO",
+            "score": 23.98,
             "threat": false
           },
           {
@@ -9386,28 +9544,28 @@
             "inPrice": 5.7,
             "club": "EVE",
             "position": 4,
-            "form": 9,
-            "outgoingForm": 2.3,
-            "upgrade": 6.7,
-            "globalOwner": 11.1,
-            "fixture": "EVE H v LIV",
-            "score": 31.14,
+            "form": 6.8,
+            "outgoingForm": 1.8,
+            "upgrade": 5,
+            "globalOwner": 10.8,
+            "fixture": "EVE A v AVL",
+            "score": 23.9,
             "threat": false
           },
           {
-            "out": "Thiago",
-            "in": "Evanilson",
-            "outPrice": 7.7,
-            "inPrice": 6.6,
-            "club": "BOU",
-            "position": 4,
-            "form": 8,
-            "outgoingForm": 2.3,
-            "upgrade": 5.7,
-            "globalOwner": 28,
-            "fixture": "BOU A v FUL",
-            "score": 30.06,
-            "threat": true
+            "out": "Mbeumo",
+            "in": "Rudoni",
+            "outPrice": 7.8,
+            "inPrice": 5,
+            "club": "COV",
+            "position": 3,
+            "form": 5.2,
+            "outgoingForm": 1,
+            "upgrade": 4.2,
+            "globalOwner": 2.1,
+            "fixture": "COV H v IPS",
+            "score": 21.21,
+            "threat": false
           },
           {
             "out": "Thiago",
@@ -9416,12 +9574,27 @@
             "inPrice": 7.3,
             "club": "AVL",
             "position": 4,
-            "form": 7.3,
-            "outgoingForm": 2.3,
-            "upgrade": 5,
-            "globalOwner": 36.9,
-            "fixture": "AVL A v IPS",
-            "score": 29.2,
+            "form": 5.5,
+            "outgoingForm": 1.8,
+            "upgrade": 3.7,
+            "globalOwner": 37.3,
+            "fixture": "AVL H v EVE",
+            "score": 21.18,
+            "threat": true
+          },
+          {
+            "out": "Thiago",
+            "in": "Evanilson",
+            "outPrice": 7.7,
+            "inPrice": 6.6,
+            "club": "BOU",
+            "position": 4,
+            "form": 6,
+            "outgoingForm": 1.8,
+            "upgrade": 4.2,
+            "globalOwner": 28.7,
+            "fixture": "BOU H v BHA",
+            "score": 21.1,
             "threat": true
           },
           {
@@ -9431,27 +9604,12 @@
             "inPrice": 4.9,
             "club": "ARS",
             "position": 2,
-            "form": 6.3,
+            "form": 4.8,
             "outgoingForm": 0,
-            "upgrade": 6.3,
-            "globalOwner": 25,
-            "fixture": "ARS H v MCI",
-            "score": 26.53,
-            "threat": true
-          },
-          {
-            "out": "Hall",
-            "in": "Konsa",
-            "outPrice": 5.2,
-            "inPrice": 4.9,
-            "club": "ARS",
-            "position": 2,
-            "form": 6.3,
-            "outgoingForm": 2.3,
-            "upgrade": 4,
-            "globalOwner": 25,
-            "fixture": "ARS H v MCI",
-            "score": 21.19,
+            "upgrade": 4.8,
+            "globalOwner": 25.1,
+            "fixture": "ARS A v BRE",
+            "score": 20.66,
             "threat": true
           }
         ],
@@ -9462,7 +9620,7 @@
             "price": 8.1,
             "maxPrice": 7,
             "out": "Calafiori",
-            "globalOwner": 26.9,
+            "globalOwner": 27,
             "reason": "ราคาเกินงบของ transfer เดียว"
           },
           {
@@ -9471,16 +9629,7 @@
             "price": 15.7,
             "maxPrice": 10.5,
             "out": "Isak",
-            "globalOwner": 76.2,
-            "reason": "ราคาเกินงบของ transfer เดียว"
-          },
-          {
-            "in": "B.Fernandes",
-            "position": 3,
-            "price": 11.6,
-            "maxPrice": 10.9,
-            "out": "Palmer",
-            "globalOwner": 20.4,
+            "globalOwner": 75.5,
             "reason": "ราคาเกินงบของ transfer เดียว"
           }
         ],
@@ -9491,10 +9640,10 @@
       "learning": {
         "forecastVsActual": [
           {
-            "targetEvent": 11,
-            "predictedAction": "likely_roll",
+            "targetEvent": 12,
+            "predictedAction": "likely_transfer",
             "actualAction": "likely_roll",
-            "actionCorrect": true,
+            "actionCorrect": false,
             "predictedCaptain": "João Pedro",
             "actualCaptain": "João Pedro",
             "captainCorrect": true
