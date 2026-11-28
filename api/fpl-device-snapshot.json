@@ -1,18 +1,18 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "updated_at_th": "2026-11-27T18:49:12.013+07:00",
-  "generated_at": "2026-11-27T11:49:12.013Z",
-  "gameweek": 11,
-  "deadline_th": "2026-11-21T18:00:00.000+07:00",
-  "deadline_utc": "2026-11-21T11:00:00Z",
-  "status": "final",
+  "updated_at_th": "2026-11-28T10:06:38.824+07:00",
+  "generated_at": "2026-11-28T03:06:38.824Z",
+  "gameweek": 12,
+  "deadline_th": "2026-11-28T01:30:00.000+07:00",
+  "deadline_utc": "2026-11-27T18:30:00Z",
+  "status": "provisional",
   "team": {
     "name": "Yedtsuna",
     "entry_id": 3944270,
     "rank": 2,
     "points": 717,
-    "gw_points": 35,
-    "money_in_bank": "£0.4m",
+    "gw_points": 0,
+    "money_in_bank": "£0.5m",
     "confidence": null,
     "risk_level": "not_assessed"
   },
@@ -21,7 +21,7 @@
     {
       "name": "Verbruggen",
       "club": "Brighton",
-      "fixture": "HUL (A)",
+      "fixture": "NEW (H)",
       "kit": null,
       "captain": false,
       "vice_captain": false
@@ -29,15 +29,15 @@
     {
       "name": "Gabriel",
       "club": "Arsenal",
-      "fixture": "NEW (A)",
+      "fixture": "MCI (H)",
       "kit": null,
       "captain": false,
       "vice_captain": false
     },
     {
-      "name": "Calafiori",
-      "club": "Arsenal",
-      "fixture": "NEW (A)",
+      "name": "Bogle",
+      "club": "Leeds",
+      "fixture": "COV (H)",
       "kit": null,
       "captain": false,
       "vice_captain": false
@@ -45,15 +45,15 @@
     {
       "name": "De Cuyper",
       "club": "Brighton",
-      "fixture": "HUL (A)",
+      "fixture": "NEW (H)",
       "kit": null,
       "captain": false,
-      "vice_captain": false
+      "vice_captain": true
     },
     {
-      "name": "Cherki",
-      "club": "Man City",
-      "fixture": "FUL (H)",
+      "name": "Wirtz",
+      "club": "Liverpool",
+      "fixture": "EVE (A)",
       "kit": null,
       "captain": false,
       "vice_captain": false
@@ -61,7 +61,7 @@
     {
       "name": "Groß",
       "club": "Brighton",
-      "fixture": "HUL (A)",
+      "fixture": "NEW (H)",
       "kit": null,
       "captain": false,
       "vice_captain": false
@@ -69,15 +69,15 @@
     {
       "name": "Tavernier",
       "club": "Bournemouth",
-      "fixture": "NFO (H)",
+      "fixture": "FUL (A)",
       "kit": null,
       "captain": false,
       "vice_captain": false
     },
     {
-      "name": "Rogers",
-      "club": "Chelsea",
-      "fixture": "LEE (H)",
+      "name": "Mbeumo",
+      "club": "Man Utd",
+      "fixture": "BRE (H)",
       "kit": null,
       "captain": false,
       "vice_captain": false
@@ -85,51 +85,51 @@
     {
       "name": "Haaland",
       "club": "Man City",
-      "fixture": "FUL (H)",
+      "fixture": "ARS (A)",
       "kit": null,
-      "captain": true,
+      "captain": false,
       "vice_captain": false
     },
     {
       "name": "Evanilson",
       "club": "Bournemouth",
-      "fixture": "NFO (H)",
+      "fixture": "FUL (A)",
       "kit": null,
       "captain": false,
-      "vice_captain": true
+      "vice_captain": false
     },
     {
       "name": "N.Jackson",
       "club": "Aston Villa",
-      "fixture": "SUN (H)",
+      "fixture": "IPS (A)",
       "kit": null,
-      "captain": false,
+      "captain": true,
       "vice_captain": false
     }
   ],
   "bench": [
     "Dubravka",
-    "Mbeumo",
-    "Bogle",
+    "Rogers",
+    "Calafiori",
     "Diop"
   ],
-  "captain": "Haaland",
-  "vice_captain": "Evanilson",
+  "captain": "N.Jackson",
+  "vice_captain": "De Cuyper",
   "mini_league": {
     "id": 872362,
     "name": "AFC Premier",
     "leader": {
       "team": "ช่วยใจดีกับลุงหน่อย",
       "manager": "Palm Xavier",
-      "points": 749,
-      "captain": "Haaland"
+      "points": 751,
+      "captain": "Isak"
     },
     "top": [
       {
         "rank": 1,
         "team": "ช่วยใจดีกับลุงหน่อย",
-        "points": 749,
-        "captain": "Haaland",
+        "points": 751,
+        "captain": "Isak",
         "chips": [
           "bboost",
           "3xc",
@@ -140,7 +140,7 @@
         "rank": 2,
         "team": "Yedtsuna",
         "points": 717,
-        "captain": "Haaland",
+        "captain": "N.Jackson",
         "chips": [
           "3xc"
         ]
@@ -148,8 +148,8 @@
       {
         "rank": 3,
         "team": "GrossProfit United",
-        "points": 689,
-        "captain": "De Cuyper",
+        "points": 691,
+        "captain": "N.Jackson",
         "chips": [
           "bboost",
           "wildcard",
@@ -158,9 +158,21 @@
       },
       {
         "rank": 4,
-        "team": "tamako-",
+        "team": "Runner Up FC",
         "points": 667,
-        "captain": "Haaland",
+        "captain": "Isak",
+        "chips": [
+          "bboost",
+          "3xc",
+          "freehit",
+          "wildcard"
+        ]
+      },
+      {
+        "rank": 5,
+        "team": "tamako-",
+        "points": 665,
+        "captain": "Isak",
         "chips": [
           "bboost",
           "freehit",
@@ -169,22 +181,10 @@
         ]
       },
       {
-        "rank": 5,
-        "team": "Runner Up FC",
-        "points": 665,
-        "captain": "N.Jackson",
-        "chips": [
-          "bboost",
-          "3xc",
-          "freehit",
-          "wildcard"
-        ]
-      },
-      {
         "rank": 6,
         "team": "KC888",
-        "points": 655,
-        "captain": "Haaland",
+        "points": 657,
+        "captain": "Evanilson",
         "chips": [
           "3xc",
           "wildcard"
@@ -193,21 +193,21 @@
       {
         "rank": 7,
         "team": "RelegationBattle",
-        "points": 652,
-        "captain": "Haaland",
+        "points": 654,
+        "captain": "Isak",
         "chips": [
           "bboost"
         ]
       },
       {
         "rank": 8,
-        "team": "SilverBank",
-        "points": 649,
+        "team": "Bombadoo FC.",
+        "points": 653,
         "captain": "Isak",
         "chips": [
-          "3xc",
-          "wildcard",
-          "bboost"
+          "bboost",
+          "freehit",
+          "wildcard"
         ]
       }
     ]

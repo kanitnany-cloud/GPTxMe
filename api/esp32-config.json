@@ -1,7 +1,7 @@
 {
   "project": "AI x Kanitnan FPL Quest",
-  "version": "2026.11-gw11",
-  "updated_at_th": "27/11/2569 18:49:12",
+  "version": "2026.11-gw12",
+  "updated_at_th": "28/11/2569 10:06:38",
   "device_target": {
     "board": "ESP32-S3",
     "display": "3.5 inch TFT",
@@ -25,7 +25,7 @@
     "premier_league_fixtures": "https://www.premierleague.com/en/fixtures",
     "device_live": "https://kanitnany-cloud.github.io/GPTxMe/api/fpl-device-live.json",
     "device_lite": "https://kanitnany-cloud.github.io/GPTxMe/api/fpl-device-lite.json",
-    "current_dashboard": "https://kanitnany-cloud.github.io/GPTxMe/mini-league/mini-league-intel-gw11.html"
+    "current_dashboard": "https://kanitnany-cloud.github.io/GPTxMe/mini-league/mini-league-intel-gw12.html"
   },
   "screens": [
     {
@@ -103,5 +103,5 @@
     "ESP32 is not affected by browser CORS, but HTTPS memory/certificate handling must be implemented carefully.",
     "Premier League Stats is included as an official reference page; if machine-readable stats are needed later, add a free local scraper or a no-cost hosted proxy only after approval."
   ],
-  "gameweek": 11
+  "gameweek": 12
 }
